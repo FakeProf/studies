@@ -708,7 +708,9 @@ function startRound(){
 }
 
 function prepState(q){
-  if(q.typ==="mc")    return { pick:new Set(), done:false };
+  // Die Optionen werden pro Durchgang gemischt; `pick` und `loesung`
+  // arbeiten weiter mit den Original-Indizes aus fragen.json.
+  if(q.typ==="mc")    return { order:shuffle(q.optionen.map((_,i)=>i)), pick:new Set(), done:false };
   if(q.typ==="flash") return { shown:false, done:false };
   if(q.typ==="order") return { pool:shuffle(q.items.map((t,i)=>({t,i}))), seq:[], done:false };
   if(q.typ==="match") return { bank:shuffle(q.paare.map((p,i)=>({t:p[1],i}))), slots:new Array(q.paare.length).fill(null), sel:null, done:false };
@@ -756,15 +758,16 @@ function drawBody(q, st){
   const dis = st.done ? "disabled" : "";
 
   if(q.typ==="mc"){
-    b.innerHTML = `<div class="opts">${q.optionen.map((o,i)=>{
+    b.innerHTML = `<div class="opts">${st.order.map((i,pos)=>{
+      const buchstabe = String.fromCharCode(65+pos);
       let cls="opt";
       if(st.done){
         const correct = q.loesung.includes(i), chosen = st.pick.has(i);
         if(correct) cls+=" right"; else if(chosen) cls+=" wrong";
       }
       return `<button class="${cls}" ${dis} data-i="${i}" aria-pressed="${st.pick.has(i)}">
-        <span class="mk">${st.done ? (q.loesung.includes(i)?"✓":(st.pick.has(i)?"✕":String.fromCharCode(65+i))) : String.fromCharCode(65+i)}</span>
-        <span>${esc(o)}</span></button>`;
+        <span class="mk">${st.done ? (q.loesung.includes(i)?"✓":(st.pick.has(i)?"✕":buchstabe)) : buchstabe}</span>
+        <span>${esc(q.optionen[i])}</span></button>`;
     }).join("")}</div>
     ${st.done?"":`<div class="qfoot"><button class="btn" id="check" ${st.pick.size?"":"disabled"}>Prüfen</button>
       <span class="muted" style="font-size:13px">${q.loesung.length>1?`${q.loesung.length} Antworten auswählen`:"Eine Antwort auswählen"}</span></div>`}`;

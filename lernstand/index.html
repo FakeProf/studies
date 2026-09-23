@@ -1,0 +1,1001 @@
+<title>Lernstand HS2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#EFF2F1; --surface:#FBFCFC; --surface-2:#E4E9E8; --surface-3:#DAE1DF;
+  --ink:#15201E; --ink-2:#31403D; --muted:#5C6B68; --line:#D1D9D7; --line-strong:#B6C2BF;
+  --accent:#13564E; --accent-ink:#FFFFFF; --accent-soft:#D6E7E3; --accent-line:#8FBDB5;
+  --ok:#236B43; --ok-soft:#DCEEE3; --ok-line:#8CC3A5;
+  --bad:#A23117; --bad-soft:#F7E2DB; --bad-line:#DFA48F;
+  --warn:#8A6012; --warn-soft:#F6EAD2;
+  --m-OGPM:#13564E; --m-GENE:#855611; --m-SYMG:#553A89; --m-VHRE:#96303E; --m-WSA1:#1C4B82;
+  --shadow:0 1px 2px rgba(20,32,30,.06), 0 6px 20px -12px rgba(20,32,30,.28);
+  --r:10px;
+  --f-display:"Familjen Grotesk","Segoe UI",system-ui,sans-serif;
+  --f-body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"Cascadia Mono",Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0F1514; --surface:#18201E; --surface-2:#212B29; --surface-3:#2A3634;
+    --ink:#E7EDEA; --ink-2:#C4CFCC; --muted:#8FA09C; --line:#2A3634; --line-strong:#3B4947;
+    --accent:#57C8B5; --accent-ink:#08201D; --accent-soft:#183230; --accent-line:#2E5A55;
+    --ok:#5BC286; --ok-soft:#142E1E; --ok-line:#2E5D3F;
+    --bad:#F08A6E; --bad-soft:#331B14; --bad-line:#6A3626;
+    --warn:#DCA94E; --warn-soft:#2E2413;
+    --m-OGPM:#57C8B5; --m-GENE:#D8A64C; --m-SYMG:#A992E2; --m-VHRE:#E98292; --m-WSA1:#76B0E9;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -14px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0F1514; --surface:#18201E; --surface-2:#212B29; --surface-3:#2A3634;
+  --ink:#E7EDEA; --ink-2:#C4CFCC; --muted:#8FA09C; --line:#2A3634; --line-strong:#3B4947;
+  --accent:#57C8B5; --accent-ink:#08201D; --accent-soft:#183230; --accent-line:#2E5A55;
+  --ok:#5BC286; --ok-soft:#142E1E; --ok-line:#2E5D3F;
+  --bad:#F08A6E; --bad-soft:#331B14; --bad-line:#6A3626;
+  --warn:#DCA94E; --warn-soft:#2E2413;
+  --m-OGPM:#57C8B5; --m-GENE:#D8A64C; --m-SYMG:#A992E2; --m-VHRE:#E98292; --m-WSA1:#76B0E9;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -14px rgba(0,0,0,.8);
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--bg); color:var(--ink);
+  font-family:var(--f-body); font-size:16px; line-height:1.55;
+  margin:0; -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{font-family:var(--f-display); font-weight:600; line-height:1.2; text-wrap:balance; margin:0}
+p{margin:0}
+button{font:inherit; color:inherit; cursor:pointer; background:none; border:none}
+:focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:4px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
+
+.wrap{max-width:1080px; margin:0 auto; padding-inline:16px; padding-block:0 56px}
+
+/* ---- Kopfzeile ---- */
+.top{
+  position:sticky; top:env(safe-area-inset-top,0px); z-index:20;
+  background:color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.top-in{max-width:1080px; margin:0 auto; padding-inline:16px; padding-block:12px;
+  display:flex; align-items:baseline; gap:12px; flex-wrap:wrap}
+.brand{font-family:var(--f-display); font-weight:700; font-size:18px; letter-spacing:-.01em}
+.brand span{color:var(--accent)}
+.top-meta{font-family:var(--f-mono); font-size:11px; color:var(--muted);
+  letter-spacing:.06em; text-transform:uppercase; margin-left:auto; font-variant-numeric:tabular-nums}
+.sync{display:inline-flex; align-items:center; gap:5px}
+.dot{width:6px; height:6px; border-radius:50%; background:var(--line-strong); flex:none}
+.dot.on{background:var(--ok)}
+
+/* ---- Typo-Bausteine ---- */
+.eyebrow{font-family:var(--f-mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--muted); font-weight:500}
+.mono{font-family:var(--f-mono); font-variant-numeric:tabular-nums}
+.sans{font-family:var(--f-display)}
+.muted{color:var(--muted)}
+
+/* ---- Karten ---- */
+.card{background:var(--surface); border:1px solid var(--line); border-radius:var(--r)}
+
+/* ---- Dashboard Kopf ---- */
+.hero{display:flex; gap:28px; align-items:flex-end; flex-wrap:wrap; padding-block:28px 22px}
+.hero h1{font-size:clamp(26px,5vw,36px); letter-spacing:-.02em}
+.hero .lede{font-size:15px; color:var(--muted); max-width:46ch; margin-top:6px}
+.herostart{display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-top:16px}
+.herostart .pool{max-width:38ch}
+.kpis{display:flex; gap:26px; flex-wrap:wrap; margin-left:auto}
+.kpi{min-width:72px}
+.kpi b{display:block; font-family:var(--f-display); font-size:30px; font-weight:600;
+  letter-spacing:-.02em; font-variant-numeric:tabular-nums; line-height:1.05}
+.kpi .eyebrow{margin-top:2px; display:block}
+
+/* ---- Modulraster ---- */
+.grid-mod{display:grid; grid-template-columns:repeat(auto-fit,minmax(178px,1fr)); gap:10px; margin-top:4px}
+.modcard{padding:13px 14px 12px; text-align:left; display:block; width:100%;
+  border-radius:var(--r); border:1px solid var(--line); background:var(--surface);
+  transition:border-color .12s, transform .12s}
+.modcard:hover{border-color:var(--line-strong); transform:translateY(-1px)}
+.modcard.sel{border-color:var(--mc); box-shadow:inset 0 0 0 1px var(--mc)}
+.modcard .code{font-family:var(--f-mono); font-weight:600; font-size:14px; letter-spacing:.06em; color:var(--mc)}
+.modcard .sub{font-family:var(--f-display); font-size:12px; color:var(--muted); margin-top:1px;
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.meter{height:5px; border-radius:3px; background:var(--surface-3); margin-top:10px; overflow:hidden; display:flex}
+.meter i{display:block; height:100%}
+.meter i.a{background:var(--mc)}
+.meter i.b{background:var(--bad); opacity:.55}
+.modcard .nums{display:flex; justify-content:space-between; margin-top:7px;
+  font-family:var(--f-mono); font-size:11px; color:var(--muted); font-variant-numeric:tabular-nums}
+
+/* ---- Abschnitte ---- */
+section{margin-top:30px}
+.sec-head{display:flex; align-items:baseline; gap:10px; margin-bottom:10px; flex-wrap:wrap}
+.sec-head h2{font-size:15px; letter-spacing:.005em}
+.sec-head .hint{font-size:12px; color:var(--muted); font-family:var(--f-display)}
+
+/* ---- Filterleiste ---- */
+.panel{padding:16px}
+.frow{display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-bottom:12px}
+.frow:last-of-type{margin-bottom:0}
+.flabel{font-family:var(--f-mono); font-size:11px; letter-spacing:.08em; text-transform:uppercase;
+  color:var(--muted); width:82px; flex:none}
+@media (max-width:560px){ .flabel{width:100%} }
+.chip{
+  font-family:var(--f-display); font-size:12.5px; font-weight:500;
+  padding:5px 11px; border-radius:100px; border:1px solid var(--line-strong);
+  color:var(--ink-2); background:var(--surface); transition:background .12s,border-color .12s,color .12s;
+}
+.chip:hover{border-color:var(--ink-2)}
+.chip[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:var(--accent-ink)}
+.chip.mod[aria-pressed="true"]{background:var(--mc); border-color:var(--mc); color:var(--surface)}
+:root[data-theme="dark"] .chip.mod[aria-pressed="true"],
+:root:not([data-theme="light"]) .chip.mod[aria-pressed="true"]{color:#0F1514}
+.chip .n{font-family:var(--f-mono); font-size:11px; opacity:.72; margin-left:5px; font-variant-numeric:tabular-nums}
+
+.startbar{display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin-top:16px;
+  padding-top:14px; border-top:1px solid var(--line)}
+.btn{
+  font-family:var(--f-display); font-weight:600; font-size:14px;
+  padding:10px 18px; border-radius:8px; border:1px solid var(--accent);
+  background:var(--accent); color:var(--accent-ink); transition:filter .12s
+}
+.btn:hover{filter:brightness(1.08)}
+.btn:disabled{opacity:.45; cursor:not-allowed; filter:none}
+.btn.ghost{background:transparent; color:var(--ink); border-color:var(--line-strong)}
+.btn.ghost:hover{border-color:var(--ink-2); filter:none}
+.btn.sm{padding:7px 13px; font-size:13px}
+.pool{font-family:var(--f-mono); font-size:12px; color:var(--muted); font-variant-numeric:tabular-nums}
+
+/* ---- Lernziel-Liste ---- */
+.goals{display:flex; flex-direction:column; gap:1px; background:var(--line); border:1px solid var(--line);
+  border-radius:var(--r); overflow:hidden}
+.goal{display:flex; align-items:center; gap:12px; padding:11px 14px; background:var(--surface);
+  text-align:left; width:100%; transition:background .12s}
+.goal:hover{background:var(--surface-2)}
+.goal .tag{font-family:var(--f-mono); font-size:10.5px; font-weight:600; letter-spacing:.06em;
+  color:var(--mc); width:42px; flex:none}
+.goal .txt{flex:1; font-size:14px; line-height:1.35; font-family:var(--f-display); min-width:0}
+.goal .bar{width:84px; height:5px; border-radius:3px; background:var(--surface-3); flex:none; overflow:hidden}
+.goal .bar i{display:block; height:100%; background:var(--gc,var(--accent))}
+.goal .pct{font-family:var(--f-mono); font-size:12px; width:46px; text-align:right; flex:none;
+  font-variant-numeric:tabular-nums; color:var(--gc,var(--muted)); font-weight:500}
+@media (max-width:560px){
+  .goal{flex-wrap:wrap}
+  .goal .txt{flex-basis:100%; order:3}
+  .goal .bar{margin-left:auto}
+}
+
+/* ---- Verlauf ---- */
+.runs{display:flex; flex-direction:column; gap:1px; background:var(--line);
+  border:1px solid var(--line); border-radius:var(--r); overflow:hidden}
+.run{display:flex; align-items:baseline; gap:12px; padding:10px 14px; background:var(--surface);
+  font-family:var(--f-mono); font-size:12px; font-variant-numeric:tabular-nums; flex-wrap:wrap}
+.run .when{color:var(--muted); width:104px; flex:none}
+.run .scope{font-family:var(--f-display); font-size:13px; color:var(--ink-2); flex:1; min-width:120px}
+.run .score{font-weight:600}
+
+.empty{padding:26px 16px; text-align:center; color:var(--muted); font-size:14px;
+  border:1px dashed var(--line-strong); border-radius:var(--r)}
+
+.backup{border:1px solid var(--line); border-radius:var(--r); background:var(--surface); padding:12px 16px}
+.backup summary{font-family:var(--f-display); font-size:14px; font-weight:500; cursor:pointer; color:var(--ink-2)}
+.backup summary:hover{color:var(--ink)}
+.backup textarea{width:100%; margin-top:10px; padding:10px 12px; border-radius:8px;
+  border:1px solid var(--line-strong); background:var(--surface-2); color:var(--ink);
+  font-family:var(--f-mono); font-size:11.5px; line-height:1.5; resize:vertical}
+
+/* ---- Quiz ---- */
+.qwrap{max-width:720px; margin:0 auto; padding-block:22px 40px}
+.qprog{display:flex; align-items:center; gap:12px; margin-bottom:18px; flex-wrap:wrap}
+.qprog .rail{flex:1; min-width:120px; height:3px; background:var(--surface-3); border-radius:2px; overflow:hidden}
+.qprog .rail i{display:block; height:100%; background:var(--accent); transition:width .25s}
+.qcard{padding:22px 22px 20px; box-shadow:var(--shadow)}
+@media (max-width:560px){ .qcard{padding:18px 15px 16px} }
+.qmeta{display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-bottom:14px}
+.badge{font-family:var(--f-mono); font-size:10.5px; font-weight:600; letter-spacing:.07em;
+  text-transform:uppercase; padding:3px 7px; border-radius:4px;
+  background:var(--surface-2); color:var(--muted)}
+.badge.mod{background:transparent; color:var(--mc); border:1px solid currentColor}
+.qziel{font-family:var(--f-display); font-size:12.5px; color:var(--muted); margin-bottom:14px;
+  padding-left:10px; border-left:2px solid var(--accent-line)}
+.qtext{font-size:19px; line-height:1.45; margin-bottom:18px; text-wrap:pretty}
+@media (max-width:560px){ .qtext{font-size:17.5px} }
+
+.opts{display:flex; flex-direction:column; gap:8px}
+.opt{
+  display:flex; gap:11px; align-items:flex-start; text-align:left; width:100%;
+  padding:11px 13px; border:1px solid var(--line-strong); border-radius:8px;
+  background:var(--surface); font-size:15px; line-height:1.4; transition:border-color .12s, background .12s
+}
+.opt:hover:not(:disabled){border-color:var(--ink-2)}
+.opt .mk{font-family:var(--f-mono); font-size:12px; font-weight:600; width:18px; flex:none;
+  color:var(--muted); padding-top:2px}
+.opt[aria-pressed="true"]{border-color:var(--accent); background:var(--accent-soft)}
+.opt[aria-pressed="true"] .mk{color:var(--accent)}
+.opt.right{border-color:var(--ok-line); background:var(--ok-soft)}
+.opt.right .mk{color:var(--ok)}
+.opt.wrong{border-color:var(--bad-line); background:var(--bad-soft)}
+.opt.wrong .mk{color:var(--bad)}
+.opt:disabled{cursor:default}
+
+/* Zuordnung */
+.match{display:flex; flex-direction:column; gap:8px}
+.mrow{display:flex; gap:8px; align-items:stretch; flex-wrap:wrap}
+.mleft{
+  flex:0 0 190px; padding:10px 12px; border:1px solid var(--line-strong); border-radius:8px;
+  background:var(--surface); font-size:14px; line-height:1.35; text-align:left
+}
+.mleft[aria-pressed="true"]{border-color:var(--accent); background:var(--accent-soft)}
+.mslot{
+  flex:1; min-width:150px; padding:10px 12px; border:1px dashed var(--line-strong); border-radius:8px;
+  background:var(--surface-2); font-size:14px; line-height:1.35; text-align:left; color:var(--muted)
+}
+.mslot.filled{border-style:solid; color:var(--ink); background:var(--surface)}
+.mslot.right{border-color:var(--ok-line); background:var(--ok-soft); color:var(--ink)}
+.mslot.wrong{border-color:var(--bad-line); background:var(--bad-soft); color:var(--ink)}
+@media (max-width:560px){ .mleft{flex-basis:100%} }
+.bank{display:flex; gap:7px; flex-wrap:wrap; margin-top:12px; padding-top:12px; border-top:1px solid var(--line)}
+.tok{
+  padding:7px 11px; border:1px solid var(--line-strong); border-radius:7px; background:var(--surface);
+  font-size:13.5px; line-height:1.3; text-align:left; max-width:100%
+}
+.tok:hover:not(:disabled){border-color:var(--ink-2)}
+.tok:disabled{opacity:.35; cursor:default}
+
+/* Reihenfolge */
+.seq{display:flex; flex-direction:column; gap:7px}
+.seqrow{display:flex; gap:10px; align-items:center; padding:10px 12px; border-radius:8px;
+  border:1px solid var(--line-strong); background:var(--surface); font-size:14.5px; line-height:1.35; text-align:left; width:100%}
+.seqrow .num{font-family:var(--f-mono); font-size:12px; font-weight:600; color:var(--muted); width:16px; flex:none}
+.seqrow.right{border-color:var(--ok-line); background:var(--ok-soft)}
+.seqrow.right .num{color:var(--ok)}
+.seqrow.wrong{border-color:var(--bad-line); background:var(--bad-soft)}
+.seqrow.wrong .num{color:var(--bad)}
+.seqrow .corr{margin-left:auto; font-family:var(--f-mono); font-size:11px; color:var(--bad); flex:none}
+
+/* Karteikarte */
+.flip{padding:16px; border:1px solid var(--line-strong); border-radius:8px; background:var(--surface-2);
+  font-size:16px; line-height:1.5}
+.selfrate{display:flex; gap:8px; flex-wrap:wrap; margin-top:14px}
+.rate{flex:1; min-width:104px; padding:10px 12px; border-radius:8px; border:1px solid var(--line-strong);
+  font-family:var(--f-display); font-weight:500; font-size:13.5px; background:var(--surface)}
+.rate.g:hover{border-color:var(--ok); color:var(--ok)}
+.rate.y:hover{border-color:var(--warn); color:var(--warn)}
+.rate.r:hover{border-color:var(--bad); color:var(--bad)}
+
+/* Auswertung einer Frage */
+.verdict{display:flex; align-items:center; gap:9px; margin-top:16px; padding-top:15px; border-top:1px solid var(--line)}
+.verdict .mark{font-family:var(--f-display); font-weight:600; font-size:15px}
+.verdict.ok .mark{color:var(--ok)}
+.verdict.part .mark{color:var(--warn)}
+.verdict.no .mark{color:var(--bad)}
+.expl{margin-top:9px; font-size:15px; line-height:1.55; color:var(--ink-2)}
+.src{margin-top:10px; font-family:var(--f-mono); font-size:11px; color:var(--muted); line-height:1.5}
+.qfoot{display:flex; gap:10px; align-items:center; margin-top:18px; flex-wrap:wrap}
+.qfoot .right{margin-left:auto}
+
+/* Ergebnis */
+.result{max-width:720px; margin:0 auto; padding-block:30px 48px}
+.scorebig{font-family:var(--f-display); font-size:clamp(46px,11vw,72px); font-weight:600;
+  letter-spacing:-.03em; line-height:1; font-variant-numeric:tabular-nums}
+.resgrid{display:grid; grid-template-columns:repeat(auto-fit,minmax(132px,1fr)); gap:10px; margin-top:22px}
+.restile{padding:13px 14px; border:1px solid var(--line); border-radius:var(--r); background:var(--surface)}
+.restile b{display:block; font-family:var(--f-display); font-size:22px; font-weight:600;
+  font-variant-numeric:tabular-nums; line-height:1.1}
+.revlist{display:flex; flex-direction:column; gap:1px; background:var(--line);
+  border:1px solid var(--line); border-radius:var(--r); overflow:hidden; margin-top:10px}
+.rev{display:flex; gap:11px; padding:11px 14px; background:var(--surface); align-items:flex-start;
+  font-size:14px; line-height:1.4}
+.rev .st{font-family:var(--f-mono); font-size:12px; font-weight:600; flex:none; width:22px}
+.rev.ok .st{color:var(--ok)}
+.rev.part .st{color:var(--warn)}
+.rev.no .st{color:var(--bad)}
+.rev .q{flex:1; min-width:0; font-family:var(--f-display)}
+.rev .z{display:block; font-size:12px; color:var(--muted); margin-top:2px}
+
+.loading{padding:60px 16px; text-align:center; color:var(--muted); font-family:var(--f-mono); font-size:13px}
+.errbox{margin-top:30px; padding:18px; border:1px solid var(--bad-line); background:var(--bad-soft);
+  border-radius:var(--r); font-size:14px; line-height:1.5}
+</style>
+
+<header class="top">
+  <div class="top-in">
+    <div class="brand">Lern<span>stand</span></div>
+    <div class="top-meta"><span class="sync"><span class="dot" id="dot"></span><span id="syncTxt">lokal</span></span></div>
+  </div>
+</header>
+
+<div id="app" class="wrap"><div class="loading">Fragen werden geladen …</div></div>
+
+<script>
+/* ------------------------------------------------------------------ *
+ *  Lernstand HS2026 — Prüfungstrainer über den Obsidian-Fragenpool
+ * ------------------------------------------------------------------ */
+
+const MODULE = {
+  OGPM: "Geschäftsprozessmanagement",
+  GENE: "Gesellschaft, Politik, Wirtschaftsgeografie",
+  SYMG: "Systemisches Management",
+  VHRE: "Vertrags- und Haftpflichtrecht",
+  WSA1: "Wissenschaftliches Arbeiten"
+};
+const MOD_ORDER = ["OGPM","GENE","SYMG","VHRE","WSA1"];
+const KAT = {
+  vorlesung:"Vorlesung", literatur:"Literatur", uebung:"Übung",
+  organisation:"Organisation", richtlinie:"Richtlinie", vorlage:"Vorlage"
+};
+const TYP = { mc:"Multiple Choice", flash:"Karteikarte", match:"Zuordnung", order:"Reihenfolge" };
+const MODI = {
+  mix:    ["Gemischt",           "Zufällige Auswahl aus dem Filter"],
+  schwach:["Schwachstellen",     "Zuerst das, was zuletzt schiefging"],
+  neu:    ["Nur neue",           "Fragen, die du noch nie gesehen hast"],
+  falsch: ["Nur Fehler",         "Nur Fragen, die du zuletzt nicht konntest"]
+};
+const LS_KEY = "lernstand.v1";
+
+let POOL = [], META = {}, db = null, dbReady = false;
+let stats = {};      // { fragenId: {v:versuche, p:punkte, t:ts, ok:letzterScore} }
+let runs = [];       // [{id, ts, scope, total, punkte, dauer}]
+let view = "dash";
+let session = null;
+
+const filter = {
+  modul:new Set(), woche:new Set(), kategorie:new Set(), typ:new Set(),
+  lernziel:null, modus:"mix", laenge:15
+};
+
+/* ---------- Hilfsfunktionen ---------- */
+const $ = (s,r=document)=>r.querySelector(s);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const pct = (a,b)=> b>0 ? Math.round(a/b*100) : 0;
+const shuffle = a => { a=a.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
+const uid = ()=> Date.now().toString(36)+Math.random().toString(36).slice(2,7);
+function fmtDate(ts){
+  const d=new Date(ts), n=new Date();
+  const sameDay = d.toDateString()===n.toDateString();
+  const t = d.toLocaleTimeString("de-CH",{hour:"2-digit",minute:"2-digit"});
+  return sameDay ? "heute "+t : d.toLocaleDateString("de-CH",{day:"2-digit",month:"2-digit"})+" "+t;
+}
+function fmtDauer(ms){
+  const s=Math.round(ms/1000);
+  return s<60 ? s+" s" : Math.floor(s/60)+":"+String(s%60).padStart(2,"0")+" min";
+}
+function quoteColor(q){ return q>=.8 ? "var(--ok)" : q>=.6 ? "var(--warn)" : "var(--bad)"; }
+
+/* ---------- Speicher ---------- */
+function loadLocal(){
+  try{
+    const raw = localStorage.getItem(LS_KEY);
+    if(raw){ const o=JSON.parse(raw); stats=o.stats||{}; runs=o.runs||[]; }
+  }catch(e){ /* privates Fenster o. ä. — läuft ohne */ }
+}
+function saveLocal(){
+  try{ localStorage.setItem(LS_KEY, JSON.stringify({stats, runs:runs.slice(-60)})); }catch(e){}
+}
+function mergeStats(a,b){
+  const out = Object.assign({}, a);
+  for(const [id,e] of Object.entries(b||{})){
+    const cur = out[id];
+    if(!cur || (e.v||0) > (cur.v||0)) out[id] = e;
+  }
+  return out;
+}
+async function initDB(){
+  let cap = null;
+  try{ cap = await window.claude?.use?.("db") ?? null; }catch(e){ cap = null; }
+  if(!cap) return;
+  db = cap;
+  try{
+    const snap = await db.doc("fortschritt/stats").get();
+    const body = snap && snap.exists ? snap.data() : null;
+    if(body && body.eintraege) stats = mergeStats(stats, body.eintraege);
+
+    const rs = await db.collection("runden").orderBy("ts","desc").limit(60).get();
+    const remote = (rs && rs.docs ? rs.docs : []).map(d=>d.data()).filter(Boolean);
+    const seen = new Set(runs.map(r=>r.id));
+    for(const r of remote) if(r && r.id && !seen.has(r.id)) runs.push(r);
+    runs.sort((a,b)=>a.ts-b.ts);
+    dbReady = true;
+    saveLocal();
+    $("#dot").classList.add("on");
+    $("#syncTxt").textContent = "gespeichert";
+    if(view==="dash") render();
+  }catch(e){
+    $("#syncTxt").textContent = "lokal";
+  }
+}
+async function pushDB(run){
+  if(!db) return;
+  try{
+    await db.doc("fortschritt/stats").set({ aktualisiert: Date.now(), eintraege: stats });
+    if(run) await db.doc("runden/"+run.id).set(run);
+  }catch(e){ /* Schreibrecht fehlt — lokal bleibt erhalten */ }
+}
+
+/* ---------- Auswahl ---------- */
+function matchesFilter(q){
+  if(filter.modul.size && !filter.modul.has(q.modul)) return false;
+  if(filter.woche.size && !filter.woche.has(String(q.woche))) return false;
+  if(filter.kategorie.size && !filter.kategorie.has(q.kategorie)) return false;
+  if(filter.typ.size && !filter.typ.has(q.typ)) return false;
+  if(filter.lernziel && q.lernziel !== filter.lernziel) return false;
+  return true;
+}
+function candidates(){
+  let c = POOL.filter(matchesFilter);
+  if(filter.modus==="neu")    c = c.filter(q=>!stats[q.id]);
+  if(filter.modus==="falsch") c = c.filter(q=>stats[q.id] && stats[q.id].ok < 1);
+  return c;
+}
+function pickRound(){
+  let c = candidates();
+  if(filter.modus==="schwach"){
+    c = c.slice().sort((a,a2)=>{
+      const sa=stats[a.id], sb=stats[a2.id];
+      const qa = sa ? sa.p/sa.v : -1, qb = sb ? sb.p/sb.v : -1;   // ungeübt ganz vorn
+      if(qa!==qb) return qa-qb;
+      return (sa?sa.t:0)-(sb?sb.t:0);
+    });
+  } else {
+    c = shuffle(c);
+  }
+  const n = filter.laenge===0 ? c.length : Math.min(filter.laenge, c.length);
+  return c.slice(0,n);
+}
+function filterAktiv(){
+  return filter.modul.size>0 || filter.woche.size>0 || filter.kategorie.size>0
+      || filter.typ.size>0 || !!filter.lernziel || filter.modus!=="mix";
+}
+function roundSize(c){
+  return filter.laenge===0 ? c.length : Math.min(filter.laenge, c.length);
+}
+function scopeLabel(){
+  const p=[];
+  p.push(filter.modul.size ? [...filter.modul].join(" · ") : "Alle Module");
+  if(filter.woche.size) p.push("Woche "+[...filter.woche].sort().join("/"));
+  if(filter.kategorie.size) p.push([...filter.kategorie].map(k=>KAT[k]||k).join("/"));
+  if(filter.typ.size) p.push([...filter.typ].map(t=>TYP[t]||t).join("/"));
+  if(filter.lernziel) p.push("Lernziel: "+filter.lernziel);
+  if(filter.modus!=="mix") p.push(MODI[filter.modus][0]);
+  return p.join(" — ");
+}
+
+/* ---------- Statistik ---------- */
+function statFor(list){
+  let v=0,p=0,seen=0;
+  for(const q of list){ const s=stats[q.id]; if(s){ seen++; v+=s.v; p+=s.p; } }
+  return { total:list.length, geuebt:seen, versuche:v, punkte:p, quote: v? p/v : 0 };
+}
+function goalStats(){
+  const m = new Map();
+  for(const q of POOL){
+    const k = q.modul+"||"+q.lernziel;
+    if(!m.has(k)) m.set(k,{modul:q.modul, ziel:q.lernziel, total:0, geuebt:0, v:0, p:0});
+    const g = m.get(k); g.total++;
+    const s = stats[q.id];
+    if(s){ g.geuebt++; g.v+=s.v; g.p+=s.p; }
+  }
+  return [...m.values()].map(g=>Object.assign(g,{quote: g.v? g.p/g.v : null}));
+}
+
+/* ================= DASHBOARD ================= */
+function render(){
+  if(view==="quiz")   return renderQuiz();
+  if(view==="result") return renderResult();
+  renderDash();
+}
+
+function renderDash(){
+  const all = statFor(POOL);
+  const cand = candidates();
+  const goals = goalStats();
+
+  const schwach = goals.filter(g=>g.quote!==null && g.v>=2)
+    .sort((a,b)=>a.quote-b.quote).slice(0,6);
+  const offen = goals.filter(g=>g.geuebt===0)
+    .sort((a,b)=> MOD_ORDER.indexOf(a.modul)-MOD_ORDER.indexOf(b.modul) || b.total-a.total).slice(0,6);
+
+  const wochen = [...new Set(POOL.map(q=>String(q.woche)))].sort((a,b)=>a-b);
+  const kats = [...new Set(POOL.map(q=>q.kategorie))]
+    .sort((a,b)=> POOL.filter(q=>q.kategorie===b).length - POOL.filter(q=>q.kategorie===a).length);
+
+  const countIf = fn => POOL.filter(q => fn(q)).length;
+
+  $("#app").innerHTML = `
+  <div class="hero">
+    <div>
+      <h1>Wie gut sitzt der Stoff?</h1>
+      <p class="lede">${POOL.length} Fragen</p>
+      <div class="herostart">
+        <button class="btn" data-start ${cand.length?"":"disabled"}>Runde starten</button>
+        <span class="pool">${roundSize(cand)} Fragen · ${esc(filterAktiv() ? scopeLabel() : "alle Module, gemischt")}</span>
+      </div>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><b>${all.geuebt}<span class="muted" style="font-size:16px">/${all.total}</span></b><span class="eyebrow">geübt</span></div>
+      <div class="kpi"><b style="color:${all.versuche?quoteColor(all.quote):'inherit'}">${all.versuche? Math.round(all.quote*100)+"%" : "—"}</b><span class="eyebrow">Trefferquote</span></div>
+      <div class="kpi"><b>${runs.length}</b><span class="eyebrow">Runden</span></div>
+    </div>
+  </div>
+
+  <section>
+    <div class="sec-head"><h2>Module</h2><span class="hint">Klick filtert — grün geübt und richtig, rot geübt und falsch</span></div>
+    <div class="grid-mod">
+      ${MOD_ORDER.filter(m=>POOL.some(q=>q.modul===m)).map(m=>{
+        const list = POOL.filter(q=>q.modul===m), s = statFor(list);
+        const good = s.versuche ? s.punkte/s.versuche : 0;
+        const coverage = s.geuebt/s.total;
+        return `<button class="modcard mod ${filter.modul.has(m)?"sel":""}" style="--mc:var(--m-${m})" data-mod="${m}">
+          <span class="code">${m}</span>
+          <span class="sub">${esc(MODULE[m]||"")}</span>
+          <span class="meter">
+            <i class="a" style="width:${(coverage*good*100).toFixed(1)}%"></i>
+            <i class="b" style="width:${(coverage*(1-good)*100).toFixed(1)}%"></i>
+          </span>
+          <span class="nums"><span>${s.geuebt}/${s.total} geübt</span><span>${s.versuche? Math.round(good*100)+"%" : "–"}</span></span>
+        </button>`;
+      }).join("")}
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Runde zusammenstellen</h2></div>
+    <div class="card panel">
+      <div class="frow"><span class="flabel">Woche</span>
+        ${wochen.map(w=>`<button class="chip" data-f="woche" data-v="${w}" aria-pressed="${filter.woche.has(w)}">Woche ${w}<span class="n">${countIf(q=>String(q.woche)===w)}</span></button>`).join("")}
+      </div>
+      <div class="frow"><span class="flabel">Quelle</span>
+        ${kats.map(k=>`<button class="chip" data-f="kategorie" data-v="${k}" aria-pressed="${filter.kategorie.has(k)}">${KAT[k]||k}<span class="n">${countIf(q=>q.kategorie===k)}</span></button>`).join("")}
+      </div>
+      <div class="frow"><span class="flabel">Fragetyp</span>
+        ${Object.keys(TYP).map(t=>`<button class="chip" data-f="typ" data-v="${t}" aria-pressed="${filter.typ.has(t)}">${TYP[t]}<span class="n">${countIf(q=>q.typ===t)}</span></button>`).join("")}
+      </div>
+      <div class="frow"><span class="flabel">Modus</span>
+        ${Object.entries(MODI).map(([k,v])=>`<button class="chip" data-modus="${k}" aria-pressed="${filter.modus===k}" title="${esc(v[1])}">${v[0]}</button>`).join("")}
+      </div>
+      <div class="frow"><span class="flabel">Länge</span>
+        ${[10,15,25,0].map(n=>`<button class="chip" data-len="${n}" aria-pressed="${filter.laenge===n}">${n===0?"alle":n+" Fragen"}</button>`).join("")}
+      </div>
+      ${filter.lernziel ? `<div class="frow"><span class="flabel">Lernziel</span>
+        <button class="chip" aria-pressed="true" data-clearziel="1">${esc(filter.lernziel)} ✕</button></div>` : ""}
+      <div class="startbar">
+        <button class="btn" data-start ${cand.length?"":"disabled"}>Runde starten</button>
+        <button class="btn ghost sm" id="reset">Filter zurücksetzen</button>
+        <span class="pool">${cand.length} Frage${cand.length===1?"":"n"} im Filter${filter.laenge&&cand.length>filter.laenge?` · ${roundSize(cand)} in dieser Runde`:""}</span>
+      </div>
+      ${cand.length===0 ? `<p class="muted" style="font-size:13px; margin-top:10px">Diese Kombination ergibt keine Fragen — meist hilft es, den Modus auf „Gemischt“ zu stellen.</p>`:""}
+    </div>
+  </section>
+
+  ${schwach.length ? `
+  <section>
+    <div class="sec-head"><h2>Schwachstellen</h2><span class="hint">Lernziele mit der tiefsten Quote — Klick übt gezielt dieses Ziel</span></div>
+    <div class="goals">
+      ${schwach.map(g=>`<button class="goal" data-ziel="${esc(g.ziel)}" data-zmod="${g.modul}"
+        style="--mc:var(--m-${g.modul}); --gc:${quoteColor(g.quote)}">
+        <span class="tag">${g.modul}</span>
+        <span class="txt">${esc(g.ziel)}</span>
+        <span class="bar"><i style="width:${Math.round(g.quote*100)}%"></i></span>
+        <span class="pct">${Math.round(g.quote*100)}%</span>
+      </button>`).join("")}
+    </div>
+  </section>`:""}
+
+  ${offen.length ? `
+  <section>
+    <div class="sec-head"><h2>Noch nicht angefasst</h2><span class="hint">Lernziele ohne einen einzigen Versuch</span></div>
+    <div class="goals">
+      ${offen.map(g=>`<button class="goal" data-ziel="${esc(g.ziel)}" data-zmod="${g.modul}" style="--mc:var(--m-${g.modul}); --gc:var(--muted)">
+        <span class="tag">${g.modul}</span>
+        <span class="txt">${esc(g.ziel)}</span>
+        <span class="pct">${g.total} F</span>
+      </button>`).join("")}
+    </div>
+  </section>`:""}
+
+  <section>
+    <details class="backup">
+      <summary>Fortschritt sichern oder auf ein anderes Gerät übertragen</summary>
+      <p class="muted" style="font-size:13.5px; margin:10px 0 0">Dein Lernstand liegt ${dbReady
+        ? "in der Datenbank dieser Seite und zusätzlich in diesem Browser"
+        : "nur in diesem Browser"}. Kopier ihn hier heraus, um ihn zu sichern oder auf dem Handy einzuspielen.</p>
+      <div class="qfoot">
+        <button class="btn ghost sm" id="expCopy">Lernstand kopieren</button>
+        <button class="btn ghost sm" id="impOpen">Lernstand einspielen</button>
+        <span class="pool" id="backupMsg"></span>
+      </div>
+      <textarea id="impBox" hidden rows="4" spellcheck="false"
+        placeholder="Kopierten Lernstand hier einfügen und dann auf Übernehmen klicken"></textarea>
+      <div class="qfoot" id="impActions" hidden><button class="btn sm" id="impGo">Übernehmen</button></div>
+    </details>
+  </section>
+
+  ${runs.length ? `
+  <section>
+    <div class="sec-head"><h2>Verlauf</h2></div>
+    <div class="runs">
+      ${runs.slice(-8).reverse().map(r=>`<div class="run">
+        <span class="when">${fmtDate(r.ts)}</span>
+        <span class="scope">${esc(r.scope)}</span>
+        <span class="score" style="color:${quoteColor(r.punkte/r.total)}">${Math.round(r.punkte/r.total*100)}%</span>
+        <span class="muted">${r.punkte.toFixed(1).replace(/\.0$/,"")}/${r.total} · ${fmtDauer(r.dauer)}</span>
+      </div>`).join("")}
+    </div>
+  </section>`:`
+  <section><div class="empty">Noch keine Runde gelaufen. Stell oben einen Filter ein und leg los.</div></section>`}
+
+  `;
+
+  // Ereignisse
+  $("#app").querySelectorAll(".modcard").forEach(b=>b.onclick=()=>{
+    const m=b.dataset.mod; filter.modul.has(m)?filter.modul.delete(m):filter.modul.add(m);
+    filter.lernziel=null; render();
+  });
+  $("#app").querySelectorAll("[data-f]").forEach(b=>b.onclick=()=>{
+    const s=filter[b.dataset.f], v=b.dataset.v; s.has(v)?s.delete(v):s.add(v); render();
+  });
+  $("#app").querySelectorAll("[data-modus]").forEach(b=>b.onclick=()=>{ filter.modus=b.dataset.modus; render(); });
+  $("#app").querySelectorAll("[data-len]").forEach(b=>b.onclick=()=>{ filter.laenge=+b.dataset.len; render(); });
+  $("#app").querySelectorAll("[data-ziel]").forEach(b=>b.onclick=()=>{
+    filter.lernziel=b.dataset.ziel; filter.modul=new Set([b.dataset.zmod]);
+    filter.woche=new Set(); filter.kategorie=new Set(); filter.typ=new Set(); filter.modus="mix";
+    render(); startRound();
+  });
+  const cz=$("[data-clearziel]"); if(cz) cz.onclick=()=>{ filter.lernziel=null; render(); };
+  $("#app").querySelectorAll("[data-start]").forEach(b=>b.onclick=startRound);
+  bindBackup();
+  $("#reset").onclick = ()=>{
+    filter.modul.clear(); filter.woche.clear(); filter.kategorie.clear(); filter.typ.clear();
+    filter.lernziel=null; filter.modus="mix"; filter.laenge=15; render();
+  };
+}
+
+/* ---------- Sichern und einspielen ---------- */
+function bindBackup(){
+  const msg = $("#backupMsg"), box = $("#impBox"), act = $("#impActions");
+  if(!msg) return;
+  const say = t => { msg.textContent = t; };
+
+  $("#expCopy").onclick = async ()=>{
+    const text = JSON.stringify({app:"lernstand", v:1, stats, runs});
+    try{
+      await navigator.clipboard.writeText(text);
+      say("Kopiert — auf dem anderen Gerät einspielen.");
+    }catch(e){
+      box.hidden=false; box.value=text; box.select();
+      say("Zwischenablage gesperrt — Text ist markiert, mit Strg+C kopieren.");
+    }
+  };
+
+  $("#impOpen").onclick = ()=>{
+    box.hidden=false; act.hidden=false; box.value=""; box.focus(); say("");
+  };
+
+  $("#impGo").onclick = ()=>{
+    let data;
+    try{ data = JSON.parse(box.value); }
+    catch(e){ return say("Das war kein gültiger Lernstand — bitte den ganzen kopierten Text einfügen."); }
+    if(!data || data.app!=="lernstand" || !data.stats)
+      return say("Das war kein gültiger Lernstand — bitte den ganzen kopierten Text einfügen.");
+
+    const vorher = Object.keys(stats).length;
+    stats = mergeStats(stats, data.stats);
+    const seen = new Set(runs.map(r=>r.id));
+    for(const r of (data.runs||[])) if(r && r.id && !seen.has(r.id)) runs.push(r);
+    runs.sort((a,b)=>a.ts-b.ts);
+    saveLocal(); pushDB(null);
+    const dazu = Object.keys(stats).length - vorher;
+    box.hidden=true; act.hidden=true;
+    render();
+    $("#backupMsg").textContent = dazu>0
+      ? `Übernommen — ${dazu} zusätzliche Frage${dazu===1?"":"n"} im Lernstand.`
+      : "Übernommen — der Lernstand war bereits auf diesem Stand.";
+    $("#backupMsg").closest("details").open = true;
+  };
+}
+
+/* ================= RUNDE ================= */
+function startRound(){
+  const qs = pickRound();
+  if(!qs.length) return;
+  session = { qs, i:0, scores:[], start:Date.now(), scope:scopeLabel(), state:null };
+  view="quiz"; window.scrollTo(0,0); render();
+}
+
+function prepState(q){
+  if(q.typ==="mc")    return { pick:new Set(), done:false };
+  if(q.typ==="flash") return { shown:false, done:false };
+  if(q.typ==="order") return { pool:shuffle(q.items.map((t,i)=>({t,i}))), seq:[], done:false };
+  if(q.typ==="match") return { bank:shuffle(q.paare.map((p,i)=>({t:p[1],i}))), slots:new Array(q.paare.length).fill(null), sel:null, done:false };
+  return { done:false };
+}
+
+function renderQuiz(){
+  const s = session, q = s.qs[s.i];
+  if(!s.state) s.state = prepState(q);
+  const st = s.state;
+  const multi = q.typ==="mc" && q.loesung.length>1;
+  const punkte = s.scores.reduce((a,b)=>a+b,0);
+
+  $("#app").innerHTML = `
+  <div class="qwrap">
+    <div class="qprog">
+      <span class="eyebrow">Frage ${s.i+1} / ${s.qs.length}</span>
+      <span class="rail"><i style="width:${(s.i)/s.qs.length*100}%"></i></span>
+      <span class="mono" style="font-size:12px; color:var(--muted)">${punkte.toFixed(1).replace(/\.0$/,"")} Punkte</span>
+      <button class="btn ghost sm" id="abort">Beenden</button>
+    </div>
+
+    <div class="card qcard" style="--mc:var(--m-${q.modul})">
+      <div class="qmeta">
+        <span class="badge mod">${q.modul}</span>
+        <span class="badge">Woche ${q.woche}</span>
+        <span class="badge">${KAT[q.kategorie]||q.kategorie}</span>
+        <span class="badge">${TYP[q.typ]}</span>
+        ${multi?`<span class="badge" style="color:var(--warn)">mehrere richtig</span>`:""}
+      </div>
+      <div class="qziel">${esc(q.lernziel)}</div>
+      <h2 class="qtext">${esc(q.frage)}</h2>
+      <div id="body"></div>
+      <div id="after"></div>
+    </div>
+  </div>`;
+
+  $("#abort").onclick = ()=>{ if(s.scores.length) finishRound(true); else { session=null; view="dash"; render(); } };
+  drawBody(q, st);
+  if(st.done) drawVerdict(q, st);
+}
+
+function drawBody(q, st){
+  const b = $("#body");
+  const dis = st.done ? "disabled" : "";
+
+  if(q.typ==="mc"){
+    b.innerHTML = `<div class="opts">${q.optionen.map((o,i)=>{
+      let cls="opt";
+      if(st.done){
+        const correct = q.loesung.includes(i), chosen = st.pick.has(i);
+        if(correct) cls+=" right"; else if(chosen) cls+=" wrong";
+      }
+      return `<button class="${cls}" ${dis} data-i="${i}" aria-pressed="${st.pick.has(i)}">
+        <span class="mk">${st.done ? (q.loesung.includes(i)?"✓":(st.pick.has(i)?"✕":String.fromCharCode(65+i))) : String.fromCharCode(65+i)}</span>
+        <span>${esc(o)}</span></button>`;
+    }).join("")}</div>
+    ${st.done?"":`<div class="qfoot"><button class="btn" id="check" ${st.pick.size?"":"disabled"}>Prüfen</button>
+      <span class="muted" style="font-size:13px">${q.loesung.length>1?`${q.loesung.length} Antworten auswählen`:"Eine Antwort auswählen"}</span></div>`}`;
+    if(!st.done){
+      b.querySelectorAll(".opt").forEach(el=>el.onclick=()=>{
+        const i=+el.dataset.i;
+        if(q.loesung.length===1) st.pick.clear();
+        st.pick.has(i)?st.pick.delete(i):st.pick.add(i);
+        drawBody(q,st);
+      });
+      $("#check").onclick = ()=>{
+        const ok = st.pick.size===q.loesung.length && [...st.pick].every(i=>q.loesung.includes(i));
+        answer(q, st, ok?1:0);
+      };
+    }
+  }
+
+  else if(q.typ==="flash"){
+    b.innerHTML = st.shown
+      ? `<div class="flip">${esc(q.antwort)}</div>
+         ${st.done?"":`<div class="selfrate">
+           <button class="rate g" data-s="1">Wusste ich</button>
+           <button class="rate y" data-s="0.5">Ungefähr</button>
+           <button class="rate r" data-s="0">Nicht gewusst</button></div>`}`
+      : `<div class="qfoot"><button class="btn" id="show">Antwort zeigen</button>
+         <span class="muted" style="font-size:13px">Erst selbst formulieren, dann aufdecken.</span></div>`;
+    if(!st.shown) $("#show").onclick = ()=>{ st.shown=true; drawBody(q,st); };
+    else if(!st.done) b.querySelectorAll(".rate").forEach(el=>el.onclick=()=>answer(q,st,+el.dataset.s));
+  }
+
+  else if(q.typ==="order"){
+    b.innerHTML = `
+      <div class="seq">${st.seq.map((it,pos)=>{
+        let cls="seqrow";
+        if(st.done) cls += (it.i===pos ? " right" : " wrong");
+        return `<button class="${cls}" ${dis} data-pos="${pos}">
+          <span class="num">${pos+1}</span><span>${esc(it.t)}</span>
+          ${st.done && it.i!==pos ? `<span class="corr">richtig: ${it.i+1}</span>`:""}</button>`;
+      }).join("")}</div>
+      ${st.pool.length?`<div class="bank">${st.pool.map(it=>`<button class="tok" ${dis} data-id="${it.i}">${esc(it.t)}</button>`).join("")}</div>`:""}
+      ${st.done?"":`<div class="qfoot"><button class="btn" id="check" ${st.pool.length?"disabled":""}>Prüfen</button>
+        <span class="muted" style="font-size:13px">Anklicken ordnet ein, Klick in der Liste nimmt zurück.</span></div>`}`;
+    if(!st.done){
+      b.querySelectorAll(".tok").forEach(el=>el.onclick=()=>{
+        const k = st.pool.findIndex(x=>x.i===+el.dataset.id);
+        if(k<0) return;
+        st.seq.push(st.pool.splice(k,1)[0]);
+        drawBody(q,st);
+      });
+      b.querySelectorAll(".seqrow").forEach(el=>el.onclick=()=>{ st.pool.push(st.seq.splice(+el.dataset.pos,1)[0]); drawBody(q,st); });
+      const c=$("#check"); if(c) c.onclick=()=>{
+        const right = st.seq.filter((it,pos)=>it.i===pos).length;
+        answer(q, st, right/q.items.length);
+      };
+    }
+  }
+
+  else if(q.typ==="match"){
+    b.innerHTML = `
+      <div class="match">${q.paare.map((p,i)=>{
+        const f = st.slots[i];
+        let cls="mslot"+(f?" filled":"");
+        if(st.done && f) cls += (f.i===i ? " right" : " wrong");
+        return `<div class="mrow">
+          <button class="mleft" ${dis} data-l="${i}" aria-pressed="${st.sel===i}">${esc(p[0])}</button>
+          <button class="${cls}" ${dis} data-slot="${i}">${f?esc(f.t):"…"}</button>
+        </div>`;
+      }).join("")}</div>
+      ${st.bank.length?`<div class="bank">${st.bank.map(it=>`<button class="tok" ${dis} data-id="${it.i}">${esc(it.t)}</button>`).join("")}</div>`:""}
+      ${st.done?"":`<div class="qfoot"><button class="btn" id="check" ${st.bank.length?"disabled":""}>Prüfen</button>
+        <span class="muted" style="font-size:13px">Links wählen, dann unten die passende Antwort.</span></div>`}`;
+    if(!st.done){
+      b.querySelectorAll(".mleft").forEach(el=>el.onclick=()=>{ st.sel = st.sel===+el.dataset.l ? null : +el.dataset.l; drawBody(q,st); });
+      b.querySelectorAll(".mslot").forEach(el=>el.onclick=()=>{
+        const i=+el.dataset.slot;
+        if(st.slots[i]){ st.bank.push(st.slots[i]); st.slots[i]=null; }
+        st.sel=i; drawBody(q,st);
+      });
+      b.querySelectorAll(".tok").forEach(el=>el.onclick=()=>{
+        const bi = st.bank.findIndex(x=>x.i===+el.dataset.id);
+        if(bi<0) return;
+        let t = st.sel;
+        if(t===null || t<0 || t>=st.slots.length) t = st.slots.findIndex(x=>!x);
+        if(t<0) return;
+        const item = st.bank.splice(bi,1)[0];
+        if(st.slots[t]) st.bank.push(st.slots[t]);
+        st.slots[t] = item;
+        const next = st.slots.findIndex(x=>!x);
+        st.sel = next<0 ? null : next;
+        drawBody(q,st);
+      });
+      const c=$("#check"); if(c) c.onclick=()=>{
+        const right = st.slots.filter((f,i)=>f && f.i===i).length;
+        answer(q, st, right/q.paare.length);
+      };
+    }
+  }
+}
+
+function answer(q, st, score){
+  st.done = true;
+  session.scores.push(score);
+  const s = stats[q.id] || {v:0,p:0,t:0,ok:0};
+  s.v += 1; s.p += score; s.t = Date.now(); s.ok = score;
+  stats[q.id] = s;
+  saveLocal();
+  drawBody(q, st);
+  drawVerdict(q, st);
+}
+
+function drawVerdict(q, st){
+  const score = session.scores[session.scores.length-1];
+  const kind = score>=1 ? "ok" : score>0 ? "part" : "no";
+  const label = score>=1 ? "Richtig" : score>0 ? `Teilweise richtig — ${Math.round(score*100)} %` : "Falsch";
+  const last = session.i === session.qs.length-1;
+  $("#after").innerHTML = `
+    <div class="verdict ${kind}"><span class="mark">${score>=1?"✓":score>0?"◐":"✕"} ${label}</span></div>
+    <p class="expl">${esc(q.erklaerung)}</p>
+    <p class="src">Notiz: ${esc(q.quelle)}</p>
+    <div class="qfoot"><button class="btn right" id="next">${last?"Runde auswerten":"Weiter"}</button></div>`;
+  $("#next").onclick = ()=>{
+    if(last) return finishRound(false);
+    session.i++; session.state=null; window.scrollTo(0,0); render();
+  };
+  $("#next").focus();
+}
+
+async function finishRound(abgebrochen){
+  const s = session;
+  const total = s.scores.length;
+  const run = {
+    id: uid(), ts: Date.now(),
+    scope: s.scope + (abgebrochen?" (abgebrochen)":""),
+    total, punkte: +s.scores.reduce((a,b)=>a+b,0).toFixed(2),
+    dauer: Date.now()-s.start,
+    fragen: s.qs.slice(0,total).map(q=>q.id)
+  };
+  runs.push(run); saveLocal();
+  session.run = run;
+  view="result"; window.scrollTo(0,0); render();
+  pushDB(run);
+}
+
+/* ================= ERGEBNIS ================= */
+function renderResult(){
+  const s = session, r = s.run;
+  const q = r.punkte/r.total;
+  const done = s.qs.slice(0,r.total);
+  const perGoal = new Map();
+  done.forEach((qq,i)=>{
+    const g = perGoal.get(qq.lernziel) || {n:0,p:0,modul:qq.modul};
+    g.n++; g.p += s.scores[i]; perGoal.set(qq.lernziel,g);
+  });
+  const weak = [...perGoal.entries()].filter(([,g])=>g.p/g.n<1).sort((a,b)=>a[1].p/a[1].n - b[1].p/b[1].n);
+
+  $("#app").innerHTML = `
+  <div class="result">
+    <div class="eyebrow">Runde ausgewertet</div>
+    <div class="scorebig" style="color:${quoteColor(q)}">${Math.round(q*100)}<span style="font-size:.42em">%</span></div>
+    <p class="muted" style="margin-top:6px; font-size:14px">${esc(r.scope)}</p>
+
+    <div class="resgrid">
+      <div class="restile"><b>${r.punkte.toFixed(1).replace(/\.0$/,"")} / ${r.total}</b><span class="eyebrow">Punkte</span></div>
+      <div class="restile"><b>${s.scores.filter(x=>x>=1).length}</b><span class="eyebrow">ganz richtig</span></div>
+      <div class="restile"><b>${s.scores.filter(x=>x===0).length}</b><span class="eyebrow">daneben</span></div>
+      <div class="restile"><b>${fmtDauer(r.dauer)}</b><span class="eyebrow">Dauer</span></div>
+    </div>
+
+    ${weak.length ? `
+    <section>
+      <div class="sec-head"><h2>Hier war es wacklig</h2></div>
+      <div class="goals">
+        ${weak.map(([ziel,g])=>`<button class="goal" data-ziel="${esc(ziel)}" data-zmod="${g.modul}"
+          style="--mc:var(--m-${g.modul}); --gc:${quoteColor(g.p/g.n)}">
+          <span class="tag">${g.modul}</span>
+          <span class="txt">${esc(ziel)}</span>
+          <span class="bar"><i style="width:${Math.round(g.p/g.n*100)}%"></i></span>
+          <span class="pct">${Math.round(g.p/g.n*100)}%</span>
+        </button>`).join("")}
+      </div>
+    </section>` : `<section><div class="empty">Alles gesessen — keine Schwachstelle in dieser Runde.</div></section>`}
+
+    <section>
+      <div class="sec-head"><h2>Alle Fragen dieser Runde</h2></div>
+      <div class="revlist">
+        ${done.map((qq,i)=>{
+          const sc=s.scores[i], k = sc>=1?"ok":sc>0?"part":"no";
+          return `<div class="rev ${k}"><span class="st">${sc>=1?"✓":sc>0?"◐":"✕"}</span>
+            <span class="q">${esc(qq.frage)}<span class="z">${qq.modul} · ${esc(qq.lernziel)}</span></span></div>`;
+        }).join("")}
+      </div>
+    </section>
+
+    <div class="startbar" style="border-top:none">
+      <button class="btn" id="again">Neue Runde, gleicher Filter</button>
+      ${weak.length?`<button class="btn ghost" id="fix">Nur die Fehler wiederholen</button>`:""}
+      <button class="btn ghost" id="back">Zur Übersicht</button>
+    </div>
+  </div>`;
+
+  $("#again").onclick = ()=>{ startRound(); };
+  $("#back").onclick  = ()=>{ session=null; view="dash"; window.scrollTo(0,0); render(); };
+  const fx=$("#fix"); if(fx) fx.onclick = ()=>{
+    const ids = new Set(done.filter((_,i)=>s.scores[i]<1).map(q=>q.id));
+    session = { qs: done.filter(q=>ids.has(q.id)), i:0, scores:[], start:Date.now(),
+                scope: s.run.scope+" — Wiederholung", state:null };
+    view="quiz"; window.scrollTo(0,0); render();
+  };
+  $("#app").querySelectorAll("[data-ziel]").forEach(b=>b.onclick=()=>{
+    filter.lernziel=b.dataset.ziel; filter.modul=new Set([b.dataset.zmod]);
+    filter.woche=new Set(); filter.kategorie=new Set(); filter.typ=new Set(); filter.modus="mix";
+    session=null; view="dash"; render(); startRound();
+  });
+}
+
+/* ================= START ================= */
+(async function boot(){
+  loadLocal();
+  try{
+    const res = await fetch("daten/fragen.json", {cache:"no-store"});
+    if(!res.ok) throw new Error("HTTP "+res.status);
+    const data = await res.json();
+    POOL = data.fragen || [];
+    META = {stand:data.stand, quelle:data.quelle};
+    if(!POOL.length) throw new Error("leerer Fragenpool");
+  }catch(e){
+    $("#app").innerHTML = `<div class="errbox"><b>Der Fragenpool liess sich nicht laden.</b><br>
+      ${esc(e.message)} — lade die Seite neu. Bleibt es dabei, fehlt die Datei <span class="mono">daten/fragen.json</span>.</div>`;
+    return;
+  }
+  render();
+  initDB();
+})();
+</script>

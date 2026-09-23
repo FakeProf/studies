@@ -137,6 +137,14 @@ section{margin-top:30px}
 :root:not([data-theme="light"]) .chip.mod[aria-pressed="true"]{color:#0F1514}
 .chip .n{font-family:var(--f-mono); font-size:11px; opacity:.72; margin-left:5px; font-variant-numeric:tabular-nums}
 
+.sel{
+  font-family:var(--f-display); font-size:12.5px; font-weight:500; color:var(--ink-2);
+  padding:5px 10px; border-radius:100px; border:1px solid var(--line-strong);
+  background:var(--surface); max-width:min(100%, 420px); cursor:pointer
+}
+.sel:hover{border-color:var(--ink-2)}
+.sel.aktiv{border-color:var(--accent); background:var(--accent-soft); color:var(--ink)}
+
 .startbar{display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin-top:16px;
   padding-top:14px; border-top:1px solid var(--line)}
 .btn{
@@ -346,8 +354,13 @@ let session = null;
 
 const filter = {
   modul:new Set(), woche:new Set(), kategorie:new Set(), typ:new Set(),
-  lernziel:null, modus:"mix", laenge:15
+  lernziel:null, nurLernziel:false, modus:"mix", laenge:15
 };
+
+// Fragen zur Modulorganisation (Notengewichtung, Abgabetermine, Semesterplan)
+// zielen auf kein benanntes Lernziel — sie tragen das ersatzweise vergebene
+// Lernziel "Modulorganisation und Leistungsnachweis kennen".
+const OHNE_LERNZIEL = "organisation";
 
 /* ---------- Hilfsfunktionen ---------- */
 const $ = (s,r=document)=>r.querySelector(s);
@@ -424,6 +437,7 @@ function matchesFilter(q){
   if(filter.kategorie.size && !filter.kategorie.has(q.kategorie)) return false;
   if(filter.typ.size && !filter.typ.has(q.typ)) return false;
   if(filter.lernziel && q.lernziel !== filter.lernziel) return false;
+  if(filter.nurLernziel && q.kategorie === OHNE_LERNZIEL) return false;
   return true;
 }
 function candidates(){
@@ -449,18 +463,21 @@ function pickRound(){
 }
 function filterAktiv(){
   return filter.modul.size>0 || filter.woche.size>0 || filter.kategorie.size>0
-      || filter.typ.size>0 || !!filter.lernziel || filter.modus!=="mix";
+      || filter.typ.size>0 || !!filter.lernziel || filter.nurLernziel || filter.modus!=="mix";
 }
 function roundSize(c){
   return filter.laenge===0 ? c.length : Math.min(filter.laenge, c.length);
 }
 function scopeLabel(){
   const p=[];
-  p.push(filter.modul.size ? [...filter.modul].join(" · ") : "Alle Module");
+  // Ein Lernziel gehört immer zu genau einem Modul — dann wäre "Alle Module" irreführend.
+  const zielModul = filter.lernziel ? POOL.find(q=>q.lernziel===filter.lernziel)?.modul : null;
+  p.push(filter.modul.size ? [...filter.modul].join(" · ") : (zielModul || "Alle Module"));
   if(filter.woche.size) p.push("Woche "+[...filter.woche].sort().join("/"));
   if(filter.kategorie.size) p.push([...filter.kategorie].map(k=>KAT[k]||k).join("/"));
   if(filter.typ.size) p.push([...filter.typ].map(t=>TYP[t]||t).join("/"));
   if(filter.lernziel) p.push("Lernziel: "+filter.lernziel);
+  else if(filter.nurLernziel) p.push("nur Lernzielfragen");
   if(filter.modus!=="mix") p.push(MODI[filter.modus][0]);
   return p.join(" — ");
 }
@@ -555,14 +572,26 @@ function renderDash(){
       <div class="frow"><span class="flabel">Fragetyp</span>
         ${Object.keys(TYP).map(t=>`<button class="chip" data-f="typ" data-v="${t}" aria-pressed="${filter.typ.has(t)}">${TYP[t]}<span class="n">${countIf(q=>q.typ===t)}</span></button>`).join("")}
       </div>
+      <div class="frow"><span class="flabel">Lernziel</span>
+        <select id="zielSel" class="sel${filter.lernziel?" aktiv":""}">
+          <option value="">Alle Lernziele</option>
+          ${MOD_ORDER.filter(m=>POOL.some(q=>q.modul===m)).map(m=>{
+            const ziele = [...new Set(POOL.filter(q=>q.modul===m && q.kategorie!==OHNE_LERNZIEL).map(q=>q.lernziel))].sort();
+            return `<optgroup label="${m}">${ziele.map(z=>{
+              const n = POOL.filter(q=>q.modul===m && q.lernziel===z).length;
+              return `<option value="${esc(z)}" ${filter.lernziel===z?"selected":""}>${esc(z)} (${n})</option>`;
+            }).join("")}</optgroup>`;
+          }).join("")}
+        </select>
+        <button class="chip" data-nurziel aria-pressed="${filter.nurLernziel}"
+          title="Blendet die ${POOL.filter(q=>q.kategorie===OHNE_LERNZIEL).length} Fragen zur Modulorganisation aus — sie zielen auf kein benanntes Lernziel">Nur Lernzielfragen<span class="n">${POOL.filter(q=>q.kategorie!==OHNE_LERNZIEL).length}</span></button>
+      </div>
       <div class="frow"><span class="flabel">Modus</span>
         ${Object.entries(MODI).map(([k,v])=>`<button class="chip" data-modus="${k}" aria-pressed="${filter.modus===k}" title="${esc(v[1])}">${v[0]}</button>`).join("")}
       </div>
       <div class="frow"><span class="flabel">Länge</span>
         ${[10,15,25,0].map(n=>`<button class="chip" data-len="${n}" aria-pressed="${filter.laenge===n}">${n===0?"alle":n+" Fragen"}</button>`).join("")}
       </div>
-      ${filter.lernziel ? `<div class="frow"><span class="flabel">Lernziel</span>
-        <button class="chip" aria-pressed="true" data-clearziel="1">${esc(filter.lernziel)} ✕</button></div>` : ""}
       <div class="startbar">
         <button class="btn" data-start ${cand.length?"":"disabled"}>Runde starten</button>
         <button class="btn ghost sm" id="reset">Filter zurücksetzen</button>
@@ -641,17 +670,26 @@ function renderDash(){
   });
   $("#app").querySelectorAll("[data-modus]").forEach(b=>b.onclick=()=>{ filter.modus=b.dataset.modus; render(); });
   $("#app").querySelectorAll("[data-len]").forEach(b=>b.onclick=()=>{ filter.laenge=+b.dataset.len; render(); });
+  $("#zielSel").onchange = e=>{
+    filter.lernziel = e.target.value || null;
+    // Das Modul zum gewählten Ziel mitschalten, sonst wäre die Auswahl leer
+    if(filter.lernziel){
+      const mod = POOL.find(q=>q.lernziel===filter.lernziel)?.modul;
+      if(mod && filter.modul.size && !filter.modul.has(mod)) filter.modul = new Set([mod]);
+    }
+    render();
+  };
+  $("[data-nurziel]").onclick = ()=>{ filter.nurLernziel = !filter.nurLernziel; render(); };
   $("#app").querySelectorAll("[data-ziel]").forEach(b=>b.onclick=()=>{
     filter.lernziel=b.dataset.ziel; filter.modul=new Set([b.dataset.zmod]);
     filter.woche=new Set(); filter.kategorie=new Set(); filter.typ=new Set(); filter.modus="mix";
     render(); startRound();
   });
-  const cz=$("[data-clearziel]"); if(cz) cz.onclick=()=>{ filter.lernziel=null; render(); };
   $("#app").querySelectorAll("[data-start]").forEach(b=>b.onclick=startRound);
   bindBackup();
   $("#reset").onclick = ()=>{
     filter.modul.clear(); filter.woche.clear(); filter.kategorie.clear(); filter.typ.clear();
-    filter.lernziel=null; filter.modus="mix"; filter.laenge=15; render();
+    filter.lernziel=null; filter.nurLernziel=false; filter.modus="mix"; filter.laenge=15; render();
   };
 }
 

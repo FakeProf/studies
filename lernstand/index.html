@@ -354,7 +354,7 @@ let session = null;
 
 const filter = {
   modul:new Set(), woche:new Set(), kategorie:new Set(), typ:new Set(),
-  lernziel:null, nurLernziel:false, modus:"mix", laenge:15
+  lernziel:null, nurKern:false, modus:"mix", laenge:15
 };
 
 // Fragen zur Modulorganisation (Notengewichtung, Abgabetermine, Semesterplan)
@@ -437,7 +437,7 @@ function matchesFilter(q){
   if(filter.kategorie.size && !filter.kategorie.has(q.kategorie)) return false;
   if(filter.typ.size && !filter.typ.has(q.typ)) return false;
   if(filter.lernziel && q.lernziel !== filter.lernziel) return false;
-  if(filter.nurLernziel && q.kategorie === OHNE_LERNZIEL) return false;
+  if(filter.nurKern && !q.kern) return false;
   return true;
 }
 function candidates(){
@@ -463,7 +463,7 @@ function pickRound(){
 }
 function filterAktiv(){
   return filter.modul.size>0 || filter.woche.size>0 || filter.kategorie.size>0
-      || filter.typ.size>0 || !!filter.lernziel || filter.nurLernziel || filter.modus!=="mix";
+      || filter.typ.size>0 || !!filter.lernziel || filter.nurKern || filter.modus!=="mix";
 }
 function roundSize(c){
   return filter.laenge===0 ? c.length : Math.min(filter.laenge, c.length);
@@ -476,8 +476,8 @@ function scopeLabel(){
   if(filter.woche.size) p.push("Woche "+[...filter.woche].sort().join("/"));
   if(filter.kategorie.size) p.push([...filter.kategorie].map(k=>KAT[k]||k).join("/"));
   if(filter.typ.size) p.push([...filter.typ].map(t=>TYP[t]||t).join("/"));
+  if(filter.nurKern) p.push("nur Kernstoff");
   if(filter.lernziel) p.push("Lernziel: "+filter.lernziel);
-  else if(filter.nurLernziel) p.push("nur Lernzielfragen");
   if(filter.modus!=="mix") p.push(MODI[filter.modus][0]);
   return p.join(" — ");
 }
@@ -578,13 +578,16 @@ function renderDash(){
           ${MOD_ORDER.filter(m=>POOL.some(q=>q.modul===m)).map(m=>{
             const ziele = [...new Set(POOL.filter(q=>q.modul===m && q.kategorie!==OHNE_LERNZIEL).map(q=>q.lernziel))].sort();
             return `<optgroup label="${m}">${ziele.map(z=>{
-              const n = POOL.filter(q=>q.modul===m && q.lernziel===z).length;
+              const n = POOL.filter(q=>q.modul===m && q.lernziel===z && (!filter.nurKern || q.kern)).length;
               return `<option value="${esc(z)}" ${filter.lernziel===z?"selected":""}>${esc(z)} (${n})</option>`;
             }).join("")}</optgroup>`;
           }).join("")}
         </select>
-        <button class="chip" data-nurziel aria-pressed="${filter.nurLernziel}"
-          title="Blendet die ${POOL.filter(q=>q.kategorie===OHNE_LERNZIEL).length} Fragen zur Modulorganisation aus — sie zielen auf kein benanntes Lernziel">Nur Lernzielfragen<span class="n">${POOL.filter(q=>q.kategorie!==OHNE_LERNZIEL).length}</span></button>
+        <button class="chip" data-nurkern aria-pressed="${filter.nurKern}"
+          title="Nur die Fragen, ohne die eine Standardfrage zum Lernziel nicht zu beantworten ist: Definitionen, Prüfschemata, Abgrenzungen. Ohne Jahreszahlen, Namenslisten und illustrierende Einzelzahlen.">Nur Kernstoff<span class="n">${POOL.filter(q=>q.kern).length}</span></button>
+      </div>
+      <div class="frow"><span class="flabel"></span>
+        <span class="pool" style="max-width:52ch">Kernstoff heisst: was ohne Wenn und Aber sitzen muss — Definitionen, Prüfschemata und Abgrenzungen, verteilt über alle 40 Lernziele.</span>
       </div>
       <div class="frow"><span class="flabel">Modus</span>
         ${Object.entries(MODI).map(([k,v])=>`<button class="chip" data-modus="${k}" aria-pressed="${filter.modus===k}" title="${esc(v[1])}">${v[0]}</button>`).join("")}
@@ -679,7 +682,7 @@ function renderDash(){
     }
     render();
   };
-  $("[data-nurziel]").onclick = ()=>{ filter.nurLernziel = !filter.nurLernziel; render(); };
+  $("[data-nurkern]").onclick = ()=>{ filter.nurKern = !filter.nurKern; render(); };
   $("#app").querySelectorAll("[data-ziel]").forEach(b=>b.onclick=()=>{
     filter.lernziel=b.dataset.ziel; filter.modul=new Set([b.dataset.zmod]);
     filter.woche=new Set(); filter.kategorie=new Set(); filter.typ=new Set(); filter.modus="mix";
@@ -689,7 +692,7 @@ function renderDash(){
   bindBackup();
   $("#reset").onclick = ()=>{
     filter.modul.clear(); filter.woche.clear(); filter.kategorie.clear(); filter.typ.clear();
-    filter.lernziel=null; filter.nurLernziel=false; filter.modus="mix"; filter.laenge=15; render();
+    filter.lernziel=null; filter.nurKern=false; filter.modus="mix"; filter.laenge=15; render();
   };
 }
 

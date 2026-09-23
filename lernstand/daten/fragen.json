@@ -21,7 +21,8 @@
     0
    ],
    "erklaerung": "Die vier Bestandteile der Definition sind: (1) Ereignisse, Aktivitäten, Entscheidungspunkte, (2) Akteure und Objekte, (3) ein Ergebnis, (4) Mehrwert für mindestens einen Kunden. Genau diese Zerlegung übt die BuildIT-Aufgabe.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": true
   },
   {
    "id": "OGPM-W1-02",
@@ -41,7 +42,8 @@
     0
    ],
    "erklaerung": "BPM ist die Gesamtheit von Methoden, Techniken und Werkzeugen zum Identifizieren, Erheben, Analysieren, Verbessern, Ausführen und Überwachen von Geschäftsprozessen — mit dem Ziel, deren Leistung zu optimieren. Die sechs Verben entsprechen den sechs Phasen des Lebenszyklus.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": true
   },
   {
    "id": "OGPM-W1-03",
@@ -61,7 +63,8 @@
     0
    ],
    "erklaerung": "Die Lieferung einer Baumaschine auf der Baustelle ist ein Ereignis (atomar). Die Inspektion der gelieferten Maschine ist eine Aktivität (dauert an). Dumas nennt das ausdrücklich als prüfungsrelevante Unterscheidung.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": true
   },
   {
    "id": "OGPM-W1-04",
@@ -81,7 +84,8 @@
     0
    ],
    "erklaerung": "Aufgabe = elementare, von einem einzelnen Prozessbeteiligten ausgeführte Arbeitseinheit. Aktivität = umfassendere Arbeitseinheit. Die Baumaschinenprüfung ist eine Aufgabe, wenn sie elementar betrachtet wird; umfasst sie mehrere Überprüfungen (Spezifikation, Funktionsfähigkeit, Zubehör, Sicherheit), ist sie eine Aktivität.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": true
   },
   {
    "id": "OGPM-W1-05",
@@ -101,7 +105,8 @@
     0
    ],
    "erklaerung": "Ein Arbeiter, der alle Arbeitsgänge allein ausführt, schafft 20 Stecknadeln pro Tag; zehn auf Teilverrichtungen spezialisierte Arbeiter schaffen 48 000. Smith betont: es ist die Gestaltung des Prozesses (die Kombination), die diese Leistung erbringt.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": false
   },
   {
    "id": "OGPM-W1-06",
@@ -121,7 +126,8 @@
     0
    ],
    "erklaerung": "Der Taylorismus fragt: Wie erzielen wir maximale Auslastung der Ressourcen? Das ist Ressourceneffizienz. Das Geschäftsprozessmanagement dreht die Frage um: Wie befriedigen wir Kundenbedürfnisse optimal? — das ist Prozesseffizienz.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": true
   },
   {
    "id": "OGPM-W1-07",
@@ -143,7 +149,8 @@
     2
    ],
    "erklaerung": "Taylorismus: feingliedrige Arbeitsteilung, Ressourceneffizienz, niedrige Produktionskosten, Trennung von Denken und Tun, Hierarchie als alleinige Koordinationsform. Flexibilität ist gerade irrelevant — sie gehört zu den Erfolgsfaktoren, die später wegfallen.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": true
   },
   {
    "id": "OGPM-W1-08",
@@ -165,7 +172,8 @@
     2
    ],
    "erklaerung": "Erfolgsfaktoren waren: stabile Umwelt, geringer Wettbewerbsdruck, der Produzent als König, uniforme Produkte, Flexibilität irrelevant, hohe Verfügbarkeit von Arbeitskräften. Seit den 90ern gilt das Gegenteil — kürzere Innovationszyklen, kleinere Stückzahlen, mehr Wettbewerbsdruck.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": false
   },
   {
    "id": "OGPM-W1-09",
@@ -185,7 +193,8 @@
     0
    ],
    "erklaerung": "500 → 120 Mitarbeitende entspricht 76 Prozent Einsparung. Dazu kamen einfachere Materialkontrolle, genauere Finanzinformationen, schnellere Bestellanforderung und weniger überfällige Zahlungen. Die konkreten Zahlen des Ford-Falls sind ausdrücklich prüfungsrelevant.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": true
   },
   {
    "id": "OGPM-W1-10",
@@ -205,7 +214,8 @@
     0
    ],
    "erklaerung": "Bei Mazda arbeiteten fünf Personen in dieser Abteilung, bei Ford 500 — Mazda war aber keineswegs 100-mal kleiner. Das Problem war: Ford deckte Abweichungen nachträglich auf, Mazda vermied sie von vornherein. Der neue Prozess schaffte den Abgleich nicht schneller, sondern ganz ab.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": true
   },
   {
    "id": "OGPM-W1-11",
@@ -225,7 +235,8 @@
     0
    ],
    "erklaerung": "Drei Dokumente mit je rund 14 Datenfeldern (Produktart, Menge, Preis usw.) — kein Wunder, dass täglich zahlreiche Unstimmigkeiten auftraten. In der Vorlesung: bei 30 Prozent der Fälle traten Abweichungen auf.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": false
   },
   {
    "id": "OGPM-W1-12",
@@ -237,7 +248,8 @@
    "frage": "Wie definieren Hammer und Champy Business Process Reengineering (BPR)?",
    "antwort": "Das grundlegende Umdenken und radikale Umgestalten von Geschäftsprozessen, um dramatische Verbesserungen bei Kosten, Qualität, Dienstleistung und Geschwindigkeit zu erreichen.",
    "erklaerung": "Hammers Forderungen im HBR-Artikel 1992: dramatische Verbesserungen anstreben, mit konventionellem Denken und Unternehmensgrenzen brechen, und IT nicht zur Automatisierung eines bestehenden Prozesses nutzen, sondern um einen neuen zu ermöglichen.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": true
   },
   {
    "id": "OGPM-W1-13",
@@ -257,7 +269,8 @@
     0
    ],
    "erklaerung": "Die übertriebene Radikalität ist einer der drei Gründe, warum BPR scheiterte. Ein radikaler Ansatz ist in manchen Situationen gerechtfertigt — die meisten Situationen erfordern aber einen viel inkrementelleren Ansatz.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": false
   },
   {
    "id": "OGPM-W1-14",
@@ -279,7 +292,8 @@
     2
    ],
    "erklaerung": "Viele BPR-Projekte waren als Personalabbau verpackt; Hammer forderte radikalen Bruch statt inkrementeller Verbesserung; und die Prozesslogik musste damals in Anwendungssoftware ausprogrammiert werden, was Redesign durch eine starre Infrastruktur behinderte.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": true
   },
   {
    "id": "OGPM-W1-15",
@@ -299,7 +313,8 @@
     0
    ],
    "erklaerung": "(1) Nicht die einzelne Abteilung, sondern der ganze Prozess wird zum primären Gestaltungsobjekt — die Drehung der Organisation um 90 Grad. (2) IT wird nicht zur Unterstützung einzelner Geschäftsfunktionen eingesetzt, sondern ermöglicht neue Prozesse.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": true
   },
   {
    "id": "OGPM-W1-16",
@@ -311,7 +326,8 @@
    "frage": "Wie lauten Bill Gates' zwei Regeln zur Automatisierung?",
    "antwort": "Die Automatisierung eines effizienten Prozesses erhöht die Effizienz. Die Automatisierung eines ineffizienten Prozesses erhöht die Ineffizienz.",
    "erklaerung": "Daraus folgt die Wirkkette des Moduls: Informationstechnologie ENABLES Prozessveränderungen, die Business Value LIEFERN. Die IT erzeugt den Wert also nicht selbst — deshalb die Leitfrage der Vorlesung: Kann gute Software allein einen schlechten Prozess retten?",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": false
   },
   {
    "id": "OGPM-W1-17",
@@ -331,7 +347,8 @@
     0
    ],
    "erklaerung": "Die Reihenfolge ist entscheidend: IT erzeugt den Wert nicht selbst, sondern ermöglicht die Prozessveränderung, die den Wert liefert. Das Einstiegsbeispiel dazu: ein Kundenantrag braucht 12 Tage, die tatsächliche Bearbeitungszeit sind 35 Minuten — und die Geschäftsleitung will das Problem mit KI lösen.",
-   "quelle": "OGPM 00 - Einführung in das Modul"
+   "quelle": "OGPM 00 - Einführung in das Modul",
+   "kern": true
   },
   {
    "id": "OGPM-W1-18",
@@ -352,7 +369,8 @@
     ]
    ],
    "erklaerung": "Beide Ebenen gliedern sich jeweils in Prozessorganisation, Prozessführung, Prozesscontrolling und Prozessoptimierung. GPM ist nach Schmelzer und Sesselmann ein integriertes Konzept aus Führung, Organisation und Controlling.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": true
   },
   {
    "id": "OGPM-W1-19",
@@ -371,7 +389,8 @@
     "Prozessüberwachung"
    ],
    "erklaerung": "Der Lebenszyklus ist ein Kreislauf: die Ergebnisse der Überwachung speisen wieder Erhebung, Analyse und Verbesserung. Hammer: Jeder gute Prozess wird irgendwann zu einem schlechten Prozess, sofern er nicht kontinuierlich angepasst und verbessert wird.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": true
   },
   {
    "id": "OGPM-W1-20",
@@ -408,7 +427,8 @@
     ]
    ],
    "erklaerung": "Die Ergebnisse jeder Phase sind der Input der nächsten. Bei der Analyse entsteht eine strukturierte Liste von Problemen, priorisiert nach potenzieller Auswirkung und geschätztem Lösungsaufwand.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": true
   },
   {
    "id": "OGPM-W1-21",
@@ -441,7 +461,8 @@
     ]
    ],
    "erklaerung": "Die Prozessimplementierung fragt: Wie werden Arbeitsweise und IT-Systeme angepasst? Sie umfasst zwei Aspekte — organisationsbezogenes Änderungsmanagement und Prozessautomatisierung.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": false
   },
   {
    "id": "OGPM-W1-22",
@@ -461,7 +482,8 @@
     0
    ],
    "erklaerung": "Änderungsmanagement umfasst Erklärungen an alle Prozessbeteiligten, einen Plan mit Übergangsregelungen und Schulungen. Prozessautomatisierung umfasst die Konfiguration oder Implementierung eines IT-Systems, das die Beteiligten bei ihren Aufgaben unterstützt.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": true
   },
   {
    "id": "OGPM-W1-23",
@@ -481,7 +503,8 @@
     0
    ],
    "erklaerung": "Abbildung: ein Modell ist die Abbildung eines Objekts. Verkürzung: Modelle sind Abstraktionen zur Komplexitätsreduktion und dokumentieren nur relevante Aspekte. Pragmatismus: Modelle entstehen für einen spezifischen Zweck und eine spezifische Zielgruppe.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": true
   },
   {
    "id": "OGPM-W1-24",
@@ -502,7 +525,8 @@
     ]
    ],
    "erklaerung": "Ziele: Reduktion des Erklärungsaufwands und Eindeutigkeit. Das Gegenbeispiel aus der Vorlesung — syntaktisch korrekt, semantisch sinnlos: Zwei Hochhäuser sitzen im Keller und stricken Erdöl.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": true
   },
   {
    "id": "OGPM-W1-25",
@@ -524,7 +548,8 @@
     2
    ],
    "erklaerung": "Die Basiselemente sind: Pool, Lane, Startereignis, Endereignis, Aufgabe/Aktivität, Sequenzfluss und Gateway. In BPMN werden Aktivitäten als abgerundete Rechtecke dargestellt, Gateways als Rauten.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": true
   },
   {
    "id": "OGPM-W1-26",
@@ -544,7 +569,8 @@
     0
    ],
    "erklaerung": "2011 wurde Version 2.0 verabschiedet und dabei von Business Process Modeling Notation in Business Process Model AND Notation umbenannt — es kamen zahlreiche neue Diagrammtypen und ein neues Austauschformat dazu. Die neueste Version ist 2.0.2 (Dezember 2013, OMG).",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": false
   },
   {
    "id": "OGPM-W1-27",
@@ -563,7 +589,8 @@
     "2013: BPMN 2.0.1"
    ],
    "erklaerung": "Bis 2008 erschien noch Version 1.2, 2014 folgte 2.0.2. Wichtig für die Prüfung ist vor allem: White/IBM als Urheber, OMG als Standardisierungsgremium und 2011 als Jahr der Umbenennung.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": false
   },
   {
    "id": "OGPM-W1-28",
@@ -585,7 +612,8 @@
     2
    ],
    "erklaerung": "Weitere Ziele: Akzeptanz in der Business Community und einfacheres Verständnis für Endbenutzer. BPMN ist eine Spezifikationssprache für betriebswirtschaftliche UND IT-Experten und herstellerunabhängig.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": false
   },
   {
    "id": "OGPM-W1-29",
@@ -607,7 +635,8 @@
     2
    ],
    "erklaerung": "Genannt werden Signavio, Modelio, ADONIS, Camunda, Bizagi und Software AG ARIS. Im Modul selbst wird mit SAP Signavio Process Manager modelliert.",
-   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement"
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": false
   },
   {
    "id": "OGPM-W1-30",
@@ -640,7 +669,8 @@
     ]
    ],
    "erklaerung": "Procure to Pay ist das Gegenstück zu Order to Cash auf der Lieferantenseite. Application to Approval ist häufig in Behörden — und beschreibt genau den Zulassungsprozess an einer Universität aus Übung 3.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": true
   },
   {
    "id": "OGPM-W1-31",
@@ -660,7 +690,8 @@
     0
    ],
    "erklaerung": "Akteure können menschliche Akteure, Organisationen oder Softwaresysteme sein, die im Namen menschlicher Akteure handeln. Bei BuildIT sind Sachbearbeiter, Bauleiter und Arbeitsingenieur intern, Kunden und Lieferanten extern.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": false
   },
   {
    "id": "OGPM-W1-32",
@@ -681,7 +712,8 @@
     ]
    ],
    "erklaerung": "In Übung 1 sind die Objekte: die gemietete Baumaschine (physisch) sowie Mietanfrageformular, Lieferantenkataloge, Bestellungen, Mietvereinbarungen und Rechnungen (elektronisch).",
-   "quelle": "OGPM Übung 1 - Bestandteile eines Geschäftsprozesses (BuildIT)"
+   "quelle": "OGPM Übung 1 - Bestandteile eines Geschäftsprozesses (BuildIT)",
+   "kern": false
   },
   {
    "id": "OGPM-W1-33",
@@ -701,7 +733,8 @@
     0
    ],
    "erklaerung": "Beispiel bei BuildIT: die Maschine wird zurückgegeben, ohne dass jemand einen Mehrwert erzielt, oder die Lieferung verzögert sich. Ein positives Ergebnis dagegen schafft Mehrwert — die Maschine wird verwendet und der Lieferant bezahlt.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": true
   },
   {
    "id": "OGPM-W1-34",
@@ -730,7 +763,8 @@
     ]
    ],
    "erklaerung": "Das besondere Merkmal von BPM gegenüber allen vieren ist die Verwendung von Prozessmodellen während des gesamten Lebenszyklus. Die Abgrenzung von BPM zu TQM, Lean, Six Sigma und Produktionswirtschaft ist ausdrücklich prüfungsrelevant.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": true
   },
   {
    "id": "OGPM-W1-35",
@@ -750,7 +784,8 @@
     0
    ],
    "erklaerung": "BPM ist keineswegs die einzige Disziplin zur Verbesserung operativer Abläufe. Was BPM auszeichnet, ist das durchgängige Arbeiten mit Prozessmodellen — von der Erhebung bis zur Ausführung im BPMS.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": false
   },
   {
    "id": "OGPM-W1-36",
@@ -770,7 +805,8 @@
     0
    ],
    "erklaerung": "Kevin McCormack untersuchte 100 US-amerikanische Fertigungsunternehmen und fand, dass prozessorientierte Organisationen besser abschnitten, bessere Arbeitskräfte hatten und weniger an abteilungsübergreifenden Konflikten litten. Parallel entstanden ERP- und Workflowsysteme.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": false
   },
   {
    "id": "OGPM-W1-37",
@@ -790,7 +826,8 @@
     0
    ],
    "erklaerung": "Die Alternative wäre, die Ausführungsregeln in komplexen Softwaresystemen über Zehntausende Codezeilen verteilt auszuprogrammieren. Die zentrale Datenbank für alle Geschäftsdaten beschreibt dagegen ein ERP-System. Beide zusammen führten zum Begriff BPMS.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": false
   },
   {
    "id": "OGPM-W1-38",
@@ -810,7 +847,8 @@
     0
    ],
    "erklaerung": "BPMS sind nur eine Kategorie von IT-Werkzeugen, welche die Implementierung und Ausführung von Geschäftsprozessen unterstützen. Der Begriff BPMS setzte sich durch, als Workflowsysteme immer besser mit anderen Unternehmenssystemen integriert werden konnten.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": false
   },
   {
    "id": "OGPM-W1-39",
@@ -843,7 +881,8 @@
     ]
    ],
    "erklaerung": "Prozessanalysten haben typischerweise einen von zwei Hintergründen: betriebswirtschaftlich (Anforderungen, Kennzahlen, Änderungsmanagement) oder IT (Prozessautomatisierung). Ein eigenes BPM-Team gibt es meist nur in grossen Unternehmen mit mehrjähriger Erfahrung.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": false
   },
   {
    "id": "OGPM-W1-40",
@@ -863,7 +902,8 @@
     0
    ],
    "erklaerung": "Der Kunde ist derjenige, der die Leistung erhält — bei BuildIT ist das ein interner Kunde. Akteure sind darüber hinaus Sachbearbeiter im Depot, Arbeitsingenieur, Lieferanten und Finanzabteilung.",
-   "quelle": "OGPM Übung 1 - Bestandteile eines Geschäftsprozesses (BuildIT)"
+   "quelle": "OGPM Übung 1 - Bestandteile eines Geschäftsprozesses (BuildIT)",
+   "kern": true
   },
   {
    "id": "OGPM-W1-41",
@@ -885,7 +925,8 @@
     2
    ],
    "erklaerung": "Die Zahlung durch die Finanzabteilung ist ein Ereignis, kein Entscheidungspunkt. Weitere Entscheidungspunkte: Braucht es eine Alternative? Storniert der Bauleiter? Genehmigt der Lieferant die Verlängerung?",
-   "quelle": "OGPM Übung 1 - Bestandteile eines Geschäftsprozesses (BuildIT)"
+   "quelle": "OGPM Übung 1 - Bestandteile eines Geschäftsprozesses (BuildIT)",
+   "kern": false
   },
   {
    "id": "OGPM-W1-42",
@@ -905,7 +946,8 @@
     0
    ],
    "erklaerung": "Im besten Fall wird der Wert vollständig realisiert; sonst weicht eine oder weichen mehrere der Wertkomponenten ab. Kunde des Gesamtprozesses ist der Einkauf — die übrigen Akteure sind jeweils interne Kunden der vorgelagerten Funktion.",
-   "quelle": "OGPM Übung 2 - Fallstudie Ford-Mazda"
+   "quelle": "OGPM Übung 2 - Fallstudie Ford-Mazda",
+   "kern": false
   },
   {
    "id": "OGPM-W1-43",
@@ -927,7 +969,8 @@
     2
    ],
    "erklaerung": "Der Merksatz der Vorlesung: Eine lange Durchlaufzeit ist ein Symptom. Die Prozessanalyse sucht die Ursache. Redesign-Hebel sind dann: unnötige Schritte entfernen, Abläufe vereinfachen, parallelisieren, Verantwortlichkeiten klären, Entscheidungen standardisieren, Digitalisierung nutzen.",
-   "quelle": "OGPM 00 - Einführung in das Modul"
+   "quelle": "OGPM 00 - Einführung in das Modul",
+   "kern": true
   },
   {
    "id": "OGPM-W1-44",
@@ -949,7 +992,8 @@
     2
    ],
    "erklaerung": "Der Merksatz dazu: Automatisierung ist kein Selbstzweck. Sie muss ein konkretes Prozessproblem lösen. Mögliche Technologien sind ERP, Workflow-Management-Systeme, RPA, Low-Code, Entscheidungsautomation, KI-Unterstützung und Process Mining.",
-   "quelle": "OGPM 00 - Einführung in das Modul"
+   "quelle": "OGPM 00 - Einführung in das Modul",
+   "kern": false
   },
   {
    "id": "OGPM-W1-45",
@@ -971,7 +1015,8 @@
     2
    ],
    "erklaerung": "Ein neuer Soll-Prozess ist erst erfolgreich, wenn seine Wirkung messbar ist. Die drei Effizienzdimensionen, mit denen Übung 3 arbeitet, sind Zeit, Kosten und Qualität.",
-   "quelle": "OGPM 00 - Einführung in das Modul"
+   "quelle": "OGPM 00 - Einführung in das Modul",
+   "kern": false
   },
   {
    "id": "OGPM-W1-46",
@@ -991,7 +1036,8 @@
     0
    ],
    "erklaerung": "Alle fünf Teilaufgaben der Gruppenarbeit zählen gleich; ihr Durchschnitt macht die 30 Prozent aus. Die Prüfung ist Open Book, elektronische Hilfsmittel sind nicht erlaubt. Das Modul hat 6 ECTS.",
-   "quelle": "OGPM 00 - Modulbeschreibung"
+   "quelle": "OGPM 00 - Modulbeschreibung",
+   "kern": false
   },
   {
    "id": "OGPM-W2-01",
@@ -1024,7 +1070,8 @@
     ]
    ],
    "erklaerung": "Der Hinweis zu den Messgrössen nennt die drei Effizienzdimensionen Zeit, Kosten und Qualität. Zu dieser Übung liegt kein Lösungsblatt vor — Lösungen erscheinen erst nach der Besprechung in der Klasse.",
-   "quelle": "OGPM Übung 3 - Fallstudie Studentenzulassung"
+   "quelle": "OGPM Übung 3 - Fallstudie Studentenzulassung",
+   "kern": true
   },
   {
    "id": "OGPM-W2-02",
@@ -1044,7 +1091,8 @@
     0
    ],
    "erklaerung": "Eine Bewerbung kann fertig validiert sein und trotzdem Wochen liegen bleiben. Dazu kommen die Medienbrüche: ein Online-Formular, das zu einem Postversand führt, und eine Anerkennungsstelle, die ausschliesslich per Post arbeitet. Dieselbe Denkfigur wie bei BuildIT — die lange Durchlaufzeit ist das Symptom.",
-   "quelle": "OGPM Übung 3 - Fallstudie Studentenzulassung"
+   "quelle": "OGPM Übung 3 - Fallstudie Studentenzulassung",
+   "kern": false
   },
   {
    "id": "OGPM-W2-03",
@@ -1064,7 +1112,8 @@
     0
    ],
    "erklaerung": "Wenn jeder eigene Symbole erfindet, sind zwei Modelle desselben Textes nicht vergleichbar — genau das Problem, das Syntax und Semantik einer Standardnotation lösen. Weitere Lernziele: verstehen, wie schwer es ist, Realität eindeutig zu beschreiben, und reflektieren, welche Informationen entscheidend sind.",
-   "quelle": "OGPM Übung 4 - Prozessmodellierung ohne Sprache"
+   "quelle": "OGPM Übung 4 - Prozessmodellierung ohne Sprache",
+   "kern": false
   },
   {
    "id": "OGPM-W2-04",
@@ -1084,7 +1133,8 @@
     0
    ],
    "erklaerung": "Wichtig: Diagramme können durch Textbeschreibungen ergänzt werden — üblicherweise dokumentieren Analysten einen Prozess mit einer Kombination aus Diagrammen und Text. Andere Modellierungssprachen sind Flussdiagramme, UML-Aktivitätsdiagramme, EPKs, Datenflussdiagramme und IDEF3.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": false
   },
   {
    "id": "OGPM-W2-05",
@@ -1104,7 +1154,8 @@
     0
    ],
    "erklaerung": "Zur Dokumentation für neue Mitarbeitende kommen Erklärungen dazu; für quantitative Analysen braucht es Zeiten je Aufgabe; für die Ausführung im BPMS braucht das Modell Ein- und Ausgabeformate. Das entspricht dem Modellkriterium Pragmatismus.",
-   "quelle": "OGPM - Dumas Kapitel 1"
+   "quelle": "OGPM - Dumas Kapitel 1",
+   "kern": false
   },
   {
    "id": "OGPM-W2-06",
@@ -1124,7 +1175,8 @@
     0
    ],
    "erklaerung": "Das Einstiegsbeispiel: Ein Kundenantrag dauert durchschnittlich 12 Tage bei 35 Minuten tatsächlicher Bearbeitungszeit, sieben Stellen sind beteiligt, Daten werden dreimal manuell übertragen, 18 Prozent kommen zur Nachbearbeitung zurück — und die Geschäftsleitung möchte das mit KI lösen.",
-   "quelle": "OGPM 00 - Einführung in das Modul"
+   "quelle": "OGPM 00 - Einführung in das Modul",
+   "kern": false
   },
   {
    "id": "GENE-POL-W1-01",
@@ -1137,7 +1189,8 @@
    "frage": "Wie definiert Patzelt (2003) Politik?",
    "antwort": "Politik ist menschliches Handeln, das darauf abzielt, allgemein verbindliche Regelungen und Entscheidungen herzustellen und durchzusetzen — und zwar innerhalb von und zwischen Gruppen von Menschen.",
    "erklaerung": "Wichtig ist die Unterscheidung im Detail: Entscheidungen meinen die Verbindlichkeit im Einzelfall, Regelungen dagegen ganze Klassen von Fällen. Allgemeine Verbindlichkeit funktioniert über Macht.",
-   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen"
+   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen",
+   "kern": true
   },
   {
    "id": "GENE-POL-W1-02",
@@ -1163,7 +1216,8 @@
     ]
    ],
    "erklaerung": "Das politische Dreieck: polity ist strukturell, policy inhaltlich, politics prozessual. Die Pflichtlektüre ergänzt: Polity ist gewissermassen die statische Form der dynamischen Prozesse — sie wird durch politische Prozesse geformt und wirkt auf diese zurück.",
-   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen"
+   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen",
+   "kern": true
   },
   {
    "id": "GENE-POL-W1-03",
@@ -1183,7 +1237,8 @@
     "Politikterminierung"
    ],
    "erklaerung": "Der Policy-Cycle geht auf Easton zurück (Darstellung nach Jann/Wegrich 2003). Nach der Terminierung beginnt der Zyklus gegebenenfalls mit einer neuen Problemdefinition von vorn.",
-   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen"
+   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen",
+   "kern": false
   },
   {
    "id": "GENE-POL-W1-04",
@@ -1206,7 +1261,8 @@
     2
    ],
    "erklaerung": "Der Merkmalskatalog umfasst ausserdem Staatsgebiet und staatliches Gewaltmonopol. Entscheidend ist: die Entscheidungsstrukturen müssen vom Volk akzeptiert werden — legitim und legal müssen zusammenkommen.",
-   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen"
+   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen",
+   "kern": true
   },
   {
    "id": "GENE-POL-W1-05",
@@ -1227,7 +1283,8 @@
     0
    ],
    "erklaerung": "Beide zusammen bilden die Vereinigte Bundesversammlung (Legislative). Exekutive ist der Bundesrat, Judikative sind die Bundesgerichte. Auf föderaler Ebene kommen 26 Kantonsparlamente und -regierungen dazu.",
-   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen"
+   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen",
+   "kern": false
   },
   {
    "id": "GENE-POL-W1-06",
@@ -1253,7 +1310,8 @@
     ]
    ],
    "erklaerung": "Die beiden Schlussfolgerungen der Vorlesung: Wahlen und Abstimmungen allein machen noch keine gute Demokratie — und die verschiedenen Merkmale können unterschiedlich gewichtet werden, je nach Gewichtung fällt das Ranking eines Landes anders aus.",
-   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen"
+   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen",
+   "kern": false
   },
   {
    "id": "GENE-POL-W1-07",
@@ -1274,7 +1332,8 @@
     0
    ],
    "erklaerung": "Der NZZ-Artikel von Martin Senti spitzt zu: Ein neues Rating erklärt die Schweiz gewissermassen zum demokratischen Entwicklungsland. Kontroverse Beispiele der Vorlesung: Wahlen gibt es auch in Russland und der Türkei; fehlendes Ausländerstimmrecht; unverfälschte Stimmabgabe bei Briefwahl und E-Voting.",
-   "quelle": "GENE POL 01 - NZZ-Artikel zur Demokratiequalität"
+   "quelle": "GENE POL 01 - NZZ-Artikel zur Demokratiequalität",
+   "kern": false
   },
   {
    "id": "GENE-POL-W1-08",
@@ -1300,7 +1359,8 @@
     ]
    ],
    "erklaerung": "Genau hier lag die Falle in der Lernkontrolle: Monopole und Kartelle zu verhindern ist Aufgabe der ORDNUNGSpolitik, nicht der Prozesspolitik.",
-   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen"
+   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen",
+   "kern": true
   },
   {
    "id": "GENE-POL-W1-09",
@@ -1321,7 +1381,8 @@
     0
    ],
    "erklaerung": "Zum Sechseck erweitert wird es durch Umweltschutz und Verteilungsgerechtigkeit. Magisch heisst es, weil die Ziele in Zielkonflikten zueinander stehen — alle gleichzeitig und vollständig zu erreichen ist praktisch unmöglich. Es gibt aber sowohl Zielharmonie als auch Zielkonflikte.",
-   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen"
+   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen",
+   "kern": true
   },
   {
    "id": "GENE-POL-W1-10",
@@ -1343,7 +1404,8 @@
     ]
    ],
    "erklaerung": "Der Keynesianismus setzt auf antizyklische Konjunkturpolitik mit Staatsausgaben und Investitionsprogrammen. Der Monetarismus setzt auf ein stetiges Wachstum der Geldmenge und sieht Eingriffe als störend.",
-   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen"
+   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen",
+   "kern": true
   },
   {
    "id": "GENE-POL-W1-11",
@@ -1364,7 +1426,8 @@
     0
    ],
    "erklaerung": "In Kombination sorgen sie für ein attraktives Investitions- und Arbeitsumfeld und sichern den Arbeitsfrieden. Zweiter entscheidender Aspekt: der Zugang zu bestehenden und die Öffnung neuer Märkte — Sicherung des bilateralen Verhältnisses mit der EU und Erweiterung des Freihandelsnetzes.",
-   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen"
+   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen",
+   "kern": false
   },
   {
    "id": "GENE-POL-W1-12",
@@ -1390,7 +1453,8 @@
     ]
    ],
    "erklaerung": "Verbände und Parteien sind hochgradig formalisiert, soziale Bewegungen haben einen viel geringeren Organisationsgrad. Als Akteur gilt, wer absichtsvoll und einflussreich handelt — wobei auch das gezielte Unterlassen oder Dulden eine Handlungsform ist.",
-   "quelle": "GENE POL 01 - Pflichtlektüre Demokratie 1"
+   "quelle": "GENE POL 01 - Pflichtlektüre Demokratie 1",
+   "kern": false
   },
   {
    "id": "GENE-POL-W1-13",
@@ -1411,7 +1475,8 @@
     0
    ],
    "erklaerung": "Volksherrschaft kann direkt ausgeübt werden oder durch Abgabe von Macht an Repräsentanten in freien und fairen Wahlen. Wichtig zur Abgrenzung: moderne parlamentarische Monarchien sind ebenso demokratisch regiert wie moderne Republiken.",
-   "quelle": "GENE POL 01 - Pflichtlektüre Demokratie 1"
+   "quelle": "GENE POL 01 - Pflichtlektüre Demokratie 1",
+   "kern": false
   },
   {
    "id": "GENE-POL-W1-14",
@@ -1445,7 +1510,8 @@
     ]
    ],
    "erklaerung": "Hobbes verstand die Staatsgewalt immer im Rahmen des Schutz-Gehorsam-Austausches und kann deshalb nicht als Befürworter des Totalitarismus gelten. Rousseau hat ein genau gegenläufiges Menschenbild zu Hobbes.",
-   "quelle": "GENE POL 01 - Pflichtlektüre Demokratie 1"
+   "quelle": "GENE POL 01 - Pflichtlektüre Demokratie 1",
+   "kern": false
   },
   {
    "id": "GENE-POL-W1-15",
@@ -1466,7 +1532,8 @@
     0
    ],
    "erklaerung": "Zunächst galt der Verzicht nur zeitlich (Sonn- und Feiertage); 1085 erliess Heinrich IV. in Mainz den ersten reichsweiten Gottesfrieden. Das ist ein früher Schritt zum staatlichen Gewaltmonopol — davor sicherte die Blutrache die individuelle Sicherheit.",
-   "quelle": "GENE POL 01 - Pflichtlektüre Demokratie 1"
+   "quelle": "GENE POL 01 - Pflichtlektüre Demokratie 1",
+   "kern": false
   },
   {
    "id": "GENE-POL-W2-01",
@@ -1487,7 +1554,8 @@
     0
    ],
    "erklaerung": "Die Schweiz ist Weltmeisterin bei direktdemokratischen Abstimmungen (World of Referendums 2023). Das Volk wirkt über Volksinitiative auf Verfassungsebene und Referendum auf Gesetzesebene ein.",
-   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus"
+   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus",
+   "kern": true
   },
   {
    "id": "GENE-POL-W2-02",
@@ -1517,7 +1585,8 @@
     ]
    ],
    "erklaerung": "Beispiele: Masseneinwanderungsinitiative (Verfassungsinitiative), Ehe für alle (Gesetzesreferendum), Totalrevision der Bundesverfassung 1999 (Verfassungsreferendum), UNO-Beitritt (Staatsvertragsreferendum).",
-   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus"
+   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus",
+   "kern": true
   },
   {
    "id": "GENE-POL-W2-03",
@@ -1534,7 +1603,8 @@
     "Verordnungen"
    ],
    "erklaerung": "Das Volk wirkt über die Volksinitiative auf Verfassungsebene und über das Referendum auf Gesetzesebene ein. Das Parlament macht die Gesetze, der Bundesrat die Verordnungen.",
-   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus"
+   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus",
+   "kern": true
   },
   {
    "id": "GENE-POL-W2-04",
@@ -1557,7 +1627,8 @@
     2
    ],
    "erklaerung": "Die Anzahl Initiativen pro Jahr hat stark zugenommen — die Hürde der Unterschriftenzahl wird relativ kleiner. Eine Herausforderung im globalen Kontext sind Initiativen mit Inhalten, die internationalem Recht widersprechen.",
-   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus"
+   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus",
+   "kern": false
   },
   {
    "id": "GENE-POL-W2-05",
@@ -1578,7 +1649,8 @@
     0
    ],
    "erklaerung": "Ergebnis sind diverse Hürden als Veto-Player. Das Volk wirkt dadurch als Kontrollinstanz für wichtige Fragen, auch ohne dass es zur Abstimmung kommt.",
-   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus"
+   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus",
+   "kern": false
   },
   {
    "id": "GENE-POL-W2-06",
@@ -1604,7 +1676,8 @@
     ]
    ],
    "erklaerung": "Das war die Leitfrage des Vorbereitungsauftrags: Wie unterscheiden sich die schweizerische Bundesverfassung und das deutsche Grundgesetz? Die Antwort läuft über die Verfassungsgerichtsbarkeit.",
-   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus"
+   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus",
+   "kern": true
   },
   {
    "id": "GENE-POL-W2-07",
@@ -1625,7 +1698,8 @@
     0
    ],
    "erklaerung": "Zentral ist das Subsidiaritätsprinzip — begrenzte Eigenständigkeit und Hoheitsgewalt. Föderalismus ist sinnvoll, wenn Regieren via Zentralgewalt nicht praktizierbar ist, und wirkt als Form von Gewalten- und Machtteilung.",
-   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus"
+   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus",
+   "kern": false
   },
   {
    "id": "GENE-POL-W2-08",
@@ -1648,7 +1722,8 @@
     2
    ],
    "erklaerung": "Als Vorbild nennt die Vorlesung die katholische Kirche mit einem Papst; als Beispiel Frankreich, allerdings mit zunehmender Dezentralisierung in den letzten Jahrzehnten.",
-   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus"
+   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus",
+   "kern": false
   },
   {
    "id": "GENE-POL-W2-09",
@@ -1669,7 +1744,8 @@
     0
    ],
    "erklaerung": "Die Ursprünge: Napoleon und der Bundesvertrag von 1815, das Ende des Sonderbundskriegs und die erste Bundesverfassung 1848. Napoleon wird zitiert mit: La Suisse est fédéraliste ou elle n'est pas.",
-   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus"
+   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus",
+   "kern": true
   },
   {
    "id": "GENE-POL-W2-10",
@@ -1691,7 +1767,8 @@
     ]
    ],
    "erklaerung": "Vertikal heisst Einflussnahme der Kantone auf Bundesebene, horizontal heisst Kooperation zwischen den föderalen Einheiten. Sitz des horizontalen Föderalismus ist das Haus der Kantone in Bern.",
-   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus"
+   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus",
+   "kern": false
   },
   {
    "id": "GENE-POL-W2-11",
@@ -1714,7 +1791,8 @@
     2
    ],
    "erklaerung": "Gerade schnelle Entscheidungen sind ein Nachteil — vor allem in komplexen Situationen. Weitere Nachteile: ungerechte Macht- und Steuerverhältnisse, höherer Regierungs- und Verwaltungsaufwand, Einzellösungen als Herausforderung im Alltag. Diskutiert wurde das an der Covid-Politik.",
-   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus"
+   "quelle": "GENE POL 02 - Verfassung, Gesetzgebung und Föderalismus",
+   "kern": true
   },
   {
    "id": "GENE-WG-W1-01",
@@ -1735,7 +1813,8 @@
     0
    ],
    "erklaerung": "Carlowitz plädierte dafür, nur so viel Holz zu schlagen, wie nachwachsen kann. Ihn trieb dabei weniger die Sorge um die Umwelt als die Sicherstellung der Holzversorgung für den Bergbau im Erzgebirge. Das Prinzip steht heute noch im Schweizer Forstgesetz.",
-   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung"
+   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-02",
@@ -1748,7 +1827,8 @@
    "frage": "Wie definiert der Brundtlandbericht (1987) nachhaltige Entwicklung?",
    "antwort": "Eine Entwicklung, die die Bedürfnisse der Gegenwart befriedigt, ohne zu riskieren, dass künftige Generationen ihre eigenen Bedürfnisse nicht befriedigen können.",
    "erklaerung": "Wichtige Begriffsunterscheidung: Nachhaltigkeit ist der Zustand, der angestrebt wird — der Weg dorthin heisst nachhaltige Entwicklung. Der gemeinsame Nenner aller verwandten Begriffe: von den Zinsen leben, nicht von der Substanz.",
-   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung"
+   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung",
+   "kern": true
   },
   {
    "id": "GENE-WG-W1-03",
@@ -1770,7 +1850,8 @@
     ]
    ],
    "erklaerung": "Beides ist eine anthropozentrische Position. Die Unterscheidung ist ein explizites Lernziel der Vorlesung — intra heisst innerhalb derselben Generation, inter heisst zwischen den Generationen.",
-   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung"
+   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung",
+   "kern": true
   },
   {
    "id": "GENE-WG-W1-04",
@@ -1790,7 +1871,8 @@
     "2024: UN-Zukunftsgipfel in New York, Pact for the Future"
    ],
    "erklaerung": "1980 gründete UNEP die World Commission on Environment and Development, die 1983 die Brundtlandkommission ins Leben rief. Die offiziellen Diskussionen über die Post-2030-Agenda beginnen erst beim SDG-Gipfel im September 2027.",
-   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung"
+   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-05",
@@ -1816,7 +1898,8 @@
     ]
    ],
    "erklaerung": "Die ökonomische Dimension enthält auch das Verursacherprinzip. Die soziale Dimension umfasst Gesundheit und Sicherheit, Gleichstellung, Menschenrechte, Minderheitenschutz sowie Bildung und Kultur für alle.",
-   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie"
+   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie",
+   "kern": true
   },
   {
    "id": "GENE-WG-W1-06",
@@ -1839,7 +1922,8 @@
     2
    ],
    "erklaerung": "Der letzte Punkt führt zum Vorrangmodell, das die Ökologie nicht gleichberechtigt neben, sondern über die anderen Dimensionen stellt. Weitere Kritik: die Akteure haben unterschiedliche, teils widersprüchliche Ziele.",
-   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung"
+   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung",
+   "kern": true
   },
   {
    "id": "GENE-WG-W1-07",
@@ -1861,7 +1945,8 @@
     ]
    ],
    "erklaerung": "Nach schwacher Nachhaltigkeit ist intensive Erdölnutzung oder Abholzung vertretbar, wenn man sie durch andere Kapitalien ersetzt. Nach starker Nachhaltigkeit kann der Amazonas-Regenwald nicht ersetzt werden, wenn er einmal abgeholzt ist.",
-   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung"
+   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung",
+   "kern": true
   },
   {
    "id": "GENE-WG-W1-08",
@@ -1882,7 +1967,8 @@
     0
    ],
    "erklaerung": "Sachkapital sind Produktionsmittel, Transport und Infrastruktur; Humankapital ist vorhandenes Wissen und soziale Institutionen; Naturkapital ist die natürliche Umwelt, Tiere, Pflanzen und Rohstoffe.",
-   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung"
+   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-09",
@@ -1905,7 +1991,8 @@
     2
    ],
    "erklaerung": "Die letzte Aussage beschreibt gerade die schwache Nachhaltigkeit. Zusatz zum dritten Kriterium: Emissionen nicht abbaubarer Schadstoffe sind unabhängig von noch freien Tragekapazitäten zu minimieren.",
-   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung"
+   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-10",
@@ -1928,7 +2015,8 @@
     2
    ],
    "erklaerung": "Die Agenda 2030 nimmt im Gegenteil alle 197 Mitgliedstaaten in die Pflicht. Inhaltlich: 17 Ziele, die Ökologie ist stärker gewichtet als bei den MDGs und der Agenda 21, und Frieden wird als Nachhaltigkeitsziel erklärt.",
-   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung"
+   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung",
+   "kern": true
   },
   {
    "id": "GENE-WG-W1-11",
@@ -1949,7 +2037,8 @@
     0
    ],
    "erklaerung": "Produktionsfaktoren sind Mittel (Input) zur Herstellung von Waren und Dienstleistungen (Output). Zur Arbeitskraft gehört auch das Wissen und Know-how; von der öffentlichen Hand geschaffene Investitionsgüter heissen Infrastruktur.",
-   "quelle": "GENE WG 01 - Compendio Einführung Wirtschaftsgeografie"
+   "quelle": "GENE WG 01 - Compendio Einführung Wirtschaftsgeografie",
+   "kern": true
   },
   {
    "id": "GENE-WG-W1-12",
@@ -1970,7 +2059,8 @@
     0
    ],
    "erklaerung": "Die sechs Daseinsgrundfunktionen sind: Wohnen, Arbeiten, Sich-Bilden, Sich-Versorgen, Am-Verkehr-Teilnehmen und Sich-Erholen. Im weiteren Sinne umfasst Boden alle von der Natur bereitgestellten Produktionsfaktoren, also auch Lufthülle und Ozeane.",
-   "quelle": "GENE WG 01 - Compendio Einführung Wirtschaftsgeografie"
+   "quelle": "GENE WG 01 - Compendio Einführung Wirtschaftsgeografie",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-13",
@@ -1991,7 +2081,8 @@
     0
    ],
    "erklaerung": "Die Steine in der Sahara sind begrenzt, aber sicher nicht knapp. Rote Sportwagen sind begrenzt, aber nicht knapp — wir könnten mehr herstellen. Van-Gogh-Bilder sind sowohl begrenzt als auch knapp, weil der Maler 1890 gestorben ist.",
-   "quelle": "GENE WG 01 - Compendio Einführung Wirtschaftsgeografie"
+   "quelle": "GENE WG 01 - Compendio Einführung Wirtschaftsgeografie",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-14",
@@ -2017,7 +2108,8 @@
     ]
    ],
    "erklaerung": "Die Auswahl der Ressourcen hängt von der wirtschaftlichen und technologischen Entwicklung ab — in der Steinzeit waren Feuersteinvorkommen zentral, heute Erdöl und Erdgas. Der Übergang von Stocks zu Ressourcen ist umkehrbar. Der grössere Teil der Ressourcen ist derzeit subökonomisch.",
-   "quelle": "GENE WG 01 - Compendio Einführung Wirtschaftsgeografie"
+   "quelle": "GENE WG 01 - Compendio Einführung Wirtschaftsgeografie",
+   "kern": true
   },
   {
    "id": "GENE-WG-W1-15",
@@ -2038,7 +2130,8 @@
     0
    ],
    "erklaerung": "Erneuerbare Ressourcen ersetzen sich durch natürliche Prozesse innerhalb von Menschen absehbaren Zeiträumen — die Regenerierzeit beträgt Jahre bis einige Jahrzehnte. Nicht erneuerbare Ressourcen sind ein einmaliges Geschenk aus der Jahrmillionen dauernden Erdgeschichte.",
-   "quelle": "GENE WG 01 - Compendio Einführung Wirtschaftsgeografie"
+   "quelle": "GENE WG 01 - Compendio Einführung Wirtschaftsgeografie",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-16",
@@ -2059,7 +2152,8 @@
     0
    ],
    "erklaerung": "Recycelbare werden bei der Nutzung nicht völlig verändert. Bei den erneuerbaren unterscheidet die Typisierung direkte Sonnenenergie (Fotovoltaik), indirekte Sonnenenergie (Wind, Gezeiten, Wasserkraft, Feldfrüchte, Holz) und geothermale Energie.",
-   "quelle": "GENE WG 01 - Compendio Einführung Wirtschaftsgeografie"
+   "quelle": "GENE WG 01 - Compendio Einführung Wirtschaftsgeografie",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-17",
@@ -2080,7 +2174,8 @@
     0
    ],
    "erklaerung": "Erdöl, Uran oder Kohle müssen importiert werden. Das Wissens- und Spezialisierungsniveau der Bevölkerung lässt sich als menschliche Ressource betrachten. Genau davon profitiert etwa die Basler Chemie über den Hochschul- und Forschungsstandort.",
-   "quelle": "GENE WG 01 - Compendio Einführung Wirtschaftsgeografie"
+   "quelle": "GENE WG 01 - Compendio Einführung Wirtschaftsgeografie",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-18",
@@ -2101,7 +2196,8 @@
     0
    ],
    "erklaerung": "Die Ökonomie kennt drei Grundfragen (was, wie, für wen); die Wirtschaftsgeografie ergänzt sie um die Frage wo. Das Besondere ist die Frage nach der räumlichen Ordnung und dem räumlichen Zusammenspiel der Akteure der Wirtschaft.",
-   "quelle": "GENE WG 01 - Compendio Einführung Wirtschaftsgeografie"
+   "quelle": "GENE WG 01 - Compendio Einführung Wirtschaftsgeografie",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-19",
@@ -2122,7 +2218,8 @@
     0
    ],
    "erklaerung": "Der Merksatz: Umweltgüter gehören allen und damit niemandem. Nur wenige fühlen sich für ihre Pflege verantwortlich. Daraus folgt das Trittbrettfahrerproblem — viele nutzen, wenige investieren in die Erhaltung.",
-   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie"
+   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie",
+   "kern": true
   },
   {
    "id": "GENE-WG-W1-20",
@@ -2135,7 +2232,8 @@
    "frage": "Was beschreibt das Allmende-Problem?",
    "antwort": "Im Mittelalter konnten alle Bauern ihr Vieh auf der gemeinsamen Allmende weiden lassen. Trieben alle so viel Vieh wie möglich darauf, wuchs bald zu wenig Gras — wer sich zurückhielt, musste zusehen, wie die anderen umso mehr auftrieben. Erst die Reglementierung des Zugangs ermöglichte die nachhaltige Nutzung.",
    "erklaerung": "Das Allmende-Problem ist die klassische Illustration der Übernutzung öffentlicher Güter. Heutiges Beispiel: die Überfischung der Weltmeere. Das Dilemma: Jeder will öffentliche Güter nutzen, aber niemand für ihre Bereitstellung bezahlen.",
-   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie"
+   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-21",
@@ -2156,7 +2254,8 @@
     0
    ],
    "erklaerung": "Die Folge: Die Produkte sind zu günstig und werden stärker nachgefragt, als es für die Allgemeinheit gut wäre. Externalisierung heisst, dass Unternehmen unter Konkurrenzdruck eigene Kosten sparen, indem sie öffentliche Güter intensiv nutzen — die Kosten tragen Dritte, die Allgemeinheit oder die Natur.",
-   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie"
+   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie",
+   "kern": true
   },
   {
    "id": "GENE-WG-W1-22",
@@ -2177,7 +2276,8 @@
     0
    ],
    "erklaerung": "Total Strasse 8459 Mio., Schiene 494 Mio. CHF. Die 60 Milliarden sind die Gesamtkosten des Verkehrs für die Volkswirtschaft, die 52 Milliarden die indirekte Wertschöpfung. Der Wohlfahrtsverlust: Weil der Autofahrer nicht alle Kosten trägt, die er verursacht, ist seine Fahrt viel zu günstig.",
-   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie"
+   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-23",
@@ -2198,7 +2298,8 @@
     0
    ],
    "erklaerung": "Das vierte Instrument ist die Internalisierung externer Kosten. Auslöser für staatliches Handeln ist das Marktversagen: Weil die externen Kosten am Markt vorbeigehen, wirken sie nicht regulierend.",
-   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie"
+   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie",
+   "kern": true
   },
   {
    "id": "GENE-WG-W1-24",
@@ -2219,7 +2320,8 @@
     0
    ],
    "erklaerung": "Zum fehlenden Anreiz: Sind Auflagen einmal eingehalten, lohnt keine weitere Reduktion — und Auflagen haben keinen Einfluss auf die gesamthaft zugemutete Schadstoffmenge. Wird neben einer Fabrik eine zweite gebaut, ist die absolute Verschmutzung doppelt so gross, obwohl beide die Auflagen einhalten.",
-   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie"
+   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-25",
@@ -2232,7 +2334,8 @@
    "frage": "Was bedeutet Internalisierung externer Kosten — und was bedeutet sie ausdrücklich nicht?",
    "antwort": "Die Umweltschäden werden in Geld bewertet und dem Verursacher verrechnet, sodass die Kosten nicht mehr extern sind. Sie ist ausdrücklich keine Bestrafung — beabsichtigt ist, die Entscheidungsbedingungen so zu verändern, dass alle Kosten der Produktion und des Verbrauchs berücksichtigt werden.",
    "erklaerung": "Das Ziel heisst Kostenwahrheit: der Einbezug aller Kosten. Mittelfristig führen erhöhte Preise bei elastischer Nachfrage zu rückläufiger Nachfrage; danach entwickeln Unternehmen umweltschonende Produkte. Bei unelastischer Nachfrage wie bei Treibstoffen reagieren Konsumierende allerdings nur langsam.",
-   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie"
+   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie",
+   "kern": true
   },
   {
    "id": "GENE-WG-W1-26",
@@ -2253,7 +2356,8 @@
     0
    ],
    "erklaerung": "Eine fixe Gesamtmenge zulässiger Emissionen wird gesetzlich bestimmt und in Zertifikaten verbrieft, die später handelbar sind. Auch Umweltverbände können Zertifikate kaufen und stilllegen. Gefahr: dass der zu verteilende Kuchen einfach vergrössert wird.",
-   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie"
+   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-27",
@@ -2276,7 +2380,8 @@
     2
    ],
    "erklaerung": "Treibstoffe sind ausdrücklich nicht betroffen. Die CO2-Abgabe ist keine neue Steuer, weil sie rückverteilt wird — an Unternehmen proportional zur Lohnsumme. Früher eingeführt wurde die leistungsabhängige Schwerverkehrsabgabe (LSVA).",
-   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie"
+   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-28",
@@ -2297,7 +2402,8 @@
     0
    ],
    "erklaerung": "Jede weitere Reduzierung lohnt sich, und Unternehmer behalten einen Entscheidungsspielraum: Vermeidungskosten aufbringen oder die verteuerte Ressource weiter nutzen und zahlen. Das Dilemma: Ist die Abgabe zu hoch, erhält sie keine politische Mehrheit; ist sie zu tief, ändert sich wenig.",
-   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie"
+   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-29",
@@ -2318,7 +2424,8 @@
     0
    ],
    "erklaerung": "Ökosteuern fliessen nicht zweckgebunden, sondern dem Staatshaushalt zu. Sie sollen nicht Geld einbringen, sondern zum sparsamen Umgang mit Ressourcen veranlassen — was nur gelingt, wenn sie auf Produkte erhoben werden, die das Haushaltbudget spürbar belasten.",
-   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie"
+   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-30",
@@ -2339,7 +2446,8 @@
     0
    ],
    "erklaerung": "Betroffen sind CO2, Methan, Lachgas und teilfluorierte Kohlenwasserstoffe. Das Protokoll trat erst im Februar 2005 nach der Ratifizierung durch Russland in Kraft. Die USA unterzeichneten unter Clinton und zogen sich unter Bush zurück.",
-   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie"
+   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie",
+   "kern": false
   },
   {
    "id": "GENE-WG-W1-31",
@@ -2360,7 +2468,8 @@
     0
    ],
    "erklaerung": "Der Wandel vom zweiten zum dritten Sektor erzeugt Industriebrachen, die oft mit Schadstoffen belastet sind. Weil die Sanierung teuer ist, wird stattdessen neue Landschaft zersiedelt. In der Schweiz besteht ein ungenutztes Potenzial von 17 Mio. Quadratmetern — eine Fläche grösser als die Stadt Genf.",
-   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie"
+   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie",
+   "kern": false
   },
   {
    "id": "GENE-WG-W2-01",
@@ -2381,7 +2490,8 @@
     0
    ],
    "erklaerung": "Die letzte Aussage beschreibt bereits Ricardos komparative Kostenvorteile. Absolute Kostenvorteile entstehen durch Ressourcenverfügbarkeit, tiefe Lohnkosten, qualifizierte Arbeitskräfte, Spezialisierung oder geringe Umweltauflagen.",
-   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung"
+   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung",
+   "kern": true
   },
   {
    "id": "GENE-WG-W2-02",
@@ -2402,7 +2512,8 @@
     0
    ],
    "erklaerung": "Im Beispiel braucht England 100 h für Tuch und 120 h für Wein, Portugal 90 h und 80 h — Portugal ist bei beidem effizienter. Durch Arbeitsteilung sinkt der Gesamtaufwand von 390 auf 360 Stunden; England spart 20 h, Portugal 10 h.",
-   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung"
+   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung",
+   "kern": true
   },
   {
    "id": "GENE-WG-W2-03",
@@ -2425,7 +2536,8 @@
     2
    ],
    "erklaerung": "Der dritte Punkt führt direkt zu den Terms of Trade: Mehr Handel führt zu internationaler Arbeitsteilung und damit zu Spezialisierung — und dann entscheidet die Preisentwicklung des Exportguts über den Wohlstandsgewinn.",
-   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung"
+   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung",
+   "kern": true
   },
   {
    "id": "GENE-WG-W2-04",
@@ -2438,7 +2550,8 @@
    "frage": "Was sind die Terms of Trade?",
    "antwort": "Das Austauschverhältnis aus Exportgüterpreisniveau und Importgüterpreisniveau — also wie viel Menge eines Exportgutes man braucht, um ein Importgut zu kaufen.",
    "erklaerung": "Das Rechenbeispiel: 2000 kostet ein deutsches Auto 15 000 Euro, brasilianischer Kaffee 1 Euro/kg — also 15 000 kg Kaffee für ein Auto. 2015 kostet das Auto 20 000 Euro und der Kaffee nur noch 0,90 Euro/kg — Brasilien braucht jetzt 22 222 kg Kaffee. Eine wesentliche Verschlechterung der Terms of Trade.",
-   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung"
+   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung",
+   "kern": true
   },
   {
    "id": "GENE-WG-W2-05",
@@ -2459,7 +2572,8 @@
     0
    ],
    "erklaerung": "Der Kernbegriff ist die Einkommenselastizität: Wohlstandswachstum in Schwellenländern fördert die Nachfrage nach Industrie- und Luxusgütern, erhöht aber den Bananenkonsum kaum. Schlussfolgerung: Verelendungswachstum in den Entwicklungsländern — internationaler Handel schafft nicht in jedem Fall Wohlstand in allen Ländern.",
-   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung"
+   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung",
+   "kern": true
   },
   {
    "id": "GENE-WG-W2-06",
@@ -2482,7 +2596,8 @@
     2
    ],
    "erklaerung": "Trotz gestiegener Rohstoffpreise konnten die Entwicklungsländer nur mässig profitieren: Gewinne fliessen in Industrieländer ab, weil Unternehmen in ausländischer Hand sind; dazu käuferdominierte Warenketten, schwache Institutionen, Korruption, Handelshemmnisse und Schuldenlasten.",
-   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung"
+   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung",
+   "kern": true
   },
   {
    "id": "GENE-WG-W2-07",
@@ -2503,7 +2618,8 @@
     0
    ],
    "erklaerung": "Konkretes Beispiel: der Standardcontainer, 1956 von Malcolm McLean in New York erfunden, genormt auf 6,1 × 2,4 × 2,6 Meter (20 Fuss). Rund 100 Millionen Exemplare sind ständig unterwegs. In einen 20-Fuss-Container passen 10 000 Jeans bei etwa 3000 Dollar Miete.",
-   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung"
+   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung",
+   "kern": false
   },
   {
    "id": "GENE-WG-W2-08",
@@ -2526,7 +2642,8 @@
     2
    ],
    "erklaerung": "Historischer Vorläufer ist die Seidenstrasse (500 v. Chr. bis 1500 n. Chr.). Akteure der Globalisierung sind transnationale Unternehmen, NGOs, internationale Organisationen, Nationalstaaten — und die Konsumentinnen und Konsumenten.",
-   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung"
+   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung",
+   "kern": false
   },
   {
    "id": "GENE-WG-W2-09",
@@ -2547,7 +2664,8 @@
     0
    ],
    "erklaerung": "Die vier Felder: wenige Rohstoffe und arm = Haiti; wenige Rohstoffe und wohlhabend = Schweiz; grosse Vorkommen und arm = Kongo; grosse Vorkommen und wohlhabend = Saudi-Arabien. Rohstoffe können Fluch sein: Abhängigkeit von volatilen Preisen, Vernachlässigung anderer Sektoren, bewaffnete Konflikte, Korruption, Umweltzerstörung.",
-   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung"
+   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung",
+   "kern": false
   },
   {
    "id": "GENE-WG-W2-10",
@@ -2577,7 +2695,8 @@
     ]
    ],
    "erklaerung": "Prüfungsfalle 1: Der Bergbau wird im Lehrmittel dem primären Sektor zugerechnet, in der offiziellen Schweizer Statistik aber dem sekundären. Prüfungsfalle 2: Die Zuordnung erfolgt nach der Tätigkeit der Firma, nicht nach dem Beruf der Person.",
-   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen"
+   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen",
+   "kern": true
   },
   {
    "id": "GENE-WG-W2-11",
@@ -2598,7 +2717,8 @@
     0
    ],
    "erklaerung": "Im Endzustand je ca. 10 Prozent im sekundären und primären Sektor. Aus heutiger Sicht muss das Modell um den quartären Sektor ergänzt werden. Faustregel: Je komplizierter und vernetzter eine Wirtschafts- und Gesellschaftsstruktur ist, desto mehr Personen befassen sich mit Verwaltungs-, Forschungs- und Bildungsaufgaben.",
-   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen"
+   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen",
+   "kern": true
   },
   {
    "id": "GENE-WG-W2-12",
@@ -2619,7 +2739,8 @@
     0
    ],
    "erklaerung": "Die letzte Antwort zeigt die Werte von 1960 — damals arbeitete fast die Hälfte im industriellen Sektor. Im 18. Jahrhundert waren weit über 60 Prozent in der Landwirtschaft tätig. Regionale Unterschiede: Tessin ist ausgeprägte Dienstleistungsregion, die Ostschweiz hat einen starken primären Sektor.",
-   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen"
+   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen",
+   "kern": false
   },
   {
    "id": "GENE-WG-W2-13",
@@ -2645,7 +2766,8 @@
     ]
    ],
    "erklaerung": "Paradebeispiel kreativer Destruktion ist der Manufacturing Belt der USA: In den 1960er- und 70er-Jahren investierten Unternehmen in die kalifornische Computerindustrie, während der Manufacturing Belt zum Rust Belt wurde. Für die US-Volkswirtschaft als Ganzes war die Verlagerung ein Gewinn.",
-   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen"
+   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen",
+   "kern": true
   },
   {
    "id": "GENE-WG-W2-14",
@@ -2666,7 +2788,8 @@
     0
    ],
    "erklaerung": "Fords Ziel war ein Auto, das auch seine Arbeiter sich leisten können. Das Model T ab 1908 wurde bis 1927 gegen 15 Millionen Mal verkauft. Taylor hatte bereits Ende des 19. Jahrhunderts mit der Stoppuhr einzelne Fertigungsschritte gemessen.",
-   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen"
+   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen",
+   "kern": true
   },
   {
    "id": "GENE-WG-W2-15",
@@ -2687,7 +2810,8 @@
     0
    ],
    "erklaerung": "Das Beispiel: Eine Druckmaschine für 150 000 Franken schafft 1000 Bücher pro Tag; eine doppelt so grosse und teure Maschine schafft nicht 2000, sondern eher 3000 Bücher.",
-   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen"
+   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen",
+   "kern": false
   },
   {
    "id": "GENE-WG-W2-16",
@@ -2710,7 +2834,8 @@
     2
    ],
    "erklaerung": "Lean Production stammt aus Japan, umgesetzt vor allem von Toyota. Ziel: Kosten senken und gleichzeitig die Qualität verbessern. Gewerkschaftliche Organisation gilt dabei als unnötig und wird oft untersagt. Merksatz: Manufaktur, Fordismus und Lean Production existieren heute parallel.",
-   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen"
+   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen",
+   "kern": true
   },
   {
    "id": "GENE-WG-W2-17",
@@ -2733,7 +2858,8 @@
     2
    ],
    "erklaerung": "Ergonomische Anpassbarkeit ist im Gegenteil ein Pro-Argument. Weitere Kritik: das individualisierte Lohnsystem als Herrschaftsinstrument im Sinne von teile und herrsche — und langfristige Verträge erhält nur eine Kernbelegschaft grosser Firmen.",
-   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen"
+   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen",
+   "kern": false
   },
   {
    "id": "GENE-WG-W2-18",
@@ -2756,7 +2882,8 @@
     2
    ],
    "erklaerung": "Das fünfte Kennzeichen ist gerade die starke ZUNAHME der Bevölkerung — Landflucht, sinkende Sterberate bei zunächst hoher Geburtenrate, der demografische Übergang. Der Wandel erfolgte nicht ruckartig, sondern über mehrere Jahrzehnte.",
-   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen"
+   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen",
+   "kern": true
   },
   {
    "id": "GENE-WG-W2-19",
@@ -2774,7 +2901,8 @@
     "Ab 1940: Petrochemie, Elektronik, Computer und Kernenergie (USA, Deutschland, Japan)"
    ],
    "erklaerung": "Der geografische Kernpunkt: Mit jedem Innovationsschub wird die Karte des wirtschaftlichen Rohstoffpotenzials neu gezeichnet. Im 2. Schub waren Kohlevorkommen entscheidend, im 3. der Zugang zu Erdöl — die kohleverarbeitenden Regionen gerieten in die Krise. Offene Frage: Sind wir in einem fünften Schub mit IT und Biotechnologie?",
-   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen"
+   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen",
+   "kern": false
   },
   {
    "id": "GENE-WG-W2-20",
@@ -2795,7 +2923,8 @@
     0
    ],
    "erklaerung": "Hunderttausende Bergarbeiter wurden innerhalb eines Jahrzehnts arbeitslos, die Arbeitslosenquoten erreichten bis zu 30 Prozent. Dazu kam die Stahlkrise 1974. Der Strukturwandel führte in Hightech und Dienstleistung; die Ruhrkohle AG bezieht heute über 50 Prozent ihrer Gewinne aus bergbaufernen Aktivitäten.",
-   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen"
+   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen",
+   "kern": true
   },
   {
    "id": "GENE-WG-W2-21",
@@ -2816,7 +2945,8 @@
     0
    ],
    "erklaerung": "Für Mikrochips braucht es fast nur Silizium. Bis Mitte des 20. Jahrhunderts war die Region eine Obstbauregion — bekannter für Aprikosen als für Apple-Computer. Den Grundstein legte die Stanford University mit einem Science Park; Erfolgsgeschichten sind Hewlett-Packard (1939, Garage) und SUN = Stanford University Network.",
-   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen"
+   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen",
+   "kern": true
   },
   {
    "id": "GENE-WG-W2-22",
@@ -2837,7 +2967,8 @@
     0
    ],
    "erklaerung": "Beispiele: Mexiko, Zentralamerika, Malaysia, China, Tunesien, Ägypten. Sie erlauben raschen Anschluss an den Weltmarkt. Dazu passt der Befund zur fordistischen Fabrikarbeit heute: Angestellt werden vor allem Frauen, weil sie kaum gewerkschaftlich organisiert sind und zu tieferen Löhnen arbeiten.",
-   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen"
+   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen",
+   "kern": false
   },
   {
    "id": "GENE-WG-W2-23",
@@ -2858,7 +2989,8 @@
     0
    ],
    "erklaerung": "Um jeden Triadenkern gruppiert sich ein Block von Satelliten, die ihre Beziehungen zu den anderen Kernen über ihren eigenen Kern knüpfen — die Kerne nehmen eine Vermittlerrolle ein. Zürich gehört zur zweiten Rangebene: Einfluss auf grosse Teile des Weltwirtschaftsraums dank des Finanzplatzes, trotz kleiner Bevölkerung.",
-   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen"
+   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen",
+   "kern": false
   },
   {
    "id": "GENE-WG-W2-24",
@@ -2881,7 +3013,8 @@
     2
    ],
    "erklaerung": "Das fünfte Merkmal ist die hohe Dichte einflussreicher Medien- und Unterhaltungskonzerne. Die Einwohnerzahl ist gerade kein Kriterium — Zürich zählt trotz kleiner Bevölkerung dazu. Agglomerationsvorteile: räumliche Nähe ermöglicht Face-to-Face-Kontakte, die trotz Kommunikationstechnik ihre Bedeutung behalten haben.",
-   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen"
+   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen",
+   "kern": false
   },
   {
    "id": "GENE-WG-W2-25",
@@ -2902,7 +3035,8 @@
     0
    ],
    "erklaerung": "Beleg ist die digitale Kluft, die doppelt verläuft: zwischen Weltregionen (Industriestaaten des Nordens gegenüber Entwicklungsländern des Südens) und innerhalb von Regionen und Ländern (städtische gegenüber ländlichen Räumen). Überbrückung nur durch eine Kombination aus Infrastruktur, öffentlichen kostenlosen Zugängen und Internet in der Schule.",
-   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen"
+   "quelle": "GENE WG 02 - Compendio Sektoren, Industrie und Dienstleistungen",
+   "kern": false
   },
   {
    "id": "GENE-WG-W2-26",
@@ -2923,7 +3057,8 @@
     0
    ],
    "erklaerung": "Bei hoher Produktivität können Unternehmen hohe Löhne zahlen, ohne an Wettbewerbsfähigkeit zu verlieren. Das Schweizer Beispiel: extrem hohe Löhne und trotzdem 50 400 US-Dollar Exporte pro Kopf (2015) gegenüber 19 500 in Deutschland. Noch besser als niedrige Lohnstückkosten sind Innovationen, die zeitweilige Monopolgewinne verschaffen.",
-   "quelle": "GENE WG 02 - Vor- und Nachteile offenen Welthandels"
+   "quelle": "GENE WG 02 - Vor- und Nachteile offenen Welthandels",
+   "kern": false
   },
   {
    "id": "GENE-WG-W2-27",
@@ -2944,7 +3079,8 @@
     0
    ],
    "erklaerung": "Übersetzt in die Sprache der Wechselkurse: Deutschland hat real abgewertet, China real aufgewertet. Dieters Fazit zum Lohndumping-Vorwurf: Er hält einer genauen Überprüfung nicht stand — allerdings stiegen die deutschen Löhne langsamer als die Produktivität.",
-   "quelle": "GENE WG 02 - Vor- und Nachteile offenen Welthandels"
+   "quelle": "GENE WG 02 - Vor- und Nachteile offenen Welthandels",
+   "kern": false
   },
   {
    "id": "GENE-WG-W2-28",
@@ -2965,7 +3101,8 @@
     0
    ],
    "erklaerung": "Die Leitfragen der Gruppendiskussion: Welche Regionen sind gemeint? Wie werden sie abgegrenzt? Welche Begriffe sind problematisch und warum? Welche Terminologie sollte man am besten verwenden? Das Lernziel heisst ausdrücklich: die Terminologie der Weltregionen kritisch hinterfragen.",
-   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung"
+   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung",
+   "kern": true
   },
   {
    "id": "SYMG-W0-01",
@@ -2985,7 +3122,8 @@
     0
    ],
    "erklaerung": "Volatilität = Unbeständigkeit und grosse Schwankungen; Unsicherheit = Ungewissheit der Entwicklung; Komplexität = hohe Dynamik und viele sich gegenseitig beeinflussende Variablen; Ambiguität = Mehrdeutigkeit, die unterschiedliche Interpretationen zulässt.",
-   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)"
+   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)",
+   "kern": true
   },
   {
    "id": "SYMG-W0-02",
@@ -3005,7 +3143,8 @@
     0
    ],
    "erklaerung": "Dörner zeigte: Anspruchsvolle Problemstellungen sind nicht nur komplex, sondern meist auch intransparent (man sieht nicht alles Wesentliche) und dynamisch (das Problem verändert sich mit der Zeit). Merksatz: Analyse ist notwendig, alleine aber nicht hinreichend — es braucht zusätzlich die Synthese.",
-   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)"
+   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)",
+   "kern": false
   },
   {
    "id": "SYMG-W0-03",
@@ -3027,7 +3166,8 @@
     2
    ],
    "erklaerung": "Wo ursächliche Zusammenhänge nicht erkannt werden, begegnet man Problemen mit Reparaturverhalten; weil nur Symptome bekämpft werden, treten sie immer wieder auf, manchmal verstärkt. Komplexe Probleme erfordern die Wahrnehmung von Wechselbeziehungen statt linearer Ursache-Wirkungs-Ketten.",
-   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)"
+   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)",
+   "kern": false
   },
   {
    "id": "SYMG-W0-04",
@@ -3049,7 +3189,8 @@
     2
    ],
    "erklaerung": "Gerade die Grenzziehung hängt vom Betrachter ab: Bei lebenden Systemen ergibt sie sich von selbst, bei sozialen Systemen nicht — Gehören Fremdkapitalgeber noch zum Unternehmen und das Au-pair zur Familie? Je nach Fragestellung fällt die Antwort anders aus.",
-   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)"
+   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)",
+   "kern": true
   },
   {
    "id": "SYMG-W0-05",
@@ -3061,7 +3202,8 @@
    "frage": "Wie lautet Peter Senges Wasserglas-Beispiel — und was ist seine Pointe?",
    "antwort": "Das Füllen eines Glases ist ein Wasserregulierungs-System mit fünf Variablen in einem Feedbackprozess. Ich fülle ein Glas mit Wasser beschreibt nur die Hälfte; die andere Hälfte heisst: Der Wasserpegel im Glas steuert meine Hand.",
    "erklaerung": "Die fünf Variablen sind gewünschter Wasserpegel, aktueller Wasserstand, die Lücke zwischen beiden, Stellung des Wasserhahns und Wasserfluss. Unsere Sprache begünstigt mit ihrer Subjekt-Prädikat-Objekt-Struktur lineares Denken — systemisch betrachtet ist der Mensch Teil des Feedbackprozesses, nicht davon getrennt.",
-   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)"
+   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)",
+   "kern": true
   },
   {
    "id": "SYMG-W0-06",
@@ -3081,7 +3223,8 @@
     0
    ],
    "erklaerung": "Am Drogenbeispiel: Die lineare Sicht suggeriert ein lokalisierbares Zentrum der Verantwortung — Das Verhalten der Drogenmafia lässt uns gar keine Wahl. Systemisch betrachtet beeinflusst die Repression ihrerseits das Verhalten der Kartelle und ist insofern genauso verantwortlich.",
-   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)"
+   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)",
+   "kern": false
   },
   {
    "id": "SYMG-W0-07",
@@ -3102,7 +3245,8 @@
     ]
    ],
    "erklaerung": "Die Rechenregel: Multipliziert man die Vorzeichen aller Pfeile im Kreislauf, ergibt Plus einen Motor und Minus einen Stabilisator. Motor-Beispiel: Couch Potato. Stabilisator-Beispiel: der Wolf — dünner heisst schneller heisst mehr Beute heisst mehr Gewicht heisst langsamer.",
-   "quelle": "SYMG - Einführungstag Systemdenken"
+   "quelle": "SYMG - Einführungstag Systemdenken",
+   "kern": true
   },
   {
    "id": "SYMG-W0-08",
@@ -3123,7 +3267,8 @@
     ]
    ],
    "erklaerung": "Der Leitsatz dazu: Die Realität besteht aus Kreisen, wir aber sehen gerade Linien. Variablen werden so bezeichnet, dass eine Veränderung möglich ist — die Grösse muss zu- oder abnehmen können.",
-   "quelle": "SYMG - Einführungstag Systemdenken"
+   "quelle": "SYMG - Einführungstag Systemdenken",
+   "kern": true
   },
   {
    "id": "SYMG-W0-09",
@@ -3143,7 +3288,8 @@
     0
    ],
    "erklaerung": "Deshalb sind Umweltgefahren so besorgniserregend, wenn sie Verstärkungsmustern folgen: Bis viele vom Ausmass des Artensterbens oder der Klimaerwärmung überrascht sind, könnte es bereits zu spät sein. Exponentielles Verhalten wird systematisch unterschätzt.",
-   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)"
+   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)",
+   "kern": false
   },
   {
    "id": "SYMG-W0-10",
@@ -3163,7 +3309,8 @@
     0
    ],
    "erklaerung": "Der Schweinezyklus illustriert Zeitverzögerungen (Time Lags). Dasselbe Muster findet sich bei Anmeldungen für den Lehrberuf und auf Märkten für Rohstoffe oder PC-Prozessoren. Merksatz: Je grösser die Zeitverzögerungen in einem System, desto schwieriger ist eine gezielte und effektive Beeinflussung.",
-   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)"
+   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)",
+   "kern": false
   },
   {
    "id": "SYMG-W0-11",
@@ -3188,7 +3335,8 @@
     ]
    ],
    "erklaerung": "Zu den Rahmenbedingungen merkt das Buch an: Viel zu oft wird über Dinge diskutiert, auf die man keinen Einfluss hat. Genau diese Klassifikation ist die Standardaufgabe c) in den Übungen zu Kapitel 1.",
-   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)"
+   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)",
+   "kern": true
   },
   {
    "id": "SYMG-W0-12",
@@ -3208,7 +3356,8 @@
     0
    ],
    "erklaerung": "Direkt lenkbare Grössen eignen sich besser für Eingriffe — in sozialen Systemen sind die nur beeinflussbaren aber oft in der Mehrzahl. Innovationen lassen sich indirekt über Forschungsausstattung und Unternehmenskultur beeinflussen.",
-   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)"
+   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)",
+   "kern": false
   },
   {
    "id": "SYMG-W0-13",
@@ -3228,7 +3377,8 @@
     0
    ],
    "erklaerung": "Komplexe Probleme sind nicht zu 100 Prozent prognostizierbar und beherrschbar, es gibt keine Optimierungslösungen. Das grosse Bild — grundlegendes Systemverständnis — ist wichtiger als Detailgenauigkeit. Die Methodik dafür heisst vernetztes Denken.",
-   "quelle": "SYMG - Einführungstag Systemdenken"
+   "quelle": "SYMG - Einführungstag Systemdenken",
+   "kern": false
   },
   {
    "id": "SYMG-W1-01",
@@ -3240,7 +3390,8 @@
    "frage": "Wie definiert die Vorlesung systemisches Management?",
    "antwort": "Die Fähigkeit von Führungspersonen, dank fundiertem Verständnis für die Zusammenhänge ihre Ziele zur gewünschten Zeit, wirksam und mit geringem Aufwand zu erreichen.",
    "erklaerung": "Das setzt dreierlei voraus: (1) das vertiefte Wissen um die Zusammenhänge — die Erfolgslogik, (2) das Bestimmen zweckmässiger Ziel- und Steuergrössen bei gleichzeitiger Beobachtung der kritischen Rahmenbedingungen — das Management-Cockpit, (3) die sinnvolle Implementation mittels Massnahmen, die auf Zielwerte ausgerichtet sind.",
-   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln"
+   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln",
+   "kern": true
   },
   {
    "id": "SYMG-W1-02",
@@ -3265,7 +3416,8 @@
     ]
    ],
    "erklaerung": "Die Einteilung geht auf Ulrich/Flury zurück und wurde von Knut Bleicher bis 1991 in das St. Galler Modell eingearbeitet. Wichtig: Die Ebenen sind nicht trennscharf — Manager neigen dazu, angesichts operativer Hektik strategische und normative Aufgaben zurückzustellen, was fatale Folgen haben kann.",
-   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln"
+   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln",
+   "kern": true
   },
   {
    "id": "SYMG-W1-03",
@@ -3283,7 +3435,8 @@
     "Steuerung (deciding und controlling)"
    ],
    "erklaerung": "Die Funktionen stehen nicht separat nebeneinander, sondern sind in einer Abfolge mit vielfältigen Rückkoppelungsprozessen verbunden. Das Controlling bietet mit den erhobenen Informationen zugleich den Ausgangspunkt für die Neuplanung — deshalb Kreislauf.",
-   "quelle": "SYMG - Buchauszug Kapitel 1 (Waibel)"
+   "quelle": "SYMG - Buchauszug Kapitel 1 (Waibel)",
+   "kern": true
   },
   {
    "id": "SYMG-W1-04",
@@ -3303,7 +3456,8 @@
     0
    ],
    "erklaerung": "Die Eckpunkte: immenses Arbeitspensum ohne Tempoverlust, Aufgaben bestimmt durch Vielfalt, Kürze und Fragmentierung, Konzentration auf aktuelle und spezifische Probleme ausserhalb der Routine, Bevorzugung der mündlichen vor der schriftlichen Kommunikation, ein Geflecht interner und externer Kontakte.",
-   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln"
+   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln",
+   "kern": false
   },
   {
    "id": "SYMG-W1-05",
@@ -3315,7 +3469,8 @@
    "frage": "Wie definiert Hans Ulrich Management?",
    "antwort": "Management ist die Entwicklung, Gestaltung und Lenkung von komplexen, sozialen Systemen.",
    "erklaerung": "Das Unternehmen ist ein komplexes soziales System und zugleich zweckgerichtet — die Kapitalgeber erwarten einen ROI. Hans Ulrich ist der Vater des St. Galler Management-Modells, das er 1972 zusammen mit Walter Krieg veröffentlichte.",
-   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln"
+   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln",
+   "kern": true
   },
   {
    "id": "SYMG-W1-06",
@@ -3335,7 +3490,8 @@
     0
    ],
    "erklaerung": "Die Frage war nicht neu — Peter Drucker hatte sie in den USA ein paar Jahre zuvor sinngemäss formuliert —, wurde in der hiesigen Wirtschaft aber fast nie gestellt. Ulrichs Hauptwerk von 1968 heisst Die Unternehmung als produktives soziales System.",
-   "quelle": "SYMG - Vertiefungsartikel Vater des Systemdenkens (Hans Ulrich)"
+   "quelle": "SYMG - Vertiefungsartikel Vater des Systemdenkens (Hans Ulrich)",
+   "kern": false
   },
   {
    "id": "SYMG-W1-07",
@@ -3355,7 +3511,8 @@
     0
    ],
    "erklaerung": "Danach sind Firmen keine blossen Wirtschaftssubjekte, sondern Institutionen, die dynamisch agieren und in eine vielschichtige Umwelt eingebunden sind. Chefs sind keine Verwalter, sondern Problemlöser.",
-   "quelle": "SYMG - Vertiefungsartikel Vater des Systemdenkens (Hans Ulrich)"
+   "quelle": "SYMG - Vertiefungsartikel Vater des Systemdenkens (Hans Ulrich)",
+   "kern": false
   },
   {
    "id": "SYMG-W1-08",
@@ -3388,7 +3545,8 @@
     ]
    ],
    "erklaerung": "Die Methodik von Probst und Gomez ist die, die das ganze Modul SYMG trägt: Projektteams stellen Abhängigkeiten innerhalb eines Netzwerks als Diagramm dar — daraus ergibt sich ein Prognoseinstrument, das Firmen als Frühwarnsystem nutzen können. Johannes Rüegg-Stürm veröffentlichte 2002 das neue St. Galler Management-Modell.",
-   "quelle": "SYMG - Vertiefungsartikel Vater des Systemdenkens (Hans Ulrich)"
+   "quelle": "SYMG - Vertiefungsartikel Vater des Systemdenkens (Hans Ulrich)",
+   "kern": false
   },
   {
    "id": "SYMG-W1-09",
@@ -3417,7 +3575,8 @@
     ]
    ],
    "erklaerung": "Die Einteilung geht auf Wilbers (2004) zurück. Das kritische Beispiel dazu ist Adidas in der Corona-Krise 2020: Die Ankündigung, Mieten für geschlossene Läden nicht mehr zu zahlen, führte zu Boykottaufrufen — am Ende wurde die Miete doch bezahlt.",
-   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln"
+   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln",
+   "kern": true
   },
   {
    "id": "SYMG-W1-10",
@@ -3442,7 +3601,8 @@
     ]
    ],
    "erklaerung": "Bei komplizierten Problemen sind Präzision und Details wichtig, das grosse Bild genügt nicht (Beispiele: Jahresbudget, SBB-Fahrplan, ERP-Programmierung). Bei komplexen Problemen ist es umgekehrt: Das grosse Bild ist wichtiger als Detailgenauigkeit (Beispiele: Klimawandel, Drogenproblem, strategische Führung einer Hochschule).",
-   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln"
+   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln",
+   "kern": true
   },
   {
    "id": "SYMG-W1-11",
@@ -3461,7 +3621,8 @@
     "Massnahmen und Aktionspläne ableiten"
    ],
    "erklaerung": "Die Methodik geht auf Honegger (1993) in Anlehnung an Gomez/Probst (1987) zurück und hat eine Review-Schleife. Vor Schritt 1 steht: die richtige Flughöhe wählen — Gegenstand der Analyse ist zum Beispiel unsere Firma, nicht der Konzern, nicht die Branche und nicht eine Teilfunktion.",
-   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln"
+   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln",
+   "kern": true
   },
   {
    "id": "SYMG-W1-12",
@@ -3481,7 +3642,8 @@
     0
    ],
    "erklaerung": "Es geht um Aspekte, die in der Beziehung des Stakeholders zum Problem eine Rolle spielen. Beispiele: Kapitalgeber — Risiko, Kosten, Gewinn; Kunden — Kundenzufriedenheit, Preis-Leistungs-Verhältnis, Produktqualität; Mitarbeitende — Führungsqualität, Motivation, Mitarbeiterzufriedenheit.",
-   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln"
+   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln",
+   "kern": true
   },
   {
    "id": "SYMG-W1-13",
@@ -3499,7 +3661,8 @@
     "Kontrolle der Zielerreichung"
    ],
    "erklaerung": "In den Prozess fliessen Wertvorstellungen (Einstellungen, Erwartungen) und Tatsachen (Daten, Fakten, Prognosen) ein. Zur Bewertung dient die Nutzwertanalyse — Beispiele sind Brent Spar und die Bewertung von Mesh-Routern.",
-   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln"
+   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln",
+   "kern": true
   },
   {
    "id": "SYMG-W1-14",
@@ -3519,7 +3682,8 @@
     0
    ],
    "erklaerung": "Im Januar 2012 wurde die älteste Privatbank der Schweiz an Raiffeisen verkauft; wegen einer drohenden Klage der US-Steuerbehörden verlor sie binnen kurzer Zeit 4 der 25 Mrd. CHF verwalteter Vermögen. So konnte ein Bankrun verhindert werden.",
-   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln"
+   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln",
+   "kern": false
   },
   {
    "id": "SYMG-W1-15",
@@ -3539,7 +3703,8 @@
     0
    ],
    "erklaerung": "Schritt 6 leitet Massnahmen und Aktionspläne ab — durch Interpretation der Verhaltensmöglichkeiten mittels Denken in Szenarien, also in Problemlösungsalternativen.",
-   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln"
+   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln",
+   "kern": false
   },
   {
    "id": "SYMG-W1-16",
@@ -3568,7 +3733,8 @@
     ]
    ],
    "erklaerung": "Die finanzwirtschaftliche Perspektive steht für die Ausschüttung an Aktionäre und Mitarbeitende. Diese Kette strukturiert das ganze Modul — jeder Lernblock nimmt eine Perspektive auf.",
-   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln"
+   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln",
+   "kern": true
   },
   {
    "id": "SYMG-W1-17",
@@ -3588,7 +3754,8 @@
     0
    ],
    "erklaerung": "Unter Nachhaltigkeit werden die ESG-Kriterien verstanden: Environmental, Social und Governmental. Das Fazit der Autoren: Verantwortung und Profitabilität sind nicht unvereinbar, sondern ergänzen sich vollständig. Passend dazu der Befund: der angesehene Kaufmann ist langfristig auch der erfolgreichere.",
-   "quelle": "SYMG - Buchauszug Kapitel 1 (Waibel)"
+   "quelle": "SYMG - Buchauszug Kapitel 1 (Waibel)",
+   "kern": false
   },
   {
    "id": "SYMG-W1-18",
@@ -3608,7 +3775,8 @@
     0
    ],
    "erklaerung": "Taylor legte 1911 mit The Principles of Scientific Management die Grundsätze, ab 1882 liess er grossangelegte Zeitstudien durchführen. Die Kritik folgt sogleich: monotone Arbeit, Entfremdung vom Gesamtprozess, gesundheitliche Folgen — und für die Betriebe mangelnde Beteiligung, Qualitätsverluste und mehr Fehlzeiten.",
-   "quelle": "SYMG - Buchauszug Kapitel 1 (Waibel)"
+   "quelle": "SYMG - Buchauszug Kapitel 1 (Waibel)",
+   "kern": false
   },
   {
    "id": "SYMG-W1-19",
@@ -3628,7 +3796,8 @@
     0
    ],
    "erklaerung": "Genannte menschliche Kompetenzen: Konzepte entwerfen, Prioritäten setzen, neuartige Probleme lösen. Hoch ist die Ersetzbarkeit dagegen bei Kassierern oder Buchhaltern — und selbst bei Anlageempfehlungen, Bonitätsprüfungen und Schadensfallbearbeitungen. In der Vorlesung gehört dazu die Übung Jobfuturomat.",
-   "quelle": "SYMG - Buchauszug Kapitel 1 (Waibel)"
+   "quelle": "SYMG - Buchauszug Kapitel 1 (Waibel)",
+   "kern": false
   },
   {
    "id": "SYMG-W1-20",
@@ -3648,7 +3817,8 @@
     0
    ],
    "erklaerung": "Ein Leitbild sollte nicht nur dokumentiert, sondern von den obersten Führungspersonen sichtbar vorgelebt werden. Fallbeispiel ist das Leitbild der Migros Bank mit Vision, Menschen im Mittelpunkt, Schutz des Lebensraums, Scope-3-Emissionen und gesellschaftlicher Verantwortung.",
-   "quelle": "SYMG - Buchauszug Kapitel 1 (Waibel)"
+   "quelle": "SYMG - Buchauszug Kapitel 1 (Waibel)",
+   "kern": false
   },
   {
    "id": "SYMG-W1-21",
@@ -3670,7 +3840,8 @@
     2
    ],
    "erklaerung": "Dazu kommen: die Wahl der Indikatoren begründen, eine Grafik zeichnen, die eine Grösse in Abhängigkeit von der Zeit abbildet, und die markierten Hebel auf Effektivität beurteilen — inklusive einem im Modell nicht genannten Hebel. Das ist genau die Prüfungsmechanik des Moduls.",
-   "quelle": "SYMG - Übungen zu Kapitel 1 (Vernetztes Denken)"
+   "quelle": "SYMG - Übungen zu Kapitel 1 (Vernetztes Denken)",
+   "kern": true
   },
   {
    "id": "SYMG-W1-22",
@@ -3690,7 +3861,8 @@
     0
    ],
    "erklaerung": "Das ist die Brücke zu Lernblock 2 (Strategische Unternehmensführung), wo die Wettbewerbskräfte nach Porter behandelt werden. Der innere Kreislauf lautet: Gewinn, Mitbewerber, Konkurrenzdruck, Branchenrentabilität, unser Preis, Umsatz, Gewinn.",
-   "quelle": "SYMG - Übungen zu Kapitel 1 (Vernetztes Denken)"
+   "quelle": "SYMG - Übungen zu Kapitel 1 (Vernetztes Denken)",
+   "kern": false
   },
   {
    "id": "SYMG-W1-23",
@@ -3710,7 +3882,8 @@
     0
    ],
    "erklaerung": "Der mittlere Kreislauf ist ein Verstärker (Leistungsumfang, Wettbewerbsvorteile, Nachfrage, Umsatz, operativer Cashflow, liquide Mittel), der rechte bremst ihn: Nachfrage erhöht die Marktsättigung, diese senkt das unausgeschöpfte Marktpotenzial und damit die Nachfrage. Marktsättigung = tatsächlicher Branchenumsatz im Verhältnis zum Marktpotenzial.",
-   "quelle": "SYMG - Übungen zu Kapitel 1 (Vernetztes Denken)"
+   "quelle": "SYMG - Übungen zu Kapitel 1 (Vernetztes Denken)",
+   "kern": false
   },
   {
    "id": "SYMG-W1-24",
@@ -3730,7 +3903,8 @@
     0
    ],
    "erklaerung": "Da sich das differenzierte Steuergebaren auf das Verhalten des Steueramtes bezieht, ist es aus Sicht des Gesetzgebers genau genommen kein Hebel. Zentraler Indikator ist der Steuerertrag; zusätzlich wurde die Steuerhinterziehung gewählt, um in beiden Kreisläufen einen Indikator zu haben.",
-   "quelle": "SYMG - Einführungstag Systemdenken"
+   "quelle": "SYMG - Einführungstag Systemdenken",
+   "kern": false
   },
   {
    "id": "SYMG-W1-25",
@@ -3763,7 +3937,8 @@
     ]
    ],
    "erklaerung": "Wichtig ist die Abgrenzung: Steuervermeidung ist legal (Vermeiden steuertreibender Handlungen oder aktive lastsenkende Massnahmen), während schlechte Steuermoral Überlegungen zu Hinterziehung oder Betrug bedeutet.",
-   "quelle": "SYMG - Einführungstag Systemdenken"
+   "quelle": "SYMG - Einführungstag Systemdenken",
+   "kern": false
   },
   {
    "id": "SYMG-W1-26",
@@ -3783,7 +3958,8 @@
     0
    ],
    "erklaerung": "Die Nutzung als Quelle setzt die Nutzung als Hilfsmittel voraus, geht aber darüber hinaus. Die Unterscheidung muss aus den Angaben zur Arbeit klar hervorgehen. Jede Arbeit trägt drei Angaben: Selbstständigkeitserklärung, Hilfsmittelverzeichnis und — bei Nutzung als Quelle — die Prompts und Outputs.",
-   "quelle": "SYMG - Weisung zum Umgang mit KI"
+   "quelle": "SYMG - Weisung zum Umgang mit KI",
+   "kern": true
   },
   {
    "id": "SYMG-W1-27",
@@ -3803,7 +3979,8 @@
     0
    ],
    "erklaerung": "KI-Output gilt als nicht reproduzierbar. Zusätzlich sind die zugrunde liegenden Prompts und Outputs als Screenshots oder kopierte Textpassagen in den Anhang zu dokumentieren — Verweise oder direkte Links auf KI-Unterhaltungen sind nicht ausreichend.",
-   "quelle": "SYMG - Weisung zum Umgang mit KI"
+   "quelle": "SYMG - Weisung zum Umgang mit KI",
+   "kern": true
   },
   {
    "id": "SYMG-W1-28",
@@ -3823,7 +4000,8 @@
     0
    ],
    "erklaerung": "Das Hilfsmittelverzeichnis hat drei Spalten: In welchem Teil der Arbeit? Wozu? Welches Hilfsmittel mit Stand und Datum? Bei DeepL ist zusätzlich die Quelle anzugeben. Wurden keine KI-Hilfsmittel eingesetzt, bleibt die Tabelle leer. Für das SYMG-Pitch-Video gilt zusätzlich: KI-Stimme und KI-Avatar sind nicht zugelassen.",
-   "quelle": "SYMG - Weisung zum Umgang mit KI"
+   "quelle": "SYMG - Weisung zum Umgang mit KI",
+   "kern": false
   },
   {
    "id": "SYMG-W1-29",
@@ -3843,7 +4021,8 @@
     0
    ],
    "erklaerung": "SYMG ist ein Besuchspflicht- und Assessmentmodul auf Niveau B, empfohlen im 1. Semester. Workload: 45 h Kontaktstudium, 45 h begleitetes und 90 h unbegleitetes Selbststudium. Modulverantwortlich ist Dr. Urs Mauchle.",
-   "quelle": "SYMG 00 - Modulbeschreibung"
+   "quelle": "SYMG 00 - Modulbeschreibung",
+   "kern": false
   },
   {
    "id": "SYMG-W2-01",
@@ -3863,7 +4042,8 @@
     0
    ],
    "erklaerung": "Daraus folgt ein konsequenter Aussenbezug: Es geht um die Erschliessung interner und externer Nutzenpotenziale, weil ein Unternehmen nur langfristig erfolgreich sein kann, wenn es die Interessen aller Anspruchsgruppen angemessen berücksichtigt.",
-   "quelle": "SYMG - Buchauszug Abschnitt 2.1 (Wertorientiertes Management)"
+   "quelle": "SYMG - Buchauszug Abschnitt 2.1 (Wertorientiertes Management)",
+   "kern": true
   },
   {
    "id": "SYMG-W2-02",
@@ -3883,7 +4063,8 @@
     0
    ],
    "erklaerung": "Der Free Cashflow ist der Saldo aus dem in der Regel positiven Geldfluss aus der Geschäftstätigkeit und dem zumeist negativen Geldfluss aus der Investitionstätigkeit. Mit der DCF-Methode lassen sich strategische Entscheidungen danach beurteilen, wie sie den künftigen Free Cashflow verändern.",
-   "quelle": "SYMG - Buchauszug Abschnitt 2.1 (Wertorientiertes Management)"
+   "quelle": "SYMG - Buchauszug Abschnitt 2.1 (Wertorientiertes Management)",
+   "kern": true
   },
   {
    "id": "SYMG-W2-03",
@@ -3903,7 +4084,8 @@
     0
    ],
    "erklaerung": "Das Lehrbuch ist hier bemerkenswert deutlich: Shareholder-Value-Orientierung wird in der öffentlichen Diskussion oft fälschlicherweise mit Kursmanipulation und Bereicherung assoziiert — richtig verstandenes Wertmanagement hat damit nichts zu tun und bedeutet langfristig orientiertes, einer gesunden Nachhaltigkeit verpflichtetes Denken.",
-   "quelle": "SYMG - Buchauszug Abschnitt 2.1 (Wertorientiertes Management)"
+   "quelle": "SYMG - Buchauszug Abschnitt 2.1 (Wertorientiertes Management)",
+   "kern": true
   },
   {
    "id": "SYMG-W2-04",
@@ -3923,7 +4105,8 @@
     0
    ],
    "erklaerung": "Damit übertreffen sie die Wirtschaftsleistung vieler Staaten und verdeutlichen die enorme Konzentration an den Kapitalmärkten. Gleichzeitig wird sichtbar, wie traditionelle Industrien im globalen Wettbewerb mit Kapital ins Hintertreffen geraten.",
-   "quelle": "SYMG - Buchauszug Abschnitt 2.1 (Wertorientiertes Management)"
+   "quelle": "SYMG - Buchauszug Abschnitt 2.1 (Wertorientiertes Management)",
+   "kern": false
   },
   {
    "id": "VHRE-W1-01",
@@ -3943,7 +4126,8 @@
     0
    ],
    "erklaerung": "Der Grundsatz: Der Vertrag gilt, weil ihn die Parteien so gewollt haben. Verträge bedürfen in der Regel keiner besonderen Form (Art. 11 OR) — ein Vertrag kann auch mündlich abgeschlossen werden.",
-   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages"
+   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages",
+   "kern": true
   },
   {
    "id": "VHRE-W1-02",
@@ -3963,7 +4147,8 @@
     0
    ],
    "erklaerung": "Die drei Kernsätze der Vorlesung: (1) Mein Wille bindet mich, wenn ich ihn erklärt habe und die Gegenpartei mir gegenüber erklärt hat, das auch zu wollen. (2) Erklärungen werden nach dem Vertrauensprinzip ausgelegt. (3) Verträge sind grundsätzlich formfrei.",
-   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages"
+   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages",
+   "kern": true
   },
   {
    "id": "VHRE-W1-03",
@@ -3982,7 +4167,8 @@
     "Gültige Stellvertretung (Art. 32 ff. OR)"
    ],
    "erklaerung": "Das ist das Schema, das in jeder Fallprüfung durchzugehen ist. Für juristische Personen gilt bei der Handlungsfähigkeit Art. 54 f. ZGB. Im Kian-Laura-Fall ist der Kaufvertrag über eine bewegliche Sache formfrei, mündlich genügt.",
-   "quelle": "VHRE Übung 1 - Vertragsschluss"
+   "quelle": "VHRE Übung 1 - Vertragsschluss",
+   "kern": true
   },
   {
    "id": "VHRE-W1-04",
@@ -4011,7 +4197,8 @@
     ]
    ],
    "erklaerung": "Nachtrag zur Simulation: Einigen sich A und B auf x, sagen aber absichtlich y, so gilt x. Ist x formbedürftig, ist der Vertrag grundsätzlich ungültig — Beispiel: teilweise Schwarzzahlung beim Grundstückkauf.",
-   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages"
+   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages",
+   "kern": true
   },
   {
    "id": "VHRE-W1-05",
@@ -4032,7 +4219,8 @@
     ]
    ],
    "erklaerung": "Am E-Bike-Beispiel: Hubert Sprinter verpflichtet sich, dem Kunden Eigentum am Fahrrad zu verschaffen (Verpflichtung); er überträgt dem Kunden das Eigentum (Verfügung). Daraus folgen die Prüfungsfragen: Kann ich das Bike kaufen, obwohl es erst hergestellt werden muss? Wann werde ich Eigentümer?",
-   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages"
+   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages",
+   "kern": true
   },
   {
    "id": "VHRE-W1-06",
@@ -4044,7 +4232,8 @@
    "frage": "Wie lautet die Leitfrage der Anspruchsmethode?",
    "antwort": "Wer will was von wem auf welcher Rechtsgrundlage?",
    "erklaerung": "Das ist die Leitfrage jeder Falllösung. Sie strukturiert die Prüfung: Anspruchsteller, Anspruchsinhalt, Anspruchsgegner und Anspruchsgrundlage.",
-   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages"
+   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages",
+   "kern": true
   },
   {
    "id": "VHRE-W1-07",
@@ -4062,7 +4251,8 @@
     "Prüfen, ob neben den BT-Regeln weitere AT-Regeln zu beachten sind"
    ],
    "erklaerung": "Man ist nicht an die im OR BT genannten Typen gebunden — man kann auch eine nicht geregelte Vertragsart wählen. Hat der Vertrag Ähnlichkeit mit einem im OR BT geregelten Vertrag, finden dessen Regeln analog Anwendung, soweit sie passen.",
-   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages"
+   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages",
+   "kern": true
   },
   {
    "id": "VHRE-W1-08",
@@ -4091,7 +4281,8 @@
     ]
    ],
    "erklaerung": "Die entscheidende Abgrenzung Werkvertrag/Auftrag: Werkvertrag = Erfolg (materiell oder immateriell), Auftrag = erfolgsgerichtete sorgfältige Handlung. Beim Kauf ist der Vertrag beendet, sobald die Sache übereignet und der Preis bezahlt ist; die Miete endet durch Befristung oder Kündigung.",
-   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages"
+   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages",
+   "kern": true
   },
   {
    "id": "VHRE-W1-09",
@@ -4113,7 +4304,8 @@
     2
    ],
    "erklaerung": "Dazu kommt: eigene Arbeitsorganisation beim Auftrag, Einordnung in eine fremde Arbeitsorganisation beim Arbeitsvertrag. Erkennungsmerkmal des Arbeitsvertrags ist das Unterordnungsverhältnis — Verpflichtung zu bestimmten Arbeitszeiten, Weisungsabhängigkeit, bestimmter Arbeitsplatz.",
-   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages"
+   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages",
+   "kern": true
   },
   {
    "id": "VHRE-W1-10",
@@ -4146,7 +4338,8 @@
     ]
    ],
    "erklaerung": "Der sechste Fall: Die Galerie stellt der B-Bank vier Wochen lang Räume zur Verfügung — Miete oder Gebrauchsleihe. Die Miete ist notwendigerweise entgeltlich (Mietzins, Art. 253 OR); ist die Gebrauchsüberlassung unentgeltlich, handelt es sich um eine Leihe (Art. 305 ff. OR).",
-   "quelle": "VHRE Übung 1 - Vertragsschluss"
+   "quelle": "VHRE Übung 1 - Vertragsschluss",
+   "kern": true
   },
   {
    "id": "VHRE-W1-11",
@@ -4167,7 +4360,8 @@
     ]
    ],
    "erklaerung": "Die Einordnung aus der Übung: Art. 100 Abs. 1 OR zwingend (Wortlaut), Art. 101 Abs. 1 OR dispositiv (gemäss Abs. 2), Art. 127 OR zwingend (gemäss Art. 129 OR), Art. 205 Abs. 1 OR dispositiv (gemäss Art. 199 OR), Art. 216 Abs. 1 OR zwingend (Art. 11 OR und Wortlaut).",
-   "quelle": "VHRE Übung 1 - Vertragsschluss"
+   "quelle": "VHRE Übung 1 - Vertragsschluss",
+   "kern": true
   },
   {
    "id": "VHRE-W1-12",
@@ -4187,7 +4381,8 @@
     0
    ],
    "erklaerung": "Nach dem Vertrauensprinzip ausgelegt ergibt sich ein normativer Konsens über 20 Flaschen. Anton erklärte irrtümlich — das ist ein Erklärungsirrtum über den Umfang der Leistung, der zur Anfechtung berechtigt.",
-   "quelle": "VHRE Übung 1 - Vertragsschluss"
+   "quelle": "VHRE Übung 1 - Vertragsschluss",
+   "kern": false
   },
   {
    "id": "VHRE-W1-13",
@@ -4207,7 +4402,8 @@
     0
    ],
    "erklaerung": "Der Wille beider Parteien bezieht sich auf eine Flasche — das ist natürlicher Konsens. Die falsche Bezeichnung schadet nicht. Anders liegt der Fall, wenn Anton eine Flasche bestellt und Beat eine Flasche Barolo bestätigt, weil kein Brunello da ist: dann kommt gar kein Vertrag zustande.",
-   "quelle": "VHRE Übung 1 - Vertragsschluss"
+   "quelle": "VHRE Übung 1 - Vertragsschluss",
+   "kern": true
   },
   {
    "id": "VHRE-W1-14",
@@ -4227,7 +4423,8 @@
     0
    ],
    "erklaerung": "Art. 9 OR: Trifft der Widerruf beim Empfänger vor oder mit der Annahme ein — oder wird er bei späterem Eintreffen zur Kenntnis gebracht, bevor der Empfänger von der Annahme Kenntnis genommen hat —, gilt die Annahme als nicht geschehen.",
-   "quelle": "VHRE Übung 1 - Vertragsschluss"
+   "quelle": "VHRE Übung 1 - Vertragsschluss",
+   "kern": false
   },
   {
    "id": "VHRE-W1-15",
@@ -4247,7 +4444,8 @@
     0
    ],
    "erklaerung": "Die Wahl der Hilfsmittel steht frei — Notebooks, Tablets und Smartphones sind aber ausgeschlossen. Erwartung an die Vorbereitung: die Gesetzesausgabe in JEDER Veranstaltung dabeihaben. Vorlesungen erläutern nicht den ganzen Lernstoff, sondern ausgewählte Themen.",
-   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages"
+   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages",
+   "kern": false
   },
   {
    "id": "VHRE-W2-01",
@@ -4269,7 +4467,8 @@
     2
    ],
    "erklaerung": "Abschlussfreiheit = ob überhaupt; Partnerwahlfreiheit = mit wem; Inhaltsfreiheit = worüber; Aufhebungsfreiheit = Beendigung; Formfreiheit = in welcher Form. Eine Anfechtungsfreiheit gibt es nicht — die Anfechtung ist gesetzlich geregelt.",
-   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung"
+   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung",
+   "kern": true
   },
   {
    "id": "VHRE-W2-02",
@@ -4289,7 +4488,8 @@
     "Gültige Stellvertretung"
    ],
    "erklaerung": "Die Detailvoraussetzungen: Handlungsfähigkeit nach ZGB 13 ff. (Urteilsfähigkeit plus Mündigkeit), Konsens nach OR 1 und 18, Formgültigkeit nach OR 11 ff. (keine gesetzliche Formvorschrift UND kein vertraglicher Formvorbehalt).",
-   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung"
+   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung",
+   "kern": true
   },
   {
    "id": "VHRE-W2-03",
@@ -4309,7 +4509,8 @@
     0
    ],
    "erklaerung": "Die Beispiele der Vorlesung: Flora verspricht Erich CHF 100 dafür, dass er ihrem Ex-Freund eine Tracht Prügel versetzt (widerrechtlich/sittenwidrig) — oder dafür, dass er ihr 5 Gramm Kokain beschafft (widerrechtlich).",
-   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung"
+   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung",
+   "kern": true
   },
   {
    "id": "VHRE-W2-04",
@@ -4329,7 +4530,8 @@
     0
    ],
    "erklaerung": "Das Beispiel: Apotheker Anton nutzt die Migräneattacke aus und verkauft Tabletten nachts für CHF 120 statt CHF 14.95. Gegenbeispiel aus Übung 2: Parfum für CHF 200 statt CHF 120 im Discounter — hier fehlt das offenbare Missverhältnis. Übervorteilung führt zur Anfechtbarkeit, nicht zur Nichtigkeit.",
-   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung"
+   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung",
+   "kern": true
   },
   {
    "id": "VHRE-W2-05",
@@ -4354,7 +4556,8 @@
     ]
    ],
    "erklaerung": "Wo der Irrtum ansetzt: Der Prozess läuft Willensbildung, Entscheid, Willenserklärung. Der Grundlagenirrtum setzt bei der Willensbildung an, der Erklärungsirrtum bei der Willenserklärung.",
-   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung"
+   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung",
+   "kern": true
   },
   {
    "id": "VHRE-W2-06",
@@ -4375,7 +4578,8 @@
     ]
    ],
    "erklaerung": "Keine Anfechtbarkeit besteht nach Art. 25 OR, wenn die Berufung auf den Irrtum wider Treu und Glauben wäre. Nach Art. 31 OR gilt der Vertrag als genehmigt, wenn seit Kenntnis des Irrtums ein Jahr verstrichen ist.",
-   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung"
+   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung",
+   "kern": false
   },
   {
    "id": "VHRE-W2-07",
@@ -4397,7 +4601,8 @@
     2
    ],
    "erklaerung": "Die Vollmacht muss ausdrücklich NICHT schriftlich sein — sie kann mündlich oder konkludent mitgeteilt werden, etwa als Anscheins- oder Duldungsvollmacht. Eine Vollmacht ist für die Vertretungswirkung sogar entbehrlich, wenn der Dritte gutgläubig auf sie vertrauen durfte.",
-   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung"
+   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung",
+   "kern": true
   },
   {
    "id": "VHRE-W2-08",
@@ -4419,7 +4624,8 @@
     2
    ],
    "erklaerung": "Grundsätzlich kommt das Rechtsgeschäft mit dem Vertretenen nicht zustande — aber eben nicht endgültig. Bei gültiger Vertretung treten die Rechtswirkungen beim Vertretenen ein, nicht beim Vertreter.",
-   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung"
+   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung",
+   "kern": true
   },
   {
    "id": "VHRE-W2-09",
@@ -4440,7 +4646,8 @@
     ]
    ],
    "erklaerung": "Insichgeschäfte führen bei möglichen Interessenkonflikten dazu, dass Verträge in der Schwebe sind. Beispiele: Franz beauftragt die Bank, sein Haus zu verkaufen, und die Bank erwirbt es selbst (Selbsteintritt) — oder sie verkauft es ihrem Kunden Carlos, von dem sie einen Kaufauftrag hat (Doppelvertretung).",
-   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung"
+   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung",
+   "kern": false
   },
   {
    "id": "VHRE-W2-10",
@@ -4460,7 +4667,8 @@
     0
    ],
    "erklaerung": "Die Vollmacht kann konkludent mitgeteilt werden. Wer wiederholt duldet, dass jemand in seinem Namen auftritt, schafft einen Rechtsschein, auf den der gutgläubige Dritte vertrauen darf. Anders im ersten Beispiel: Tom als Student kauft ohne jede Vollmacht — dort fehlt der Rechtsschein.",
-   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung"
+   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung",
+   "kern": false
   },
   {
    "id": "VHRE-W2-11",
@@ -4497,7 +4705,8 @@
     ]
    ],
    "erklaerung": "Die sechs Fälle decken genau die Systematik der sieben Gültigkeitsvoraussetzungen ab. Beim Grundstückkauf ist die öffentliche Beurkundung erforderlich — eine abendliche Unterschrift genügt nicht.",
-   "quelle": "VHRE Übung 2 - Vertragsinhalt"
+   "quelle": "VHRE Übung 2 - Vertragsinhalt",
+   "kern": true
   },
   {
    "id": "VHRE-W2-12",
@@ -4517,7 +4726,8 @@
     0
    ],
    "erklaerung": "Die direkte Stellvertretung setzt das Handeln in FREMDEM Namen voraus. Wer in eigenem Namen handelt, wird selbst Vertragspartei. Die fünf Varianten der Aufgabe spielen die Systematik aus VL2 durch: Handeln im Rahmen der Vollmacht, Vollmachtüberschreitung, Widerruf ohne Mitteilung an den Dritten, indirekte Stellvertretung und Duldungsvollmacht.",
-   "quelle": "VHRE Übung 2 - Vertragsinhalt"
+   "quelle": "VHRE Übung 2 - Vertragsinhalt",
+   "kern": false
   },
   {
    "id": "VHRE-W2-13",
@@ -4537,7 +4747,8 @@
     0
    ],
    "erklaerung": "Der Grundlagenirrtum ist beachtlich bei subjektiver Wesentlichkeit, objektiver Wesentlichkeit und Erkennbarkeit. Zu beachten ist allerdings Art. 31 OR: Genehmigung nach Ablauf eines Jahres ab Kenntnis des Irrtums.",
-   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung"
+   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung",
+   "kern": false
   },
   {
    "id": "VHRE-W2-14",
@@ -4557,7 +4768,8 @@
     0
    ],
    "erklaerung": "Der Erklärungsirrtum ist wesentlich insbesondere bei Art des Vertrages, Sache oder Person oder Umfang der Leistung. Der Zahlendreher betrifft den Umfang. Zur Erinnerung: 20 Prozent von CHF 3240 sind CHF 648.",
-   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung"
+   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung",
+   "kern": false
   },
   {
    "id": "VHRE-W2-15",
@@ -4577,7 +4789,8 @@
     0
    ],
    "erklaerung": "Für Gesellschafter von Personengesellschaften und Organe juristischer Personen sieht das Gesetz eigene Vertretungsberechtigungen vor — Details dazu im Gesellschaftsrecht.",
-   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung"
+   "quelle": "VHRE VL2 - Gültigkeit, Willensmängel und Stellvertretung",
+   "kern": false
   },
   {
    "id": "WSA1-W1-01",
@@ -4606,7 +4819,8 @@
     ]
    ],
    "erklaerung": "Das Studiendesign ist der Aufbau des Forschungsprojekts in Abhängigkeit von der Forschungsfrage. Die Forschungsfrage legt die Leitplanken: Ziel der Untersuchung, Art der erwarteten Ergebnisse, Auswahl der Methode und Auswahl der Literatur.",
-   "quelle": "WSA1 LB1 - Einführung und Grundlagen"
+   "quelle": "WSA1 LB1 - Einführung und Grundlagen",
+   "kern": true
   },
   {
    "id": "WSA1-W1-02",
@@ -4628,7 +4842,8 @@
     2
    ],
    "erklaerung": "Eine Ja/Nein-Frage ist gerade nicht offen — im Übungsbeispiel 5 (Sind hybride Arbeitsmodelle zukunftsfähiger als reine Präsenzmodelle?) ist genau das die Schwäche. Die Prüfkriterien lauten: klar und präzise, mit den gegebenen Ressourcen bearbeitbar, relevant, interessant, problemorientiert und offen.",
-   "quelle": "WSA1 LB1 - Einführung und Grundlagen"
+   "quelle": "WSA1 LB1 - Einführung und Grundlagen",
+   "kern": true
   },
   {
    "id": "WSA1-W1-03",
@@ -4661,7 +4876,8 @@
     ]
    ],
    "erklaerung": "Wege vom Thema zur Forschungsfrage: Fragen stellen (wer, was, wann, warum), besonderen Merkmalen und Widersprüchen nachgehen, Anregungen in der Literatur suchen, Kreativtechniken wie Mindmaps einsetzen, mit Kolleginnen und Kollegen sprechen.",
-   "quelle": "WSA1 LB1 - Einführung und Grundlagen"
+   "quelle": "WSA1 LB1 - Einführung und Grundlagen",
+   "kern": true
   },
   {
    "id": "WSA1-W1-04",
@@ -4673,7 +4889,8 @@
    "frage": "Wie lautet Metzgers Satzmuster für Thema, Forschungsfrage und Begründung?",
    "antwort": "Ich untersuche … weil ich herausfinden will, wer/was/wann/wo/wie/warum/ob … damit die Leser besser verstehen, warum/wie/ob …",
    "erklaerung": "Das Muster erzwingt genau die drei Teile: spezifisches Thema formulieren (Worum geht es?), klare Forschungsfrage formulieren (Was will ich herausfinden?) und die Berechtigung der Forschungsfrage begründen (Warum ist sie für die Leser relevant?).",
-   "quelle": "WSA1 - Metzger zur Forschungsfrage"
+   "quelle": "WSA1 - Metzger zur Forschungsfrage",
+   "kern": true
   },
   {
    "id": "WSA1-W1-05",
@@ -4695,7 +4912,8 @@
     2
    ],
    "erklaerung": "Negativbeispiel für eine wertende Frage: Wirkt sich Prüfungsangst WIRKLICH NEGATIV auf die Leistungen aus? Zudem gilt: Die Forschungsfrage ist nicht mit einer These zu verwechseln. In der Regel heisst Präzisieren einengen, nicht ausweiten.",
-   "quelle": "WSA1 - Metzger zur Forschungsfrage"
+   "quelle": "WSA1 - Metzger zur Forschungsfrage",
+   "kern": false
   },
   {
    "id": "WSA1-W1-06",
@@ -4715,7 +4933,8 @@
     0
    ],
    "erklaerung": "Beispiele: statt Prüfungsangst und Prüfungsleistungen besser Zusammenhang zwischen Prüfungsangst und Prüfungsleistungen bei Studienanfängern. Statt Zeitmanagement im Studium besser Bedeutung des Zeitmanagements für den Studienerfolg. Oft liegt das konkrete Thema erst auf der dritten oder vierten Ebene einer Mindmap.",
-   "quelle": "WSA1 - Metzger zur Forschungsfrage"
+   "quelle": "WSA1 - Metzger zur Forschungsfrage",
+   "kern": false
   },
   {
    "id": "WSA1-W1-07",
@@ -4740,7 +4959,8 @@
     ]
    ],
    "erklaerung": "Sekundärquellen sind für jede wissenschaftliche Arbeit von grosser Bedeutung. Tertiärquellen helfen in einer frühen Arbeitsphase für einen groben Überblick, bieten im weiteren Verlauf aber zu wenig Neues, um eine eigene Argumentation aufzubauen.",
-   "quelle": "WSA1 - Metzger zur Forschungsfrage"
+   "quelle": "WSA1 - Metzger zur Forschungsfrage",
+   "kern": true
   },
   {
    "id": "WSA1-W1-08",
@@ -4769,7 +4989,8 @@
     ]
    ],
    "erklaerung": "Die vier Elemente dienen doppelt: zum Analysieren fremder Quellen und als Gliederungsprinzip der eigenen Arbeit. Sie lassen sich über eine ganze Arbeit hinweg erkennen, oft aber auch in einem einzelnen Abschnitt.",
-   "quelle": "WSA1 - Metzger zur Forschungsfrage"
+   "quelle": "WSA1 - Metzger zur Forschungsfrage",
+   "kern": true
   },
   {
    "id": "WSA1-W1-09",
@@ -4789,7 +5010,8 @@
     0
    ],
    "erklaerung": "Ebenfalls prüfenswert: Metzger hält fest, dass 50 Prozent der gesamten Zeit für den Forschungsprozess — also vor dem Schreiben — durchaus realistisch sind. Nicht gleich mit Schreiben losschiessen.",
-   "quelle": "WSA1 - Metzger zur Forschungsfrage"
+   "quelle": "WSA1 - Metzger zur Forschungsfrage",
+   "kern": false
   },
   {
    "id": "WSA1-W1-10",
@@ -4809,7 +5031,8 @@
     0
    ],
    "erklaerung": "Entscheidend ist der Kontext: P(Tag | guter) ist hoch, P(dumm | guter) ist tief. Die Grundlage sind Unmengen von Texten aus dem Internet und aus Büchern — plus Daten, Rechenleistung und Algorithmen.",
-   "quelle": "WSA1 - Sprachmodelle in WSA1"
+   "quelle": "WSA1 - Sprachmodelle in WSA1",
+   "kern": true
   },
   {
    "id": "WSA1-W1-11",
@@ -4831,7 +5054,8 @@
     2
    ],
    "erklaerung": "Weitere Fallstricke: fehlende Vollständigkeit, das Zitieren der KI statt der Originalquelle, wissenschaftliche Integrität und Verantwortung sowie Datenschutz und Vertraulichkeit. Die Kontrollfrage lautet: Habe ich jede Aussage in meiner Arbeit verstanden und kann sie begründen und vertreten?",
-   "quelle": "WSA1 - Sprachmodelle in WSA1"
+   "quelle": "WSA1 - Sprachmodelle in WSA1",
+   "kern": true
   },
   {
    "id": "WSA1-W1-12",
@@ -4851,7 +5075,8 @@
     0
    ],
    "erklaerung": "Sprachmodelle folgen häufig der Richtung der Frage. Enthält der Prompt bereits eine Annahme, bestätigt das Modell sie oft, statt sie zu hinterfragen. Also: Suggestivfragen vermeiden, offene Fragen stellen, explizit nach Gegenargumenten fragen.",
-   "quelle": "WSA1 - Sprachmodelle in WSA1"
+   "quelle": "WSA1 - Sprachmodelle in WSA1",
+   "kern": true
   },
   {
    "id": "WSA1-W1-13",
@@ -4873,7 +5098,8 @@
     2
    ],
    "erklaerung": "Das Problem: Der Text klingt flüssig und professionell, wirkt aber allgemein, formelhaft und nichtssagend. Die Regel: KI-Text nicht ungelesen übernehmen, jeden Satz auf seinen Mehrwert prüfen. Jede Aussage sollte einen neuen Informationsgehalt haben.",
-   "quelle": "WSA1 - Sprachmodelle in WSA1"
+   "quelle": "WSA1 - Sprachmodelle in WSA1",
+   "kern": false
   },
   {
    "id": "WSA1-W1-14",
@@ -4906,7 +5132,8 @@
     ]
    ],
    "erklaerung": "Das Fazit: KI kann beim wissenschaftlichen Arbeiten unterstützen, kann aber wissenschaftliches Denken nicht ersetzen. Gute Ergebnisse erfordern Zeit für Prompts, Prüfung und Überarbeitung — die schnellsten Ergebnisse sind sicher nicht gut.",
-   "quelle": "WSA1 - Sprachmodelle in WSA1"
+   "quelle": "WSA1 - Sprachmodelle in WSA1",
+   "kern": true
   },
   {
    "id": "WSA1-W2-01",
@@ -4926,7 +5153,8 @@
     0
    ],
    "erklaerung": "Das ist die wichtigste Änderung in APA7: Ab drei Verfassenden immer sofort et al., nicht erst beim zweiten Verweis. Bei zwei Verfassenden gilt: (Müller & Schmidt, 2016) parenthetisch, Müller und Schmidt (2016) narrativ — das kaufmännische Und nur in der Klammer.",
-   "quelle": "WSA1 - Die deutschen APA-Richtlinien"
+   "quelle": "WSA1 - Die deutschen APA-Richtlinien",
+   "kern": true
   },
   {
    "id": "WSA1-W2-02",
@@ -4948,7 +5176,8 @@
     2
    ],
    "erklaerung": "Ein Abrufdatum ist nur nötig, wenn der Inhalt sich ändern kann und nicht archiviert ist, etwa ein Wörterbucheintrag. Beispiel Verlagsort: APA6 Dobelli, R. (2014). Fragen an das Leben. Zürich, Schweiz: Diogenes. — APA7 Dobelli, R. (2014). Fragen an das Leben. Diogenes.",
-   "quelle": "WSA1 - Die deutschen APA-Richtlinien"
+   "quelle": "WSA1 - Die deutschen APA-Richtlinien",
+   "kern": true
   },
   {
    "id": "WSA1-W2-03",
@@ -4977,7 +5206,8 @@
     ]
    ],
    "erklaerung": "Bei Organisationen als Verfassende wird beim ersten Verweis die Abkürzung eingeführt: (Statistisches Bundesamt [StBA], 2017), danach nur noch (StBA, 2017).",
-   "quelle": "WSA1 - Die deutschen APA-Richtlinien"
+   "quelle": "WSA1 - Die deutschen APA-Richtlinien",
+   "kern": false
   },
   {
    "id": "WSA1-W2-04",
@@ -4997,7 +5227,8 @@
     0
    ],
    "erklaerung": "Bei wörtlichen Zitaten kommt immer eine Fundstelle dazu: (Schmidt, 2019, S. 12). Ergänzungen stehen in eckigen Klammern, Auslassungen werden mit Auslassungspunkten markiert. Längere Zitate werden als eingerückter Block ohne Anführungszeichen gesetzt.",
-   "quelle": "WSA1 - Die deutschen APA-Richtlinien"
+   "quelle": "WSA1 - Die deutschen APA-Richtlinien",
+   "kern": false
   },
   {
    "id": "WSA1-W2-05",
@@ -5017,7 +5248,8 @@
     0
    ],
    "erklaerung": "Sind die Folien öffentlich verfügbar oder auf derselben Plattform wie Moodle, gilt das normale Format. Persönliche Kommunikation erscheint NICHT im Literaturverzeichnis, nur im Text — und im Text sollte erläutert werden, in welcher Situation die Information erhalten wurde.",
-   "quelle": "WSA1 - Die deutschen APA-Richtlinien"
+   "quelle": "WSA1 - Die deutschen APA-Richtlinien",
+   "kern": true
   },
   {
    "id": "WSA1-W2-06",
@@ -5046,7 +5278,8 @@
     ]
    ],
    "erklaerung": "Für die Seminararbeit relevant: Die drei Basistexte decken schon verschiedene Typen ab — ein Zeitschriftenartikel mit DOI (Lankau), ein Buchkapitel in einem Jahrbuch (Vogler et al.) und ein Zeitschriftenartikel (Kruse).",
-   "quelle": "WSA1 - Die deutschen APA-Richtlinien"
+   "quelle": "WSA1 - Die deutschen APA-Richtlinien",
+   "kern": true
   },
   {
    "id": "WSA1-W2-07",
@@ -5066,7 +5299,8 @@
     0
    ],
    "erklaerung": "Weitere Sonderfälle: Klassiker mit Original- und Ausgabejahr (Hobbes, 1651/2010); gleiche Nachnamen werden durch Initialen unterschieden; Websites als Ganzes werden im Fliesstext genannt und nicht ins Literaturverzeichnis aufgenommen.",
-   "quelle": "WSA1 - Die deutschen APA-Richtlinien"
+   "quelle": "WSA1 - Die deutschen APA-Richtlinien",
+   "kern": false
   },
   {
    "id": "WSA1-W1-15",
@@ -5088,7 +5322,8 @@
     2
    ],
    "erklaerung": "Weitere Anforderungen: Forschungsfrage formulieren, Quellen korrekt nach APA zitieren, logisch und nachvollziehbar aufbauen, eine eigenständige Argumentation entwickeln, einen kohärenten Text verfassen und den wissenschaftlichen Schreibstil anwenden. Abgabe bis 16. Dezember 2026 auf Moodle.",
-   "quelle": "WSA1 LB1 - Einführung und Grundlagen"
+   "quelle": "WSA1 LB1 - Einführung und Grundlagen",
+   "kern": false
   },
   {
    "id": "WSA1-W1-16",
@@ -5108,7 +5343,8 @@
     0
    ],
    "erklaerung": "Beide werden mit bestanden / nicht bestanden bewertet. Das Grobkonzept wird dagegen benotet und fliesst zu 3/10 ein; es ist eine Woche vor dem individuellen Feedback-Termin per E-Mail abzugeben. WSA1 gibt 3 ECTS.",
-   "quelle": "WSA1 LB1 - Einführung und Grundlagen"
+   "quelle": "WSA1 LB1 - Einführung und Grundlagen",
+   "kern": false
   },
   {
    "id": "WSA1-W1-17",
@@ -5133,7 +5369,8 @@
     ]
    ],
    "erklaerung": "Zu jedem Basistext nennt die Vorlesung verwandte Themen für die eigene Forschungsfrage, etwa bei Basistext 1: Datenökonomie, KI als Instrument der Prozessoptimierung, algorithmische Entscheidungen und Unternehmensverantwortung.",
-   "quelle": "WSA1 LB1 - Einführung und Grundlagen"
+   "quelle": "WSA1 LB1 - Einführung und Grundlagen",
+   "kern": false
   },
   {
    "id": "WSA1-W1-18",
@@ -5155,7 +5392,8 @@
     2
    ],
    "erklaerung": "Die Prüfkriterien der Übung: Ist die Frage klar und präzise formuliert? Ist sie mit den gegebenen Ressourcen bearbeitbar? Ist sie relevant, interessant, problemorientiert und offen? Am ehesten erfüllen die Kriterien Beispiel 2 (Führungsverhalten) und 4 (Social Media).",
-   "quelle": "WSA1 LB1 - Einführung und Grundlagen"
+   "quelle": "WSA1 LB1 - Einführung und Grundlagen",
+   "kern": false
   },
   {
    "id": "WSA1-W1-19",
@@ -5177,7 +5415,8 @@
     2
    ],
    "erklaerung": "Bei Schwierigkeiten hilft die Technik von Pauk: die Notizen durchgehen und ohne langes Überlegen in zentral / weniger zentral gruppieren, dann den zentralen Haufen weiter gruppieren, bis nur noch eine Handvoll Notizen übrig ist. Ein bewährtes Gliederungsprinzip sind die vier Elemente eines Arguments.",
-   "quelle": "WSA1 - Metzger zur Forschungsfrage"
+   "quelle": "WSA1 - Metzger zur Forschungsfrage",
+   "kern": false
   },
   {
    "id": "WSA1-W2-08",
@@ -5197,7 +5436,8 @@
     0
    ],
    "erklaerung": "Der Arbeitsauftrag für Woche 2 lautet: Podcast zu Abbildungen und Tabellen anhören und sich selbständig in den APA7-Zitierstandard einarbeiten. Die anderen Antworten beschreiben Woche 3, 4 und 6. WSA1 findet dienstags statt.",
-   "quelle": "WSA1 00 - Semesterplan HS2026"
+   "quelle": "WSA1 00 - Semesterplan HS2026",
+   "kern": false
   }
  ]
 }

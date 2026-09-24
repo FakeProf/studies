@@ -1,6 +1,6 @@
 # Lernstand HS2026
 
-Prüfungstrainer über den Semesterstoff Betriebsökonomie (OST, HS2026) — 240 Fragen aus eigenen Zusammenfassungen, nach Lernzielen ausgewertet.
+Prüfungstrainer über den Semesterstoff Betriebsökonomie (OST, HS2026) — 278 Fragen aus eigenen Zusammenfassungen, nach Lernzielen ausgewertet.
 
 ## Struktur
 
@@ -108,7 +108,7 @@ Der Filter **Nur Kernstoff** lässt die 149 Fragen durch, ohne die eine Standard
 | WSA1 | 14 | 27 |
 | **Total** | **149** | **278** |
 
-VHRE liegt am höchsten, weil dort fast alles Prüfschema ist. Jedes der 40 Lernziele behält mindestens eine Kernfrage — nachzurechnen mit:
+VHRE liegt am höchsten, weil dort fast alles Prüfschema ist. Jedes der 44 Lernziele behält mindestens eine Kernfrage — nachzurechnen mit:
 
 ```bash
 node -e '

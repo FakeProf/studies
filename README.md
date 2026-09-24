@@ -4,7 +4,7 @@ Studienprojekte, Betriebsökonomie OST.
 
 ## [lernstand/](lernstand/) — Prüfungstrainer HS2026
 
-240 Fragen aus eigenen Vorlesungszusammenfassungen zu OGPM, GENE, SYMG, VHRE und WSA1, nach Lernzielen ausgewertet. Statische Seite, keine Abhängigkeiten, kein Build.
+278 Fragen aus eigenen Vorlesungszusammenfassungen zu OGPM, GENE, SYMG, VHRE und WSA1, nach Lernzielen ausgewertet. Statische Seite, keine Abhängigkeiten, kein Build.
 
 Live: **https://fakeprof.github.io/studies/lernstand/**
 

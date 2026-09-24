@@ -89,7 +89,7 @@ Je nach `typ` kommen andere Felder dazu:
 | `order` | `items` — bereits **in der richtigen Reihenfolge**, die App mischt selbst |
 | `match` | `paare` — Array von Zweier-Arrays `[links, rechts]` |
 
-`kategorie` ist eines von `vorlesung`, `literatur`, `uebung`, `richtlinie`, `organisation`, `vorlage`. `teilgebiet` ist optional und wird nur bei GENE genutzt. `kern` ist `true` bei den 120 Fragen, die der Filter **Nur Kernstoff** durchlässt.
+`kategorie` ist eines von `vorlesung`, `literatur`, `uebung`, `richtlinie`, `organisation`, `vorlage`. `teilgebiet` ist optional und wird nur bei GENE genutzt. `kern` ist `true` bei den 149 Fragen, die der Filter **Nur Kernstoff** durchlässt.
 
 > **Bestehende `id` niemals ändern.** Der gespeicherte Fortschritt hängt daran — eine neue ID bedeutet, dass die Frage als nie geübt gilt.
 
@@ -97,16 +97,16 @@ Beim Ergänzen ausserdem die vorhandenen `lernziel`-Texte **wörtlich** wiederve
 
 ### Was `kern` bedeutet
 
-Der Filter **Nur Kernstoff** lässt die 120 Fragen durch, ohne die eine Standardfrage zum jeweiligen Lernziel nicht zu beantworten wäre: Definitionen, Prüfschemata, Abgrenzungen. Draussen bleiben Jahreszahlen, Namens- und Anbieterlisten, Biografien, illustrierende Einzelzahlen und alles Organisatorische.
+Der Filter **Nur Kernstoff** lässt die 149 Fragen durch, ohne die eine Standardfrage zum jeweiligen Lernziel nicht zu beantworten wäre: Definitionen, Prüfschemata, Abgrenzungen. Draussen bleiben Jahreszahlen, Namens- und Anbieterlisten, Biografien, illustrierende Einzelzahlen und alles Organisatorische.
 
 | Modul | Kern | Gesamt |
 |---|---:|---:|
 | OGPM | 25 | 52 |
 | GENE | 39 | 85 |
-| SYMG | 22 | 46 |
+| SYMG | 51 | 84 |
 | VHRE | 20 | 30 |
 | WSA1 | 14 | 27 |
-| **Total** | **120** | **240** |
+| **Total** | **149** | **278** |
 
 VHRE liegt am höchsten, weil dort fast alles Prüfschema ist. Jedes der 40 Lernziele behält mindestens eine Kernfrage — nachzurechnen mit:
 

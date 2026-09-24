@@ -1,6 +1,6 @@
 {
  "version": 1,
- "stand": "2026-09-23",
+ "stand": "2026-09-24",
  "quelle": "Obsidian-Vault \"02 Zusammenfassungen\", OST HS2026",
  "fragen": [
   {
@@ -5438,6 +5438,912 @@
    "erklaerung": "Der Arbeitsauftrag für Woche 2 lautet: Podcast zu Abbildungen und Tabellen anhören und sich selbständig in den APA7-Zitierstandard einarbeiten. Die anderen Antworten beschreiben Woche 3, 4 und 6. WSA1 findet dienstags statt.",
    "quelle": "WSA1 00 - Semesterplan HS2026",
    "kern": false
+  },
+  {
+   "id": "SYMG-W2-05",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "kern": true,
+   "frage": "Ordne den vier Grundfragen der Unternehmensstrategie ihr Element zu.",
+   "paare": [
+    [
+     "Wofür?",
+     "Mission"
+    ],
+    [
+     "Warum?",
+     "Differenzierung"
+    ],
+    [
+     "Wohin?",
+     "Vision"
+    ],
+    [
+     "Wie?",
+     "Strategische Umsetzung"
+    ]
+   ],
+   "erklaerung": "Genau diese vier Elemente verlangt auch der Gruppenauftrag 2 als Einstieg. Merkhilfe: Mission ist der Zweck (wofür es uns gibt), Differenzierung der Grund (warum ausgerechnet uns), Vision das Ziel (wohin), Umsetzung der Weg (wie).",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-06",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Wertorientiertes Management einordnen",
+   "kern": true,
+   "frage": "Worauf richtet konsequent eingesetztes Value Based Management alles aus?",
+   "optionen": [
+    "Alle Ziele, analytischen Methoden und Geschäftsprozesse auf die Steigerung des Unternehmungswertes — ausgewogen für alle Stakeholder",
+    "Alle Entscheidungen auf den Quartalsgewinn",
+    "Sämtliche Prozesse auf die Senkung der Kapitalkosten",
+    "Die gesamte Organisation auf den Marktanteil"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ausgewogen heisst: Aktionäre, Mitarbeitende und Kunden zugleich. Richtig verstandenes Wertmanagement zielt ausdrücklich NICHT auf kurzfristige Gewinnmaximierung, sondern darauf, dort zu investieren, wo künftige freie Cashflows eine risikogerechte Kapitalrendite ergeben.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-07",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Wertorientiertes Management einordnen",
+   "kern": false,
+   "frage": "In welcher Reihenfolge ordnet das Credo von Johnson & Johnson (1943) die Verantwortung?",
+   "optionen": [
+    "Kunden, Mitarbeitende, Gemeinwesen, Aktionäre",
+    "Aktionäre, Kunden, Mitarbeitende, Gemeinwesen",
+    "Mitarbeitende, Kunden, Aktionäre, Gemeinwesen",
+    "Gemeinwesen, Kunden, Mitarbeitende, Aktionäre"
+   ],
+   "erklaerung": "Die Aktionäre stehen bewusst zuletzt — die Logik dahinter ist, dass ihr Ertrag das Ergebnis der ersten drei ist. Gegenbeispiel der Vorlesung ist BP: schöne Wertecharta, aber „Papier ist geduldig — an den Taten werden wir gemessen“.",
+   "loesung": [
+    0
+   ],
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-08",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "kern": false,
+   "frage": "Was zeigte die Nachkontrolle zu „In Search of Excellence“ (Peters & Waterman) fünf Jahre später?",
+   "optionen": [
+    "Von 43 herausragenden Unternehmen waren nur noch 14 herausragend, 11 stark geschwächt und 8 mit massiven Problemen",
+    "Alle 43 Unternehmen hatten ihre Position gehalten",
+    "Die Mehrheit war noch erfolgreicher geworden",
+    "Nur 3 der 43 Unternehmen existierten noch"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Dazu der Langzeitbefund von Richard Foster: Die durchschnittliche Lebensdauer eines S&P-500-Unternehmens sank von 67 Jahren (1920) auf 15 Jahre (2015). Das Learning: nicht immer in den gleichen Schienen fahren, sich nicht auf Lorbeeren ausruhen, nicht in Routine erstarren.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-09",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "kern": true,
+   "frage": "Was war die Ausgangsfrage von PIMS — und woran wurde der Erfolg gemessen?",
+   "optionen": [
+    "Ob es strategische Gesetzmässigkeiten gibt, die nachhaltigen Erfolg erklären — gemessen am Return on Investment",
+    "Ob Diversifikation den Umsatz steigert — gemessen am Marktanteil",
+    "Welche Branchen am profitabelsten sind — gemessen am Cashflow",
+    "Ob Grösse vor Fokus geht — gemessen am Börsenwert"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "PIMS begann als internes Forschungsprojekt von General Electric: GE-Präsident Fred Borch wollte anfangs der 1960er-Jahre eine empirische Grundlage für die Strategieauswahl, weil GE als breit diversifizierter Mischkonzern keinen systematischen Ansatz für so unterschiedliche Geschäftsfelder hatte.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-10",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "kern": true,
+   "frage": "Welcher PIMS-Faktor hat von allen Bestimmungsfaktoren den grössten negativen Einfluss auf den ROI?",
+   "optionen": [
+    "Die Investment-Intensität",
+    "Die vertikale Integration",
+    "Die Innovationsrate",
+    "Die Wachstumsrate des Marktes"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Investment-Intensität = betriebsnotwendiges Kapital geteilt durch Wertschöpfung; sie hängt stark von der Branche ab. Die Gegenmassnahme heisst Produktivität — sie wirkt immer positiv und ist bei hoher Investment-Intensität unabdingbar. Katastrophal ist die Kombination schwache Marktposition plus hohe Investment-Intensität.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-11",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "kern": true,
+   "frage": "Ordne den PIMS-Faktoren ihre Definition zu.",
+   "paare": [
+    [
+     "Investment-Intensität",
+     "Betriebsnotwendiges Kapital geteilt durch Wertschöpfung"
+    ],
+    [
+     "Produktivität",
+     "Wertschöpfung pro Mitarbeitenden"
+    ],
+    [
+     "Relativer Marktanteil",
+     "Eigener Marktanteil geteilt durch die Summe der Marktanteile der drei Hauptkonkurrenten"
+    ],
+    [
+     "Innovationsrate",
+     "Umsatzanteil an Produkten, die nicht älter als drei Jahre sind"
+    ],
+    [
+     "Vertikale Integration",
+     "Wertschöpfung geteilt durch Umsatz, absolut und relativ zur Konkurrenz"
+    ],
+    [
+     "Kundenprofil",
+     "Anzahl direkter Kunden, die 50 Prozent des Umsatzes ausmachen"
+    ]
+   ],
+   "erklaerung": "Die relative Qualität der Produkte ist der siebte Faktor: Umsatzanteil überlegener minus unterlegener Produkte aus Kundensicht. Achte beim relativen Marktanteil auf das Detail „drei Hauptkonkurrenten im bedienten Markt“ — nicht der Gesamtmarkt.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-12",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "kern": true,
+   "frage": "Wie wirkt die Wachstumsrate des Marktes laut PIMS?",
+   "optionen": [
+    "Positiv für den absoluten Gewinn, neutral für den ROI, negativ für den Free Cashflow",
+    "Durchgehend positiv auf alle Finanzkennzahlen",
+    "Negativ für den absoluten Gewinn, positiv für den ROI",
+    "Neutral für alle Kennzahlen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Der negative Effekt auf den Free Cashflow ist der Grund, warum Wachstum Geld kostet: Wer mitwächst, muss vorfinanzieren. Genau das erklärt in der BCG-Matrix, warum Fragezeichen und Sterne trotz hohem Marktwachstum keinen hohen positiven Cashflow abwerfen.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-13",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "kern": true,
+   "frage": "Welcher PIMS-Faktor ist laut Vorlesung bei kleinem Marktanteil unabdingbar?",
+   "optionen": [
+    "Die relative Qualität der Produkte",
+    "Die Innovationsrate",
+    "Die vertikale Integration",
+    "Die Investment-Intensität"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Relative Qualität wirkt stark positiv auf alle Finanzdaten. Die Innovationsrate dagegen zahlt sich in der Regel nur bei hohen Marktanteilen aus und wird ab einem gewissen Umsatzanteil sogar negativ für den ROI.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-14",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die strategische Erfolgslogik als Wirkungsnetzwerk verstehen",
+   "kern": true,
+   "frage": "Warum ist im Modell des vollkommenen Wettbewerbs keine dauerhafte Rendite über den Kapitalkosten möglich?",
+   "optionen": [
+    "Der Kreislauf ist ein Stabilisator: Gewinn lockt Mitbewerber, der Konkurrenzdruck drückt die Preise und damit den Gewinn wieder",
+    "Der Staat schöpft Übergewinne ab",
+    "Die Kapitalkosten steigen mit dem Gewinn",
+    "Die Nachfrage sinkt mit steigendem Angebot"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Merkmale des vollkommenen Wettbewerbs: viele Anbieter und Nachfrager ohne Marktmacht, keine Eintrittsbarrieren, volle Markttransparenz, homogene Güter — Wettbewerb also nur über den Preis. Das erklärt die tiefe Branchenrentabilität in Gastronomie, Coiffeur, Hotellerie oder Kino; Indikator dafür ist das Branchenkonkursrisiko.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-15",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die strategische Erfolgslogik als Wirkungsnetzwerk verstehen",
+   "kern": false,
+   "frage": "Wie viele Konkurrenten machten den Microscooter von Wim Ouboter auf dem Höhepunkt des Booms nach?",
+   "optionen": [
+    "Rund 700",
+    "Rund 70",
+    "Rund 7000",
+    "Rund 200"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Das Beispiel illustriert den Startpunkt der Erfolgslogik: Erfolg schafft Konkurrenz. Ouboter ging fast Konkurs und war jahrelang in Rechtsstreitigkeiten verwickelt. Das Resultat ist der Albtraum jedes Unternehmers — viel Konkurrenz, kein Gewinn.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-16",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "kern": true,
+   "frage": "Welche fünf Wettbewerbskräfte unterscheidet Porter? (mehrere richtig)",
+   "optionen": [
+    "Rivalität unter den bestehenden Unternehmen",
+    "Bedrohung durch neue Wettbewerber",
+    "Verhandlungsstärke von Lieferanten und Kunden sowie Ersatzprodukte",
+    "Verhandlungsstärke des Staates"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Der Staat ist keine eigene Kraft — staatliche Regulierungen tauchen als Treiber bei „neue Wettbewerber“ und als Art von Eintrittsbarriere auf. Quintessenz: Je höher die Rivalität, desto geringer Branchenrentabilität und Marktattraktivität.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-17",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "kern": true,
+   "frage": "Ordne den Wettbewerbskräften den jeweils genannten Integrationstyp bzw. Treiber zu.",
+   "paare": [
+    [
+     "Verhandlungsstärke der Kunden",
+     "Möglichkeit zur Rückwärtsintegration"
+    ],
+    [
+     "Verhandlungsstärke der Lieferanten",
+     "Möglichkeit zur Vorwärtsintegration"
+    ],
+    [
+     "Bedrohung durch neue Wettbewerber",
+     "Kapitalbedarf für den Markteintritt und zu erwartende Vergeltungsmassnahmen"
+    ],
+    [
+     "Ersatzprodukte",
+     "Preis-Leistungs-Verhältnis der Substitute und sinkende Umstellungskosten"
+    ],
+    [
+     "Rivalität",
+     "Fixkostenanteil, Austrittsbarrieren und Innovationsgeschwindigkeit"
+    ]
+   ],
+   "erklaerung": "Die Richtung merkt man sich über die Wertschöpfungskette: Der Kunde steht hinter mir, er integriert rückwärts zu mir hin. Der Lieferant steht vor mir, er integriert vorwärts zu mir hin. Beides erhöht seine Verhandlungsmacht, weil er glaubhaft drohen kann, meine Leistung selbst zu erbringen.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-18",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die strategische Erfolgslogik als Wirkungsnetzwerk verstehen",
+   "kern": true,
+   "frage": "Welcher Knoten durchbricht den stabilisierenden Wettbewerbskreislauf und macht daraus einen Engelskreislauf?",
+   "optionen": [
+    "Die Eintrittsbarriere",
+    "Das Marktwachstum",
+    "Die Investment-Intensität",
+    "Der Fixkostenanteil"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Das Netzwerk lautet: Investitionen führen zu Innovationen und Lerneffekten, diese zu Effizienz und Qualitätsvorsprung, daraus entstehen Kosten- und Differenzierungsvorteile, daraus Eintrittsbarrieren — sie dämpfen Mitbewerber und Konkurrenzdruck, was höhere Preise, Umsatz und Cashflow erlaubt, die wieder investiert werden. Erst so wird eine dauerhafte Rendite über den Kapitalkosten möglich.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-19",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Die strategische Erfolgslogik als Wirkungsnetzwerk verstehen",
+   "kern": true,
+   "frage": "Ordne den vier Arten von Eintrittsbarrieren ihre Erläuterung zu.",
+   "paare": [
+    [
+     "Kostenvorteile",
+     "Über Grössenvorteile und die Erfahrungskurve"
+    ],
+    [
+     "Differenzierungsvorteile",
+     "Qualitätsvorsprung, Marke, Innovation"
+    ],
+    [
+     "Netzwerkeffekte",
+     "Hoher Verbreitungsgrad ist selbst der Vorteil — führt zum natürlichen Monopol"
+    ],
+    [
+     "Staatliche Regulierungen",
+     "Schützen die Etablierten vor Markteintritten"
+    ]
+   ],
+   "erklaerung": "Das Netzwerkeffekt-Beispiel ist das Betriebssystem: mehr Verbreitung bedeutet einfacheren Datenaustausch und mehr Anwendungsprogramme, was wiederum die Verbreitung erhöht. Genau das erklärt Microsofts Marktanteil. Givaudan profitiert gleich mehrfach: Grössen- und Kostenvorteile plus Differenzierungsvorteile plus günstige Rahmenbedingungen.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-20",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Die strategische Erfolgslogik als Wirkungsnetzwerk verstehen",
+   "kern": true,
+   "frage": "Wie lautet das Gesetz der Erfahrungskurve (BCG, 1966)?",
+   "antwort": "Jedes Mal, wenn sich die kumulierte Produktionsmenge verdoppelt, sinken die in der Wertschöpfung des Produkts enthaltenen Stückkosten um einen konstanten Prozentsatz — normalerweise 20 bis 30 Prozent.",
+   "erklaerung": "Verantwortlich sind neben Grössenvorteilen vor allem Lern- und Erfahrungseffekte. Entscheidend ist der Zusatz: Die Kostenreduktion stellt sich NICHT automatisch ein — es ist ein Kostenreduktionspotenzial, das durch geeignete Massnahmen erst realisiert werden muss.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-21",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die strategische Erfolgslogik als Wirkungsnetzwerk verstehen",
+   "kern": false,
+   "frage": "Welche kritische Masse gilt in der Automobilbranche für Economies of Scale?",
+   "optionen": [
+    "Rund drei Millionen Fahrzeuge pro Jahr",
+    "Rund 500'000 Fahrzeuge pro Jahr",
+    "Rund zehn Millionen Fahrzeuge pro Jahr",
+    "Rund eine Million Fahrzeuge pro Jahr"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Darunter sind F&E-, Marketing- und Vertriebskosten pro Stück zu hoch. Das erklärt die breiten Angebotspaletten früher segmentorientierter Anbieter wie Mercedes und Audi sowie die vielen Fusionen — Stellantis, Renault-Nissan-Mitsubishi, VW/Porsche. Gegenpol ist der 3D-Druck, der Kleinserien wieder kostengünstig macht.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-22",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die strategische Erfolgslogik als Wirkungsnetzwerk verstehen",
+   "kern": false,
+   "frage": "Was zeigt die GE-Aufspaltung über Grössenvorteile?",
+   "optionen": [
+    "Es gibt auch Grössennachteile: Die drei Nachfolger sind zusammen rund fünfmal so viel wert wie GE vor der Aufspaltungsankündigung — der Kapitalmarkt honoriert Fokus",
+    "Grössenvorteile setzen sich langfristig immer durch",
+    "Mischkonzerne erzielen systematisch höhere Bewertungen",
+    "Die Aufspaltung vernichtete Unternehmenswert"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Mischkonzerne leiden unter einem Konglomeratsabschlag — genannt werden Siemens, Thyssenkrupp, Continental, BASF und Bayer. Kernerkenntnis: eigenständige, profitable Einheiten mit klarer strategischer Logik schaffen oft mehr Wert als ein komplexer Gesamtkonzern.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-23",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "kern": true,
+   "frage": "Ordne den beiden Denkschulen zu, worauf sie schauen und was sie suchen.",
+   "paare": [
+    [
+     "Outside-in",
+     "Bedrohungen und Chancen in der Umgebung — sucht die Schlüsselfaktoren für den Erfolg"
+    ],
+    [
+     "Inside-out",
+     "Stärken und Schwächen der Organisation — sucht die distinktiven Kompetenzen"
+    ]
+   ],
+   "erklaerung": "Beide fliessen in die Erstellung von Strategievarianten zusammen, mitbestimmt von sozialer Verantwortung (extern) und Managementwerten (intern). Danach folgen Entwicklung und Auswahl einer Strategie und schliesslich die Implementierung.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-24",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "kern": true,
+   "frage": "Ordne jeder Phase des Strategieprozesses ihre Instrumente zu.",
+   "paare": [
+    [
+     "Erfolgslogik kennenlernen",
+     "Netzwerk und Branchenanalyse nach Porter, PIMS — Hebel und Indikatoren identifizieren"
+    ],
+    [
+     "Situationsanalyse",
+     "Stakeholder-Analyse, SGF-Analyse, SWOT-Analyse, Branchenanalyse nach Porter"
+    ],
+    [
+     "Strategieentwicklung",
+     "Portfolioanalyse (McKinsey/BCG), Ansoff, generische Strategietypen nach Porter, Kernkompetenzen"
+    ],
+    [
+     "Strategieumsetzung und Kontrolle",
+     "Balanced Scorecard"
+    ]
+   ],
+   "erklaerung": "Diese Einordnung ist der rote Faden von LB2: Zuerst verstehen, wie Erfolg entsteht, dann die eigene Lage analysieren, dann Optionen entwickeln, dann umsetzen und messen. Die Balanced Scorecard ist dabei das einzige Instrument der Umsetzungsphase.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-25",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "kern": false,
+   "frage": "Stakeholder-Analyse nach Mintzberg: Ordne den Kombinationen aus Machtbasis und Wille zur Machtausübung ihre Bezeichnung zu.",
+   "paare": [
+    [
+     "Hohe Macht und hoher Wille",
+     "Strategische Anspruchsgruppen"
+    ],
+    [
+     "Hohe Macht und geringer Wille",
+     "Bezugsgruppen"
+    ],
+    [
+     "Geringe Macht und hoher Wille",
+     "Interessengruppen"
+    ]
+   ],
+   "erklaerung": "Die beiden Achsen sind die Machtbasis der Gruppe bzw. die Abhängigkeit des Unternehmens von ihr, und der Wille zur Machtausübung. Nur wo beides hoch ist, entsteht eine strategische Anspruchsgruppe, die man in der Strategie berücksichtigen muss.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-26",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "kern": true,
+   "frage": "Wie entstehen strategische Geschäftsfelder (SGF)?",
+   "optionen": [
+    "Aus der Kreuzung von Produkten bzw. Leistungen mit Märkten bzw. Kundensegmenten",
+    "Aus der Aufteilung nach Regionen",
+    "Aus der bestehenden Abteilungsstruktur",
+    "Aus der Gruppierung nach Deckungsbeitrag"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beispiel Autohaus: SGF 1 Autohandel Privatkunden, SGF 2 Autohandel Geschäftskunden, SGF 3 Werkstatt, SGF 4 Finanzierung, SGF 5 Zubehör. Kundensegmente lassen sich etwa nach Einkommen (Privatkunden) oder Grösse (Geschäftskunden) bilden. Die SGF-Analyse gehört zur Inside-out-Perspektive.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-27",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "kern": true,
+   "frage": "SWOT-Matrix: Ordne jeder Kombination die zugehörige Strategieart zu.",
+   "paare": [
+    [
+     "Strengths und Opportunities",
+     "SO — Stärken nutzen, um Chancen zu ergreifen"
+    ],
+    [
+     "Strengths und Threats",
+     "ST — Stärken nutzen, um Gefahren abzuwehren"
+    ],
+    [
+     "Weaknesses und Opportunities",
+     "WO — Schwächen beheben, um Chancen zu nutzen"
+    ],
+    [
+     "Weaknesses und Threats",
+     "WT — Schwächen und Gefahren zugleich minimieren"
+    ]
+   ],
+   "erklaerung": "Die eigentliche Leistung ist nicht das Sammeln der vier Listen, sondern die logische Verknüpfung von externen (OT) und internen (SW) Faktoren. Im Gruppenauftrag ist jede Option ausdrücklich mit den beteiligten Faktoren zu kennzeichnen, etwa „Entwicklung neuer Gesundheitsprodukte (S2, S3, O2)“.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-28",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "kern": true,
+   "frage": "Was ist im SWOT-Modell der Schnittpunkt von interner und externer Analyse?",
+   "optionen": [
+    "Der Wettbewerbsvorteil",
+    "Die Kernkompetenz",
+    "Das strategische Geschäftsfeld",
+    "Die Eintrittsbarriere"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Intern werden Strengths und Weaknesses erhoben, extern Opportunities und Threats. Die Umweltanalyse gliedert sich in drei Blöcke: Marktpotenzial und -volumen, Branchenstruktur nach Porters fünf Kräften, sowie Umfeld und Rahmenbedingungen (politisch, ökonomisch, sozio-kulturell, technologisch, ökologisch, rechtlich).",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-29",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "kern": false,
+   "frage": "Was sind laut KMU-Spiegel 2018 die beiden stärksten Treiber für Veränderungen im Unternehmen?",
+   "optionen": [
+    "Technologischer Wandel (56 Prozent) und Veränderung der Kundenbedürfnisse (51 Prozent)",
+    "Konjunkturelle Einflüsse und Wechselkursentwicklung",
+    "Konkurrenz aus dem Ausland und aus dem Inland",
+    "Neue gesetzliche Vorschriften und demografische Entwicklungen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Es folgen neue gesetzliche Vorschriften (38 Prozent), Konkurrenz aus dem Ausland (29 Prozent) und aus dem Inland (22 Prozent). Konjunktur (15 Prozent), Wechselkurs und Demografie (je 12 Prozent) liegen deutlich hinten — bemerkenswert, weil gerade diese im Alltag am lautesten diskutiert werden.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-30",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "kern": true,
+   "frage": "BCG-Portfolio: Ordne jedem Feld seine Cashflow-Aussage zu.",
+   "paare": [
+    [
+     "Fragezeichen (hohes Wachstum, schlechter als Hauptkonkurrent)",
+     "Grosser negativer Cashflow"
+    ],
+    [
+     "Stern (hohes Wachstum, besser als Hauptkonkurrent)",
+     "Bescheidener positiver oder negativer Cashflow, überdurchschnittlich"
+    ],
+    [
+     "Cash-Kuh (geringes Wachstum, besser als Hauptkonkurrent)",
+     "Grosser positiver Cashflow"
+    ],
+    [
+     "Armer Hund (geringes Wachstum, schlechter als Hauptkonkurrent)",
+     "Bescheidener positiver oder negativer Cashflow, unterdurchschnittlich"
+    ]
+   ],
+   "erklaerung": "Die Achsen sind Marktwachstum und relativer Marktanteil. Hintergrund ist der Produktlebenszyklus (Einführung, Wachstum, Reife, Sättigung, Degeneration) kombiniert mit Grössendegression und Fixkosteneffekt.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-31",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "kern": true,
+   "frage": "Was zeigt das Nestlé-Beispiel über die BCG-Matrix?",
+   "optionen": [
+    "Die Definition des Marktes bestimmt willkürlich die Positionierung — und damit die Normstrategie",
+    "Kaffee ist grundsätzlich ein armer Hund",
+    "Cash-Kühe lassen sich nicht in Sterne zurückverwandeln",
+    "Die Matrix funktioniert nur bei Einproduktunternehmen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Nimmt man das Kaffeegeschäft als Ganzes, fiele es trotz Erfolg und guter Rentabilität unter die armen Hunde. Definiert man löslichen Kaffee als Markt, wird Nescafé zur Cash-Kuh. Betrachtet man Nespresso gesondert, ist ein Stern geboren — dasselbe Geschäft, drei Normstrategien.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-32",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "kern": true,
+   "frage": "Produkt-Markt-Strategien nach Ansoff: Ordne jeder Kombination die Strategie und ihre Erfolgsaussicht zu.",
+   "paare": [
+    [
+     "Bisherige Produkte, bisherige Märkte",
+     "Durchdringungsstrategie — 75 Prozent"
+    ],
+    [
+     "Bisherige Produkte, neue Märkte",
+     "Marktentwicklungsstrategie — 45 Prozent"
+    ],
+    [
+     "Neue Produkte, bisherige Märkte",
+     "Produktentwicklungsstrategie — 35 Prozent"
+    ],
+    [
+     "Neue Produkte, neue Märkte",
+     "Diversifikationsstrategie — 25 Prozent organisch"
+    ]
+   ],
+   "erklaerung": "Die Erfolgsaussichten stammen vom IMD (1998). Je weiter man sich vom Bekannten entfernt, desto geringer die Trefferquote — Diversifikation per Akquisition liegt mit 35 Prozent etwas höher als organisch. Beispiele für Durchdringung: Orell Füssli mit Online und App, Emmi mit Rezeptideen auf der Verpackung zur Erhöhung der Nutzungsrate.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-33",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "kern": true,
+   "frage": "Generische Wettbewerbsstrategien nach Porter: Ordne jedem Feld seine Strategie zu.",
+   "paare": [
+    [
+     "Branchenweit, Vorteil über Kosten",
+     "Kostenführerschaft — Standardprodukt"
+    ],
+    [
+     "Branchenweit, Vorteil über Leistung",
+     "Differenzierung — Einzigartigkeit"
+    ],
+    [
+     "Ein Segment, Vorteil über Kosten",
+     "Kostenfokus — begrenztes Bedürfnis, meist preiselastisch"
+    ],
+    [
+     "Ein Segment, Vorteil über Leistung",
+     "Differenzierungsfokus — spezifisches Bedürfnis, meist preisunelastisch"
+    ]
+   ],
+   "erklaerung": "Die drei Leitfragen dahinter: Was machen wir anders (Differenzierung), was besser, was billiger (Kostenführerschaft)? Der Fokus bedeutet Konzentration auf bestimmte Abnehmergruppen, Leistungen oder geografische Märkte. Beispiel Kostenführerschaft — Easyjet: „Kostenbewusstsein steckt in unserer DNA.“",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-34",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "kern": true,
+   "frage": "Welche zwei Erfolgsregeln fanden Raynor und Ahmed bei den herausragenden Unternehmen?",
+   "optionen": [
+    "Besser vor billiger, und Umsatz vor Kosten",
+    "Billiger vor besser, und Kosten vor Umsatz",
+    "Wachstum vor Rendite, und Grösse vor Fokus",
+    "Innovation vor Qualität, und Marktanteil vor Marge"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Untersucht wurden 51'135 Unternehmen aus USA, Europa und Asien über 10 bis 45 Jahre; gut ein Prozent wurde als herausragend (hoher ROA) herausgefiltert. Besser vor billiger heisst: Differenzierung schlägt Kostenführerschaft. Beispiele: Abercrombie & Fitch, Wrigley, Merck, 3M, IBM, SAP, Hugo Boss.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-35",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "kern": true,
+   "frage": "Welche vier Kriterien muss eine Kernkompetenz nach Prahalad und Hamel erfüllen? (mehrere richtig)",
+   "optionen": [
+    "Einzigartigkeit bzw. Knappheit",
+    "Eignung, Kundennutzen zu stiften",
+    "Keine bzw. beschränkte Imitierbarkeit und Substituierbarkeit",
+    "Messbarkeit in Geldeinheiten"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Die vier Kriterien teilen sich in zwei Gruppen: Einzigartigkeit und Kundennutzen betreffen den WERT der Stärken, Imitierbarkeit und Substituierbarkeit die DAUERHAFTIGKEIT. Ergebnis sind Produkte mit nachhaltigen Wettbewerbsvorteilen und damit dauerhaft überdurchschnittliche Renditen. Beispiel Roche mit gleich zwei Kernkompetenzen: Krebsforschung und personalisierte Medizin.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-36",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "kern": true,
+   "frage": "Ordne den drei Strategieansätzen zu, an welcher Stelle des Systems sie ansetzen.",
+   "paare": [
+    [
+     "Prahalad und Hamel",
+     "Im Insystem Unternehmen — Kernkompetenzen"
+    ],
+    [
+     "Ansoff",
+     "An der Schnittstelle Produkte und Leistungen zu den Kunden"
+    ],
+    [
+     "Porter",
+     "An der Schnittstelle zu den Konkurrenten"
+    ]
+   ],
+   "erklaerung": "Alle drei sind eingebettet in die Umsysteme Natur, Gesellschaft, Ökonomie und Rechtsordnung mit Lieferanten, Staat, Kapitalgebern, Mitarbeitenden und Öffentlichkeit. Die Ansätze konkurrieren also nicht, sondern decken unterschiedliche Stellen desselben Systems ab.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-37",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Das Konzept der Balanced Scorecard verstehen",
+   "kern": true,
+   "frage": "Ordne den vier Barrieren der Strategieumsetzung ihren Befund zu.",
+   "paare": [
+    [
+     "Visions-Barriere",
+     "Nur 5 Prozent der Mitarbeitenden verstehen die Strategie"
+    ],
+    [
+     "Management-Barriere",
+     "85 Prozent des Topmanagements diskutieren weniger als 1 Stunde monatlich über strategische Themen"
+    ],
+    [
+     "Verhaltens-Barriere",
+     "Nur 25 Prozent der Manager haben ihren Bonus mit der Strategie verknüpft"
+    ],
+    [
+     "Ressourcen-Barriere",
+     "Nur 40 Prozent der Unternehmen verknüpfen ihre Budgets mit der Strategie"
+    ]
+   ],
+   "erklaerung": "Der Ausgangsbefund: 9 von 10 Firmen scheitern an der Strategieumsetzung (Fortune Magazine 1999). Genau diese Implementierungslücke soll die Balanced Scorecard schliessen.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-38",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Das Konzept der Balanced Scorecard verstehen",
+   "kern": true,
+   "frage": "Wie definieren Kaplan und Norton die Balanced Scorecard in einem Satz?",
+   "antwort": "Die Balanced Scorecard ist die in Zielen und Aktionen ausgedrückte Strategie des Unternehmens.",
+   "erklaerung": "Der Untertitel des Buchs bringt es auf den Punkt: „Translating Strategy into Action“. Der Merksatz der Vorlesung dazu: What gets measured gets done.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-39",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Das Konzept der Balanced Scorecard verstehen",
+   "kern": true,
+   "frage": "Ordne den vier Perspektiven der Balanced Scorecard ihre Leitfrage zu.",
+   "paare": [
+    [
+     "Finanzen",
+     "Welche Erwartungen haben unsere Gesellschafter an unser finanzielles Ergebnis?"
+    ],
+    [
+     "Kunden",
+     "Welche Leistungen sollten wir für unsere Kunden erbringen, um die Strategie zu verwirklichen?"
+    ],
+    [
+     "Prozesse",
+     "Wie müssen wir die Geschäftsprozesse optimieren, um Gesellschafter und Kunden zufriedenzustellen?"
+    ],
+    [
+     "Mitarbeitende",
+     "Wie erhalten wir die Fähigkeit zum Wandel, zu verbessern und zu entwickeln?"
+    ]
+   ],
+   "erklaerung": "Jede Perspektive hat dieselbe Struktur: Ziel- und Messgrössen, Zielwerte, Steuergrössen, Massnahmen. Wichtig fürs Modul: Diese vier Perspektiven sind zugleich die Makrostruktur des Lehrbuchs und damit die Reihenfolge der Lernbausteine LB3 bis LB6.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-40",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Das Konzept der Balanced Scorecard verstehen",
+   "kern": true,
+   "frage": "Bringe die Kaskadierung der Balanced Scorecard in die richtige Reihenfolge — von oben nach unten.",
+   "items": [
+    "BSC der Gesamtorganisation",
+    "BSC der Organisationseinheit",
+    "BSC des einzelnen Akteurs"
+   ],
+   "erklaerung": "Auf jeder Stufe mit Zielen, Erfolgstreibern und Handlungen. Die BSC ist damit die Brücke zwischen Strategie und Tagesgeschäft: von der Strategie ausgehend Erfolgstreiber bestimmen, danach ausgerichtetes Handeln selbstverständlich werden lassen und ein darauf fokussiertes Controllinginstrument haben.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-41",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "kern": false,
+   "frage": "Woran scheiterten laut Carroll und Mui 355 der 750 grössten US-Fehlschläge? (mehrere richtig)",
+   "optionen": [
+    "Überschätzen von Synergien bei Zusammenschlüssen und übereilte Fusionen",
+    "Blind Kurs halten nach dem Muster „more of the same“ sowie unüberlegte Markterweiterung",
+    "Riskante Finanzakrobatik, falsche Technikwahl und zu schnelles Wachstum",
+    "Zu geringe Diversifikation"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Die sieben Muster mit ihren Beispielen: Synergien (Zusammenschlüsse), Finanzakrobatik (Swissair), blind Kurs halten (Kodak), Markterweiterung (Migros, Rivella, Vögele), falsche Technik (Motorolas Iridium), übereilte Fusion (Daimler Chrysler), zu schnelles Wachstum (Enron).",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "SYMG-W2-42",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "kern": false,
+   "frage": "Was zeigt das Honda-Beispiel zur emergenten Strategie?",
+   "optionen": [
+    "Geplant waren schwere Motorräder, realisiert wurde das Kleinmotorrad — die aufgetauchte, ungeplante Strategie setzte sich gegen die geplante durch",
+    "Honda plante von Anfang an Kleinmotorräder",
+    "Die geplante Strategie wurde exakt umgesetzt",
+    "Honda scheiterte am US-Markteintritt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Leitende Honda-Mitarbeitende in Los Angeles sorgten mit Kleinmotorrädern, die sie privat für ihre Einkäufe nutzten, für Aufsehen. Daraus wurde die realisierte Strategie, die geplante blieb unrealisiert. Dazu das Kapitelzitat: „Strategische Planung ersetzt den Zufall durch den Irrtum. Aus Irrtümern kann man lernen, aus dem Zufall nicht.“",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung"
   }
  ]
 }

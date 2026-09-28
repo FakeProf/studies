@@ -1,3 +1,14 @@
 .DS_Store
 Thumbs.db
 *.log
+
+# Neon / Node
+node_modules/
+.neon/
+.env
+.env.*
+!.env.example
+
+# Von `neon skills` abgelegte Agent-Skills — lokales Werkzeug, kein Projektinhalt
+.claude/
+skills-lock.json

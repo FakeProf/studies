@@ -193,9 +193,12 @@ section{margin-top:30px}
 .backup{border:1px solid var(--line); border-radius:var(--r); background:var(--surface); padding:12px 16px}
 .backup summary{font-family:var(--f-display); font-size:14px; font-weight:500; cursor:pointer; color:var(--ink-2)}
 .backup summary:hover{color:var(--ink)}
-.backup textarea{width:100%; margin-top:10px; padding:10px 12px; border-radius:8px;
+.backup textarea,
+.backup input{width:100%; margin-top:8px; padding:9px 12px; border-radius:8px;
   border:1px solid var(--line-strong); background:var(--surface-2); color:var(--ink);
-  font-family:var(--f-mono); font-size:11.5px; line-height:1.5; resize:vertical}
+  font-family:var(--f-mono); font-size:11.5px; line-height:1.5}
+.backup textarea{resize:vertical}
+.backup input:focus{border-color:var(--accent); outline:none}
 
 /* ---- Quiz ---- */
 .qwrap{max-width:720px; margin:0 auto; padding-block:22px 40px}
@@ -398,6 +401,76 @@ function mergeStats(a,b){
   }
   return out;
 }
+/* ---------- Neon-Sync (GitHub Pages: Handy und PC am selben Stand) ----------
+ * Die Seite spricht nur mit der Neon Function, nie direkt mit Postgres.
+ * URL und Gerätetoken liegen pro Browser im localStorage.
+ */
+const NEON_KEY = "lernstand.neon";
+let neon = null, neonBereit = false;
+
+function neonLaden(){
+  try{ const r = localStorage.getItem(NEON_KEY); return r ? JSON.parse(r) : null; }
+  catch(e){ return null; }
+}
+function neonSpeichern(k){
+  try{ k ? localStorage.setItem(NEON_KEY, JSON.stringify(k)) : localStorage.removeItem(NEON_KEY); }
+  catch(e){}
+}
+function statusSetzen(an, text){
+  const d = $("#dot"), t = $("#syncTxt");
+  if(d) d.classList.toggle("on", !!an);
+  if(t) t.textContent = text;
+}
+async function neonRuf(pfad, methode, koerper){
+  if(!neon) throw new Error("Neon ist nicht eingerichtet.");
+  const kopf = { "Authorization": "Bearer " + neon.token };
+  if(koerper !== undefined) kopf["Content-Type"] = "application/json";
+  let res;
+  try{
+    res = await fetch(neon.url.replace(/\/+$/,"") + pfad, {
+      method: methode || "GET",
+      headers: kopf,
+      body: koerper === undefined ? undefined : JSON.stringify(koerper),
+    });
+  }catch(e){
+    // fetch wirft hier bei falscher Adresse, fehlendem Netz und blockiertem CORS
+    // ununterscheidbar dasselbe — deshalb alle drei nennen.
+    throw new Error("Keine Verbindung. Prüf die Adresse, dein Netz, und ob die Function läuft.");
+  }
+  if(res.status === 401) throw new Error("Das Gerätetoken stimmt nicht.");
+  if(!res.ok) throw new Error("Die Function antwortete mit HTTP " + res.status + ".");
+  return res.json();
+}
+async function initNeon(){
+  neon = neonLaden();
+  if(!neon || !neon.url || !neon.token) return false;
+  statusSetzen(false, "verbinde …");
+  try{
+    const d = await neonRuf("/progress");
+    stats = mergeStats(stats, d.stats || {});
+    const bekannt = new Set(runs.map(r=>r.id));
+    for(const r of (d.runs || [])) if(r && r.id && !bekannt.has(r.id)) runs.push(r);
+    runs.sort((a,b)=>a.ts-b.ts);
+    neonBereit = true;
+    saveLocal();
+    statusSetzen(true, "Neon");
+    if(view==="dash") render();
+    return true;
+  }catch(e){
+    statusSetzen(false, "offline");
+    return false;
+  }
+}
+async function pushNeon(){
+  if(!neonBereit) return;
+  try{
+    await neonRuf("/progress", "PUT", { stats, runs: runs.slice(-200) });
+    statusSetzen(true, "Neon");
+  }catch(e){
+    statusSetzen(false, "nicht gesichert");
+  }
+}
+
 async function initDB(){
   let cap = null;
   try{ cap = await window.claude?.use?.("db") ?? null; }catch(e){ cap = null; }
@@ -633,9 +706,27 @@ function renderDash(){
   <section>
     <details class="backup">
       <summary>Fortschritt sichern oder auf ein anderes Gerät übertragen</summary>
-      <p class="muted" style="font-size:13.5px; margin:10px 0 0">Dein Lernstand liegt ${dbReady
-        ? "in der Datenbank dieser Seite und zusätzlich in diesem Browser"
-        : "nur in diesem Browser"}. Kopier ihn hier heraus, um ihn zu sichern oder auf dem Handy einzuspielen.</p>
+      <p class="muted" style="font-size:13.5px; margin:10px 0 0">Dein Lernstand liegt ${
+        neonBereit ? "in deiner Neon-Datenbank und zusätzlich in diesem Browser"
+        : dbReady   ? "in der Datenbank dieser Seite und zusätzlich in diesem Browser"
+                    : "nur in diesem Browser"}. Kopier ihn hier heraus, um ihn zu sichern oder auf dem Handy einzuspielen.</p>
+
+      <div style="margin-top:14px; padding-top:12px; border-top:1px solid var(--line)">
+        <p class="muted" style="font-size:13.5px; margin:0 0 8px">
+          <b style="color:var(--ink)">Geräteübergreifend über Neon.</b>
+          ${neonBereit
+            ? "Eingerichtet — der Stand gleicht sich nach jeder Runde automatisch ab."
+            : "Trag Adresse und Gerätetoken einmal ein, dann laufen Handy und PC auf demselben Stand."}</p>
+        <input id="neonUrl" type="url" spellcheck="false" placeholder="https://…-sync.compute.…neon.tech"
+          value="${neon ? esc(neon.url) : ""}">
+        <input id="neonToken" type="password" spellcheck="false" placeholder="Gerätetoken aus der Datei .env"
+          value="${neon ? esc(neon.token) : ""}">
+        <div class="qfoot">
+          <button class="btn sm" id="neonSave">Verbinden und abgleichen</button>
+          ${neon ? `<button class="btn ghost sm" id="neonOff">Trennen</button>` : ""}
+          <span class="pool" id="neonMsg"></span>
+        </div>
+      </div>
       <div class="qfoot">
         <button class="btn ghost sm" id="expCopy">Lernstand kopieren</button>
         <button class="btn ghost sm" id="impOpen">Lernstand einspielen</button>
@@ -702,6 +793,40 @@ function bindBackup(){
   if(!msg) return;
   const say = t => { msg.textContent = t; };
 
+  // --- Neon verbinden / trennen ---
+  const nMsg = $("#neonMsg");
+  $("#neonSave").onclick = async ()=>{
+    const url = $("#neonUrl").value.trim(), token = $("#neonToken").value.trim();
+    if(!/^https:\/\//i.test(url)) return nMsg.textContent = "Die Adresse muss mit https:// beginnen.";
+    if(!token) return nMsg.textContent = "Ohne Gerätetoken geht es nicht.";
+    nMsg.textContent = "Verbinde …";
+    const vorher = neon;
+    neon = { url, token };
+    try{
+      await neonRuf("/progress");           // prüft Erreichbarkeit und Token
+      neonSpeichern(neon);
+      neonBereit = true;
+      await initNeon();                      // holt den Serverstand und führt zusammen
+      await pushNeon();                      // schiebt den lokalen Stand hoch
+      render();
+      const d = $("#backupMsg"); if(d) d.textContent = "";
+      const m = $("#neonMsg"); if(m) m.textContent = "Verbunden und abgeglichen.";
+      const det = m && m.closest("details"); if(det) det.open = true;
+    }catch(e){
+      neon = vorher; neonBereit = false;
+      nMsg.textContent = e.message;
+      statusSetzen(false, "offline");
+    }
+  };
+  const off = $("#neonOff");
+  if(off) off.onclick = ()=>{
+    neonSpeichern(null); neon = null; neonBereit = false;
+    statusSetzen(false, "lokal");
+    render();
+    const m = $("#neonMsg"); if(m) m.textContent = "Getrennt — der Stand bleibt in diesem Browser.";
+    const det = m && m.closest("details"); if(det) det.open = true;
+  };
+
   $("#expCopy").onclick = async ()=>{
     const text = JSON.stringify({app:"lernstand", v:1, stats, runs});
     try{
@@ -729,7 +854,7 @@ function bindBackup(){
     const seen = new Set(runs.map(r=>r.id));
     for(const r of (data.runs||[])) if(r && r.id && !seen.has(r.id)) runs.push(r);
     runs.sort((a,b)=>a.ts-b.ts);
-    saveLocal(); pushDB(null);
+    saveLocal(); pushDB(null); pushNeon();
     const dazu = Object.keys(stats).length - vorher;
     box.hidden=true; act.hidden=true;
     render();
@@ -949,7 +1074,7 @@ async function finishRound(abgebrochen){
   runs.push(run); saveLocal();
   session.run = run;
   view="result"; window.scrollTo(0,0); render();
-  pushDB(run);
+  pushDB(run); pushNeon();
 }
 
 /* ================= ERGEBNIS ================= */
@@ -1027,6 +1152,7 @@ function renderResult(){
 /* ================= START ================= */
 (async function boot(){
   loadLocal();
+  neon = neonLaden();   // vor dem ersten Rendern, sonst steht das Formular leer da
   try{
     const res = await fetch("daten/fragen.json", {cache:"no-store"});
     if(!res.ok) throw new Error("HTTP "+res.status);
@@ -1040,6 +1166,8 @@ function renderResult(){
     return;
   }
   render();
-  initDB();
+  // Neon zuerst — das ist der Weg, der auf GitHub Pages funktioniert. Nur wenn
+  // dort nichts eingerichtet ist, wird die Artefakt-Datenbank von claude.ai versucht.
+  if(!await initNeon()) initDB();
 })();
 </script>

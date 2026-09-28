@@ -401,16 +401,30 @@ function mergeStats(a,b){
   }
   return out;
 }
-/* ---------- Neon-Sync (GitHub Pages: Handy und PC am selben Stand) ----------
+/* ---------- Neon-Sync (Handy und PC am selben Stand) ----------
  * Die Seite spricht nur mit der Neon Function, nie direkt mit Postgres.
- * URL und Gerätetoken liegen pro Browser im localStorage.
+ *
+ * NEON_FEST ist fest eingebaut, damit auf keinem Gerät etwas einzurichten ist.
+ * Das Token steht damit im öffentlichen Quelltext und ist kein Geheimnis mehr:
+ * Wer die Seite findet, kann den Lernstand lesen und überschreiben. Bewusst so
+ * gewählt — es gibt genau einen Lernstand, und der gehört einer Person.
+ *
+ * Ein im Browser gespeicherter Eintrag hat Vorrang. Damit lässt sich ein Gerät
+ * auf eine eigene Function umhängen, ohne den Quelltext zu ändern.
  */
+const NEON_FEST = {
+  url:   "",   // nach `neon deploy` die invocation_url aus `neon functions get sync`
+  token: "",   // LERNSTAND_TOKEN aus .env
+};
 const NEON_KEY = "lernstand.neon";
 let neon = null, neonBereit = false;
 
 function neonLaden(){
-  try{ const r = localStorage.getItem(NEON_KEY); return r ? JSON.parse(r) : null; }
-  catch(e){ return null; }
+  try{
+    const r = localStorage.getItem(NEON_KEY);
+    if(r) return JSON.parse(r);
+  }catch(e){ /* privates Fenster o. ä. — dann greift die feste Angabe */ }
+  return (NEON_FEST.url && NEON_FEST.token) ? Object.assign({}, NEON_FEST) : null;
 }
 function neonSpeichern(k){
   try{ k ? localStorage.setItem(NEON_KEY, JSON.stringify(k)) : localStorage.removeItem(NEON_KEY); }
@@ -715,8 +729,10 @@ function renderDash(){
         <p class="muted" style="font-size:13.5px; margin:0 0 8px">
           <b style="color:var(--ink)">Geräteübergreifend über Neon.</b>
           ${neonBereit
-            ? "Eingerichtet — der Stand gleicht sich nach jeder Runde automatisch ab."
-            : "Trag Adresse und Gerätetoken einmal ein, dann laufen Handy und PC auf demselben Stand."}</p>
+            ? "Läuft — der Stand gleicht sich nach jeder Runde automatisch ab."
+            : (NEON_FEST.url && NEON_FEST.token)
+              ? "Fest eingebaut, aber gerade nicht erreichbar. Unten lässt sich eine andere Function eintragen."
+              : "Trag Adresse und Token einmal ein, dann laufen Handy und PC auf demselben Stand."}</p>
         <input id="neonUrl" type="url" spellcheck="false" placeholder="https://…-sync.compute.…neon.tech"
           value="${neon ? esc(neon.url) : ""}">
         <input id="neonToken" type="password" spellcheck="false" placeholder="Gerätetoken aus der Datei .env"

@@ -127,3 +127,53 @@ Die Datei direkt im Browser zu öffnen funktioniert **nicht** — der `fetch()` 
 ```bash
 npx serve .
 ```
+
+## Konten und Lernstand
+
+Ohne Anmeldung läuft alles unter der Kennung `anonym` — ein offener Stand, den
+jede und jeder sehen und ändern kann. Wer sich mit Name, E-Mail und Passwort
+anmeldet, bekommt einen eigenen: Row Level Security in der Datenbank lässt
+Angemeldete ausschliesslich an ihre eigenen Zeilen.
+
+Wem eine Zeile gehört, entscheidet die Datenbank, nicht die App. `benutzer_id`
+hat als Vorgabewert
+
+```sql
+case when current_user = 'authenticated'
+     then coalesce(nullif(auth.user_id(), ''), 'anonym')
+     else 'anonym' end
+```
+
+Die App schickt die Kennung deshalb absichtlich **nicht** mit. Das ist zum einen
+sicherer — sie stammt aus dem geprüften Token statt aus dem Browser —, zum
+anderen nötig: siehe unten.
+
+Nachprüfen lässt sich die Trennung mit
+
+```bash
+node db/trennung-probe.mjs
+```
+
+Das Skript legt zwei Konten an, lässt jedes schreiben, versucht Fremdzugriffe
+und räumt sich danach selbst auf.
+
+### Zwei Stolpersteine bei Neon
+
+**Der Schema-Cache der Data API.** Hinter dem Lastverteiler stehen mehrere
+PostgREST-Instanzen. Nach einer Schema-Änderung erneuern nicht alle ihren
+Cache; die alten lehnen jeden Datensatz ab, der eine neue Spalte nennt
+(`PGRST204: column … does not exist`), obwohl die Spalte existiert — ein
+`select` darauf geht durch, weil PostgREST den unverändert an Postgres
+weiterreicht. Ein Browser bleibt über seine offene Verbindung fest auf einer
+Instanz und kann dem nicht ausweichen; Wiederholen hilft ihm nicht.
+
+Weder `notify pgrst, 'reload schema'` noch das Trennen der
+`authenticator`-Verbindungen noch eine Ruhepause haben die alten Instanzen
+aufgeweckt. Deshalb nennt die App neue Spalten gar nicht erst und überlässt sie
+dem Vorgabewert — in der URL (`on_conflict`) prüft PostgREST sie nicht.
+
+**Erlaubte Herkunft.** Neon Auth nimmt Anmeldungen nur von Adressen auf seiner
+Liste an; `localhost` steht von Haus aus drauf. Für die Fassung auf GitHub Pages
+muss `https://fakeprof.github.io` in der Neon-Konsole unter Auth als
+vertrauenswürdige Herkunft eingetragen werden, sonst antwortet die Anmeldung mit
+`403 INVALID_ORIGIN`. Ohne diesen Eintrag funktioniert live nur der offene Stand.

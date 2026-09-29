@@ -193,6 +193,15 @@ section{margin-top:30px}
 .backup{border:1px solid var(--line); border-radius:var(--r); background:var(--surface); padding:12px 16px}
 .backup summary{font-family:var(--f-display); font-size:14px; font-weight:500; cursor:pointer; color:var(--ink-2)}
 .backup summary:hover{color:var(--ink)}
+.konto-an{display:flex; align-items:center; gap:12px; flex-wrap:wrap}
+.konto-an > div:first-child{flex:1; min-width:150px}
+.konto-an b{display:block; font-size:16px; margin-top:2px}
+.konto-form{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:4px}
+.konto-form input{flex:1 1 180px; min-width:0; padding:9px 12px; border-radius:8px;
+  border:1px solid var(--line-strong); background:var(--surface-2); color:var(--ink);
+  font-family:var(--f-display); font-size:14px}
+.konto-form input:focus{border-color:var(--accent); outline:none}
+
 .backup textarea,
 .backup input{width:100%; margin-top:8px; padding:9px 12px; border-radius:8px;
   border:1px solid var(--line-strong); background:var(--surface-2); color:var(--ink);
@@ -405,17 +414,20 @@ function mergeStats(a,b){
  * Die Seite spricht über Neons Data API mit der Datenbank — PostgREST über
  * HTTPS, kein Verbindungsstring im Browser.
  *
- * Der Zugang läuft über einen anonymen Token, den das Neon-SDK selbst holt
- * (allowAnonymous). Die Rolle `anonymous` darf auf beiden Tabellen lesen,
- * einfügen und ändern — aber nicht löschen. Damit ist der Lernstand bewusst
- * offen: Wer die Seite findet, kann ihn lesen und verfälschen, aber keine
- * Zeilen wegräumen. So gewählt, damit auf keinem Gerät etwas einzurichten ist.
+ * Ohne Anmeldung läuft alles über einen anonymen Token, den das SDK selbst
+ * holt — das ist der offene, gemeinsame Lernstand, den jeder sehen und ändern
+ * kann. Wer sich anmeldet, bekommt seinen eigenen: Row Level Security in der
+ * Datenbank lässt Angemeldete ausschliesslich an ihre eigenen Zeilen.
  */
 const NEON_AUTH_URL = "https://ep-snowy-king-b12lj86r.neonauth.c-5.eu-central-1.aws.neon.tech/neondb/auth";
 const NEON_DATA_URL = "https://ep-snowy-king-b12lj86r.apirest.c-5.eu-central-1.aws.neon.tech/neondb/rest/v1";
 const NEON_SDK      = "https://esm.sh/@neondatabase/neon-js@0.7.0-beta";
 
 let neon = null, neonBereit = false;
+
+/* Wer ist angemeldet? Nur für die Anzeige — wem eine Zeile gehört, entscheidet
+ * die Datenbank anhand des Tokens, nicht die App. */
+let benutzer = null;                        // { id, name, email } oder null
 
 function statusSetzen(an, text){
   const d = $("#dot"), t = $("#syncTxt");
@@ -433,14 +445,26 @@ function zeileZuEintrag(z){
   };
 }
 
+/** Baut den Client einmalig auf und liest eine bestehende Sitzung ein. */
+async function neonClient(){
+  if(neon) return neon;
+  const { createClient } = await import(NEON_SDK);
+  neon = createClient({
+    auth:    { url: NEON_AUTH_URL, allowAnonymous: true },
+    dataApi: { url: NEON_DATA_URL },
+  });
+  try{
+    const s = await neon.auth.getSession();
+    const u = s?.data?.user ?? s?.user ?? null;
+    benutzer = (u && u.id) ? { id: u.id, name: u.name || "", email: u.email || "" } : null;
+  }catch(e){ benutzer = null; /* keine Sitzung — dann anonym */ }
+  return neon;
+}
+
 async function initNeon(){
   statusSetzen(false, "verbinde …");
   try{
-    const { createClient } = await import(NEON_SDK);
-    neon = createClient({
-      auth:    { url: NEON_AUTH_URL, allowAnonymous: true },
-      dataApi: { url: NEON_DATA_URL },
-    });
+    await neonClient();
 
     const [f, r] = await Promise.all([
       neon.from("fortschritt").select("*"),
@@ -464,7 +488,7 @@ async function initNeon(){
 
     neonBereit = true;
     saveLocal();
-    statusSetzen(true, "Neon");
+    statusSetzen(true, benutzer ? (benutzer.name || "angemeldet") : "offen");
     if(view==="dash") render();
     await pushNeon();          // lokalen Stand gleich mit hochschieben
     return true;
@@ -475,6 +499,26 @@ async function initNeon(){
   }
 }
 
+/** Nach An- oder Abmeldung: lokalen Stand verwerfen und den des neuen
+ *  Kontos holen — sonst würde fremder Fortschritt mitwandern. */
+async function benutzerWechsel(){
+  stats = {}; runs = [];
+  try{ localStorage.removeItem(LS_KEY); }catch(e){}
+  // Client verwerfen: nach dem Abmelden hält er noch den alten Token und
+  // holt sich sonst keinen frischen anonymen. neonClient() liest die Sitzung
+  // danach neu ein und setzt `benutzer` massgeblich.
+  neon = null;
+  neonBereit = false;
+  await initNeon();
+  render();
+}
+
+/* Die Benutzerkennung schreibt die Datenbank selbst: benutzer_id hat als
+ * Vorgabewert coalesce(auth.user_id(),'anonym'). Sie steht deshalb absichtlich
+ * in keinem Datensatz hier — sie kommt aus dem geprüften Token statt aus dem
+ * Browser, und die App bleibt unabhängig davon, ob die Data API ihren
+ * Schema-Cache schon erneuert hat. Getrennt wird ohnehin per Row Level
+ * Security, nicht durch das, was die App mitschickt. */
 async function pushNeon(){
   if(!neonBereit || !neon) return;
   try{
@@ -489,7 +533,7 @@ async function pushNeon(){
       // Upsert: vorhandene Zeilen werden ersetzt. Der Abgleich beim Start hat
       // den Serverstand bereits eingemischt, deshalb ist der lokale Stand hier
       // der jeweils vollständigere.
-      const u = await neon.from("fortschritt").upsert(fragen, { onConflict: "frage_id" });
+      const u = await neon.from("fortschritt").upsert(fragen, { onConflict: "benutzer_id,frage_id" });
       if(u.error) throw new Error(u.error.message);
     }
 
@@ -502,7 +546,7 @@ async function pushNeon(){
       if(u.error) throw new Error(u.error.message);
     }
 
-    statusSetzen(true, "Neon");
+    statusSetzen(true, benutzer ? (benutzer.name || "angemeldet") : "offen");
   }catch(e){
     statusSetzen(false, "nicht gesichert");
   }
@@ -741,6 +785,38 @@ function renderDash(){
   </section>`:""}
 
   <section>
+    <div class="card panel konto">
+      ${benutzer ? `
+        <div class="konto-an">
+          <div>
+            <div class="eyebrow">Angemeldet</div>
+            <b class="sans">${esc(benutzer.name || benutzer.email)}</b>
+            ${benutzer.name && benutzer.email ? `<span class="pool" style="margin-left:8px">${esc(benutzer.email)}</span>` : ""}
+          </div>
+          <button class="btn ghost sm" id="abmelden">Abmelden</button>
+        </div>
+        <p class="muted" style="font-size:13px; margin-top:8px">
+          Dein Lernstand gehört dir allein — andere sehen ihn nicht, auch nicht auf derselben Seite.</p>
+      ` : `
+        <div class="sec-head" style="margin-bottom:8px">
+          <h2>Anmelden</h2>
+          <span class="hint">Ohne Anmeldung teilst du einen offenen Lernstand mit allen anderen</span>
+        </div>
+        <div class="konto-form">
+          <input id="kName"  type="text"     autocomplete="name"           placeholder="Name (nur beim Registrieren)">
+          <input id="kMail"  type="email"    autocomplete="email"          placeholder="E-Mail">
+          <input id="kPass"  type="password" autocomplete="current-password" placeholder="Passwort (mind. 8 Zeichen)">
+        </div>
+        <div class="qfoot">
+          <button class="btn sm" id="anmelden">Anmelden</button>
+          <button class="btn ghost sm" id="registrieren">Neues Konto</button>
+          <span class="pool" id="kontoMsg"></span>
+        </div>
+      `}
+    </div>
+  </section>
+
+  <section>
     <details class="backup">
       <summary>Fortschritt sichern oder auf ein anderes Gerät übertragen</summary>
       <p class="muted" style="font-size:13.5px; margin:10px 0 0">Dein Lernstand liegt ${
@@ -749,11 +825,11 @@ function renderDash(){
                     : "nur in diesem Browser"}. Kopier ihn hier heraus, um ihn zu sichern oder auf dem Handy einzuspielen.</p>
 
       <div style="margin-top:14px; padding-top:12px; border-top:1px solid var(--line)">
-        <p class="muted" style="font-size:13.5px; margin:0 0 0">
+        <p class="muted" style="font-size:13.5px; margin:0">
           <b style="color:var(--ink)">Geräteübergreifend über Neon.</b>
           ${neonBereit
-            ? "Läuft — der Stand gleicht sich nach jeder Runde automatisch ab, ohne Einrichtung auf dem Gerät."
-            : "Gerade nicht erreichbar. Der Stand bleibt solange in diesem Browser und wird beim nächsten Verbinden abgeglichen."}
+            ? "Läuft — der Stand gleicht sich nach jeder Runde automatisch ab."
+            : "Gerade nicht erreichbar. Der Stand bleibt solange in diesem Browser."}
           <button class="btn ghost sm" id="neonRetry" style="margin-left:8px">Jetzt abgleichen</button>
           <span class="pool" id="neonMsg"></span></p>
       </div>
@@ -810,11 +886,70 @@ function renderDash(){
     render(); startRound();
   });
   $("#app").querySelectorAll("[data-start]").forEach(b=>b.onclick=startRound);
+  bindKonto();
   bindBackup();
   $("#reset").onclick = ()=>{
     filter.modul.clear(); filter.woche.clear(); filter.kategorie.clear(); filter.typ.clear();
     filter.lernziel=null; filter.nurKern=false; filter.modus="mix"; filter.laenge=15; render();
   };
+}
+
+/* ---------- Anmeldung ---------- */
+function bindKonto(){
+  const ab = $("#abmelden");
+  if(ab){
+    ab.onclick = async ()=>{
+      ab.disabled = true; ab.textContent = "Melde ab …";
+      try{ await (await neonClient()).auth.signOut(); }catch(e){}
+      benutzer = null;
+      await benutzerWechsel();
+    };
+    return;
+  }
+
+  const msg = $("#kontoMsg");
+  if(!msg) return;
+  const sag = t => { const m = $("#kontoMsg"); if(m) m.textContent = t; };
+
+  /** Zieht die Fehlermeldung aus dem, was das SDK zurückgibt oder wirft. */
+  const klartext = (e)=>{
+    const t = (e && (e.message || e.error?.message || e.statusText)) || String(e || "");
+    if(/invalid.*(email|password)|INVALID_/i.test(t)) return "E-Mail oder Passwort stimmt nicht.";
+    if(/already.*exist|USER_ALREADY/i.test(t))        return "Für diese E-Mail gibt es schon ein Konto — melde dich an.";
+    if(/password.*(short|length)|PASSWORD_TOO/i.test(t)) return "Das Passwort ist zu kurz, mindestens 8 Zeichen.";
+    if(/invalid.*email|INVALID_EMAIL/i.test(t))       return "Das sieht nicht nach einer E-Mail-Adresse aus.";
+    if(/origin|domain/i.test(t))                      return "Diese Adresse ist bei Neon Auth nicht freigegeben.";
+    return t.slice(0, 160) || "Unbekannter Fehler.";
+  };
+
+  const machen = async (art)=>{
+    const name = ($("#kName")?.value || "").trim();
+    const mail = ($("#kMail")?.value || "").trim();
+    const pass = $("#kPass")?.value || "";
+    if(!mail)            return sag("Bitte eine E-Mail eintragen.");
+    if(pass.length < 8)  return sag("Das Passwort braucht mindestens 8 Zeichen.");
+    if(art === "neu" && !name) return sag("Für ein neues Konto brauche ich noch einen Namen.");
+
+    sag(art === "neu" ? "Lege Konto an …" : "Melde an …");
+    try{
+      const c = await neonClient();
+      const r = art === "neu"
+        ? await c.auth.signUp.email({ email: mail, password: pass, name })
+        : await c.auth.signIn.email({ email: mail, password: pass });
+      if(r && r.error) return sag(klartext(r.error));
+
+      const u = r?.data?.user ?? (await c.auth.getSession())?.data?.user ?? null;
+      if(!u || !u.id) return sag("Anmeldung hat nicht geklappt.");
+      benutzer = { id: u.id, name: u.name || name, email: u.email || mail };
+      await benutzerWechsel();
+    }catch(e){
+      sag(klartext(e));
+    }
+  };
+
+  $("#anmelden").onclick     = ()=>machen("an");
+  $("#registrieren").onclick = ()=>machen("neu");
+  $("#kPass").onkeydown = e=>{ if(e.key === "Enter") machen("an"); };
 }
 
 /* ---------- Sichern und einspielen ---------- */

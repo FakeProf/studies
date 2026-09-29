@@ -402,83 +402,106 @@ function mergeStats(a,b){
   return out;
 }
 /* ---------- Neon-Sync (Handy und PC am selben Stand) ----------
- * Die Seite spricht nur mit der Neon Function, nie direkt mit Postgres.
+ * Die Seite spricht über Neons Data API mit der Datenbank — PostgREST über
+ * HTTPS, kein Verbindungsstring im Browser.
  *
- * NEON_FEST ist fest eingebaut, damit auf keinem Gerät etwas einzurichten ist.
- * Das Token steht damit im öffentlichen Quelltext und ist kein Geheimnis mehr:
- * Wer die Seite findet, kann den Lernstand lesen und überschreiben. Bewusst so
- * gewählt — es gibt genau einen Lernstand, und der gehört einer Person.
- *
- * Ein im Browser gespeicherter Eintrag hat Vorrang. Damit lässt sich ein Gerät
- * auf eine eigene Function umhängen, ohne den Quelltext zu ändern.
+ * Der Zugang läuft über einen anonymen Token, den das Neon-SDK selbst holt
+ * (allowAnonymous). Die Rolle `anonymous` darf auf beiden Tabellen lesen,
+ * einfügen und ändern — aber nicht löschen. Damit ist der Lernstand bewusst
+ * offen: Wer die Seite findet, kann ihn lesen und verfälschen, aber keine
+ * Zeilen wegräumen. So gewählt, damit auf keinem Gerät etwas einzurichten ist.
  */
-const NEON_FEST = {
-  url:   "",   // nach `neon deploy` die invocation_url aus `neon functions get sync`
-  token: "",   // LERNSTAND_TOKEN aus .env
-};
-const NEON_KEY = "lernstand.neon";
+const NEON_AUTH_URL = "https://ep-snowy-king-b12lj86r.neonauth.c-5.eu-central-1.aws.neon.tech/neondb/auth";
+const NEON_DATA_URL = "https://ep-snowy-king-b12lj86r.apirest.c-5.eu-central-1.aws.neon.tech/neondb/rest/v1";
+const NEON_SDK      = "https://esm.sh/@neondatabase/neon-js@0.7.0-beta";
+
 let neon = null, neonBereit = false;
 
-function neonLaden(){
-  try{
-    const r = localStorage.getItem(NEON_KEY);
-    if(r) return JSON.parse(r);
-  }catch(e){ /* privates Fenster o. ä. — dann greift die feste Angabe */ }
-  return (NEON_FEST.url && NEON_FEST.token) ? Object.assign({}, NEON_FEST) : null;
-}
-function neonSpeichern(k){
-  try{ k ? localStorage.setItem(NEON_KEY, JSON.stringify(k)) : localStorage.removeItem(NEON_KEY); }
-  catch(e){}
-}
 function statusSetzen(an, text){
   const d = $("#dot"), t = $("#syncTxt");
   if(d) d.classList.toggle("on", !!an);
   if(t) t.textContent = text;
 }
-async function neonRuf(pfad, methode, koerper){
-  if(!neon) throw new Error("Neon ist nicht eingerichtet.");
-  const kopf = { "Authorization": "Bearer " + neon.token };
-  if(koerper !== undefined) kopf["Content-Type"] = "application/json";
-  let res;
-  try{
-    res = await fetch(neon.url.replace(/\/+$/,"") + pfad, {
-      method: methode || "GET",
-      headers: kopf,
-      body: koerper === undefined ? undefined : JSON.stringify(koerper),
-    });
-  }catch(e){
-    // fetch wirft hier bei falscher Adresse, fehlendem Netz und blockiertem CORS
-    // ununterscheidbar dasselbe — deshalb alle drei nennen.
-    throw new Error("Keine Verbindung. Prüf die Adresse, dein Netz, und ob die Function läuft.");
-  }
-  if(res.status === 401) throw new Error("Das Gerätetoken stimmt nicht.");
-  if(!res.ok) throw new Error("Die Function antwortete mit HTTP " + res.status + ".");
-  return res.json();
+
+/** Wandelt eine Datenbankzeile in den Eintrag um, den die App im Speicher hält. */
+function zeileZuEintrag(z){
+  return {
+    v:  Number(z.versuche) || 0,
+    p:  Number(z.punkte)   || 0,
+    t:  z.zuletzt ? Date.parse(z.zuletzt) : 0,
+    ok: z.letzter_score === null || z.letzter_score === undefined ? 0 : Number(z.letzter_score),
+  };
 }
+
 async function initNeon(){
-  neon = neonLaden();
-  if(!neon || !neon.url || !neon.token) return false;
   statusSetzen(false, "verbinde …");
   try{
-    const d = await neonRuf("/progress");
-    stats = mergeStats(stats, d.stats || {});
-    const bekannt = new Set(runs.map(r=>r.id));
-    for(const r of (d.runs || [])) if(r && r.id && !bekannt.has(r.id)) runs.push(r);
+    const { createClient } = await import(NEON_SDK);
+    neon = createClient({
+      auth:    { url: NEON_AUTH_URL, allowAnonymous: true },
+      dataApi: { url: NEON_DATA_URL },
+    });
+
+    const [f, r] = await Promise.all([
+      neon.from("fortschritt").select("*"),
+      neon.from("runden").select("*").order("ts", { ascending: true }).limit(200),
+    ]);
+    if(f.error) throw new Error(f.error.message || "Lesefehler");
+    if(r.error) throw new Error(r.error.message || "Lesefehler");
+
+    const fern = {};
+    for(const z of (f.data || [])) fern[z.frage_id] = zeileZuEintrag(z);
+    stats = mergeStats(stats, fern);
+
+    const bekannt = new Set(runs.map(x=>x.id));
+    for(const z of (r.data || [])){
+      if(z && z.id && !bekannt.has(z.id)) runs.push({
+        id: z.id, ts: Number(z.ts), scope: z.scope, total: z.total,
+        punkte: Number(z.punkte), dauer: z.dauer, fragen: z.fragen || [],
+      });
+    }
     runs.sort((a,b)=>a.ts-b.ts);
+
     neonBereit = true;
     saveLocal();
     statusSetzen(true, "Neon");
     if(view==="dash") render();
+    await pushNeon();          // lokalen Stand gleich mit hochschieben
     return true;
   }catch(e){
+    neonBereit = false;
     statusSetzen(false, "offline");
     return false;
   }
 }
+
 async function pushNeon(){
-  if(!neonBereit) return;
+  if(!neonBereit || !neon) return;
   try{
-    await neonRuf("/progress", "PUT", { stats, runs: runs.slice(-200) });
+    const fragen = Object.entries(stats).map(([id,e])=>({
+      frage_id: id,
+      versuche: e.v || 0,
+      punkte:   e.p || 0,
+      letzter_score: e.ok ?? null,
+      zuletzt:  new Date(e.t || Date.now()).toISOString(),
+    }));
+    if(fragen.length){
+      // Upsert: vorhandene Zeilen werden ersetzt. Der Abgleich beim Start hat
+      // den Serverstand bereits eingemischt, deshalb ist der lokale Stand hier
+      // der jeweils vollständigere.
+      const u = await neon.from("fortschritt").upsert(fragen, { onConflict: "frage_id" });
+      if(u.error) throw new Error(u.error.message);
+    }
+
+    const neueRunden = runs.slice(-200).map(r=>({
+      id: r.id, ts: r.ts, scope: r.scope || "", total: r.total,
+      punkte: r.punkte, dauer: r.dauer, fragen: r.fragen || [],
+    }));
+    if(neueRunden.length){
+      const u = await neon.from("runden").upsert(neueRunden, { onConflict: "id" });
+      if(u.error) throw new Error(u.error.message);
+    }
+
     statusSetzen(true, "Neon");
   }catch(e){
     statusSetzen(false, "nicht gesichert");
@@ -726,22 +749,13 @@ function renderDash(){
                     : "nur in diesem Browser"}. Kopier ihn hier heraus, um ihn zu sichern oder auf dem Handy einzuspielen.</p>
 
       <div style="margin-top:14px; padding-top:12px; border-top:1px solid var(--line)">
-        <p class="muted" style="font-size:13.5px; margin:0 0 8px">
+        <p class="muted" style="font-size:13.5px; margin:0 0 0">
           <b style="color:var(--ink)">Geräteübergreifend über Neon.</b>
           ${neonBereit
-            ? "Läuft — der Stand gleicht sich nach jeder Runde automatisch ab."
-            : (NEON_FEST.url && NEON_FEST.token)
-              ? "Fest eingebaut, aber gerade nicht erreichbar. Unten lässt sich eine andere Function eintragen."
-              : "Trag Adresse und Token einmal ein, dann laufen Handy und PC auf demselben Stand."}</p>
-        <input id="neonUrl" type="url" spellcheck="false" placeholder="https://…-sync.compute.…neon.tech"
-          value="${neon ? esc(neon.url) : ""}">
-        <input id="neonToken" type="password" spellcheck="false" placeholder="Gerätetoken aus der Datei .env"
-          value="${neon ? esc(neon.token) : ""}">
-        <div class="qfoot">
-          <button class="btn sm" id="neonSave">Verbinden und abgleichen</button>
-          ${neon ? `<button class="btn ghost sm" id="neonOff">Trennen</button>` : ""}
-          <span class="pool" id="neonMsg"></span>
-        </div>
+            ? "Läuft — der Stand gleicht sich nach jeder Runde automatisch ab, ohne Einrichtung auf dem Gerät."
+            : "Gerade nicht erreichbar. Der Stand bleibt solange in diesem Browser und wird beim nächsten Verbinden abgeglichen."}
+          <button class="btn ghost sm" id="neonRetry" style="margin-left:8px">Jetzt abgleichen</button>
+          <span class="pool" id="neonMsg"></span></p>
       </div>
       <div class="qfoot">
         <button class="btn ghost sm" id="expCopy">Lernstand kopieren</button>
@@ -809,38 +823,16 @@ function bindBackup(){
   if(!msg) return;
   const say = t => { msg.textContent = t; };
 
-  // --- Neon verbinden / trennen ---
-  const nMsg = $("#neonMsg");
-  $("#neonSave").onclick = async ()=>{
-    const url = $("#neonUrl").value.trim(), token = $("#neonToken").value.trim();
-    if(!/^https:\/\//i.test(url)) return nMsg.textContent = "Die Adresse muss mit https:// beginnen.";
-    if(!token) return nMsg.textContent = "Ohne Gerätetoken geht es nicht.";
-    nMsg.textContent = "Verbinde …";
-    const vorher = neon;
-    neon = { url, token };
-    try{
-      await neonRuf("/progress");           // prüft Erreichbarkeit und Token
-      neonSpeichern(neon);
-      neonBereit = true;
-      await initNeon();                      // holt den Serverstand und führt zusammen
-      await pushNeon();                      // schiebt den lokalen Stand hoch
-      render();
-      const d = $("#backupMsg"); if(d) d.textContent = "";
-      const m = $("#neonMsg"); if(m) m.textContent = "Verbunden und abgeglichen.";
-      const det = m && m.closest("details"); if(det) det.open = true;
-    }catch(e){
-      neon = vorher; neonBereit = false;
-      nMsg.textContent = e.message;
-      statusSetzen(false, "offline");
-    }
-  };
-  const off = $("#neonOff");
-  if(off) off.onclick = ()=>{
-    neonSpeichern(null); neon = null; neonBereit = false;
-    statusSetzen(false, "lokal");
+  // --- Neon von Hand anstossen, falls beim Start das Netz fehlte ---
+  const wieder = $("#neonRetry");
+  if(wieder) wieder.onclick = async ()=>{
+    const m = $("#neonMsg");
+    if(m) m.textContent = "Gleiche ab …";
+    const ok = await initNeon();
     render();
-    const m = $("#neonMsg"); if(m) m.textContent = "Getrennt — der Stand bleibt in diesem Browser.";
-    const det = m && m.closest("details"); if(det) det.open = true;
+    const m2 = $("#neonMsg");
+    if(m2) m2.textContent = ok ? "Abgeglichen." : "Kein Kontakt zur Datenbank.";
+    const det = m2 && m2.closest("details"); if(det) det.open = true;
   };
 
   $("#expCopy").onclick = async ()=>{
@@ -1168,7 +1160,7 @@ function renderResult(){
 /* ================= START ================= */
 (async function boot(){
   loadLocal();
-  neon = neonLaden();   // vor dem ersten Rendern, sonst steht das Formular leer da
+  // Neon wird unten von initNeon() aufgebaut — hier ist noch nichts zu laden.
   try{
     const res = await fetch("daten/fragen.json", {cache:"no-store"});
     if(!res.ok) throw new Error("HTTP "+res.status);

@@ -331,6 +331,28 @@ section{margin-top:30px}
 .errbox{margin-top:30px; padding:18px; border:1px solid var(--bad-line); background:var(--bad-soft);
   border-radius:var(--r); font-size:14px; line-height:1.5}
 
+/* ---- Vorlagen ---- */
+.vorlagen{display:flex; flex-wrap:wrap; gap:9px}
+.vorlage{display:flex; align-items:stretch; border:1px solid var(--line-strong);
+  border-radius:var(--r); background:var(--surface); overflow:hidden}
+.vgo{display:flex; flex-direction:column; align-items:flex-start; gap:2px;
+  padding:10px 15px; text-align:left; transition:background .12s}
+.vgo b{font-family:var(--f-display); font-size:14px; font-weight:600; line-height:1.25}
+.vgo .n{font-family:var(--f-mono); font-size:11px; color:var(--muted); font-variant-numeric:tabular-nums}
+.vgo:hover:not([disabled]){background:var(--accent-soft)}
+.vgo[disabled]{opacity:.42; cursor:not-allowed}
+.vdel{width:34px; flex:none; border-left:1px solid var(--line); color:var(--muted);
+  font-size:17px; line-height:1; transition:background .12s,color .12s}
+.vdel:hover{background:var(--bad-soft); color:var(--bad)}
+.vorlage.neu{padding:10px 15px; border-style:dashed; color:var(--muted);
+  font-family:var(--f-display); font-size:13.5px}
+.vorlage.neu:hover{color:var(--ink-2); border-color:var(--ink-2)}
+.vform{display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-top:11px}
+.vform input{flex:1 1 210px; min-width:0; padding:9px 12px; border-radius:8px;
+  border:1px solid var(--line-strong); background:var(--surface); color:var(--ink);
+  font-family:var(--f-display); font-size:14px}
+.vform input:focus{border-color:var(--accent); outline:none}
+
 /* ================================================================== *
  *  Handy
  *  Gelernt wird unterwegs, nicht nur am Schreibtisch. Der Daumen ist
@@ -350,7 +372,13 @@ button, .chip, .sel, label, summary{ -webkit-tap-highlight-color:transparent; to
 
 @media (max-width:560px){
   /* Alles, was Text aufnimmt, auf 16px — sonst zoomt iOS beim Antippen. */
-  .sel, .konto-form input, .backup input, .backup textarea{ font-size:16px }
+  .sel, .konto-form input, .backup input, .backup textarea, .vform input{ font-size:16px }
+
+  /* Vorlagen sind der Haupteinstieg — auf dem Handy volle Breite, gut zu treffen. */
+  .vorlage{ flex:1 1 100% }
+  .vgo{ flex:1; min-height:52px; justify-content:center }
+  .vdel{ width:48px }
+  .vorlage.neu{ text-align:center; min-height:48px }
   .sel{ min-height:44px; padding-block:9px }
   .konto-form input{ flex-basis:100%; min-height:44px }
 
@@ -429,6 +457,77 @@ const filter = {
   modul:new Set(), woche:new Set(), kategorie:new Set(), typ:new Set(),
   lernziel:null, nurKern:false, modus:"mix", laenge:15
 };
+
+/* ---------- Vorlagen ----------
+ * Wer jeden Abend dieselben Filter neu zusammenklickt, lernt weniger. Eine
+ * Vorlage merkt sich eine Einstellung; ein Klick setzt sie und startet die
+ * Runde sofort. Zusätzlich überlebt die zuletzt benutzte Einstellung das
+ * Schliessen des Tabs.
+ *
+ * Beides liegt bewusst nur lokal: es sind Gewohnheiten dieses Geräts, kein
+ * Lernstand. Eine eigene Tabelle dafür wäre ausserdem riskant, solange eine
+ * der PostgREST-Instanzen ihren Schema-Cache nicht erneuert — sie kennt neue
+ * Tabellen nicht (siehe README). */
+const LS_FILTER  = "lernstand.filter.v1";
+const LS_VORLAGE = "lernstand.vorlagen.v1";
+
+const VORLAGEN_FEST = [
+  { id:"v-kern",    name:"Kernstoff quer",  f:{ nurKern:true, modus:"mix",     laenge:15 } },
+  { id:"v-schwach", name:"Wo es klemmt",    f:{                modus:"schwach", laenge:15 } },
+  { id:"v-neu",     name:"Noch nie geübt",  f:{                modus:"neu",     laenge:15 } },
+];
+
+/** Der Filter als schlichtes Objekt — so geht er durch JSON. */
+function filterLesen(){
+  return { modul:[...filter.modul], woche:[...filter.woche], kategorie:[...filter.kategorie],
+           typ:[...filter.typ], lernziel:filter.lernziel, nurKern:filter.nurKern,
+           modus:filter.modus, laenge:filter.laenge };
+}
+
+/** Umgekehrt — und dabei alles verwerfen, was der Fragenpool nicht mehr hergibt. */
+function filterSetzen(f){
+  f = f || {};
+  const da = (feld, wert) => POOL.some(q => String(q[feld]) === String(wert));
+  filter.modul     = new Set((f.modul||[]).filter(m=>da("modul",m)));
+  filter.woche     = new Set((f.woche||[]).map(String).filter(w=>da("woche",w)));
+  filter.kategorie = new Set((f.kategorie||[]).filter(k=>da("kategorie",k)));
+  filter.typ       = new Set((f.typ||[]).filter(t=>da("typ",t)));
+  filter.lernziel  = f.lernziel && da("lernziel", f.lernziel) ? f.lernziel : null;
+  filter.nurKern   = !!f.nurKern;
+  filter.modus     = MODI[f.modus] ? f.modus : "mix";
+  filter.laenge    = [10,15,25,0].includes(f.laenge) ? f.laenge : 15;
+}
+
+function filterSichern(){
+  try{ localStorage.setItem(LS_FILTER, JSON.stringify(filterLesen())); }catch(e){}
+}
+function filterLaden(){
+  try{
+    const roh = localStorage.getItem(LS_FILTER);
+    if(roh) filterSetzen(JSON.parse(roh));
+  }catch(e){ /* privates Fenster o. ä. — dann eben die Vorgabe */ }
+}
+
+function vorlagenEigen(){
+  try{ const l = JSON.parse(localStorage.getItem(LS_VORLAGE)||"[]"); return Array.isArray(l)?l:[]; }
+  catch(e){ return []; }
+}
+function vorlagenSichern(l){
+  try{ localStorage.setItem(LS_VORLAGE, JSON.stringify(l.slice(0,12))); }catch(e){}
+}
+function vorlagenAlle(){
+  return [...VORLAGEN_FEST.map(v=>({...v, eigen:false})),
+          ...vorlagenEigen().map(v=>({...v, eigen:true}))];
+}
+
+/** Wie viele Fragen käme diese Vorlage bringen? Kurz einsetzen, zählen, zurück. */
+function vorlagenAnzahl(f){
+  const zurueck = filterLesen();
+  filterSetzen(f);
+  const n = roundSize(candidates());
+  filterSetzen(zurueck);
+  return n;
+}
 
 // Fragen zur Modulorganisation (Notengewichtung, Abgabetermine, Semesterplan)
 // zielen auf kein benanntes Lernziel — sie tragen das ersatzweise vergebene
@@ -717,6 +816,7 @@ function goalStats(){
 
 /* ================= DASHBOARD ================= */
 function render(){
+  filterSichern();   // jede Filteränderung läuft hier durch
   if(view==="quiz")        renderQuiz();
   else if(view==="result") renderResult();
   else                     renderDash();
@@ -767,6 +867,30 @@ function renderDash(){
       <div class="kpi"><b>${runs.length}</b><span class="eyebrow">Runden</span></div>
     </div>
   </div>
+
+  <section>
+    <div class="sec-head"><h2>Schnellstart</h2>
+      <span class="hint">Ein Klick setzt die Einstellung und startet die Runde</span></div>
+    <div class="vorlagen">
+      ${vorlagenAlle().map(v=>{
+        const n = vorlagenAnzahl(v.f);
+        return `<div class="vorlage">
+          <button class="vgo" data-vorlage="${esc(v.id)}" ${n?"":"disabled"}>
+            <b>${esc(v.name)}</b><span class="n">${n} Frage${n===1?"":"n"}</span>
+          </button>
+          ${v.eigen?`<button class="vdel" data-vdel="${esc(v.id)}"
+            aria-label="Vorlage „${esc(v.name)}“ löschen" title="Löschen">×</button>`:""}
+        </div>`;
+      }).join("")}
+      <button class="vorlage neu" id="vNeu">+ Aktuelle Auswahl sichern</button>
+    </div>
+    <div class="vform" id="vForm" hidden>
+      <input id="vName" type="text" maxlength="40" placeholder="Name der Vorlage">
+      <button class="btn sm" id="vOk">Sichern</button>
+      <button class="btn ghost sm" id="vAb">Abbrechen</button>
+      <span class="pool">${esc(filterAktiv() ? scopeLabel() : "alle Module, gemischt")}</span>
+    </div>
+  </section>
 
   <section>
     <div class="sec-head"><h2>Module</h2><span class="hint">Klick filtert — grün geübt und richtig, rot geübt und falsch</span></div>
@@ -864,8 +988,7 @@ function renderDash(){
         <div class="konto-an">
           <div>
             <div class="eyebrow">Angemeldet</div>
-            <b class="sans">${esc(benutzer.name || benutzer.email)}</b>
-            ${benutzer.name && benutzer.email ? `<span class="pool" style="margin-left:8px">${esc(benutzer.email)}</span>` : ""}
+            <b class="sans">${esc(benutzer.name || (benutzer.email||"").split("@")[0])}</b>
           </div>
           <button class="btn ghost sm" id="abmelden">Abmelden</button>
         </div>
@@ -877,8 +1000,7 @@ function renderDash(){
           <span class="hint">Ohne Anmeldung teilst du einen offenen Lernstand mit allen anderen</span>
         </div>
         <div class="konto-form">
-          <input id="kName"  type="text"     autocomplete="name"           placeholder="Name (nur beim Registrieren)">
-          <input id="kMail"  type="email"    autocomplete="email"          placeholder="E-Mail">
+          <input id="kName"  type="text"     autocomplete="username"         placeholder="Name">
           <input id="kPass"  type="password" autocomplete="current-password" placeholder="Passwort (mind. 8 Zeichen)">
         </div>
         <div class="qfoot">
@@ -886,6 +1008,11 @@ function renderDash(){
           <button class="btn ghost sm" id="registrieren">Neues Konto</button>
           <span class="pool" id="kontoMsg"></span>
         </div>
+        <p class="muted" style="font-size:13px; margin-top:10px">
+          Kein E-Mail-Feld — und damit auch kein Zurücksetzen eines vergessenen
+          Passworts. Notier es dir. Dein Fortschritt liegt zusätzlich in diesem
+          Browser und lässt sich unten sichern, verloren wäre also das Konto,
+          nicht der Lernstand.</p>
       `}
     </div>
   </section>
@@ -960,6 +1087,29 @@ function renderDash(){
     render(); startRound();
   });
   $("#app").querySelectorAll("[data-start]").forEach(b=>b.onclick=startRound);
+
+  // Vorlagen: setzen und sofort loslegen — das ist der ganze Zweck.
+  $("#app").querySelectorAll("[data-vorlage]").forEach(b=>b.onclick=()=>{
+    const v = vorlagenAlle().find(x=>x.id===b.dataset.vorlage);
+    if(!v) return;
+    filterSetzen(v.f);
+    startRound();
+  });
+  $("#app").querySelectorAll("[data-vdel]").forEach(b=>b.onclick=()=>{
+    vorlagenSichern(vorlagenEigen().filter(v=>v.id!==b.dataset.vdel));
+    render();
+  });
+  const vForm = $("#vForm");
+  $("#vNeu").onclick = ()=>{ vForm.hidden = false; $("#vName").focus(); };
+  $("#vAb").onclick  = ()=>{ vForm.hidden = true;  $("#vName").value = ""; };
+  $("#vOk").onclick  = ()=>{
+    const name = ($("#vName").value||"").trim();
+    if(!name){ $("#vName").focus(); return; }
+    vorlagenSichern([...vorlagenEigen(), { id:"v"+Date.now(), name, f:filterLesen() }]);
+    render();
+  };
+  $("#vName").onkeydown = e=>{ if(e.key==="Enter") $("#vOk").click(); };
+
   bindKonto();
   bindBackup();
   $("#reset").onclick = ()=>{
@@ -968,7 +1118,23 @@ function renderDash(){
   };
 }
 
-/* ---------- Anmeldung ---------- */
+/* ---------- Anmeldung ----------
+ * Neon Auth kennt nur Anmeldung per E-Mail. Verlangt wird hier trotzdem nur
+ * ein Name: daraus wird eine feste, nie zustellbare Adresse gebildet, die
+ * ausschliesslich als Schlüssel dient. Der Preis steht im Formular — ohne
+ * echte Adresse gibt es kein Zurücksetzen eines vergessenen Passworts.
+ *
+ * Die Ableitung muss stabil bleiben: ändert sie sich, findet niemand sein
+ * altes Konto wieder. "Jan B." und "jan-b" sind absichtlich dasselbe Konto. */
+const KONTO_DOMAENE = "lernstand.local";
+function nameSchluessel(n){
+  return String(n||"").trim().toLowerCase()
+    .normalize("NFD").replace(/[̀-ͯ]/g, "")   // ä → a
+    .replace(/ß/g, "ss")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 function bindKonto(){
   const ab = $("#abmelden");
   if(ab){
@@ -988,21 +1154,20 @@ function bindKonto(){
   /** Zieht die Fehlermeldung aus dem, was das SDK zurückgibt oder wirft. */
   const klartext = (e)=>{
     const t = (e && (e.message || e.error?.message || e.statusText)) || String(e || "");
-    if(/invalid.*(email|password)|INVALID_/i.test(t)) return "E-Mail oder Passwort stimmt nicht.";
-    if(/already.*exist|USER_ALREADY/i.test(t))        return "Für diese E-Mail gibt es schon ein Konto — melde dich an.";
+    if(/already.*exist|USER_ALREADY/i.test(t))        return "Diesen Namen gibt es schon — melde dich an oder nimm einen anderen.";
     if(/password.*(short|length)|PASSWORD_TOO/i.test(t)) return "Das Passwort ist zu kurz, mindestens 8 Zeichen.";
-    if(/invalid.*email|INVALID_EMAIL/i.test(t))       return "Das sieht nicht nach einer E-Mail-Adresse aus.";
+    if(/invalid.*(email|password)|INVALID_CRED|INVALID_/i.test(t)) return "Name oder Passwort stimmt nicht.";
     if(/origin|domain/i.test(t))                      return "Diese Adresse ist bei Neon Auth nicht freigegeben.";
     return t.slice(0, 160) || "Unbekannter Fehler.";
   };
 
   const machen = async (art)=>{
     const name = ($("#kName")?.value || "").trim();
-    const mail = ($("#kMail")?.value || "").trim();
     const pass = $("#kPass")?.value || "";
-    if(!mail)            return sag("Bitte eine E-Mail eintragen.");
-    if(pass.length < 8)  return sag("Das Passwort braucht mindestens 8 Zeichen.");
-    if(art === "neu" && !name) return sag("Für ein neues Konto brauche ich noch einen Namen.");
+    const kennung = nameSchluessel(name);
+    if(kennung.length < 2) return sag("Bitte einen Namen mit mindestens zwei Zeichen.");
+    if(pass.length < 8)    return sag("Das Passwort braucht mindestens 8 Zeichen.");
+    const mail = kennung + "@" + KONTO_DOMAENE;
 
     sag(art === "neu" ? "Lege Konto an …" : "Melde an …");
     try{
@@ -1382,6 +1547,7 @@ function renderResult(){
       ${esc(e.message)} — lade die Seite neu. Bleibt es dabei, fehlt die Datei <span class="mono">daten/fragen.json</span>.</div>`;
     return;
   }
+  filterLaden();   // erst jetzt, denn filterSetzen() prüft gegen POOL
   render();
   // Neon zuerst — das ist der Weg, der auf GitHub Pages funktioniert. Nur wenn
   // dort nichts eingerichtet ist, wird die Artefakt-Datenbank von claude.ai versucht.

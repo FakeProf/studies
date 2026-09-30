@@ -202,3 +202,43 @@ Nachgemessen bei 320, 375, 768 px, im Querformat (812×375) und am Desktop:
 kein horizontaler Überlauf, keine Tippfläche unter 40 px, kein Feld unter
 16 px. Ein Durchlauf über alle vier Fragetypen zeigte, dass die feste Leiste
 nichts verdeckt.
+
+## Vorlagen und gemerkte Einstellung
+
+Jede Lerneinheit mit denselben Filtern neu zusammenzuklicken kostet Zeit, die
+zum Lernen fehlt. Zwei Dinge nehmen das ab:
+
+- **Vorlagen.** Ein Klick setzt die Einstellung *und* startet die Runde. Drei
+  sind fest eingebaut — Kernstoff quer, Wo es klemmt, Noch nie geübt —, eigene
+  legt „Aktuelle Auswahl sichern“ an. Jede zeigt, wie viele Fragen sie bringt.
+- **Die zuletzt benutzte Einstellung** überlebt das Schliessen des Tabs.
+  `filterSetzen()` verwirft dabei alles, was der Fragenpool nicht mehr hergibt,
+  damit eine alte Einstellung nach einer Poolände­rung nicht ins Leere zeigt.
+
+Beides liegt bewusst nur im Browser (`lernstand.vorlagen.v1`,
+`lernstand.filter.v1`) und wandert nicht zwischen Geräten: es sind Gewohnheiten
+dieses Geräts, kein Lernstand. Eine eigene Tabelle dafür wäre ausserdem
+riskant, solange eine PostgREST-Instanz ihren Schema-Cache nicht erneuert —
+neue Tabellen kennt sie nicht.
+
+## Anmeldung mit Name statt E-Mail
+
+Neon Auth kennt nur Anmeldung per E-Mail. Das Formular verlangt trotzdem nur
+Name und Passwort: `nameSchluessel()` bildet daraus eine feste, nie
+zustellbare Adresse `<name>@lernstand.local`, die allein als Schlüssel dient.
+
+```
+"Jan"  "jan"  "  Jan  "  →  jan
+"Jan B."  "jan-b"        →  jan-b
+"Jörg Müller"            →  jorg-muller
+```
+
+**Die Ableitung darf sich nie ändern** — sonst findet niemand sein Konto
+wieder. Gross- und Kleinschreibung, Leerzeichen und Umlaute sind absichtlich
+gleichwertig.
+
+Der Preis: ohne echte Adresse gibt es **kein Zurücksetzen eines vergessenen
+Passworts**, und Namen sind leicht zu erraten, das Passwort trägt die ganze
+Last. Entschärft wird das dadurch, dass der Fortschritt zusätzlich im Browser
+liegt und sich exportieren lässt — verloren wäre das Konto, nicht der
+Lernstand.

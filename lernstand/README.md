@@ -173,7 +173,32 @@ aufgeweckt. Deshalb nennt die App neue Spalten gar nicht erst und überlässt si
 dem Vorgabewert — in der URL (`on_conflict`) prüft PostgREST sie nicht.
 
 **Erlaubte Herkunft.** Neon Auth nimmt Anmeldungen nur von Adressen auf seiner
-Liste an; `localhost` steht von Haus aus drauf. Für die Fassung auf GitHub Pages
-muss `https://fakeprof.github.io` in der Neon-Konsole unter Auth als
-vertrauenswürdige Herkunft eingetragen werden, sonst antwortet die Anmeldung mit
-`403 INVALID_ORIGIN`. Ohne diesen Eintrag funktioniert live nur der offene Stand.
+Liste an und antwortet sonst mit `403 INVALID_ORIGIN`. `localhost` steht von
+Haus aus drauf, `https://fakeprof.github.io` ist unter **Console → Auth →
+Configuration → Domains** eingetragen. Die Liste liegt in
+`neon_auth.project_config.trusted_origins`; kommt eine weitere Adresse dazu,
+gehört sie ebenfalls dorthin — mit `https://`, ohne Schrägstrich am Ende.
+
+## Auf dem Handy
+
+Die Seite hatte weder Doctype noch Viewport-Angabe. Ohne
+`<meta name="viewport">` rendert ein Handy jede Seite in rund 980 px Breite und
+skaliert sie herunter — alles wird winzig, und keine Media Query greift. Das
+war die eigentliche Ursache; der Rest sind Nachbesserungen:
+
+- **Prüfen-Leiste unten fest.** Bei vier langen Antworten lag der Knopf unter
+  dem Falz. `position:sticky` hilft dort nicht, weil der Fuss das letzte
+  Element ist und keinen Scrollweg hat. Die Leiste ist deshalb `fixed`; wie
+  viel Freiraum darunter nötig ist, misst `qfootFreiraum()` und schreibt es
+  nach `--qfoot-h`, denn die Höhe hängt vom Hinweistext ab (65 px oder 95 px,
+  je nach Fragetyp).
+- **16 px in allen Eingabefeldern** unter 560 px Breite. iOS zoomt beim
+  Antippen in jedes Feld hinein, dessen Schrift kleiner ist.
+- **Tippflächen mindestens 40 px.** Filter-Chips waren 31 px hoch.
+- **Safe-Area-Ränder**, weil `viewport-fit=cover` die Seite unter die
+  Kamera-Aussparung reichen lässt.
+
+Nachgemessen bei 320, 375, 768 px, im Querformat (812×375) und am Desktop:
+kein horizontaler Überlauf, keine Tippfläche unter 40 px, kein Feld unter
+16 px. Ein Durchlauf über alle vier Fragetypen zeigte, dass die feste Leiste
+nichts verdeckt.

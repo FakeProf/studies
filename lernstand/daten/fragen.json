@@ -1,6 +1,6 @@
 {
  "version": 1,
- "stand": "2026-09-24",
+ "stand": "2026-10-01",
  "quelle": "Obsidian-Vault \"02 Zusammenfassungen\", OST HS2026",
  "fragen": [
   {
@@ -6344,6 +6344,2492 @@
    ],
    "erklaerung": "Leitende Honda-Mitarbeitende in Los Angeles sorgten mit Kleinmotorrädern, die sie privat für ihre Einkäufe nutzten, für Aufsehen. Daraus wurde die realisierte Strategie, die geplante blieb unrealisiert. Dazu das Kapitelzitat: „Strategische Planung ersetzt den Zufall durch den Irrtum. Aus Irrtümern kann man lernen, aus dem Zufall nicht.“",
    "quelle": "SYMG LB2 - Strategische Unternehmensführung"
+  },
+  {
+   "id": "EPC1-W1-01",
+   "modul": "EPC1",
+   "woche": 1,
+   "kategorie": "organisation",
+   "typ": "mc",
+   "lernziel": "Modulorganisation und Leistungsnachweis kennen",
+   "frage": "Wie ist die EPC1-Modulprüfung aufgebaut?",
+   "optionen": [
+    "Schriftlich, 90 Minuten, 100 Punkte, keine Hilfsmittel",
+    "Schriftlich, 120 Minuten, Wörterbuch erlaubt",
+    "Mündlich, 15 Minuten, plus Präsentation",
+    "Schriftlich, 60 Minuten, 60 Punkte plus Self-Study-Note"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Prüfung findet im Januar 2027 statt (Datum auf myOST). Das Self-Study Assignment mit Peer Feedback ist obligatorisch, gibt aber keine Punkte.",
+   "quelle": "EPC1 00 - Modulbeschreibung",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W1-02",
+   "modul": "EPC1",
+   "woche": 1,
+   "kategorie": "organisation",
+   "typ": "mc",
+   "lernziel": "Modulorganisation und Leistungsnachweis kennen",
+   "frage": "Ab wie vielen Punkten ist EPC1 laut Notenskala bestanden (Note 4.0)?",
+   "optionen": [
+    "62",
+    "50",
+    "60",
+    "66"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "62 bis 65 Punkte ergeben 4.0, für 4.5 braucht es 71, für 5.0 genau 80 Punkte.",
+   "quelle": "EPC1 00 - Modulbeschreibung",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W1-03",
+   "modul": "EPC1",
+   "woche": 1,
+   "kategorie": "organisation",
+   "typ": "mc",
+   "lernziel": "Modulorganisation und Leistungsnachweis kennen",
+   "frage": "Welches Sprachniveau hat EPC1?",
+   "optionen": [
+    "B2+",
+    "B1",
+    "C1",
+    "C2"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "EPC1 und EPC2 sind auf B2+ (upper-intermediate +) angesetzt; empfohlen ist FCE (B2) als Einstieg. Im 3. Jahr kann man sich im Wahlpflichtfach auf CAE vorbereiten.",
+   "quelle": "EPC1 00 - Modulbeschreibung",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W1-04",
+   "modul": "EPC1",
+   "woche": 1,
+   "kategorie": "organisation",
+   "typ": "mc",
+   "lernziel": "Modulorganisation und Leistungsnachweis kennen",
+   "frage": "Was gilt für die Semesterwochen 5 und 6 in EPC1?",
+   "optionen": [
+    "Kein Unterricht, Pflicht-Selbststudium (Neuralink-Gruppendebatte)",
+    "Prüfungsvorbereitung mit Sample Exam",
+    "Business Workshop",
+    "Unterricht findet online statt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Woche 5 und 6 sind guided self-study. Danach folgt in Woche 7 Unit 3 mit Critical Thinking und Proposal Writing.",
+   "quelle": "EPC1 00 - Course Schedule HS26",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W1-05",
+   "modul": "EPC1",
+   "woche": 1,
+   "kategorie": "organisation",
+   "typ": "mc",
+   "lernziel": "Modulorganisation und Leistungsnachweis kennen",
+   "frage": "Wie verteilen sich die 100 Punkte im Sample Exam?",
+   "optionen": [
+    "Vocabulary 30, Grammar 20, Reading 20, Writing 30",
+    "Vocabulary 20, Grammar 20, Reading 30, Writing 30",
+    "Vocabulary 25, Grammar 25, Reading 25, Writing 25",
+    "Vocabulary 30, Grammar 30, Reading 10, Writing 30"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Writing besteht aus einer Kurzantwort auf eine Mail (100–120 Wörter, 10 P.) und einem Proposal (ca. 200 Wörter, 20 P.).",
+   "quelle": "EPC1 00 - Sample Exam",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W1-06",
+   "modul": "EPC1",
+   "woche": 1,
+   "kategorie": "organisation",
+   "typ": "mc",
+   "lernziel": "Modulorganisation und Leistungsnachweis kennen",
+   "frage": "Was passiert mit einem Proposal unter 160 Wörtern?",
+   "optionen": [
+    "Es wird nicht bewertet",
+    "Es gibt 3 Punkte Abzug",
+    "Es gibt 2 Punkte Abzug",
+    "Nichts, nur der Inhalt zählt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Unter 180 Wörtern −2 Punkte, unter 170 −3 Punkte, unter 160 Wörtern keine Bewertung.",
+   "quelle": "EPC1 00 - Sample Exam",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W2-01",
+   "modul": "EPC1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "SMART-Ziele formulieren und beurteilen",
+   "frage": "Wofür stehen die Buchstaben S, M, A, R, T?",
+   "antwort": "Specific (clearly defined), Measurable (quantifiable to track progress), Achievable/Attainable (realistic), Relevant (aligned with broader objectives), Time-bound (has a deadline).",
+   "erklaerung": "Im Worksheet-Text heisst A attainable, auf den Folien achievable; beide meinen realistisch erreichbar.",
+   "quelle": "EPC1 Unit 1 - Goal Setting and Self-Management",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W2-02",
+   "modul": "EPC1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "SMART-Ziele formulieren und beurteilen",
+   "frage": "Ordne jedem SMART-Kriterium die passende Leitfrage aus dem SMART Worksheet zu.",
+   "paare": [
+    [
+     "Specific",
+     "What do you want to accomplish, who is involved, why?"
+    ],
+    [
+     "Measurable",
+     "How do you know you have met your goal?"
+    ],
+    [
+     "Achievable",
+     "Do you have the skills, is the effort on par with the result?"
+    ],
+    [
+     "Relevant",
+     "Is it aligned with overall objectives?"
+    ],
+    [
+     "Time-bound",
+     "What's the deadline and is it realistic?"
+    ]
+   ],
+   "erklaerung": "Das Worksheet endet mit einer neuen Zielformulierung, die die Antworten auf alle fünf Fragen enthält.",
+   "quelle": "EPC1 Unit 1 - Goal Setting and Self-Management",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W2-03",
+   "modul": "EPC1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "SMART-Ziele formulieren und beurteilen",
+   "frage": "Welche Formulierung erfüllt die SMART-Kriterien am besten?",
+   "optionen": [
+    "Improve customer service by reducing response time to under 24 hours for 90 % of inquiries by the end of Q3.",
+    "Improve customer service significantly.",
+    "We will try to answer customers faster in the future.",
+    "Customer service is our top priority this year."
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Musterlösung aus Unit 1.1: konkret (response time), messbar (24 h, 90 %), terminiert (end of Q3).",
+   "quelle": "EPC1 Unit 1 - Goal Setting and Self-Management",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W2-04",
+   "modul": "EPC1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "SMART-Ziele formulieren und beurteilen",
+   "frage": "Welches Beispiel für ein SMART-Ziel nennt der Reading-Text in Unit 1?",
+   "optionen": [
+    "A sales manager increases monthly sales by 10 % over the next quarter",
+    "A team reduces costs by 5 % next year",
+    "A company launches an app within 8 weeks",
+    "An employee reads one book per month"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Specific (increase sales), measurable (10 %), attainable (historical data), relevant (business objectives), time-bound (next quarter).",
+   "quelle": "EPC1 Unit 1 - Goal Setting and Self-Management",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W2-05",
+   "modul": "EPC1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "SMART-Ziele formulieren und beurteilen",
+   "frage": "Welche drei Bereiche umfasst self-management laut Reading-Text? (mehrere richtig)",
+   "optionen": [
+    "Time management",
+    "Self-discipline",
+    "Stress management",
+    "Risk management"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Time management heisst priorisieren, Deadlines setzen, procrastination vermeiden. Hilfsmittel: to-do lists, calendars, project management software.",
+   "quelle": "EPC1 Unit 1 - Goal Setting and Self-Management",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W2-06",
+   "modul": "EPC1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "SMART-Ziele formulieren und beurteilen",
+   "frage": "Welche Aussage zu Zieltypen stimmt laut Unit 1?",
+   "optionen": [
+    "Personal und professional goals können beide kurz- oder langfristig sein",
+    "Professional goals sind immer langfristig",
+    "Personal goals sind immer kurzfristig",
+    "Kurzfristige Ziele brauchen keine Deadline"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Professional: Kernkompetenzen, Netzwerk, Qualifikationen. Personal: Gewohnheiten, aus Fehlern lernen, Finanzen.",
+   "quelle": "EPC1 Unit 1 - Goal Setting and Self-Management",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W2-07",
+   "modul": "EPC1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Business-Wortschatz der Units anwenden",
+   "frage": "Match the words from Unit 1 with their definitions.",
+   "paare": [
+    [
+     "paramount",
+     "more important than anything else"
+    ],
+    [
+     "attainable",
+     "possible to achieve"
+    ],
+    [
+     "procrastination",
+     "delaying something that must be done"
+    ],
+    [
+     "concise",
+     "giving a lot of information clearly in a few words"
+    ],
+    [
+     "(to) encompass",
+     "to include different types of things"
+    ]
+   ],
+   "erklaerung": "Paramount, procrastination und concise kamen im Sample Exam vor.",
+   "quelle": "EPC1 Unit 1 - Goal Setting and Self-Management",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W2-08",
+   "modul": "EPC1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Business-Wortschatz der Units anwenden",
+   "frage": "Match the words with their definitions (Unit 1 worksheet and wordlist).",
+   "paare": [
+    [
+     "mindfulness",
+     "awareness and focus on the present moment"
+    ],
+    [
+     "accomplishment",
+     "a sense of achieving something successfully"
+    ],
+    [
+     "crucial",
+     "extremely important or necessary"
+    ],
+    [
+     "(to) enhance",
+     "to improve the quality or strength of something"
+    ]
+   ],
+   "erklaerung": "Crucial erscheint im Sample Exam im Gap Fill, accomplishment im Matching.",
+   "quelle": "EPC1 Unit 1 - Goal Setting and Self-Management",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W2-09",
+   "modul": "EPC1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Future Tenses und Conditionals korrekt verwenden",
+   "frage": "\"We ______ (expand) our services to three new countries by next year.\" Welche Form steht im Worksheet-Key?",
+   "optionen": [
+    "will have expanded",
+    "are expanding",
+    "expand",
+    "have expanded"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Future perfect für eine Handlung, die bis zu einem Zeitpunkt abgeschlossen ist (by next year). Die Slides hatten 'are going to expand'.",
+   "quelle": "EPC1 Unit 1 - Goal Setting and Self-Management",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W2-10",
+   "modul": "EPC1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Future Tenses und Conditionals korrekt verwenden",
+   "frage": "Ordne die Futurformen ihrem Gebrauch zu.",
+   "paare": [
+    [
+     "will + base verb",
+     "Entscheidung im Moment des Sprechens oder Vorhersage"
+    ],
+    [
+     "be going to + base verb",
+     "Plan oder Absicht, vorher beschlossen"
+    ],
+    [
+     "Present continuous",
+     "feste Vereinbarung in naher Zukunft"
+    ],
+    [
+     "Future perfect",
+     "bis zu einem Zeitpunkt abgeschlossen"
+    ]
+   ],
+   "erklaerung": "Beispiele: We will see an increase · We are going to increase our presence · The team is meeting on Monday · We will have expanded by next year.",
+   "quelle": "EPC1 Unit 1 - Goal Setting and Self-Management",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W2-11",
+   "modul": "EPC1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Future Tenses und Conditionals korrekt verwenden",
+   "frage": "\"Our company ______ (produce) luxury items for sixty years next month.\"",
+   "optionen": [
+    "will have been producing",
+    "will produce",
+    "is producing",
+    "has produced"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Future perfect continuous: eine Tätigkeit, die bis zu einem künftigen Zeitpunkt andauert (for sixty years next month). Aus dem Sample Exam.",
+   "quelle": "EPC1 00 - Sample Exam",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W2-12",
+   "modul": "EPC1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Future Tenses und Conditionals korrekt verwenden",
+   "frage": "\"The team ______ (work) on improving their supply chain for over a year.\"",
+   "optionen": [
+    "has been working",
+    "worked",
+    "is working",
+    "will work"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Present perfect continuous: begann in der Vergangenheit und dauert an (for over a year). Sample Exam, Use of Tenses.",
+   "quelle": "EPC1 00 - Sample Exam",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W3-01",
+   "modul": "EPC1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Teamwork, Leadership und Emotional Intelligence erklären",
+   "frage": "Wie trägt Teamwork laut Reading-Text zu mehr Kreativität bei?",
+   "antwort": "Durch das Bündeln von Ideen (pooling of ideas): Menschen mit unterschiedlichen Fähigkeiten und Perspektiven bringen ihre Einsichten ein, die collective intelligence steigt.",
+   "erklaerung": "Zusätzlich schafft Teamwork ownership und accountability, was Motivation und gegenseitige Unterstützung fördert.",
+   "quelle": "EPC1 Unit 2 - Teamwork and Leadership",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W3-02",
+   "modul": "EPC1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Teamwork, Leadership und Emotional Intelligence erklären",
+   "frage": "Welche Eigenschaften erfolgreicher Leader nennt der Text? (mehrere richtig)",
+   "optionen": [
+    "Strong communication skills",
+    "Emotional intelligence",
+    "Ability to inspire and motivate others",
+    "An authoritative style"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Ein autoritärer Stil ist im Case der XYZ Corporation gerade das Problem, das John nach dem EI-Workshop ändert.",
+   "quelle": "EPC1 Unit 2 - Teamwork and Leadership",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W3-03",
+   "modul": "EPC1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Teamwork, Leadership und Emotional Intelligence erklären",
+   "frage": "Warum soll ein Leader laut Unit 2 Diversität fördern?",
+   "optionen": [
+    "Um das volle Potenzial des Teams zu nutzen, Innovation zu treiben und die Organisation resilient zu machen",
+    "Weil es gesetzlich vorgeschrieben ist",
+    "Damit Konflikte gar nicht erst entstehen",
+    "Um Kosten zu senken"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Inclusive culture: different perspectives harness the full potential of teams.",
+   "quelle": "EPC1 Unit 2 - Teamwork and Leadership",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W3-04",
+   "modul": "EPC1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Teamwork, Leadership und Emotional Intelligence erklären",
+   "frage": "Was bedeutet 'symbiotic' im Verhältnis von Teamwork und Leadership?",
+   "antwort": "Beide sind gegenseitig voneinander abhängig und profitieren voneinander: Teamwork gedeiht unter guter Führung, Führung ist auf die Zusammenarbeit im Team angewiesen.",
+   "erklaerung": "Leader müssen dem Team vertrauen und delegieren, das Team muss der Vision des Leaders vertrauen.",
+   "quelle": "EPC1 Unit 2 - Teamwork and Leadership",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W3-05",
+   "modul": "EPC1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Teamwork, Leadership und Emotional Intelligence erklären",
+   "frage": "Bring the stages of team development (Tuckman) into the correct order.",
+   "items": [
+    "Forming",
+    "Storming",
+    "Norming",
+    "Performing",
+    "Adjourning"
+   ],
+   "erklaerung": "Forming: Zweck und Erwartungen klären (Charter) · Storming: Probleme und Lösungen · Norming: Team Norms · Performing: Ziele erreichen und feiern · Adjourning: Abschluss.",
+   "quelle": "EPC1 Unit 2 - Teamwork and Leadership",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W3-06",
+   "modul": "EPC1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Teamwork, Leadership und Emotional Intelligence erklären",
+   "frage": "XYZ Corporation: Was führte John nach dem EI-Workshop ein? (mehrere richtig)",
+   "optionen": [
+    "Daily stand-up meetings",
+    "Mediating the conflict between Alice and Mark through active listening",
+    "Publicly recognizing contributions",
+    "Stricter deadlines and more control"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Dazu kamen zusätzliche Ressourcen und flexible Deadlines gegen den Stress. Ergebnis: bessere Moral, Projekt erfolgreich, aber leicht verspätet.",
+   "quelle": "EPC1 Unit 2 - Teamwork and Leadership",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W3-07",
+   "modul": "EPC1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Teamwork, Leadership und Emotional Intelligence erklären",
+   "frage": "Welches Problem hatte das Team der XYZ Corporation NICHT?",
+   "optionen": [
+    "Fehlendes Budget",
+    "Communication breakdown",
+    "Konflikt über Design-Prioritäten",
+    "Tiefe Moral, weil Beiträge nicht gewürdigt wurden"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die vier Challenges: Communication Breakdown, Conflict, Motivation, Deadline Pressure.",
+   "quelle": "EPC1 Unit 2 - Teamwork and Leadership",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W3-08",
+   "modul": "EPC1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Business-Wortschatz der Units anwenden",
+   "frage": "Match the Unit 2 words with their definitions.",
+   "paare": [
+    [
+     "synergy",
+     "combined effect greater than the sum of the parts"
+    ],
+    [
+     "(to) facilitate",
+     "to make an action or process easier"
+    ],
+    [
+     "resilient",
+     "able to recover quickly from difficulties"
+    ],
+    [
+     "inclusivity",
+     "including people who might otherwise be excluded"
+    ],
+    [
+     "collaboration",
+     "working together to achieve a common goal"
+    ]
+   ],
+   "erklaerung": "Lösung Worksheet: Synergy d, Collaboration a, Inclusivity e, Resilient b, Facilitate c.",
+   "quelle": "EPC1 Unit 2 - Teamwork and Leadership",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W3-09",
+   "modul": "EPC1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Business-Wortschatz der Units anwenden",
+   "frage": "Match the idioms and words from Wordlist Unit 2.",
+   "paare": [
+    [
+     "to fly off the handle",
+     "to become suddenly and extremely angry"
+    ],
+    [
+     "to wear one's heart on one's sleeve",
+     "to openly show one's emotions"
+    ],
+    [
+     "(to) prevaricate",
+     "to avoid giving a direct answer"
+    ],
+    [
+     "delayed gratification",
+     "waiting for a later reward instead of an immediate one"
+    ]
+   ],
+   "erklaerung": "Die Wordlist Unit 2 enthält auch reconcile, reframe, foster, integral und marginalized.",
+   "quelle": "EPC1 Unit 2 - Teamwork and Leadership",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W3-10",
+   "modul": "EPC1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Business-Wortschatz der Units anwenden",
+   "frage": "\"Despite numerous setbacks, the community proved remarkably ______ in rebuilding their lives.\"",
+   "optionen": [
+    "resilient",
+    "fragile",
+    "indifferent",
+    "hesitant"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Resilient: able to recover quickly from difficulties. Sample Exam, Part A.",
+   "quelle": "EPC1 00 - Sample Exam",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W3-11",
+   "modul": "EPC1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Future Tenses und Conditionals korrekt verwenden",
+   "frage": "Ordne die Conditionals ihrer Bildung zu.",
+   "paare": [
+    [
+     "Zero",
+     "if + present, present"
+    ],
+    [
+     "First",
+     "if + present, will + base verb"
+    ],
+    [
+     "Second",
+     "if + past simple, would + base verb"
+    ],
+    [
+     "Third",
+     "if + past perfect, would have + past participle"
+    ]
+   ],
+   "erklaerung": "Zero: allgemeine Wahrheit · First: reale Möglichkeit · Second: hypothetisch in der Gegenwart · Third: hypothetisch in der Vergangenheit.",
+   "quelle": "EPC1 Unit 2 - Teamwork and Leadership",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W3-12",
+   "modul": "EPC1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Future Tenses und Conditionals korrekt verwenden",
+   "frage": "\"If the team ______ thoroughly, they would have performed better.\"",
+   "optionen": [
+    "had prepared",
+    "prepared",
+    "would prepare",
+    "has prepared"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Third conditional: if + past perfect, would have + past participle.",
+   "quelle": "EPC1 Unit 2 - Teamwork and Leadership",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W3-13",
+   "modul": "EPC1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Future Tenses und Conditionals korrekt verwenden",
+   "frage": "\"What law would you change if you ______ the Prime Minister?\"",
+   "optionen": [
+    "were",
+    "are",
+    "had been",
+    "will be"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Second conditional mit 'were' für alle Personen (If I were, if you were).",
+   "quelle": "EPC1 00 - Sample Exam",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W3-14",
+   "modul": "EPC1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Future Tenses und Conditionals korrekt verwenden",
+   "frage": "Welcher Satz ist ein korrekter complex sentence aus dem Sample Exam?",
+   "optionen": [
+    "Although there were some initial delays, the project was completed on time.",
+    "There were some initial delays, although the project completed on time was.",
+    "Although there were delays. The project was completed on time.",
+    "The project was completed on time, although delays."
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Subordinating conjunctions wie although, since, unless, because, when, after. Im Exam darf jede Konjunktion nur einmal vorkommen.",
+   "quelle": "EPC1 00 - Sample Exam",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W7-01",
+   "modul": "EPC1",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Sachtexte kritisch lesen und beurteilen",
+   "frage": "Wie heisst Neuralinks klinische Studie und wer waren die ersten Teilnehmenden?",
+   "optionen": [
+    "PRIME; Menschen mit Quadriplegie oder ALS",
+    "Telepathy; gesunde Freiwillige über 18",
+    "N1; Menschen mit Sehbehinderung",
+    "PRIME; Profisportler nach Verletzungen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "PRIME = Precise Robotically Implanted Brain-Computer Interface. Das Produkt heisst Telepathy, das Implantat N1.",
+   "quelle": "EPC1 Unit 3 - Critical Thinking and Innovation",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W7-02",
+   "modul": "EPC1",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Sachtexte kritisch lesen und beurteilen",
+   "frage": "Aus welchen Komponenten besteht das Neuralink-System? (mehrere richtig)",
+   "optionen": [
+    "N1-Implantat mit 1024 Elektroden auf 64 Fäden",
+    "Operationsroboter",
+    "Neuralink User App",
+    "Kabelverbindung zum Computer"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Die Verbindung zu Computer und Smartphone ist drahtlos, geladen wird induktiv.",
+   "quelle": "EPC1 Unit 3 - Critical Thinking and Innovation",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W7-03",
+   "modul": "EPC1",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Business-Wortschatz der Units anwenden",
+   "frage": "Match the terms from the Neuralink text with their meaning.",
+   "paare": [
+    [
+     "quadriplegia",
+     "paralysis affecting all four limbs"
+    ],
+    [
+     "inductive charger",
+     "charges a device wirelessly"
+    ],
+    [
+     "interface",
+     "a meeting point between two systems"
+    ],
+    [
+     "symbiotic digital layer",
+     "a digital enhancement integrated with biological systems"
+    ]
+   ],
+   "erklaerung": "ALS ist eine Krankheit, die die willkürliche Muskelkontrolle zerstört.",
+   "quelle": "EPC1 Unit 3 - Critical Thinking and Innovation",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W7-04",
+   "modul": "EPC1",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Business-Wortschatz der Units anwenden",
+   "frage": "Match the Unit 3 words with their definitions.",
+   "paare": [
+    [
+     "bias",
+     "a tendency to favor one thing over another unfairly"
+    ],
+    [
+     "consensus",
+     "general agreement among a group"
+    ],
+    [
+     "hypothesis",
+     "a proposed explanation based on limited evidence"
+    ],
+    [
+     "pushback",
+     "resistance or opposition to a plan"
+    ],
+    [
+     "self-regulation",
+     "managing one's behavior and emotions"
+    ]
+   ],
+   "erklaerung": "Alle fünf kamen im Multiple-Choice-Teil des Sample Exams vor.",
+   "quelle": "EPC1 Unit 3 - Critical Thinking and Innovation",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W7-05",
+   "modul": "EPC1",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Business-Wortschatz der Units anwenden",
+   "frage": "Match the reasoning terms from Wordlist Unit 3.",
+   "paare": [
+    [
+     "deduction",
+     "reasoning from general principles to a specific conclusion"
+    ],
+    [
+     "inference",
+     "a conclusion based on evidence and reasoning"
+    ],
+    [
+     "assumption",
+     "something accepted as true without proof"
+    ],
+    [
+     "subjective",
+     "based on personal feelings rather than facts"
+    ]
+   ],
+   "erklaerung": "Diese Begriffe gehören zum Wortfeld Critical Thinking.",
+   "quelle": "EPC1 Unit 3 - Critical Thinking and Innovation",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W7-06",
+   "modul": "EPC1",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Sachtexte kritisch lesen und beurteilen",
+   "frage": "Wie definiert das Critical Thinking Workbook kritisches Denken?",
+   "antwort": "Clear, rational, logical and independent thinking: das eigene Denken analysieren, bewerten und neu aufbauen, selbstreguliert und selbstkorrigierend, frei von bias und egocentric Tendenzen.",
+   "erklaerung": "Die Übung Fact or Opinion: Ein Fakt lässt sich beweisen, eine Meinung nicht.",
+   "quelle": "EPC1 Unit 3 - Critical Thinking and Innovation",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W7-07",
+   "modul": "EPC1",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Sachtexte kritisch lesen und beurteilen",
+   "frage": "Was empfiehlt Gary Klein im Reading-Text des Sample Exams für mehr Innovation?",
+   "optionen": [
+    "Unsicherheit tolerieren und starre Hierarchien vermeiden",
+    "Strikt am Plan festhalten",
+    "Kreative Mitarbeitende von Entscheidungen fernhalten",
+    "Mehr Kontrolle durch Vorgesetzte"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "\"If you want to kill a creative idea, have an organisation that's very hierarchical.\"",
+   "quelle": "EPC1 00 - Sample Exam",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W7-08",
+   "modul": "EPC1",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ein Proposal professionell aufbauen",
+   "frage": "Was gehört laut Aufgabenstellung in die Proposal-E-Mail an Harry Plotter? (mehrere richtig)",
+   "optionen": [
+    "Die Innovation mit USP, Materialien und Kunden",
+    "Nutzen für das Unternehmen",
+    "Geschätzte Kosten, Verkaufspreis und benötigte Finanzierung",
+    "Ein ausführlicher Lebenslauf"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "200 bis 250 Wörter, mit Einleitung und Schluss, in eigenen Worten.",
+   "quelle": "EPC1 Unit 3 - Critical Thinking and Innovation",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W7-09",
+   "modul": "EPC1",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ein Proposal professionell aufbauen",
+   "frage": "Welche zwei Teile verlangt die Proposal-Aufgabe im Sample Exam?",
+   "optionen": [
+    "Eine kurze Zusammenfassung der Informationen und neue Initiativen",
+    "Eine Einleitung und ein persönliches Fazit",
+    "Eine SWOT-Analyse und einen Budgetplan",
+    "Eine Beschwerde und eine Entschuldigung"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Modellantwort gliedert in Brief Summary (Umfragewerte) und Proposed Initiatives (nummeriert, jeweils mit Bezug zur Zahl).",
+   "quelle": "EPC1 00 - Sample Exam",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W7-10",
+   "modul": "EPC1",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Ein Proposal professionell aufbauen",
+   "frage": "Ordne den Bewertungskriterien des Proposals die Höchststufe zu.",
+   "paare": [
+    [
+     "Content",
+     "alle Punkte ausgewogen abgedeckt"
+    ],
+    [
+     "Register and format",
+     "durchgehend angemessen"
+    ],
+    [
+     "Structure and organization",
+     "sehr wirkungsvoll gegliedert, cohesive devices"
+    ],
+    [
+     "Effect on the reader",
+     "sehr positiv"
+    ]
+   ],
+   "erklaerung": "Fünftes Kriterium: Grammar and vocabulary. Jedes Kriterium gibt 0 bis 4 Punkte, total 20.",
+   "quelle": "EPC1 00 - Sample Exam",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W3-01",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Prozesse identifizieren und ihre Bestandteile klassifizieren",
+   "frage": "Was ist Prozessidentifikation und aus welchen zwei Methoden besteht sie?",
+   "antwort": "Managementaktivitäten, die die relevanten Geschäftsprozesse eines Unternehmens systematisch definieren (Methode 1: Definition der Prozessarchitektur) und Kriterien festlegen, welche Prozesse priorisiert werden (Methode 2: Prozessauswahl).",
+   "erklaerung": "Priorisiert wird, was strategisch bedeutend und/oder erheblich verbesserungsbedürftig ist. Es ist die erste Phase des BPM-Lebenszyklus.",
+   "quelle": "OGPM LB2 - Prozessidentifikation",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W3-02",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozessarchitektur und Prozesslandkarte erstellen",
+   "frage": "Was ist der Output der Prozessidentifikation?",
+   "optionen": [
+    "Eine Prozessarchitektur",
+    "Ein detailliertes BPMN-Modell jedes Prozesses",
+    "Ein Organigramm",
+    "Eine Liste von Verbesserungsmassnahmen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Prozessarchitektur ist ein konzeptionelles Modell der Prozesse und ihrer Beziehungen, in Ebenen organisiert. Modellieren gehört laut Dumas nicht zur Identifikation.",
+   "quelle": "OGPM LB2 - Prozessidentifikation",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W3-03",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Prozessarchitektur und Prozesslandkarte erstellen",
+   "frage": "Ordne den Ebenen der Prozessarchitektur ihren Inhalt zu.",
+   "paare": [
+    [
+     "Level 1",
+     "Prozesslandkarte mit den End-to-End-Prozessen"
+    ],
+    [
+     "Level 2",
+     "Prozessmodelle aus Subprozessen in BPMN"
+    ],
+    [
+     "Level 3",
+     "detaillierte Prozessmodelle mit Varianten"
+    ]
+   ],
+   "erklaerung": "Level 1 wird meist als Wertschöpfungskette (Chevrons) dargestellt, Level 2 und 3 in BPMN.",
+   "quelle": "OGPM LB2 - Prozessidentifikation",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W3-04",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Prozessarchitektur und Prozesslandkarte erstellen",
+   "frage": "Ordne die drei Beziehungstypen der Prozessarchitektur zu.",
+   "paare": [
+    [
+     "Sequenz",
+     "horizontal: der Output eines Prozesses ist Input des nächsten"
+    ],
+    [
+     "Zerlegung",
+     "vertikal: ein Prozess wird in Teilprozesse aufgeteilt"
+    ],
+    [
+     "Spezialisierung",
+     "Varianten eines generischen Prozesses, z. B. pro Land"
+    ]
+   ],
+   "erklaerung": "Dumas: Decomposition ist meist die primäre Strukturierung der Architektur. Beispiel Spezialisierung: Handle Job Application (Österreich, Deutschland).",
+   "quelle": "OGPM LB2 - Prozessidentifikation",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W3-05",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Prozessarchitektur und Prozesslandkarte erstellen",
+   "frage": "Bringe die fünf Schritte zur Erstellung einer Prozesslandkarte in die richtige Reihenfolge.",
+   "items": [
+    "Kernprozesse identifizieren",
+    "Sequenz/Struktur der Kernprozesse definieren",
+    "Führungs- und Unterstützungsprozesse identifizieren",
+    "Prozessprofile erstellen",
+    "Vollständigkeit und Konsistenz prüfen"
+   ],
+   "erklaerung": "Dumas beschreibt sieben Schritte: zusätzlich Terminologie klären am Anfang und Decompose/Specialize vor dem Prozessprofil.",
+   "quelle": "OGPM LB2 - Prozessidentifikation",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W3-06",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Prozesse identifizieren und ihre Bestandteile klassifizieren",
+   "frage": "Ordne die Prozesskategorien ihrer Beschreibung zu.",
+   "paare": [
+    [
+     "Kernprozesse",
+     "hoher Wertschöpfungsanteil, strategisch relevant, End-to-End vom Kundenbedarf zur Leistung"
+    ],
+    [
+     "Führungsprozesse",
+     "liefern Anweisungen, Regeln und Praktiken für alle anderen Prozesse"
+    ],
+    [
+     "Unterstützungsprozesse",
+     "Basisdienste ohne oder mit geringem Wertschöpfungsanteil"
+    ]
+   ],
+   "erklaerung": "Autowerkstatt: Führung = Strategieentwicklung, Controlling, Produktplanung, Personalsteuerung; Unterstützung = Marketing, Rechnungswesen, Kundenbewirtung, IT, Verwaltung.",
+   "quelle": "OGPM LB2 - Prozessidentifikation",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W3-07",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozesse identifizieren und ihre Bestandteile klassifizieren",
+   "frage": "Welche Kriterien helfen laut LB2, Kernprozesse zu differenzieren? (mehrere richtig)",
+   "optionen": [
+    "Produkttypen",
+    "Servicetypen",
+    "Kanäle zum Kunden",
+    "Kundentypen",
+    "Anzahl Mitarbeitende pro Abteilung"
+   ],
+   "loesung": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "erklaerung": "Dumas: eigene End-to-End-Prozesse nur dann, wenn sich das interne Verhalten deutlich unterscheidet.",
+   "quelle": "OGPM LB2 - Prozessidentifikation",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W3-08",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozessarchitektur und Prozesslandkarte erstellen",
+   "frage": "Wie prüft man im 5. Schritt Vollständigkeit und Konsistenz der Prozesslandkarte? (mehrere richtig)",
+   "optionen": [
+    "Abgleich mit Referenzmodellen",
+    "Zuordnung aller Prozesse zu Funktionseinheiten des Organigramms und umgekehrt",
+    "Simulation aller Prozesse in Signavio",
+    "Befragung der Kunden"
+   ],
+   "loesung": [
+    0,
+    1
+   ],
+   "erklaerung": "Jede Abteilung soll sich in der Landkarte wiederfinden und jeder Prozess einer Einheit zugeordnet sein.",
+   "quelle": "OGPM LB2 - Prozessidentifikation",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W3-09",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozessarchitektur und Prozesslandkarte erstellen",
+   "frage": "Was gehört typischerweise in ein Prozessprofil? (mehrere richtig)",
+   "optionen": [
+    "Beschreibung und Vision",
+    "Auslöser",
+    "Process Owner",
+    "Ressourcen und Leistungskennzahlen",
+    "Vollständiges BPMN-Diagramm"
+   ],
+   "loesung": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "erklaerung": "Dumas zeigt das Profil von BuildITs Procure-to-Pay: Owner CFO, Trigger Bedarf erkannt, Kennzahlen Cycle Time, Operational Costs, Error Rate.",
+   "quelle": "OGPM LB2 - Prozessidentifikation",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W3-10",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Referenzmodelle PCF und SCOR anwenden",
+   "frage": "Wofür steht SCOR und wofür wird es verwendet?",
+   "optionen": [
+    "Supply Chain Operations Reference Model: Beschreibung und Analyse von Lieferketten",
+    "Strategic Corporate Organization Reference: Aufbau von Organigrammen",
+    "Standard Classification of Records: Archivierung von Dokumenten",
+    "Service Customer Operations Reference: Kundendienstprozesse"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Herausgeber APICS. Kernprozesse auf der Folie: Order, Plan, Source, Transform, Fulfill, Return.",
+   "quelle": "OGPM LB2 - Prozessidentifikation",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W3-11",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Referenzmodelle PCF und SCOR anwenden",
+   "frage": "Was ist das PCF und wer gibt es heraus?",
+   "optionen": [
+    "Process Classification Framework der APQC, branchenübergreifendes Referenzmodell für Geschäftsprozesse",
+    "Process Control Framework der ISO für Qualitätsmanagement",
+    "Process Change Framework von SAP für Software-Einführungen",
+    "Performance Classification Framework von Rummler & Brache"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "APQC = American Productivity and Quality Center. Es gibt branchenspezifische Varianten, z. B. für Universitäten.",
+   "quelle": "OGPM LB2 - Prozessidentifikation",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W3-12",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Referenzmodelle PCF und SCOR anwenden",
+   "frage": "Welchen Nutzen haben Referenzmodelle laut Dumas? (mehrere richtig)",
+   "optionen": [
+    "Ausgangspunkt für die Klassifikation der Prozessbereiche",
+    "Prüfung der Vollständigkeit",
+    "Einheitliches Vokabular gegen Synonyme und Homonyme",
+    "Sie ersetzen die Prozessmodellierung"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Beispiel Synonym: acquisition vs. market survey. Homonym: implementation von Software vs. von Vorschriften.",
+   "quelle": "OGPM - Dumas Kapitel 2",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W3-13",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Prozesse auswählen, Kennzahlen definieren und Prozessportfolio erstellen",
+   "frage": "Ordne den Auswahlkriterien die Leitfrage zu.",
+   "paare": [
+    [
+     "Strategische Bedeutung",
+     "Welche Prozesse beeinflussen die strategischen Ziele am stärksten?"
+    ],
+    [
+     "Verbesserungswürdigkeit",
+     "Welche Prozesse haben die grössten Schwierigkeiten?"
+    ],
+    [
+     "Verbesserungsfähigkeit",
+     "Welche Prozesse können überhaupt verbessert werden?"
+    ]
+   ],
+   "erklaerung": "Bei Dumas: strategic importance, health, feasibility. Health ist das Gegenstück zur Verbesserungswürdigkeit.",
+   "quelle": "OGPM LB2 - Prozessidentifikation",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W3-14",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Prozesse auswählen, Kennzahlen definieren und Prozessportfolio erstellen",
+   "frage": "Ordne die Beispielkennzahlen den vier Leistungsdimensionen zu.",
+   "paare": [
+    [
+     "Zeit",
+     "Bearbeitungszeit, Wartezeit"
+    ],
+    [
+     "Kosten",
+     "variable und fixe Kosten"
+    ],
+    [
+     "Qualität",
+     "Kundenzufriedenheit, Reklamationen, Fehlerquote"
+    ],
+    [
+     "Flexibilität",
+     "Fähigkeit, auf Änderungen zu reagieren"
+    ]
+   ],
+   "erklaerung": "Ziel jedes Unternehmens: Prozesse schneller, billiger und besser machen; Flexibilität kommt dazu, wenn sich Bedingungen ändern.",
+   "quelle": "OGPM LB2 - Prozessidentifikation",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W3-15",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "flash",
+   "lernziel": "Prozesse auswählen, Kennzahlen definieren und Prozessportfolio erstellen",
+   "frage": "Woraus setzt sich die Cycle Time eines Prozesses zusammen?",
+   "antwort": "Aus Processing Time (Ressource arbeitet tatsächlich am Case) und Waiting Time (Case liegt; Queueing Time wegen fehlender Ressourcen plus Warten auf Synchronisation oder externe Inputs).",
+   "erklaerung": "Cycle Time heisst auch Throughput Time: die Zeit für einen Case von Anfang bis Ende.",
+   "quelle": "OGPM - Dumas Kapitel 2",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W3-16",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Prozesse auswählen, Kennzahlen definieren und Prozessportfolio erstellen",
+   "frage": "Warum führt Dumas Flexibilität als vierte Dimension ein? Beispiel:",
+   "optionen": [
+    "Eine australische Versicherung wurde nach Stürmen von Schadenmeldungen überflutet",
+    "Ein Restaurant wollte schneller servieren",
+    "Ein Reisebüro machte Buchungsfehler",
+    "Zara wollte Trends schneller umsetzen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Im Normalbetrieb lief der Prozess gut, unter plötzlicher Last brach er ein. Runtime vs. build-time flexibility.",
+   "quelle": "OGPM - Dumas Kapitel 2",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W3-17",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Prozesse auswählen, Kennzahlen definieren und Prozessportfolio erstellen",
+   "frage": "Restaurant-Beispiel: Kunden finden über 30 Minuten Wartezeit inakzeptabel. Welche Kennzahl leitet Dumas daraus ab?",
+   "optionen": [
+    "Anteil der Kunden, die in unter 30 Minuten bedient werden (ST30)",
+    "Durchschnittliche Kochzeit",
+    "Anzahl Kellner pro Tisch",
+    "Umsatz pro Gast"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Verfeinertes Ziel: ST30 ≥ 99 %. Mit Zeitrahmen (z. B. in 12 Monaten) wird daraus ein performance target.",
+   "quelle": "OGPM - Dumas Kapitel 2",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W3-18",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Prozesse auswählen, Kennzahlen definieren und Prozessportfolio erstellen",
+   "frage": "Welche Prozesse priorisiert das Prozessportfolio nach Dumas?",
+   "optionen": [
+    "Wichtige und ungesunde Prozesse (oben links), unter Berücksichtigung der Machbarkeit",
+    "Alle ungesunden Prozesse gleichzeitig",
+    "Die gesündesten Prozesse, um Erfolge zu zeigen",
+    "Nur Unterstützungsprozesse"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Davenport rät, nicht als Erstes den wichtigsten und ungesündesten Prozess anzugehen, weil das Risiko des Scheiterns hoch ist.",
+   "quelle": "OGPM - Dumas Kapitel 2",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W3-19",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Prozesse auswählen, Kennzahlen definieren und Prozessportfolio erstellen",
+   "frage": "Übung 5 (Prozessportfolio Universität): Welcher Prozess sollte verbessert werden?",
+   "optionen": [
+    "Kurse ansetzen (Bedeutung 95 %, Verbesserungswürdigkeit 70 %, Fähigkeit 50 %)",
+    "Räume verwalten (40 %, 65 %, 70 %)",
+    "Kurse durchführen (95 %, 30 %, 30 %)",
+    "Studienprogramme entwickeln (90 %, 10 %, 40 %)"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Sehr wichtig, am verbesserungswürdigsten und ausreichend machbar. Das ist auch Dumas' Musterlösung zu Übung 2.10 (Schedule Courses).",
+   "quelle": "OGPM LB2 - Übungen zur Prozessidentifikation",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W3-20",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Prozesse identifizieren und ihre Bestandteile klassifizieren",
+   "frage": "Welche Kandidaten sind laut Dumas' Process Checklist KEIN Prozess? (mehrere richtig)",
+   "optionen": [
+    "Eine Abteilung",
+    "Human Resource Management",
+    "Die Mars-Mission",
+    "Approve leave requests"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Ein Prozess braucht einen Case-Begriff und Wiederholung. Die Mars-Mission ist ein Projekt. Name nach Muster Verb + Nomen.",
+   "quelle": "OGPM - Dumas Kapitel 2",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W3-21",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Prozesse identifizieren und ihre Bestandteile klassifizieren",
+   "frage": "Faustregel bei Dumas: Ein Prozess ist zu klein, wenn ...",
+   "optionen": [
+    "weniger als drei Akteure (ohne Kunde) beteiligt sind",
+    "er weniger als zehn Aktivitäten hat",
+    "er nur einmal pro Tag läuft",
+    "er keinen IT-Support hat"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ohne Handoffs gibt es wenig zu verbessern. Zu gross ist er, wenn Aktivitäten keine 1:1-Beziehung zum auslösenden Ereignis haben (Boden reinigen ≠ manufacture bikes).",
+   "quelle": "OGPM - Dumas Kapitel 2",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W3-22",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Prozessarchitektur und Prozesslandkarte erstellen",
+   "frage": "Wie viele Prozesse sollte die Prozesslandkarte (Level 1) laut Dumas höchstens zeigen?",
+   "optionen": [
+    "Etwa 20",
+    "Etwa 5",
+    "Etwa 100",
+    "So viele wie Abteilungen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Kompakt genug für alle Stakeholder, aber so vollständig, dass alle Mitarbeitenden ihre Arbeit wiederfinden. SAP hat rund 1'000 Prozesse, aber erst auf Level 3.",
+   "quelle": "OGPM - Dumas Kapitel 2",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W3-23",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "match",
+   "lernziel": "Prozesse identifizieren und ihre Bestandteile klassifizieren",
+   "frage": "Ordne nach Porters Value Chain (bei Dumas) richtig zu.",
+   "paare": [
+    [
+     "Direkte Beschaffung",
+     "Kernprozess"
+    ],
+    [
+     "Indirekte Beschaffung (Büromaterial)",
+     "Unterstützungsprozess"
+    ],
+    [
+     "Budgetierung und Risikomanagement",
+     "Managementprozess"
+    ]
+   ],
+   "erklaerung": "Unterstützungsprozesse können Kernprozesse sein, wenn sie zum Geschäftsmodell gehören (Personalverleih: HR ist Kern).",
+   "quelle": "OGPM - Dumas Kapitel 2",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W3-24",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Prozessarchitektur und Prozesslandkarte erstellen",
+   "frage": "Welche zwei Gruppen von Kernprozessen hat BuildITs Prozesslandkarte bei Dumas?",
+   "optionen": [
+    "Contract Acquisition und Contract Execution",
+    "Plan und Build",
+    "Sales und Service",
+    "Engineering und Finance"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Acquisition: Demand-to-Selection, Selection-to-Bid, Approval-to-Contract. Execution: Contract-to-Plan, Plan-to-Completion, Completion-to-Expiry.",
+   "quelle": "OGPM - Dumas Kapitel 2",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W3-25",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Prozessarchitektur und Prozesslandkarte erstellen",
+   "frage": "Davenport unterscheidet broad und narrow processes. Was trifft auf breite Prozesse zu?",
+   "optionen": [
+    "Grosse Wirkung, aber schwer zu managen",
+    "Leicht zu managen, aber wenig Wirkung",
+    "Sie werden nur überwacht und feinjustiert",
+    "Sie betreffen nur einen Akteur"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Abwägung impact gegen manageability. Narrow processes werden laufend überwacht und feinjustiert.",
+   "quelle": "OGPM - Dumas Kapitel 2",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W3-26",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Prozessarchitektur und Prozesslandkarte erstellen",
+   "frage": "Übung 1 Industriefirma AG: Warum bietet es sich an, zwei End-to-End-Kernprozesse zu bilden?",
+   "optionen": [
+    "Neuwerkzeuge und Aftersales (Ersatzteile, Reparaturen) haben unterschiedliche Auslöser",
+    "Weil die Firma zwei Standorte hat",
+    "Weil 80 % exportiert werden",
+    "Weil Marketing und IT getrennt sind"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Neuwerkzeug: Akquisition → Offerte → Konstruktion → Produktion → Qualitätsprüfung → Montage/Auslieferung.",
+   "quelle": "OGPM LB2 - Übungen zur Prozessidentifikation",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W3-27",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "uebung",
+   "typ": "flash",
+   "lernziel": "Prozessarchitektur und Prozesslandkarte erstellen",
+   "frage": "Wie verknüpft man in Signavio die Prozesslandkarte mit einem BPMN-Modell auf Ebene 2?",
+   "antwort": "Auf der Landkarte das Element „Zugeklappter Prozess“ setzen und über das „+“ das untergeordnete Diagramm auswählen oder neu anlegen.",
+   "erklaerung": "Für BPMN zuerst „BPMN (Vollständig)“ wählen, sonst fehlen Modellierungselemente.",
+   "quelle": "OGPM LB2 - Übungen zur Prozessidentifikation",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W3-01",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "frage": "Welche fünf Kräfte bestimmen laut Porter die Profitabilität einer Branche? (mehrere richtig)",
+   "optionen": [
+    "Gefahr durch neue Wettbewerber",
+    "Verhandlungsmacht der Zulieferer",
+    "Verhandlungsmacht der Käufer",
+    "Bedrohung durch Substitute",
+    "Konkurrenzdruck vorhandener Wettbewerber",
+    "Staatliche Regulierung"
+   ],
+   "loesung": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "erklaerung": "Der Staat ist keine sechste Kraft: Regulierung ist weder gut noch schlecht an sich und wirkt über die fünf Kräfte.",
+   "quelle": "SYMG LB2 - Porter Die Wettbewerbskräfte neu betrachtet",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W3-02",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "frage": "Welche Faktoren sind laut Porter KEINE eigenen Wettbewerbskräfte? (mehrere richtig)",
+   "optionen": [
+    "Branchenwachstum",
+    "Technik und Innovation",
+    "Komplementärprodukte",
+    "Verhandlungsmacht der Käufer"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "\"Kräfte entscheiden, nicht Faktoren\": Wachstum, Technik, Regulierung und Komplementärprodukte wirken nur über die fünf Kräfte.",
+   "quelle": "SYMG LB2 - Porter Die Wettbewerbskräfte neu betrachtet",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W3-03",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "flash",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "frage": "Was bestimmt laut Porter die mittel- und langfristige Profitabilität einer Branche?",
+   "antwort": "Allein die Branchenstruktur, abgebildet durch die fünf Wettbewerbskräfte. Kurzfristig wirken auch Wetter oder Konjunktur.",
+   "erklaerung": "Viele Manager sehen Wettbewerb zu eng als direkte Konkurrenz. Kodak und Fuji verloren ihre Profite an ein Substitut, nicht an Rivalen.",
+   "quelle": "SYMG LB2 - Porter Die Wettbewerbskräfte neu betrachtet",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W3-04",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "order",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "frage": "Ordne Porters sieben Markteintrittsbarrieren in der Reihenfolge des Artikels.",
+   "items": [
+    "Unternehmensseitige Grössenvorteile",
+    "Kundenseitige Grössenvorteile (Netzwerkeffekte)",
+    "Wechselkosten",
+    "Kapitalausstattung",
+    "Andere immanente Vorteile",
+    "Zugang zu Vertriebskanälen",
+    "Staatliche Regulierungen"
+   ],
+   "erklaerung": "Beispiele: Ebay (Netzwerkeffekt), SAP-ERP (Wechselkosten), Billigflieger umgingen Reisebüros (Vertriebskanäle).",
+   "quelle": "SYMG LB2 - Porter Die Wettbewerbskräfte neu betrachtet",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W3-05",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "match",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "frage": "Ordne Porters Beispiele der jeweiligen Wettbewerbskraft zu.",
+   "paare": [
+    [
+     "Ebay als meistgenutzte Plattform",
+     "Eintrittsbarriere Netzwerkeffekte"
+    ],
+    [
+     "Microsoft erhöht Preise für das Betriebssystem",
+     "Verhandlungsmacht der Zulieferer"
+    ],
+    [
+     "Softdrinkhersteller drohen, Verpackungen selbst zu produzieren",
+     "Verhandlungsmacht der Käufer"
+    ],
+    [
+     "Digitalfotografie gegenüber Kodak und Fuji",
+     "Bedrohung durch Substitute"
+    ]
+   ],
+   "erklaerung": "Käufer drohen mit Rückwärtsintegration, Lieferanten mit Vorwärtsintegration.",
+   "quelle": "SYMG LB2 - Porter Die Wettbewerbskräfte neu betrachtet",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W3-06",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "frage": "Wann ist die Rivalität unter bestehenden Wettbewerbern laut Porter am intensivsten? (mehrere richtig)",
+   "optionen": [
+    "Viele etwa gleich grosse Konkurrenten",
+    "Geringes Branchenwachstum",
+    "Hohe Austrittsbarrieren",
+    "Wettbewerb auf verschiedenen Dimensionen"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Konkurrieren Unternehmen auf verschiedenen Dimensionen (Segmente, Services, Merkmale), kann Wettbewerb die Renditen sogar steigern.",
+   "quelle": "SYMG LB2 - Porter Die Wettbewerbskräfte neu betrachtet",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W3-07",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "frage": "Warum ist Preiswettbewerb laut Porter besonders schädlich?",
+   "optionen": [
+    "Profite gehen direkt an Kunden, Preissenkungen sind leicht kopierbar und Kunden achten nur noch auf den Preis",
+    "Weil er gesetzlich eingeschränkt ist",
+    "Weil er neue Wettbewerber abschreckt",
+    "Weil er die Lieferantenmacht senkt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Er droht bei fast identischen Produkten, hohen Fixkosten, Kapazitätsdruck und verderblicher Ware.",
+   "quelle": "SYMG LB2 - Porter Die Wettbewerbskräfte neu betrachtet",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W3-08",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "frage": "Welche zwei Wege nennt Porter, um die Branchenstruktur zu beeinflussen?",
+   "optionen": [
+    "Den Kuchen neu aufteilen und den Kuchen grösser machen",
+    "Fusionieren und auslagern",
+    "Preise senken und Werbung erhöhen",
+    "Diversifizieren und desinvestieren"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Neu aufteilen birgt das Risiko, die Struktur zu verschlechtern (IBM verlor beim PC die Macht an Microsoft und Intel).",
+   "quelle": "SYMG LB2 - Porter Die Wettbewerbskräfte neu betrachtet",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W3-09",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "frage": "Apple macht die Airpods Pro per Update zur Hörhilfe. Welche Five-Forces-Kraft trifft das Sonova am direktesten?",
+   "optionen": [
+    "Bedrohung durch Substitute",
+    "Verhandlungsmacht der Zulieferer",
+    "Verhandlungsmacht der Käufer",
+    "Austrittsbarrieren"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ein Ersatz aus der Unterhaltungselektronik greift das Einstiegssegment (leichter Hörverlust) an, begünstigt durch OTC-Verkauf in den USA.",
+   "quelle": "SYMG LB2 - Fallartikel Ersatzprodukte (Sonova, KI-Suche)",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W3-10",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "frage": "Warum ist das Segment der leichten Hörverluste für Sonova so wichtig?",
+   "optionen": [
+    "Laut UBS fanden dort 80 % des Marktwachstums statt und es ist kaum gesättigt",
+    "Weil dort die höchsten Margen pro Gerät erzielt werden",
+    "Weil es staatlich subventioniert ist",
+    "Weil Apple dort nicht verkaufen darf"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Kalkül von Sonova und Sennheiser: Kunden früh an die Marke binden. Vontobel erwartet, dass Kunden bei fortschreitendem Hörverlust doch professionelle Anpassung wollen.",
+   "quelle": "SYMG LB2 - Fallartikel Ersatzprodukte (Sonova, KI-Suche)",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W3-11",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "frage": "Economist 2025: Wie verändert KI-Suche die Lage der Inhaltsanbieter?",
+   "optionen": [
+    "Nutzer erhalten Antworten statt Links; der Traffic und damit Werbeerlöse sinken",
+    "Der Traffic steigt, weil KI auf Quellen verlinkt",
+    "Inhaltsanbieter erhalten automatisch Lizenzgebühren",
+    "Nur Video-Plattformen verlieren Besucher"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Similarweb: Suchverkehr −15 %, Gesundheitsseiten −31 %. Antworten ersetzen den Seitenbesuch (Substitut).",
+   "quelle": "SYMG LB2 - Fallartikel Ersatzprodukte (Sonova, KI-Suche)",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W3-12",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "frage": "Was bedeutet „wooing and suing“ (News Corp)?",
+   "optionen": [
+    "Lizenzdeals mit KI-Firmen abschliessen und gleichzeitig andere verklagen",
+    "KI-Firmen kaufen",
+    "Inhalte hinter Paywalls stellen",
+    "KI-Crawler blockieren"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Kleine Sites können das nicht; Lösungen wie Cloudflares pay-as-you-crawl oder Tollbit sollen ihre Verhandlungsmacht bündeln.",
+   "quelle": "SYMG LB2 - Fallartikel Ersatzprodukte (Sonova, KI-Suche)",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W3-13",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "frage": "Welche Eintrittsbarrieren schützen die grossen Aroma- und Riechstoffhersteller (Givaudan & Co.)? (mehrere richtig)",
+   "optionen": [
+    "Komplexe Beschaffung von über 10'000 Rohstoffen",
+    "Aufwendige Ausbildung von Aromatikern und Parfümeuren",
+    "Bis zu 10 % des Umsatzes in Forschung und Entwicklung",
+    "Staatliche Preisregulierung"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Dazu kommt Grösse, die Forschungsinvestitionen erleichtert. Die Top 4 steigerten ihren Marktanteil von 52 auf 57 %.",
+   "quelle": "SYMG LB2 - Fallartikel Eintrittsbarrieren (Givaudan, Elektroautos)",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W3-14",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "frage": "Warum haben selbst Nestlé oder Unilever wenig Verhandlungsmacht gegenüber Givaudan?",
+   "optionen": [
+    "Das Aroma kostet nur 1 bis 5 % eines Getränks, ist aber zentral für den Kauf",
+    "Weil Givaudan ein Monopol hat",
+    "Weil Verträge staatlich festgelegt sind",
+    "Weil sie keine anderen Lieferanten kennen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Porter: Ein kleiner Kostenanteil und ein klarer Produktvorteil senken die Preissensibilität der Käufer. Der Wettbewerb läuft über Kreativität, nicht den Preis.",
+   "quelle": "SYMG LB2 - Fallartikel Eintrittsbarrieren (Givaudan, Elektroautos)",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W3-15",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "frage": "Was ist die These des Economist-Artikels „New kings of the road“?",
+   "optionen": [
+    "Die Elektrifizierung senkt die hohen Eintrittsbarrieren der Autoindustrie",
+    "Etablierte Autohersteller sind durch Grösse unangreifbar",
+    "Batterien sind ein Nischenthema",
+    "Tesla hat die Autoindustrie verlassen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Tesla setzt auf vertikale Integration (full stack). Für Neue sind Grösse, Erfahrung, Marke und Kapitalzugang keine so grossen Barrieren mehr.",
+   "quelle": "SYMG LB2 - Fallartikel Eintrittsbarrieren (Givaudan, Elektroautos)",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W3-16",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "match",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "frage": "Ordne die drei Lehren aus dem Hermès-Artikel zu.",
+   "paare": [
+    [
+     "Lieferkette kontrollieren",
+     "55 % eigene oder exklusive Produktion"
+    ],
+    [
+     "Disziplinierte Preiserhöhungen",
+     "rund 6 bis 7 % pro Jahr, im Rahmen der Kosten"
+    ],
+    [
+     "Günstige Linien für aspirational customers",
+     "Lippenstift heute, Birkin in zehn Jahren"
+    ]
+   ],
+   "erklaerung": "Hermès bleibt klein (unter 300 Läden) und verknappt bewusst; Gucci verwässerte die Exklusivität mit billigen Artikeln.",
+   "quelle": "SYMG LB2 - Fallartikel Luxus (Hermès, Luxushotels)",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W3-17",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "frage": "Welcher generischen Wettbewerbsstrategie nach Porter entspricht Hermès am ehesten?",
+   "optionen": [
+    "Differenzierungsfokus",
+    "Kostenführerschaft",
+    "Kostenfokus",
+    "Stuck in the middle"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Kleines, zahlungskräftiges Segment, Handwerk, Verknappung, Wartelisten: Preisprämie über den Mehrkosten, Mehrwert schwer kopierbar.",
+   "quelle": "SYMG LB2 - Fallartikel Luxus (Hermès, Luxushotels)",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W3-18",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "frage": "Warum können Luxushotels Preise deutlich über der Teuerung verlangen?",
+   "optionen": [
+    "Wachsende Nachfrage trifft auf knappes Angebot (Bewilligungen 5 bis 7 Jahre, begrenzte Lagen)",
+    "Weil die Baukosten gesunken sind",
+    "Weil Mittelklassehotels verboten wurden",
+    "Weil Online-Buchungen teurer sind"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Hohe Eintrittsbarrieren plus wenig preissensible Käufer. Manche Marken verknappen bewusst (Bulgari Hotels maximal 15 Standorte).",
+   "quelle": "SYMG LB2 - Fallartikel Luxus (Hermès, Luxushotels)",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W3-19",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "frage": "IKEA expandiert nach Indien, Serbien und Estland. Welches Feld der Ansoff-Matrix ist das?",
+   "optionen": [
+    "Marktentwicklung",
+    "Marktdurchdringung",
+    "Produktentwicklung",
+    "Diversifikation"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Bestehende Produkte in neuen Märkten. Hotels (Moxy) und Stadtteilentwicklung wären Diversifikation.",
+   "quelle": "SYMG LB2 - Fallartikel IKEA",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W3-20",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
+   "frage": "Warum stellte sich Ingvar Kamprad lange gegen den Onlinehandel?",
+   "optionen": [
+    "Ohne Gang durchs Warenhaus fallen Spontankäufe weg (laut Manager Magazin rund 40 % des Umsatzes)",
+    "Weil Online-Shops in Schweden verboten waren",
+    "Weil die Logistik zu teuer war",
+    "Weil die Kunden es ablehnten"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Seit 2011 übernahmen seine Söhne die Schaltstellen; IKEA wandelt sich zum Mehrkanal-Detailhändler mit Abholstationen und Click and Collect.",
+   "quelle": "SYMG LB2 - Fallartikel IKEA",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W3-21",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "flash",
+   "lernziel": "Wertorientiertes Management einordnen",
+   "frage": "Was schlägt Roger Martin statt reiner Shareholder-Value-Maximierung vor?",
+   "antwort": "Ein Hauptziel verfolgen (er selbst würde Kundenzufriedenheit wählen) und für alle anderen Belange Mindest- oder Maximalanforderungen festlegen, z. B. Mitarbeitende gut behandeln, nachhaltig arbeiten, Gesetze einhalten, Rendite über den Kapitalkosten.",
+   "erklaerung": "Shareholder Value ist für ihn kein Ziel, sondern ein Nebenprodukt; wie das Glück bei Aristoteles.",
+   "quelle": "SYMG LB2 - Martin Vorsicht vor Vereinfachern (Stakeholder View)",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W3-22",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Wertorientiertes Management einordnen",
+   "frage": "Welche These vertrat Michael Jensen, gegen die Martin argumentiert?",
+   "optionen": [
+    "Unternehmen handeln nur klug, wenn sie ein einziges übergeordnetes Ziel verfolgen, und das ist der Aktienkurs",
+    "Unternehmen sollen alle Stakeholder gleich gewichten",
+    "Gewinn ist unwichtig",
+    "Kundenzufriedenheit ist das oberste Ziel"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Martin hält dagegen: Auch ein Einzelziel verlangt laufend Abwägungen (Ölraffinerie), und es gibt keinen rationalen Grund, warum es der Aktienkurs sein muss.",
+   "quelle": "SYMG LB2 - Martin Vorsicht vor Vereinfachern (Stakeholder View)",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W3-23",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Wertorientiertes Management einordnen",
+   "frage": "Warum schadet laut Martin die Ausrichtung allein am Aktienkurs ausgerechnet dem Shareholder Value?",
+   "optionen": [
+    "Aktionäre profitieren nur, wenn das Unternehmen vorher Kunden, Mitarbeitende und Gesellschaft gut bedient hat",
+    "Weil Aktienkurse zufällig schwanken",
+    "Weil Steuern steigen",
+    "Weil Analysten es kritisieren"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beispiele für Firmen mit anderen Prämissen: Johnson & Johnson, Lego, Unilever.",
+   "quelle": "SYMG LB2 - Martin Vorsicht vor Vereinfachern (Stakeholder View)",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W2-09",
+   "modul": "WSA1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Quellen nach APA7 zitieren",
+   "frage": "Wo stehen bei einer Abbildung Nummer, Titel und Quellenangabe?",
+   "optionen": [
+    "Nummer und Titel darüber, Quellenangabe darunter",
+    "Alles darunter",
+    "Nummer darunter, Titel und Quelle darüber",
+    "Quelle nur im Literaturverzeichnis"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "APA 7: Nummer fett, Titel kursiv, darüber; darunter „Anmerkung. Übernommen aus …“. Die Quelle steht zusätzlich im Literaturverzeichnis.",
+   "quelle": "WSA1 LB2 - Abbildungen und Tabellen einbinden",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W2-10",
+   "modul": "WSA1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Quellen nach APA7 zitieren",
+   "frage": "Was drücken „Übernommen aus …“ und „In Anlehnung an …“ aus?",
+   "optionen": [
+    "Die Übernahmegenauigkeit: unverändert bzw. verändert übernommen",
+    "Den Quellentyp",
+    "Ob die Quelle wissenschaftlich ist",
+    "Ob die Abbildung farbig ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Das Zitationsschema unter der Abbildung hängt zusätzlich vom Quellentyp ab (Bachmann & Theel, 2021, S. 83).",
+   "quelle": "WSA1 LB2 - Abbildungen und Tabellen einbinden",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W2-11",
+   "modul": "WSA1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Quellen nach APA7 zitieren",
+   "frage": "Was gehört in einen guten Kommentar zu einer Abbildung im Text? (mehrere richtig)",
+   "optionen": [
+    "Ein direkter Verweis wie „Abbildung 2 zeigt …“",
+    "Wichtiges hervorheben und Zusammenhänge aufzeigen",
+    "Schlussfolgerungen ziehen und interpretieren",
+    "Alle Werte der Abbildung exakt wiederholen"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Die Daten exakt zu wiederholen ist kein Kommentar, sondern Redundanz.",
+   "quelle": "WSA1 LB2 - Abbildungen und Tabellen einbinden",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W2-12",
+   "modul": "WSA1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Quellen nach APA7 zitieren",
+   "frage": "Ab wann braucht eine Arbeit ein Abbildungs- bzw. Tabellenverzeichnis?",
+   "optionen": [
+    "Ab mehr als einer Abbildung bzw. Tabelle",
+    "Ab fünf Abbildungen",
+    "Nur bei Bachelorarbeiten",
+    "Nie, die Quellen genügen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Abbildungen und Tabellen werden getrennt durchnummeriert (Abb. 1, Tab. 1).",
+   "quelle": "WSA1 LB2 - Abbildungen und Tabellen einbinden",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W2-13",
+   "modul": "WSA1",
+   "woche": 2,
+   "kategorie": "uebung",
+   "typ": "match",
+   "lernziel": "Quellen nach APA7 zitieren",
+   "frage": "Ordne die Quellen aus der Übung Literaturverzeichnis ihrem Quellentyp zu.",
+   "paare": [
+    [
+     "Busch (2021), Optimierung in der Adoleszenz, Springer VS",
+     "Monografie"
+    ],
+    [
+     "Dillinger (2025), Ökosysteme, in Hutter (Hrsg.)",
+     "Beitrag im Sammelband"
+    ],
+    [
+     "Threadgold et al. (2025), Journal of Cultural Economy, 18(1)",
+     "Zeitschriftenaufsatz"
+    ],
+    [
+     "Spescha et al. (2025), KOF Studien Nr. 182",
+     "Forschungsbericht"
+    ],
+    [
+     "SECO (2026, 25. Juni)",
+     "Medienmitteilung"
+    ]
+   ],
+   "erklaerung": "Der sechste Eintrag ist eine Grafik der World Bank auf Statista, mit Formangabe [Graph].",
+   "quelle": "WSA1 LB2 - Übungen Literaturverzeichnis und Abbildungskommentar",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W2-14",
+   "modul": "WSA1",
+   "woche": 2,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Quellen nach APA7 zitieren",
+   "frage": "Wie viele Autor:innen werden nach APA 7 im Literaturverzeichnis ausgeschrieben?",
+   "optionen": [
+    "Bis zu 20",
+    "Bis zu 3, danach et al.",
+    "Bis zu 6",
+    "Immer nur die erste Person"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Threadgold et al. hat zehn Autor:innen: alle werden ausgeschrieben. Im Fliesstext genügt „Threadgold et al.“.",
+   "quelle": "WSA1 LB2 - Übungen Literaturverzeichnis und Abbildungskommentar",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W2-15",
+   "modul": "WSA1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Merkmale wissenschaftlicher Texte und Quellentypen kennen",
+   "frage": "Welche Kriterien sprechen für eine wissenschaftliche Quelle? (mehrere richtig)",
+   "optionen": [
+    "Forschungsfrage oder These",
+    "Transparentes, methodisches Vorgehen",
+    "Auseinandersetzung mit der Forschung mit Belegen",
+    "Publikation auf einer Unternehmenswebsite"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Dazu: Publikationskontext (Verlag, Datenbank), Autor:in mit Fachbezug, klare Struktur, wissenschaftlicher Stil.",
+   "quelle": "WSA1 LB2 - Qualität von Quellen beurteilen",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W2-16",
+   "modul": "WSA1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Merkmale wissenschaftlicher Texte und Quellentypen kennen",
+   "frage": "Wie geht man mit diesen nicht wissenschaftlichen Quellen um?",
+   "paare": [
+    [
+     "Zahlen des Bundesamts für Statistik",
+     "interpretationsfrei übernehmen"
+    ],
+    [
+     "Stellungnahme eines Verbands",
+     "Art der Quelle nennen und kritisch einordnen"
+    ],
+    [
+     "Zeitungsartikel ohne Belege",
+     "nur im Notfall, eher über die Quelle sprechen"
+    ]
+   ],
+   "erklaerung": "Gesetze, BFS-Zahlen und Informationen der öffentlichen Hand gelten als neutral und sachlich.",
+   "quelle": "WSA1 LB2 - Qualität von Quellen beurteilen",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W2-17",
+   "modul": "WSA1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Merkmale wissenschaftlicher Texte und Quellentypen kennen",
+   "frage": "Gruppenpuzzle Nutri-Score: Welcher der vier Texte ist die wissenschaftliche Quelle?",
+   "optionen": [
+    "Der Aufsatz im Journal of Future Foods (mit DOI)",
+    "Die Seite des BLV",
+    "Der Nestlé-Text",
+    "Die Stellungnahme des Bauernverbands"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Das BLV ist öffentliche Hand und sachlich verwendbar; Nestlé und der Bauernverband sind interessengeleitet.",
+   "quelle": "WSA1 LB2 - Qualität von Quellen beurteilen",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W2-18",
+   "modul": "WSA1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Merkmale wissenschaftlicher Texte und Quellentypen kennen",
+   "frage": "Wie viele wissenschaftliche Zeitschriftenaufsätze verlangt WSA1 in Grobkonzept und Seminararbeit?",
+   "optionen": [
+    "Drei",
+    "Einen",
+    "Fünf",
+    "Keine Vorgabe"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Über swisscovery oder Datenbanken mit Filter „Peer-Reviewed“ finden. Über Google stösst man oft nur auf Fachzeitschriften.",
+   "quelle": "WSA1 LB2 - Suche nach Zeitschriftenaufsätzen",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W2-19",
+   "modul": "WSA1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Merkmale wissenschaftlicher Texte und Quellentypen kennen",
+   "frage": "Bei welcher Datenbank muss man die Wissenschaftlichkeit der Treffer selbst prüfen?",
+   "optionen": [
+    "WISO",
+    "Web of Science (Document Type Article)",
+    "swisscovery mit Filter Peer-Reviewed",
+    "Business Source Premier mit Filter Peer Reviewed"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "WISO bietet direkten Volltext, aber eine grosse Bandbreite an Quellentypen. Ausserhalb des Campus braucht es VPN.",
+   "quelle": "WSA1 LB2 - Suche nach Zeitschriftenaufsätzen",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W3-01",
+   "modul": "WSA1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Texte systematisch lesen und auswerten",
+   "frage": "Bringe die Schritte der SQ3R-Lesestrategie in die richtige Reihenfolge.",
+   "items": [
+    "Survey: Text überfliegen",
+    "Question: Fragen an den Text stellen",
+    "Read: abschnittsweise lesen und Antworten suchen",
+    "Recite: Wichtiges zusammenfassen",
+    "Review: Notizen mit bisherigem Wissen verknüpfen"
+   ],
+   "erklaerung": "Auf der Übersichtsfolie heisst der letzte Schritt Recall, auf der Detailfolie Review.",
+   "quelle": "WSA1 LB3 - SQ3R, Literaturauswertung und Abstract",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W3-02",
+   "modul": "WSA1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Texte systematisch lesen und auswerten",
+   "frage": "Welche drei Arbeitsschritte machen aus einer Quelle einen Textbaustein für die eigene Arbeit?",
+   "antwort": "Exzerpieren (indirektes, selten direktes Zitat notieren) · Ideen notieren (eigene Gedanken ergänzen) · Beschlagworten (damit er sich in die Arbeit integrieren lässt).",
+   "erklaerung": "In der Übung entsteht ein Zwischentext mit Exzerpt, Idee und Schlagwort; danach Vergleich mit einer KI-Zusammenfassung.",
+   "quelle": "WSA1 LB3 - SQ3R, Literaturauswertung und Abstract",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W3-03",
+   "modul": "WSA1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Ein Abstract verfassen",
+   "frage": "Bringe die Strukturteile eines Abstracts in die richtige Reihenfolge.",
+   "items": [
+    "Thema / Ausgangslage",
+    "Fragestellung / Ziel",
+    "Methode",
+    "Ergebnisse",
+    "Fazit / Schlussfolgerung"
+   ],
+   "erklaerung": "Diese fünf Teile verlangt auch die testatpflichtige Aufgabe in Woche 4.",
+   "quelle": "WSA1 LB3 - SQ3R, Literaturauswertung und Abstract",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W3-04",
+   "modul": "WSA1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ein Abstract verfassen",
+   "frage": "Was gilt für ein Abstract? (mehrere richtig)",
+   "optionen": [
+    "In der Regel 80 bis 150 Wörter",
+    "Wird nach Abschluss der Arbeit geschrieben",
+    "Enthält keine Argumentation",
+    "Erzählt den Text Abschnitt für Abschnitt nach"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Es muss aus sich heraus verständlich sein, aber keine Nacherzählung. Details weglassen, Prioritäten setzen.",
+   "quelle": "WSA1 LB3 - SQ3R, Literaturauswertung und Abstract",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W3-05",
+   "modul": "WSA1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ein Abstract verfassen",
+   "frage": "An wen richtet sich ein Abstract?",
+   "optionen": [
+    "An Sachverständige des Gebiets, die entscheiden, ob sie den Text lesen",
+    "An Laien ohne Vorwissen",
+    "Nur an die Betreuungsperson",
+    "An die Bibliothek für die Katalogisierung"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Extended Abstracts haben 300, 500 oder 1'000 Wörter; oft sind Abstracts zweisprachig.",
+   "quelle": "WSA1 LB3 - SQ3R, Literaturauswertung und Abstract",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W3-06",
+   "modul": "WSA1",
+   "woche": 3,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Ein Abstract verfassen",
+   "frage": "Übung Abstract Digitalisierung: Was macht der Lösungsvorschlag anders als eine zahlenreiche Version?",
+   "optionen": [
+    "Er verzichtet auf Einzelzahlen und Autorennamen und bleibt bei der Quintessenz",
+    "Er nennt alle Prozentwerte",
+    "Er argumentiert für mehr Weiterbildung",
+    "Er zitiert Frey und Osborne wörtlich"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ergebnis kurz: Der ländliche Raum könnte stärker betroffen sein, ein Grund ist das Bildungsniveau. 121 Wörter.",
+   "quelle": "WSA1 LB3 - Übung Abstract Digitalisierung",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W3-07",
+   "modul": "WSA1",
+   "woche": 3,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Ein Abstract verfassen",
+   "frage": "Welche Methode beschreibt der Text von Willimann und Käppeli?",
+   "optionen": [
+    "Verknüpfung der Arbeitskräfteerhebung 2015 des BFS mit den Wahrscheinlichkeiten von Frey und Osborne",
+    "Eine Umfrage unter 700 Unternehmen",
+    "Interviews mit Gemeindepräsidenten",
+    "Ein Experiment mit Robotern"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Über 40'000 Befragte. Ergebnis: dünn besiedelt rund 57 % gefährdet, städtisch 46 %.",
+   "quelle": "WSA1 LB3 - Übung Abstract Digitalisierung",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W3-08",
+   "modul": "WSA1",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Merkmale wissenschaftlicher Texte und Quellentypen kennen",
+   "frage": "Welche Methode verwenden Klostermeier, Haag und Benlian (2018)?",
+   "optionen": [
+    "Explorative Fallstudie mit Experteninterviews in vier Unternehmen, entlang des Business Model Canvas",
+    "Quantitative Umfrage unter 500 Firmen",
+    "Literaturreview ohne Empirie",
+    "Laborexperiment"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Qualitativ, weil das Feld neu ist. Die Autoren empfehlen quantitative Folgestudien.",
+   "quelle": "WSA1 - Klostermeier et al. Digitale Zwillinge",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W3-09",
+   "modul": "WSA1",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Merkmale wissenschaftlicher Texte und Quellentypen kennen",
+   "frage": "Was sind laut Studie die grössten Hürden für digitale Zwillinge?",
+   "optionen": [
+    "Fehlende monetäre Argumente und Schnittstellenprobleme",
+    "Fehlende Rechenleistung",
+    "Gesetzliche Verbote",
+    "Mangelndes Interesse der NASA"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Potenzial sehen die Firmen heute im B2B, mittelfristig im B2C. Der Abstract dieser Studie ist das Musterabstract in Woche 3.",
+   "quelle": "WSA1 - Klostermeier et al. Digitale Zwillinge",
+   "kern": false
   }
  ]
 }

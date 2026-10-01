@@ -7,14 +7,14 @@
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#EFF2F1" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0F1514" media="(prefers-color-scheme: dark)">
-<title>Merkfaden</title>
+<title>Study Lane</title>
 <!-- Als App auf dem Startbildschirm: kein Browserbalken, eigenes Symbol. -->
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="symbole/apple-touch-icon.png">
 <link rel="icon" href="symbole/symbol-192.png" type="image/png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="Merkfaden">
+<meta name="apple-mobile-web-app-title" content="Study Lane">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
@@ -26,7 +26,7 @@
   --ok:#236B43; --ok-soft:#DCEEE3; --ok-line:#8CC3A5;
   --bad:#A23117; --bad-soft:#F7E2DB; --bad-line:#DFA48F;
   --warn:#8A6012; --warn-soft:#F6EAD2;
-  --m-OGPM:#13564E; --m-GENE:#855611; --m-SYMG:#553A89; --m-VHRE:#96303E; --m-WSA1:#1C4B82;
+  --m-OGPM:#13564E; --m-GENE:#855611; --m-SYMG:#553A89; --m-VHRE:#96303E; --m-WSA1:#1C4B82; --m-EPC1:#4F6A1A;
   --shadow:0 1px 2px rgba(20,32,30,.06), 0 6px 20px -12px rgba(20,32,30,.28);
   --r:10px;
   --f-display:"Familjen Grotesk","Segoe UI",system-ui,sans-serif;
@@ -42,7 +42,7 @@
     --ok:#5BC286; --ok-soft:#142E1E; --ok-line:#2E5D3F;
     --bad:#F08A6E; --bad-soft:#331B14; --bad-line:#6A3626;
     --warn:#DCA94E; --warn-soft:#2E2413;
-    --m-OGPM:#57C8B5; --m-GENE:#D8A64C; --m-SYMG:#A992E2; --m-VHRE:#E98292; --m-WSA1:#76B0E9;
+    --m-OGPM:#57C8B5; --m-GENE:#D8A64C; --m-SYMG:#A992E2; --m-VHRE:#E98292; --m-WSA1:#76B0E9; --m-EPC1:#A9C76A;
     --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -14px rgba(0,0,0,.8);
   }
 }
@@ -54,7 +54,7 @@
   --ok:#5BC286; --ok-soft:#142E1E; --ok-line:#2E5D3F;
   --bad:#F08A6E; --bad-soft:#331B14; --bad-line:#6A3626;
   --warn:#DCA94E; --warn-soft:#2E2413;
-  --m-OGPM:#57C8B5; --m-GENE:#D8A64C; --m-SYMG:#A992E2; --m-VHRE:#E98292; --m-WSA1:#76B0E9;
+  --m-OGPM:#57C8B5; --m-GENE:#D8A64C; --m-SYMG:#A992E2; --m-VHRE:#E98292; --m-WSA1:#76B0E9; --m-EPC1:#A9C76A;
   --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -14px rgba(0,0,0,.8);
 }
 
@@ -473,7 +473,10 @@ button, .chip, .sel, label, summary{ -webkit-tap-highlight-color:transparent; to
 
 <header class="top">
   <div class="top-in">
-    <button class="brand" id="heim" title="Zur Übersicht">Merk<span>faden</span></button>
+    <!-- Das Leerzeichen gehört in den span: .brand ist auf dem Handy ein
+         Flex-Container, und reiner Zwischenraum wird dort kein Flex-Element —
+         aussen stehend verschwände er und es stünde „StudyLane“. -->
+    <button class="brand" id="heim" title="Zur Übersicht">Study<span>&nbsp;Lane</span></button>
     <button class="kontoknopf" id="kontoAuf" title="Konto und Sicherung">
       <span class="dot" id="dot"></span><span id="syncTxt">lokal</span>
     </button>
@@ -484,7 +487,7 @@ button, .chip, .sel, label, summary{ -webkit-tap-highlight-color:transparent; to
 
 <script>
 /* ------------------------------------------------------------------ *
- *  Merkfaden — Prüfungstrainer über den Obsidian-Fragenpool
+ *  Study Lane — Prüfungstrainer über den Obsidian-Fragenpool
  * ------------------------------------------------------------------ */
 
 const MODULE = {
@@ -492,9 +495,10 @@ const MODULE = {
   GENE: "Gesellschaft, Politik, Wirtschaftsgeografie",
   SYMG: "Systemisches Management",
   VHRE: "Vertrags- und Haftpflichtrecht",
-  WSA1: "Wissenschaftliches Arbeiten"
+  WSA1: "Wissenschaftliches Arbeiten",
+  EPC1: "English for Professional Communication"
 };
-const MOD_ORDER = ["OGPM","GENE","SYMG","VHRE","WSA1"];
+const MOD_ORDER = ["OGPM","GENE","SYMG","VHRE","WSA1","EPC1"];
 const KAT = {
   vorlesung:"Vorlesung", literatur:"Literatur", uebung:"Übung",
   organisation:"Organisation", richtlinie:"Richtlinie", vorlage:"Vorlage"

@@ -1,6 +1,6 @@
-# Merkfaden
+# Study Lane
 
-Prüfungstrainer über den Semesterstoff Betriebsökonomie (OST, HS2026) — 278 Fragen aus eigenen Zusammenfassungen, nach Lernzielen ausgewertet.
+Prüfungstrainer über den Semesterstoff Betriebsökonomie (OST, HS2026) — 390 Fragen aus eigenen Zusammenfassungen, nach Lernzielen ausgewertet.
 
 Der Ordner heisst weiter `lernstand/`, weil die veröffentlichte Adresse daran
 hängt und gespeicherte Lesezeichen sonst ins Leere liefen.
@@ -64,6 +64,8 @@ Erst wenn echte Synchronisierung ohne manuellen Schritt nötig wird, lohnt eine 
 
 ## Fragen ergänzen oder korrigieren
 
+**Neues Modul:** Die Modulliste ist in `index.html` fest verdrahtet. Ein neues Kürzel braucht einen Eintrag in `MODULE`, in `MOD_ORDER` und eine Farbe `--m-<KÜRZEL>` (einmal hell, zweimal dunkel), sonst erscheinen seine Fragen nicht auf der Übersicht.
+
 `daten/fragen.json` ist eine Datei mit einem Objekt pro Frage:
 
 ```json
@@ -92,7 +94,7 @@ Je nach `typ` kommen andere Felder dazu:
 | `order` | `items` — bereits **in der richtigen Reihenfolge**, die App mischt selbst |
 | `match` | `paare` — Array von Zweier-Arrays `[links, rechts]` |
 
-`kategorie` ist eines von `vorlesung`, `literatur`, `uebung`, `richtlinie`, `organisation`, `vorlage`. `teilgebiet` ist optional und wird nur bei GENE genutzt. `kern` ist `true` bei den 149 Fragen, die der Filter **Nur Kernstoff** durchlässt.
+`kategorie` ist eines von `vorlesung`, `literatur`, `uebung`, `richtlinie`, `organisation`, `vorlage`. `teilgebiet` ist optional und wird nur bei GENE genutzt. `kern` ist `true` bei den 208 Fragen, die der Filter **Nur Kernstoff** durchlässt.
 
 > **Bestehende `id` niemals ändern.** Der gespeicherte Fortschritt hängt daran — eine neue ID bedeutet, dass die Frage als nie geübt gilt.
 
@@ -100,18 +102,19 @@ Beim Ergänzen ausserdem die vorhandenen `lernziel`-Texte **wörtlich** wiederve
 
 ### Was `kern` bedeutet
 
-Der Filter **Nur Kernstoff** lässt die 149 Fragen durch, ohne die eine Standardfrage zum jeweiligen Lernziel nicht zu beantworten wäre: Definitionen, Prüfschemata, Abgrenzungen. Draussen bleiben Jahreszahlen, Namens- und Anbieterlisten, Biografien, illustrierende Einzelzahlen und alles Organisatorische.
+Der Filter **Nur Kernstoff** lässt die 208 Fragen durch, ohne die eine Standardfrage zum jeweiligen Lernziel nicht zu beantworten wäre: Definitionen, Prüfschemata, Abgrenzungen. Draussen bleiben Jahreszahlen, Namens- und Anbieterlisten, Biografien, illustrierende Einzelzahlen und alles Organisatorische.
 
 | Modul | Kern | Gesamt |
 |---|---:|---:|
-| OGPM | 25 | 52 |
+| OGPM | 40 | 79 |
 | GENE | 39 | 85 |
-| SYMG | 51 | 84 |
+| SYMG | 61 | 107 |
 | VHRE | 20 | 30 |
-| WSA1 | 14 | 27 |
-| **Total** | **149** | **278** |
+| WSA1 | 25 | 47 |
+| EPC1 | 23 | 42 |
+| **Total** | **208** | **390** |
 
-VHRE liegt am höchsten, weil dort fast alles Prüfschema ist. Jedes der 44 Lernziele behält mindestens eine Kernfrage — nachzurechnen mit:
+VHRE liegt am höchsten, weil dort fast alles Prüfschema ist. Jedes der 55 Lernziele behält mindestens eine Kernfrage — nachzurechnen mit:
 
 ```bash
 node -e '
@@ -286,13 +289,22 @@ Bei einer neuen Fassung `VERSION` in `sw.js` hochzählen.
 
 ## Zum Namen
 
-Kurzzeitig hiess die App „Easy Learn“. Dagegen sprach ein konkreter Fund:
-**easylearn schweiz ag** (Hünenberg ZG, seit 1994, rund 50 Mitarbeitende,
-eigene Lern-App, rund 500 Kundenorganisationen, seit 2021 mit deutscher
-Tochter) — gleiches Land, gleiche Branche, nahezu gleicher Name.
+Zwei Anläufe scheiterten an bestehenden Produkten, beide in derselben
+Kategorie:
 
-Für eine kostenlose Anwendung zum Eigengebrauch wäre das markenrechtlich
-folgenlos: Markenrechte greifen nur im geschäftlichen Verkehr. Trotzdem ist
-„Merkfaden“ die bessere Wahl — ein unbesetztes deutsches Kompositum ohne
-Treffer in irgendeiner Produktkategorie. Kein Konflikt möglich, auch dann
-nicht, wenn die App später doch einmal weitergegeben wird.
+| Verworfen | Grund |
+|---|---|
+| Easy Learn | **easylearn schweiz ag** — Hünenberg ZG, seit 1994, eigene Lern-App, rund 500 Kundenorganisationen, seit 2021 mit deutscher Tochter |
+| Easy Study | **Easy Study – Planer, Timer** — iOS, Kategorie Bildung, seit 2015, rund 720 Bewertungen |
+
+Das Muster „Easy + Allerweltswort“ ist in der Bildungskategorie durchgehend
+belegt. Markenrechtlich wäre beides für eine kostenlose Anwendung zum
+Eigengebrauch folgenlos — Markenrechte greifen nur im geschäftlichen
+Verkehr —, ein unbesetzter Name ist trotzdem die bessere Wahl.
+
+„Study Lane“ brachte in der Suche keinen Treffer. Ebenfalls frei waren
+Quizkern, Lernpuls, Lernfix und Merkbox; ausgeschieden sind Lernly (zu nah an
+*Learnly*) und Repetio (existiert, dazu *Repetico*).
+
+Eine Websuche ersetzt keine Markenregisterrecherche. Für den privaten Gebrauch
+genügt sie; wer die App verkaufen wollte, müsste ins Register schauen.

@@ -1,6 +1,9 @@
-# Lernstand HS2026
+# Merkfaden
 
 Prüfungstrainer über den Semesterstoff Betriebsökonomie (OST, HS2026) — 278 Fragen aus eigenen Zusammenfassungen, nach Lernzielen ausgewertet.
+
+Der Ordner heisst weiter `lernstand/`, weil die veröffentlichte Adresse daran
+hängt und gespeicherte Lesezeichen sonst ins Leere liefen.
 
 ## Struktur
 
@@ -280,3 +283,16 @@ Der Service Worker hält sich an zwei Regeln:
    springt die Ablage ein, online nie.
 
 Bei einer neuen Fassung `VERSION` in `sw.js` hochzählen.
+
+## Zum Namen
+
+Kurzzeitig hiess die App „Easy Learn“. Dagegen sprach ein konkreter Fund:
+**easylearn schweiz ag** (Hünenberg ZG, seit 1994, rund 50 Mitarbeitende,
+eigene Lern-App, rund 500 Kundenorganisationen, seit 2021 mit deutscher
+Tochter) — gleiches Land, gleiche Branche, nahezu gleicher Name.
+
+Für eine kostenlose Anwendung zum Eigengebrauch wäre das markenrechtlich
+folgenlos: Markenrechte greifen nur im geschäftlichen Verkehr. Trotzdem ist
+„Merkfaden“ die bessere Wahl — ein unbesetztes deutsches Kompositum ohne
+Treffer in irgendeiner Produktkategorie. Kein Konflikt möglich, auch dann
+nicht, wenn die App später doch einmal weitergegeben wird.

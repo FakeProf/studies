@@ -13,7 +13,7 @@
  *
  * Beim Veroeffentlichen einer neuen Fassung VERSION hochzaehlen.
  */
-const VERSION = "easylearn-v1";
+const VERSION = "merkfaden-v1";
 const SCHALE = [
   "./",
   "./index.html",

@@ -242,3 +242,41 @@ Passworts**, und Namen sind leicht zu erraten, das Passwort trägt die ganze
 Last. Entschärft wird das dadurch, dass der Fortschritt zusätzlich im Browser
 liegt und sich exportieren lässt — verloren wäre das Konto, nicht der
 Lernstand.
+
+## Aufbau der Oberfläche
+
+Früher stand die vollständige Filterwand auf der Startseite; bis zur ersten
+Frage waren es fünf Klicks. Jetzt gibt es vier Seiten:
+
+| Seite | Inhalt |
+|---|---|
+| Übersicht | fast nur die Module, dazu eigene Vorlagen und der Verlauf |
+| Modulseite | fertige Runden (Gemischt, Nur Kernstoff, Wo es klemmt, Noch nie geübt), nach Woche, alle Lernziele |
+| Konto | Anmeldung, Sync-Zustand, Sicherung |
+| Filterblatt | die vollständige Zusammenstellung, hinter dem Knopf **Filter** |
+
+Von der Übersicht bis in eine Runde sind es zwei Tipps: Modul, dann die
+gewünschte Runde. Jeder dieser Knöpfe zeigt, wie viele Fragen er bringt, und
+bleibt aus, wenn es keine gibt.
+
+Der Titel oben links führt immer zurück zur Übersicht — auch mitten in einer
+Runde. Die Runde geht dabei nicht verloren: die Übersicht bietet sie als
+**Runde fortsetzen** wieder an. Rechts oben führt ein Knopf zum Konto; er
+zeigt zugleich den Sync-Zustand.
+
+## Als App auf dem Startbildschirm
+
+`manifest.webmanifest` und `sw.js` machen die Seite installierbar — auf dem
+Handy läuft sie dann ohne Browserleiste. Die Symbole entstehen aus
+`db/symbole-bauen.mjs`, das PNGs ohne Bildbibliothek direkt zeichnet.
+
+Der Service Worker hält sich an zwei Regeln:
+
+1. **Nur eigene Dateien.** Alles Fremde — Schriften, das Neon-SDK, vor allem
+   die Datenbank — geht unberührt ins Netz. Eine zwischengespeicherte Antwort
+   der Data API wäre ein falscher Lernstand, den niemand mehr loswird.
+2. **Erst Netz, dann Ablage.** Die App ist eine einzige HTML-Datei; gewänne
+   der Cache, liefe nach einem Push noch tagelang die alte Fassung. Offline
+   springt die Ablage ein, online nie.
+
+Bei einer neuen Fassung `VERSION` in `sw.js` hochzählen.

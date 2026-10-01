@@ -7,7 +7,14 @@
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#EFF2F1" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0F1514" media="(prefers-color-scheme: dark)">
-<title>Lernstand HS2026</title>
+<title>Easy Learn</title>
+<!-- Als App auf dem Startbildschirm: kein Browserbalken, eigenes Symbol. -->
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="symbole/apple-touch-icon.png">
+<link rel="icon" href="symbole/symbol-192.png" type="image/png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Easy Learn">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
@@ -331,6 +338,44 @@ section{margin-top:30px}
 .errbox{margin-top:30px; padding:18px; border:1px solid var(--bad-line); background:var(--bad-soft);
   border-radius:var(--r); font-size:14px; line-height:1.5}
 
+/* ---- Kopfzeile: Titel führt heim, Knopf rechts zum Konto ---- */
+.brand{font-family:var(--f-display); font-weight:700; font-size:18px; letter-spacing:-.01em;
+  padding:4px 2px; border-radius:6px}
+.brand:hover{color:var(--accent)}
+.kontoknopf{margin-left:auto; display:inline-flex; align-items:center; gap:7px;
+  padding:7px 12px; border-radius:100px; border:1px solid var(--line-strong);
+  background:var(--surface); font-family:var(--f-mono); font-size:11px;
+  letter-spacing:.06em; text-transform:uppercase; color:var(--muted);
+  transition:border-color .12s, color .12s}
+.kontoknopf:hover{border-color:var(--ink-2); color:var(--ink-2)}
+.kontoknopf.aktiv{border-color:var(--accent); color:var(--accent)}
+
+/* ---- Modulseite ---- */
+.modkopf{padding-block:24px 18px}
+.modkopf h1{font-size:clamp(23px,4.4vw,30px); display:flex; align-items:baseline; gap:10px; flex-wrap:wrap}
+.modkopf h1 .code{font-family:var(--f-mono); font-size:.72em; font-weight:600; color:var(--mc,var(--accent))}
+.modkopf .lede{font-size:14.5px; color:var(--muted); margin-top:7px}
+.zurueck{font-family:var(--f-display); font-size:13px; color:var(--muted);
+  padding:7px 0; margin-bottom:4px}
+.zurueck:hover{color:var(--accent)}
+.filterknopf{margin-left:auto}
+
+/* ---- Filterblatt ---- */
+.blattbg{position:fixed; inset:0; z-index:40; background:rgba(12,20,19,.42); backdrop-filter:blur(2px)}
+.blatt{position:fixed; z-index:41; inset:auto 0 0 0; margin:0 auto; max-width:720px;
+  max-height:88vh; display:flex; flex-direction:column;
+  background:var(--surface); border:1px solid var(--line-strong);
+  border-radius:var(--r) var(--r) 0 0; box-shadow:0 -8px 40px -16px rgba(20,32,30,.5)}
+.blattkopf{display:flex; align-items:center; gap:12px; padding:15px 18px 12px;
+  border-bottom:1px solid var(--line)}
+.blattkopf h2{font-size:15px; flex:1}
+.blattx{width:36px; height:36px; flex:none; border-radius:8px; font-size:20px; line-height:1; color:var(--muted)}
+.blattx:hover{background:var(--surface-2); color:var(--ink)}
+.blattkern{padding:14px 18px; overflow-y:auto; -webkit-overflow-scrolling:touch}
+.blattfuss{display:flex; align-items:center; gap:12px; flex-wrap:wrap;
+  padding:13px 18px calc(13px + env(safe-area-inset-bottom,0px));
+  border-top:1px solid var(--line); background:var(--surface-2)}
+
 /* ---- Vorlagen ---- */
 .vorlagen{display:flex; flex-wrap:wrap; gap:9px}
 .vorlage{display:flex; align-items:stretch; border:1px solid var(--line-strong);
@@ -379,6 +424,20 @@ button, .chip, .sel, label, summary{ -webkit-tap-highlight-color:transparent; to
   .vgo{ flex:1; min-height:52px; justify-content:center }
   .vdel{ width:48px }
   .vorlage.neu{ text-align:center; min-height:48px }
+
+  /* Das Filterblatt bedeckt fast den Schirm, sonst scrollt man darin blind. */
+  .blatt{ max-height:92vh; border-radius:14px 14px 0 0 }
+  .blattx{ width:44px; height:44px }
+  .blattkern{ padding:12px 15px }
+  .blattfuss{ padding-inline:15px }
+  .blattfuss .btn{ flex:1 }
+  .filterknopf{ min-height:40px }
+  /* Überschrift und Filter in eine Zeile, der Hinweis darunter — sonst
+     steht der Knopf allein auf einer eigenen Zeile herum. */
+  .sec-head .hint{ order:3; flex-basis:100%; margin-top:2px }
+  .zurueck{ min-height:44px; display:inline-flex; align-items:center }
+  .brand{ min-height:44px; display:inline-flex; align-items:center }
+  .kontoknopf{ min-height:40px }
   .sel{ min-height:44px; padding-block:9px }
   .konto-form input{ flex-basis:100%; min-height:44px }
 
@@ -414,8 +473,10 @@ button, .chip, .sel, label, summary{ -webkit-tap-highlight-color:transparent; to
 
 <header class="top">
   <div class="top-in">
-    <div class="brand">Lern<span>stand</span></div>
-    <div class="top-meta"><span class="sync"><span class="dot" id="dot"></span><span id="syncTxt">lokal</span></span></div>
+    <button class="brand" id="heim" title="Zur Übersicht">Easy<span>Learn</span></button>
+    <button class="kontoknopf" id="kontoAuf" title="Konto und Sicherung">
+      <span class="dot" id="dot"></span><span id="syncTxt">lokal</span>
+    </button>
   </div>
 </header>
 
@@ -423,7 +484,7 @@ button, .chip, .sel, label, summary{ -webkit-tap-highlight-color:transparent; to
 
 <script>
 /* ------------------------------------------------------------------ *
- *  Lernstand HS2026 — Prüfungstrainer über den Obsidian-Fragenpool
+ *  Easy Learn — Prüfungstrainer über den Obsidian-Fragenpool
  * ------------------------------------------------------------------ */
 
 const MODULE = {
@@ -450,7 +511,9 @@ const LS_KEY = "lernstand.v1";
 let POOL = [], META = {}, db = null, dbReady = false;
 let stats = {};      // { fragenId: {v:versuche, p:punkte, t:ts, ok:letzterScore} }
 let runs = [];       // [{id, ts, scope, total, punkte, dauer}]
-let view = "dash";
+let view = "dash";          // dash | modul | konto | quiz | result
+let aktivesModul = null;    // welches Modul die Modulseite zeigt
+let filterOffen = false;    // liegt das Filterblatt über der Seite?
 let session = null;
 
 const filter = {
@@ -814,12 +877,15 @@ function goalStats(){
   return [...m.values()].map(g=>Object.assign(g,{quote: g.v? g.p/g.v : null}));
 }
 
-/* ================= DASHBOARD ================= */
+/* ================= SEITENWECHSEL ================= */
 function render(){
   filterSichern();   // jede Filteränderung läuft hier durch
   if(view==="quiz")        renderQuiz();
   else if(view==="result") renderResult();
+  else if(view==="konto")  renderKonto();
+  else if(view==="modul" && aktivesModul) renderModul();
   else                     renderDash();
+  kopfzeile();
   qfootFreiraum();
 }
 
@@ -835,31 +901,68 @@ function qfootFreiraum(){
 }
 new ResizeObserver(qfootFreiraum).observe(document.documentElement);
 
+/* ---------- Seiten ----------
+ * Die Übersicht zeigt fast nur die Module. Alles Weitere liegt dahinter: ein
+ * Modul öffnet seine eigene Seite mit fertigen Runden, die vollständige
+ * Zusammenstellung steckt hinter dem Filter-Knopf. Vorher kostete jeder Start
+ * fünf Klicks durch eine Filterwand. */
+
+/** Filter setzen und sofort loslegen — der Weg fast aller Knöpfe hier. */
+function startMit(f){ filterSetzen(f); filterOffen = false; startRound(); }
+
+function zurDash(){ view="dash"; aktivesModul=null; filterOffen=false; scrollTo(0,0); render(); }
+function zumModul(m){ view="modul"; aktivesModul=m; filterOffen=false; scrollTo(0,0); render(); }
+function zumKonto(){ view="konto"; filterOffen=false; scrollTo(0,0); render(); }
+
+/** Läuft gerade eine Runde, die noch nicht zu Ende ist? */
+function offeneRunde(){ return !!session && session.i < session.qs.length; }
+
+/** Die Kopfzeile gehört zu keiner Seite und wird nach jedem Render nachgezogen. */
+function kopfzeile(){
+  const k = $("#kontoAuf");
+  if(k) k.classList.toggle("aktiv", view==="konto");
+}
+
+/** Eine Modulkachel — auf der Übersicht führt sie auf die Modulseite. */
+function modulKachel(m){
+  const list = POOL.filter(q=>q.modul===m), s = statFor(list);
+  const good = s.versuche ? s.punkte/s.versuche : 0;
+  const coverage = s.geuebt/s.total;
+  return `<button class="modcard mod" style="--mc:var(--m-${m})" data-mod="${m}">
+    <span class="code">${m}</span>
+    <span class="sub">${esc(MODULE[m]||"")}</span>
+    <span class="meter">
+      <i class="a" style="width:${(coverage*good*100).toFixed(1)}%"></i>
+      <i class="b" style="width:${(coverage*(1-good)*100).toFixed(1)}%"></i>
+    </span>
+    <span class="nums"><span>${s.geuebt}/${s.total} geübt</span><span>${s.versuche? Math.round(good*100)+"%" : "–"}</span></span>
+  </button>`;
+}
+
+/** Ein Knopf, der eine fertige Runde startet. Ohne Fragen bleibt er aus. */
+function startKachel(name, hinweis, f){
+  const n = vorlagenAnzahl(f);
+  return `<div class="vorlage">
+    <button class="vgo" data-start-f="${esc(JSON.stringify(f))}" ${n?"":"disabled"}>
+      <b>${esc(name)}</b><span class="n">${n ? n+" Frage"+(n===1?"":"n") : esc(hinweis)}</span>
+    </button>
+  </div>`;
+}
+
+/* ---------- Übersicht ---------- */
 function renderDash(){
   const all = statFor(POOL);
-  const cand = candidates();
-  const goals = goalStats();
-
-  const schwach = goals.filter(g=>g.quote!==null && g.v>=2)
-    .sort((a,b)=>a.quote-b.quote).slice(0,6);
-  const offen = goals.filter(g=>g.geuebt===0)
-    .sort((a,b)=> MOD_ORDER.indexOf(a.modul)-MOD_ORDER.indexOf(b.modul) || b.total-a.total).slice(0,6);
-
-  const wochen = [...new Set(POOL.map(q=>String(q.woche)))].sort((a,b)=>a-b);
-  const kats = [...new Set(POOL.map(q=>q.kategorie))]
-    .sort((a,b)=> POOL.filter(q=>q.kategorie===b).length - POOL.filter(q=>q.kategorie===a).length);
-
-  const countIf = fn => POOL.filter(q => fn(q)).length;
+  const eigene = vorlagenEigen();
 
   $("#app").innerHTML = `
   <div class="hero">
     <div>
       <h1>Wie gut sitzt der Stoff?</h1>
-      <p class="lede">${POOL.length} Fragen</p>
-      <div class="herostart">
-        <button class="btn" data-start ${cand.length?"":"disabled"}>Runde starten</button>
-        <span class="pool">${roundSize(cand)} Fragen · ${esc(filterAktiv() ? scopeLabel() : "alle Module, gemischt")}</span>
-      </div>
+      <p class="lede">${POOL.length} Fragen · ${MOD_ORDER.filter(m=>POOL.some(q=>q.modul===m)).length} Module</p>
+      ${offeneRunde() ? `<div class="herostart">
+        <button class="btn" id="weiter">Runde fortsetzen</button>
+        <span class="pool">noch ${session.qs.length - session.i} von ${session.qs.length} · ${esc(session.scope)}</span>
+      </div>` : ""}
     </div>
     <div class="kpis">
       <div class="kpi"><b>${all.geuebt}<span class="muted" style="font-size:16px">/${all.total}</span></b><span class="eyebrow">geübt</span></div>
@@ -869,118 +972,113 @@ function renderDash(){
   </div>
 
   <section>
-    <div class="sec-head"><h2>Schnellstart</h2>
-      <span class="hint">Ein Klick setzt die Einstellung und startet die Runde</span></div>
+    <div class="sec-head"><h2>Module</h2>
+      <span class="hint">Tippen öffnet das Modul mit fertigen Runden</span>
+      <button class="btn ghost sm filterknopf" id="filterAuf">Filter</button></div>
+    <div class="grid-mod">
+      ${MOD_ORDER.filter(m=>POOL.some(q=>q.modul===m)).map(modulKachel).join("")}
+    </div>
+  </section>
+
+  ${eigene.length ? `
+  <section>
+    <div class="sec-head"><h2>Deine Vorlagen</h2><span class="hint">Ein Tipp startet sofort</span></div>
     <div class="vorlagen">
-      ${vorlagenAlle().map(v=>{
+      ${eigene.map(v=>{
         const n = vorlagenAnzahl(v.f);
         return `<div class="vorlage">
-          <button class="vgo" data-vorlage="${esc(v.id)}" ${n?"":"disabled"}>
+          <button class="vgo" data-start-f="${esc(JSON.stringify(v.f))}" ${n?"":"disabled"}>
             <b>${esc(v.name)}</b><span class="n">${n} Frage${n===1?"":"n"}</span>
           </button>
-          ${v.eigen?`<button class="vdel" data-vdel="${esc(v.id)}"
-            aria-label="Vorlage „${esc(v.name)}“ löschen" title="Löschen">×</button>`:""}
+          <button class="vdel" data-vdel="${esc(v.id)}" aria-label="Vorlage ${esc(v.name)} löschen" title="Löschen">×</button>
         </div>`;
       }).join("")}
-      <button class="vorlage neu" id="vNeu">+ Aktuelle Auswahl sichern</button>
     </div>
-    <div class="vform" id="vForm" hidden>
-      <input id="vName" type="text" maxlength="40" placeholder="Name der Vorlage">
-      <button class="btn sm" id="vOk">Sichern</button>
-      <button class="btn ghost sm" id="vAb">Abbrechen</button>
-      <span class="pool">${esc(filterAktiv() ? scopeLabel() : "alle Module, gemischt")}</span>
+  </section>`:""}
+
+  ${runs.length ? `
+  <section>
+    <div class="sec-head"><h2>Verlauf</h2></div>
+    <div class="runs">
+      ${runs.slice(-6).reverse().map(r=>`<div class="run">
+        <span class="when">${fmtDate(r.ts)}</span>
+        <span class="scope">${esc(r.scope)}</span>
+        <span class="score" style="color:${quoteColor(r.punkte/r.total)}">${Math.round(r.punkte/r.total*100)}%</span>
+        <span class="muted">${r.punkte.toFixed(1).replace(/\.0$/,"")}/${r.total} · ${fmtDauer(r.dauer)}</span>
+      </div>`).join("")}
+    </div>
+  </section>`:`
+  <section><div class="empty">Noch keine Runde gelaufen. Tipp auf ein Modul und leg los.</div></section>`}
+
+  ${filterBlatt()}`;
+
+  const w = $("#weiter"); if(w) w.onclick = ()=>{ view="quiz"; render(); };
+  bindSeite();
+}
+
+/* ---------- Eine Modulseite ---------- */
+function renderModul(){
+  const m = aktivesModul;
+  const list = POOL.filter(q=>q.modul===m), s = statFor(list);
+  const good = s.versuche ? s.punkte/s.versuche : 0;
+  const wochen = [...new Set(list.map(q=>String(q.woche)))].sort((a,b)=>a-b);
+  const ziele = goalStats().filter(g=>g.modul===m)
+    .sort((a,b)=>(a.quote===null)-(b.quote===null) || (a.quote??0)-(b.quote??0));
+  const B = f => Object.assign({ modul:[m], modus:"mix", laenge:filter.laenge||15 }, f);
+
+  $("#app").innerHTML = `
+  <div class="modkopf" style="--mc:var(--m-${m})">
+    <button class="zurueck" id="zurueck">← Übersicht</button>
+    <h1><span class="code">${m}</span> ${esc(MODULE[m]||"")}</h1>
+    <p class="lede">${s.geuebt} von ${s.total} Fragen geübt${s.versuche?` · ${Math.round(good*100)}% richtig`:""}</p>
+  </div>
+
+  <section>
+    <div class="sec-head"><h2>Loslegen</h2>
+      <span class="hint">Ein Tipp startet die Runde</span>
+      <button class="btn ghost sm filterknopf" id="filterAuf">Filter</button></div>
+    <div class="vorlagen">
+      ${startKachel("Gemischt",       "keine Fragen",      B({}))}
+      ${startKachel("Nur Kernstoff",  "kein Kernstoff",    B({ nurKern:true }))}
+      ${startKachel("Wo es klemmt",   "nichts offen",      B({ modus:"falsch" }))}
+      ${startKachel("Noch nie geübt", "alles schon geübt", B({ modus:"neu" }))}
     </div>
   </section>
 
+  ${wochen.length>1 ? `
   <section>
-    <div class="sec-head"><h2>Module</h2><span class="hint">Klick filtert — grün geübt und richtig, rot geübt und falsch</span></div>
-    <div class="grid-mod">
-      ${MOD_ORDER.filter(m=>POOL.some(q=>q.modul===m)).map(m=>{
-        const list = POOL.filter(q=>q.modul===m), s = statFor(list);
-        const good = s.versuche ? s.punkte/s.versuche : 0;
-        const coverage = s.geuebt/s.total;
-        return `<button class="modcard mod ${filter.modul.has(m)?"sel":""}" style="--mc:var(--m-${m})" data-mod="${m}">
-          <span class="code">${m}</span>
-          <span class="sub">${esc(MODULE[m]||"")}</span>
-          <span class="meter">
-            <i class="a" style="width:${(coverage*good*100).toFixed(1)}%"></i>
-            <i class="b" style="width:${(coverage*(1-good)*100).toFixed(1)}%"></i>
-          </span>
-          <span class="nums"><span>${s.geuebt}/${s.total} geübt</span><span>${s.versuche? Math.round(good*100)+"%" : "–"}</span></span>
-        </button>`;
-      }).join("")}
+    <div class="sec-head"><h2>Nach Woche</h2></div>
+    <div class="vorlagen">
+      ${wochen.map(w=>startKachel("Woche "+w, "keine Fragen", B({ woche:[w] }))).join("")}
     </div>
-  </section>
+  </section>`:""}
 
+  ${ziele.length ? `
   <section>
-    <div class="sec-head"><h2>Runde zusammenstellen</h2></div>
-    <div class="card panel">
-      <div class="frow"><span class="flabel">Woche</span>
-        ${wochen.map(w=>`<button class="chip" data-f="woche" data-v="${w}" aria-pressed="${filter.woche.has(w)}">Woche ${w}<span class="n">${countIf(q=>String(q.woche)===w)}</span></button>`).join("")}
-      </div>
-      <div class="frow"><span class="flabel">Quelle</span>
-        ${kats.map(k=>`<button class="chip" data-f="kategorie" data-v="${k}" aria-pressed="${filter.kategorie.has(k)}">${KAT[k]||k}<span class="n">${countIf(q=>q.kategorie===k)}</span></button>`).join("")}
-      </div>
-      <div class="frow"><span class="flabel">Fragetyp</span>
-        ${Object.keys(TYP).map(t=>`<button class="chip" data-f="typ" data-v="${t}" aria-pressed="${filter.typ.has(t)}">${TYP[t]}<span class="n">${countIf(q=>q.typ===t)}</span></button>`).join("")}
-      </div>
-      <div class="frow"><span class="flabel">Lernziel</span>
-        <select id="zielSel" class="sel${filter.lernziel?" aktiv":""}">
-          <option value="">Alle Lernziele</option>
-          ${MOD_ORDER.filter(m=>POOL.some(q=>q.modul===m)).map(m=>{
-            const ziele = [...new Set(POOL.filter(q=>q.modul===m && q.kategorie!==OHNE_LERNZIEL).map(q=>q.lernziel))].sort();
-            return `<optgroup label="${m}">${ziele.map(z=>{
-              const n = POOL.filter(q=>q.modul===m && q.lernziel===z && (!filter.nurKern || q.kern)).length;
-              return `<option value="${esc(z)}" ${filter.lernziel===z?"selected":""}>${esc(z)} (${n})</option>`;
-            }).join("")}</optgroup>`;
-          }).join("")}
-        </select>
-        <button class="chip" data-nurkern aria-pressed="${filter.nurKern}"
-          title="Nur die Fragen, ohne die eine Standardfrage zum Lernziel nicht zu beantworten ist: Definitionen, Prüfschemata, Abgrenzungen. Ohne Jahreszahlen, Namenslisten und illustrierende Einzelzahlen.">Nur Kernstoff<span class="n">${POOL.filter(q=>q.kern).length}</span></button>
-      </div>
-      <div class="frow"><span class="flabel"></span>
-        <span class="pool" style="max-width:52ch">Kernstoff heisst: was ohne Wenn und Aber sitzen muss — Definitionen, Prüfschemata und Abgrenzungen, verteilt über alle 40 Lernziele.</span>
-      </div>
-      <div class="frow"><span class="flabel">Modus</span>
-        ${Object.entries(MODI).map(([k,v])=>`<button class="chip" data-modus="${k}" aria-pressed="${filter.modus===k}" title="${esc(v[1])}">${v[0]}</button>`).join("")}
-      </div>
-      <div class="frow"><span class="flabel">Länge</span>
-        ${[10,15,25,0].map(n=>`<button class="chip" data-len="${n}" aria-pressed="${filter.laenge===n}">${n===0?"alle":n+" Fragen"}</button>`).join("")}
-      </div>
-      <div class="startbar">
-        <button class="btn" data-start ${cand.length?"":"disabled"}>Runde starten</button>
-        <button class="btn ghost sm" id="reset">Filter zurücksetzen</button>
-        <span class="pool">${cand.length} Frage${cand.length===1?"":"n"} im Filter${filter.laenge&&cand.length>filter.laenge?` · ${roundSize(cand)} in dieser Runde`:""}</span>
-      </div>
-      ${cand.length===0 ? `<p class="muted" style="font-size:13px; margin-top:10px">Diese Kombination ergibt keine Fragen — meist hilft es, den Modus auf „Gemischt“ zu stellen.</p>`:""}
-    </div>
-  </section>
-
-  ${schwach.length ? `
-  <section>
-    <div class="sec-head"><h2>Schwachstellen</h2><span class="hint">Lernziele mit der tiefsten Quote — Klick übt gezielt dieses Ziel</span></div>
+    <div class="sec-head"><h2>Lernziele</h2><span class="hint">Tippen übt gezielt dieses Ziel</span></div>
     <div class="goals">
-      ${schwach.map(g=>`<button class="goal" data-ziel="${esc(g.ziel)}" data-zmod="${g.modul}"
-        style="--mc:var(--m-${g.modul}); --gc:${quoteColor(g.quote)}">
-        <span class="tag">${g.modul}</span>
+      ${ziele.map(g=>`<button class="goal" data-ziel="${esc(g.ziel)}" data-zmod="${m}"
+        style="--mc:var(--m-${m}); --gc:${g.quote===null?"var(--muted)":quoteColor(g.quote)}">
         <span class="txt">${esc(g.ziel)}</span>
-        <span class="bar"><i style="width:${Math.round(g.quote*100)}%"></i></span>
-        <span class="pct">${Math.round(g.quote*100)}%</span>
+        ${g.quote===null ? "" : `<span class="bar"><i style="width:${Math.round(g.quote*100)}%"></i></span>`}
+        <span class="pct">${g.quote===null ? g.total+" F" : Math.round(g.quote*100)+"%"}</span>
       </button>`).join("")}
     </div>
   </section>`:""}
 
-  ${offen.length ? `
-  <section>
-    <div class="sec-head"><h2>Noch nicht angefasst</h2><span class="hint">Lernziele ohne einen einzigen Versuch</span></div>
-    <div class="goals">
-      ${offen.map(g=>`<button class="goal" data-ziel="${esc(g.ziel)}" data-zmod="${g.modul}" style="--mc:var(--m-${g.modul}); --gc:var(--muted)">
-        <span class="tag">${g.modul}</span>
-        <span class="txt">${esc(g.ziel)}</span>
-        <span class="pct">${g.total} F</span>
-      </button>`).join("")}
-    </div>
-  </section>`:""}
+  ${filterBlatt()}`;
+
+  $("#zurueck").onclick = zurDash;
+  bindSeite();
+}
+
+/* ---------- Konto und Sicherung ---------- */
+function renderKonto(){
+  $("#app").innerHTML = `
+  <div class="modkopf">
+    <button class="zurueck" id="zurueck">← Übersicht</button>
+    <h1>${benutzer ? "Dein Konto" : "Anmelden"}</h1>
+  </div>
 
   <section>
     <div class="card panel konto">
@@ -995,10 +1093,9 @@ function renderDash(){
         <p class="muted" style="font-size:13px; margin-top:8px">
           Dein Lernstand gehört dir allein — andere sehen ihn nicht, auch nicht auf derselben Seite.</p>
       ` : `
-        <div class="sec-head" style="margin-bottom:8px">
-          <h2>Anmelden</h2>
-          <span class="hint">Ohne Anmeldung teilst du einen offenen Lernstand mit allen anderen</span>
-        </div>
+        <p class="muted" style="font-size:13.5px; margin:0 0 12px">
+          Ohne Anmeldung teilst du einen offenen Lernstand mit allen anderen.
+          Mit Konto gehört er dir und folgt dir auf jedes Gerät.</p>
         <div class="konto-form">
           <input id="kName"  type="text"     autocomplete="username"         placeholder="Name">
           <input id="kPass"  type="password" autocomplete="current-password" placeholder="Passwort (mind. 8 Zeichen)">
@@ -1018,7 +1115,7 @@ function renderDash(){
   </section>
 
   <section>
-    <details class="backup">
+    <details class="backup" open>
       <summary>Fortschritt sichern oder auf ein anderes Gerät übertragen</summary>
       <p class="muted" style="font-size:13.5px; margin:10px 0 0">Dein Lernstand liegt ${
         neonBereit ? "in deiner Neon-Datenbank und zusätzlich in diesem Browser"
@@ -1043,29 +1140,101 @@ function renderDash(){
         placeholder="Kopierten Lernstand hier einfügen und dann auf Übernehmen klicken"></textarea>
       <div class="qfoot" id="impActions" hidden><button class="btn sm" id="impGo">Übernehmen</button></div>
     </details>
-  </section>
+  </section>`;
 
-  ${runs.length ? `
-  <section>
-    <div class="sec-head"><h2>Verlauf</h2></div>
-    <div class="runs">
-      ${runs.slice(-8).reverse().map(r=>`<div class="run">
-        <span class="when">${fmtDate(r.ts)}</span>
-        <span class="scope">${esc(r.scope)}</span>
-        <span class="score" style="color:${quoteColor(r.punkte/r.total)}">${Math.round(r.punkte/r.total*100)}%</span>
-        <span class="muted">${r.punkte.toFixed(1).replace(/\.0$/,"")}/${r.total} · ${fmtDauer(r.dauer)}</span>
-      </div>`).join("")}
+  $("#zurueck").onclick = zurDash;
+  bindKonto();
+  bindBackup();
+}
+
+/* ---------- Das Filterblatt ----------
+ * Die vollständige Zusammenstellung. Sie liegt bewusst unter einem Knopf: wer
+ * schnell starten will, soll sie nie zu Gesicht bekommen. */
+function filterBlatt(){
+  if(!filterOffen) return "";
+  const cand = candidates();
+  const countIf = fn => POOL.filter(fn).length;
+  const wochen = [...new Set(POOL.map(q=>String(q.woche)))].sort((a,b)=>a-b);
+  const kats = [...new Set(POOL.map(q=>q.kategorie))]
+    .sort((a,b)=> POOL.filter(q=>q.kategorie===b).length - POOL.filter(q=>q.kategorie===a).length);
+
+  return `
+  <div class="blattbg" id="blattZu"></div>
+  <div class="blatt" role="dialog" aria-label="Runde zusammenstellen">
+    <div class="blattkopf">
+      <h2>Runde zusammenstellen</h2>
+      <button class="blattx" id="blattZu2" aria-label="Schliessen">×</button>
     </div>
-  </section>`:`
-  <section><div class="empty">Noch keine Runde gelaufen. Stell oben einen Filter ein und leg los.</div></section>`}
+    <div class="blattkern">
+      <div class="frow"><span class="flabel">Modul</span>
+        ${MOD_ORDER.filter(m=>POOL.some(q=>q.modul===m)).map(m=>`<button class="chip" data-f="modul" data-v="${m}" aria-pressed="${filter.modul.has(m)}">${m}<span class="n">${countIf(q=>q.modul===m)}</span></button>`).join("")}
+      </div>
+      <div class="frow"><span class="flabel">Woche</span>
+        ${wochen.map(w=>`<button class="chip" data-f="woche" data-v="${w}" aria-pressed="${filter.woche.has(w)}">Woche ${w}<span class="n">${countIf(q=>String(q.woche)===w)}</span></button>`).join("")}
+      </div>
+      <div class="frow"><span class="flabel">Quelle</span>
+        ${kats.map(k=>`<button class="chip" data-f="kategorie" data-v="${k}" aria-pressed="${filter.kategorie.has(k)}">${KAT[k]||k}<span class="n">${countIf(q=>q.kategorie===k)}</span></button>`).join("")}
+      </div>
+      <div class="frow"><span class="flabel">Fragetyp</span>
+        ${Object.keys(TYP).map(t=>`<button class="chip" data-f="typ" data-v="${t}" aria-pressed="${filter.typ.has(t)}">${TYP[t]}<span class="n">${countIf(q=>q.typ===t)}</span></button>`).join("")}
+      </div>
+      <div class="frow"><span class="flabel">Lernziel</span>
+        <select id="zielSel" class="sel${filter.lernziel?" aktiv":""}">
+          <option value="">Alle Lernziele</option>
+          ${MOD_ORDER.filter(m=>POOL.some(q=>q.modul===m)).map(m=>{
+            const zl = [...new Set(POOL.filter(q=>q.modul===m && q.kategorie!==OHNE_LERNZIEL).map(q=>q.lernziel))].sort();
+            return `<optgroup label="${m}">${zl.map(z=>{
+              const n = POOL.filter(q=>q.modul===m && q.lernziel===z && (!filter.nurKern || q.kern)).length;
+              return `<option value="${esc(z)}" ${filter.lernziel===z?"selected":""}>${esc(z)} (${n})</option>`;
+            }).join("")}</optgroup>`;
+          }).join("")}
+        </select>
+        <button class="chip" data-nurkern aria-pressed="${filter.nurKern}"
+          title="Nur die Fragen, ohne die eine Standardfrage zum Lernziel nicht zu beantworten ist: Definitionen, Prüfschemata, Abgrenzungen.">Nur Kernstoff<span class="n">${POOL.filter(q=>q.kern).length}</span></button>
+      </div>
+      <div class="frow"><span class="flabel">Modus</span>
+        ${Object.entries(MODI).map(([k,v])=>`<button class="chip" data-modus="${k}" aria-pressed="${filter.modus===k}" title="${esc(v[1])}">${v[0]}</button>`).join("")}
+      </div>
+      <div class="frow"><span class="flabel">Länge</span>
+        ${[10,15,25,0].map(n=>`<button class="chip" data-len="${n}" aria-pressed="${filter.laenge===n}">${n===0?"alle":n+" Fragen"}</button>`).join("")}
+      </div>
+      <div class="frow"><span class="flabel"></span>
+        <button class="btn ghost sm" id="reset">Zurücksetzen</button>
+        <button class="btn ghost sm" id="vNeu">Als Vorlage sichern</button>
+      </div>
+      <div class="vform" id="vForm" hidden>
+        <input id="vName" type="text" maxlength="40" placeholder="Name der Vorlage">
+        <button class="btn sm" id="vOk">Sichern</button>
+        <button class="btn ghost sm" id="vAb">Abbrechen</button>
+      </div>
+      ${cand.length===0 ? `<p class="muted" style="font-size:13px; margin-top:10px">Diese Kombination ergibt keine Fragen — meist hilft es, den Modus auf „Gemischt“ zu stellen.</p>`:""}
+    </div>
+    <div class="blattfuss">
+      <button class="btn" data-start ${cand.length?"":"disabled"}>Runde starten</button>
+      <span class="pool">${cand.length} Frage${cand.length===1?"":"n"}${filter.laenge&&cand.length>filter.laenge?` · ${roundSize(cand)} in dieser Runde`:""}</span>
+    </div>
+  </div>`;
+}
 
-  `;
-
-  // Ereignisse
-  $("#app").querySelectorAll(".modcard").forEach(b=>b.onclick=()=>{
-    const m=b.dataset.mod; filter.modul.has(m)?filter.modul.delete(m):filter.modul.add(m);
-    filter.lernziel=null; render();
+/** Ereignisse, die Übersicht und Modulseite teilen. */
+function bindSeite(){
+  $("#app").querySelectorAll("[data-mod]").forEach(b=>b.onclick=()=>zumModul(b.dataset.mod));
+  $("#app").querySelectorAll("[data-start-f]").forEach(b=>b.onclick=()=>startMit(JSON.parse(b.dataset.startF)));
+  $("#app").querySelectorAll("[data-vdel]").forEach(b=>b.onclick=()=>{
+    vorlagenSichern(vorlagenEigen().filter(v=>v.id!==b.dataset.vdel)); render();
   });
+  $("#app").querySelectorAll("[data-ziel]").forEach(b=>b.onclick=()=>startMit({
+    modul:[b.dataset.zmod], lernziel:b.dataset.ziel, modus:"mix", laenge:filter.laenge
+  }));
+  const fa = $("#filterAuf"); if(fa) fa.onclick = ()=>{ filterOffen = true; render(); };
+  bindFilterblatt();
+}
+
+function bindFilterblatt(){
+  if(!filterOffen) return;
+  const zu = ()=>{ filterOffen = false; render(); };
+  $("#blattZu").onclick = zu;
+  $("#blattZu2").onclick = zu;
   $("#app").querySelectorAll("[data-f]").forEach(b=>b.onclick=()=>{
     const s=filter[b.dataset.f], v=b.dataset.v; s.has(v)?s.delete(v):s.add(v); render();
   });
@@ -1081,24 +1250,11 @@ function renderDash(){
     render();
   };
   $("[data-nurkern]").onclick = ()=>{ filter.nurKern = !filter.nurKern; render(); };
-  $("#app").querySelectorAll("[data-ziel]").forEach(b=>b.onclick=()=>{
-    filter.lernziel=b.dataset.ziel; filter.modul=new Set([b.dataset.zmod]);
-    filter.woche=new Set(); filter.kategorie=new Set(); filter.typ=new Set(); filter.modus="mix";
-    render(); startRound();
-  });
-  $("#app").querySelectorAll("[data-start]").forEach(b=>b.onclick=startRound);
-
-  // Vorlagen: setzen und sofort loslegen — das ist der ganze Zweck.
-  $("#app").querySelectorAll("[data-vorlage]").forEach(b=>b.onclick=()=>{
-    const v = vorlagenAlle().find(x=>x.id===b.dataset.vorlage);
-    if(!v) return;
-    filterSetzen(v.f);
-    startRound();
-  });
-  $("#app").querySelectorAll("[data-vdel]").forEach(b=>b.onclick=()=>{
-    vorlagenSichern(vorlagenEigen().filter(v=>v.id!==b.dataset.vdel));
-    render();
-  });
+  $("#app").querySelectorAll("[data-start]").forEach(b=>b.onclick=()=>{ filterOffen=false; startRound(); });
+  $("#reset").onclick = ()=>{
+    filter.modul.clear(); filter.woche.clear(); filter.kategorie.clear(); filter.typ.clear();
+    filter.lernziel=null; filter.nurKern=false; filter.modus="mix"; filter.laenge=15; render();
+  };
   const vForm = $("#vForm");
   $("#vNeu").onclick = ()=>{ vForm.hidden = false; $("#vName").focus(); };
   $("#vAb").onclick  = ()=>{ vForm.hidden = true;  $("#vName").value = ""; };
@@ -1106,16 +1262,9 @@ function renderDash(){
     const name = ($("#vName").value||"").trim();
     if(!name){ $("#vName").focus(); return; }
     vorlagenSichern([...vorlagenEigen(), { id:"v"+Date.now(), name, f:filterLesen() }]);
-    render();
+    filterOffen = false; render();
   };
   $("#vName").onkeydown = e=>{ if(e.key==="Enter") $("#vOk").click(); };
-
-  bindKonto();
-  bindBackup();
-  $("#reset").onclick = ()=>{
-    filter.modul.clear(); filter.woche.clear(); filter.kategorie.clear(); filter.typ.clear();
-    filter.lernziel=null; filter.nurKern=false; filter.modus="mix"; filter.laenge=15; render();
-  };
 }
 
 /* ---------- Anmeldung ----------
@@ -1548,9 +1697,20 @@ function renderResult(){
     return;
   }
   filterLaden();   // erst jetzt, denn filterSetzen() prüft gegen POOL
+
+  // Kopfzeile: der Titel führt immer heim, der Knopf rechts zum Konto.
+  $("#heim").onclick     = ()=>{ if(view!=="dash") zurDash(); };
+  $("#kontoAuf").onclick = ()=>{ view==="konto" ? zurDash() : zumKonto(); };
+
   render();
   // Neon zuerst — das ist der Weg, der auf GitHub Pages funktioniert. Nur wenn
   // dort nichts eingerichtet ist, wird die Artefakt-Datenbank von claude.ai versucht.
   if(!await initNeon()) initDB();
+
+  // Service Worker: macht die Seite installierbar und offline lesbar. Scheitert
+  // er — altes Gerät, geöffnet über file:// —, läuft alles ganz normal weiter.
+  if("serviceWorker" in navigator && location.protocol.startsWith("http")){
+    try{ await navigator.serviceWorker.register("sw.js"); }catch(e){}
+  }
 })();
 </script>

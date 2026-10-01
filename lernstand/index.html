@@ -119,8 +119,11 @@ button{font:inherit; color:inherit; cursor:pointer; background:none; border:none
 .modcard:hover{border-color:var(--line-strong); transform:translateY(-1px)}
 .modcard.sel{border-color:var(--mc); box-shadow:inset 0 0 0 1px var(--mc)}
 .modcard .code{font-family:var(--f-mono); font-weight:600; font-size:14px; letter-spacing:.06em; color:var(--mc)}
-.modcard .sub{font-family:var(--f-display); font-size:12px; color:var(--muted); margin-top:1px;
-  white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+/* display:block, sonst greift weder Umbruch noch Begrenzung: ein <span> ist inline
+   und lief bei langen Modulnamen über den Kartenrand. Zwei Zeilen Platz, damit
+   die Balken aller Karten auf einer Höhe bleiben. */
+.modcard .sub{display:block; font-family:var(--f-display); font-size:12px; color:var(--muted); margin-top:1px;
+  line-height:1.35; min-height:calc(2em * 1.35); hyphens:auto; -webkit-hyphens:auto; overflow-wrap:break-word}
 .meter{height:5px; border-radius:3px; background:var(--surface-3); margin-top:10px; overflow:hidden; display:flex}
 .meter i{display:block; height:100%}
 .meter i.a{background:var(--mc)}
@@ -491,7 +494,7 @@ button, .chip, .sel, label, summary{ -webkit-tap-highlight-color:transparent; to
  * ------------------------------------------------------------------ */
 
 const MODULE = {
-  OGPM: "Geschäftsprozessmanagement",
+  OGPM: "Geschäfts\u00ADprozess\u00ADmanagement",   // \u00AD = weiches Trennzeichen für die schmale Modulkarte
   GENE: "Gesellschaft, Politik, Wirtschaftsgeografie",
   SYMG: "Systemisches Management",
   VHRE: "Vertrags- und Haftpflichtrecht",

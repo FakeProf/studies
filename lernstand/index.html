@@ -155,6 +155,8 @@ section{margin-top:30px}
 :root[data-theme="dark"] .chip.mod[aria-pressed="true"],
 :root:not([data-theme="light"]) .chip.mod[aria-pressed="true"]{color:#0F1514}
 .chip .n{font-family:var(--f-mono); font-size:11px; opacity:.72; margin-left:5px; font-variant-numeric:tabular-nums}
+/* Wert, der zur übrigen Auswahl keine einzige Frage beiträgt: bleibt klickbar, tritt aber zurück */
+.chip.leer:not([aria-pressed="true"]){opacity:.45}
 
 .sel{
   font-family:var(--f-display); font-size:12.5px; font-weight:500; color:var(--ink-2);
@@ -824,11 +826,28 @@ function matchesFilter(q){
   if(filter.nurKern && !q.kern) return false;
   return true;
 }
+function passtModus(q){
+  if(filter.modus==="neu")    return !stats[q.id];
+  if(filter.modus==="falsch") return !!(stats[q.id] && stats[q.id].ok < 1);
+  return true;
+}
 function candidates(){
-  let c = POOL.filter(matchesFilter);
-  if(filter.modus==="neu")    c = c.filter(q=>!stats[q.id]);
-  if(filter.modus==="falsch") c = c.filter(q=>stats[q.id] && stats[q.id].ok < 1);
-  return c;
+  return POOL.filter(q=>matchesFilter(q) && passtModus(q));
+}
+/** Alle Fragen, die jeden aktiven Filter ausser `dim` erfüllen. Grundlage für die
+ *  Zahlen auf den Chips: Innerhalb einer Zeile ist die Auswahl ein Oder, deshalb
+ *  darf die eigene Zeile nicht mitfiltern, sonst stünde bei jedem anderen Modul 0,
+ *  sobald eines gewählt ist. */
+function basisOhne(dim){
+  return POOL.filter(q=>{
+    if(dim!=="modul"     && filter.modul.size     && !filter.modul.has(q.modul)) return false;
+    if(dim!=="woche"     && filter.woche.size     && !filter.woche.has(String(q.woche))) return false;
+    if(dim!=="kategorie" && filter.kategorie.size && !filter.kategorie.has(q.kategorie)) return false;
+    if(dim!=="typ"       && filter.typ.size       && !filter.typ.has(q.typ)) return false;
+    if(dim!=="lernziel"  && filter.lernziel       && q.lernziel !== filter.lernziel) return false;
+    if(dim!=="kern"      && filter.nurKern        && !q.kern) return false;
+    return passtModus(q);
+  });
 }
 function pickRound(){
   let c = candidates();
@@ -1160,7 +1179,11 @@ function renderKonto(){
 function filterBlatt(){
   if(!filterOffen) return "";
   const cand = candidates();
-  const countIf = fn => POOL.filter(fn).length;
+  // Zahl pro Chip: so viele Fragen kämen mit diesem Wert zur übrigen Auswahl dazu.
+  const basis = {}; ["modul","woche","kategorie","typ","lernziel","kern"].forEach(d=>basis[d]=basisOhne(d));
+  const zahl = (dim, fn) => basis[dim].filter(fn).length;
+  const chip = (dim, v, label, n) =>
+    `<button class="chip${n?"":" leer"}" data-f="${dim}" data-v="${esc(v)}" aria-pressed="${filter[dim].has(v)}">${label}<span class="n">${n}</span></button>`;
   const wochen = [...new Set(POOL.map(q=>String(q.woche)))].sort((a,b)=>a-b);
   const kats = [...new Set(POOL.map(q=>q.kategorie))]
     .sort((a,b)=> POOL.filter(q=>q.kategorie===b).length - POOL.filter(q=>q.kategorie===a).length);
@@ -1174,16 +1197,16 @@ function filterBlatt(){
     </div>
     <div class="blattkern">
       <div class="frow"><span class="flabel">Modul</span>
-        ${MOD_ORDER.filter(m=>POOL.some(q=>q.modul===m)).map(m=>`<button class="chip" data-f="modul" data-v="${m}" aria-pressed="${filter.modul.has(m)}">${m}<span class="n">${countIf(q=>q.modul===m)}</span></button>`).join("")}
+        ${MOD_ORDER.filter(m=>POOL.some(q=>q.modul===m)).map(m=>chip("modul", m, m, zahl("modul", q=>q.modul===m))).join("")}
       </div>
       <div class="frow"><span class="flabel">Woche</span>
-        ${wochen.map(w=>`<button class="chip" data-f="woche" data-v="${w}" aria-pressed="${filter.woche.has(w)}">Woche ${w}<span class="n">${countIf(q=>String(q.woche)===w)}</span></button>`).join("")}
+        ${wochen.map(w=>chip("woche", w, "Woche "+w, zahl("woche", q=>String(q.woche)===w))).join("")}
       </div>
       <div class="frow"><span class="flabel">Quelle</span>
-        ${kats.map(k=>`<button class="chip" data-f="kategorie" data-v="${k}" aria-pressed="${filter.kategorie.has(k)}">${KAT[k]||k}<span class="n">${countIf(q=>q.kategorie===k)}</span></button>`).join("")}
+        ${kats.map(k=>chip("kategorie", k, KAT[k]||k, zahl("kategorie", q=>q.kategorie===k))).join("")}
       </div>
       <div class="frow"><span class="flabel">Fragetyp</span>
-        ${Object.keys(TYP).map(t=>`<button class="chip" data-f="typ" data-v="${t}" aria-pressed="${filter.typ.has(t)}">${TYP[t]}<span class="n">${countIf(q=>q.typ===t)}</span></button>`).join("")}
+        ${Object.keys(TYP).map(t=>chip("typ", t, TYP[t], zahl("typ", q=>q.typ===t))).join("")}
       </div>
       <div class="frow"><span class="flabel">Lernziel</span>
         <select id="zielSel" class="sel${filter.lernziel?" aktiv":""}">
@@ -1191,13 +1214,13 @@ function filterBlatt(){
           ${MOD_ORDER.filter(m=>POOL.some(q=>q.modul===m)).map(m=>{
             const zl = [...new Set(POOL.filter(q=>q.modul===m && q.kategorie!==OHNE_LERNZIEL).map(q=>q.lernziel))].sort();
             return `<optgroup label="${m}">${zl.map(z=>{
-              const n = POOL.filter(q=>q.modul===m && q.lernziel===z && (!filter.nurKern || q.kern)).length;
+              const n = zahl("lernziel", q=>q.modul===m && q.lernziel===z);
               return `<option value="${esc(z)}" ${filter.lernziel===z?"selected":""}>${esc(z)} (${n})</option>`;
             }).join("")}</optgroup>`;
           }).join("")}
         </select>
         <button class="chip" data-nurkern aria-pressed="${filter.nurKern}"
-          title="Nur die Fragen, ohne die eine Standardfrage zum Lernziel nicht zu beantworten ist: Definitionen, Prüfschemata, Abgrenzungen.">Nur Kernstoff<span class="n">${POOL.filter(q=>q.kern).length}</span></button>
+          title="Nur die Fragen, ohne die eine Standardfrage zum Lernziel nicht zu beantworten ist: Definitionen, Prüfschemata, Abgrenzungen.">Nur Kernstoff<span class="n">${zahl("kern", q=>q.kern)}</span></button>
       </div>
       <div class="frow"><span class="flabel">Modus</span>
         ${Object.entries(MODI).map(([k,v])=>`<button class="chip" data-modus="${k}" aria-pressed="${filter.modus===k}" title="${esc(v[1])}">${v[0]}</button>`).join("")}

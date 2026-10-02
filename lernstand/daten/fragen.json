@@ -1,6 +1,6 @@
 {
  "version": 1,
- "stand": "2026-10-01",
+ "stand": "2026-10-02",
  "quelle": "Obsidian-Vault \"02 Zusammenfassungen\", OST HS2026",
  "fragen": [
   {
@@ -8830,6 +8830,294 @@
    "erklaerung": "Potenzial sehen die Firmen heute im B2B, mittelfristig im B2C. Der Abstract dieser Studie ist das Musterabstract in Woche 3.",
    "quelle": "WSA1 - Klostermeier et al. Digitale Zwillinge",
    "kern": false
+  },
+  {
+   "id": "VHRE-W3-01",
+   "modul": "VHRE",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Vertragsinhalt und AGB beurteilen",
+   "frage": "Ein Vertrag regelt einen Punkt nicht, das OR enthält dazu eine dispositive Norm. Was gilt?",
+   "optionen": [
+    "Die dispositive Gesetzesbestimmung kommt zum Zug",
+    "Der Vertrag ist in diesem Punkt nichtig",
+    "Der Richter entscheidet frei nach Billigkeit",
+    "Es gilt die Regelung, die für den Gläubiger günstiger ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Dispositive Normen greifen nur, wenn die Parteien nichts anderes vereinbart haben. Die meisten Bestimmungen im OR AT und OR BT sind dispositiv.",
+   "kern": true,
+   "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung"
+  },
+  {
+   "id": "VHRE-W3-02",
+   "modul": "VHRE",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Vertragsinhalt und AGB beurteilen",
+   "frage": "Welche der folgenden Bestimmungen nennt die Vorlesung als Beispiele für zwingendes Recht? (mehrere richtig)",
+   "optionen": [
+    "Art. 100 Abs. 1 OR",
+    "Art. 199 OR",
+    "Art. 8 UWG",
+    "Art. 74 Abs. 2 OR"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Zwingende Normen gehen dem Vertrag immer vor. Beispiele der Vorlesung: OR 100 I, OR 199, OR 210 IV, OR 404, UWG 8 und zahlreiche Normen des Miet- und Arbeitsrechts. Art. 74 Abs. 2 OR (Erfüllungsort) ist dispositiv — er gilt nur, wenn der Vertrag nichts regelt.",
+   "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung"
+  },
+  {
+   "id": "VHRE-W3-03",
+   "modul": "VHRE",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Vertragsinhalt und AGB beurteilen",
+   "frage": "Was sind AGB?",
+   "antwort": "Vertragsbestimmungen, die einseitig und für eine Vielzahl von Verträgen eines bestimmten Typs generell vorformuliert werden. Sie haben privaten Charakter und sind keine Gesetze.",
+   "erklaerung": "Beispiele: Bank- und Versicherungsverträge, SIA-Normen, Mietverträge des Hauseigentümerverbandes, Nutzungsbestimmungen von Social-Media-Plattformen.",
+   "kern": true,
+   "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung"
+  },
+  {
+   "id": "VHRE-W3-04",
+   "modul": "VHRE",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Vertragsinhalt und AGB beurteilen",
+   "frage": "Bringe die Prüfschritte für AGB in die richtige Reihenfolge.",
+   "items": [
+    "Einbezug der AGB in den Vertrag",
+    "Auslegung der vorformulierten Klauseln",
+    "Kontrolle des Inhalts"
+   ],
+   "erklaerung": "Erst wenn die AGB überhaupt Vertragsbestandteil geworden sind, stellt sich die Frage, was sie bedeuten — und erst dann, ob sie inhaltlich zulässig sind.",
+   "kern": true,
+   "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung"
+  },
+  {
+   "id": "VHRE-W3-05",
+   "modul": "VHRE",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Vertragsinhalt und AGB beurteilen",
+   "frage": "Wann sind AGB wirksam in den Vertrag einbezogen?",
+   "optionen": [
+    "Wenn sie vor oder bei Vertragsschluss einbezogen werden und die Möglichkeit zur Kenntnisnahme besteht",
+    "Nur wenn der Kunde sie tatsächlich gelesen hat",
+    "Auch wenn sie erst mit der Rechnung zugestellt werden",
+    "Nur wenn jede Klausel einzeln unterschrieben wird"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Meist erfolgt eine Globalübernahme: Man liest die AGB nicht, hätte aber die Möglichkeit dazu — das genügt. AGB, die erst der Rechnung beiliegen (eBike-Fall), kommen zu spät.",
+   "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung"
+  },
+  {
+   "id": "VHRE-W3-06",
+   "modul": "VHRE",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Vertragsinhalt und AGB beurteilen",
+   "frage": "Ordne die AGB-Regeln ihrem Inhalt zu.",
+   "paare": [
+    [
+     "Unklarheitenregel",
+     "Im Zweifel Auslegung zulasten des Verfassers"
+    ],
+    [
+     "Vorrang der Individualabrede",
+     "Individuell Vereinbartes geht gegenteiligen AGB vor"
+    ],
+    [
+     "Ungewöhnlichkeitsregel",
+     "Ungewöhnliche Klauseln sind ohne gesonderten Hinweis von der Globalübernahme ausgenommen"
+    ],
+    [
+     "Art. 8 UWG",
+     "Erhebliches und ungerechtfertigtes Missverhältnis zum Nachteil von Konsumenten ist unlauter"
+    ]
+   ],
+   "erklaerung": "Unklarheitenregel und Individualabrede gehören zur Auslegung (Schritt 2), Ungewöhnlichkeitsregel und UWG 8 zur Inhaltskontrolle (Schritt 3).",
+   "kern": true,
+   "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung"
+  },
+  {
+   "id": "VHRE-W3-07",
+   "modul": "VHRE",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Vertragsinhalt und AGB beurteilen",
+   "frage": "Händler „Schnell“ gibt mit dem Garantie-Paket 5 Jahre Garantie gegen Rost; seine AGB schliessen jede Haftung für Rostschäden aus. Was gilt?",
+   "optionen": [
+    "Die Rostgarantie gilt — die Individualabrede geht den AGB vor",
+    "Der Haftungsausschluss gilt, weil AGB immer Vorrang haben",
+    "Beide Regeln heben sich auf, es gilt nur dispositives Recht",
+    "Der ganze Vertrag ist wegen Widerspruchs nichtig"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Vorrang der Individualabrede: Haben sich die Parteien individuell über einen Punkt geeinigt, geht dies einer gegenteiligen AGB-Regelung vor.",
+   "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung"
+  },
+  {
+   "id": "VHRE-W3-08",
+   "modul": "VHRE",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Vertragsinhalt und AGB beurteilen",
+   "frage": "Wann ist eine AGB-Klausel nach der Rechtsprechung des Bundesgerichts „ungewöhnlich“?",
+   "antwort": "Wenn sie zu einer wesentlichen Änderung des Vertragscharakters führt oder erheblich aus dem gesetzlichen Rahmen des Vertragstypus fällt. Je stärker sie die Rechtsstellung des Vertragspartners beeinträchtigt, desto eher ist sie ungewöhnlich.",
+   "erklaerung": "Folge: Die Klausel ist von der Globalübernahme ausgenommen, wenn die schwächere oder weniger geschäftserfahrene Partei nicht gesondert auf sie aufmerksam gemacht wurde. Beispiel: Versicherung darf Prämien jederzeit ohne Einverständnis anpassen.",
+   "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung"
+  },
+  {
+   "id": "VHRE-W3-09",
+   "modul": "VHRE",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Vertragserfüllung und Gefahrtragung beurteilen",
+   "frage": "Muss ein Schuldner seine Leistung persönlich erbringen?",
+   "optionen": [
+    "Nur wenn es auf seine Persönlichkeit ankommt (Art. 68 OR)",
+    "Ja, immer",
+    "Nein, nie — Hilfspersonen sind stets zulässig und er haftet dann nicht mehr",
+    "Nur bei Geldschulden"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Meist erfüllen Hilfspersonen (eigene Angestellte oder selbständige Dritte). Der Schuldner bleibt aber für die Erfüllung verantwortlich (Art. 101 OR).",
+   "kern": true,
+   "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung"
+  },
+  {
+   "id": "VHRE-W3-10",
+   "modul": "VHRE",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Vertragserfüllung und Gefahrtragung beurteilen",
+   "frage": "Ordne den Massstab für eine vertragskonforme Leistung zu.",
+   "paare": [
+    [
+     "Kaufvertrag (Verkehrsauffassung)",
+     "Tauglichkeit zum vorausgesetzten Gebrauch"
+    ],
+    [
+     "Auftrag (Verkehrsauffassung)",
+     "Sorgfalt des gewissenhaften Beauftragten in der gleichen Lage"
+    ],
+    [
+     "Besondere Vereinbarung",
+     "Zusicherungen und Garantien"
+    ]
+   ],
+   "erklaerung": "Beim Steuerberater Daniel zählt deshalb nicht, wie viel Mühe er sich gibt, sondern ob er objektiv so sorgfältig war wie ein gewissenhafter Steuerexperte. Für Miet- und Werkvertrag gilt wie beim Kauf die Tauglichkeit zum vorausgesetzten Gebrauch.",
+   "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung"
+  },
+  {
+   "id": "VHRE-W3-11",
+   "modul": "VHRE",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Vertragserfüllung und Gefahrtragung beurteilen",
+   "frage": "Wo ist der Erfüllungsort nach Art. 74 Abs. 2 OR, wenn der Vertrag nichts regelt?",
+   "paare": [
+    [
+     "Geldschuld",
+     "Wohnsitz des Gläubigers (Bringschuld)"
+    ],
+    [
+     "Speziessache",
+     "Ort, an dem sich die Sache bei Vertragsschluss befand"
+    ],
+    [
+     "Gattungssache",
+     "Wohnsitz des Schuldners (Holschuld)"
+    ],
+    [
+     "Dienstleistung",
+     "Wohnsitz des Schuldners, ebenfalls Holschuld"
+    ]
+   ],
+   "erklaerung": "Vorrang hat immer die vertragliche Regelung (Art. 74 Abs. 1 OR). Nur Geldschulden sind von Gesetzes wegen Bringschulden.",
+   "kern": true,
+   "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung"
+  },
+  {
+   "id": "VHRE-W3-12",
+   "modul": "VHRE",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Vertragserfüllung und Gefahrtragung beurteilen",
+   "frage": "Was bedeutet „Fälligkeit“?",
+   "optionen": [
+    "Der Gläubiger darf die Leistung einfordern und einklagen, der Schuldner muss leisten",
+    "Der Schuldner darf mit befreiender Wirkung leisten",
+    "Die Forderung ist verjährt",
+    "Der Schuldner ist automatisch in Verzug"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Erfüllbarkeit = der Schuldner darf leisten; Fälligkeit = der Gläubiger darf fordern. Nach Art. 75 OR sind Leistungen grundsätzlich sofort fällig und erfüllbar, sofern nichts anderes vereinbart ist (Sofa-Fall: vereinbarte Lieferfrist von zwei Monaten).",
+   "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung"
+  },
+  {
+   "id": "VHRE-W3-13",
+   "modul": "VHRE",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Vertragserfüllung und Gefahrtragung beurteilen",
+   "frage": "Die Kaufsache geht nach Vertragsschluss, aber vor der Übergabe unter. Bringe die Prüffragen in die richtige Reihenfolge.",
+   "items": [
+    "Ist der Vertrag zustande gekommen?",
+    "Ist der Untergang unverschuldet? (sonst OR 97)",
+    "Ist die Gefahr schon übergegangen?"
+   ],
+   "erklaerung": "Bei verschuldetem Untergang haftet der Schuldner nach OR 97. Erst beim unverschuldeten Untergang stellt sich die Frage der Gefahrtragung.",
+   "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung"
+  },
+  {
+   "id": "VHRE-W3-14",
+   "modul": "VHRE",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Vertragserfüllung und Gefahrtragung beurteilen",
+   "frage": "Die Leistung wird unverschuldet unmöglich. Was gilt nach Art. 119 OR für die Gegenleistung?",
+   "optionen": [
+    "Sie ist nicht geschuldet (OR 119 II) — ausser der Gefahrübergang ist anders geregelt, z. B. beim Kauf nach OR 185 (OR 119 III)",
+    "Sie bleibt immer geschuldet, weil sie noch möglich ist",
+    "Der Schuldner der unmöglichen Leistung muss Schadenersatz zahlen",
+    "Der Vertrag bleibt in der Schwebe, bis ein Ersatzgegenstand gefunden ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die unmöglich gewordene Schuld erlischt (OR 119 I), und die Gegenpartei wird von ihrer Leistung befreit (OR 119 II). Beim Kauf geht die Gefahr aber nach OR 185 grundsätzlich schon mit Vertragsabschluss auf den Käufer über — er muss dann trotzdem zahlen.",
+   "kern": true,
+   "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung"
   }
  ]
 }

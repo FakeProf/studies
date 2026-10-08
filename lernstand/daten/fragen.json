@@ -1,6 +1,6 @@
 {
  "version": 1,
- "stand": "2026-10-02",
+ "stand": "2026-10-08",
  "quelle": "Obsidian-Vault \"02 Zusammenfassungen\", OST HS2026",
  "fragen": [
   {
@@ -252,6 +252,27 @@
    "kern": true
   },
   {
+   "id": "OGPM-W1-12-MC",
+   "modul": "OGPM",
+   "woche": 1,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kritische Erfolgsfaktoren für BPR- und GPM-Projekte darlegen",
+   "frage": "Was bezeichnet Business Process Reengineering (BPR)?",
+   "optionen": [
+    "Das grundlegende Umdenken und radikale Umgestalten von Geschäftsprozessen, um dramatische Verbesserungen bei Kosten, Qualität, Dienstleistung und Geschwindigkeit zu erreichen",
+    "Das schrittweise Verbessern bestehender Geschäftsprozesse in kleinen, wiederkehrenden Zyklen durch die Mitarbeitenden vor Ort, um Qualität und Durchlaufzeit stetig zu steigern",
+    "Das Abbilden bestehender Geschäftsprozesse in Modellen, um Schwachstellen, Medienbrüche und Engpässe sichtbar zu machen und zu dokumentieren",
+    "Das Übertragen nicht wertschöpfender Geschäftsprozesse an spezialisierte Dienstleister, um Kosten zu senken und eigene Kapazitäten freizusetzen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Definition stammt von Hammer und Champy. Entscheidend sind die beiden Wörter grundlegend und radikal — BPR setzt den Prozess neu auf, statt ihn zu verbessern. Die zweite Option beschreibt den kontinuierlichen Verbesserungsprozess, die dritte die Prozessanalyse, die vierte Outsourcing.",
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": true
+  },
+  {
    "id": "OGPM-W1-13",
    "modul": "OGPM",
    "woche": 1,
@@ -326,6 +347,27 @@
    "frage": "Wie lauten Bill Gates' zwei Regeln zur Automatisierung?",
    "antwort": "Die Automatisierung eines effizienten Prozesses erhöht die Effizienz. Die Automatisierung eines ineffizienten Prozesses erhöht die Ineffizienz.",
    "erklaerung": "Daraus folgt die Wirkkette des Moduls: Informationstechnologie ENABLES Prozessveränderungen, die Business Value LIEFERN. Die IT erzeugt den Wert also nicht selbst — deshalb die Leitfrage der Vorlesung: Kann gute Software allein einen schlechten Prozess retten?",
+   "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W1-16-MC",
+   "modul": "OGPM",
+   "woche": 1,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "IT als Enabler einordnen",
+   "frage": "Was bewirkt Automatisierung für die Effizienz eines Prozesses?",
+   "optionen": [
+    "Die Automatisierung eines effizienten Prozesses erhöht die Effizienz; die Automatisierung eines ineffizienten Prozesses erhöht die Ineffizienz",
+    "Die Automatisierung eines Prozesses senkt dessen Durchlaufzeit; die Automatisierung einer Entscheidung senkt deren Qualität und Nachvollziehbarkeit",
+    "Die Automatisierung lohnt sich ab hoher Fallzahl; bei geringer Fallzahl überwiegt der Aufwand für Einführung und Pflege",
+    "Die Automatisierung ersetzt die Prozessanalyse, weil die Software den fachlich sinnvollen Ablauf bereits vorgibt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die beiden Sätze gehen auf Bill Gates zurück. Daraus folgt die Wirkkette des Moduls: Informationstechnologie ermöglicht Prozessveränderungen, die den Geschäftsnutzen liefern — die IT erzeugt den Wert also nicht selbst. Gute Software rettet keinen schlechten Prozess, sie beschleunigt ihn nur.",
    "quelle": "OGPM LB1 - Einführung in das Geschäftsprozessmanagement",
    "kern": false
   },
@@ -1193,6 +1235,28 @@
    "kern": true
   },
   {
+   "id": "GENE-POL-W1-01-MC",
+   "modul": "GENE",
+   "woche": 1,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Den Begriff der Politik definieren",
+   "frage": "Worauf zielt politisches Handeln ab?",
+   "optionen": [
+    "Allgemein verbindliche Regelungen und Entscheidungen herzustellen und durchzusetzen — innerhalb von und zwischen Gruppen von Menschen",
+    "Die Mehrheitsmeinung einer Bevölkerung zu ermitteln und sie anschliessend über die zuständigen Organe in staatliches Recht zu überführen",
+    "Knappe Güter über Märkte und Preise zwischen Gruppen von Menschen möglichst wohlfahrtsoptimal zu verteilen",
+    "Staatliche Institutionen zu verwalten und ihre Haushalte nach den geltenden Vorschriften zu führen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Nach Patzelt. Im Detail wichtig: Entscheidungen meinen die Verbindlichkeit im Einzelfall, Regelungen dagegen ganze Klassen von Fällen. Allgemeine Verbindlichkeit funktioniert über Macht — deshalb reicht blosses Ermitteln einer Mehrheitsmeinung nicht aus.",
+   "quelle": "GENE Politik 01 - Demokratie 1 Grundlagen",
+   "kern": true
+  },
+  {
    "id": "GENE-POL-W1-02",
    "modul": "GENE",
    "woche": 1,
@@ -1831,6 +1895,28 @@
    "kern": true
   },
   {
+   "id": "GENE-WG-W1-02-MC",
+   "modul": "GENE",
+   "woche": 1,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Nachhaltigkeit und nachhaltige Entwicklung kritisch betrachten",
+   "frage": "Was bedeutet nachhaltige Entwicklung?",
+   "optionen": [
+    "Eine Entwicklung, die die Bedürfnisse der Gegenwart befriedigt, ohne zu riskieren, dass künftige Generationen ihre eigenen Bedürfnisse nicht befriedigen können",
+    "Ein Zustand, in dem von den Zinsen des Naturkapitals gelebt wird und dessen Substanz über die Zeit unangetastet erhalten bleibt",
+    "Eine Entwicklung, die ökologische Zielsetzungen den wirtschaftlichen und den sozialen ausdrücklich voranstellt, wo diese drei Dimensionen miteinander in Konflikt geraten",
+    "Eine Entwicklung, die das Wachstum der Wirtschaft an das Wachstum der Bevölkerung koppelt und beide damit im Gleichgewicht hält"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Formulierung stammt aus dem Brundtlandbericht von 1987. Die zweite Option ist die Falle: Sie beschreibt Nachhaltigkeit — den angestrebten Zustand. Der Weg dorthin heisst nachhaltige Entwicklung.",
+   "quelle": "GENE WG 01 - Einführung Nachhaltige Entwicklung",
+   "kern": true
+  },
+  {
    "id": "GENE-WG-W1-03",
    "modul": "GENE",
    "woche": 1,
@@ -2236,6 +2322,28 @@
    "kern": false
   },
   {
+   "id": "GENE-WG-W1-20-MC",
+   "modul": "GENE",
+   "woche": 1,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Umweltökonomie: externe Kosten und Internalisierung erklären",
+   "frage": "Was beschreibt das Allmende-Problem?",
+   "optionen": [
+    "Ein frei zugängliches Gemeingut wird übernutzt, weil individuelle Zurückhaltung nur den übrigen Nutzern zugutekommt; erst die Reglementierung des Zugangs ermöglicht nachhaltige Nutzung",
+    "Ein öffentliches Gut wird zu knapp bereitgestellt, weil die Kosten seiner Bereitstellung die privaten Erträge übersteigen und deshalb niemand freiwillig in seine Bereitstellung und Erhaltung investiert",
+    "Ein knappes Gut wird fehlverteilt, weil der Preis die tatsächliche Zahlungsbereitschaft der Nutzer nicht abbildet und der Markt insoweit versagt",
+    "Ein Umweltschaden bleibt unbezahlt, weil er dem Verursacher nicht zugerechnet wird und deshalb nicht in dessen Kostenrechnung eingeht"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Klassische Illustration der Übernutzung öffentlicher Güter: Trieben alle Bauern so viel Vieh wie möglich auf die gemeinsame Weide, wuchs bald zu wenig Gras. Heutiges Beispiel ist die Überfischung der Weltmeere. Die vierte Option beschreibt externe Kosten — verwandt, aber nicht dasselbe.",
+   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie",
+   "kern": false
+  },
+  {
    "id": "GENE-WG-W1-21",
    "modul": "GENE",
    "woche": 1,
@@ -2334,6 +2442,28 @@
    "frage": "Was bedeutet Internalisierung externer Kosten — und was bedeutet sie ausdrücklich nicht?",
    "antwort": "Die Umweltschäden werden in Geld bewertet und dem Verursacher verrechnet, sodass die Kosten nicht mehr extern sind. Sie ist ausdrücklich keine Bestrafung — beabsichtigt ist, die Entscheidungsbedingungen so zu verändern, dass alle Kosten der Produktion und des Verbrauchs berücksichtigt werden.",
    "erklaerung": "Das Ziel heisst Kostenwahrheit: der Einbezug aller Kosten. Mittelfristig führen erhöhte Preise bei elastischer Nachfrage zu rückläufiger Nachfrage; danach entwickeln Unternehmen umweltschonende Produkte. Bei unelastischer Nachfrage wie bei Treibstoffen reagieren Konsumierende allerdings nur langsam.",
+   "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W1-25-MC",
+   "modul": "GENE",
+   "woche": 1,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Umweltökonomie: externe Kosten und Internalisierung erklären",
+   "frage": "Was ist mit der Internalisierung externer Kosten beabsichtigt?",
+   "optionen": [
+    "Umweltschäden werden in Geld bewertet und dem Verursacher verrechnet, damit alle Kosten in seine Entscheidung eingehen — eine Bestrafung ist ausdrücklich nicht gemeint",
+    "Umweltschäden werden in Geld bewertet und dem Verursacher als Busse auferlegt, damit umweltschädliche Produktion spürbar sanktioniert und für ihn dauerhaft unattraktiv wird",
+    "Umweltschäden werden in Geld bewertet und aus Steuermitteln beglichen, damit die Preise für die Konsumierenden stabil bleiben",
+    "Umweltschäden werden in Geld bewertet und als Rückstellung ausgewiesen, damit künftige Sanierungen bilanziell gedeckt sind"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Das Ziel heisst Kostenwahrheit — der Einbezug aller Kosten, nicht die Sanktion. Mittelfristig führen höhere Preise bei elastischer Nachfrage zu rückläufiger Nachfrage, worauf Unternehmen umweltschonendere Produkte entwickeln. Bei unelastischer Nachfrage wie bei Treibstoffen reagieren Konsumierende dagegen nur langsam.",
    "quelle": "GENE WG 01 - Compendio Wirtschaft und Ökologie",
    "kern": true
   },
@@ -2550,6 +2680,28 @@
    "frage": "Was sind die Terms of Trade?",
    "antwort": "Das Austauschverhältnis aus Exportgüterpreisniveau und Importgüterpreisniveau — also wie viel Menge eines Exportgutes man braucht, um ein Importgut zu kaufen.",
    "erklaerung": "Das Rechenbeispiel: 2000 kostet ein deutsches Auto 15 000 Euro, brasilianischer Kaffee 1 Euro/kg — also 15 000 kg Kaffee für ein Auto. 2015 kostet das Auto 20 000 Euro und der Kaffee nur noch 0,90 Euro/kg — Brasilien braucht jetzt 22 222 kg Kaffee. Eine wesentliche Verschlechterung der Terms of Trade.",
+   "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W2-04-MC",
+   "modul": "GENE",
+   "woche": 2,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Terms of Trade und Prebisch-Singer-Hypothese beurteilen",
+   "frage": "Was bezeichnen die Terms of Trade?",
+   "optionen": [
+    "Das Verhältnis von Exportgüterpreisniveau zu Importgüterpreisniveau — also wie viel Menge eines Exportgutes nötig ist, um ein Importgut zu bezahlen",
+    "Das Verhältnis von Exportvolumen zu Importvolumen — also wie viele Güter ein Land ausführt, gemessen an den eingeführten Mengen",
+    "Das Verhältnis von Handelsbilanz zu Leistungsbilanz — also wie stark Dienstleistungen und Kapitalerträge den reinen Warenhandel eines Landes ausgleichen",
+    "Das Verhältnis von Zolleinnahmen zu Handelsvolumen — also wie stark ein Land seinen Aussenhandel tariflich belastet"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Entscheidend ist, dass Preise ins Verhältnis gesetzt werden, nicht Mengen. Rechenbeispiel: Kostet ein Auto 15 000 Euro und Kaffee 1 Euro/kg, sind das 15 000 kg Kaffee je Auto. Steigt das Auto auf 20 000 Euro und fällt der Kaffee auf 0.90 Euro/kg, sind es 22 222 kg — eine deutliche Verschlechterung der Terms of Trade.",
    "quelle": "GENE WG 02 - Globalisierung 1 Internationale Arbeitsteilung",
    "kern": true
   },
@@ -3206,6 +3358,27 @@
    "kern": true
   },
   {
+   "id": "SYMG-W0-05-MC",
+   "modul": "SYMG",
+   "woche": 0,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Die Methodik des vernetzten Denkens anwenden",
+   "frage": "Ein Glas mit Wasser füllen — warum ist das aus systemischer Sicht ein Rückkopplungsprozess?",
+   "optionen": [
+    "Weil «ich fülle das Glas» nur die Hälfte beschreibt; die andere Hälfte lautet: Der Wasserpegel im Glas steuert meine Hand",
+    "Weil «ich fülle das Glas» den Vorgang vollständig beschreibt; die Rückkopplung ist nur eine Frage der Darstellung",
+    "Weil «ich fülle das Glas» ein linearer Vorgang ist; Rückkopplungen entstehen erst, sobald mehrere Personen beteiligt sind",
+    "Weil «ich fülle das Glas» zeigt, dass sich jedes System auf zwei Grössen reduzieren lässt: den Zielwert und den Istwert"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Das Beispiel stammt von Peter Senge. Die fünf Variablen sind gewünschter Wasserpegel, aktueller Wasserstand, die Lücke dazwischen, Stellung des Hahns und Wasserfluss. Unsere Sprache begünstigt mit Subjekt-Prädikat-Objekt lineares Denken; systemisch betrachtet ist der Mensch Teil des Regelkreises, nicht davon getrennt.",
+   "quelle": "SYMG 00 - Vorbereitungsauftrag Einführungstag (Systemdenken)",
+   "kern": true
+  },
+  {
    "id": "SYMG-W0-06",
    "modul": "SYMG",
    "woche": 0,
@@ -3394,6 +3567,27 @@
    "kern": true
   },
   {
+   "id": "SYMG-W1-01-MC",
+   "modul": "SYMG",
+   "woche": 1,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Systemorientierte Managementlehre und Anspruchsgruppen verstehen",
+   "frage": "Was macht systemisches Management aus?",
+   "optionen": [
+    "Die Fähigkeit von Führungspersonen, dank fundiertem Verständnis der Zusammenhänge ihre Ziele zur gewünschten Zeit, wirksam und mit geringem Aufwand zu erreichen",
+    "Die Entwicklung, Gestaltung und Lenkung komplexer sozialer Systeme, verstanden als ständige Daueraufgabe der dafür verantwortlichen obersten Führungspersonen eines Unternehmens",
+    "Die Steuerung eines Unternehmens über ein Kennzahlensystem, das finanzielle und nichtfinanzielle Grössen ausgewogen nebeneinanderstellt",
+    "Die Zerlegung komplexer Führungsprobleme in voneinander unabhängige Teilprobleme, die nacheinander und je für sich gelöst werden"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Drei Voraussetzungen stecken darin: das vertiefte Wissen um die Zusammenhänge (die Erfolgslogik), das Bestimmen zweckmässiger Ziel- und Steuergrössen bei gleichzeitiger Beobachtung der Rahmenbedingungen (das Management-Cockpit) und die Implementation über Massnahmen, die auf Zielwerte ausgerichtet sind. Die zweite Option ist die Definition von Management nach Hans Ulrich.",
+   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln",
+   "kern": true
+  },
+  {
    "id": "SYMG-W1-02",
    "modul": "SYMG",
    "woche": 1,
@@ -3469,6 +3663,27 @@
    "frage": "Wie definiert Hans Ulrich Management?",
    "antwort": "Management ist die Entwicklung, Gestaltung und Lenkung von komplexen, sozialen Systemen.",
    "erklaerung": "Das Unternehmen ist ein komplexes soziales System und zugleich zweckgerichtet — die Kapitalgeber erwarten einen ROI. Hans Ulrich ist der Vater des St. Galler Management-Modells, das er 1972 zusammen mit Walter Krieg veröffentlichte.",
+   "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W1-05-MC",
+   "modul": "SYMG",
+   "woche": 1,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Systemorientierte Managementlehre und Anspruchsgruppen verstehen",
+   "frage": "Was umfasst Management in der systemorientierten Managementlehre?",
+   "optionen": [
+    "Die Entwicklung, Gestaltung und Lenkung von komplexen, sozialen Systemen",
+    "Die Planung, Organisation, Führung und Kontrolle betrieblicher Ressourcen",
+    "Die Steigerung des Unternehmenswerts im Interesse der Kapitalgeber",
+    "Die Fähigkeit, Ziele wirksam und mit geringem Aufwand zu erreichen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Definition stammt von Hans Ulrich, dem Vater des St. Galler Management-Modells (1972, mit Walter Krieg). Das Unternehmen ist ein komplexes soziales System und zugleich zweckgerichtet — die Kapitalgeber erwarten eine Rendite. Die zweite Option ist die klassische Managementlehre, die vierte die Definition von systemischem Management.",
    "quelle": "SYMG LB1 - Unternehmerisches Denken und Handeln",
    "kern": true
   },
@@ -4236,6 +4451,27 @@
    "kern": true
   },
   {
+   "id": "VHRE-W1-06-MC",
+   "modul": "VHRE",
+   "woche": 1,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Rechtliche Grundbegriffe definieren",
+   "frage": "Wie lautet die Leitfrage der Anspruchsmethode?",
+   "optionen": [
+    "Wer will was von wem auf welcher Rechtsgrundlage?",
+    "Wer schuldet wem was aus welchem Vertragstyp?",
+    "Wer hat wann gegen welche Pflicht verstossen?",
+    "Wer trägt die Beweislast für welche Tatsache?"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Frage strukturiert jede Falllösung in vier Prüfungsschritte: Anspruchsteller, Anspruchsinhalt, Anspruchsgegner und Anspruchsgrundlage. Die übrigen Fragen sind im Einzelfall nützlich, aber keine vollständige Prüfungsordnung.",
+   "quelle": "VHRE VL1 - Einführung ins Privatrecht und Zustandekommen des Vertrages",
+   "kern": true
+  },
+  {
    "id": "VHRE-W1-07",
    "modul": "VHRE",
    "woche": 1,
@@ -4889,6 +5125,27 @@
    "frage": "Wie lautet Metzgers Satzmuster für Thema, Forschungsfrage und Begründung?",
    "antwort": "Ich untersuche … weil ich herausfinden will, wer/was/wann/wo/wie/warum/ob … damit die Leser besser verstehen, warum/wie/ob …",
    "erklaerung": "Das Muster erzwingt genau die drei Teile: spezifisches Thema formulieren (Worum geht es?), klare Forschungsfrage formulieren (Was will ich herausfinden?) und die Berechtigung der Forschungsfrage begründen (Warum ist sie für die Leser relevant?).",
+   "quelle": "WSA1 - Metzger zur Forschungsfrage",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W1-04-MC",
+   "modul": "WSA1",
+   "woche": 1,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Eine gute Forschungsfrage entwickeln und begründen",
+   "frage": "Welche drei Teile gehören in die Herleitung einer Forschungsfrage?",
+   "optionen": [
+    "Thema, Forschungsfrage und die Begründung ihrer Relevanz für die Leser",
+    "Problemstellung, Zielsetzung und die Abgrenzung des Untersuchungsfelds",
+    "Hypothese, Methode und das erwartete Ergebnis der Untersuchung",
+    "Titel, Fragestellung und der Aufbau der folgenden Kapitel"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Das Satzmuster nach Metzger erzwingt genau diese drei: «Ich untersuche … weil ich herausfinden will, wer/was/wann/wo/wie/warum/ob … damit die Leser besser verstehen, warum/wie/ob …» Der dritte Teil ist der, der am häufigsten fehlt.",
    "quelle": "WSA1 - Metzger zur Forschungsfrage",
    "kern": true
   },
@@ -5818,6 +6075,27 @@
    "quelle": "SYMG LB2 - Strategische Unternehmensführung"
   },
   {
+   "id": "SYMG-W2-20-MC",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die strategische Erfolgslogik als Wirkungsnetzwerk verstehen",
+   "frage": "Was besagt das Gesetz der Erfahrungskurve?",
+   "optionen": [
+    "Mit jeder Verdopplung der kumulierten Produktionsmenge sinken die Stückkosten der Wertschöpfung um einen konstanten Prozentsatz, meist 20 bis 30 Prozent",
+    "Mit jeder Verdopplung der jährlichen Produktionsmenge sinken die Fixkosten je Stück um einen konstanten Betrag, meist 20 bis 30 Prozent",
+    "Mit jedem zusätzlichen Jahr am Markt sinken die Stückkosten um einen konstanten Prozentsatz, solange die eingesetzte Fertigungstechnologie unverändert bleibt",
+    "Mit jeder Verdopplung des Marktanteils steigt die Umsatzrendite um einen konstanten Prozentsatz, meist 20 bis 30 Prozent"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Zwei Details entscheiden: Es geht um die kumulierte Menge, nicht die jährliche, und um die Stückkosten der Wertschöpfung. Verantwortlich sind neben Grössenvorteilen vor allem Lern- und Erfahrungseffekte. Wichtig ist der Zusatz: Die Kostenreduktion stellt sich nicht automatisch ein — sie ist ein Potenzial, das durch geeignete Massnahmen erst realisiert werden muss.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung",
+   "kern": true
+  },
+  {
    "id": "SYMG-W2-21",
    "modul": "SYMG",
    "woche": 2,
@@ -6255,6 +6533,27 @@
    "quelle": "SYMG LB2 - Strategische Unternehmensführung"
   },
   {
+   "id": "SYMG-W2-38-MC",
+   "modul": "SYMG",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Das Konzept der Balanced Scorecard verstehen",
+   "frage": "Was ist die Balanced Scorecard im Kern?",
+   "optionen": [
+    "Die in Zielen und Aktionen ausgedrückte Strategie des Unternehmens",
+    "Ein Kennzahlensystem aus vier gleich gewichteten Perspektiven",
+    "Ein Berichtswesen, das Soll und Ist je Quartal gegenüberstellt",
+    "Ein Verfahren, um Investitionen nach Rendite und Risiko zu ordnen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Definition stammt von Kaplan und Norton; der Untertitel ihres Buchs bringt es auf den Punkt: «Translating Strategy into Action». Die Scorecard ist also kein Kennzahlensystem neben der Strategie, sondern die Strategie selbst in messbarer Form. Merksatz der Vorlesung: What gets measured gets done.",
+   "quelle": "SYMG LB2 - Strategische Unternehmensführung",
+   "kern": true
+  },
+  {
    "id": "SYMG-W2-39",
    "modul": "SYMG",
    "woche": 2,
@@ -6481,6 +6780,27 @@
    "frage": "Wofür stehen die Buchstaben S, M, A, R, T?",
    "antwort": "Specific (clearly defined), Measurable (quantifiable to track progress), Achievable/Attainable (realistic), Relevant (aligned with broader objectives), Time-bound (has a deadline).",
    "erklaerung": "Im Worksheet-Text heisst A attainable, auf den Folien achievable; beide meinen realistisch erreichbar.",
+   "quelle": "EPC1 Unit 1 - Goal Setting and Self-Management",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W2-01-MC",
+   "modul": "EPC1",
+   "woche": 2,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "SMART-Ziele formulieren und beurteilen",
+   "frage": "Wofür stehen die Buchstaben in SMART?",
+   "optionen": [
+    "Specific, Measurable, Achievable, Relevant, Time-bound",
+    "Specific, Motivating, Accountable, Reviewed, Transparent",
+    "Strategic, Measurable, Agreed, Realistic, Tracked",
+    "Simple, Meaningful, Ambitious, Rewarding, Timely"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "A steht je nach Vorlage für achievable oder attainable — beide meinen realistisch erreichbar. Relevant heisst: auf übergeordnete Ziele ausgerichtet; time-bound: mit einer Frist versehen.",
    "quelle": "EPC1 Unit 1 - Goal Setting and Self-Management",
    "kern": true
   },
@@ -6775,6 +7095,27 @@
    "kern": true
   },
   {
+   "id": "EPC1-W3-01-MC",
+   "modul": "EPC1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Teamwork, Leadership und Emotional Intelligence erklären",
+   "frage": "Wodurch erhöht Teamwork die Kreativität einer Gruppe?",
+   "optionen": [
+    "Durch das Bündeln von Ideen: unterschiedliche Fähigkeiten und Perspektiven heben die collective intelligence der Gruppe",
+    "Durch klare Arbeitsteilung: jedes Mitglied vertieft sich in seine Stärke und liefert dort überdurchschnittliche Ergebnisse",
+    "Durch internen Wettbewerb: der Vergleich mit den übrigen Mitgliedern hebt die Leistung jeder einzelnen Person",
+    "Durch flache Hierarchien: kurze Entscheidungswege lassen Vorschläge schneller in die Umsetzung gelangen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Der Fachbegriff ist pooling of ideas. Zusätzlich schafft Teamwork ownership und accountability, was Motivation und gegenseitige Unterstützung fördert. Die übrigen Optionen nennen echte Vorteile von Organisationsformen — aber keine, die auf Kreativität zielen.",
+   "quelle": "EPC1 Unit 2 - Teamwork and Leadership",
+   "kern": true
+  },
+  {
    "id": "EPC1-W3-02",
    "modul": "EPC1",
    "woche": 3,
@@ -6828,6 +7169,27 @@
    "frage": "Was bedeutet 'symbiotic' im Verhältnis von Teamwork und Leadership?",
    "antwort": "Beide sind gegenseitig voneinander abhängig und profitieren voneinander: Teamwork gedeiht unter guter Führung, Führung ist auf die Zusammenarbeit im Team angewiesen.",
    "erklaerung": "Leader müssen dem Team vertrauen und delegieren, das Team muss der Vision des Leaders vertrauen.",
+   "quelle": "EPC1 Unit 2 - Teamwork and Leadership",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W3-04-MC",
+   "modul": "EPC1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Teamwork, Leadership und Emotional Intelligence erklären",
+   "frage": "Was heisst es, dass Teamwork und Leadership in einem symbiotischen Verhältnis stehen?",
+   "optionen": [
+    "Beide hängen voneinander ab und profitieren voneinander: Teamwork gedeiht unter guter Führung, Führung ist auf das Team angewiesen",
+    "Beide ersetzen einander je nach Lage: Wo die Führung stark auftritt, tritt das Teamwork zurück — und in ihrer Abwesenheit umgekehrt",
+    "Beide stehen in Spannung zueinander: Je stärker geführt wird, desto weniger Eigeninitiative entwickelt ein Team mit der Zeit",
+    "Beide entstehen unabhängig voneinander: Ein eingespieltes Team braucht keine Führung, eine gute Führung kein Team"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Symbiotisch heisst gegenseitig nützlich, nicht austauschbar. Konkret: Leader müssen dem Team vertrauen und delegieren, das Team muss der Vision des Leaders vertrauen.",
    "quelle": "EPC1 Unit 2 - Teamwork and Leadership",
    "kern": false
   },
@@ -7224,6 +7586,27 @@
    "kern": true
   },
   {
+   "id": "EPC1-W7-06-MC",
+   "modul": "EPC1",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Sachtexte kritisch lesen und beurteilen",
+   "frage": "Was kennzeichnet kritisches Denken?",
+   "optionen": [
+    "Clear, rational, logical and independent thinking: das eigene Denken analysieren, bewerten und neu aufbauen — selbstreguliert und frei von bias",
+    "Careful, sceptical reading: fremde Argumente systematisch auf Widersprüche und Lücken prüfen und die eigene Position konsequent dagegen behaupten",
+    "Evidence-based reasoning: möglichst viele Quellen zusammentragen und erst danach eine eigene Meinung zur Sache bilden",
+    "Structured problem solving: ein Problem in Teilfragen zerlegen und diese anschliessend der Reihe nach beantworten"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Der Kern ist, dass sich das Denken auf sich selbst richtet — es ist selbstreguliert und selbstkorrigierend, auch gegenüber eigenen egozentrischen Tendenzen. Die Übung Fact or Opinion macht es praktisch: Ein Fakt lässt sich beweisen, eine Meinung nicht.",
+   "quelle": "EPC1 Unit 3 - Critical Thinking and Innovation",
+   "kern": true
+  },
+  {
    "id": "EPC1-W7-07",
    "modul": "EPC1",
    "woche": 7,
@@ -7328,6 +7711,27 @@
    "frage": "Was ist Prozessidentifikation und aus welchen zwei Methoden besteht sie?",
    "antwort": "Managementaktivitäten, die die relevanten Geschäftsprozesse eines Unternehmens systematisch definieren (Methode 1: Definition der Prozessarchitektur) und Kriterien festlegen, welche Prozesse priorisiert werden (Methode 2: Prozessauswahl).",
    "erklaerung": "Priorisiert wird, was strategisch bedeutend und/oder erheblich verbesserungsbedürftig ist. Es ist die erste Phase des BPM-Lebenszyklus.",
+   "quelle": "OGPM LB2 - Prozessidentifikation",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W3-01-MC",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozesse identifizieren und ihre Bestandteile klassifizieren",
+   "frage": "Aus welchen zwei Methoden besteht die Prozessidentifikation?",
+   "optionen": [
+    "Definition der Prozessarchitektur und Prozessauswahl nach strategischer Bedeutung und Verbesserungsbedarf",
+    "Erhebung der Prozesslandkarte und Priorisierung der Prozesse nach gemessener Durchlaufzeit und Fehlerquote",
+    "Modellierung der Ist-Prozesse und Analyse ihrer Schwachstellen anhand erhobener Prozesskennzahlen",
+    "Dokumentation der bestehenden Prozesse und formale Freigabe durch die zuständigen Prozessverantwortlichen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Prozessidentifikation ist die erste Phase des BPM-Lebenszyklus. Priorisiert wird, was strategisch bedeutend und/oder erheblich verbesserungsbedürftig ist — nicht, was die schlechtesten Messwerte hat. Die dritte Option beschreibt die späteren Phasen Modellierung und Analyse.",
    "quelle": "OGPM LB2 - Prozessidentifikation",
    "kern": true
   },
@@ -7656,6 +8060,27 @@
    "kern": true
   },
   {
+   "id": "OGPM-W3-15-MC",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Prozesse auswählen, Kennzahlen definieren und Prozessportfolio erstellen",
+   "frage": "Woraus setzt sich die Cycle Time eines Prozesses zusammen?",
+   "optionen": [
+    "Aus Processing Time und Waiting Time — also der tatsächlichen Bearbeitung und dem Liegen des Case",
+    "Aus Processing Time und Setup Time — also der tatsächlichen Bearbeitung und dem Rüsten der Ressource",
+    "Aus Processing Time und Idle Time — also der tatsächlichen Bearbeitung und dem Leerlauf der Ressource",
+    "Aus Waiting Time und Transport Time — also dem Liegen und dem Weitergeben des Case zwischen Stellen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Cycle Time heisst auch Throughput Time: die Zeit für einen Case von Anfang bis Ende. Die Waiting Time zerfällt weiter in Queueing Time (es fehlt eine Ressource) und das Warten auf Synchronisation oder externe Inputs. Idle Time beschreibt die untätige Ressource, nicht den wartenden Case — das ist die häufigste Verwechslung.",
+   "quelle": "OGPM - Dumas Kapitel 2",
+   "kern": true
+  },
+  {
    "id": "OGPM-W3-16",
    "modul": "OGPM",
    "woche": 3,
@@ -7907,6 +8332,27 @@
    "kern": false
   },
   {
+   "id": "OGPM-W3-27-MC",
+   "modul": "OGPM",
+   "woche": 3,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Prozessarchitektur und Prozesslandkarte erstellen",
+   "frage": "Wie hängt man in Signavio ein BPMN-Modell unter ein Element der Prozesslandkarte?",
+   "optionen": [
+    "Auf der Landkarte das Element «Zugeklappter Prozess» setzen und über das «+» das untergeordnete Diagramm wählen oder neu anlegen",
+    "Auf der Landkarte das Element «Teilprozess» setzen und über das Kontextmenü «Verknüpfung erstellen» das Zieldiagramm auswählen",
+    "Im BPMN-Modell ein Startereignis setzen und darin die übergeordnete Prozesslandkarte als Referenz hinterlegen",
+    "Beide Diagramme in denselben Ordner legen; Signavio verknüpft gleichnamige Modelle beim Speichern selbsttätig"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beim Anlegen des untergeordneten Diagramms zuerst «BPMN (Vollständig)» wählen, sonst fehlen Modellierungselemente. So entsteht die Ebene 2 unter der Landkarte.",
+   "quelle": "OGPM LB2 - Übungen zur Prozessidentifikation",
+   "kern": false
+  },
+  {
    "id": "SYMG-W3-01",
    "modul": "SYMG",
    "woche": 3,
@@ -7966,6 +8412,27 @@
    "frage": "Was bestimmt laut Porter die mittel- und langfristige Profitabilität einer Branche?",
    "antwort": "Allein die Branchenstruktur, abgebildet durch die fünf Wettbewerbskräfte. Kurzfristig wirken auch Wetter oder Konjunktur.",
    "erklaerung": "Viele Manager sehen Wettbewerb zu eng als direkte Konkurrenz. Kodak und Fuji verloren ihre Profite an ein Substitut, nicht an Rivalen.",
+   "quelle": "SYMG LB2 - Porter Die Wettbewerbskräfte neu betrachtet",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W3-03-MC",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
+   "frage": "Was bestimmt die mittel- und langfristige Profitabilität einer Branche?",
+   "optionen": [
+    "Allein die Branchenstruktur, abgebildet durch die fünf Wettbewerbskräfte",
+    "Vor allem die Zahl und Stärke der direkten Konkurrenten in der Branche",
+    "Vor allem die Konjunktur und äussere Einflüsse wie Wetter und Wechselkurs",
+    "Vor allem die Innovationskraft der grössten Anbieter einer Branche"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Nach Porter. Die zweite Option ist der verbreitete Denkfehler: Wettbewerb zu eng als direkte Konkurrenz zu sehen. Kodak und Fuji verloren ihre Profite an ein Substitut, nicht an Rivalen. Konjunktur und Wetter wirken kurzfristig, nicht mittel- und langfristig.",
    "quelle": "SYMG LB2 - Porter Die Wettbewerbskräfte neu betrachtet",
    "kern": true
   },
@@ -8358,6 +8825,27 @@
    "kern": true
   },
   {
+   "id": "SYMG-W3-21-MC",
+   "modul": "SYMG",
+   "woche": 3,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Wertorientiertes Management einordnen",
+   "frage": "Welcher Ansatz tritt an die Stelle der reinen Shareholder-Value-Maximierung?",
+   "optionen": [
+    "Ein Hauptziel verfolgen — etwa die Kundenzufriedenheit — und für alles Übrige Mindest- oder Maximalanforderungen festlegen",
+    "Mehrere gleichrangige Ziele definieren und sie bei Zielkonflikten fallweise durch die Geschäftsleitung gegeneinander abwägen lassen",
+    "Alle Anspruchsgruppen gleich gewichten und ihre Interessen in einer Gesamtkennzahl zusammenführen, die quartalsweise berichtet wird",
+    "Den Shareholder Value als Hauptziel beibehalten und ihn um verbindliche Mindestrenditen für die Kapitalgeber ergänzen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Der Vorschlag stammt von Roger Martin. Beispiele für die Nebenbedingungen: Mitarbeitende gut behandeln, nachhaltig arbeiten, Gesetze einhalten, eine Rendite über den Kapitalkosten erzielen. Shareholder Value ist für ihn kein Ziel, sondern ein Nebenprodukt — wie das Glück bei Aristoteles.",
+   "quelle": "SYMG LB2 - Martin Vorsicht vor Vereinfachern (Stakeholder View)",
+   "kern": true
+  },
+  {
    "id": "SYMG-W3-22",
    "modul": "SYMG",
    "woche": 3,
@@ -8685,6 +9173,27 @@
    "kern": false
   },
   {
+   "id": "WSA1-W3-02-MC",
+   "modul": "WSA1",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Texte systematisch lesen und auswerten",
+   "frage": "Welche drei Arbeitsschritte machen aus einer Quelle einen verwendbaren Textbaustein?",
+   "optionen": [
+    "Exzerpieren, eigene Ideen notieren, beschlagworten",
+    "Überfliegen, markieren, wörtlich ins eigene Dokument abtippen",
+    "Suchen, auf Qualität prüfen, archivieren",
+    "Lesen, zusammenfassen, korrekt zitieren"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Exzerpiert wird in der Regel indirekt, nur selten als direktes Zitat. Der dritte Schritt ist der entscheidende: Ohne Schlagwort lässt sich der Baustein später nicht in die eigene Arbeit einfügen.",
+   "quelle": "WSA1 LB3 - SQ3R, Literaturauswertung und Abstract",
+   "kern": false
+  },
+  {
    "id": "WSA1-W3-03",
    "modul": "WSA1",
    "woche": 3,
@@ -8888,6 +9397,27 @@
    "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung"
   },
   {
+   "id": "VHRE-W3-03-MC",
+   "modul": "VHRE",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Vertragsinhalt und AGB beurteilen",
+   "frage": "Was sind Allgemeine Geschäftsbedingungen (AGB)?",
+   "optionen": [
+    "Einseitig und für eine Vielzahl von Verträgen eines Typs vorformulierte Vertragsbestimmungen mit privatem Charakter",
+    "Zwischen den Parteien einzeln ausgehandelte Nebenabreden, die dem Hauptvertrag als gesonderter Anhang beigefügt werden",
+    "Gesetzliche Mindestbestimmungen, die für bestimmte Vertragstypen zwingend und unabdingbar gelten",
+    "Branchenübliche Handelsbräuche, die unter Kaufleuten auch ohne ausdrückliche Vereinbarung gelten"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Zwei Merkmale zusammen: einseitig vorformuliert und für eine Vielzahl von Verträgen gedacht. AGB sind privat, keine Gesetze. Beispiele: Bank- und Versicherungsverträge, SIA-Normen, Mietverträge des Hauseigentümerverbandes, Nutzungsbestimmungen von Social-Media-Plattformen.",
+   "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung",
+   "kern": true
+  },
+  {
    "id": "VHRE-W3-04",
    "modul": "VHRE",
    "woche": 3,
@@ -8985,6 +9515,27 @@
    "antwort": "Wenn sie zu einer wesentlichen Änderung des Vertragscharakters führt oder erheblich aus dem gesetzlichen Rahmen des Vertragstypus fällt. Je stärker sie die Rechtsstellung des Vertragspartners beeinträchtigt, desto eher ist sie ungewöhnlich.",
    "erklaerung": "Folge: Die Klausel ist von der Globalübernahme ausgenommen, wenn die schwächere oder weniger geschäftserfahrene Partei nicht gesondert auf sie aufmerksam gemacht wurde. Beispiel: Versicherung darf Prämien jederzeit ohne Einverständnis anpassen.",
    "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung"
+  },
+  {
+   "id": "VHRE-W3-08-MC",
+   "modul": "VHRE",
+   "woche": 3,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Vertragsinhalt und AGB beurteilen",
+   "frage": "Wann gilt eine AGB-Klausel als ungewöhnlich?",
+   "optionen": [
+    "Wenn sie den Vertragscharakter wesentlich ändert oder erheblich aus dem gesetzlichen Rahmen des Vertragstypus fällt",
+    "Wenn sie von der schwächeren Partei nicht gesondert unterzeichnet und damit nicht ausdrücklich genehmigt wurde",
+    "Wenn sie im Vertragstext drucktechnisch hervorgehoben ist und dadurch besondere Aufmerksamkeit beansprucht",
+    "Wenn sie gegen zwingendes Recht verstösst oder nach Art. 20 OR als sittenwidrig zu beurteilen ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Je stärker die Klausel die Rechtsstellung des Vertragspartners beeinträchtigt, desto eher ist sie ungewöhnlich. Rechtsfolge: Sie ist von der Globalübernahme ausgenommen, wenn die schwächere oder weniger geschäftserfahrene Partei nicht gesondert auf sie aufmerksam gemacht wurde. Die vierte Option beschreibt die Nichtigkeit — ein anderer Prüfungspunkt.",
+   "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung",
+   "kern": false
   },
   {
    "id": "VHRE-W3-09",

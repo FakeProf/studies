@@ -844,6 +844,11 @@ function matchesFilter(q){
   if(filter.woche.size && !filter.woche.has(String(q.woche))) return false;
   if(filter.kategorie.size && !filter.kategorie.has(q.kategorie)) return false;
   if(filter.typ.size && !filter.typ.has(q.typ)) return false;
+  /* Karteikarten bewerten sich selbst — wer sich zu milde benotet, lernt
+   * nichts. Sie kommen deshalb nur, wenn man sie ausdrücklich wählt. Ihr
+   * Inhalt steckt zusätzlich in je einer Multiple-Choice-Frage (Kennung
+   * …-MC), die ganz normal mitläuft, damit nichts verlorengeht. */
+  if(!filter.typ.size && q.typ === "flash") return false;
   if(filter.lernziel && q.lernziel !== filter.lernziel) return false;
   if(filter.nurKern && !q.kern) return false;
   return true;
@@ -1238,6 +1243,8 @@ function renderModul(){
       ${startKachel("Nur Kernstoff",  "kein Kernstoff",    B({ nurKern:true }))}
       ${startKachel("Wo es klemmt",   "nichts offen",      B({ modus:"falsch" }))}
       ${startKachel("Noch nie geübt", "alles schon geübt", B({ modus:"neu" }))}
+      ${list.some(q=>q.typ==="flash")
+        ? startKachel("Karteikarten", "keine vorhanden", B({ typ:["flash"] })) : ""}
     </div>
   </section>
 

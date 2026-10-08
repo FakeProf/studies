@@ -340,3 +340,60 @@ sie an 25 gedachten Fällen — lückenlose Woche, eine Lücke, zwei Lücken in 
 Woche, je eine Lücke in zwei Wochen, Schwelle bei 9 und 10 Fragen, mehrere
 Runden am selben Tag, laufender Tag, freie Tage, Rekord nach einem Bruch und
 leerer Verlauf.
+
+## Karteikarten und ihre Zwillinge
+
+Karteikarten bewerten sich selbst — wer sich zu milde benotet, lernt nichts.
+Sie kommen deshalb **nur noch, wenn man sie ausdrücklich wählt**: über den
+Fragetyp im Filterblatt oder die Kachel „Karteikarten“ auf der Modulseite. In
+einer gewöhnlichen Runde tauchen sie nicht mehr auf.
+
+Damit der Stoff trotzdem im Standardpool bleibt, hat jede der 26 Karteikarten
+eine Multiple-Choice-Zwillingsfrage mit derselben Kennung plus `-MC`. Die
+Zwillinge tragen Lernziel, Woche, Kategorie und `kern`-Einstufung der Vorlage.
+
+Die Regel steckt in einer Zeile in `matchesFilter()`:
+
+```js
+if(!filter.typ.size && q.typ === "flash") return false;
+```
+
+## Qualität der Multiple-Choice-Fragen
+
+Zwei Mängel machen eine Frage wertlos, und beide lassen sich messen:
+
+**Der Längen-Verräter.** Ist die richtige Option die längste und konkreteste
+und sind die falschen kurz und vage, löst man die Frage ohne jedes Wissen. Bei
+vier Optionen wäre die Zufallserwartung 25 Prozent.
+
+**Der Quellenbezug im Fragetext.** Wer gefragt wird, was in einem bestimmten
+Dokument steht, lernt die Quelle statt der Sache. Benannte Begriffe sind davon
+ausgenommen — die Prebisch-Singer-Hypothese heisst nun einmal so. Gemeint sind
+Verweise auf das Dokument: „laut Compendio“, „im Reading-Text“, „Kapitel 2“.
+Die Zuschreibung gehört in die `erklaerung`, nicht in die `frage`.
+
+```bash
+node db/fragen-pruefen.mjs                    # den ganzen Pool
+node db/fragen-pruefen.mjs neue-fragen.json   # eine einzelne Liste
+```
+
+Stand bei der Einführung des Prüfskripts:
+
+| | Bestand (209 Fragen) | die 26 neuen |
+|---|---:|---:|
+| richtige Option ist die längste | 81 % | 15 % |
+| richtige >40 % länger als die falschen | 74 % | 0 % |
+| Quellenbezug im Fragetext | 15 % | 0 % |
+
+Der Bestand ist also noch nicht überarbeitet — die Zahlen oben sind die
+Messlatte dafür.
+
+### Wie man gute Ablenker schreibt
+
+- **Gleiche Länge, gleicher Satzbau.** Alle vier Optionen fangen gleich an und
+  sind etwa gleich lang; dann verrät die Form nichts.
+- **Jede falsche Option ist ein echter Nachbarbegriff** aus demselben Stoff —
+  die Definition eines anderen Autors, die benachbarte Phase, die verwandte
+  Kennzahl. Keine Platzhalter, keine offensichtlich absurden Varianten.
+- **Die häufigste Verwechslung gehört hinein.** Bei der Cycle Time etwa die
+  Idle Time: Sie beschreibt die untätige Ressource, nicht den wartenden Case.

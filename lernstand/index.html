@@ -1028,7 +1028,7 @@ function serienKarte(){
   const offen = Math.max(0, TAGESZIEL - s.heuteFragen);
   const satz = !s.heutePflicht
     ? (s.heuteFragen ? `Freier Tag — und trotzdem ${s.heuteFragen} Fragen.`
-                     : "Heute ist frei. Donnerstag und Freitag zählen nicht.")
+                     : "Heute ist frei.")
     : offen === 0 ? `Heute geschafft — ${s.heuteFragen} Fragen.`
                   : `Noch ${offen} von ${TAGESZIEL} Fragen für heute.`;
 

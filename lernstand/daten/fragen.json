@@ -5179,12 +5179,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Eine gute Forschungsfrage entwickeln und begründen",
-   "frage": "Woran erkennt man laut Booth, Colomb und Williams, dass ein Thema zu breit formuliert ist?",
+   "frage": "Woran erkennt man, dass ein Thema zu breit formuliert ist?",
    "optionen": [
     "Wenn man es in vier bis fünf Worte fassen kann — präzisieren lässt es sich durch Nomen oder Verben, die Aktionen oder Beziehungen ausdrücken",
-    "Wenn man mehr als zehn Quellen dazu findet",
-    "Wenn es keine Fragezeichen enthält",
-    "Wenn es in mehreren Fachgebieten vorkommt"
+    "Wenn sich dazu mehr als zehn brauchbare Quellen finden lassen und sich die Literaturlage dadurch als unübersichtlich und kaum eingrenzbar erweist",
+    "Wenn es keine Fragezeichen enthält und damit als Aussage statt als Frage formuliert ist",
+    "Wenn es in mehreren Fachgebieten gleichzeitig vorkommt und sich keinem eindeutig zuordnen lässt"
    ],
    "loesung": [
     0
@@ -5279,10 +5279,10 @@
    "lernziel": "Sprachmodelle reflektiert einsetzen",
    "frage": "Wie funktioniert ein Large Language Model im Kern?",
    "optionen": [
-    "Als statistisches Modell, das aus umfangreichen Textdaten Muster der Sprache erlernt und vorhersagt, welche sprachlichen Elemente wahrscheinlich als Nächstes auftreten",
-    "Als Datenbank, die passende Antworten aus gespeicherten Texten heraussucht",
-    "Als Regelsystem, das grammatikalische Regeln anwendet",
-    "Als neuronales Netz, das Fakten in einer Wissensdatenbank speichert"
+    "Als statistisches Modell, das aus Textdaten Muster der Sprache erlernt und vorhersagt, welche Elemente wahrscheinlich als Nächstes folgen",
+    "Als Datenbank, die zu jeder Anfrage die passende Antwort aus gespeicherten Texten heraussucht und sie anschliessend in eigenen Worten wiedergibt",
+    "Als Regelsystem, das die grammatikalischen Regeln einer Sprache anwendet und daraus Sätze bildet",
+    "Als neuronales Netz, das geprüfte Fakten in einer Wissensdatenbank ablegt und bei Bedarf abruft"
    ],
    "loesung": [
     0
@@ -5324,9 +5324,9 @@
    "frage": "Welche Formulierung vermeidet den Bestätigungsfehler?",
    "optionen": [
     "Welche Auswirkungen sozialer Medien auf die psychische Gesundheit von Jugendlichen zeigt die Forschung?",
-    "Warum verschlechtern soziale Medien die psychische Gesundheit von Jugendlichen?",
-    "Stimmt es, dass soziale Medien Jugendlichen schaden?",
-    "Belege mir, dass soziale Medien schädlich sind."
+    "Warum wirken sich soziale Medien nachweislich negativ auf die psychische Gesundheit von Jugendlichen aus?",
+    "Stimmt es, dass soziale Medien der psychischen Gesundheit von Jugendlichen schaden?",
+    "Belege mir mit Studien, dass soziale Medien für Jugendliche schädlich sind."
    ],
    "loesung": [
     0
@@ -5402,9 +5402,9 @@
    "frage": "Wie zitiert man nach APA7 im Text bei drei oder mehr Verfassenden?",
    "optionen": [
     "Sofort et al. — parenthetisch (Keller et al., 2013), narrativ Keller et al. (2013)",
-    "Beim ersten Mal alle Namen, danach et al.",
-    "Immer alle Namen nennen",
-    "Die ersten beiden Namen plus und andere"
+    "Beim ersten Mal alle Namen nennen, ab der zweiten Nennung dann nur noch der erste plus et al.",
+    "Immer alle Namen nennen, unabhängig von der Zahl der Verfassenden",
+    "Die ersten beiden Namen plus «und andere», sowohl narrativ als auch in der Klammer"
    ],
    "loesung": [
     0
@@ -5476,9 +5476,9 @@
    "frage": "Wie zitiert man ein wörtliches Zitat ohne Seitenzahlen?",
    "optionen": [
     "Mit einer anderen Lokalisierung — (Schmidt, 2020, Kapitel 3) oder mit einer Absatznummer",
-    "Man verzichtet auf die Fundstelle",
-    "Man gibt das Abrufdatum an",
-    "Man zählt die Seiten selbst und gibt sie in eckigen Klammern an"
+    "Man verzichtet auf die Fundstelle und nennt im Text nur die Verfassenden und das Erscheinungsjahr",
+    "Man gibt anstelle der Seitenzahl das Abrufdatum der Quelle an",
+    "Man zählt die Seiten selbst durch und gibt sie in eckigen Klammern an"
    ],
    "loesung": [
     0
@@ -5496,10 +5496,10 @@
    "lernziel": "Quellen nach APA7 zitieren",
    "frage": "Wann gelten Vorlesungsinhalte als persönliche Kommunikation?",
    "optionen": [
-    "Wenn die Folien für die Lesenden nicht zugänglich sind oder etwas nur mündlich gesagt wurde",
-    "Immer — Vorlesungen sind nie zitierfähig",
-    "Nie — Vorlesungsinhalte werden wie Bücher zitiert",
-    "Nur wenn die Dozentin es ausdrücklich verlangt"
+    "Wenn die Folien für die Lesenden nicht zugänglich sind oder etwas nur mündlich fiel",
+    "Immer — Vorlesungsinhalte sind grundsätzlich nicht als Quelle zitierfähig",
+    "Nie — Vorlesungsinhalte werden genau wie Bücher mit Verfassenden, Jahr und Titel zitiert",
+    "Nur wenn die Dozentin es ausdrücklich verlangt oder die Folien gesperrt hat"
    ],
    "loesung": [
     0
@@ -5548,9 +5548,9 @@
    "frage": "Wie gibt man mehrere Quellen in einer Klammer an?",
    "optionen": [
     "Alphabetisch und mit Semikolon getrennt — (Becker, 2012; Müller, 2009; Schmidt, 2020)",
-    "Chronologisch und mit Komma getrennt",
-    "Nach Relevanz geordnet und mit Schrägstrich getrennt",
-    "Jede Quelle in einer eigenen Klammer"
+    "Chronologisch nach dem Erscheinungsjahr geordnet und jeweils durch ein Komma voneinander getrennt",
+    "Nach Relevanz für das Argument geordnet und mit Schrägstrich getrennt",
+    "Jede Quelle in einer eigenen Klammer unmittelbar hintereinander"
    ],
    "loesung": [
     0
@@ -5592,9 +5592,9 @@
    "frage": "Welche zwei testatpflichtigen Aufgaben sind Voraussetzung für das Einreichen der Seminararbeit?",
    "optionen": [
     "Abstract schreiben (Woche 4, Präsenzpflicht, 80 Minuten, pen & paper) und Rflect-Reflexionsaufträge zu 80 Prozent erfüllen",
-    "Grobkonzept abgeben und Podcast anhören",
-    "Literaturrecherche dokumentieren und APA-Test bestehen",
-    "Forschungsfrage einreichen und Beispielarbeit lesen"
+    "Grobkonzept abgeben (Woche 3, Abgabe über Moodle) und den begleitenden Podcast zur Forschungsfrage vollständig anhören und belegen",
+    "Literaturrecherche dokumentieren (Woche 2, mindestens acht Quellen) und den APA-Test bestehen",
+    "Forschungsfrage einreichen (Woche 1, Präsenzpflicht) und eine Beispielarbeit lesen"
    ],
    "loesung": [
     0
@@ -5685,9 +5685,9 @@
    "frage": "Was steht in Woche 2 des WSA1-Semesterplans auf dem Programm?",
    "optionen": [
     "Wissenschaftliche Recherche, der APA7-Zitierstandard, Qualität von Quellen sowie Abbildungen und Tabellen",
-    "Besprechung der Forschungsfragen und die SQ3R-Lesestrategie",
-    "Die testatpflichtige Aufgabe: Abstract schreiben",
-    "Wissenschaftssprache und der Auftrag zum Grobkonzept"
+    "Besprechung der Forschungsfragen, die SQ3R-Lesestrategie sowie das systematische Auswerten von Literatur im Detail",
+    "Die testatpflichtige Aufgabe Abstract schreiben sowie die Besprechung der Rückmeldungen",
+    "Wissenschaftssprache, der Auftrag zum Grobkonzept und Hinweise zur Gliederung"
    ],
    "loesung": [
     0
@@ -8897,9 +8897,9 @@
    "frage": "Wo stehen bei einer Abbildung Nummer, Titel und Quellenangabe?",
    "optionen": [
     "Nummer und Titel darüber, Quellenangabe darunter",
-    "Alles darunter",
-    "Nummer darunter, Titel und Quelle darüber",
-    "Quelle nur im Literaturverzeichnis"
+    "Nummer, Titel und Quellenangabe alle darunter",
+    "Nummer darunter, Titel und Quellenangabe jeweils darüber",
+    "Quelle nur im Literaturverzeichnis, nicht an der Abbildung"
    ],
    "loesung": [
     0
@@ -8918,9 +8918,9 @@
    "frage": "Was drücken „Übernommen aus …“ und „In Anlehnung an …“ aus?",
    "optionen": [
     "Die Übernahmegenauigkeit: unverändert bzw. verändert übernommen",
-    "Den Quellentyp",
-    "Ob die Quelle wissenschaftlich ist",
-    "Ob die Abbildung farbig ist"
+    "Den Typ der Quelle, aus der die Abbildung übernommen wurde",
+    "Ob die zugrunde liegende Quelle wissenschaftlich begutachtet ist",
+    "Ob die Abbildung farbig oder schwarzweiss wiedergegeben wird"
    ],
    "loesung": [
     0
@@ -8962,9 +8962,9 @@
    "frage": "Ab wann braucht eine Arbeit ein Abbildungs- bzw. Tabellenverzeichnis?",
    "optionen": [
     "Ab mehr als einer Abbildung bzw. Tabelle",
-    "Ab fünf Abbildungen",
-    "Nur bei Bachelorarbeiten",
-    "Nie, die Quellen genügen"
+    "Ab fünf Abbildungen bzw. Tabellen in der Arbeit",
+    "Nur bei Bachelor- und Masterarbeiten",
+    "Nie, die Quellenangaben genügen dafür"
    ],
    "loesung": [
     0
@@ -9084,12 +9084,12 @@
    "kategorie": "vorlesung",
    "typ": "mc",
    "lernziel": "Merkmale wissenschaftlicher Texte und Quellentypen kennen",
-   "frage": "Gruppenpuzzle Nutri-Score: Welcher der vier Texte ist die wissenschaftliche Quelle?",
+   "frage": "Vier Texte zum Nutri-Score liegen vor. Welcher davon ist die wissenschaftliche Quelle?",
    "optionen": [
     "Der Aufsatz im Journal of Future Foods (mit DOI)",
-    "Die Seite des BLV",
-    "Der Nestlé-Text",
-    "Die Stellungnahme des Bauernverbands"
+    "Die amtliche Informationsseite des BLV zum Nutri-Score",
+    "Der Text von Nestlé zur eigenen Kennzeichnung",
+    "Die Stellungnahme des Bauernverbands dazu"
    ],
    "loesung": [
     0
@@ -9245,9 +9245,9 @@
    "frage": "An wen richtet sich ein Abstract?",
    "optionen": [
     "An Sachverständige des Gebiets, die entscheiden, ob sie den Text lesen",
-    "An Laien ohne Vorwissen",
-    "Nur an die Betreuungsperson",
-    "An die Bibliothek für die Katalogisierung"
+    "An interessierte Laien ohne jedes Vorwissen zum behandelten Gebiet",
+    "Nur an die Betreuungsperson, die die Arbeit am Ende bewertet",
+    "An die Bibliothek, die den Text damit katalogisiert und auffindbar macht"
    ],
    "loesung": [
     0
@@ -9263,12 +9263,12 @@
    "kategorie": "uebung",
    "typ": "mc",
    "lernziel": "Ein Abstract verfassen",
-   "frage": "Übung Abstract Digitalisierung: Was macht der Lösungsvorschlag anders als eine zahlenreiche Version?",
+   "frage": "Was macht ein guter Abstract anders als eine zahlenreiche Fassung?",
    "optionen": [
     "Er verzichtet auf Einzelzahlen und Autorennamen und bleibt bei der Quintessenz",
-    "Er nennt alle Prozentwerte",
-    "Er argumentiert für mehr Weiterbildung",
-    "Er zitiert Frey und Osborne wörtlich"
+    "Er nennt alle Prozentwerte, damit die Lesenden die Befunde nachvollziehen können",
+    "Er argumentiert für mehr Weiterbildung statt nur zu beschreiben",
+    "Er zitiert die wichtigsten Studien wörtlich statt sie zusammenzufassen"
    ],
    "loesung": [
     0
@@ -9284,12 +9284,12 @@
    "kategorie": "uebung",
    "typ": "mc",
    "lernziel": "Ein Abstract verfassen",
-   "frage": "Welche Methode beschreibt der Text von Willimann und Käppeli?",
+   "frage": "Wie lässt sich das Automatisierungsrisiko für den Arbeitsmarkt eines Landes schätzen?",
    "optionen": [
     "Verknüpfung der Arbeitskräfteerhebung 2015 des BFS mit den Wahrscheinlichkeiten von Frey und Osborne",
-    "Eine Umfrage unter 700 Unternehmen",
-    "Interviews mit Gemeindepräsidenten",
-    "Ein Experiment mit Robotern"
+    "Eine repräsentative Umfrage unter 700 Unternehmen zu ihren bereits geplanten Automatisierungsvorhaben",
+    "Leitfadeninterviews mit Gemeindepräsidenten über den Strukturwandel vor Ort",
+    "Ein Laborexperiment, in dem Roboter typische Arbeitsschritte übernehmen"
    ],
    "loesung": [
     0
@@ -9305,12 +9305,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Merkmale wissenschaftlicher Texte und Quellentypen kennen",
-   "frage": "Welche Methode verwenden Klostermeier, Haag und Benlian (2018)?",
+   "frage": "Mit welchem Vorgehen lassen sich Geschäftsmodelle für digitale Zwillinge untersuchen?",
    "optionen": [
     "Explorative Fallstudie mit Experteninterviews in vier Unternehmen, entlang des Business Model Canvas",
-    "Quantitative Umfrage unter 500 Firmen",
-    "Literaturreview ohne Empirie",
-    "Laborexperiment"
+    "Quantitative Umfrage unter 500 Firmen mit einer anschliessenden Regressionsanalyse sämtlicher Antworten",
+    "Systematisches Literaturreview ganz ohne eigene empirische Erhebung",
+    "Laborexperiment mit simulierten Produktionsanlagen und Messreihen"
    ],
    "loesung": [
     0
@@ -9326,12 +9326,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Merkmale wissenschaftlicher Texte und Quellentypen kennen",
-   "frage": "Was sind laut Studie die grössten Hürden für digitale Zwillinge?",
+   "frage": "Was sind in der Praxis die grössten Hürden für digitale Zwillinge?",
    "optionen": [
     "Fehlende monetäre Argumente und Schnittstellenprobleme",
-    "Fehlende Rechenleistung",
-    "Gesetzliche Verbote",
-    "Mangelndes Interesse der NASA"
+    "Fehlende Rechenleistung und eine zu teure Sensorik",
+    "Gesetzliche Verbote und bisher ungeklärte Haftungsfragen",
+    "Mangelndes Interesse der beteiligten Fachabteilungen"
    ],
    "loesung": [
     0

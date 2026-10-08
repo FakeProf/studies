@@ -381,6 +381,28 @@ section{margin-top:30px}
   padding:13px 18px calc(13px + env(safe-area-inset-bottom,0px));
   border-top:1px solid var(--line); background:var(--surface-2)}
 
+/* ---- Serie ---- */
+.serie{padding:15px 17px}
+.seriekopf{display:flex; align-items:center; gap:16px; flex-wrap:wrap}
+.seriezahl{display:flex; flex-direction:column; align-items:flex-start; flex:none}
+.seriezahl b{font-family:var(--f-display); font-size:38px; font-weight:600; line-height:1;
+  letter-spacing:-.02em; font-variant-numeric:tabular-nums; color:var(--accent)}
+.seriesatz{flex:1; min-width:170px}
+.seriesatz p{font-family:var(--f-display); font-size:14px; line-height:1.4}
+.seriesatz .pool{font-size:12px; margin-top:3px}
+.seriewoche{display:flex; gap:7px; margin-top:14px}
+.stag{flex:1; display:flex; flex-direction:column; align-items:center; gap:6px}
+.stag .sk{font-family:var(--f-mono); font-size:10.5px; letter-spacing:.05em;
+  text-transform:uppercase; color:var(--muted)}
+.stag .sp{width:100%; height:6px; border-radius:3px; background:var(--surface-3)}
+.stag.erledigt .sp{background:var(--accent)}
+.stag.gerettet .sp{background:var(--warn)}
+.stag.verpasst .sp{background:var(--bad)}
+.stag.frei     .sp{background:transparent; border:1px dashed var(--line-strong)}
+.stag.kommend  .sp{opacity:.45}
+.stag.heute    .sp{background:transparent; border:2px solid var(--accent)}
+.stag.ist-heute .sk{color:var(--ink); font-weight:600}
+
 /* ---- Vorlagen ---- */
 .vorlagen{display:flex; flex-wrap:wrap; gap:9px}
 .vorlage{display:flex; align-items:stretch; border:1px solid var(--line-strong);
@@ -885,6 +907,152 @@ function scopeLabel(){
   return p.join(" — ");
 }
 
+/* ---------- Serie ----------
+ * Donnerstag und Freitag sind frei — an den übrigen fünf Tagen zählt, ob das
+ * Tagesziel erreicht wurde. Pro Kalenderwoche deckt ein Joker genau einen
+ * verpassten Pflichttag; der zweite bricht die Serie.
+ *
+ * Alles wird aus `runs` abgeleitet und nirgends gespeichert. Das hat zwei
+ * Vorteile: die Serie gleicht sich ohne eigene Tabelle über Neon mit ab, und
+ * sie kann nicht auseinanderlaufen — es gibt keinen zweiten Stand, der falsch
+ * werden könnte.
+ *
+ * Gezählt werden beantwortete Fragen (run.total), nicht Runden. Eine nach zwei
+ * Fragen abgebrochene Runde soll keinen Tag retten.
+ */
+const PFLICHTTAGE = [1, 2, 3, 6, 0];   // Mo Di Mi Sa So — getDay(): Sonntag ist 0
+const TAGESZIEL   = 10;                // beantwortete Fragen pro Pflichttag
+const TAGKURZ     = ["So","Mo","Di","Mi","Do","Fr","Sa"];
+
+const tagKey = (d) => d.getFullYear() + "-" +
+  String(d.getMonth()+1).padStart(2,"0") + "-" + String(d.getDate()).padStart(2,"0");
+const istPflicht = (d) => PFLICHTTAGE.includes(d.getDay());
+
+/** Montag der Woche, in der d liegt — der Joker hängt an diesem Schlüssel. */
+function wochenKey(d){
+  const x = new Date(d);
+  x.setDate(x.getDate() - ((x.getDay() + 6) % 7));
+  return tagKey(x);
+}
+
+/** { "2026-10-08": 15, … } — beantwortete Fragen je Kalendertag. */
+function fragenProTag(){
+  const m = {};
+  for(const r of runs){
+    if(!r || !r.ts) continue;
+    const k = tagKey(new Date(r.ts));
+    m[k] = (m[k] || 0) + (Number(r.total) || 0);
+  }
+  return m;
+}
+
+/** Alles, was die Anzeige über die Serie braucht. */
+function serienStand(){
+  const proTag = fragenProTag();
+  const heute = new Date(); heute.setHours(0,0,0,0);
+  const heuteKey = tagKey(heute);
+  const erledigt = (k) => (proTag[k] || 0) >= TAGESZIEL;
+
+  // --- Die laufende Kette, rückwärts von heute ---------------------------
+  // Der Joker rettet den jeweils jüngsten Ausfall einer Woche; trifft die
+  // Suche in derselben Woche auf einen zweiten, ist die Serie dort zu Ende.
+  let serie = 0, gerettet = 0;
+  const jokerWeg = new Set();
+  const lauf = new Date(heute);
+  for(let i = 0; i < 800; i++){
+    const k = tagKey(lauf);
+    if(istPflicht(lauf)){
+      if(erledigt(k)) serie++;
+      else if(k !== heuteKey){          // der laufende Tag ist nicht verpasst, nur offen
+        const w = wochenKey(lauf);
+        if(jokerWeg.has(w)) break;
+        jokerWeg.add(w); gerettet++;
+      }
+    }
+    lauf.setDate(lauf.getDate() - 1);
+  }
+
+  // --- Rekord: dieselbe Regel vorwärts über die ganze Vergangenheit ------
+  let rekord = serie;
+  if(runs.length){
+    const d = new Date(Math.min(...runs.map(r => r.ts)));
+    d.setHours(0,0,0,0);
+    let kette = 0;
+    const jokerVerbraucht = new Set();
+    while(d <= heute){
+      const k = tagKey(d);
+      if(istPflicht(d) && k !== heuteKey){
+        if(erledigt(k)) { kette++; if(kette > rekord) rekord = kette; }
+        else {
+          const w = wochenKey(d);
+          if(jokerVerbraucht.has(w)) kette = 0;   // zweiter Ausfall der Woche
+          else jokerVerbraucht.add(w);
+        }
+      }
+      d.setDate(d.getDate() + 1);
+    }
+  }
+
+  // --- Die laufende Woche, Montag bis Sonntag ----------------------------
+  const montag = new Date(heute);
+  montag.setDate(montag.getDate() - ((montag.getDay() + 6) % 7));
+  const woche = [];
+  for(let i = 0; i < 7; i++){
+    const d = new Date(montag); d.setDate(montag.getDate() + i);
+    const k = tagKey(d);
+    woche.push({
+      kurz: TAGKURZ[d.getDay()], fragen: proTag[k] || 0, heute: k === heuteKey,
+      status: !istPflicht(d) ? "frei"
+            : erledigt(k)    ? "erledigt"
+            : k === heuteKey ? "heute"
+            : d > heute      ? "kommend"
+                             : "ausfall",   // welcher davon der Joker deckt, gleich unten
+    });
+  }
+  // Gerettet wird der jüngste Ausfall — genau wie beim Rückwärtslaufen oben.
+  const ausfaelle = woche.map((t,i)=>t.status==="ausfall"?i:-1).filter(i=>i>=0);
+  ausfaelle.forEach((i, n) => { woche[i].status = n === ausfaelle.length-1 ? "gerettet" : "verpasst"; });
+
+  return {
+    serie, gerettet, rekord,
+    heuteFragen: proTag[heuteKey] || 0,
+    heutePflicht: istPflicht(heute),
+    jokerFrei: ausfaelle.length === 0,
+    woche,
+  };
+}
+
+/** Der Serienstreifen auf der Übersicht. */
+function serienKarte(){
+  const s = serienStand();
+  const offen = Math.max(0, TAGESZIEL - s.heuteFragen);
+  const satz = !s.heutePflicht
+    ? (s.heuteFragen ? `Freier Tag — und trotzdem ${s.heuteFragen} Fragen.`
+                     : "Heute ist frei. Donnerstag und Freitag zählen nicht.")
+    : offen === 0 ? `Heute geschafft — ${s.heuteFragen} Fragen.`
+                  : `Noch ${offen} von ${TAGESZIEL} Fragen für heute.`;
+
+  return `
+  <section>
+    <div class="card panel serie">
+      <div class="seriekopf">
+        <div class="seriezahl"><b>${s.serie}</b><span class="eyebrow">Tage-Serie</span></div>
+        <div class="seriesatz">
+          <p>${esc(satz)}</p>
+          <p class="pool">${s.jokerFrei ? "Joker diese Woche noch frei" : "Joker diese Woche verbraucht"}${
+            s.rekord > s.serie ? ` · Rekord ${s.rekord}` : ""}</p>
+        </div>
+      </div>
+      <div class="seriewoche">
+        ${s.woche.map(t=>`<div class="stag ${t.status}${t.heute?" ist-heute":""}"
+          title="${t.kurz}: ${t.status === "frei" ? "frei" : t.fragen + " von " + TAGESZIEL + " Fragen"}">
+          <span class="sk">${t.kurz}</span><span class="sp"></span>
+        </div>`).join("")}
+      </div>
+    </div>
+  </section>`;
+}
+
 /* ---------- Statistik ---------- */
 function statFor(list){
   let v=0,p=0,seen=0;
@@ -996,6 +1164,8 @@ function renderDash(){
       <div class="kpi"><b>${runs.length}</b><span class="eyebrow">Runden</span></div>
     </div>
   </div>
+
+  ${serienKarte()}
 
   <section>
     <div class="sec-head"><h2>Module</h2>

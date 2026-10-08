@@ -308,3 +308,35 @@ Quizkern, Lernpuls, Lernfix und Merkbox; ausgeschieden sind Lernly (zu nah an
 
 Eine Websuche ersetzt keine Markenregisterrecherche. Für den privaten Gebrauch
 genügt sie; wer die App verkaufen wollte, müsste ins Register schauen.
+
+## Serie
+
+Donnerstag und Freitag sind frei. An den übrigen fünf Tagen zählt ein Tag als
+erledigt, sobald an ihm **10 Fragen** beantwortet wurden — über beliebig viele
+Runden hinweg. Gezählt wird `run.total`, nicht die Zahl der Runden; eine nach
+zwei Fragen abgebrochene Runde rettet also keinen Tag.
+
+Pro Kalenderwoche deckt ein **Joker** genau einen verpassten Pflichttag. Der
+zweite Ausfall derselben Woche beendet die Serie. Der laufende Tag gilt nie als
+verpasst, solange er nicht um ist.
+
+```
+Mo  Di  Mi  Do  Fr  Sa  So
+▬   ▬   ▬   ┄   ┄   ▬   ▬      ▬ Pflicht   ┄ frei
+grün erledigt · gelb vom Joker gedeckt · rot verpasst
+```
+
+Die Serie wird **aus `runs` abgeleitet und nirgends gespeichert**. Damit gleicht
+sie sich ohne eigene Tabelle über Neon mit ab — und sie kann nicht
+auseinanderlaufen, weil es keinen zweiten Stand gibt, der falsch werden könnte.
+
+Eine Eigenart, die beim Lesen der Zahlen hilft: die Kette läuft über den
+Wochenanfang hinaus zurück, und in jeder angebrochenen Woche davor rettet der
+dortige Joker einen weiteren Tag. Vor dem allerersten erledigten Tag bricht sie
+deshalb nicht sofort, sondern einen Ausfall später.
+
+Die Regel hängt an `PFLICHTTAGE`, `TAGESZIEL` und `serienStand()`. Geprüft wurde
+sie an 25 gedachten Fällen — lückenlose Woche, eine Lücke, zwei Lücken in einer
+Woche, je eine Lücke in zwei Wochen, Schwelle bei 9 und 10 Fragen, mehrere
+Runden am selben Tag, laufender Tag, freie Tage, Rekord nach einem Bruch und
+leerer Verlauf.

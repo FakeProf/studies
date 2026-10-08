@@ -12,10 +12,10 @@
    "lernziel": "System und Aufgaben des integrierten GPM erläutern",
    "frage": "Wie lautet die Definition eines Geschäftsprozesses?",
    "optionen": [
-    "Gesamtheit von zusammenhängenden Ereignissen, Aktivitäten und Entscheidungspunkten, an der Akteure und Objekte beteiligt sind, die gemeinsam zu einem Ergebnis führen, das für mindestens einen Kunden einen Mehrwert darstellt",
-    "Gesamtheit aller Abteilungen einer Organisation, die gemeinsam ein Produkt herstellen",
-    "Eine Abfolge von Arbeitsschritten, die von einem einzelnen Mitarbeiter in einem Zug bearbeitet wird",
-    "Die IT-gestützte Automatisierung wiederkehrender Tätigkeiten in einem Unternehmen"
+    "Gesamtheit zusammenhängender Ereignisse, Aktivitäten und Entscheidungspunkte mit Akteuren und Objekten, die zu einem Ergebnis mit Mehrwert für mindestens einen Kunden führt",
+    "Gesamtheit aller Abteilungen einer Organisation, die gemeinsam an der Herstellung eines Produkts beteiligt sind und ihre Arbeitsschritte dafür untereinander laufend abstimmen",
+    "Eine Abfolge von Arbeitsschritten, die von einer einzelnen Person in einem Zug und ohne Unterbrechung bearbeitet wird",
+    "Die IT-gestützte Automatisierung wiederkehrender Tätigkeiten, die in einem Unternehmen regelmässig anfallen"
    ],
    "loesung": [
     0
@@ -34,7 +34,7 @@
    "frage": "Welche sechs Tätigkeiten nennt die Definition von Geschäftsprozessmanagement (BPM)?",
    "optionen": [
     "Identifizieren, Erheben, Analysieren, Verbessern, Ausführen und Überwachen",
-    "Planen, Organisieren, Führen, Kontrollieren, Steuern und Entscheiden",
+    "Planen, Organisieren, Führen, Kontrollieren, Steuern und Entscheiden im Betrieb",
     "Erfassen, Dokumentieren, Genehmigen, Freigeben, Archivieren und Löschen",
     "Modellieren, Simulieren, Automatisieren, Testen, Deployen und Warten"
    ],
@@ -73,12 +73,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Prozesse identifizieren und ihre Bestandteile klassifizieren",
-   "frage": "Wann spricht Dumas von einer Aufgabe (task) statt von einer Aktivität?",
+   "frage": "Wann spricht man von einer Aufgabe (task) statt von einer Aktivität?",
    "optionen": [
     "Wenn die Arbeitseinheit elementar ist und von einer einzelnen Person in einem Zug bearbeitet werden kann",
-    "Wenn die Arbeitseinheit länger als einen Arbeitstag dauert",
-    "Wenn die Arbeitseinheit von einem Softwaresystem ausgeführt wird",
-    "Wenn die Arbeitseinheit in einem BPMN-Modell als Raute dargestellt wird"
+    "Wenn die Arbeitseinheit länger als einen Arbeitstag dauert und sich über mehrere Schichten erstreckt",
+    "Wenn die Arbeitseinheit vollständig von einem Softwaresystem und ohne jedes Zutun eines Menschen ausgeführt wird",
+    "Wenn die Arbeitseinheit in einem BPMN-Modell als Raute und nicht als Rechteck dargestellt wird"
    ],
    "loesung": [
     0
@@ -118,9 +118,9 @@
    "frage": "Welche Effizienzart stellt der Taylorismus in den Mittelpunkt?",
    "optionen": [
     "Ressourceneffizienz — Kapazitätsauslastung als oberstes Ziel",
-    "Prozesseffizienz — Durchlaufzeit als oberstes Ziel",
-    "Energieeffizienz — Senkung des Verbrauchs je Stück",
-    "Kosteneffizienz — Minimierung der Fixkosten"
+    "Prozesseffizienz — kurze Durchlaufzeit als oberstes Ziel",
+    "Energieeffizienz — Senkung des Verbrauchs je gefertigtem Stück",
+    "Kosteneffizienz — Minimierung der Fixkosten je Periode"
    ],
    "loesung": [
     0
@@ -206,9 +206,9 @@
    "frage": "Worin bestand der eigentliche Unterschied zwischen Ford und Mazda im Beschaffungsprozess?",
    "optionen": [
     "Ford deckte Abweichungen nach und nach auf und beseitigte sie, Mazda vermied sie von vornherein",
-    "Mazda hatte die Kreditorenbuchhaltung vollständig ausgelagert",
-    "Mazda war schlicht 100-mal kleiner als Ford",
-    "Ford arbeitete mit Papier, Mazda hatte den Prozess vollständig automatisiert"
+    "Mazda hatte die gesamte Kreditorenbuchhaltung an einen externen Dienstleister ausgelagert",
+    "Mazda war als Unternehmen schlicht rund hundertmal kleiner als Ford",
+    "Ford arbeitete noch mit Papier, während Mazda den Prozess bereits vollständig automatisiert hatte"
    ],
    "loesung": [
     0
@@ -227,8 +227,8 @@
    "frage": "Welche drei Dokumente musste die Kreditorenbuchhaltung bei Ford im alten Prozess abgleichen — und mit wie vielen Datenfeldern je Dokument?",
    "optionen": [
     "Bestellkopie, Lieferschein und Rechnung — je etwa 14 Datenfelder",
-    "Angebot, Vertrag und Rechnung — je etwa 20 Datenfelder",
-    "Bestellung, Mahnung und Zahlungsbeleg — je etwa 10 Datenfelder",
+    "Angebot, Vertrag und Rechnung — mit je etwa 20 Datenfeldern",
+    "Bestellung, Mahnung und Zahlungsbeleg — mit je etwa 10 Datenfeldern",
     "Lieferschein, Rechnung und Gutschrift — je etwa 8 Datenfelder"
    ],
    "loesung": [
@@ -326,8 +326,8 @@
    "frage": "Welche zwei Schlüsselelemente macht das Business Process Reengineering aus?",
    "optionen": [
     "Der Prozess im Fokus statt der Abteilung — und IT als Enabler",
-    "Kostensenkung und Personalabbau",
-    "Standardisierung und Massenproduktion",
+    "Kostensenkung und konsequenter Personalabbau in der Verwaltung",
+    "Standardisierung der Teile und Übergang zur Massenproduktion",
     "Zentralisierung der Entscheidungen und flache Hierarchien"
    ],
    "loesung": [
@@ -516,9 +516,9 @@
    "frage": "Welche zwei sich ergänzenden Aspekte umfasst die Prozessimplementierung?",
    "optionen": [
     "Organisationsbezogenes Änderungsmanagement und Prozessautomatisierung",
-    "Prozessmodellierung und Prozesssimulation",
-    "Schulung und Dokumentation",
-    "Kostenrechnung und Kennzahlensystem"
+    "Prozessmodellierung und die anschliessende Prozesssimulation",
+    "Schulung der Mitarbeitenden und die saubere Dokumentation aller Abläufe",
+    "Kostenrechnung und der Aufbau eines passenden Kennzahlensystems"
    ],
    "loesung": [
     0
@@ -721,12 +721,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Prozesse identifizieren und ihre Bestandteile klassifizieren",
-   "frage": "Wer gilt bei Dumas als Prozessbeteiligter, wer als externer Akteur?",
+   "frage": "Wer gilt als Prozessbeteiligter, wer als externer Akteur?",
    "optionen": [
     "Prozessbeteiligte sind interne Akteure wie Sachbearbeiter und Bauleiter, externe Akteure sind Kunden und Lieferanten",
-    "Prozessbeteiligte sind alle Menschen, externe Akteure sind alle Softwaresysteme",
-    "Prozessbeteiligte sind Führungskräfte, externe Akteure sind ausführende Mitarbeitende",
-    "Prozessbeteiligte sind die Auftraggeber, externe Akteure die Auftragnehmer"
+    "Prozessbeteiligte sind alle beteiligten Menschen, externe Akteure sind sämtliche beteiligten Softwaresysteme und Maschinen",
+    "Prozessbeteiligte sind die Führungskräfte, externe Akteure die ausführenden Mitarbeitenden",
+    "Prozessbeteiligte sind die Auftraggeber, externe Akteure die beauftragten Auftragnehmer"
    ],
    "loesung": [
     0
@@ -767,9 +767,9 @@
    "frage": "Was ist ein negatives Ergebnis eines Prozesses?",
    "optionen": [
     "Ein Ergebnis, das keinen oder nur teilweise Mehrwert für die beteiligten Akteure schafft",
-    "Ein Ergebnis, bei dem der Prozess abgebrochen wurde",
-    "Ein Ergebnis, das zu finanziellen Verlusten führt",
-    "Ein Ergebnis, das nicht im Prozessmodell vorgesehen war"
+    "Ein Ergebnis, bei dem der Prozess vorzeitig und ohne Abschluss abgebrochen wurde",
+    "Ein Ergebnis, das beim durchführenden Unternehmen unmittelbar zu finanziellen Verlusten führt",
+    "Ein Ergebnis, das im zugrunde liegenden Prozessmodell gar nicht vorgesehen war"
    ],
    "loesung": [
     0
@@ -818,9 +818,9 @@
    "frage": "Was ist das besondere Merkmal von BPM gegenüber verwandten Disziplinen?",
    "optionen": [
     "Die Verwendung von Prozessmodellen während des gesamten Lebenszyklus",
-    "Der ausschliessliche Fokus auf Kostensenkung",
-    "Die Beschränkung auf Fertigungsunternehmen",
-    "Der Verzicht auf Informationstechnologie"
+    "Der ausschliessliche Fokus auf die Senkung der laufenden Prozesskosten",
+    "Die Beschränkung auf Fertigungs- und Industrieunternehmen",
+    "Der bewusste Verzicht auf den Einsatz von Informationstechnologie"
    ],
    "loesung": [
     0
@@ -839,9 +839,9 @@
    "frage": "Welche zwei Ursachen hatte die Wiederbelebung des Prozessdenkens um die Jahrtausendwende?",
    "optionen": [
     "Empirische Evidenz (McCormacks Studie) und technologische Reife (ERP- und Workflowsysteme)",
-    "Gesetzliche Vorgaben und internationale Normen",
-    "Der Zusammenbruch der Dotcom-Blase und billigere Arbeitskräfte",
-    "Die Verbreitung des Internets und der sozialen Medien"
+    "Gesetzliche Vorgaben und neue internationale Normen zur Prozess-, Produkt- und Datenqualität",
+    "Der Zusammenbruch der Dotcom-Blase und deutlich billigere Arbeitskräfte in Asien",
+    "Die rasche Verbreitung des Internets und der sozialen Medien in den Unternehmen"
    ],
    "loesung": [
     0
@@ -860,9 +860,9 @@
    "frage": "Was ist ein Workflowsystem, und warum unterstützt es die Prozessorientierung?",
    "optionen": [
     "Es verteilt die Arbeit mithilfe von Prozessmodellen an die Akteure — Änderungen am Modell lassen sich einfach umsetzen",
-    "Es speichert alle Geschäftsdaten zentral und konsistent für alle Mitarbeitenden",
-    "Es überwacht die Arbeitszeiten der Mitarbeitenden und erstellt Auswertungen",
-    "Es generiert automatisch BPMN-Diagramme aus Textbeschreibungen"
+    "Es speichert alle Geschäftsdaten zentral und stellt sie sämtlichen Mitarbeitenden des Unternehmens jederzeit konsistent bereit",
+    "Es überwacht die Arbeitszeiten der Mitarbeitenden und erstellt daraus regelmässige Auswertungen",
+    "Es erzeugt automatisch BPMN-Diagramme aus textuellen Prozessbeschreibungen"
    ],
    "loesung": [
     0
@@ -881,9 +881,9 @@
    "frage": "Welcher Oberbegriff fasst BPMS, ERP-, CRM- und Dokumentenmanagementsysteme zusammen?",
    "optionen": [
     "Prozessorientierte Informationssysteme (process-aware information systems)",
-    "Enterprise Application Integration",
-    "Business Intelligence Systeme",
-    "Workflow Engines"
+    "Enterprise Application Integration, also Plattformen zur Anwendungskopplung",
+    "Business-Intelligence-Systeme für analytische Auswertungen",
+    "Workflow Engines als prozessausführende Laufzeitumgebungen"
    ],
    "loesung": [
     0
@@ -977,12 +977,12 @@
    "kategorie": "uebung",
    "typ": "mc",
    "lernziel": "Prozesse identifizieren und ihre Bestandteile klassifizieren",
-   "frage": "Ford-Mazda-Übung: Welche Wertkomponenten liefert der Einkaufsprozess zusammen?",
+   "frage": "Welche Wertkomponenten liefert ein Einkaufsprozess zusammengenommen?",
    "optionen": [
     "Die richtige Ware, zur richtigen Zeit, zum vereinbarten Preis, am richtigen Ort",
-    "Niedrigste Kosten, höchste Qualität und kürzeste Durchlaufzeit",
+    "Niedrigste Kosten, höchste Qualität und die kürzestmögliche Durchlaufzeit im Einkauf",
     "Vollständige Dokumentation, revisionssichere Ablage und Nachvollziehbarkeit",
-    "Maximale Auslastung der Lagerkapazität"
+    "Maximale Auslastung der Lagerkapazität bei minimalem Kapitaleinsatz"
    ],
    "loesung": [
     0
@@ -1069,10 +1069,10 @@
    "lernziel": "Modulorganisation und Leistungsnachweis kennen",
    "frage": "Wie setzt sich die Modulnote in OGPM zusammen?",
    "optionen": [
-    "30 Prozent schriftliche Gruppenarbeit (Fallstudie), 70 Prozent schriftliche Modulschlussprüfung über 90 Minuten",
-    "50 Prozent Gruppenarbeit, 50 Prozent Modulschlussprüfung",
-    "20 Prozent Fallstudie, 80 Prozent Modulschlussprüfung",
-    "100 Prozent Modulschlussprüfung"
+    "30 Prozent schriftliche Gruppenarbeit (Fallstudie), 70 Prozent Modulschlussprüfung über 90 Minuten",
+    "50 Prozent schriftliche Gruppenarbeit (Fallstudie), 50 Prozent schriftliche Modulschlussprüfung über 90 Minuten",
+    "20 Prozent schriftliche Fallstudie, 80 Prozent Modulschlussprüfung über 90 Minuten",
+    "100 Prozent schriftliche Modulschlussprüfung über 120 Minuten"
    ],
    "loesung": [
     0
@@ -1122,12 +1122,12 @@
    "kategorie": "uebung",
    "typ": "mc",
    "lernziel": "Den BPM-Lebenszyklus und seine Phasen erklären",
-   "frage": "Studentenzulassung: Was ist die auffälligste Ursache der langen Durchlaufzeit?",
+   "frage": "Im Zulassungsprozess einer Hochschule dauert ein Fall sehr lange. Was ist die auffälligste Ursache?",
    "optionen": [
     "Der akademische Ausschuss tritt nur alle drei Monate zusammen",
-    "Die Bewerbungen werden handschriftlich erfasst",
-    "Die Zulassungsstelle ist unterbesetzt",
-    "Die Englischtests werden extern ausgewertet"
+    "Die Bewerbungen werden noch handschriftlich erfasst und abgetippt",
+    "Die Zulassungsstelle ist chronisch unterbesetzt",
+    "Die Englischtests werden extern ausgewertet und versandt"
    ],
    "loesung": [
     0
@@ -1143,12 +1143,12 @@
    "kategorie": "uebung",
    "typ": "mc",
    "lernziel": "Notwendigkeit von Modellierungskonventionen und BPMN erläutern",
-   "frage": "Übung 4 modelliert einen Prozess bewusst ohne Standardsprache. Was ist das Lernziel dahinter?",
+   "frage": "Ein Prozess wird bewusst ohne Standardsprache modelliert. Was ist das Lernziel dahinter?",
    "optionen": [
     "Erleben, wie Missverständnisse durch fehlende Notation entstehen — und warum standardisierte Modellierungssprachen essenziell sind",
-    "Üben, wie man ohne Software schnell skizziert",
-    "Zeigen, dass BPMN für einfache Prozesse überflüssig ist",
-    "Trainieren, wie man Prozesse aus dem Gedächtnis rekonstruiert"
+    "Üben, wie man ohne Software und ohne Vorgaben schnell eine brauchbare Skizze eines Ablaufs anfertigt und mit den Beteiligten abstimmt",
+    "Zeigen, dass BPMN für einfache Prozesse überflüssiger Aufwand ist",
+    "Trainieren, wie man Prozesse allein aus dem Gedächtnis rekonstruiert"
    ],
    "loesung": [
     0
@@ -1167,8 +1167,8 @@
    "frage": "Warum verwendet man für Prozessmodelle Diagramme statt reiner Textbeschreibungen?",
    "optionen": [
     "Textbeschreibungen sind umständlich zu lesen und wegen der Mehrdeutigkeit von Freiformtext leicht missverständlich",
-    "Diagramme lassen sich automatisch in ausführbaren Code übersetzen",
-    "Textbeschreibungen sind rechtlich nicht zulässig",
+    "Diagramme lassen sich unmittelbar in ausführbaren Code übersetzen und damit ohne Zwischenschritt vollständig automatisieren",
+    "Textbeschreibungen sind für die Dokumentation rechtlich nicht zulässig",
     "Diagramme benötigen keine gemeinsame Sprache zwischen den Beteiligten"
    ],
    "loesung": [
@@ -1187,10 +1187,10 @@
    "lernziel": "Notwendigkeit von Modellierungskonventionen und BPMN erläutern",
    "frage": "Wovon hängt ab, wie detailliert ein Prozessmodell sein muss?",
    "optionen": [
-    "Vom Verwendungszweck — Dokumentation, quantitative Analyse oder Ausführung in einem BPMS verlangen unterschiedliche Details",
-    "Von der Grösse des Unternehmens",
-    "Von der gewählten Modellierungssoftware",
-    "Von der Anzahl der beteiligten Abteilungen"
+    "Vom Verwendungszweck — Dokumentation, quantitative Analyse oder Ausführung verlangen unterschiedliche Details",
+    "Von der Grösse des Unternehmens, der Zahl seiner Standorte und der Menge der jährlich bearbeiteten Fälle im Prozess",
+    "Von der gewählten Modellierungssoftware und ihren Darstellungsmöglichkeiten",
+    "Von der Anzahl der am Prozess beteiligten Abteilungen und Rollen"
    ],
    "loesung": [
     0
@@ -7935,9 +7935,9 @@
    "frage": "Wofür steht SCOR und wofür wird es verwendet?",
    "optionen": [
     "Supply Chain Operations Reference Model: Beschreibung und Analyse von Lieferketten",
-    "Strategic Corporate Organization Reference: Aufbau von Organigrammen",
-    "Standard Classification of Records: Archivierung von Dokumenten",
-    "Service Customer Operations Reference: Kundendienstprozesse"
+    "Strategic Corporate Organization Reference: Aufbau von Organigrammen in Konzernen",
+    "Standard Classification of Records: Archivierung und Aufbewahrung von Geschäftsdokumenten",
+    "Service Customer Operations Reference: Gestaltung von Kundendienstprozessen"
    ],
    "loesung": [
     0
@@ -7956,9 +7956,9 @@
    "frage": "Was ist das PCF und wer gibt es heraus?",
    "optionen": [
     "Process Classification Framework der APQC, branchenübergreifendes Referenzmodell für Geschäftsprozesse",
-    "Process Control Framework der ISO für Qualitätsmanagement",
-    "Process Change Framework von SAP für Software-Einführungen",
-    "Performance Classification Framework von Rummler & Brache"
+    "Process Control Framework der ISO, Referenzmodell für das betriebliche Qualitätsmanagement",
+    "Process Change Framework von SAP, Referenzmodell für grosse Software-Einführungen",
+    "Performance Classification Framework von Rummler und Brache zur Messung und Steuerung der Prozessleistung"
    ],
    "loesung": [
     0
@@ -8087,12 +8087,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Prozesse auswählen, Kennzahlen definieren und Prozessportfolio erstellen",
-   "frage": "Warum führt Dumas Flexibilität als vierte Dimension ein? Beispiel:",
+   "frage": "Warum braucht es Flexibilität als vierte Leistungsdimension? Welches Beispiel zeigt das?",
    "optionen": [
     "Eine australische Versicherung wurde nach Stürmen von Schadenmeldungen überflutet",
-    "Ein Restaurant wollte schneller servieren",
-    "Ein Reisebüro machte Buchungsfehler",
-    "Zara wollte Trends schneller umsetzen"
+    "Ein Restaurant wollte seine Gäste deutlich schneller bedienen als die umliegende Konkurrenz",
+    "Ein Reisebüro machte bei seinen Buchungen zu viele vermeidbare Fehler",
+    "Zara wollte neue Trends schneller in die eigenen Filialen bringen als andere"
    ],
    "loesung": [
     0
@@ -8108,12 +8108,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Prozesse auswählen, Kennzahlen definieren und Prozessportfolio erstellen",
-   "frage": "Restaurant-Beispiel: Kunden finden über 30 Minuten Wartezeit inakzeptabel. Welche Kennzahl leitet Dumas daraus ab?",
+   "frage": "In einem Restaurant finden Gäste über 30 Minuten Wartezeit inakzeptabel. Welche Kennzahl leitet man daraus ab?",
    "optionen": [
     "Anteil der Kunden, die in unter 30 Minuten bedient werden (ST30)",
-    "Durchschnittliche Kochzeit",
-    "Anzahl Kellner pro Tisch",
-    "Umsatz pro Gast"
+    "Die durchschnittliche Kochzeit je Gericht in der Küche während der Stosszeit",
+    "Die Anzahl der eingesetzten Kellner je belegtem Tisch am Abend",
+    "Der durchschnittliche Umsatz pro Gast und einzelnem Besuch"
    ],
    "loesung": [
     0
@@ -8129,12 +8129,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Prozesse auswählen, Kennzahlen definieren und Prozessportfolio erstellen",
-   "frage": "Welche Prozesse priorisiert das Prozessportfolio nach Dumas?",
+   "frage": "Welche Prozesse priorisiert ein Prozessportfolio?",
    "optionen": [
     "Wichtige und ungesunde Prozesse (oben links), unter Berücksichtigung der Machbarkeit",
-    "Alle ungesunden Prozesse gleichzeitig",
-    "Die gesündesten Prozesse, um Erfolge zu zeigen",
-    "Nur Unterstützungsprozesse"
+    "Alle ungesunden Prozesse gleichzeitig, unabhängig von ihrer strategischen Bedeutung und Machbarkeit",
+    "Die gesündesten Prozesse zuerst, um möglichst rasch sichtbare Erfolge zu zeigen",
+    "Nur die Unterstützungsprozesse, weil dort der Aufwand am kleinsten ist"
    ],
    "loesung": [
     0
@@ -8150,12 +8150,12 @@
    "kategorie": "uebung",
    "typ": "mc",
    "lernziel": "Prozesse auswählen, Kennzahlen definieren und Prozessportfolio erstellen",
-   "frage": "Übung 5 (Prozessportfolio Universität): Welcher Prozess sollte verbessert werden?",
+   "frage": "Ein Prozessportfolio einer Universität zeigt vier Prozesse. Welcher sollte verbessert werden?",
    "optionen": [
     "Kurse ansetzen (Bedeutung 95 %, Verbesserungswürdigkeit 70 %, Fähigkeit 50 %)",
-    "Räume verwalten (40 %, 65 %, 70 %)",
-    "Kurse durchführen (95 %, 30 %, 30 %)",
-    "Studienprogramme entwickeln (90 %, 10 %, 40 %)"
+    "Räume verwalten (Bedeutung 40 %, Verbesserungswürdigkeit 65 %, Fähigkeit 70 %)",
+    "Kurse durchführen (Bedeutung 95 %, Verbesserungswürdigkeit 30 %, Fähigkeit 30 %)",
+    "Studienprogramme entwickeln (Bedeutung 90 %, Verbesserungswürdigkeit 10 %, Fähigkeit 40 %)"
    ],
    "loesung": [
     0
@@ -8194,12 +8194,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Prozesse identifizieren und ihre Bestandteile klassifizieren",
-   "frage": "Faustregel bei Dumas: Ein Prozess ist zu klein, wenn ...",
+   "frage": "Nach der Faustregel ist ein Prozess zu klein, wenn …",
    "optionen": [
     "weniger als drei Akteure (ohne Kunde) beteiligt sind",
-    "er weniger als zehn Aktivitäten hat",
-    "er nur einmal pro Tag läuft",
-    "er keinen IT-Support hat"
+    "er weniger als zehn einzelne Aktivitäten überhaupt umfasst",
+    "er nur einmal pro Tag oder seltener ausgelöst wird",
+    "er ohne jede Unterstützung durch IT-Systeme auskommt"
    ],
    "loesung": [
     0
@@ -8262,12 +8262,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Prozessarchitektur und Prozesslandkarte erstellen",
-   "frage": "Welche zwei Gruppen von Kernprozessen hat BuildITs Prozesslandkarte bei Dumas?",
+   "frage": "Welche zwei Gruppen von Kernprozessen hat BuildITs Prozesslandkarte?",
    "optionen": [
     "Contract Acquisition und Contract Execution",
-    "Plan und Build",
-    "Sales und Service",
-    "Engineering und Finance"
+    "Planning und Construction als zwei eigene Gruppen",
+    "Sales und Service als zwei Gruppen",
+    "Engineering und Finance als Gruppen"
    ],
    "loesung": [
     0
@@ -8304,12 +8304,12 @@
    "kategorie": "uebung",
    "typ": "mc",
    "lernziel": "Prozessarchitektur und Prozesslandkarte erstellen",
-   "frage": "Übung 1 Industriefirma AG: Warum bietet es sich an, zwei End-to-End-Kernprozesse zu bilden?",
+   "frage": "Eine Industriefirma fertigt Neuwerkzeuge und betreibt Aftersales. Warum bietet es sich an, zwei End-to-End-Kernprozesse zu bilden?",
    "optionen": [
     "Neuwerkzeuge und Aftersales (Ersatzteile, Reparaturen) haben unterschiedliche Auslöser",
-    "Weil die Firma zwei Standorte hat",
-    "Weil 80 % exportiert werden",
-    "Weil Marketing und IT getrennt sind"
+    "Weil die Firma an zwei räumlich getrennten Standorten produziert und von dort verwaltet wird",
+    "Weil rund 80 Prozent der gesamten Produktion exportiert werden",
+    "Weil Marketing und IT organisatorisch voneinander getrennt geführt werden"
    ],
    "loesung": [
     0

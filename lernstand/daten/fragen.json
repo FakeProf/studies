@@ -1147,8 +1147,8 @@
    "optionen": [
     "Erleben, wie Missverständnisse durch fehlende Notation entstehen — und warum standardisierte Modellierungssprachen essenziell sind",
     "Üben, wie man ohne Software und ohne Vorgaben schnell eine brauchbare Skizze eines Ablaufs anfertigt und mit den Beteiligten abstimmt",
-    "Zeigen, dass BPMN für einfache Prozesse überflüssiger Aufwand ist",
-    "Trainieren, wie man Prozesse allein aus dem Gedächtnis rekonstruiert"
+    "Zeigen, dass BPMN für einfache Prozesse überflüssiger Aufwand ist und eine Handskizze dort vollkommen ausreicht",
+    "Trainieren, wie man einen Prozess allein aus dem Gedächtnis rekonstruiert, ohne die Beteiligten zu befragen"
    ],
    "loesung": [
     0
@@ -1206,7 +1206,7 @@
    "kategorie": "vorlesung",
    "typ": "mc",
    "lernziel": "System und Aufgaben des integrierten GPM erläutern",
-   "frage": "Wofür sollte laut Modulleitfrage nicht zuerst das Werkzeug gewählt werden?",
+   "frage": "Womit beginnt man bei einem Prozessvorhaben — und womit gerade nicht?",
    "optionen": [
     "Man beginnt beim Prozessproblem, nicht bei der Technologie",
     "Man beginnt beim Budget, nicht bei der Technologie",
@@ -2297,8 +2297,8 @@
    "optionen": [
     "Es gibt keine Eigentumsrechte, niemand kann von der Nutzung ausgeschlossen werden, und die Nutzung ist nicht exklusiv",
     "Sie werden vom Staat produziert und anschliessend über öffentliche Stellen an die gesamte Bevölkerung eines Landes verteilt",
-    "Sie stehen unter besonderem gesetzlichem Schutz des Bundes",
-    "Sie werden ausschliesslich über allgemeine Steuern finanziert"
+    "Sie stehen unter besonderem gesetzlichem Schutz des Bundes, der ihre Nutzung abschliessend regelt",
+    "Sie werden ausschliesslich über allgemeine Steuern finanziert und stehen deshalb allen offen"
    ],
    "loesung": [
     0
@@ -2355,8 +2355,8 @@
    "optionen": [
     "Kosten beim Konsum und bei der Produktion, die nicht im vom Nutzer bezahlten Preis berücksichtigt sind und damit ausserhalb des Markts liegen",
     "Kosten, die durch den Beizug externer Dienstleister entstehen und deshalb nicht in der eigenen Kostenrechnung des Unternehmens sichtbar werden",
-    "Kosten, die im Ausland anfallen und von dort verrechnet werden",
-    "Kosten, die erst in künftigen Perioden zahlungswirksam werden"
+    "Kosten, die im Ausland anfallen und dem Unternehmen von dort in Rechnung gestellt werden, ohne dass sie im Inland sichtbar werden",
+    "Kosten, die erst in künftigen Perioden zahlungswirksam werden und deshalb heute lediglich als Rückstellung in der Bilanz erscheinen"
    ],
    "loesung": [
     0
@@ -2591,8 +2591,8 @@
    "optionen": [
     "Die Umnutzung sanierter Industriebrachen statt Erschliessung neuer Flächen — die Areale liegen zentral und sind erschlossen",
     "Das Recycling von Baumaterialien beim Abbruch von Gebäuden, damit Kies und Beton nicht neu abgebaut und transportiert werden müssen",
-    "Die Rückführung von Bauland in landwirtschaftlich genutzte Flächen",
-    "Die Mehrfachnutzung von Gewerbeflächen durch verschiedene Betriebe"
+    "Die Rückführung von bereits eingezontem Bauland in landwirtschaftlich genutzte Flächen am Siedlungsrand",
+    "Die Mehrfachnutzung derselben Gewerbeflächen durch verschiedene Betriebe zu unterschiedlichen Zeiten"
    ],
    "loesung": [
     0
@@ -2717,8 +2717,8 @@
    "optionen": [
     "Industriegüter: laufende Weiterentwicklung, kleinere Konkurrenz, einkommenselastisch. Primärgüter: grosse Konkurrenz aus vielen Ländern, einkommensunelastisch",
     "Industriegüter werden in den Industrieländern staatlich subventioniert und geschützt, Primärgüter dagegen nicht — deshalb klafft die Preisschere immer weiter auseinander",
-    "Industriegüter unterliegen hohen Einfuhrzöllen, Primärgüter werden zollfrei gehandelt",
-    "Industriegüter sind schlicht knapper als Primärgüter und deshalb teurer"
+    "Industriegüter unterliegen hohen Einfuhrzöllen, Primärgüter werden zollfrei gehandelt — daraus entsteht die Preisdifferenz zwischen beiden Gütergruppen",
+    "Industriegüter sind schlicht knapper als Primärgüter und deshalb teurer, weil ihre Herstellung aufwendigere Anlagen voraussetzt"
    ],
    "loesung": [
     0
@@ -2809,8 +2809,8 @@
    "optionen": [
     "Schweiz = wohlhabend ohne Rohstoffe, Kongo = arm mit Rohstoffen. Fazit: Rohstoffe sind keine Garantie für Entwicklung, Humanressourcen wiegen oft schwerer",
     "Saudi-Arabien = wohlhabend mit Rohstoffen, Haiti = arm ohne Rohstoffe. Fazit: Rohstoffvorkommen entscheiden letztlich über Wohlstand und Entwicklung eines Landes",
-    "Nur Länder mit direktem Zugang zum Meer werden auf Dauer wohlhabend",
-    "Rohstoffreichtum führt fast zwangsläufig zu Korruption und Misswirtschaft"
+    "Nur Länder mit direktem Zugang zum Meer werden auf Dauer wohlhabend, weil sie günstig am Welthandel teilnehmen und exportieren können",
+    "Rohstoffreichtum führt fast zwangsläufig zu Korruption und Misswirtschaft, weshalb rohstoffarme Länder langfristig im Vorteil sind"
    ],
    "loesung": [
     0
@@ -2862,8 +2862,8 @@
    "optionen": [
     "Drei Phasen (vorindustriell, industriell, nachindustriell) mit rund 80 Prozent im Dienstleistungssektor. Einschränkung: kein allgemein gültiges Gesetz — Kanada sprang direkt von der Agrar- zur Dienstleistungsgesellschaft",
     "Vier Phasen mit dem quartären Sektor als Endzustand. Einschränkung: Das Modell gilt nur für die europäischen Industrieländer und lässt sich nicht auf andere Weltregionen übertragen, weil dort andere Entwicklungspfade vorliegen",
-    "Zwei Phasen, agrarisch und industriell. Einschränkung: Es gilt nur für die frühen Industrieländer Europas",
-    "Drei Phasen mit gleichmässiger Verteilung auf alle Sektoren. Einschränkung: Es gilt nur bis etwa 1990"
+    "Zwei Phasen, agrarisch und industriell. Einschränkung: Es gilt nur für die frühen Industrieländer Europas und lässt sich auf Länder mit anderer Ausgangslage nicht anwenden, weil dort die Industrialisierung anders verlief",
+    "Drei Phasen mit gleichmässiger Verteilung auf alle Sektoren. Einschränkung: Es gilt nur bis etwa 1990, danach veränderten Digitalisierung und Globalisierung die Sektorstruktur grundlegend"
    ],
    "loesung": [
     0
@@ -2997,7 +2997,7 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Industrielle Produktionsweisen vergleichen",
-   "frage": "Welche Kritikpunkte nennt das Compendio zur Lean Production? (mehrere richtig)",
+   "frage": "Welche Kritikpunkte gibt es an der Lean Production? (mehrere richtig)",
    "optionen": [
     "Gesteigerte Produktivität führt zu schnellerem Strukturwandel",
     "Das Management hat es geschafft, dass sich die Teams selber kontrollieren",
@@ -3112,8 +3112,8 @@
    "optionen": [
     "Gut erschlossene Räume nahe Hafen oder Flughafen mit aufgehobenen Regelungen (keine Gewerkschaften, kein Umweltschutz, Steuerbefreiung) — den Preis zahlen Arbeiter, Anwohner und Umwelt",
     "Zollfreie Lagerhäuser für den Transithandel — die Kehrseite ist Schmuggel und die schwierige Kontrolle der Warenströme durch Behörden, die Ladungen kaum je lückenlos prüfen können",
-    "Staatlich geförderte Industrieparks in Industrieländern — die Kehrseite sind hohe Kosten für die öffentliche Hand",
-    "Gebiete ohne Baubewilligungspflicht — die Kehrseite ist eine ungesteuerte Zersiedelung"
+    "Staatlich geförderte Industrieparks in Industrieländern — die Kehrseite sind hohe Kosten für die öffentliche Hand, die selten wieder hereinkommen",
+    "Gebiete ohne Baubewilligungspflicht — die Kehrseite ist eine ungesteuerte Zersiedelung, die sich später kaum noch rückgängig machen lässt"
    ],
    "loesung": [
     0
@@ -3202,8 +3202,8 @@
    "optionen": [
     "Lohn inklusive Nebenkosten je Produkteinheit, also Lohnhöhe im Verhältnis zur Produktivität — die absolute Lohnhöhe sagt für sich wenig aus",
     "Die gesamte Lohnsumme eines Unternehmens geteilt durch die Zahl seiner Mitarbeitenden, also der durchschnittliche Lohn je Kopf und Jahr im Betrieb",
-    "Die gesamten Lohnkosten im Verhältnis zum Umsatz einer Periode",
-    "Der durchschnittliche Stundenlohn einer Branche im Ländervergleich"
+    "Die gesamten Lohnkosten im Verhältnis zum Umsatz einer Periode, also der Anteil der Löhne an jedem erwirtschafteten Franken",
+    "Der durchschnittliche Stundenlohn einer Branche im Ländervergleich, bereinigt um die jeweilige Kaufkraft vor Ort"
    ],
    "loesung": [
     0
@@ -3224,8 +3224,8 @@
    "optionen": [
     "Deutschland, Irland und USA moderat gesunken; China mehr als verdoppelt; Griechenland und Italien trotz Lohnsenkungen noch immer über dem Wert von 1998",
     "In allen Industrieländern deutlich gestiegen, in sämtlichen Schwellenländern dagegen gesunken — die Schere zwischen beiden Gruppen ging dadurch weit auseinander",
-    "In China gesunken, in Europa gestiegen, in den USA weitgehend unverändert",
-    "Weltweit weitgehend unverändert, abgesehen von einzelnen Ausreissern"
+    "In China gesunken, in Europa gestiegen und in den USA seit der Jahrtausendwende weitgehend unverändert geblieben",
+    "Weltweit weitgehend unverändert, abgesehen von einzelnen Ausreissern nach oben in den Krisenjahren nach 2008"
    ],
    "loesung": [
     0
@@ -3246,8 +3246,8 @@
    "optionen": [
     "Erste/Zweite/Dritte Welt und Entwicklungsländer; Alternativen sind Globaler Norden, Schwellenländer, Länder des Globalen Südens und Least Developed Countries",
     "Industrieländer und Agrarländer; Alternativen sind Nord und Süd, entwickelte und unterentwickelte Staaten sowie erste und zweite Welt im alten Sprachgebrauch",
-    "Ost und West; Alternativen sind die Begriffe links und rechts der Blockgrenze",
-    "Arme und reiche Länder; brauchbare Alternativen gibt es dafür keine"
+    "Ost und West; Alternativen sind die Begriffe links und rechts der ehemaligen Blockgrenze sowie sozialistische und kapitalistische Staaten",
+    "Arme und reiche Länder; brauchbare Alternativen gibt es dafür bisher keine, weshalb die Begriffe weiterhin verwendet werden"
    ],
    "loesung": [
     0
@@ -3266,9 +3266,9 @@
    "frage": "Wofür steht das Akronym VUKA?",
    "optionen": [
     "Volatilität, Unsicherheit, Komplexität, Ambiguität",
-    "Vernetzung, Umwelt, Kooperation, Agilität",
-    "Veränderung, Unternehmen, Kunde, Arbeit",
-    "Vision, Umsetzung, Kontrolle, Anpassung"
+    "Vernetzung, Umweltbezug, Kooperation und Agilität",
+    "Veränderung, Unternehmertum, Kundennähe, Arbeitswelt",
+    "Vision, Umsetzung, Kontrolle und Anpassung"
    ],
    "loesung": [
     0
@@ -3287,9 +3287,9 @@
    "frage": "Was ist das Problem des kartesianischen Denkens?",
    "optionen": [
     "Es basiert auf linearer Kausalität; Probleme werden zergliedert in der Annahme, dass sich aus dem Verständnis der Teile das Ganze ergibt",
-    "Es berücksichtigt nur quantitative Daten",
-    "Es ist zu langsam für schnelle Entscheidungen",
-    "Es vernachlässigt die historische Entwicklung"
+    "Es berücksichtigt ausschliesslich quantitative Daten und blendet damit alles aus, was sich nicht sinnvoll in Zahlen fassen und messen lässt",
+    "Es ist für schnelle Entscheidungen zu langsam, weil es vollständige Information verlangt",
+    "Es vernachlässigt die historische Entwicklung eines Systems und seine Vorgeschichte"
    ],
    "loesung": [
     0
@@ -3388,9 +3388,9 @@
    "frage": "Warum ist die Frage Wer ist schuld? aus systemischer Sicht meist keine sinnvolle Frage?",
    "optionen": [
     "Die Feedbackperspektive besagt, dass alle Beteiligten für die Probleme verantwortlich sind, die ein System erzeugt",
-    "Weil sich die Verantwortung juristisch nicht klären lässt",
-    "Weil Schuldzuweisungen die Teamarbeit stören",
-    "Weil in komplexen Systemen niemand Verantwortung trägt"
+    "Weil sich die Verantwortung in komplexen Lagen juristisch nicht abschliessend klären und einzelnen Personen zurechnen lässt",
+    "Weil Schuldzuweisungen die Zusammenarbeit im Team nachhaltig stören",
+    "Weil in komplexen Systemen letztlich niemand Verantwortung trägt"
    ],
    "loesung": [
     0
@@ -3452,9 +3452,9 @@
    "lernziel": "Problemkomplexität einschätzen",
    "frage": "Was besagt das Seerosen-Beispiel über exponentielles Verhalten?",
    "optionen": [
-    "Verdoppelt sich die Zahl täglich und dauert der Prozess 30 Tage, nimmt bis zum 27. Tag kaum jemand Notiz; am 29. Tag ist die Hälfte überwuchert — dann ist es deutlich zu spät",
-    "Exponentielles Wachstum ist gut vorhersehbar, wenn man die Verdoppelungszeit kennt",
-    "Seerosen wachsen nur, solange genug Nährstoffe vorhanden sind",
+    "Verdoppelt sich die Zahl täglich und dauert der Prozess 30 Tage, nimmt bis zum 27. Tag kaum jemand Notiz; am 29. Tag ist die Hälfte überwuchert",
+    "Exponentielles Wachstum ist gut vorhersehbar, sobald man die Verdoppelungszeit einmal kennt — dann lässt sich jeder künftige Zeitpunkt zuverlässig berechnen",
+    "Seerosen wachsen nur so lange, wie im Teich genügend Nährstoffe vorhanden sind",
     "Das Wachstum bricht von selbst ab, sobald der Teich zur Hälfte bedeckt ist"
    ],
    "loesung": [
@@ -3473,10 +3473,10 @@
    "lernziel": "Kreisläufe, Hebel und Indikatoren interpretieren",
    "frage": "Was beschreibt der Schweinezyklus?",
    "optionen": [
-    "Bei steigendem Preis züchten Bauern mehr Schweine, doch die Wirkung aufs Angebot tritt erst Monate später ein — das Überangebot lässt die Preise zerfallen, viele steigen aus, und das Spiel beginnt von vorn",
-    "Die saisonale Schwankung der Fleischnachfrage",
-    "Den biologischen Lebenszyklus von Nutztieren",
-    "Die Abhängigkeit der Landwirtschaft von Subventionen"
+    "Bei steigendem Preis züchten Bauern mehr Schweine, die Wirkung tritt aber erst Monate später ein — das Überangebot lässt die Preise zerfallen, und das Spiel beginnt von vorn",
+    "Die saisonale Schwankung der Fleischnachfrage über das Jahr hinweg, die sich aus Feiertagen, Grillsaison und Ferienzeiten ergibt und die Preise dadurch regelmässig in Bewegung hält",
+    "Den biologischen Lebenszyklus von Nutztieren von der Geburt bis zur Schlachtreife, der die Planung der Betriebe über Monate festlegt",
+    "Die Abhängigkeit der Landwirtschaft von staatlichen Subventionen und Direktzahlungen, die bei jeder Reform neu verhandelt werden"
    ],
    "loesung": [
     0
@@ -3520,10 +3520,10 @@
    "lernziel": "Kreisläufe, Hebel und Indikatoren interpretieren",
    "frage": "Was unterscheidet lenkbare von nur beeinflussbaren Grössen?",
    "optionen": [
-    "Bei einem Schiff kann man Segel und Steuerruder lenken, nicht aber den Kurs — dieser wird auch durch Wind und Strömung bestimmt. Im Unternehmen sind Investitionen lenkbar, Innovationen nur indirekt beeinflussbar",
-    "Lenkbare Grössen sind messbar, beeinflussbare nicht",
-    "Lenkbare Grössen sind intern, beeinflussbare extern",
-    "Der Unterschied ist rein sprachlich"
+    "Beim Schiff lassen sich Segel und Ruder lenken, nicht aber der Kurs — er hängt auch von Wind und Strömung ab. Im Unternehmen sind Investitionen lenkbar, Innovationen nur beeinflussbar",
+    "Lenkbare Grössen sind messbar, beeinflussbare entziehen sich der Messung — deshalb lassen sich nur die ersten in ein Management-Cockpit aufnehmen und dort laufend überwachen und steuern",
+    "Lenkbare Grössen sind unternehmensintern, beeinflussbare liegen ausserhalb des Unternehmens und lassen sich allenfalls indirekt über Dritte erreichen oder verhandeln",
+    "Der Unterschied ist rein sprachlich und hat für die praktische Steuerung eines Unternehmens keinerlei Bedeutung, solange die Grössen überhaupt gemessen werden"
    ],
    "loesung": [
     0
@@ -3539,12 +3539,12 @@
    "kategorie": "vorlesung",
    "typ": "mc",
    "lernziel": "Problemkomplexität einschätzen",
-   "frage": "Welchen einfachen Test nennt der Einführungstag, um ein komplexes Problem zu erkennen?",
+   "frage": "Welcher einfache Test zeigt, dass ein Problem komplex ist?",
    "optionen": [
     "Wenn zwei gegensätzliche Lösungen beanspruchen, das Problem zu bewältigen — etwa Repression versus Liberalisierung bei der Drogenproblematik",
-    "Wenn mehr als zehn Einflussfaktoren beteiligt sind",
-    "Wenn keine Daten verfügbar sind",
-    "Wenn mehrere Abteilungen betroffen sind"
+    "Wenn mehr als zehn Einflussfaktoren beteiligt sind und sich ihre Wirkungen nicht mehr sauber voneinander trennen und einzeln beurteilen lassen",
+    "Wenn für die Beurteilung des Problems keine belastbaren Daten verfügbar sind und man auf Schätzungen angewiesen bleibt",
+    "Wenn mehrere Abteilungen oder sogar mehrere Organisationen gleichzeitig davon betroffen sind und mitreden wollen"
    ],
    "loesung": [
     0
@@ -3642,9 +3642,9 @@
    "frage": "Was fand Henry Mintzberg heraus, als er untersuchte, wie Manager tatsächlich arbeiten?",
    "optionen": [
     "Sie taten selten das, was sie zu tun glaubten — die meisten waren Sklaven des Augenblicks, die von einer Aufgabe zur nächsten hetzten",
-    "Sie verbrachten den grössten Teil ihrer Zeit mit langfristiger Planung",
-    "Sie delegierten fast alle operativen Aufgaben",
-    "Sie kommunizierten überwiegend schriftlich"
+    "Sie verbrachten den grössten Teil ihrer Zeit mit langfristiger Planung und der Entwicklung von Strategien für die kommenden Geschäftsjahre",
+    "Sie delegierten nahezu alle operativen Aufgaben an ihre direkten Mitarbeitenden",
+    "Sie kommunizierten überwiegend schriftlich und kaum im direkten Gespräch"
    ],
    "loesung": [
     0
@@ -3696,10 +3696,10 @@
    "lernziel": "Systemorientierte Managementlehre und Anspruchsgruppen verstehen",
    "frage": "Welche Frage stellte Hans Ulrich Mitte der 1960er-Jahre — und was war daran revolutionär?",
    "optionen": [
-    "In welchem Geschäft befinden wir uns wirklich? — Der Blick auf Wettbewerber und Kunden war für eine akademische Institution geradezu revolutionär",
-    "Wie maximieren wir den Gewinn? — Der Fokus auf Rendite war neu",
-    "Wie organisieren wir die Produktion? — Der Prozessgedanke war neu",
-    "Wer trägt die Verantwortung? — Die Governance-Frage war neu"
+    "In welchem Geschäft befinden wir uns wirklich? — Der Blick auf Wettbewerber und Kunden war für eine akademische Institution revolutionär",
+    "Wie maximieren wir den Gewinn? — Der konsequente Fokus auf die Rendite war für eine akademische Institution jener Jahre geradezu ungewöhnlich",
+    "Wie organisieren wir die Produktion? — Der Gedanke des Prozesses war damals völlig neu",
+    "Wer trägt die Verantwortung? — Die Frage nach der Governance war damals neu"
    ],
    "loesung": [
     0
@@ -3718,9 +3718,9 @@
    "frage": "Aus welchen zwei Wissenschaften entwickelte Hans Ulrich die Idee, in Systemen zu denken?",
    "optionen": [
     "Systemtheorie und Kybernetik — Kybernetik bedeutet Steuermannskunst",
-    "Betriebswirtschaft und Soziologie",
-    "Volkswirtschaft und Psychologie",
-    "Mathematik und Informatik"
+    "Betriebswirtschaft und Soziologie — beide untersuchen Organisationen",
+    "Volkswirtschaft und Psychologie — beide erklären Verhalten",
+    "Mathematik und Informatik — beide formalisieren Abläufe"
    ],
    "loesung": [
     0
@@ -3848,10 +3848,10 @@
    "lernziel": "Die Methodik des vernetzten Denkens anwenden",
    "frage": "Was sind Schlüsselfaktoren — und was sind sie ausdrücklich nicht?",
    "optionen": [
-    "Grössen, die bei der Analyse unbedingt berücksichtigt werden müssen — nicht primär die Ansprüche der Stakeholder, sondern für die Problemstellung notwendige Kerngrössen",
-    "Die wichtigsten Kennzahlen eines Unternehmens — nicht die operativen Detaildaten",
-    "Die Hebel im Netzwerk — nicht die Indikatoren",
-    "Die Interessen der Anspruchsgruppen — nicht die Unternehmensziele"
+    "Grössen, die bei der Analyse unbedingt berücksichtigt werden müssen — nicht die Stakeholder-Ansprüche, sondern die für die Problemstellung notwendigen Kerngrössen",
+    "Die wichtigsten Kennzahlen eines Unternehmens — nicht die operativen Detaildaten aus dem laufenden Tagesgeschäft, die jeweils nur einzelne Abteilungen betreffen und dort verantwortet werden",
+    "Die Hebel im Wirkungsnetzwerk — nicht die Indikatoren, die nur das Ergebnis anzeigen",
+    "Die Interessen der Anspruchsgruppen — nicht die Ziele, die das Unternehmen selbst setzt"
    ],
    "loesung": [
     0
@@ -3889,9 +3889,9 @@
    "frage": "Der Fall Wegelin illustriert welchen Kreislauftyp?",
    "optionen": [
     "Einen Verstärker: Vertrauen führt zu Kundeneinlagen, die wiederum Vertrauen schaffen — der galoppierende Vertrauensverlust drehte den Kreislauf um",
-    "Einen Stabilisator: Die Einlagen pendelten sich auf einem neuen Gleichgewicht ein",
-    "Eine Rahmenbedingung, auf die die Bank keinen Einfluss hatte",
-    "Einen Zeitverzögerungseffekt"
+    "Einen Stabilisator: Die Einlagen pendelten sich nach dem Einbruch auf einem neuen, tieferen Gleichgewicht ein, das die Bank hätte tragen können und das sich von selbst hielt",
+    "Eine Rahmenbedingung von aussen, auf die die Bank selbst keinen Einfluss hatte",
+    "Einen Zeitverzögerungseffekt zwischen Ursache und sichtbarer Wirkung"
    ],
    "loesung": [
     0
@@ -3910,9 +3910,9 @@
    "frage": "Was hält ein Aktionsplan am Ende der Methodik des vernetzten Denkens fest?",
    "optionen": [
     "Zielwerte, Massnahmen, Verantwortliche und Termine",
-    "Budget, Ressourcen, Risiken und Chancen",
-    "Stärken, Schwächen, Chancen und Risiken",
-    "Vision, Mission, Strategie und Ziele"
+    "Budget, Ressourcen, Risiken und die wichtigsten Chancen",
+    "Stärken, Schwächen, Chancen und die Risiken",
+    "Vision, Mission, Strategie und die Ziele"
    ],
    "loesung": [
     0
@@ -3958,12 +3958,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Handlungsebenen und Kernaufgaben des Managements erklären",
-   "frage": "Was zeigt die Metastudie von Clark, Viehs und Weiner (2015) zur Nachhaltigkeit?",
+   "frage": "Was zeigt die Forschungslage zum Zusammenhang von Nachhaltigkeit und Unternehmenserfolg?",
    "optionen": [
-    "In 88 Prozent von 200 Untersuchungen erzielen nachhaltig orientierte Firmen bessere Resultate, mit tieferen Kapitalkosten, höherer Profitabilität und besserer Aktienkursentwicklung",
-    "Nachhaltigkeit und Profitabilität schliessen sich aus",
-    "Nachhaltigkeit wirkt sich nur langfristig positiv aus",
-    "Nur ökologische, nicht aber soziale Kriterien zahlen sich aus"
+    "In 88 Prozent von 200 Untersuchungen schneiden nachhaltig orientierte Firmen besser ab — tiefere Kapitalkosten, höhere Profitabilität, bessere Kursentwicklung",
+    "Nachhaltigkeit und Profitabilität schliessen einander aus, weil Umweltauflagen die Kosten erhöhen und die Wettbewerbsfähigkeit gegenüber anderen Anbietern schwächen",
+    "Nachhaltigkeit wirkt sich erst sehr langfristig positiv aus, kurzfristig kostet sie Rendite",
+    "Nur ökologische Kriterien zahlen sich aus, soziale Kriterien bleiben ohne messbare Wirkung"
    ],
    "loesung": [
     0
@@ -3979,12 +3979,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Handlungsebenen und Kernaufgaben des Managements erklären",
-   "frage": "Welche Zahlen nennt das Lehrbuch zu Henry Ford und dem Modell Ford T?",
+   "frage": "Welche Zahlen kennzeichnen Henry Ford und das Modell T?",
    "optionen": [
     "Fliessbandproduktion ab 1913, zeitweise über 50 Prozent Marktanteil, Preissenkung von 1300 auf 290 Dollar",
-    "Fliessbandproduktion ab 1908, 30 Prozent Marktanteil, Preissenkung von 850 auf 400 Dollar",
-    "Fliessbandproduktion ab 1920, 70 Prozent Marktanteil, Preissenkung von 2000 auf 500 Dollar",
-    "Fliessbandproduktion ab 1911, 40 Prozent Marktanteil, Preissenkung von 1000 auf 600 Dollar"
+    "Fliessbandproduktion ab 1908, zeitweise rund 30 Prozent Marktanteil, Preissenkung von 850 auf 400 Dollar je Fahrzeug",
+    "Fliessbandproduktion ab 1920, zeitweise über 70 Prozent Marktanteil, Preissenkung von 2000 auf 500 Dollar",
+    "Fliessbandproduktion ab 1911, zeitweise rund 40 Prozent Marktanteil, Preissenkung von 1000 auf 600 Dollar"
    ],
    "loesung": [
     0
@@ -4000,12 +4000,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Handlungsebenen und Kernaufgaben des Managements erklären",
-   "frage": "Was sagt das Lehrbuch zur Automatisierbarkeit von Managementfunktionen?",
+   "frage": "Wie weit lassen sich Managementfunktionen automatisieren?",
    "optionen": [
-    "Einzelne Untertätigkeiten wie Datenerfassung oder Kalkulation lassen sich stark unterstützen oder ersetzen — die Managementfunktionen als Ganzes erfordern aber weiterhin menschliche Kompetenzen",
-    "Management ist vollständig automatisierbar, sobald genügend Daten vorliegen",
-    "Management ist gar nicht automatisierbar, weil es keine wiederholbaren Tätigkeiten enthält",
-    "Nur die Planung lässt sich automatisieren, alle anderen Funktionen nicht"
+    "Einzelne Untertätigkeiten wie Datenerfassung oder Kalkulation lassen sich stark unterstützen oder ersetzen — die Funktionen als Ganzes erfordern weiterhin menschliche Kompetenzen",
+    "Management ist vollständig automatisierbar, sobald genügend Daten in ausreichender Qualität vorliegen und die Modelle die Zusammenhänge im Unternehmen zuverlässig genug abbilden können",
+    "Management ist gar nicht automatisierbar, weil es überhaupt keine wiederholbaren Tätigkeiten enthält und jede Lage eine neue Beurteilung verlangt",
+    "Nur die Planung lässt sich automatisieren, alle übrigen Managementfunktionen bleiben vollständig den Menschen vorbehalten"
    ],
    "loesung": [
     0
@@ -4024,9 +4024,9 @@
    "frage": "Welche Frage beantwortet ein Leitbild (Value Statement) — und wozu gehört es?",
    "optionen": [
     "Wer wollen wir sein? — es gehört zum normativen Management und ist schriftlicher Ausdruck der Unternehmensidentität",
-    "Was wollen wir verkaufen? — es gehört zum strategischen Management",
-    "Wie erreichen wir unsere Ziele? — es gehört zum operativen Management",
-    "Wie viel wollen wir verdienen? — es gehört zur Finanzplanung"
+    "Was wollen wir verkaufen? — es gehört zum strategischen Management und legt die künftigen Geschäftsfelder des Unternehmens fest",
+    "Wie erreichen wir unsere Ziele? — es gehört zum operativen Management und steuert den Alltag",
+    "Wie viel wollen wir verdienen? — es gehört zur Finanzplanung und setzt die Renditeziele"
    ],
    "loesung": [
     0
@@ -4042,7 +4042,7 @@
    "kategorie": "uebung",
    "typ": "mc",
    "lernziel": "Kreisläufe, Hebel und Indikatoren interpretieren",
-   "frage": "Welches Aufgabenmuster wiederholt sich in allen vier Übungen zu Kapitel 1? (mehrere richtig)",
+   "frage": "Welches Aufgabenmuster wiederholt sich in den Übungen zum vernetzten Denken? (mehrere richtig)",
    "optionen": [
     "Pfeile mit negativem Wirkungszusammenhang mit Minus markieren",
     "Eintragen, ob der Kreislauf ein Selbstverstärker oder ein Stabilisator ist",
@@ -4065,12 +4065,12 @@
    "kategorie": "uebung",
    "typ": "mc",
    "lernziel": "Kreisläufe, Hebel und Indikatoren interpretieren",
-   "frage": "Übung 1-2 zeigt das Netzwerk eines funktionierenden Wettbewerbs. Welche Grössen wirken dort von aussen ein — und woher kennt man sie?",
+   "frage": "In einem Netzwerk des funktionierenden Wettbewerbs: Welche Grössen wirken von aussen ein — und woher kennt man sie?",
    "optionen": [
     "Verhandlungsmacht der Kunden, Verhandlungsmacht der Lieferanten und Substitutionsgefahr — drei der fünf Porter-Kräfte",
-    "Zinsniveau, Wechselkurs und Inflation — makroökonomische Grössen",
+    "Zinsniveau, Wechselkurs und Inflation — drei makroökonomische Rahmengrössen, auf die ein Unternehmen keinen Einfluss hat",
     "Kundenzufriedenheit, Markenwert und Marktanteil — Messgrössen der Kundenperspektive",
-    "Innovationen, Investitionen und Qualität — Steuergrössen"
+    "Innovationen, Investitionen und Qualität — drei klassische Steuergrössen"
    ],
    "loesung": [
     0
@@ -4107,12 +4107,12 @@
    "kategorie": "vorlesung",
    "typ": "mc",
    "lernziel": "Kreisläufe, Hebel und Indikatoren interpretieren",
-   "frage": "Fallstudie Systemische Steuerpolitik: Welche methodische Pointe enthält die Auflösung zu den Hebeln?",
+   "frage": "Bei einer systemischen Betrachtung der Steuerpolitik: Welche methodische Pointe steckt in der Auflösung zu den Hebeln?",
    "optionen": [
     "Je nach gewählter Perspektive sind andere Variablen als Hebel zu klassifizieren — unterstellt ist hier der Gesetzgeber, nicht das Steueramt",
-    "Hebel und Indikatoren sind immer eindeutig bestimmbar",
-    "Rahmenbedingungen können nie zu Hebeln werden",
-    "Der Steuerertrag ist immer ein Hebel"
+    "Hebel und Indikatoren sind immer eindeutig bestimmbar, sobald das Netzwerk vollständig gezeichnet und alle Wirkungen eingetragen worden sind",
+    "Rahmenbedingungen können grundsätzlich nie zu Hebeln werden, auch nicht über die Zeit",
+    "Der Steuerertrag ist in jeder Betrachtung ein Hebel und nie ein Indikator"
    ],
    "loesung": [
     0
@@ -4164,10 +4164,10 @@
    "lernziel": "Wissenschaftliches Arbeiten und KI-Weisung anwenden",
    "frage": "Welche zwei Nutzungsarten von KI unterscheidet die OST-Weisung?",
    "optionen": [
-    "Nutzung als Hilfsmittel (Strukturierung, Recherche, sprachliche Überarbeitung) und Nutzung als Quelle (wörtliche oder sinngemässe Übernahme von Inhalten)",
-    "Erlaubte und verbotene Nutzung",
-    "Nutzung im Entwurf und Nutzung im Endprodukt",
-    "Individuelle und gemeinschaftliche Nutzung"
+    "Nutzung als Hilfsmittel (Strukturierung, Recherche, sprachliche Überarbeitung) und Nutzung als Quelle (wörtliche oder sinngemässe Übernahme)",
+    "Erlaubte und verbotene Nutzung, je nach den Vorgaben der einzelnen Dozierenden und den Anforderungen der jeweiligen schriftlichen Arbeit im Modul",
+    "Nutzung im Entwurf und Nutzung im abgegebenen Endprodukt der Arbeit, je nachdem wann das Werkzeug eingesetzt wurde",
+    "Individuelle Nutzung durch eine einzelne Person und gemeinschaftliche Nutzung in der ganzen Arbeitsgruppe eines Moduls"
    ],
    "loesung": [
     0
@@ -4186,9 +4186,9 @@
    "frage": "Wie wird KI-Output nach APA7 zitiert?",
    "optionen": [
     "Als persönliche Kommunikation, nur im Text und nicht im Literaturverzeichnis — Muster: (ChatGPT, persönliche Kommunikation, 07. August 2026)",
-    "Wie ein Website-Artikel mit URL und Abrufdatum",
-    "Wie ein Zeitschriftenartikel mit DOI",
-    "Gar nicht — KI-Output darf nicht zitiert werden"
+    "Wie ein Website-Artikel, mit vollständiger URL und dem Abrufdatum im Literaturverzeichnis sowie einem entsprechenden Kurzbeleg im laufenden Text",
+    "Wie ein Zeitschriftenartikel, mit DOI und vollständigen Angaben zu Verfassenden, Titel und Erscheinungsjahr im Verzeichnis",
+    "Gar nicht — KI-Output darf in wissenschaftlichen Arbeiten weder wörtlich noch sinngemäss übernommen werden"
    ],
    "loesung": [
     0
@@ -4207,9 +4207,9 @@
    "frage": "Welche Tools müssen NICHT im Hilfsmittelverzeichnis angegeben werden?",
    "optionen": [
     "Digitale Tools ohne generative Funktion, etwa Online-Wörterbücher oder Literaturverwaltungsprogramme wie Citavi",
-    "Übersetzungstools wie DeepL",
-    "Sprachmodelle, die nur zur Ideengenerierung genutzt wurden",
-    "Alle Tools müssen angegeben werden"
+    "Übersetzungstools wie DeepL, solange der Text danach selbst gründlich überarbeitet und sprachlich geglättet wird",
+    "Sprachmodelle, die ausschliesslich zur Ideengenerierung genutzt wurden",
+    "Keine — sämtliche eingesetzten Tools müssen angegeben werden"
    ],
    "loesung": [
     0
@@ -4228,9 +4228,9 @@
    "frage": "Wie setzt sich die Modulnote in SYMG zusammen?",
    "optionen": [
     "20 Prozent Fallstudie inklusive Video-Präsentation, 80 Prozent schriftliche Modulschlussprüfung über 90 Minuten (Open Book)",
-    "30 Prozent Fallstudie, 70 Prozent Modulschlussprüfung",
-    "50 Prozent Fallstudie, 50 Prozent Modulschlussprüfung",
-    "100 Prozent Modulschlussprüfung"
+    "30 Prozent Fallstudie inklusive Video-Präsentation, 70 Prozent schriftliche Modulschlussprüfung über 90 Minuten (Open Book)",
+    "50 Prozent Fallstudie, 50 Prozent schriftliche Modulschlussprüfung über 90 Minuten",
+    "100 Prozent schriftliche Modulschlussprüfung über 120 Minuten (Closed Book)"
    ],
    "loesung": [
     0
@@ -4249,9 +4249,9 @@
    "frage": "Worauf konzentriert sich wertorientiertes Management — und worauf gerade nicht?",
    "optionen": [
     "Nicht primär auf die Steigerung von Umsatz oder Gewinn, sondern auf die nachhaltige Steigerung des Unternehmenswertes",
-    "Nicht auf den Unternehmenswert, sondern auf kurzfristige Gewinnmaximierung",
-    "Nicht auf die Aktionäre, sondern ausschliesslich auf die Mitarbeitenden",
-    "Nicht auf finanzielle, sondern nur auf ökologische Ziele"
+    "Nicht auf den Unternehmenswert, sondern auf die kurzfristige Maximierung des Gewinns in der jeweils laufenden Rechnungsperiode",
+    "Nicht auf die Aktionäre, sondern ausschliesslich auf die Interessen der Mitarbeitenden",
+    "Nicht auf finanzielle Ziele, sondern ausschliesslich auf ökologische Kennzahlen"
    ],
    "loesung": [
     0
@@ -4270,9 +4270,9 @@
    "frage": "Wie wird der Unternehmenswert im Shareholder-Value-Ansatz ermittelt?",
    "optionen": [
     "Durch Diskontierung aller zukünftig zu erwartenden Free Cashflows (DCF-Methode)",
-    "Durch Addition aller Vermögenswerte abzüglich der Schulden",
-    "Durch Multiplikation des Jahresgewinns mit einem Branchenfaktor",
-    "Durch den aktuellen Börsenkurs mal die Anzahl Aktien"
+    "Durch Addition sämtlicher Vermögenswerte abzüglich der bestehenden Schulden",
+    "Durch Multiplikation des Jahresgewinns mit einem branchenüblichen Marktmultiplikator",
+    "Durch den aktuellen Börsenkurs multipliziert mit der Anzahl Aktien"
    ],
    "loesung": [
     0
@@ -4288,12 +4288,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Wertorientiertes Management einordnen",
-   "frage": "Wie verhalten sich Shareholder- und Stakeholder-Ansatz laut Lehrbuch zueinander?",
+   "frage": "Wie verhalten sich Shareholder- und Stakeholder-Ansatz zueinander?",
    "optionen": [
-    "Sie ergänzen sich und stehen nicht im Widerspruch — langfristige Rentabilität erfordert loyale Mitarbeitende und Lieferanten, zufriedene Kunden und die Unterstützung durch Staat und Gesellschaft",
-    "Sie schliessen sich gegenseitig aus",
-    "Der Stakeholder-Ansatz hat den Shareholder-Ansatz abgelöst",
-    "Der Shareholder-Ansatz gilt nur für börsenkotierte Unternehmen"
+    "Sie ergänzen sich — langfristige Rentabilität erfordert loyale Mitarbeitende und Lieferanten, zufriedene Kunden und die Unterstützung durch Staat und Gesellschaft",
+    "Sie schliessen einander aus, weil jeder Franken für die eine Gruppe der anderen fehlt und sich die beiden Interessenlagen grundsätzlich nicht miteinander vereinbaren lassen",
+    "Der Stakeholder-Ansatz hat den Shareholder-Ansatz in der Praxis weitgehend abgelöst, weil sich die Erwartungen an Unternehmen verschoben haben",
+    "Der Shareholder-Ansatz gilt ausschliesslich für börsenkotierte Unternehmen, für alle übrigen ist er ohne Bedeutung"
    ],
    "loesung": [
     0
@@ -4312,9 +4312,9 @@
    "frage": "Was sind die Magnificent Seven — und welche Kennzahl macht sie bemerkenswert?",
    "optionen": [
     "Alphabet, Amazon, Apple, Meta, Microsoft, Nvidia und Tesla — gemeinsam rund ein Drittel der gesamten Marktkapitalisierung des S&P 500",
-    "Die sieben grössten Schweizer Konzerne — gemeinsam die Hälfte des SMI",
-    "Die sieben grössten Industrienationen — gemeinsam zwei Drittel des Welt-BIP",
-    "Die sieben erfolgreichsten Start-ups des Jahres — gemeinsam 100 Milliarden Bewertung"
+    "Die sieben grössten Schweizer Konzerne — gemeinsam rund die Hälfte der gesamten Marktkapitalisierung des Schweizer Leitindex SMI an der Börse",
+    "Die sieben grössten Industrienationen — gemeinsam rund zwei Drittel des weltweiten Bruttoinlandprodukts",
+    "Die sieben erfolgreichsten Start-ups des Jahres — gemeinsam rund 100 Milliarden Dollar Bewertung"
    ],
    "loesung": [
     0
@@ -5737,9 +5737,9 @@
    "frage": "Worauf richtet konsequent eingesetztes Value Based Management alles aus?",
    "optionen": [
     "Alle Ziele, analytischen Methoden und Geschäftsprozesse auf die Steigerung des Unternehmungswertes — ausgewogen für alle Stakeholder",
-    "Alle Entscheidungen auf den Quartalsgewinn",
-    "Sämtliche Prozesse auf die Senkung der Kapitalkosten",
-    "Die gesamte Organisation auf den Marktanteil"
+    "Alle Entscheidungen auf den ausgewiesenen Quartalsgewinn und die kurzfristigen Erwartungen der Analysten an den Finanzmärkten weltweit",
+    "Sämtliche Prozesse auf die Senkung der Kapitalkosten und die Verbesserung der Bilanzstruktur",
+    "Die gesamte Organisation auf den Marktanteil in den wichtigsten Geschäftsfeldern"
    ],
    "loesung": [
     0
@@ -5779,9 +5779,9 @@
    "frage": "Was zeigte die Nachkontrolle zu „In Search of Excellence“ (Peters & Waterman) fünf Jahre später?",
    "optionen": [
     "Von 43 herausragenden Unternehmen waren nur noch 14 herausragend, 11 stark geschwächt und 8 mit massiven Problemen",
-    "Alle 43 Unternehmen hatten ihre Position gehalten",
-    "Die Mehrheit war noch erfolgreicher geworden",
-    "Nur 3 der 43 Unternehmen existierten noch"
+    "Alle 43 untersuchten Unternehmen hatten ihre herausragende Position gehalten und den Vorsprung gegenüber der Konkurrenz sogar ausgebaut",
+    "Die Mehrheit der untersuchten Unternehmen war in dieser Zeit noch erfolgreicher geworden",
+    "Nur 3 der 43 untersuchten Unternehmen existierten nach fünf Jahren überhaupt noch"
    ],
    "loesung": [
     0
@@ -5800,9 +5800,9 @@
    "frage": "Was war die Ausgangsfrage von PIMS — und woran wurde der Erfolg gemessen?",
    "optionen": [
     "Ob es strategische Gesetzmässigkeiten gibt, die nachhaltigen Erfolg erklären — gemessen am Return on Investment",
-    "Ob Diversifikation den Umsatz steigert — gemessen am Marktanteil",
-    "Welche Branchen am profitabelsten sind — gemessen am Cashflow",
-    "Ob Grösse vor Fokus geht — gemessen am Börsenwert"
+    "Ob Diversifikation den Umsatz steigert — gemessen am Marktanteil im angestammten Kerngeschäft der Unternehmen selbst",
+    "Welche Branchen am profitabelsten sind — gemessen am operativen Cashflow",
+    "Ob Grösse vor Fokus geht — gemessen am Börsenwert der Unternehmen"
    ],
    "loesung": [
     0
@@ -5880,9 +5880,9 @@
    "frage": "Wie wirkt die Wachstumsrate des Marktes laut PIMS?",
    "optionen": [
     "Positiv für den absoluten Gewinn, neutral für den ROI, negativ für den Free Cashflow",
-    "Durchgehend positiv auf alle Finanzkennzahlen",
-    "Negativ für den absoluten Gewinn, positiv für den ROI",
-    "Neutral für alle Kennzahlen"
+    "Durchgehend positiv auf sämtliche wichtigen Finanzkennzahlen des Unternehmens",
+    "Negativ für den absoluten Gewinn, positiv für den ROI und neutral für den freien Cashflow",
+    "Neutral für alle drei Kennzahlen, unabhängig vom Marktwachstum"
    ],
    "loesung": [
     0
@@ -5898,12 +5898,12 @@
    "typ": "mc",
    "lernziel": "Ansätze der Strategieanalyse unterscheiden und beurteilen",
    "kern": true,
-   "frage": "Welcher PIMS-Faktor ist laut Vorlesung bei kleinem Marktanteil unabdingbar?",
+   "frage": "Welcher PIMS-Faktor ist bei kleinem Marktanteil unabdingbar?",
    "optionen": [
     "Die relative Qualität der Produkte",
-    "Die Innovationsrate",
-    "Die vertikale Integration",
-    "Die Investment-Intensität"
+    "Die Innovationsrate der Branche",
+    "Die vertikale Integrationstiefe",
+    "Die Investment-Intensität des Geschäfts"
    ],
    "loesung": [
     0
@@ -5922,9 +5922,9 @@
    "frage": "Warum ist im Modell des vollkommenen Wettbewerbs keine dauerhafte Rendite über den Kapitalkosten möglich?",
    "optionen": [
     "Der Kreislauf ist ein Stabilisator: Gewinn lockt Mitbewerber, der Konkurrenzdruck drückt die Preise und damit den Gewinn wieder",
-    "Der Staat schöpft Übergewinne ab",
-    "Die Kapitalkosten steigen mit dem Gewinn",
-    "Die Nachfrage sinkt mit steigendem Angebot"
+    "Der Staat schöpft Übergewinne über Steuern und Abgaben wieder ab, sodass am Ende niemand dauerhaft mehr verdient als seine Kapitalkosten",
+    "Die Kapitalkosten steigen mit wachsendem Gewinn automatisch mit an, sodass die Rendite über den Kosten wieder verschwindet",
+    "Die Nachfrage sinkt, sobald das Angebot am Markt grösser wird, und zehrt den zusätzlichen Gewinn vollständig auf"
    ],
    "loesung": [
     0
@@ -6126,10 +6126,10 @@
    "kern": false,
    "frage": "Was zeigt die GE-Aufspaltung über Grössenvorteile?",
    "optionen": [
-    "Es gibt auch Grössennachteile: Die drei Nachfolger sind zusammen rund fünfmal so viel wert wie GE vor der Aufspaltungsankündigung — der Kapitalmarkt honoriert Fokus",
-    "Grössenvorteile setzen sich langfristig immer durch",
-    "Mischkonzerne erzielen systematisch höhere Bewertungen",
-    "Die Aufspaltung vernichtete Unternehmenswert"
+    "Es gibt auch Grössennachteile: Die drei Nachfolger sind zusammen rund fünfmal so viel wert wie GE vor der Ankündigung — der Kapitalmarkt honoriert Fokus",
+    "Grössenvorteile setzen sich langfristig immer durch, weil ein Konzern Risiken über mehrere Geschäfte streuen und Verluste des einen Bereichs mit Gewinnen des anderen ausgleichen kann",
+    "Mischkonzerne erzielen systematisch höhere Bewertungen als fokussierte Einzelunternehmen",
+    "Die Aufspaltung hat per saldo Unternehmenswert vernichtet statt geschaffen"
    ],
    "loesung": [
     0
@@ -6226,9 +6226,9 @@
    "frage": "Wie entstehen strategische Geschäftsfelder (SGF)?",
    "optionen": [
     "Aus der Kreuzung von Produkten bzw. Leistungen mit Märkten bzw. Kundensegmenten",
-    "Aus der Aufteilung nach Regionen",
-    "Aus der bestehenden Abteilungsstruktur",
-    "Aus der Gruppierung nach Deckungsbeitrag"
+    "Aus der Aufteilung des Geschäfts nach den geografischen Regionen und Absatzmärkten",
+    "Aus der bereits bestehenden Abteilungsstruktur des Unternehmens",
+    "Aus der Gruppierung der Produkte nach ihrem jeweiligen Deckungsbeitrag"
    ],
    "loesung": [
     0
@@ -6295,12 +6295,12 @@
    "typ": "mc",
    "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
    "kern": false,
-   "frage": "Was sind laut KMU-Spiegel 2018 die beiden stärksten Treiber für Veränderungen im Unternehmen?",
+   "frage": "Was sind die beiden stärksten Treiber für Veränderungen in Schweizer KMU?",
    "optionen": [
     "Technologischer Wandel (56 Prozent) und Veränderung der Kundenbedürfnisse (51 Prozent)",
-    "Konjunkturelle Einflüsse und Wechselkursentwicklung",
-    "Konkurrenz aus dem Ausland und aus dem Inland",
-    "Neue gesetzliche Vorschriften und demografische Entwicklungen"
+    "Konjunkturelle Einflüsse (56 Prozent) und die Entwicklung der Wechselkurse im Export (51 Prozent)",
+    "Konkurrenz aus dem Ausland (56 Prozent) und aus dem Inland (51 Prozent)",
+    "Neue gesetzliche Vorschriften (56 Prozent) und demografischer Wandel (51 Prozent)"
    ],
    "loesung": [
     0
@@ -6349,9 +6349,9 @@
    "frage": "Was zeigt das Nestlé-Beispiel über die BCG-Matrix?",
    "optionen": [
     "Die Definition des Marktes bestimmt willkürlich die Positionierung — und damit die Normstrategie",
-    "Kaffee ist grundsätzlich ein armer Hund",
-    "Cash-Kühe lassen sich nicht in Sterne zurückverwandeln",
-    "Die Matrix funktioniert nur bei Einproduktunternehmen"
+    "Kaffee ist in der Matrix grundsätzlich als armer Hund einzuordnen, unabhängig von der Marktabgrenzung",
+    "Cash-Kühe lassen sich durch Investitionen nicht in Sterne zurückverwandeln",
+    "Die Matrix funktioniert nur bei Unternehmen mit einem einzigen Produkt"
    ],
    "loesung": [
     0
@@ -6634,9 +6634,9 @@
    "frage": "Was zeigt das Honda-Beispiel zur emergenten Strategie?",
    "optionen": [
     "Geplant waren schwere Motorräder, realisiert wurde das Kleinmotorrad — die aufgetauchte, ungeplante Strategie setzte sich gegen die geplante durch",
-    "Honda plante von Anfang an Kleinmotorräder",
-    "Die geplante Strategie wurde exakt umgesetzt",
-    "Honda scheiterte am US-Markteintritt"
+    "Honda plante von Anfang an das Kleinmotorrad und setzte diesen Plan konsequent durch, auch gegen die anfänglichen Widerstände im eigenen Unternehmen",
+    "Die geplante Strategie wurde exakt so umgesetzt, wie sie im Voraus beschlossen worden war, und führte zum Erfolg",
+    "Honda scheiterte am Markteintritt in den USA und zog sich nach wenigen Jahren wieder vollständig zurück"
    ],
    "loesung": [
     0
@@ -6735,7 +6735,7 @@
    "kategorie": "organisation",
    "typ": "mc",
    "lernziel": "Modulorganisation und Leistungsnachweis kennen",
-   "frage": "Wie verteilen sich die 100 Punkte im Sample Exam?",
+   "frage": "Wie verteilen sich die 100 Punkte in der Modulprüfung?",
    "optionen": [
     "Vocabulary 30, Grammar 20, Reading 20, Writing 30",
     "Vocabulary 20, Grammar 20, Reading 30, Writing 30",
@@ -6887,7 +6887,7 @@
    "kategorie": "vorlesung",
    "typ": "mc",
    "lernziel": "SMART-Ziele formulieren und beurteilen",
-   "frage": "Welche drei Bereiche umfasst self-management laut Reading-Text? (mehrere richtig)",
+   "frage": "Welche drei Bereiche umfasst self-management? (mehrere richtig)",
    "optionen": [
     "Time management",
     "Self-discipline",
@@ -7088,7 +7088,7 @@
    "kategorie": "vorlesung",
    "typ": "flash",
    "lernziel": "Teamwork, Leadership und Emotional Intelligence erklären",
-   "frage": "Wie trägt Teamwork laut Reading-Text zu mehr Kreativität bei?",
+   "frage": "Wodurch erhöht Teamwork die Kreativität einer Gruppe?",
    "antwort": "Durch das Bündeln von Ideen (pooling of ideas): Menschen mit unterschiedlichen Fähigkeiten und Perspektiven bringen ihre Einsichten ein, die collective intelligence steigt.",
    "erklaerung": "Zusätzlich schafft Teamwork ownership und accountability, was Motivation und gegenseitige Unterstützung fördert.",
    "quelle": "EPC1 Unit 2 - Teamwork and Leadership",
@@ -7420,7 +7420,7 @@
    "kategorie": "vorlesung",
    "typ": "mc",
    "lernziel": "Future Tenses und Conditionals korrekt verwenden",
-   "frage": "Welcher Satz ist ein korrekter complex sentence aus dem Sample Exam?",
+   "frage": "Welcher Satz ist ein korrekter complex sentence?",
    "optionen": [
     "Although there were some initial delays, the project was completed on time.",
     "There were some initial delays, although the project completed on time was.",
@@ -7579,7 +7579,7 @@
    "kategorie": "vorlesung",
    "typ": "flash",
    "lernziel": "Sachtexte kritisch lesen und beurteilen",
-   "frage": "Wie definiert das Critical Thinking Workbook kritisches Denken?",
+   "frage": "Was kennzeichnet kritisches Denken?",
    "antwort": "Clear, rational, logical and independent thinking: das eigene Denken analysieren, bewerten und neu aufbauen, selbstreguliert und selbstkorrigierend, frei von bias und egocentric Tendenzen.",
    "erklaerung": "Die Übung Fact or Opinion: Ein Fakt lässt sich beweisen, eine Meinung nicht.",
    "quelle": "EPC1 Unit 3 - Critical Thinking and Innovation",
@@ -7860,7 +7860,7 @@
    "kategorie": "vorlesung",
    "typ": "mc",
    "lernziel": "Prozesse identifizieren und ihre Bestandteile klassifizieren",
-   "frage": "Welche Kriterien helfen laut LB2, Kernprozesse zu differenzieren? (mehrere richtig)",
+   "frage": "Welche Kriterien helfen, Kernprozesse zu differenzieren? (mehrere richtig)",
    "optionen": [
     "Produkttypen",
     "Servicetypen",
@@ -8520,9 +8520,9 @@
    "frage": "Warum ist Preiswettbewerb laut Porter besonders schädlich?",
    "optionen": [
     "Profite gehen direkt an Kunden, Preissenkungen sind leicht kopierbar und Kunden achten nur noch auf den Preis",
-    "Weil er gesetzlich eingeschränkt ist",
-    "Weil er neue Wettbewerber abschreckt",
-    "Weil er die Lieferantenmacht senkt"
+    "Weil er in vielen Ländern gesetzlich eingeschränkt ist und die Behörden ihn als unlauteren Wettbewerb verfolgen",
+    "Weil er neue Wettbewerber abschreckt und die Branche dadurch erstarrt",
+    "Weil er die Verhandlungsmacht der Lieferanten dauerhaft senkt"
    ],
    "loesung": [
     0
@@ -8541,9 +8541,9 @@
    "frage": "Welche zwei Wege nennt Porter, um die Branchenstruktur zu beeinflussen?",
    "optionen": [
     "Den Kuchen neu aufteilen und den Kuchen grösser machen",
-    "Fusionieren und auslagern",
-    "Preise senken und Werbung erhöhen",
-    "Diversifizieren und desinvestieren"
+    "Fusionieren und die Randbereiche auslagern",
+    "Die Preise senken und die Werbeausgaben erhöhen",
+    "Diversifizieren und anschliessend gezielt desinvestieren"
    ],
    "loesung": [
     0
@@ -8582,10 +8582,10 @@
    "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
    "frage": "Warum ist das Segment der leichten Hörverluste für Sonova so wichtig?",
    "optionen": [
-    "Laut UBS fanden dort 80 % des Marktwachstums statt und es ist kaum gesättigt",
-    "Weil dort die höchsten Margen pro Gerät erzielt werden",
-    "Weil es staatlich subventioniert ist",
-    "Weil Apple dort nicht verkaufen darf"
+    "Dort fanden rund 80 Prozent des Marktwachstums statt, und das Segment ist kaum gesättigt",
+    "Weil dort die höchsten Margen je verkauftem Gerät erzielt werden und die Entwicklungskosten tiefer liegen",
+    "Weil dieses Segment in vielen Ländern staatlich subventioniert wird",
+    "Weil Apple in diesem Segment aus rechtlichen Gründen nicht verkaufen darf"
    ],
    "loesung": [
     0
@@ -8601,12 +8601,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
-   "frage": "Economist 2025: Wie verändert KI-Suche die Lage der Inhaltsanbieter?",
+   "frage": "Wie verändert die KI-Suche die Lage der Inhaltsanbieter?",
    "optionen": [
     "Nutzer erhalten Antworten statt Links; der Traffic und damit Werbeerlöse sinken",
-    "Der Traffic steigt, weil KI auf Quellen verlinkt",
-    "Inhaltsanbieter erhalten automatisch Lizenzgebühren",
-    "Nur Video-Plattformen verlieren Besucher"
+    "Der Traffic steigt, weil die KI-Antworten direkt auf die Quellen verlinken",
+    "Inhaltsanbieter erhalten automatisch Lizenzgebühren für jede einzelne Nutzung ihrer Texte",
+    "Nur Video-Plattformen verlieren Besucher, Textangebote gewinnen hinzu"
    ],
    "loesung": [
     0
@@ -8625,9 +8625,9 @@
    "frage": "Was bedeutet „wooing and suing“ (News Corp)?",
    "optionen": [
     "Lizenzdeals mit KI-Firmen abschliessen und gleichzeitig andere verklagen",
-    "KI-Firmen kaufen",
-    "Inhalte hinter Paywalls stellen",
-    "KI-Crawler blockieren"
+    "KI-Firmen aufkaufen und sie anschliessend in den Konzern eingliedern",
+    "Inhalte vollständig hinter Paywalls stellen und sie gar nicht mehr freigeben",
+    "KI-Crawler technisch blockieren und ihnen den Zugriff ganz verwehren"
    ],
    "loesung": [
     0
@@ -8669,9 +8669,9 @@
    "frage": "Warum haben selbst Nestlé oder Unilever wenig Verhandlungsmacht gegenüber Givaudan?",
    "optionen": [
     "Das Aroma kostet nur 1 bis 5 % eines Getränks, ist aber zentral für den Kauf",
-    "Weil Givaudan ein Monopol hat",
-    "Weil Verträge staatlich festgelegt sind",
-    "Weil sie keine anderen Lieferanten kennen"
+    "Weil Givaudan in diesem Markt faktisch ein Monopol besitzt und keine Konkurrenz hat",
+    "Weil die Lieferverträge in der Branche staatlich festgelegt werden",
+    "Weil die Konzerne schlicht keine anderen Lieferanten kennen"
    ],
    "loesung": [
     0
@@ -8687,12 +8687,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
-   "frage": "Was ist die These des Economist-Artikels „New kings of the road“?",
+   "frage": "Wie verändert die Elektrifizierung die Wettbewerbslage in der Autoindustrie?",
    "optionen": [
     "Die Elektrifizierung senkt die hohen Eintrittsbarrieren der Autoindustrie",
-    "Etablierte Autohersteller sind durch Grösse unangreifbar",
-    "Batterien sind ein Nischenthema",
-    "Tesla hat die Autoindustrie verlassen"
+    "Die etablierten Autohersteller bleiben durch ihre schiere Grösse unangreifbar",
+    "Batterien bleiben ein Nischenthema ohne Wirkung auf den Wettbewerb",
+    "Tesla hat sich aus der Autoindustrie weitgehend zurückgezogen"
    ],
    "loesung": [
     0
@@ -8738,7 +8738,7 @@
    "optionen": [
     "Differenzierungsfokus",
     "Kostenführerschaft",
-    "Kostenfokus",
+    "Kostenfokus im Nischenmarkt",
     "Stuck in the middle"
    ],
    "loesung": [
@@ -8758,9 +8758,9 @@
    "frage": "Warum können Luxushotels Preise deutlich über der Teuerung verlangen?",
    "optionen": [
     "Wachsende Nachfrage trifft auf knappes Angebot (Bewilligungen 5 bis 7 Jahre, begrenzte Lagen)",
-    "Weil die Baukosten gesunken sind",
-    "Weil Mittelklassehotels verboten wurden",
-    "Weil Online-Buchungen teurer sind"
+    "Weil die Baukosten für Hotels in den letzten Jahren deutlich gesunken sind und sich Neubauten rascher amortisieren",
+    "Weil der Bau von Mittelklassehotels in vielen Lagen untersagt wurde",
+    "Weil Online-Buchungen über Plattformen für die Gäste teurer geworden sind"
    ],
    "loesung": [
     0
@@ -8799,10 +8799,10 @@
    "lernziel": "Strategische Instrumente auf einen Sachverhalt anwenden",
    "frage": "Warum stellte sich Ingvar Kamprad lange gegen den Onlinehandel?",
    "optionen": [
-    "Ohne Gang durchs Warenhaus fallen Spontankäufe weg (laut Manager Magazin rund 40 % des Umsatzes)",
-    "Weil Online-Shops in Schweden verboten waren",
-    "Weil die Logistik zu teuer war",
-    "Weil die Kunden es ablehnten"
+    "Ohne den Gang durchs Warenhaus fallen die Spontankäufe weg — rund 40 Prozent des Umsatzes",
+    "Weil Online-Shops in Schweden lange gesetzlich verboten waren und sich das Geschäft dort nicht entwickeln konnte",
+    "Weil die Logistik für sperrige Möbel schlicht zu teuer gewesen wäre",
+    "Weil die Kunden den Onlinekauf von Möbeln damals abgelehnt haben"
    ],
    "loesung": [
     0
@@ -8855,9 +8855,9 @@
    "frage": "Welche These vertrat Michael Jensen, gegen die Martin argumentiert?",
    "optionen": [
     "Unternehmen handeln nur klug, wenn sie ein einziges übergeordnetes Ziel verfolgen, und das ist der Aktienkurs",
-    "Unternehmen sollen alle Stakeholder gleich gewichten",
-    "Gewinn ist unwichtig",
-    "Kundenzufriedenheit ist das oberste Ziel"
+    "Unternehmen sollen sämtliche Stakeholder gleich gewichten und ihre Interessen ausbalancieren, ohne eine Gruppe zu bevorzugen",
+    "Der Gewinn ist für die Führung eines Unternehmens unwichtig",
+    "Die Kundenzufriedenheit ist das oberste Ziel jedes Unternehmens"
    ],
    "loesung": [
     0
@@ -8876,9 +8876,9 @@
    "frage": "Warum schadet laut Martin die Ausrichtung allein am Aktienkurs ausgerechnet dem Shareholder Value?",
    "optionen": [
     "Aktionäre profitieren nur, wenn das Unternehmen vorher Kunden, Mitarbeitende und Gesellschaft gut bedient hat",
-    "Weil Aktienkurse zufällig schwanken",
-    "Weil Steuern steigen",
-    "Weil Analysten es kritisieren"
+    "Weil Aktienkurse weitgehend zufällig schwanken und sich nicht steuern lassen, sodass jede Ausrichtung daran ins Leere läuft",
+    "Weil die Steuerlast des Unternehmens dadurch spürbar ansteigt",
+    "Weil Analysten eine solche Ausrichtung regelmässig kritisieren"
    ],
    "loesung": [
     0
@@ -9547,9 +9547,9 @@
    "frage": "Muss ein Schuldner seine Leistung persönlich erbringen?",
    "optionen": [
     "Nur wenn es auf seine Persönlichkeit ankommt (Art. 68 OR)",
-    "Ja, immer",
+    "Ja, immer — die Leistung ist höchstpersönlich zu erbringen",
     "Nein, nie — Hilfspersonen sind stets zulässig und er haftet dann nicht mehr",
-    "Nur bei Geldschulden"
+    "Nur bei Geldschulden und anderen vertretbaren Leistungen"
    ],
    "loesung": [
     0

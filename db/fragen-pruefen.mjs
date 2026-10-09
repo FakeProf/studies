@@ -35,7 +35,9 @@ for (const q of einzel) {
 
 /* ---------- 2. Quellenbezug im Fragetext ---------- */
 // Nur Verweise auf das Dokument, nicht auf benannte Konzepte.
-const DOKUMENT = /\b(laut|gemäss|nach)\s+(dem\s+|der\s+|des\s+)?(Vorlesung|Skript|Folie|Text|Reading|Workbook|Compendio|Buch|Artikel|Kapitel|Lehrbuch|Modul)|Reading-?Text|Workbook|Compendio|\bKapitel\s*\d|\bSeite\s*\d|\bFolie\s*\d|\bLB\s*\d|im Text\b|des Textes\b|Modulleitfrage/i;
+// "im Text" bleibt bewusst draussen: gemeint ist damit fast immer die eigene
+// Arbeit ("eine Abbildung im Text"), nicht eine Quelle.
+const DOKUMENT = /\b(laut|gemäss|nach)\s+(dem\s+|der\s+|des\s+)?(Vorlesung|Skript|Folie|Text|Reading|Workbook|Compendio|Buch|Artikel|Kapitel|Lehrbuch|Modulleitfrage)|Reading-?Text|Workbook|Compendio|\bKapitel\s*\d|\bSeite\s*\d|\bFolie\s*\d|\bLB\s*\d|\bÜbung\s*\d|Modulleitfrage|Sample Exam/i;
 const quellenbezug = fragen.filter((q) => DOKUMENT.test(q.frage || ""));
 
 /* ---------- Ausgabe ---------- */

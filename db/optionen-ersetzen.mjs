@@ -47,7 +47,10 @@ for (const [id, aenderung] of Object.entries(flick)) {
   // damit es nie aus Versehen passiert.
   if (aenderung.richtig) { q.optionen[q.loesung[0]] = aenderung.richtig; richtige++; }
   if (aenderung.erklaerung) q.erklaerung = aenderung.erklaerung;
-  if (new Set(q.optionen).size !== q.optionen.length) { console.error(`${id}: doppelte Option entstanden`); process.exit(1); }
+  // Karteikarten haben keine Optionen — bei ihnen ändert sich nur der Fragetext.
+  if (q.optionen && new Set(q.optionen).size !== q.optionen.length) {
+    console.error(`${id}: doppelte Option entstanden`); process.exit(1);
+  }
 }
 
 roh.stand = new Date().toISOString().slice(0, 10);

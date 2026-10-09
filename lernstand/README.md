@@ -397,3 +397,31 @@ Messlatte dafür.
   Kennzahl. Keine Platzhalter, keine offensichtlich absurden Varianten.
 - **Die häufigste Verwechslung gehört hinein.** Bei der Cycle Time etwa die
   Idle Time: Sie beschreibt die untätige Ressource, nicht den wartenden Case.
+
+### Stand nach der Überarbeitung
+
+Alle sechs Module sind durch. Gemessen über 235 Single-Choice-Fragen:
+
+| | vorher | nachher |
+|---|---:|---:|
+| richtige Option ist die längste | 81 % | **2 %** |
+| richtige >40 % länger als die falschen | 74 % | **0 %** |
+| Quellenbezug im Fragetext | 15 % | **0 %** |
+
+Zum Vergleich: Bei vier Optionen liegt die Zufallserwartung für „die richtige
+ist die längste" bei 25 Prozent. Vorher liess sich also jede vierte Frage
+allein an der Form lösen; jetzt nicht mehr.
+
+Zwei Fallen, in die man beim Nachbessern selbst tappt:
+
+- **Nur eine falsche Option verlängern genügt nicht.** Sind die beiden
+  übrigen weiterhin kurz, heisst der Tipp eben „eine der beiden langen" — statt
+  25 Prozent rät man 50. Alle drei müssen mithalten.
+- **Quellen stecken auch in den Antworten.** „Laut UBS fanden dort 80 % des
+  Marktwachstums statt" nennt die Quelle in der Option selbst. Das Prüfskript
+  sieht nur den Fragetext; dort muss man selbst hinschauen.
+
+`db/optionen-ersetzen.mjs` wendet Flicken an und weigert sich, die richtige
+Option zu überschreiben — die lässt sich nur über das eigene Feld `richtig`
+kürzen, damit es nicht aus Versehen geschieht. Kennungen bleiben in jedem Fall
+unangetastet, sonst verfiele der gespeicherte Fortschritt.

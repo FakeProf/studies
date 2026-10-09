@@ -1,6 +1,6 @@
 {
  "version": 1,
- "stand": "2026-10-08",
+ "stand": "2026-10-09",
  "quelle": "Obsidian-Vault \"02 Zusammenfassungen\", OST HS2026",
  "fragen": [
   {
@@ -1388,9 +1388,9 @@
    "frage": "Welchen Rang belegt die Schweiz im Demokratiebarometer der Universität Zürich und des Wissenschaftszentrums Berlin?",
    "optionen": [
     "Rang 14 von 30 etablierten Demokratien — Spitzenreiter ist Dänemark",
-    "Rang 1 von 30 etablierten Demokratien",
-    "Rang 5 von 30 — Spitzenreiter ist Norwegen",
-    "Rang 25 von 30 — Spitzenreiter ist Schweden"
+    "Rang 1 von 30 etablierten Demokratien — noch vor Dänemark",
+    "Rang 5 von 30 etablierten Demokratien — Spitzenreiter ist Norwegen",
+    "Rang 25 von 30 etablierten Demokratien — Spitzenreiter ist hier Schweden"
    ],
    "loesung": [
     0
@@ -1436,10 +1436,10 @@
    "lernziel": "Wirtschaftspolitik verstehen und gestalten können",
    "frage": "Welche vier Ziele bilden das magische Viereck?",
    "optionen": [
-    "Hoher Beschäftigungsstand, stabiles Preisniveau, aussenwirtschaftliches Gleichgewicht, stetiges Wirtschaftswachstum",
-    "Vollbeschäftigung, Umweltschutz, Verteilungsgerechtigkeit, Preisstabilität",
-    "Wachstum, Innovation, Bildung, Infrastruktur",
-    "Steuergerechtigkeit, Schuldenbremse, Handelsbilanz, Währungsstabilität"
+    "Hoher Beschäftigungsstand, stabiles Preisniveau, aussenwirtschaftliches Gleichgewicht, stetiges Wachstum",
+    "Vollbeschäftigung, Umweltschutz, Verteilungsgerechtigkeit und ein dauerhaft stabiles Preisniveau im Inland",
+    "Wachstum, Innovation, Bildung und eine leistungsfähige Infrastruktur",
+    "Steuergerechtigkeit, Schuldenbremse, Handelsbilanz und Währungsstabilität"
    ],
    "loesung": [
     0
@@ -1482,9 +1482,9 @@
    "frage": "Welche zwei Erfolgsfaktoren nennt das WBF für die Schweizer Wirtschaftspolitik?",
    "optionen": [
     "Ein liberaler Arbeitsmarkt und eine starke Sozialpartnerschaft",
-    "Hohe Staatsquote und ausgebaute Subventionen",
-    "Protektionismus und Währungsstabilität",
-    "Niedrige Steuern und hohe Zölle"
+    "Eine hohe Staatsquote und grosszügig ausgebaute Subventionen",
+    "Konsequenter Protektionismus und eine dauerhaft stabile Währung",
+    "Niedrige Unternehmenssteuern und hohe Einfuhrzölle"
    ],
    "loesung": [
     0
@@ -1531,9 +1531,9 @@
    "frage": "Was bedeutet Demokratie wörtlich?",
    "optionen": [
     "Demos = Staatsvolk, Kratos = Macht, Herrschaft, Gewalt",
-    "Demos = Versammlung, Kratos = Gesetz",
-    "Demos = Stadt, Kratos = Ordnung",
-    "Demos = Mehrheit, Kratos = Wille"
+    "Demos = Versammlung, Kratos = Gesetz, Regel und Satzung",
+    "Demos = Stadt, Kratos = Ordnung, Verwaltung",
+    "Demos = Mehrheit, Kratos = Wille und Entscheidung"
    ],
    "loesung": [
     0
@@ -1588,9 +1588,9 @@
    "frage": "Was war die Gottesfriedensbewegung im 11. Jahrhundert?",
    "optionen": [
     "Der Adel verpflichtete sich durch gegenseitigen Eid zur Pax Dei und verzichtete auf sein Fehderecht",
-    "Ein Bündnis der Kirche gegen weltliche Herrscher",
-    "Ein Vertrag zwischen Bauern und Grundherren über Abgaben",
-    "Die erste schriftliche Verfassung Europas"
+    "Ein Bündnis der Kirche gegen die weltlichen Herrscher, das deren Fehderecht dauerhaft einschränken sollte",
+    "Ein Vertrag zwischen Bauern und Grundherren über Abgaben und Frondienste",
+    "Die erste schriftlich festgehaltene Verfassung des mittelalterlichen Europa"
    ],
    "loesung": [
     0
@@ -1610,9 +1610,9 @@
    "frage": "Warum bezeichnet man die Schweiz als halbdirekte Demokratie?",
    "optionen": [
     "Sie ist eine Repräsentationsdemokratie plus direktdemokratische Instrumente",
-    "Nur die Hälfte der Bevölkerung ist stimmberechtigt",
-    "Nur auf Kantonsebene gibt es direkte Demokratie",
-    "Die Hälfte der Gesetze wird durch Volksabstimmung beschlossen"
+    "Nur die Hälfte der Bevölkerung ist überhaupt stimmberechtigt",
+    "Nur auf Kantons- und Gemeindeebene bestehen direktdemokratische Instrumente",
+    "Rund die Hälfte aller Bundesgesetze wird durch eine Volksabstimmung beschlossen"
    ],
    "loesung": [
     0
@@ -1704,10 +1704,10 @@
    "lernziel": "Direktdemokratische Instrumente der Schweiz erläutern",
    "frage": "Warum ist die Vernehmlassung im Schweizer Politikalltag so relevant?",
    "optionen": [
-    "Alle parlamentarischen Gesetzesänderungen stehen unter dem Damoklesschwert des Referendums — deshalb werden referendumsfähige Gruppen schon in der vorparlamentarischen Phase einbezogen",
-    "Sie ist gesetzlich für jede Verordnung vorgeschrieben",
-    "Sie ersetzt die Abstimmung im Parlament",
-    "Sie ermöglicht dem Bundesrat, Gesetze ohne Parlament zu erlassen"
+    "Jede Gesetzesänderung steht unter dem Damoklesschwert des Referendums — deshalb werden referendumsfähige Gruppen schon vorparlamentarisch einbezogen",
+    "Sie ist gesetzlich für jede Verordnung des Bundesrats zwingend vorgeschrieben und muss vor deren Inkraftsetzung vollständig durchlaufen und ausgewertet werden",
+    "Sie ersetzt die Beratung und Abstimmung im Parlament und verkürzt das Verfahren",
+    "Sie ermöglicht dem Bundesrat, Gesetze ohne Beteiligung des Parlaments zu erlassen"
    ],
    "loesung": [
     0
@@ -1754,9 +1754,9 @@
    "frage": "Woher stammt der Begriff Föderalismus?",
    "optionen": [
     "Von lateinisch foedus = Bündnis, Vertrag",
-    "Von lateinisch fidelis = treu",
-    "Von griechisch föderos = geteilt",
-    "Von lateinisch fundus = Grundlage"
+    "Von lateinisch fidelis = treu, verlässlich",
+    "Von griechisch föderos = geteilt, getrennt",
+    "Von lateinisch fundus = Grundlage, Boden"
    ],
    "loesung": [
     0
@@ -1797,12 +1797,12 @@
    "kategorie": "vorlesung",
    "typ": "mc",
    "lernziel": "Föderalismus in Abgrenzung zum Zentralismus erklären",
-   "frage": "Welche drei Kernprinzipien des Schweizer Föderalismus nennt Linder (2012)?",
+   "frage": "Welche drei Kernprinzipien kennzeichnen den Schweizer Föderalismus?",
    "optionen": [
     "Nichtzentralismus, Subsidiarität, Solidarität statt Konkurrenz",
-    "Gewaltenteilung, Rechtsstaatlichkeit, Volkssouveränität",
-    "Autonomie, Effizienz, Transparenz",
-    "Neutralität, Konkordanz, Milizprinzip"
+    "Gewaltenteilung, Rechtsstaatlichkeit und umfassende Volkssouveränität",
+    "Autonomie, Effizienz und vollständige Transparenz",
+    "Neutralität, Konkordanz und das Milizprinzip"
    ],
    "loesung": [
     0
@@ -1869,9 +1869,9 @@
    "frage": "Auf wen und auf welches Werk geht der Begriff Nachhaltigkeit zurück?",
    "optionen": [
     "Hans Carl von Carlowitz, Sylvicultura oeconomica, 1713",
-    "Gro Harlem Brundtland, Our Common Future, 1987",
-    "Adam Smith, Wohlstand der Nationen, 1776",
-    "Club of Rome, Die Grenzen des Wachstums, 1972"
+    "Gro Harlem Brundtland, Our Common Future, 1987 (UNO-Bericht)",
+    "Adam Smith, Der Wohlstand der Nationen, 1776",
+    "Club of Rome, Die Grenzen des Wachstums, 1972 (MIT)"
    ],
    "loesung": [
     0
@@ -2112,12 +2112,12 @@
    "kategorie": "vorlesung",
    "typ": "mc",
    "lernziel": "Produktionsfaktoren und Ressourcen definieren",
-   "frage": "Welche vier Produktionsfaktoren unterscheidet die moderne Volkswirtschaftslehre laut Compendio?",
+   "frage": "Welche vier Produktionsfaktoren unterscheidet die moderne Volkswirtschaftslehre?",
    "optionen": [
     "Arbeitskraft, Kapitalgüter, Boden und Umweltgüter",
-    "Arbeit, Boden, Kapital und Wissen",
-    "Rohstoffe, Maschinen, Personal und Energie",
-    "Arbeit, Kapital, Technologie und Information"
+    "Arbeit, Boden, Kapital und zusätzlich das Wissen",
+    "Rohstoffe, Maschinen, Personal und die Energie",
+    "Arbeit, Kapital, Technologie und die Informationen"
    ],
    "loesung": [
     0
@@ -2137,9 +2137,9 @@
    "frage": "Warum ist der Boden mehr als nur Landwirtschaftsfläche?",
    "optionen": [
     "Er ist Träger der Rohstoffe und Standort für die sechs Daseinsgrundfunktionen",
-    "Er ist der einzige nicht vermehrbare Produktionsfaktor",
-    "Er umfasst nur die feste Erdoberfläche",
-    "Er ist immer im Besitz der öffentlichen Hand"
+    "Er ist der einzige Produktionsfaktor, der sich grundsätzlich nicht vermehren lässt",
+    "Er umfasst ausschliesslich die feste Erdoberfläche eines Landes",
+    "Er befindet sich stets im Besitz der öffentlichen Hand eines Landes"
    ],
    "loesung": [
     0
@@ -2159,9 +2159,9 @@
    "frage": "Was ist der Unterschied zwischen begrenzt und knapp?",
    "optionen": [
     "Knappheit herrscht, wo die Wünsche grösser sind als die Verfügbarkeit — begrenzt heisst nur, dass die Menge endlich ist",
-    "Begrenzt heisst nicht erneuerbar, knapp heisst teuer",
-    "Begrenzt bezieht sich auf Güter, knapp auf Produktionsfaktoren",
-    "Die Begriffe sind synonym"
+    "Begrenzt heisst nicht erneuerbar, knapp heisst dagegen teuer im Verhältnis zum Nutzen, den das Gut den Nachfragenden stiftet",
+    "Begrenzt bezieht sich auf Güter, knapp dagegen auf die Produktionsfaktoren",
+    "Die beiden Begriffe meinen in der Volkswirtschaftslehre dasselbe"
    ],
    "loesung": [
     0
@@ -2208,9 +2208,9 @@
    "frage": "Welche zwei Quellen speisen die erneuerbaren Ressourcen?",
    "optionen": [
     "Die Sonne und die Magmaströme im Erdinnern",
-    "Die Sonne und der Wind",
-    "Wasserkreislauf und Photosynthese",
-    "Gezeiten und Erdrotation"
+    "Die Sonne und der Wind als beständige Quellen",
+    "Der Wasserkreislauf und die Photosynthese",
+    "Die Gezeiten und die Rotation der Erde"
    ],
    "loesung": [
     0
@@ -2227,12 +2227,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Stocks, Ressourcen und Reserven einteilen",
-   "frage": "Wie unterteilt das Compendio die nicht erneuerbaren Ressourcen?",
+   "frage": "Wie unterteilt man die nicht erneuerbaren Ressourcen?",
    "optionen": [
     "In recycelbare (Eisen, Kupfer, Chrom) und solche, die beim Verbrennen verbraucht werden (Öl, Erdgas, Kohle)",
-    "In metallische und nicht metallische Rohstoffe",
-    "In heimische und importierte Rohstoffe",
-    "In Energieträger und Baustoffe"
+    "In metallische und nicht metallische Rohstoffe, je nach ihrer chemischen Zusammensetzung und ihrer industriellen Verwendung",
+    "In heimische und importierte Rohstoffe, je nach Herkunft des Vorkommens",
+    "In Energieträger und Baustoffe, je nach ihrem Verwendungszweck"
    ],
    "loesung": [
     0
@@ -2252,9 +2252,9 @@
    "frage": "Warum galt die Schweiz bis Mitte des 19. Jahrhunderts als eher armes Land — und was gleicht das aus?",
    "optionen": [
     "Es fehlen abbauwürdige Bodenschätze; ausgeglichen wird das durch ein gutes Bildungswesen und hoch qualifizierte Arbeitskräfte",
-    "Es fehlte der Zugang zum Meer; ausgeglichen wird das durch die Alpentransversalen",
-    "Es fehlte politische Stabilität; ausgeglichen wird das durch die Neutralität",
-    "Es fehlte Ackerland; ausgeglichen wird das durch Importe"
+    "Es fehlte der Zugang zum Meer; ausgeglichen wird das durch die Alpentransversalen und den einträglichen Transitverkehr durch das Land",
+    "Es fehlte die politische Stabilität; ausgeglichen wird das durch die dauerhafte Neutralität",
+    "Es fehlte das Ackerland; ausgeglichen wird das durch Importe aus den Nachbarländern"
    ],
    "loesung": [
     0
@@ -2274,9 +2274,9 @@
    "frage": "Welche vier Grundfragen stellt die Wirtschaftsgeografie?",
    "optionen": [
     "Was, wie, für wen — und zusätzlich wo",
-    "Wer, wie, wann und wo",
-    "Was, warum, wie viel und wo",
-    "Wie, wo, wann und für wen"
+    "Wer, wie, wann — und zusätzlich wo",
+    "Was, warum, wie viel — und zusätzlich wo",
+    "Wie, wann, für wen — und zusätzlich wo"
    ],
    "loesung": [
     0
@@ -2296,9 +2296,9 @@
    "frage": "Warum bezeichnet man Umweltgüter als öffentliche Güter?",
    "optionen": [
     "Es gibt keine Eigentumsrechte, niemand kann von der Nutzung ausgeschlossen werden, und die Nutzung ist nicht exklusiv",
-    "Sie werden vom Staat produziert und verteilt",
-    "Sie stehen unter besonderem gesetzlichem Schutz",
-    "Sie werden über Steuern finanziert"
+    "Sie werden vom Staat produziert und anschliessend über öffentliche Stellen an die gesamte Bevölkerung eines Landes verteilt",
+    "Sie stehen unter besonderem gesetzlichem Schutz des Bundes",
+    "Sie werden ausschliesslich über allgemeine Steuern finanziert"
    ],
    "loesung": [
     0
@@ -2354,9 +2354,9 @@
    "frage": "Was sind externe Kosten?",
    "optionen": [
     "Kosten beim Konsum und bei der Produktion, die nicht im vom Nutzer bezahlten Preis berücksichtigt sind und damit ausserhalb des Markts liegen",
-    "Kosten, die durch externe Dienstleister entstehen",
-    "Kosten, die im Ausland anfallen",
-    "Kosten, die erst in der Zukunft anfallen"
+    "Kosten, die durch den Beizug externer Dienstleister entstehen und deshalb nicht in der eigenen Kostenrechnung des Unternehmens sichtbar werden",
+    "Kosten, die im Ausland anfallen und von dort verrechnet werden",
+    "Kosten, die erst in künftigen Perioden zahlungswirksam werden"
    ],
    "loesung": [
     0
@@ -2376,9 +2376,9 @@
    "frage": "Wie hoch waren die externen Kosten des Verkehrs in der Schweiz 2009, und wie verteilen sie sich?",
    "optionen": [
     "Rund 9 Milliarden CHF, davon über 90 Prozent auf den Strassenverkehr",
-    "Rund 60 Milliarden CHF, je zur Hälfte Strasse und Schiene",
-    "Rund 2,6 Milliarden CHF, überwiegend Schiene",
-    "Rund 52 Milliarden CHF, überwiegend Strasse"
+    "Rund 60 Milliarden CHF, verteilt je zur Hälfte auf Strasse und Schiene",
+    "Rund 2,6 Milliarden CHF, überwiegend auf den Schienenverkehr",
+    "Rund 52 Milliarden CHF, überwiegend auf den Strassenverkehr"
    ],
    "loesung": [
     0
@@ -2397,10 +2397,10 @@
    "lernziel": "Instrumente der Umweltpolitik beschreiben",
    "frage": "Welche vier Instrumente stehen dem Staat in der Umweltpolitik zur Verfügung?",
    "optionen": [
-    "Anregung zu freiwilligem Umweltschutz, planerische und technische Massnahmen, Gebote und Verbote, marktwirtschaftliche Instrumente",
-    "Steuern, Subventionen, Verbote und Aufklärung",
-    "Grenzwerte, Bussen, Zertifikate und Abgaben",
-    "Raumplanung, Recycling, Umweltabgaben und Ökosteuern"
+    "Anregung zu freiwilligem Umweltschutz, planerische und technische Massnahmen, Gebote und Verbote, Marktinstrumente",
+    "Steuern, Subventionen, Verbote und die gezielte Aufklärung der Bevölkerung über die Folgen ihres eigenen Konsumverhaltens",
+    "Grenzwerte, Bussen, handelbare Zertifikate und Lenkungsabgaben",
+    "Raumplanung, Recycling, Umweltabgaben und zusätzliche Ökosteuern"
    ],
    "loesung": [
     0
@@ -2420,9 +2420,9 @@
    "frage": "Welche drei Schwächen haben Umweltauflagen (Vorschriften und Verbote)?",
    "optionen": [
     "Politische Verwässerung, Vollzugskrise und fehlender Anreiz zur Unterschreitung der Grenzwerte",
-    "Zu hohe Kosten, zu lange Verfahren und mangelnde Akzeptanz",
-    "Fehlende internationale Koordination, Doppelspurigkeiten und Bürokratie",
-    "Unklare Zuständigkeiten, fehlende Daten und schwache Sanktionen"
+    "Zu hohe Kosten, zu lange Verfahren und eine mangelnde Akzeptanz in der betroffenen Exportwirtschaft",
+    "Fehlende internationale Koordination, Doppelspurigkeiten und viel Bürokratie",
+    "Unklare Zuständigkeiten, fehlende Daten und zu schwache Sanktionen"
    ],
    "loesung": [
     0
@@ -2478,8 +2478,8 @@
    "frage": "Was ist der Vorteil von Emissionszertifikaten — und wo liegt die Schwierigkeit?",
    "optionen": [
     "Vorteil: Das maximale Ausmass der Verschmutzung lässt sich genau festlegen. Schwierigkeit: die erstmalige Verteilung der Zertifikate",
-    "Vorteil: Sie bringen dem Staat Einnahmen. Schwierigkeit: der Vollzug",
-    "Vorteil: Sie wirken sofort. Schwierigkeit: die internationale Koordination",
+    "Vorteil: Sie bringen dem Staat zusätzliche Einnahmen. Schwierigkeit: der Vollzug und die laufende Kontrolle der tatsächlichen Emissionen",
+    "Vorteil: Sie wirken sofort. Schwierigkeit: die internationale Koordination der Länder",
     "Vorteil: Sie sind politisch unumstritten. Schwierigkeit: die Messung der Emissionen"
    ],
    "loesung": [
@@ -2524,9 +2524,9 @@
    "frage": "Worin besteht der wichtigste Vorteil von Umweltabgaben gegenüber Auflagen — und was ist das praktische Problem?",
    "optionen": [
     "Vorteil: Sie schaffen Anreize, die Umwelt immer weiter zu entlasten. Problem: Die Höhe wird meist zu niedrig angesetzt",
-    "Vorteil: Sie sind einfacher zu vollziehen. Problem: Sie sind ungerecht",
-    "Vorteil: Sie wirken sofort. Problem: Sie treffen nur Unternehmen",
-    "Vorteil: Sie sind international abgestimmt. Problem: Sie sind teuer"
+    "Vorteil: Sie sind deutlich einfacher zu vollziehen. Problem: Sie wirken sozial ungerecht und belasten tiefe Einkommen stärker",
+    "Vorteil: Sie wirken sofort. Problem: Sie treffen ausschliesslich Unternehmen",
+    "Vorteil: Sie sind international abgestimmt. Problem: Sie sind sehr teuer"
    ],
    "loesung": [
     0
@@ -2546,9 +2546,9 @@
    "frage": "Was ist das Kernprinzip einer ökologischen Steuerreform?",
    "optionen": [
     "Den Verbrauch der Umwelt bzw. der Ressourcen belasten und den Faktor Arbeit entlasten",
-    "Alle Einnahmen zweckgebunden für Umweltaufgaben verwenden",
-    "Umweltschädliche Produkte verbieten statt besteuern",
-    "Umweltabgaben vollständig rückverteilen"
+    "Sämtliche Einnahmen zweckgebunden für die Umweltaufgaben von Bund und Kantonen verwenden",
+    "Umweltschädliche Produkte ganz verbieten statt sie zu besteuern",
+    "Die Umweltabgaben vollständig an die Bevölkerung rückverteilen"
    ],
    "loesung": [
     0
@@ -2567,10 +2567,10 @@
    "lernziel": "Instrumente der Umweltpolitik beschreiben",
    "frage": "Was besagt das Kyoto-Protokoll von 1997 — und woran wurde es kritisiert?",
    "optionen": [
-    "Erstmals verbindliche Reduktion der Treibhausgase um mindestens 5, teilweise bis 8 Prozent unter das Niveau von 1990 bis 2012; Kritik: unzählige Schlupflöcher, Entwicklungsländer nicht dabei, USA ausgestiegen",
-    "Vollständiger Ausstieg aus fossilen Brennstoffen bis 2020; Kritik: unrealistisch",
-    "Einführung einer weltweiten CO2-Steuer; Kritik: zu niedrig angesetzt",
-    "Verbot der FCKW-Treibgase; Kritik: zu spät"
+    "Erstmals verbindliche Reduktion der Treibhausgase unter das Niveau von 1990; Kritik: viele Schlupflöcher, Entwicklungsländer nicht dabei, USA ausgestiegen",
+    "Vollständiger Ausstieg aus den fossilen Brennstoffen bis 2020; Kritik: völlig unrealistisch, ohne jede Sanktion und von den grossen Industriestaaten nie ratifiziert",
+    "Einführung einer weltweiten CO2-Steuer; Kritik: viel zu niedrig angesetzt und kaum durchsetzbar",
+    "Verbot der FCKW-Treibgase; Kritik: deutlich zu spät beschlossen und zu lange Fristen"
    ],
    "loesung": [
     0
@@ -2589,9 +2589,9 @@
    "lernziel": "Instrumente der Umweltpolitik beschreiben",
    "frage": "Was ist Flächenrecycling und warum ist es gesamtwirtschaftlich effizienter?",
    "optionen": [
-    "Die Umnutzung sanierter Industriebrachen statt Erschliessung neuer Flächen — die Areale liegen zentral und sind bereits gut erschlossen",
-    "Das Recycling von Baumaterialien beim Abbruch",
-    "Die Rückführung von Bauland in Landwirtschaftsland",
+    "Die Umnutzung sanierter Industriebrachen statt Erschliessung neuer Flächen — die Areale liegen zentral und sind erschlossen",
+    "Das Recycling von Baumaterialien beim Abbruch von Gebäuden, damit Kies und Beton nicht neu abgebaut und transportiert werden müssen",
+    "Die Rückführung von Bauland in landwirtschaftlich genutzte Flächen",
     "Die Mehrfachnutzung von Gewerbeflächen durch verschiedene Betriebe"
    ],
    "loesung": [
@@ -2612,8 +2612,8 @@
    "frage": "Was besagt die Theorie der absoluten Kostenvorteile von Adam Smith (1776)?",
    "optionen": [
     "Jedes Land soll sich auf die Güter spezialisieren, die es kostengünstiger produzieren kann als andere Länder",
-    "Handel lohnt sich nur zwischen Ländern mit ähnlichem Entwicklungsstand",
-    "Das Land mit den niedrigsten Löhnen gewinnt immer",
+    "Handel lohnt sich nur zwischen Ländern mit ähnlichem Entwicklungsstand und vergleichbarem Produktivitätsniveau",
+    "Das Land mit den niedrigsten Löhnen gewinnt im Handel immer",
     "Handel lohnt sich auch, wenn ein Land bei allen Gütern überlegen ist"
    ],
    "loesung": [
@@ -2633,10 +2633,10 @@
    "lernziel": "Absolute und komparative Kostenvorteile erklären",
    "frage": "Was ist der Clou an Ricardos Theorie der komparativen Kostenvorteile?",
    "optionen": [
-    "Handel bringt auch dem Land einen Wohlfahrtsgewinn, das bei beiden Gütern absolute Kostenvorteile besitzt — jedes konzentriert sich auf das Gut mit dem grösseren relativen Vorteil",
-    "Handel lohnt sich nur, wenn beide Länder bei je einem Gut überlegen sind",
-    "Das ineffizientere Land verliert immer, gewinnt aber Zugang zu Technologie",
-    "Die absoluten Kosten sind irrelevant, nur die Transportkosten zählen"
+    "Handel nützt auch dem Land, das bei beiden Gütern absolute Kostenvorteile hat — jedes spezialisiert sich auf den grösseren relativen Vorteil",
+    "Handel lohnt sich nur, wenn beide Länder bei je einem Gut absolut überlegen sind und sich die Kostenvorteile dadurch gegenseitig ausgleichen lassen",
+    "Das ineffizientere Land verliert immer, gewinnt aber Zugang zu moderner Technologie",
+    "Die absoluten Kosten sind irrelevant, entscheidend sind allein die Transportkosten"
    ],
    "loesung": [
     0
@@ -2715,10 +2715,10 @@
    "lernziel": "Terms of Trade und Prebisch-Singer-Hypothese beurteilen",
    "frage": "Warum steigen laut Prebisch-Singer-Hypothese die Preise für Industriegüter, nicht aber für Primärgüter?",
    "optionen": [
-    "Industriegüter: permanente Weiterentwicklung und kleinere Konkurrenz, Luxusgüter sind einkommenselastisch. Primärgüter: grosse Konkurrenz aus vielen Entwicklungsländern, Landwirtschaftsprodukte sind einkommensunelastisch",
-    "Industriegüter werden staatlich subventioniert, Primärgüter nicht",
-    "Industriegüter unterliegen Zöllen, Primärgüter nicht",
-    "Industriegüter sind knapper als Primärgüter"
+    "Industriegüter: laufende Weiterentwicklung, kleinere Konkurrenz, einkommenselastisch. Primärgüter: grosse Konkurrenz aus vielen Ländern, einkommensunelastisch",
+    "Industriegüter werden in den Industrieländern staatlich subventioniert und geschützt, Primärgüter dagegen nicht — deshalb klafft die Preisschere immer weiter auseinander",
+    "Industriegüter unterliegen hohen Einfuhrzöllen, Primärgüter werden zollfrei gehandelt",
+    "Industriegüter sind schlicht knapper als Primärgüter und deshalb teurer"
    ],
    "loesung": [
     0
@@ -2759,12 +2759,12 @@
    "kategorie": "vorlesung",
    "typ": "mc",
    "lernziel": "Absolute und komparative Kostenvorteile erklären",
-   "frage": "Was ist laut Vorlesung die Grundvoraussetzung der Globalisierung?",
+   "frage": "Was ist die Grundvoraussetzung der Globalisierung?",
    "optionen": [
     "Die Abnahme des Raumwiderstandes durch bessere, einfachere und billigere Transport- und Kommunikationsinfrastruktur",
-    "Die Gründung der WTO",
-    "Der Fall des Eisernen Vorhangs",
-    "Die Einführung des Euro"
+    "Die Gründung der WTO und die darauf folgende Liberalisierung des Welthandels in den neunziger Jahren des letzten Jahrhunderts",
+    "Der Fall des Eisernen Vorhangs und die Öffnung der östlichen Märkte",
+    "Die Einführung gemeinsamer Währungen wie des Euro im Binnenmarkt"
    ],
    "loesung": [
     0
@@ -2805,12 +2805,12 @@
    "kategorie": "vorlesung",
    "typ": "mc",
    "lernziel": "Terms of Trade und Prebisch-Singer-Hypothese beurteilen",
-   "frage": "Welche Vier-Felder-Matrix stellt die Vorlesung zu Rohstoffen auf — und was ist ihr Fazit?",
+   "frage": "Eine Vier-Felder-Matrix stellt Rohstoffreichtum und Wohlstand gegenüber. Was ist ihr Fazit?",
    "optionen": [
-    "Schweiz = wohlhabend ohne Rohstoffe, Kongo = arm mit Rohstoffen. Fazit: Grosse Rohstoffvorkommen sind keine Garantie für wirtschaftliche Entwicklung, Humanressourcen sind häufig wichtiger",
-    "Saudi-Arabien = wohlhabend mit Rohstoffen, Haiti = arm ohne. Fazit: Rohstoffe entscheiden über Wohlstand",
-    "Nur Länder mit Meereszugang werden wohlhabend",
-    "Rohstoffreichtum führt immer zu Korruption"
+    "Schweiz = wohlhabend ohne Rohstoffe, Kongo = arm mit Rohstoffen. Fazit: Rohstoffe sind keine Garantie für Entwicklung, Humanressourcen wiegen oft schwerer",
+    "Saudi-Arabien = wohlhabend mit Rohstoffen, Haiti = arm ohne Rohstoffe. Fazit: Rohstoffvorkommen entscheiden letztlich über Wohlstand und Entwicklung eines Landes",
+    "Nur Länder mit direktem Zugang zum Meer werden auf Dauer wohlhabend",
+    "Rohstoffreichtum führt fast zwangsläufig zu Korruption und Misswirtschaft"
    ],
    "loesung": [
     0
@@ -2858,12 +2858,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Wirtschaftssektoren und Strukturwandel einordnen",
-   "frage": "Was besagt das Sektor-Modell von Fourastié — und welche Einschränkung nennt das Compendio?",
+   "frage": "Was besagt das Sektor-Modell von Fourastié — und welche Einschränkung gilt?",
    "optionen": [
-    "Drei Phasen (vorindustriell, industriell, nachindustriell) mit einem Endzustand von ca. 80 Prozent im Dienstleistungssektor. Einschränkung: Der Dreiphasen-Übergang ist kein allgemein gültiges Gesetz — Kanada sprang direkt von der agrarischen zur Dienstleistungsgesellschaft",
-    "Vier Phasen mit dem quartären Sektor als Endzustand. Einschränkung: Das Modell gilt nur für Europa",
-    "Zwei Phasen. Einschränkung: Es gilt nur für Industrieländer",
-    "Drei Phasen mit gleichmässiger Verteilung. Einschränkung: Es gilt nur bis 1990"
+    "Drei Phasen (vorindustriell, industriell, nachindustriell) mit rund 80 Prozent im Dienstleistungssektor. Einschränkung: kein allgemein gültiges Gesetz — Kanada sprang direkt von der Agrar- zur Dienstleistungsgesellschaft",
+    "Vier Phasen mit dem quartären Sektor als Endzustand. Einschränkung: Das Modell gilt nur für die europäischen Industrieländer und lässt sich nicht auf andere Weltregionen übertragen, weil dort andere Entwicklungspfade vorliegen",
+    "Zwei Phasen, agrarisch und industriell. Einschränkung: Es gilt nur für die frühen Industrieländer Europas",
+    "Drei Phasen mit gleichmässiger Verteilung auf alle Sektoren. Einschränkung: Es gilt nur bis etwa 1990"
    ],
    "loesung": [
     0
@@ -2883,9 +2883,9 @@
    "frage": "Wie war die Erwerbsstruktur der Schweiz 2008 nach Sektoren verteilt?",
    "optionen": [
     "4,1 Prozent primär, 22,4 Prozent sekundär, 73,5 Prozent tertiär",
-    "10 Prozent primär, 30 Prozent sekundär, 60 Prozent tertiär",
-    "2 Prozent primär, 35 Prozent sekundär, 63 Prozent tertiär",
-    "14,5 Prozent primär, 46,5 Prozent sekundär, 39 Prozent tertiär"
+    "10,0 Prozent primär, 30,0 Prozent sekundär, 60,0 Prozent tertiär",
+    "2,0 Prozent primär, 35,0 Prozent sekundär, 63,0 Prozent tertiär",
+    "14,5 Prozent primär, 46,5 Prozent sekundär, 39,0 Prozent tertiär"
    ],
    "loesung": [
     0
@@ -2932,9 +2932,9 @@
    "frage": "Welche drei Hebel kennzeichnen die fordistische Produktionsweise?",
    "optionen": [
     "Standardisierung der Bauteile und Abläufe, zeitliche Verkürzung einzelner Arbeitsschritte, Massenproduktion",
-    "Teamarbeit, Jobrotation und flache Hierarchien",
-    "Just-in-time, flexible Plattformen und kontinuierliche Verbesserung",
-    "Automatisierung, Digitalisierung und Vernetzung"
+    "Teamarbeit in Gruppen, regelmässige Jobrotation und flache Hierarchien in der gesamten Fertigung eines Werks",
+    "Just-in-time-Belieferung, flexible Plattformen und kontinuierliche Verbesserung",
+    "Durchgehende Automatisierung, Digitalisierung und Vernetzung der Anlagen"
    ],
    "loesung": [
     0
@@ -2953,10 +2953,10 @@
    "lernziel": "Industrielle Produktionsweisen vergleichen",
    "frage": "Was sind Skaleneffekte?",
    "optionen": [
-    "Die Stückkosten sinken mit der produzierten Stückzahl — sie entstehen, wenn bei Verdoppelung des Ressourceneinsatzes mehr als das Doppelte produziert werden kann",
-    "Die Qualität steigt mit der Erfahrung der Mitarbeitenden",
-    "Grössere Unternehmen zahlen höhere Löhne",
-    "Die Transportkosten sinken mit der Entfernung"
+    "Die Stückkosten sinken mit der Stückzahl — sie entstehen, wenn bei Verdoppelung des Ressourceneinsatzes mehr als das Doppelte produziert wird",
+    "Die Qualität steigt mit der wachsenden Erfahrung der Mitarbeitenden, weil eingespielte Abläufe mit der Zeit immer weniger Fehler und Ausschuss erzeugen",
+    "Grössere Unternehmen zahlen höhere Löhne und ziehen dadurch die besseren Fachkräfte an",
+    "Die Transportkosten je Stück sinken mit zunehmender Entfernung zum Absatzmarkt"
    ],
    "loesung": [
     0
@@ -3067,9 +3067,9 @@
    "frage": "Warum geriet das Ruhrgebiet ab 1957 in die Krise?",
    "optionen": [
     "Erdöl löste Kohle ab, die Nachfrage sank, immer tiefere Schächte verteuerten die Ruhrkohle auf das Vierfache des Weltmarktpreises",
-    "Die Kohlevorkommen waren erschöpft",
-    "Die Umweltauflagen machten den Abbau unrentabel",
-    "Die Konkurrenz aus China verdrängte die deutsche Stahlproduktion"
+    "Die Kohlevorkommen im Ruhrgebiet waren nach rund hundert Jahren intensiven Abbaus weitgehend erschöpft und liessen sich nicht mehr fördern",
+    "Strenge Umweltauflagen machten den Abbau und die Verkokung der Kohle unrentabel",
+    "Die Konkurrenz aus China verdrängte die deutsche Stahlproduktion vom Weltmarkt"
    ],
    "loesung": [
     0
@@ -3088,10 +3088,10 @@
    "lernziel": "Wirtschaftssektoren und Strukturwandel einordnen",
    "frage": "Was waren die Standortfaktoren des Silicon Valley — und was spielte gerade keine Rolle?",
    "optionen": [
-    "Hochschulen mit gebildeten Arbeitskräften, Investitionen der Rüstungs- und Raumfahrtindustrie, angenehmes Klima, Platzangebot — Rohstoffnähe spielte keine Rolle",
-    "Billige Arbeitskräfte und niedrige Steuern — Bildung spielte keine Rolle",
-    "Hafennähe und Transportinfrastruktur — Hochschulen spielten keine Rolle",
-    "Staatliche Subventionen — private Investitionen spielten keine Rolle"
+    "Hochschulen mit gebildeten Arbeitskräften, Investitionen der Rüstungs- und Raumfahrtindustrie, Klima und Platz — Rohstoffnähe spielte keine Rolle",
+    "Billige Arbeitskräfte und niedrige Unternehmenssteuern — die Nähe zu Hochschulen und zur Bildung spielte für die Ansiedlung der Firmen keine Rolle",
+    "Hafennähe und eine gute Transportinfrastruktur — Hochschulen spielten dagegen keine Rolle",
+    "Staatliche Subventionen und Steuererlasse — private Investitionen spielten keine Rolle"
    ],
    "loesung": [
     0
@@ -3110,10 +3110,10 @@
    "lernziel": "Wirtschaftssektoren und Strukturwandel einordnen",
    "frage": "Was sind freie Produktionszonen — und was ist ihre Kehrseite?",
    "optionen": [
-    "Gut erschlossene Räume nahe Hafen oder Flughafen mit aufgehobenen Regelungen (Gewerkschaften verboten, Umweltschutzvorschriften aufgehoben, Steuerbefreiungen) — den Preis zahlen oft Arbeiter, Anwohner und Umwelt",
-    "Zollfreie Lagerhäuser für den Transithandel — die Kehrseite ist Schmuggel",
-    "Staatlich geförderte Industrieparks in Industrieländern — die Kehrseite sind hohe Kosten",
-    "Gebiete ohne Baubewilligungspflicht — die Kehrseite ist Zersiedelung"
+    "Gut erschlossene Räume nahe Hafen oder Flughafen mit aufgehobenen Regelungen (keine Gewerkschaften, kein Umweltschutz, Steuerbefreiung) — den Preis zahlen Arbeiter, Anwohner und Umwelt",
+    "Zollfreie Lagerhäuser für den Transithandel — die Kehrseite ist Schmuggel und die schwierige Kontrolle der Warenströme durch Behörden, die Ladungen kaum je lückenlos prüfen können",
+    "Staatlich geförderte Industrieparks in Industrieländern — die Kehrseite sind hohe Kosten für die öffentliche Hand",
+    "Gebiete ohne Baubewilligungspflicht — die Kehrseite ist eine ungesteuerte Zersiedelung"
    ],
    "loesung": [
     0
@@ -3133,9 +3133,9 @@
    "frage": "Was ist die Triade der Weltwirtschaft?",
    "optionen": [
     "Nordamerika, Europa und Ostasien mit den beherrschenden Weltstädten New York, London und Tokyo",
-    "Die drei grössten Volkswirtschaften USA, China und Japan",
-    "Die drei Wirtschaftssektoren primär, sekundär und tertiär",
-    "Die drei Freihandelszonen NAFTA, EU und ASEAN"
+    "Die drei grössten Volkswirtschaften USA, China und Japan, gemessen am jeweiligen Bruttoinlandprodukt",
+    "Die drei Wirtschaftssektoren primär, sekundär und tertiär in jeder Volkswirtschaft",
+    "Die drei grossen Freihandelszonen NAFTA, EU und ASEAN mit ihren Binnenmärkten"
    ],
    "loesung": [
     0
@@ -3176,12 +3176,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Wirtschaftssektoren und Strukturwandel einordnen",
-   "frage": "Die Produkte des quartären Sektors sind gewichtslos. Welche These stellt das Compendio dazu auf?",
+   "frage": "Die Produkte des quartären Sektors sind gewichtslos. Welche These gilt dazu?",
    "optionen": [
     "Viele glaubten, der Raum verliere damit jede Bedeutung — tatsächlich ist das Gegenteil der Fall",
-    "Der Raum verliert tatsächlich an Bedeutung, die Geografie wird überflüssig",
-    "Der quartäre Sektor ist nur in Weltstädten möglich",
-    "Informationswirtschaft lässt sich nicht räumlich analysieren"
+    "Der Raum verliert dadurch tatsächlich an Bedeutung, und die Geografie wird weitgehend überflüssig",
+    "Der quartäre Sektor ist ausschliesslich in grossen Weltstädten möglich",
+    "Die Informationswirtschaft lässt sich räumlich nicht sinnvoll analysieren"
    ],
    "loesung": [
     0
@@ -3200,10 +3200,10 @@
    "lernziel": "Terms of Trade und Prebisch-Singer-Hypothese beurteilen",
    "frage": "Was sind Lohnstückkosten — und warum sind sie die entscheidende Grösse für Wettbewerbsfähigkeit?",
    "optionen": [
-    "Lohn inklusive Lohnnebenkosten je Produkteinheit, also das Verhältnis von Lohnhöhe zu Produktivität — die absolute Lohnhöhe sagt für sich genommen sehr wenig aus",
-    "Die Gesamtlohnsumme eines Unternehmens geteilt durch die Mitarbeiterzahl",
-    "Die Lohnkosten im Verhältnis zum Umsatz",
-    "Der durchschnittliche Stundenlohn einer Branche"
+    "Lohn inklusive Nebenkosten je Produkteinheit, also Lohnhöhe im Verhältnis zur Produktivität — die absolute Lohnhöhe sagt für sich wenig aus",
+    "Die gesamte Lohnsumme eines Unternehmens geteilt durch die Zahl seiner Mitarbeitenden, also der durchschnittliche Lohn je Kopf und Jahr im Betrieb",
+    "Die gesamten Lohnkosten im Verhältnis zum Umsatz einer Periode",
+    "Der durchschnittliche Stundenlohn einer Branche im Ländervergleich"
    ],
    "loesung": [
     0
@@ -3220,12 +3220,12 @@
    "kategorie": "literatur",
    "typ": "mc",
    "lernziel": "Terms of Trade und Prebisch-Singer-Hypothese beurteilen",
-   "frage": "Wie haben sich die Lohnstückkosten seit 1998 laut Dieter entwickelt?",
+   "frage": "Wie haben sich die Lohnstückkosten seit 1998 entwickelt?",
    "optionen": [
     "Deutschland, Irland und USA moderat gesunken; China mehr als verdoppelt; Griechenland und Italien trotz Lohnsenkungen noch immer über dem Wert von 1998",
-    "In allen Industrieländern gestiegen, in allen Schwellenländern gesunken",
-    "In China gesunken, in Europa gestiegen",
-    "Weltweit weitgehend unverändert"
+    "In allen Industrieländern deutlich gestiegen, in sämtlichen Schwellenländern dagegen gesunken — die Schere zwischen beiden Gruppen ging dadurch weit auseinander",
+    "In China gesunken, in Europa gestiegen, in den USA weitgehend unverändert",
+    "Weltweit weitgehend unverändert, abgesehen von einzelnen Ausreissern"
    ],
    "loesung": [
     0
@@ -3242,12 +3242,12 @@
    "kategorie": "vorlesung",
    "typ": "mc",
    "lernziel": "Terms of Trade und Prebisch-Singer-Hypothese beurteilen",
-   "frage": "Welche Begriffe für Weltregionen gelten als problematisch — und welche Alternativen nennt die Vorlesung?",
+   "frage": "Welche Begriffe für Weltregionen gelten als problematisch — und welche Alternativen gibt es?",
    "optionen": [
     "Erste/Zweite/Dritte Welt und Entwicklungsländer; Alternativen sind Globaler Norden, Schwellenländer, Länder des Globalen Südens und Least Developed Countries",
-    "Industrieländer und Agrarländer; Alternativen sind Nord und Süd",
-    "Ost und West; Alternativen sind links und rechts",
-    "Arme und reiche Länder; Alternativen gibt es keine"
+    "Industrieländer und Agrarländer; Alternativen sind Nord und Süd, entwickelte und unterentwickelte Staaten sowie erste und zweite Welt im alten Sprachgebrauch",
+    "Ost und West; Alternativen sind die Begriffe links und rechts der Blockgrenze",
+    "Arme und reiche Länder; brauchbare Alternativen gibt es dafür keine"
    ],
    "loesung": [
     0

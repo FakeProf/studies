@@ -8353,6 +8353,491 @@
    "kern": false
   },
   {
+   "id": "OGPM-W4-01",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die BPMN-Basiselemente kennen und ihre Zusammenhänge erläutern",
+   "frage": "Was bezeichnet Process Discovery?",
+   "optionen": [
+    "Die Modellierung des Ist-Zustands: wie die Prozesse heute tatsächlich ablaufen, meist in einer semiformalen Beschreibungssprache",
+    "Die Modellierung des Soll-Zustands: wie die Prozesse nach der Verbesserung ablaufen sollen, abgestimmt mit den Beteiligten",
+    "Die Auswahl derjenigen Prozesse, die strategisch bedeutend sind und deshalb vorrangig bearbeitet werden sollen",
+    "Die Überwachung laufender Prozessinstanzen anhand von Kennzahlen aus dem produktiven Betrieb"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Process Discovery heisst auch Ist-Modellierung und ist die zweite Phase des BPM-Lebenszyklus. Die dritte Option beschreibt die Prozessidentifikation davor, die vierte das Prozessmonitoring am Ende des Zyklus.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W4-02",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die BPMN-Basiselemente kennen und ihre Zusammenhänge erläutern",
+   "frage": "Welche drei Flussobjekte kennt die BPMN?",
+   "optionen": [
+    "Aktivitäten, Gateways und Ereignisse",
+    "Aktivitäten, Sequenzflüsse und Pools",
+    "Ereignisse, Datenobjekte und Anmerkungen",
+    "Gateways, Nachrichtenflüsse und Lanes"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "In einem Prozess müssen Dinge getan werden (Aktivitäten), möglicherweise nur unter Bedingungen (Gateways), und es können Dinge passieren (Ereignisse). Sequenzflüsse sind verbindende Objekte, Datenobjekte und Anmerkungen gehören zu den Artefakten.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W4-03",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die BPMN-Basiselemente kennen und ihre Zusammenhänge erläutern",
+   "frage": "Was unterscheidet Prozessmodell und Prozessinstanz?",
+   "optionen": [
+    "Das Modell ist die prinzipielle Beschreibung, die Instanz ein konkreter Durchlauf in der Realität",
+    "Das Modell zeigt den Soll-Zustand, die Instanz den zuvor erhobenen Ist-Zustand desselben Prozesses",
+    "Das Modell gilt für eine Abteilung, die Instanz für das gesamte Unternehmen mit allen Beteiligten",
+    "Das Modell ist die fachliche Sicht, die Instanz die technische Umsetzung in einem Workflowsystem"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Eine eingehende Kundenbeschwerde erzeugt eine Instanz des Reklamationsprozesses. Manche Prozesse werden nur wenige Male pro Jahr instanziiert — etwa der Monatsabschluss —, andere ständig.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W4-04",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die BPMN-Basiselemente kennen und ihre Zusammenhänge erläutern",
+   "frage": "Wozu dient das Token-Konzept?",
+   "optionen": [
+    "Um nachzuvollziehen, welche Pfade eine Prozessinstanz zwingend oder möglicherweise durchläuft",
+    "Um jeder Prozessinstanz eine eindeutige Kennung zu geben, über die sich ihre Aufgaben zuordnen lassen",
+    "Um zu kennzeichnen, welche Aktivitäten von einem System statt von einer Person ausgeführt werden",
+    "Um festzuhalten, wie viel Zeit und Ressourcen eine einzelne Aktivität im Prozess verbraucht"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Der Vergleich der Vorlesung: Das Strassennetz ist das Prozessmodell, der Weg des Autos der konkret durchlaufene Pfad. Das Startereignis erzeugt ein Token; nach einem AND-Split sind mehrere Token gleichzeitig unterwegs. Die zweite Option beschreibt die Korrelation.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W4-05",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die BPMN-Basiselemente kennen und ihre Zusammenhänge erläutern",
+   "frage": "Was gilt für eine Aktivität in BPMN?",
+   "optionen": [
+    "Sie konsumiert Zeit und Ressourcen und wird von einer Person oder einem System durchgeführt",
+    "Sie stellt einen Zustand dar und benötigt weder eine Zeitdauer noch irgendwelche Ressourcen",
+    "Sie bildet nur Logik ab und entscheidet, welcher Pfad im Prozess weiterverfolgt wird",
+    "Sie liefert Zusatzinformationen zum Prozess, ohne dessen Reihenfolge zu beeinflussen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Eine Aktivität dauert, kostet und wird von jemandem ausgeführt — auch ein System zählt. Die zweite Option beschreibt ein Ereignis, die dritte ein Gateway, die vierte ein Artefakt.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W4-06",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Einen Sachverhalt mit den BPMN-Basiselementen modellieren",
+   "frage": "Nach welchem Muster werden Aktivitäten benannt?",
+   "optionen": [
+    "Objekt und Verb, etwa «Ware verpacken»",
+    "Verb und Objekt, etwa «Verpacken der Ware»",
+    "Rolle und Tätigkeit, etwa «Lager verpackt»",
+    "Objekt und Zustand, etwa «Ware verpackt»"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Konvention lautet <Objekt> <Verb>. Die vierte Variante beschreibt einen Zustand und gehört damit zu einem Ereignis, nicht zu einer Aktivität.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W4-07",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Einen Sachverhalt mit den BPMN-Basiselementen modellieren",
+   "frage": "Was geschieht beim exklusiven Gateway (XOR) als Verzweigung?",
+   "optionen": [
+    "Der Token wird abhängig von den Bedingungen zu genau einem ausgehenden Sequenzfluss geleitet",
+    "Der Token wird auf alle ausgehenden Sequenzflüsse verteilt, die gleichzeitig aktiviert werden",
+    "Der Token wird auf einen oder mehrere ausgehende Sequenzflüsse geleitet, je nach Bedingungen",
+    "Der Token wartet, bis auf allen eingehenden Sequenzflüssen ein Ergebnis eingetroffen ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Entweder–oder. Es sollte sichergestellt sein, dass immer genau eine Bedingung wahr ist und alle übrigen falsch sind. Die zweite Option beschreibt das parallele, die dritte das inklusive Gateway.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W4-08",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Einen Sachverhalt mit den BPMN-Basiselementen modellieren",
+   "frage": "Was geschieht beim parallelen Gateway (AND) als Zusammenführung?",
+   "optionen": [
+    "Es wird auf alle eingehenden Zweige gewartet; erst dann läuft der Prozess weiter (Synchronisation)",
+    "Es wird auf einen der eingehenden Zweige gewartet; der erste eintreffende aktiviert den Ausgang",
+    "Es wird auf die Zweige gewartet, die tatsächlich durchlaufen wurden, die übrigen bleiben unbeachtet",
+    "Es wird weitergelaufen, sobald ein Ergebnis vorliegt; die Regel dazu ist zu dokumentieren"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beim AND-Split wird für jeden ausgehenden Pfad ein Token erzeugt, beim AND-Join werden sie wieder zusammengeführt. Die zweite Option beschreibt den XOR-Join, die dritte den OR-Join, die vierte ein komplexes Gateway.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W4-09",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Einen Sachverhalt mit den BPMN-Basiselementen modellieren",
+   "frage": "Wann setzt man das inklusive Gateway (OR) ein?",
+   "optionen": [
+    "Wenn einer oder mehrere Pfade durchlaufen werden können, bis hin zu allen gleichzeitig",
+    "Wenn genau ein Pfad durchlaufen wird und alle übrigen Bedingungen falsch sein müssen",
+    "Wenn alle Pfade bedingungslos durchlaufen werden und am Ende synchronisiert werden",
+    "Wenn die Verzweigungslogik so eigen ist, dass sie als Anmerkung dokumentiert werden muss"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Das inklusive Gateway repräsentiert das logische ODER. Die zweite Option beschreibt XOR, die dritte AND, die vierte das komplexe Gateway.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W4-10",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Einen Sachverhalt mit den BPMN-Basiselementen modellieren",
+   "frage": "Was ist beim komplexen Gateway zwingend zu beachten?",
+   "optionen": [
+    "Seine Semantik ist implizit und muss dokumentiert werden, etwa über eine assoziierte Anmerkung",
+    "Es darf nur als Verzweigung eingesetzt werden, niemals zur Zusammenführung mehrerer Zweige",
+    "Es verlangt, dass für jeden ausgehenden Pfad genau eine Bedingung wahr ist und sonst keine",
+    "Es ersetzt zwingend alle anderen Gateways im selben Modell, damit die Logik einheitlich bleibt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beispiel aus der Vorlesung: Sobald eine der Aufgaben «Referenz 1 einholen» oder «Referenz 2 einholen» fertig ist, wird über den Bewerber entschieden. Mit einer klar formulierten Regel kann das komplexe Gateway die Übersichtlichkeit sogar verbessern.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W4-11",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Einen Sachverhalt mit den BPMN-Basiselementen modellieren",
+   "frage": "Wie modelliert man eine Entscheidung, die im Prozess getroffen werden muss?",
+   "optionen": [
+    "Als Aktivität mit anschliessendem Gateway, etwa «Antrag prüfen» und danach die Verzweigung",
+    "Als Gateway mit der Entscheidungsfrage im Gateway selbst, etwa «Antrag prüfen?» mit zwei Ausgängen",
+    "Als Zwischenereignis, das den erreichten Entscheidungszustand im Modell explizit festhält",
+    "Als Datenobjekt am Sequenzfluss, dessen Zustand die getroffene Entscheidung dokumentiert"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Der Grund: Ein Gateway stellt nur Logik dar und ist keine Zeit oder Ressourcen konsumierende Aktivität. Das Prüfen kostet aber Zeit — es gehört deshalb in eine Aktivität davor.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W4-12",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Einen Sachverhalt mit den BPMN-Basiselementen modellieren",
+   "frage": "Wozu dient der Standardfluss bei XOR- und OR-Gateways?",
+   "optionen": [
+    "Er wird durchlaufen, wenn alle anderen Bedingungen nicht erfüllt sind, und verhindert so ein Steckenbleiben",
+    "Er markiert den häufigsten Pfad, damit Lesende den Normalfall auf den ersten Blick erkennen können",
+    "Er enthält die Bedingung, die zutreffen muss, bevor dieser bestimmte Pfad durchlaufen werden darf",
+    "Er führt die zuvor verzweigten Pfade wieder zusammen, ohne dass ein Gateway nötig wird"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Gekennzeichnet wird er durch einen Querbalken auf dem Sequenzfluss. Die dritte Option beschreibt den bedingten Fluss.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W4-13",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die BPMN-Basiselemente kennen und ihre Zusammenhänge erläutern",
+   "frage": "Was unterscheidet Pool und Lane?",
+   "optionen": [
+    "Der Pool begrenzt einen ganzen Prozess und steht für einen Teilnehmer; die Lane sagt, wer darin die Aufgaben ausführt",
+    "Der Pool fasst zusammengehörige Aufgaben zur Dokumentation zusammen; die Lane trennt fachliche von technischen Schritten",
+    "Der Pool steht für eine Abteilung des Unternehmens; die Lane steht für die beteiligten externen Partner",
+    "Der Pool enthält den Soll-Prozess; die Lane enthält den dazugehörigen erhobenen Ist-Prozess"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Lanes sind keine autonomen Prozessbeteiligten und brauchen immer einen Pool. Sie haben nur informativen Charakter und beeinflussen die Prozesslogik nicht — ein Sequenzfluss darf über mehrere Lanes gehen.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W4-14",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die BPMN-Basiselemente kennen und ihre Zusammenhänge erläutern",
+   "frage": "Wie verbindet man zwei Elemente, die in verschiedenen Pools liegen?",
+   "optionen": [
+    "Mit einem Nachrichtenfluss — Sequenzflüsse gehen nie über Pool-Grenzen hinweg",
+    "Mit einem Sequenzfluss — er darf Pool-Grenzen überschreiten, wenn beide Pools zum selben Prozess gehören",
+    "Mit einer Assoziation — sie verbindet beliebige Modellelemente unabhängig von ihrer Lage",
+    "Mit einem gemeinsamen Datenobjekt — es wird von beiden Pools gelesen und geschrieben"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Nachrichtenflüsse verbinden ausschliesslich Objekte von Pool zu Pool. Der Sequenzfluss geht nicht über Grenzen von Subprozessen oder Pools hinweg; die Assoziation dient der Anbindung von Artefakten.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W4-15",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die BPMN-Basiselemente kennen und ihre Zusammenhänge erläutern",
+   "frage": "Was gilt für Ereignisse in BPMN?",
+   "optionen": [
+    "Sie stellen einen Zustand dar und benötigen weder Zeitdauer noch Ressourcen",
+    "Sie konsumieren Zeit und Ressourcen wie jede andere Tätigkeit im Prozessmodell",
+    "Sie entscheiden anhand verfügbarer Daten, welcher Pfad weiterverfolgt wird",
+    "Sie liefern Zusatzinformationen und haben keinen Einfluss auf die Reihenfolge"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Genau darin unterscheidet sich das Ereignis von der Aktivität. Ein Startereignis löst den Prozess aus, ein Zwischenereignis hält einen Meilenstein fest, ein Endereignis bezeichnet den Schlusszustand.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W4-16",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Einen Sachverhalt mit den BPMN-Basiselementen modellieren",
+   "frage": "Welcher Nachteil entsteht, wenn man Prozesse ohne Gateways modelliert?",
+   "optionen": [
+    "Bedingungen werden nicht immer erkannt, was zu Modellierungsfehlern und Fehlinterpretationen führt",
+    "Die Diagramme werden deutlich grösser, weil für jede Bedingung ein eigener Pfad nötig wird",
+    "Die Modelle lassen sich nicht mehr in einem Workflowsystem ausführen, weil die Logik fehlt",
+    "Die Zuordnung der Aufgaben zu Rollen geht verloren, weil Lanes dann nicht mehr verwendet werden"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Der Vorteil wäre, dass die Diagramme kompakter werden. Besonders bei grossen Modellen und solchen, die zur Implementierung vorgesehen sind, kann der Nachteil gravierende Folgen haben.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W4-17",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Einen Sachverhalt mit den BPMN-Basiselementen modellieren",
+   "frage": "Ohne Gateways modelliert: Wann ist ein Gateway zur Zusammenführung trotzdem zwingend?",
+   "optionen": [
+    "Bei AND und OR — die aufgeteilten Marken müssen über ein Gateway wieder vereinigt werden",
+    "Bei XOR und AND — nur das inklusive Gateway kommt beim Vereinigen ohne Gateway aus",
+    "Bei XOR und OR — allein das parallele Gateway lässt sich beim Vereinigen weglassen",
+    "Bei keinem der drei — ohne Gateways lässt sich jede Zusammenführung mit Flüssen abbilden"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beim XOR kann die Zusammenführung ohne Gateway erfolgen, wenn genau eine Bedingung wahr ist. Bei AND verlassen so viele Marken die Aufgabe, wie Sequenzflüsse vorhanden sind — die müssen wieder vereinigt werden; beim OR gilt dasselbe für die tatsächlich durchlaufenen Pfade.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W4-18",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die BPMN-Basiselemente kennen und ihre Zusammenhänge erläutern",
+   "frage": "Wozu dient die Gruppierung in einem BPMN-Diagramm?",
+   "optionen": [
+    "Ausschliesslich zur Dokumentation und Strukturierung — sie wirkt sich nicht auf den Prozessverlauf aus",
+    "Zur Zuordnung von Aufgaben zu Rollen innerhalb eines Pools, vergleichbar mit einer Lane",
+    "Zur Zusammenfassung mehrerer Aufgaben zu einem Subprozess, der eigenständig ausgeführt wird",
+    "Zur Kennzeichnung derjenigen Aufgaben, die von einem IT-System statt von Menschen erledigt werden"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Gruppierung gehört zu den Artefakten. Artefakte liefern zusätzliche Informationen, haben aber keinen direkten Einfluss auf die Reihenfolge der Flussobjekte.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W4-19",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Einen Sachverhalt mit den BPMN-Basiselementen modellieren",
+   "frage": "Ordne jedem Gateway seine Logik zu.",
+   "paare": [
+    [
+     "Exklusives Gateway (X)",
+     "entweder–oder: genau ein Pfad"
+    ],
+    [
+     "Paralleles Gateway (+)",
+     "und: alle Pfade gleichzeitig"
+    ],
+    [
+     "Inklusives Gateway (O)",
+     "oder: einer bis alle Pfade"
+    ],
+    [
+     "Komplexes Gateway (*)",
+     "kombiniert, Semantik dokumentieren"
+    ]
+   ],
+   "erklaerung": "In der fachlichen Prozessmodellierung werden am häufigsten XOR und AND verwendet.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W4-20",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Die BPMN-Basiselemente kennen und ihre Zusammenhänge erläutern",
+   "frage": "Ordne jedem Element seine Aufgabe zu.",
+   "paare": [
+    [
+     "Sequenzfluss",
+     "Reihenfolge innerhalb eines Pools"
+    ],
+    [
+     "Nachrichtenfluss",
+     "Austausch von Pool zu Pool"
+    ],
+    [
+     "Assoziation",
+     "bindet Artefakte an Elemente an"
+    ],
+    [
+     "Datenobjekt",
+     "In- und Output mit Zustand"
+    ]
+   ],
+   "erklaerung": "Kontrollfluss = {Nachrichtenfluss, Sequenzfluss}. Artefakte wie Datenobjekt, Gruppierung und Anmerkung beeinflussen die Reihenfolge nicht.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W4-21",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Die BPMN-Basiselemente kennen und ihre Zusammenhänge erläutern",
+   "frage": "Ordne jedem Ereignistyp seine Bedeutung zu.",
+   "paare": [
+    [
+     "Startereignis",
+     "löst den Prozess aus"
+    ],
+    [
+     "Zwischenereignis",
+     "Meilenstein mitten im Prozess"
+    ],
+    [
+     "Endereignis",
+     "Status am Ende des Prozesses"
+    ]
+   ],
+   "erklaerung": "Alle drei stellen einen Zustand dar und brauchen weder Zeit noch Ressourcen. Das Startereignis erzeugt zugleich das erste Token.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W4-22",
+   "modul": "OGPM",
+   "woche": 4,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Einen Sachverhalt mit den BPMN-Basiselementen modellieren",
+   "frage": "Ein Gateway hat mehrere eingehende und mehrere ausgehende Sequenzflüsse. Was ist daran falsch?",
+   "optionen": [
+    "Ein Gateway ist entweder Split oder Join — Zusammenführen und Verzweigen gehören in zwei Gateways",
+    "Ein Gateway darf höchstens zwei ausgehende Flüsse haben — darüber hinaus braucht es ein komplexes",
+    "Ein Gateway darf keine eingehenden Bedingungen tragen — Bedingungen gehören an den Sequenzfluss",
+    "Ein Gateway muss immer in derselben Lane liegen wie die Aktivität, die ihm unmittelbar vorangeht"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Erst ein Gateway, das die eingehenden Zweige zusammenführt, danach ein weiteres, das wieder verzweigt. So bleibt die Logik eindeutig lesbar.",
+   "quelle": "OGPM LB3 - Process Discovery und BPMN-Basiselemente",
+   "kern": true
+  },
+  {
    "id": "SYMG-W3-01",
    "modul": "SYMG",
    "woche": 3,

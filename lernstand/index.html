@@ -381,27 +381,27 @@ section{margin-top:30px}
   padding:13px 18px calc(13px + env(safe-area-inset-bottom,0px));
   border-top:1px solid var(--line); background:var(--surface-2)}
 
-/* ---- Serie ---- */
-.serie{padding:15px 17px}
-.seriekopf{display:flex; align-items:center; gap:16px; flex-wrap:wrap}
-.seriezahl{display:flex; flex-direction:column; align-items:flex-start; flex:none}
-.seriezahl b{font-family:var(--f-display); font-size:38px; font-weight:600; line-height:1;
-  letter-spacing:-.02em; font-variant-numeric:tabular-nums; color:var(--accent)}
-.seriesatz{flex:1; min-width:170px}
-.seriesatz p{font-family:var(--f-display); font-size:14px; line-height:1.4}
-.seriesatz .pool{font-size:12px; margin-top:3px}
-.seriewoche{display:flex; gap:7px; margin-top:14px}
-.stag{flex:1; display:flex; flex-direction:column; align-items:center; gap:6px}
-.stag .sk{font-family:var(--f-mono); font-size:10.5px; letter-spacing:.05em;
+/* ---- Serie ----
+ * Eine schmale Zeile, kein Blickfang. Der grosse Platz oben gehört dem
+ * Startknopf; die Serie soll daran erinnern, nicht davon ablenken. */
+.seriestreifen{display:flex; align-items:center; gap:11px; flex-wrap:wrap;
+  padding:9px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line)}
+.seriestreifen b{font-family:var(--f-display); font-size:16px; font-weight:600;
+  line-height:1; font-variant-numeric:tabular-nums; color:var(--ink-2)}
+.seriestreifen .lbl{font-family:var(--f-mono); font-size:10px; letter-spacing:.07em;
   text-transform:uppercase; color:var(--muted)}
-.stag .sp{width:100%; height:6px; border-radius:3px; background:var(--surface-3)}
-.stag.erledigt .sp{background:var(--accent)}
-.stag.gerettet .sp{background:var(--warn)}
-.stag.verpasst .sp{background:var(--bad)}
-.stag.frei     .sp{background:transparent; border:1px dashed var(--line-strong)}
-.stag.kommend  .sp{opacity:.45}
-.stag.heute    .sp{background:transparent; border:2px solid var(--accent)}
-.stag.ist-heute .sk{color:var(--ink); font-weight:600}
+.seriestreifen .pool{margin-left:auto; font-size:12px}
+.stage{display:flex; gap:4px}
+.stage i{display:block; width:15px; height:5px; border-radius:3px; background:var(--surface-3)}
+.stage i.erledigt{background:var(--accent)}
+.stage i.gerettet{background:var(--warn)}
+.stage i.verpasst{background:var(--bad)}
+.stage i.frei    {background:transparent; box-shadow:inset 0 0 0 1px var(--line-strong)}
+.stage i.kommend {opacity:.45}
+.stage i.heute   {background:transparent; box-shadow:inset 0 0 0 2px var(--accent)}
+
+/* Der Startknopf oben ist die Hauptsache auf dieser Seite. */
+.btn.gross{font-size:15.5px; padding:13px 26px; border-radius:10px}
 
 /* ---- Vorlagen ---- */
 .vorlagen{display:flex; flex-wrap:wrap; gap:9px}
@@ -472,6 +472,8 @@ button, .chip, .sel, label, summary{ -webkit-tap-highlight-color:transparent; to
   .chip{ min-height:40px; padding:9px 13px; font-size:13.5px; display:inline-flex; align-items:center }
   .btn{ min-height:44px }
   .goal, .run, .rev{ padding-block:13px }
+  .seriestreifen .pool{ margin-left:0; flex-basis:100% }
+  .btn.gross{ width:100%; justify-content:center }
 
   /* Der Prüfen-Knopf lag hinter vier langen Antworten unter dem Falz.
    * Als feste Leiste ist er immer erreichbar — sticky hilft hier nicht,
@@ -1028,34 +1030,26 @@ function serienStand(){
 }
 
 /** Der Serienstreifen auf der Übersicht. */
-function serienKarte(){
+/* Die Serie soll motivieren, nicht die Bühne besetzen — deshalb eine schmale
+ * Zeile statt einer Karte. Der grosse Platz gehört dem Starten. */
+function serienStreifen(){
   const s = serienStand();
   const offen = Math.max(0, TAGESZIEL - s.heuteFragen);
   const satz = !s.heutePflicht
-    ? (s.heuteFragen ? `Freier Tag — und trotzdem ${s.heuteFragen} Fragen.`
-                     : "Heute ist frei.")
-    : offen === 0 ? `Heute geschafft — ${s.heuteFragen} Fragen.`
-                  : `Noch ${offen} von ${TAGESZIEL} Fragen für heute.`;
+    ? (s.heuteFragen ? `freier Tag · ${s.heuteFragen} Fragen` : "heute frei")
+    : offen === 0 ? `heute geschafft · ${s.heuteFragen} Fragen`
+                  : `noch ${offen} von ${TAGESZIEL} Fragen heute`;
 
   return `
-  <section>
-    <div class="card panel serie">
-      <div class="seriekopf">
-        <div class="seriezahl"><b>${s.serie}</b><span class="eyebrow">Tage-Serie</span></div>
-        <div class="seriesatz">
-          <p>${esc(satz)}</p>
-          <p class="pool">${s.jokerFrei ? "Joker diese Woche noch frei" : "Joker diese Woche verbraucht"}${
-            s.rekord > s.serie ? ` · Rekord ${s.rekord}` : ""}</p>
-        </div>
-      </div>
-      <div class="seriewoche">
-        ${s.woche.map(t=>`<div class="stag ${t.status}${t.heute?" ist-heute":""}"
-          title="${t.kurz}: ${t.status === "frei" ? "frei" : t.fragen + " von " + TAGESZIEL + " Fragen"}">
-          <span class="sk">${t.kurz}</span><span class="sp"></span>
-        </div>`).join("")}
-      </div>
+  <div class="seriestreifen" title="Serie: ${s.serie} Tage${s.rekord > s.serie ? `, Rekord ${s.rekord}` : ""} · ${
+    s.jokerFrei ? "Joker diese Woche frei" : "Joker diese Woche verbraucht"}">
+    <b>${s.serie}</b><span class="lbl">Tage-Serie</span>
+    <div class="stage">
+      ${s.woche.map(t=>`<i class="${t.status}${t.heute?" ist-heute":""}"
+        title="${t.kurz}: ${t.status === "frei" ? "frei" : t.fragen + " von " + TAGESZIEL + " Fragen"}"></i>`).join("")}
     </div>
-  </section>`;
+    <span class="pool">${esc(satz)}</span>
+  </div>`;
 }
 
 /* ---------- Statistik ---------- */
@@ -1158,10 +1152,15 @@ function renderDash(){
     <div>
       <h1>Wie gut sitzt der Stoff?</h1>
       <p class="lede">${POOL.length} Fragen · ${MOD_ORDER.filter(m=>POOL.some(q=>q.modul===m)).length} Module</p>
-      ${offeneRunde() ? `<div class="herostart">
-        <button class="btn" id="weiter">Runde fortsetzen</button>
-        <span class="pool">noch ${session.qs.length - session.i} von ${session.qs.length} · ${esc(session.scope)}</span>
-      </div>` : ""}
+      <div class="herostart">
+        ${offeneRunde() ? `
+          <button class="btn gross" id="weiter">Runde fortsetzen</button>
+          <span class="pool">noch ${session.qs.length - session.i} von ${session.qs.length} · ${esc(session.scope)}</span>
+        ` : `
+          <button class="btn gross" data-start-f="${esc(JSON.stringify(filterLesen()))}" ${roundSize(candidates())?"":"disabled"}>Runde starten</button>
+          <span class="pool">${roundSize(candidates())} Fragen · ${esc(filterAktiv() ? scopeLabel() : "alle Module, gemischt")}</span>
+        `}
+      </div>
     </div>
     <div class="kpis">
       <div class="kpi"><b>${all.geuebt}<span class="muted" style="font-size:16px">/${all.total}</span></b><span class="eyebrow">geübt</span></div>
@@ -1170,7 +1169,7 @@ function renderDash(){
     </div>
   </div>
 
-  ${serienKarte()}
+  ${serienStreifen()}
 
   <section>
     <div class="sec-head"><h2>Module</h2>

@@ -1,0 +1,43 @@
+# Study Lane auf Netlify
+#
+# Die Seite ist statisch: eine HTML-Datei, der Fragenpool als JSON, Manifest,
+# Service Worker und Symbole. Es gibt nichts zu bauen.
+#
+# Warum diese Datei nötig ist: Ohne sie zog Netlify die Einstellungen aus der
+# Oberfläche — Build-Befehl `npm run build` und Verzeichnis `dist`. Beides
+# passt nicht. Ein "build"-Skript existiert nicht, und `dist` gibt es auch
+# nicht. Dass Netlify dabei "hono" als Framework erkannte, führt zusätzlich
+# in die Irre: Hono und pg stecken nur wegen der nie ausgelieferten
+# Neon-Function in package.json, nicht wegen der Seite.
+#
+# Netlify liest netlify.toml vor den Einstellungen in der Oberfläche. Bleibt
+# ein Deploy trotzdem beim alten Befehl stehen, muss das Feld dort einmal
+# geleert werden (Site configuration → Build & deploy → Build settings).
+
+[build]
+  # lernstand/ wird selbst zur Wurzel der Seite — alle Pfade darin sind
+  # relativ, es ist also nichts umzubiegen.
+  publish = "lernstand"
+  # Ausdrücklich ein Befehl, der nichts tut und sauber durchläuft. Ein leerer
+  # String liesse sich als "nicht gesetzt" lesen und fiele auf die Oberfläche
+  # zurück — genau das soll er nicht.
+  command = "echo 'Statische Seite, nichts zu bauen.'"
+
+# Der Service Worker darf nicht am CDN hängen bleiben, sonst merkt ein
+# installiertes Gerät eine neue Fassung tagelang nicht.
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+# Dasselbe für die Seite selbst und den Fragenpool: Beide ändern sich mit
+# jedem Push, und der Service Worker geht ohnehin zuerst ins Netz.
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/daten/fragen.json"
+  [headers.values]
+    Cache-Control = "no-cache"

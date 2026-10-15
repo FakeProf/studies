@@ -1,6 +1,6 @@
 {
  "version": 1,
- "stand": "2026-10-09",
+ "stand": "2026-10-15",
  "quelle": "Obsidian-Vault \"02 Zusammenfassungen\", OST HS2026",
  "fragen": [
   {
@@ -10154,6 +10154,853 @@
    "erklaerung": "Die unmöglich gewordene Schuld erlischt (OR 119 I), und die Gegenpartei wird von ihrer Leistung befreit (OR 119 II). Beim Kauf geht die Gefahr aber nach OR 185 grundsätzlich schon mit Vertragsabschluss auf den Käufer über — er muss dann trotzdem zahlen.",
    "kern": true,
    "quelle": "VHRE VL3 - Vertragsinhalt und Vertragserfüllung"
+  },
+  {
+   "id": "SYMG-W4-01",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Ordne den drei Rechnungen zu, was sie zeigen.",
+   "paare": [
+    [
+     "Geldflussrechnung",
+     "Veränderung der flüssigen Mittel über einen Zeitraum"
+    ],
+    [
+     "Bilanz",
+     "Reinvermögen an einem Stichtag (Vermögen gegenüber Schulden und Eigenkapital)"
+    ],
+    [
+     "Erfolgsrechnung",
+     "Vermögensveränderung durch die operative Tätigkeit über einen Zeitraum"
+    ]
+   ],
+   "erklaerung": "Nur die Bilanz ist eine Stichtagsrechnung; Geldfluss- und Erfolgsrechnung beziehen sich auf eine Periode. Vertieft wird das im Modul FBRW.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-02",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Wie setzt sich der Free Cashflow zusammen?",
+   "optionen": [
+    "Operativer Cashflow plus investiver Cashflow",
+    "Operativer Cashflow plus finanzieller Cashflow",
+    "Reingewinn plus Abschreibungen minus Dividenden",
+    "Investiver Cashflow plus finanzieller Cashflow"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Der Free Cashflow ist das frei verwendbare Geld für die Kapitalgeber. Addiert man noch den finanziellen Cashflow, erhält man die Veränderung der flüssigen Mittel.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-03",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Ordne die drei Geldfluss-Muster der Folien 7 bis 9 dem Unternehmenstyp zu.",
+   "paare": [
+    [
+     "Investiver Cashflow negativ, Gewinn",
+     "Etablierte Firma"
+    ],
+    [
+     "Investiver Cashflow negativ, Free Cashflow negativ, Verlust, Finanzierung über finanziellen Cashflow",
+     "Start-up"
+    ],
+    [
+     "Investiver Cashflow positiv (Anlagen werden verkauft), Verlust",
+     "Sanierungsfall"
+    ]
+   ],
+   "erklaerung": "Der Schlüssel ist das Vorzeichen des investiven Cashflows: Ein positiver investiver Cashflow heisst, dass Anlagen verkauft statt gekauft werden.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-04",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Bringe die Zwischenergebnisse der Erfolgsrechnung in die richtige Reihenfolge (von oben nach unten).",
+   "items": [
+    "Bruttogewinn",
+    "EBITDA",
+    "EBIT",
+    "EBT",
+    "Reingewinn"
+   ],
+   "erklaerung": "Umsatz minus Warenaufwand ergibt den Bruttogewinn, minus andere betriebliche Aufwände das EBITDA, minus Abschreibungen das EBIT (Betriebsergebnis), plus/minus Finanzerfolg und ausserordentlicher Erfolg das EBT, minus Steuern den Reingewinn.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W4-05",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Ordne den klassischen Kennzahlen ihre Formel zu.",
+   "paare": [
+    [
+     "ROI",
+     "EBIT / Ø Gesamtkapital"
+    ],
+    [
+     "ROE",
+     "Reingewinn / Ø Eigenkapital"
+    ],
+    [
+     "ROS",
+     "Reingewinn / Umsatz"
+    ],
+    [
+     "CTO",
+     "Umsatz / Ø Aktiven"
+    ]
+   ],
+   "erklaerung": "ROI misst die operative Leistungsfähigkeit, ROE die für Aktionäre massgebliche Rendite, ROS die Umsatzrendite unabhängig von der Kapitalstruktur, CTO den Kapitalumschlag als Effizienzmass.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-06",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Volkart-Beispiel: Nach der FK-finanzierten Investition von 25 betragen EBIT 10, Zinsen 4.25, Reingewinn 5.75, FK 75, EK 50. Wie hoch sind ROI und ROE?",
+   "optionen": [
+    "ROI 8 %, ROE 11.5 %",
+    "ROI 10 %, ROE 11.5 %",
+    "ROI 8 %, ROE 7.7 %",
+    "ROI 7.5 %, ROE 10 %"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "ROI = 10 / 125 (neue Bilanzsumme) = 8 %. ROE = 5.75 / 50 = 11.5 %, denn das EK bleibt unverändert. 7.5 % und 10 % sind die Werte vor der Investition.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-07",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Warum verlangt die Bank im Volkart-Beispiel für das neue Fremdkapital 7 % statt 5 %?",
+   "optionen": [
+    "Mit der höheren Verschuldung steigt das Risiko für die Kapitalgeberin, also verlangt sie einen höheren Zins",
+    "Weil neue Kredite grundsätzlich teurer sind als bestehende, unabhängig von der Bilanz",
+    "Weil der ROI nach der Investition steigt und die Bank daran beteiligt werden will",
+    "Weil Fremdkapitalzinsen nach Steuern berechnet werden und der Steuersatz gestiegen ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Je höher das Risiko für den Kapitalgeber, desto höher der Zins. Investieren sollte man laut Folien nur, wenn die leichte Verbesserung der Kennzahlen nicht durch ein hohes Risiko erkauft wird.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W4-08",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Welcher Nachteil gehört NICHT zu den Schwächen von ROI, ROE und ROS als Wertmassstab?",
+   "optionen": [
+    "Sie sind schwierig zu ermitteln und kaum verbreitet",
+    "Sie sind buchhalterisch manipulierbar, etwa über stille Reserven",
+    "Sie vernachlässigen das Risiko von Unternehmen, Branche und Kapitalstruktur",
+    "Sie sind vergangenheitsbezogen und verleiten zu kurzfristigem Denken"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Einfach zu ermitteln, einfach zu verstehen und weit verbreitet sind gerade ihre Vorteile. Als besseren Indikator nennen die Folien den EVA, weil er das Risiko über den WACC berücksichtigt.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-09",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Wie lautet die absolute Formel des EVA?",
+   "optionen": [
+    "EVA = NOPAT − (IC × WACC)",
+    "EVA = EBIT − (Eigenkapital × Eigenkapitalkosten)",
+    "EVA = Free Cashflow − (IC × WACC)",
+    "EVA = Reingewinn − (Gesamtkapital × Fremdkapitalzins)"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Der EVA ist der Übergewinn: Betriebsgewinn nach Steuern abzüglich der Kosten für das gesamte investierte Kapital. Relativ ausgedrückt: EVA = (ROIC − WACC) × IC.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-10",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Ordne den EVA-Bausteinen ihre Bedeutung zu.",
+   "paare": [
+    [
+     "NOPAT",
+     "EBIT × (1 − Steuersatz): Betriebsgewinn vor Zinsen, nach Steuern"
+    ],
+    [
+     "IC",
+     "Betriebsnotwendiges Kapital: EK + Finanzschulden − flüssige Mittel"
+    ],
+    [
+     "WACC",
+     "Gewichteter Durchschnitt aus FK-Kosten und EK-Kosten"
+    ],
+    [
+     "ROIC",
+     "NOPAT / IC"
+    ]
+   ],
+   "erklaerung": "Beim IC werden nicht verzinsliches FK (Lieferantenschulden, Kundenanzahlungen, Rückstellungen) und nicht betriebliches Vermögen abgezogen, weil sie keine Kapitalkosten verursachen bzw. nicht zum Betrieb gehören.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-11",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Wie lautet die unternehmerische Investitionsregel?",
+   "optionen": [
+    "Nur Investitionen mit ROIC > WACC schaffen Mehrwert für die Aktionäre",
+    "Nur Investitionen, die den ROI des Gesamtunternehmens erhöhen, schaffen Mehrwert",
+    "Nur Investitionen mit einem FK-Zins unter dem ROE schaffen Mehrwert",
+    "Nur Investitionen mit positivem Reingewinn im ersten Jahr schaffen Mehrwert"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Rendite auf dem investierten Kapital muss die Kapitalkosten übersteigen. Das ist schwierig, weil sich Rendite und Risiko oft entsprechen.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-12",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Weingut Zumboden: IC 20 Mio., EBIT 4 Mio., Steuersatz 30 %, WACC 9.2 %. Wie hoch ist der EVA?",
+   "optionen": [
+    "0.96 Mio. CHF",
+    "2.16 Mio. CHF",
+    "0.80 Mio. CHF",
+    "1.84 Mio. CHF"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "NOPAT = 4 × 0.7 = 2.8; ROIC = 2.8 / 20 = 14 %; EVA = (14 % − 9.2 %) × 20 = 0.96 Mio. 2.16 entstünde, wenn man vom EBIT statt vom NOPAT ausgeht (4 − 1.84).",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-13",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Weingut Zumboden: FK-Anteil 40 %, FK-Zins 5 %, Steuersatz 30 %, EK-Kosten 13 %. Wie hoch ist der WACC?",
+   "optionen": [
+    "9.2 %",
+    "9.8 %",
+    "10.0 %",
+    "8.4 %"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "FK-Kosten nach Steuern: 5 % × 0.7 = 3.5 %. WACC = 0.4 × 3.5 % + 0.6 × 13 % = 1.4 % + 7.8 % = 9.2 %. Ohne Tax Shield käme man auf 9.8 %.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W4-14",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Volkart (1998): Eine Erweiterung senkt den ROIC von 25 % auf 22.5 %, der EVA steigt aber von 100 auf 150 (WACC 15 %). Was folgt daraus?",
+   "optionen": [
+    "Investieren, denn nicht die Rendite, sondern der EVA entscheidet",
+    "Nicht investieren, denn ein sinkender ROIC zeigt Wertvernichtung an",
+    "Nur investieren, wenn der WACC gleichzeitig unter 10 % gesenkt werden kann",
+    "Die Entscheidung ist offen, weil ROIC und EVA sich widersprechen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Erweiterung hat mit 20 % einen ROIC über dem WACC und bringt 50 Übergewinn. Im Gegenbeispiel steigt der ROIC zwar von 5 % auf 7.5 %, beide Teile liegen aber unter dem WACC und vernichten Wert.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-15",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Was bewirkt der Tax Shield bei den Fremdkapitalkosten?",
+   "optionen": [
+    "FK-Zinsen sind steuerlich abzugsfähig; der Zins nach Steuern ist Zins × (1 − Steuersatz)",
+    "FK-Zinsen werden zusätzlich besteuert; der Zins nach Steuern ist Zins × (1 + Steuersatz)",
+    "Die EK-Kosten sinken um den Steuersatz, weil Dividenden steuerfrei sind",
+    "Der WACC wird vor Steuern berechnet, damit Steuereffekte ausgeklammert bleiben"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beispiel der Folien: 5 % × (1 − 0.4) = 3 %. Darum ist Fremdkapital günstiger als es der nominale Zins vermuten lässt.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W4-16",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Wie berechnet man die Eigenkapitalkosten nach dem CAPM?",
+   "optionen": [
+    "Risikofreier Zins + Beta × Marktrisikoprämie",
+    "Risikofreier Zins × Beta + Marktrisikoprämie",
+    "Aktienmarktrendite − Beta × risikofreier Zins",
+    "FK-Zins nach Steuern + Beta × Risikoprämie der Branche"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Marktrisikoprämie ist Aktienmarktrendite (6 bis 8 %) minus risikofreier Zins (etwa 1 %), also 5 bis 7 %. UBS: 1 % + 1.62 × 6 % = 10.72 %.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-17",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Was sagt ein Beta von 0.24 (Swisscom) aus?",
+   "optionen": [
+    "Die Aktie machte die Bewegungen des Gesamtmarkts deutlich schwächer mit; das systematische Risiko und damit die EK-Kosten sind tief",
+    "Die Aktie bewegte sich gegenläufig zum Markt und eignet sich deshalb zur Absicherung",
+    "Die Aktie schwankte 24 % stärker als der Markt; die geforderte Risikoprämie ist hoch",
+    "Die Aktie hat ein tiefes unsystematisches Risiko, weil Swisscom breit diversifiziert ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beta misst das systematische Risiko gegenüber einem breiten Index wie dem SPI. Beta > 1 schwankt stärker als der Markt (UBS 1.62), < 1 schwächer. Ein negatives Beta wäre gegenläufig.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-18",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Ordne den Risikotypen der Risk Map (Haller 2004) die passende Massnahme zu.",
+   "paare": [
+    [
+     "A: grosse Wahrscheinlichkeit, grosser Schaden",
+     "Vermeiden"
+    ],
+    [
+     "B: kleine Wahrscheinlichkeit, geringer Schaden",
+     "Selbst tragen"
+    ],
+    [
+     "C: sehr kleine Wahrscheinlichkeit, sehr grosser Schaden (Jahrhundertereignis)",
+     "Überwälzen (versichern)"
+    ],
+    [
+     "D: grosse Wahrscheinlichkeit, geringer Schaden",
+     "Reduzieren"
+    ]
+   ],
+   "erklaerung": "Risikomanagement ist der erste Hebel auf den WACC. Beispiele: Fukushima 2011 als Jahrhundertereignis; Disney baut Parks in Regionen mit konstantem Wetter, um Umsatzschwankungen zu senken.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-19",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Ordne den drei Hebeln des EVA ihren Ansatzpunkt zu.",
+   "paare": [
+    [
+     "Risikomanagement",
+     "senkt den WACC über ein tieferes Unternehmensrisiko"
+    ],
+    [
+     "Kapitalstruktur",
+     "senkt den WACC über den Anteil des günstigeren Fremdkapitals"
+    ],
+    [
+     "Du-Pont-Schema",
+     "erhöht den ROI über Marge und Kapitalumschlag"
+    ]
+   ],
+   "erklaerung": "Zwei Hebel wirken auf die Kapitalkosten, einer auf die Rendite. Der ROI ist laut Folien eher Indikator als Hebel; die Du-Pont-Logik gilt analog für den ROIC.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-20",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Abbildung 3-6: Steigt die Verschuldung von 40 % auf 50 %, steigen EK-Kosten (8 → 8.5 %) und FK-Kosten (2.8 → 3 %). Was passiert mit dem WACC?",
+   "optionen": [
+    "Er sinkt von 5.9 % auf 5.75 %, weil der Anteil des günstigeren Fremdkapitals wächst",
+    "Er steigt, weil beide Kapitalkostensätze steigen",
+    "Er bleibt gleich, weil sich die beiden Effekte genau aufheben",
+    "Er sinkt auf 3 %, weil nur noch die FK-Kosten zählen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "0.5 × 3 % + 0.5 × 8.5 % = 5.75 % gegenüber 0.4 × 2.8 % + 0.6 × 8 % ≈ 5.9 %. Mehr Verschuldung lohnt sich hier trotz höherem Risiko.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W4-21",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Leverage-Exkurs: 40 000 EK, 60 000 Kredit zu 5 %, Betriebsgewinn 20 000. Wie hoch ist der ROE?",
+   "optionen": [
+    "42.5 %",
+    "20 %",
+    "50 %",
+    "35 %"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Zinsen 3000, Reingewinn 17 000, 17 000 / 40 000 = 42.5 %. Ohne Kredit wäre ROE = ROI = 20 %. Der Effekt kehrt sich um, sobald der FK-Zins über der Gesamtkapitalrendite liegt: Bei 2000 Betriebsgewinn resultiert ein ROE von −2.5 %.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-22",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Unter welcher Bedingung erhöht zusätzliche Verschuldung den ROE?",
+   "optionen": [
+    "Wenn der FK-Zins tiefer ist als die Gesamtkapitalrendite (ROI)",
+    "Wenn der FK-Zins tiefer ist als die Eigenkapitalrendite (ROE)",
+    "Wenn die Eigenkapitalquote über 50 % liegt",
+    "Immer, weil Fremdkapital steuerlich abzugsfähig ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Das ist der Leverage-Effekt. Er wirkt auch negativ: Liegt der ROI unter dem FK-Zins, drückt jede zusätzliche Verschuldung den ROE.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W4-23",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kennzahlensysteme wie das Du-Pont-Schema interpretieren",
+   "frage": "Wie zerlegt das Du-Pont-Schema den ROI?",
+   "optionen": [
+    "ROI = ROS × CTO (Gewinnmarge × Kapitalumschlag)",
+    "ROI = ROE × Eigenkapitalquote",
+    "ROI = ROS + CTO",
+    "ROI = EBIT × Kapitalumschlag"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ein hoher ROI lässt sich über Marge und/oder Masse erreichen. Ems-Chemie setzt auf hohe Margen durch Spezialitäten, Innovation und Kostenbewusstsein.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-24",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Kennzahlensysteme wie das Du-Pont-Schema interpretieren",
+   "frage": "Du-Pont-Baum, Margenast: Bringe die Grössen in die Rechenreihenfolge, vom Umsatz bis zum ROS.",
+   "items": [
+    "Umsatz",
+    "Deckungsbeitrag (Umsatz − variable Kosten)",
+    "Betriebsgewinn (Deckungsbeitrag − Fixkosten)",
+    "ROS (Betriebsgewinn / Umsatz)"
+   ],
+   "erklaerung": "Der zweite Ast ist der Kapitalumschlag: Umsatz durch Gesamtkapital, wobei das Gesamtkapital aus Anlagevermögen (Sach- und Finanzanlagen) und Umlaufvermögen (Vorräte, Forderungen, liquide Mittel) besteht.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W4-25",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kennzahlensysteme wie das Du-Pont-Schema interpretieren",
+   "frage": "Ein Unternehmen hat eine Umsatzrendite von 4 % und einen Kapitalumschlag von 2.5. Wie hoch ist der ROI?",
+   "optionen": [
+    "10 %",
+    "6.5 %",
+    "1.6 %",
+    "62.5 %"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "ROI = ROS × CTO = 4 % × 2.5 = 10 %. Ein Discounter erreicht so mit kleiner Marge über hohe Masse eine gute Rendite.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W4-26",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Shareholder Value Management verstehen und anwenden",
+   "frage": "Was zeigt die Studie der Société Générale (2015) über 20 Jahre?",
+   "optionen": [
+    "Unternehmen, die zu viel oder zu wenig investieren, entwickeln sich an der Börse schlechter als normal investierende",
+    "Unternehmen mit den höchsten Investitionen entwickeln sich an der Börse am besten",
+    "Unternehmen, die kaum investieren und Gewinne ausschütten, schlagen den Markt",
+    "Investitionen haben in Europa einen Einfluss auf den Börsenkurs, in den USA nicht"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Investitionen spielen in der finanziellen Erfolgslogik eine kritische Rolle: Sie erhöhen das investierte Kapital und müssen über künftige Überrenditen verdient werden. Positivbeispiel ist Amazon.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W4-27",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Shareholder Value Management verstehen und anwenden",
+   "frage": "Ordne jedem Nachteil des ROI die Antwort des Shareholder-Value-Ansatzes zu.",
+   "paare": [
+    [
+     "manipulierbar",
+     "basiert auf dem Free Cashflow, einer Geldgrösse"
+    ],
+    [
+     "vergangenheitsbezogen",
+     "zukunftsbezogen: geschätzte künftige Free Cashflows"
+    ],
+    [
+     "kurzfristig",
+     "langfristig: Planungshorizont plus ewige Rente"
+    ],
+    [
+     "ignoriert Risiko",
+     "berücksichtigt Risiko über den WACC"
+    ]
+   ],
+   "erklaerung": "Der Shareholder-Value-Ansatz nach Alfred Rappaport (1986) antwortet Punkt für Punkt auf die Schwächen der klassischen Renditekennzahlen.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-28",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Shareholder Value Management verstehen und anwenden",
+   "frage": "Was hat das Agency-Problem laut Folien mit dem Shareholder Value zu tun?",
+   "optionen": [
+    "Nichts im Sinne einer Ursache: Der SV-Ansatz verlangt sogar, freie Cashflows auszuschütten, wenn Manager keine rentablen Projekte finden",
+    "Der SV-Ansatz verursacht das Agency-Problem, weil Manager am Aktienkurs gemessen werden",
+    "Das Agency-Problem entsteht nur, wenn ein Unternehmen keinen Shareholder Value schafft",
+    "Der SV-Ansatz löst das Agency-Problem, indem er Managern Aktienoptionen zuteilt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ausschüttungen über Dividenden oder Aktienrückkäufe verhindern, dass Geld in Prestigeprojekte, riskante Akquisitionen oder luxuriöse Verwaltungsgebäude fliesst. Pleiten und überrissene Managerlöhne haben laut Rappaport mehr mit kurzfristig orientierten Managern zu tun als mit der SV-Idee.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-29",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Shareholder Value Management verstehen und anwenden",
+   "frage": "Bringe die Schritte der DCF-Bewertung in die richtige Reihenfolge.",
+   "items": [
+    "Budgetierte Cashflows, Investitionen und Risiken aus dem Geschäftsplan ableiten",
+    "Erwartete Free Cashflows und Kapitalkosten (WACC) bestimmen",
+    "FCF der Planungsperiode und Terminal Value auf heute abzinsen (Brutto-Unternehmenswert)",
+    "Fremdkapital abziehen (Netto-Unternehmenswert = Shareholder Value)"
+   ],
+   "erklaerung": "Der Brutto-Unternehmenswert (Entity) gehört allen Kapitalgebern; erst nach Abzug des Fremdkapitals bleibt der Wert für die Aktionäre (Equity).",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-30",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Shareholder Value Management verstehen und anwenden",
+   "frage": "Wie berechnet man den Terminal Value bei Nullwachstum?",
+   "optionen": [
+    "TV = FCF(T+1) / WACC, danach auf heute abzinsen",
+    "TV = FCF(T+1) × WACC, danach auf heute abzinsen",
+    "TV = Summe der FCF der Planungsperiode / WACC",
+    "TV = FCF(T+1) / (1 + WACC), ohne weitere Abzinsung"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Folienbeispiel: 10 / 0.09 = 111, abgezinst auf heute 72.2. Konstante FCF nach der Detailplanung sind die konservative Annahme.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-31",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Shareholder Value Management verstehen und anwenden",
+   "frage": "DCF-Folienbeispiel: Barwert der FCF J1 bis J5 = 11.2, Barwert Terminal Value = 72.2, Fremdkapital = 50. Wie hoch ist der Shareholder Value?",
+   "optionen": [
+    "33.4 Mio. CHF",
+    "83.4 Mio. CHF",
+    "61.2 Mio. CHF",
+    "22.2 Mio. CHF"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Brutto-Unternehmenswert 11.2 + 72.2 = 83.4; minus FK 50 ergibt 33.4. Auffällig: Der Terminal Value macht den Grossteil des Werts aus, was die Prognoseunsicherheit zur Achillesferse macht.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-32",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Shareholder Value Management verstehen und anwenden",
+   "frage": "Wie viel sind 1000 CHF in drei Jahren heute wert, bei einem Kapitalkostensatz von 10 %?",
+   "optionen": [
+    "751 CHF",
+    "700 CHF",
+    "909 CHF",
+    "579 CHF"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Barwert = 1000 / 1.1³ = 751. Bei 20 % wären es nur 579; 909 entspräche einer Abzinsung über nur ein Jahr.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W4-33",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Shareholder Value Management verstehen und anwenden",
+   "frage": "Was bezeichnet der Hockeystick-Effekt bei der DCF-Bewertung?",
+   "optionen": [
+    "Prognosen werden umso rosiger, je weiter sie in der Zukunft liegen",
+    "Die Free Cashflows sinken nach der Planungsperiode stark ab",
+    "Der WACC steigt mit zunehmender Verschuldung sprunghaft an",
+    "Die Börse unterschätzt junge Unternehmen systematisch"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beispiel Dotcom-Blase 1998 bis 2000: Nasdaq von gut 1000 auf über 5000 Punkte und zurück. In der Praxis greifen KMU deshalb oft auf Multiples zurück (EBIT-Multiple z. B. Software 10.7, Bau 5.2).",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W4-34",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Shareholder Value Management verstehen und anwenden",
+   "frage": "Ordne zu: DCF / Shareholder Value oder EVA?",
+   "paare": [
+    [
+     "Basis Cashflow, misst den Unternehmenswert",
+     "DCF / Shareholder Value"
+    ],
+    [
+     "Basis Gewinn, misst den Übergewinn einer Periode",
+     "EVA"
+    ],
+    [
+     "Regel: nur Projekte mit positivem Shareholder Value",
+     "DCF-Entscheidungsregel"
+    ],
+    [
+     "Regel: nur Projekte, die den Plan-Spread verbessern",
+     "EVA-Entscheidungsregel"
+    ]
+   ],
+   "erklaerung": "Beide Konzepte berücksichtigen das Risiko über den WACC. Der DCF ist umfassender, der EVA lässt sich periodisch messen und steuern.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-35",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Shareholder Value Management verstehen und anwenden",
+   "frage": "Wertsteigerungsansatz EVA: Ordne die Entscheidungsart der Grösse zu, auf die sie wirkt.",
+   "paare": [
+    [
+     "Operative Entscheidungen",
+     "NOPAT"
+    ],
+    [
+     "Investitionsentscheidungen",
+     "Invested Capital (IC)"
+    ],
+    [
+     "Finanzierungsentscheidungen",
+     "WACC"
+    ]
+   ],
+   "erklaerung": "So lässt sich jede Managemententscheidung einem Baustein der EVA-Formel NOPAT − IC × WACC zuordnen.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W4-36",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Shareholder Value Management verstehen und anwenden",
+   "frage": "Welche Grösse gehört NICHT zu den fünf Wertgeneratoren nach Rappaport?",
+   "optionen": [
+    "Marktanteil",
+    "Umsatzwachstumsrate",
+    "Gewinnmarge",
+    "Kapitalkosten"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die fünf Value Drivers: Umsatzwachstumsrate, Gewinnmarge, Ertragssteuerrate, Investitionen ins Umlauf- und Anlagevermögen, Kapitalkosten. Dazu kommt die Dauer der Wertsteigerung.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W4-37",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Shareholder Value Management verstehen und anwenden",
+   "frage": "Wie wirkt der Wertgenerator «Umsatzwachstum» bei einer Qualitätsführerschaft nach Porter?",
+   "optionen": [
+    "Preisprämie fordern und Segmente mit hoher Zahlungsbereitschaft durchdringen",
+    "Konkurrenzfähige Preise halten und Marktanteile für Skalenerträge ausbauen",
+    "Overheads beseitigen und Kostenverknüpfungen mit Lieferanten nutzen",
+    "Ungenutzte Anlagen verkaufen und produktivitätssteigernde Aktiva beschaffen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die zweite Option ist die Antwort für die Kostenführerschaft. Die dritte betrifft die Gewinnmarge, die vierte das Anlagevermögen bei Kostenführerschaft.",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W4-38",
+   "modul": "SYMG",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Shareholder Value Management verstehen und anwenden",
+   "frage": "Nestlé hatte 2023 einen Buchwert von 126 Mrd. CHF, an der Börse war es 2024 rund 230 Mrd. wert. Wie erklärt der Shareholder-Value-Ansatz die Differenz?",
+   "antwort": "Der Unternehmenswert ergibt sich aus den abgezinsten künftigen Free Cashflows, nicht aus dem bilanzierten Vermögen. Marken und Wettbewerbsvorteile erzeugen Cashflows, die in der Bilanz nicht stehen.",
+   "erklaerung": "Nestlé hat dank Markenführung (Differenzierung, Eintrittsbarrieren) einen konstant positiven EVA. Die Einstiegsfrage mit dem Bauernhof (5 Mio. Wert, 50 000 Ertrag) zielt auf dieselbe Frage: Was zahlt man für künftige Erträge?",
+   "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": false
   }
  ]
 }

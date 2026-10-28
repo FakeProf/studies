@@ -13,7 +13,7 @@
  *
  * Beim Veroeffentlichen einer neuen Fassung VERSION hochzaehlen.
  */
-const VERSION = "studylane-v5";
+const VERSION = "studylane-v6";
 const SCHALE = [
   "./",
   "./index.html",

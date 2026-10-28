@@ -1,6 +1,6 @@
 {
  "version": 1,
- "stand": "2026-10-15",
+ "stand": "2026-10-28",
  "quelle": "Obsidian-Vault \"02 Zusammenfassungen\", OST HS2026",
  "fragen": [
   {
@@ -11000,6 +11000,3713 @@
    "antwort": "Der Unternehmenswert ergibt sich aus den abgezinsten künftigen Free Cashflows, nicht aus dem bilanzierten Vermögen. Marken und Wettbewerbsvorteile erzeugen Cashflows, die in der Bilanz nicht stehen.",
    "erklaerung": "Nestlé hat dank Markenführung (Differenzierung, Eintrittsbarrieren) einen konstant positiven EVA. Die Einstiegsfrage mit dem Bauernhof (5 Mio. Wert, 50 000 Ertrag) zielt auf dieselbe Frage: Was zahlt man für künftige Erträge?",
    "quelle": "SYMG LB3 - Finanzielle Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W3-01",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Kollektive Akteure und Cleavages des Parteiensystems erklären",
+   "frage": "Ordne die kollektiven Akteure ihrer Organisationsform und Zielverfolgung zu.",
+   "paare": [
+    [
+     "Parteien",
+     "Fest organisiert, verfolgen ihre Ziele separat und stellen sich zur Wahl"
+    ],
+    [
+     "Verbände",
+     "Fest organisierte (Dach-)Vereine, die Ziele ihrer Mitglieder gemeinsam vertreten"
+    ],
+    [
+     "Koalitionen",
+     "Lose und befristet, gegenseitige Zustimmung bei eigenen Zielen"
+    ],
+    [
+     "Soziale Bewegungen",
+     "Lose, kollektive Ziele, Protest gegen ein gemeinsames Feindbild"
+    ]
+   ],
+   "erklaerung": "Die Systematik hat zwei Achsen: Organisationsform (fest vs. lose) und Modus der Zielerreichung (gemeinsam vs. separat). Beispiele: economiesuisse und Gewerkschaftsbund (Verbände), Bundesrat mit Zauberformel (Koalition), Fridays for Future (Bewegung).",
+   "quelle": "GENE POL 03 - Kollektive Akteure, Cleavage-Theorie und Parteien",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W3-02",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kollektive Akteure und Cleavages des Parteiensystems erklären",
+   "frage": "Was besagt die Cleavage-Theorie von Lipset und Rokkan (1967)?",
+   "optionen": [
+    "Parteien entstehen entlang langfristiger gesellschaftlicher Konfliktlinien, neue Konfliktlinien bringen neue Parteien hervor",
+    "Parteien entstehen zu einzelnen Sachfragen und lösen sich auf, sobald diese Fragen politisch entschieden worden sind",
+    "Parteien bilden sich vor allem um charismatische Persönlichkeiten, die eine eigene Wählerschaft hinter sich versammeln",
+    "Parteien entstehen, weil das Wahlsystem eine bestimmte Anzahl politischer Lager vorgibt und andere ausschliesst"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Klassische Cleavages stammen aus Nationalstaatsbildung (Zentrum/Peripherie, Staat/Kirche) und Industrialisierung (Stadt/Land, Arbeit/Kapital). Neue Cleavages: Ökonomie/Ökologie, Globalisierungsgewinner/-verlierer, Volk/Elite.",
+   "quelle": "GENE POL 03 - Kollektive Akteure, Cleavage-Theorie und Parteien",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W3-03",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Kollektive Akteure und Cleavages des Parteiensystems erklären",
+   "frage": "Ordne die Schweizer Parteien der Konfliktlinie zu, entlang derer sie entstanden sind.",
+   "paare": [
+    [
+     "FDP und Mitte (Katholisch-Konservative)",
+     "Staat gegen Kirche"
+    ],
+    [
+     "SVP (früher BGB)",
+     "Stadt gegen Land"
+    ],
+    [
+     "SP",
+     "Arbeit gegen Kapital"
+    ],
+    [
+     "Grüne, später GLP",
+     "Ökonomie gegen Ökologie"
+    ]
+   ],
+   "erklaerung": "Die BGB vertrat die ländlichen Bauern gegen die städtisch-liberale FDP. Die Grünen entstanden aus der ökologischen und der Antiatombewegung der 1970er, als postmaterialistische Werte an Gewicht gewannen.",
+   "quelle": "GENE POL 03 - Kollektive Akteure, Cleavage-Theorie und Parteien",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W3-04",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kollektive Akteure und Cleavages des Parteiensystems erklären",
+   "frage": "Welche Aussage zur Cleavage-Theorie ist falsch?",
+   "optionen": [
+    "Die SVP (BGB) entstand entlang der Konfliktlinie Zentrum gegen Peripherie",
+    "Zentrum/Peripherie und Staat/Kirche sind in der Schweiz kaum voneinander zu trennen",
+    "Ökonomie gegen Ökologie ist kein klassischer, sondern ein neuer Cleavage",
+    "Die Mitte (KK) entstand als katholisch-konservative Reaktion auf den Liberalismus"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die SVP (BGB) entstand entlang Stadt gegen Land. Zentrum/Peripherie und Staat/Kirche fallen in der Schweiz im Sonderbundskonflikt zusammen.",
+   "quelle": "GENE POL 03 - Kollektive Akteure, Cleavage-Theorie und Parteien",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W3-05",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Kollektive Akteure und Cleavages des Parteiensystems erklären",
+   "frage": "Was besagt die Zauberformel?",
+   "antwort": "Seit 1959 erhalten die drei grössten Parteien je zwei Bundesratssitze, die viertgrösste einen.",
+   "erklaerung": "Die Verteilung spiegelt die Parteistärke nur grob. 1943 erhielt die SP ihren ersten Sitz, obwohl sie seit 1919 zweitgrösste Partei war. Nach Wähleranteil wäre heute etwa SVP 2, SP 1, Mitte 1, FDP 1, Grüne/GLP 1 fairer.",
+   "quelle": "GENE POL 03 - Kollektive Akteure, Cleavage-Theorie und Parteien",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W3-06",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kollektive Akteure und Cleavages des Parteiensystems erklären",
+   "frage": "Wie erklärt die Vorlesung den Aufstieg der SVP seit den 1990er-Jahren?",
+   "optionen": [
+    "Mit dem neuen Cleavage Globalisierungsgewinner gegen -verlierer: Arbeiterinnen und Arbeiter wanderten von der SP zur SVP",
+    "Mit dem klassischen Cleavage Staat gegen Kirche, der durch die Säkularisierung neu aufgebrochen ist",
+    "Mit der Abspaltung der BDP, die der SVP neue Wählerinnen und Wähler aus der Mitte zugeführt hat",
+    "Mit dem Wechsel vom Majorz- zum Proporzwahlrecht bei den Nationalratswahlen in den 1990er-Jahren"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Wer sich als Verlierer der Globalisierung sieht, fühlt sich von der SVP vertreten. Die populistische Ausrichtung polarisiert und schafft zugleich Raum für lösungsorientierte Mitteparteien.",
+   "quelle": "GENE POL 03 - Kollektive Akteure, Cleavage-Theorie und Parteien",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W3-07",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Föderalismus in Abgrenzung zum Zentralismus erklären",
+   "frage": "Welche Aussage zum Föderalismus ist falsch?",
+   "optionen": [
+    "Horizontaler Föderalismus dient der Einflussnahme der Kantone auf den Bund, etwa über Ständerat und Ständemehr",
+    "Föderalismus eignet sich für grosse oder kulturell vielfältige Staaten",
+    "Gliedstaaten verfügen in einem föderalen Staat über eigene Hoheitsgewalt",
+    "Die Schweiz, die USA und Deutschland sind föderal organisiert"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Horizontaler Föderalismus meint die Zusammenarbeit der Kantone untereinander. Die Mitwirkung am Bund (Ständerat, Ständemehr) ist vertikaler Föderalismus.",
+   "quelle": "GENE POL 03 - Kollektive Akteure, Cleavage-Theorie und Parteien",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W3-08",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Politische Narrative der Schweiz analysieren",
+   "frage": "Was ist ein politisches Narrativ im Sinne der Vorlesung?",
+   "optionen": [
+    "Eine tiefe Erzählung darüber, wer «wir» sind, die prägt, wie konkrete Themen und Policies wahrgenommen werden",
+    "Ein konkretes politisches Thema, zu dem eine Partei im Wahlkampf eine klare Position bezieht",
+    "Eine Sammlung von Fakten und Statistiken, mit denen eine Partei ihre Forderungen belegt",
+    "Ein Werbeslogan, mit dem eine Partei kurzfristig Aufmerksamkeit für eine Vorlage erzeugt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Nach Turowski und Mikfeld liegen Narrative unter Themen und Policies. Beispiele: wehrhaftes Alpenvolk, Direktdemokraten, humanitäre Schweiz (Henry Dunant). Falle: Narrativ ≠ Thema.",
+   "quelle": "GENE POL 04 - Politische Narrative",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W3-09",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Politik",
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Politische Narrative der Schweiz analysieren",
+   "frage": "Welche Narrative gehören zu den fünf Zukunftsnarrativen der Pro-Futuris-Studie (NZZ 2025)?",
+   "optionen": [
+    "Wirtschaftsmodell Schweiz",
+    "Internationale und neutrale Schweiz",
+    "Naturnahe Schweiz",
+    "Wehrhafte Schweiz mit eigener Armee als Kern der Identität"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Die fünf Narrative: Wirtschaftsmodell, international und neutral, naturnah, kompromiss- und reformfähig, solidarisch. Sie finden 66 bis 87 % Zustimmung; das Wirtschaftsmodell am meisten.",
+   "quelle": "GENE POL 04 - Politische Narrative",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W3-10",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Politik",
+   "kategorie": "literatur",
+   "typ": "flash",
+   "lernziel": "Politische Narrative der Schweiz analysieren",
+   "frage": "Worin sind sich die Parteien bei den Zukunftsnarrativen einig, und worüber streiten sie?",
+   "antwort": "Einig beim «Was» (die Grunderzählung), Streit beim «Wie» (die Mittel).",
+   "erklaerung": "Beispiel solidarische Schweiz: staatliche Unterstützung vs. Eigenverantwortung. Beispiel international/neutral: offene Zusammenarbeit auch mit der EU vs. Unabhängigkeit und strenge Neutralität.",
+   "quelle": "GENE POL 04 - Politische Narrative",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W3-11",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Politische Narrative der Schweiz analysieren",
+   "frage": "Welche Themen sind laut SRG-Wahlbarometer 2023 polarisiert, also nur an einem Pol zentral?",
+   "optionen": [
+    "Klimawandel (links) und Zuwanderung (rechts)",
+    "Krankenkassenprämien und die Schweiz als Erfolgsmodell",
+    "Neutralität und humanitäre Tradition der Schweiz",
+    "AHV-Finanzierung und Wohnungsnot in den Städten"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Gemeinsam ist allen Lagern die Sorge um die Krankenkassenprämien und das Narrativ der Schweiz als Erfolgsmodell. Die SVP prägt Narrative und Themen am stärksten, die anderen Parteien reagieren.",
+   "quelle": "GENE POL 04 - Politische Narrative",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W6-01",
+   "modul": "GENE",
+   "woche": 6,
+   "teilgebiet": "Politik",
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Die Rolle der Medien für die Demokratie beurteilen",
+   "frage": "Was zeigt die Studie von Kübler und Goodman zu über 400 Gemeinden?",
+   "optionen": [
+    "Je mehr über die Gemeindepolitik berichtet wird, desto höher ist die Wahlbeteiligung, und zwar stärker als Sozialstatus oder Alter erklären",
+    "Die Wahlbeteiligung sinkt vor allem wegen der höheren Mobilität der Bevölkerung, Medien spielen kaum eine Rolle",
+    "Online-Medien gleichen den Rückgang der Lokalzeitungen vollständig aus, die Wahlbeteiligung bleibt stabil",
+    "Gemeinden mit eigenem Stadtmagazin erreichen die höchste Wahlbeteiligung aller untersuchten Gemeinden"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Messgrösse ist die Kongruenz: Wie gut deckt sich der Zeitungsmarkt mit dem politischen Raum? Im Kanton Zürich sank die Gemeindewahlbeteiligung seit den 1970ern von rund 70 auf 37 %.",
+   "quelle": "GENE POL 05 - Medien und Demokratie",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W6-02",
+   "modul": "GENE",
+   "woche": 6,
+   "teilgebiet": "Politik",
+   "kategorie": "literatur",
+   "typ": "flash",
+   "lernziel": "Die Rolle der Medien für die Demokratie beurteilen",
+   "frage": "Warum ist Lokaljournalismus ein meritorisches Gut?",
+   "antwort": "Er hat grossen gesellschaftlichen Nutzen, wird aber zu wenig nachgefragt, weil Einzelne seinen Wert nicht wahrnehmen; man merkt erst spät, dass er fehlt.",
+   "erklaerung": "Dazu kommt ein Teufelskreis: weniger Lokales → weniger Lesende → teurere Abos. Folgen nach Kübler: Defizite bei Transparenz und Legitimation, extreme Gruppen mobilisieren leichter.",
+   "quelle": "GENE POL 05 - Medien und Demokratie",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W6-03",
+   "modul": "GENE",
+   "woche": 6,
+   "teilgebiet": "Politik",
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Die Rolle der Medien für die Demokratie beurteilen",
+   "frage": "Warum «halluzinieren» Sprachmodelle laut Meier (2023)?",
+   "optionen": [
+    "Sie setzen Wortfolgen nach Wahrscheinlichkeit fort und haben kein Konzept von Wahrheit",
+    "Sie werden von ihren Entwicklern gezielt so trainiert, dass sie überzeugend statt korrekt antworten",
+    "Sie greifen bei jeder Antwort auf das Internet zu und übernehmen dort verbreitete Falschmeldungen",
+    "Sie lügen absichtlich, wenn sie eine Frage nicht beantworten können, um Nutzende nicht zu enttäuschen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Faktentreue hängt davon ab, wie oft eine Wortfolge im Training vorkam; seltene Fakten werden leicht erfunden. Falle: Die KI lügt nicht absichtlich. Deshalb Behauptungen immer an Quellen prüfen.",
+   "quelle": "GENE POL 05 - Medien und Demokratie",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W6-04",
+   "modul": "GENE",
+   "woche": 6,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die Rolle der Medien für die Demokratie beurteilen",
+   "frage": "Welche Aussage zur heutigen Medienlogik ist falsch?",
+   "optionen": [
+    "Medien produzieren hauptsächlich News, wir sind nur Empfänger",
+    "Klassische Medien arbeiten meist nach journalistischen Standards",
+    "Die Informationsflut erschwert es, Wichtiges von Unwichtigem zu unterscheiden",
+    "Algorithmen bestimmen mit, wer welche Inhalte zu sehen bekommt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Auf Social Media produzieren alle Inhalte. Dazu kommt Desinformation als Teil hybrider Kriegsführung, etwa die von russischer Propaganda verstärkte Pariser Bettwanzenpanik 2024.",
+   "quelle": "GENE POL 05 - Medien und Demokratie",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W7-01",
+   "modul": "GENE",
+   "woche": 7,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Internationale Beziehungen und die Rolle der UNO erklären",
+   "frage": "Was ist das Anarchieproblem der internationalen Beziehungen?",
+   "antwort": "Alle Staaten sind souverän; über ihnen gibt es keine Instanz, die verbindlich entscheidet und sanktioniert. Souveränitätsverzicht geschieht nur freiwillig.",
+   "erklaerung": "Anarchie heisst hier nicht Chaos, sondern Abwesenheit einer übergeordneten Herrschaft. Völkerrecht existiert, aber niemand setzt es zuverlässig durch.",
+   "quelle": "GENE POL 06 - UNO und Krieg in der Ukraine",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W7-02",
+   "modul": "GENE",
+   "woche": 7,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Internationale Beziehungen und die Rolle der UNO erklären",
+   "frage": "Ordne den Theorien der internationalen Beziehungen ihren Weg zum Frieden zu.",
+   "paare": [
+    [
+     "Realismus",
+     "Staaten sind auf sich gestellt, Frieden durch gegenseitige Abschreckung"
+    ],
+    [
+     "Idealismus",
+     "Zusammenschluss in supranationalen Institutionen, Ideal Weltregierung"
+    ],
+    [
+     "Interdependenztheorie",
+     "Wirtschaftliche Abhängigkeit senkt den Anreiz zum Krieg, «Wandel durch Handel»"
+    ]
+   ],
+   "erklaerung": "Falle: Die Weltregierung ist das Ideal des Idealismus, nicht des Realismus. Der Ukraine-Krieg stellt die Interdependenztheorie infrage: Trotz enger Energiebeziehungen griff Russland an.",
+   "quelle": "GENE POL 06 - UNO und Krieg in der Ukraine",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W7-03",
+   "modul": "GENE",
+   "woche": 7,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Internationale Beziehungen und die Rolle der UNO erklären",
+   "frage": "Warum kann der UNO-Sicherheitsrat keine Zwangsmassnahmen gegen Russland im Ukraine-Krieg beschliessen?",
+   "optionen": [
+    "Russland ist ständiges Mitglied und kann jede Resolution gegen sich per Veto blockieren",
+    "Die Generalversammlung muss jede Zwangsmassnahme mit Zweidrittelmehrheit bestätigen",
+    "Der Internationale Gerichtshof hat den Angriff bisher nicht als völkerrechtswidrig eingestuft",
+    "Die UNO-Charta erlaubt Zwangsmassnahmen nur gegen Staaten, die nicht Mitglied der UNO sind"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die UNO ist intergouvernemental, nicht supranational: Sie kann nur so viel, wie die Staaten im Sicherheitsrat zulassen. Hier wird das Anarchieproblem sichtbar.",
+   "quelle": "GENE POL 06 - UNO und Krieg in der Ukraine",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W7-04",
+   "modul": "GENE",
+   "woche": 7,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Internationale Beziehungen und die Rolle der UNO erklären",
+   "frage": "Bringe die Eskalationsstufen des UNO-Sicherheitsrats in die richtige Reihenfolge.",
+   "items": [
+    "Vermittlung",
+    "Nicht-militärische Massnahmen (z. B. Sanktionen gegen Nordkorea)",
+    "Militärische Zwangsmassnahmen (z. B. Somalia)"
+   ],
+   "erklaerung": "Die Stufen folgen Kapitel VI und VII der UNO-Charta. Weitere Beispiele aus den Folien: UNMIK im Kosovo.",
+   "quelle": "GENE POL 06 - UNO und Krieg in der Ukraine",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W7-05",
+   "modul": "GENE",
+   "woche": 7,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Internationale Beziehungen und die Rolle der UNO erklären",
+   "frage": "Was bedeutet es, dass die UNO intergouvernemental organisiert ist?",
+   "optionen": [
+    "Die Regierungen der Mitgliedstaaten entscheiden selbst; Beschlüsse binden nur, wenn sie zustimmen",
+    "Die UNO kann Entscheide auch gegen den Willen einzelner Mitgliedstaaten verbindlich durchsetzen",
+    "Die UNO verfügt über eine eigene, von den Staaten unabhängige Armee zur Friedenssicherung",
+    "Die Bürgerinnen und Bürger aller Mitgliedstaaten wählen das UNO-Parlament direkt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Supranational wäre eine Organisation, die auch gegen einzelne Mitglieder entscheiden kann, wie die EU in Teilen. Hauptorgane der UNO: Generalversammlung, Sicherheitsrat, Wirtschafts- und Sozialrat, Internationaler Gerichtshof, Sekretariat.",
+   "quelle": "GENE POL 06 - UNO und Krieg in der Ukraine",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W7-06",
+   "modul": "GENE",
+   "woche": 7,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Internationale Beziehungen und die Rolle der UNO erklären",
+   "frage": "Was veranschaulicht die Versteigerung eines Fünflibers, bei der auch das zweithöchste Gebot bezahlt werden muss?",
+   "optionen": [
+    "Ohne übergeordnete Instanz schaukeln sich Akteure über jede vernünftige Grenze hoch, wie bei der Eskalation zwischen Staaten",
+    "Märkte finden auch ohne staatliche Regeln stets einen fairen Preis für knappe Güter",
+    "Kooperation zwischen Staaten lohnt sich immer mehr als Konkurrenz um Ressourcen",
+    "Wer zuerst ein Gebot abgibt, sichert sich in Verhandlungen den grössten Vorteil"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Wer zweiter ist, verliert sein Gebot ohne Gegenleistung, also bietet er weiter. Ähnlich bei Rüstungswettläufen oder Kriegen, die keiner beenden will, weil sonst die bisherigen Verluste umsonst wären.",
+   "quelle": "GENE POL 06 - UNO und Krieg in der Ukraine",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W8-01",
+   "modul": "GENE",
+   "woche": 8,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Populismus definieren und erkennen",
+   "frage": "Wie definiert Mudde (2004) Populismus?",
+   "optionen": [
+    "Als Ideologie, die die Gesellschaft in zwei homogene, antagonistische Gruppen teilt, das reine Volk und die korrupte Elite, und Politik als Ausdruck des Volkswillens versteht",
+    "Als politischen Stil, bei dem Politikerinnen und Politiker besonders volksnah und verständlich kommunizieren",
+    "Als Forderung nach möglichst vielen direktdemokratischen Instrumenten auf allen Staatsebenen",
+    "Als Strategie von Oppositionsparteien, die Regierung durch Initiativen und Referenden unter Druck zu setzen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Entscheidend ist das Wort homogen: Populisten behaupten, das Volk habe einen einheitlichen Willen, den nur sie kennen. Falle: Populismus ≠ Volksnähe; direkte Demokratie ist nicht populistisch, nur ein Ideal vieler Populisten.",
+   "quelle": "GENE POL 07 - Populismus und multipolare Weltordnung",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W8-02",
+   "modul": "GENE",
+   "woche": 8,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Populismus definieren und erkennen",
+   "frage": "Welche Bausteine des Populismus nennen Wirth et al. (2016)?",
+   "optionen": [
+    "Eine korrupte Elite",
+    "Ein homogenes, tugendhaftes Volk",
+    "Ein Volk, das um sein Recht auf Souveränität betrogen wird",
+    "Eine charismatische Führungsperson an der Spitze einer Partei"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Die drei Bausteine: Eine korrupte Elite betrügt ein homogenes, tugendhaftes Volk um sein Recht auf Souveränität. Eine Führungsfigur ist häufig, gehört aber nicht zur Definition.",
+   "quelle": "GENE POL 07 - Populismus und multipolare Weltordnung",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W8-03",
+   "modul": "GENE",
+   "woche": 8,
+   "teilgebiet": "Politik",
+   "kategorie": "literatur",
+   "typ": "match",
+   "lernziel": "Populismus definieren und erkennen",
+   "frage": "Ordne die Merkmale des Populismus den Beispielen aus Blochers Albisgüetli-Rede 2018 zu.",
+   "paare": [
+    [
+     "Volk gegen Elite",
+     "Die «Classe politique in Bern» habe den EWR-Entscheid 1992 hintertrieben"
+    ],
+    [
+     "Moralische Abwertung",
+     "«Lügner und Verräter», «Bösewichte»"
+    ],
+    [
+     "Entzogene Souveränität",
+     "«Stiller Staatsstreich» durch Vorrang des Völkerrechts"
+    ],
+    [
+     "Appell statt Belege",
+     "«Hütet Euch vor Bundesbern»"
+    ]
+   ],
+   "erklaerung": "Wissenschaftliche Texte belegen Behauptungen und prüfen Gegenargumente, journalistische trennen Bericht und Meinung. Die Rede will mobilisieren, nicht abwägen.",
+   "quelle": "GENE POL 07 - Populismus und multipolare Weltordnung",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W8-04",
+   "modul": "GENE",
+   "woche": 8,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Populismus definieren und erkennen",
+   "frage": "Welche zwei gegenläufigen Kräfte prägen den Populismus in der Schweiz?",
+   "optionen": [
+    "Die direkte Demokratie als Ideal der Populisten fördert ihn; Konsens- und Milizdemokratie dämpfen die Spaltung in Volk und Elite",
+    "Der Föderalismus fördert ihn; die starke Stellung des Bundesrats als Kollegialbehörde verhindert ihn vollständig",
+    "Die Medienvielfalt fördert ihn; das Proporzwahlrecht sorgt dafür, dass populistische Parteien klein bleiben",
+    "Die Neutralität fördert ihn; die Mitgliedschaft in der UNO verpflichtet zu einer internationalen Ausrichtung"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Gegenmittel laut Gruppenarbeit: starke Institutionen, unabhängige Medien, politische Bildung und Parteien, die reale Sorgen ernst nehmen. Bezug zum Cleavage Volk gegen Elite.",
+   "quelle": "GENE POL 07 - Populismus und multipolare Weltordnung",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W8-05",
+   "modul": "GENE",
+   "woche": 8,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Die Entwicklung der Weltordnung einordnen",
+   "frage": "Bringe die Phasen der Weltordnung in die richtige zeitliche Reihenfolge.",
+   "items": [
+    "Merkantilismus (16. bis frühes 19. Jh.)",
+    "Pax Britannica (1815 bis 1914)",
+    "Multipolare Übergangsphase (1914 bis 1945)",
+    "Bipolare Ordnung im Kalten Krieg (1945 bis 1990)",
+    "Unipolare Ordnung, «End of History» (1990 bis 2001)"
+   ],
+   "erklaerung": "Ab 2001: Terror, Kriege und der Aufstieg Chinas (WTO-Beitritt 2001). Heute wird eine multipolare Welt oder eine neue Bipolarität USA gegen China diskutiert.",
+   "quelle": "GENE POL 07 - Populismus und multipolare Weltordnung",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W8-06",
+   "modul": "GENE",
+   "woche": 8,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die Entwicklung der Weltordnung einordnen",
+   "frage": "Worauf beruhte die Vorherrschaft Grossbritanniens in der Pax Britannica?",
+   "optionen": [
+    "Auf Freihandel",
+    "Auf Merkantilismus: viel exportieren, wenig importieren",
+    "Auf einem Bündnissystem mit den USA und Japan",
+    "Auf der Kontrolle des Völkerbunds"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Falle: Merkantilismus ≠ Freihandel. Der Merkantilismus suchte Wachstum auf Kosten anderer; die Pax Britannica beruhte auf Freihandel. In dieser Zeit stiegen USA, Deutschland und Japan auf.",
+   "quelle": "GENE POL 07 - Populismus und multipolare Weltordnung",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W8-07",
+   "modul": "GENE",
+   "woche": 8,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die Entwicklung der Weltordnung einordnen",
+   "frage": "Warum gilt das Narrativ der «multipolaren Welt» laut Vorlesung als heikel?",
+   "optionen": [
+    "Es wird oft von Rechtspopulisten und autoritären Staaten genutzt, um die regelbasierte Ordnung als westliche Vorherrschaft darzustellen",
+    "Es beschreibt eine Ordnung, die es in der Geschichte noch nie gegeben hat und die deshalb unvorstellbar ist",
+    "Es ist eine Erfindung der USA, um ihre eigene Vorherrschaft nach dem Kalten Krieg zu rechtfertigen",
+    "Es widerspricht der UNO-Charta, die ausdrücklich eine bipolare Weltordnung vorsieht"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Andere Fachleute halten Multipolarität für instabil und vorübergehend. Die multipolare Übergangsphase 1914 bis 1945 brachte Nationalismus, totalitäre Ideologien und zwei Weltkriege.",
+   "quelle": "GENE POL 07 - Populismus und multipolare Weltordnung",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W3-01",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Globale Warenketten und ihre Folgen erklären",
+   "frage": "Welche Merkmale kennzeichnen eine globale Warenkette (Staritz 2021)?",
+   "optionen": [
+    "Die Güter überschreiten mindestens zweimal eine Grenze",
+    "Die Produktion ist räumlich fragmentiert",
+    "Transnationale Konzerne steuern Menge und Qualität",
+    "Alle Produktionsschritte finden im selben Wirtschaftsraum statt"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Jeder Schritt findet dort statt, wo er am günstigsten ist. Voraussetzungen: optimale Standorte, günstiger Transport, freier Handel, schnelle Kommunikation. Die klassische lineare Kette (Kakao) kennt diese Fragmentierung nicht.",
+   "quelle": "GENE WG 03 - Globalisierung 2 Lieferketten und Strukturwandel",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W3-02",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Globale Warenketten und ihre Folgen erklären",
+   "frage": "Warum sind Sozial- und Umweltstandards in globalen Lieferketten schwer zu überprüfen?",
+   "optionen": [
+    "Viele Stufen in vielen Ländern, Zwischenhändler und die Vermischung legaler und illegaler Ware, etwa beim Gold",
+    "Weil internationale Abkommen den Staaten verbieten, die Produktionsbedingungen im Ausland zu kontrollieren",
+    "Weil transnationale Konzerne gesetzlich nur für den letzten Produktionsschritt verantwortlich sind",
+    "Weil Standards nur in Industrieländern existieren und in Entwicklungsländern keine Regeln gelten"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Dazu kommen Deklarationen, die sich auf das Exportland statt auf die Herkunft beziehen. Folge: günstige Produkte, aber Ausbeutung und Umweltverschmutzung bleiben unsichtbar.",
+   "quelle": "GENE WG 03 - Globalisierung 2 Lieferketten und Strukturwandel",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W3-03",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Globale Warenketten und ihre Folgen erklären",
+   "frage": "Was zeigt die Smile-Kurve nach Baldwin?",
+   "optionen": [
+    "Hohe Wertschöpfung liegt am Anfang (F&E, Design) und am Ende (Marketing, Service) der Kette, die tiefste in der Fertigung",
+    "Die Wertschöpfung steigt mit jedem Produktionsschritt gleichmässig an und ist beim Verkauf am höchsten",
+    "Die höchste Wertschöpfung entsteht in der Fertigung, weil dort am meisten Arbeitskräfte beschäftigt sind",
+    "Die Wertschöpfung ist entlang der ganzen Kette gleich verteilt, nur die Löhne unterscheiden sich"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Folge: Gewinner- und Verliererregionen. Regionen mit Forschung, Design und Marketing gewinnen, reine Fertigungsregionen verlieren; der Standort bleibt deshalb wichtig.",
+   "quelle": "GENE WG 03 - Globalisierung 2 Lieferketten und Strukturwandel",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W3-04",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Wirtschaftssektoren und Strukturwandel einordnen",
+   "frage": "Bringe die Phasen des Strukturwandels in der Schweiz in die richtige Reihenfolge.",
+   "items": [
+    "Vorindustriell: über 80 % in der Landwirtschaft",
+    "Industriell: 1910 rund 45 % im sekundären Sektor",
+    "Nachindustriell: rund 76 % im tertiären Sektor, unter 3 % Landwirtschaft"
+   ],
+   "erklaerung": "Das entspricht Fourastiés Drei-Sektoren-Modell: Die Beschäftigung wandert vom primären über den sekundären zum tertiären Sektor, ergänzt um einen quartären Sektor.",
+   "quelle": "GENE WG 03 - Globalisierung 2 Lieferketten und Strukturwandel",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W3-05",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Wirtschaftssektoren und Strukturwandel einordnen",
+   "frage": "Welche Aussage zum informellen Sektor in Entwicklungsländern trifft zu?",
+   "optionen": [
+    "Er umfasst nicht registrierte, nicht besteuerte und sozial nicht abgesicherte Tätigkeiten und ist für Einkommen und Beschäftigung bedeutend",
+    "Er ist für die Wirtschaft unbedeutend, weil er keine Steuern einbringt und nur wenige Menschen beschäftigt",
+    "Er entsteht erst, wenn ein Land die Industriephase vollständig durchlaufen hat",
+    "Er bezeichnet die staatlich subventionierten Betriebe der Landwirtschaft"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "In Entwicklungsländern führt Landflucht oft nicht in Fabriken, sondern in städtische Gelegenheitsarbeit. Der tertiäre Anteil steigt ohne Industriephase. Probeprüfung: «unbedeutend» ist falsch.",
+   "quelle": "GENE WG 03 - Globalisierung 2 Lieferketten und Strukturwandel",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W3-06",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Wirtschaftssektoren und Strukturwandel einordnen",
+   "frage": "Ordne die Massnahmen der Strukturpolitik zu.",
+   "paare": [
+    [
+     "Strukturerhaltung",
+     "Subventionen und Schutzzölle für schrumpfende Branchen"
+    ],
+    [
+     "Strukturanpassung",
+     "Umschulung, Innovation und Förderung des Wandels"
+    ]
+   ],
+   "erklaerung": "Strukturerhaltung sichert kurzfristig Arbeitsplätze und Versorgung, hält aber nicht konkurrenzfähige Branchen künstlich am Leben und verzögert den Wandel (Beispiel Kohlesubventionen im Ruhrgebiet).",
+   "quelle": "GENE WG 03 - Globalisierung 2 Lieferketten und Strukturwandel",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W3-07",
+   "modul": "GENE",
+   "woche": 3,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Industrielle Produktionsweisen vergleichen",
+   "frage": "Was ist ein Nachteil der Just-in-time-Produktion im Postfordismus?",
+   "optionen": [
+    "Sie ist anfällig für Störungen der Lieferkette",
+    "Sie verursacht hohe Lagerkosten",
+    "Sie erfordert monotone Fliessbandarbeit",
+    "Sie lohnt sich nur bei Massenproduktion eines einzigen Produkts"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Hohe Lagerkosten, Monotonie und Massenproduktion sind Merkmale bzw. Nachteile des Fordismus. Postfordismus setzt auf Teams und Just-in-time; Corona zeigte die Anfälligkeit.",
+   "quelle": "GENE WG 03 - Globalisierung 2 Lieferketten und Strukturwandel",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W4-01",
+   "modul": "GENE",
+   "woche": 4,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Freihandel, Handelshemmnisse und Protektionismus unterscheiden",
+   "frage": "Ordne den Handelshemmnissen ihre Art zu.",
+   "paare": [
+    [
+     "Schoggigesetz",
+     "Tarifär: Exportsubvention"
+    ],
+    [
+     "Mindestpreis",
+     "Tarifär: Preisvorgabe an der Grenze"
+    ],
+    [
+     "Generalimporteur für Autos",
+     "Nichttarifär: Lizenz"
+    ],
+    [
+     "EMV-Norm für Handys",
+     "Nichttarifär: technische Vorschrift"
+    ]
+   ],
+   "erklaerung": "Tarifär heisst: Es geht ums Geld an der Grenze (Zoll, Subvention, Preis). Nichttarifär: Die Grenze ist durch Regeln blockiert (Mengen, Lizenzen, technische und rechtliche Vorschriften).",
+   "quelle": "GENE WG 04 - Globalisierung 3 Freihandel",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W4-02",
+   "modul": "GENE",
+   "woche": 4,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Freihandel, Handelshemmnisse und Protektionismus unterscheiden",
+   "frage": "Was verlangt das Prinzip der Meistbegünstigung im GATT bzw. in der WTO?",
+   "optionen": [
+    "Zollvergünstigungen, die ein Land einem Partner gewährt, muss es allen Mitgliedern gewähren",
+    "Entwicklungsländer müssen ihre Zölle schneller senken als Industrieländer",
+    "Jedes Land darf seine wichtigsten Handelspartner bei den Zöllen bevorzugen",
+    "Ein Land muss seine Exporte so lange subventionieren, bis die Handelsbilanz ausgeglichen ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ausnahmen gelten für Zollunionen und Freihandelszonen (EU) sowie Präferenzen für Entwicklungsländer. Das GATT wurde 1947 in Genf von 23 Staaten gegründet; die WTO hat heute 168 Mitglieder. Die Zölle sanken von rund 30 auf 3 %.",
+   "quelle": "GENE WG 04 - Globalisierung 3 Freihandel",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W4-03",
+   "modul": "GENE",
+   "woche": 4,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Freihandel, Handelshemmnisse und Protektionismus unterscheiden",
+   "frage": "Welche Aussage zur Handelspolitik der Schweiz ist falsch?",
+   "optionen": [
+    "Die Schweiz ist Mitglied des EWR",
+    "Die Schweiz ist Mitglied der EFTA",
+    "Die Schweiz regelt den Zugang zum EU-Binnenmarkt über die Bilateralen",
+    "Die Schweiz hat neben der EFTA 33 weitere Freihandelsabkommen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Norwegen, Island und Liechtenstein sind über den EWR im EU-Binnenmarkt, die Schweiz regelt den Zugang bilateral. Die EFTA ist rein wirtschaftlich, ohne Souveränitätsabgabe.",
+   "quelle": "GENE WG 04 - Globalisierung 3 Freihandel",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W4-04",
+   "modul": "GENE",
+   "woche": 4,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Transnationale Unternehmen und Direktinvestitionen beurteilen",
+   "frage": "Was unterscheidet ein transnationales Unternehmen (TNU) von einem internationalen Unternehmen?",
+   "optionen": [
+    "Ein TNU hat Produktionsstätten und Niederlassungen in mehreren Staaten und steuert sie mit einer weltweiten Strategie",
+    "Ein TNU ist an mehreren Börsen kotiert, ein internationales Unternehmen nur an einer",
+    "Ein TNU gehört mehreren Staaten gemeinsam, ein internationales Unternehmen privaten Eigentümern",
+    "Ein TNU exportiert seine Produkte, ein internationales Unternehmen produziert nur für den Inlandmarkt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ein internationales Unternehmen macht Auslandsgeschäfte auch ohne Niederlassung (Kulke S. 259). 2013 gab es über 80 000 TNU mit 900 000 Töchtern; die 100 grössten kontrollieren rund 16 % der produktiven Vermögenswerte.",
+   "quelle": "GENE WG 04 - Globalisierung 3 Freihandel",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W4-05",
+   "modul": "GENE",
+   "woche": 4,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Transnationale Unternehmen und Direktinvestitionen beurteilen",
+   "frage": "Warum fielen die ausländischen Direktinvestitionen 2018 weltweit um rund 13 % (NZZ 2019, UNCTAD)?",
+   "optionen": [
+    "Trumps Steuerreform senkte die US-Unternehmenssteuer, US-Firmen holten Auslandsgewinne zurück statt im Ausland zu investieren",
+    "Die Finanzkrise führte dazu, dass Banken keine Kredite für Auslandsinvestitionen mehr vergaben",
+    "Die WTO beschloss neue Regeln, die Direktinvestitionen in Entwicklungsländern einschränkten",
+    "China verbot ausländischen Unternehmen, sich an chinesischen Firmen zu beteiligen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Unternehmenssteuer sank von 35 auf rund 20 %. Industrieländer verloren 25 %, Entwicklungsländer legten 2 % zu und erhielten 54 % aller FDI. Steuerpolitik lenkt globale Kapitalströme.",
+   "quelle": "GENE WG 04 - Globalisierung 3 Freihandel",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W4-06",
+   "modul": "GENE",
+   "woche": 4,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Transnationale Unternehmen und Direktinvestitionen beurteilen",
+   "frage": "Was ist eine ausländische Direktinvestition (FDI)?",
+   "antwort": "Eine dauerhafte Beteiligung an oder Gründung von Firmen im Ausland mit Einfluss auf die Unternehmensführung.",
+   "erklaerung": "FDI sind Treiber und Resultat der Globalisierung zugleich. Schweizer Firmen beschäftigen im Ausland rund 2 Mio. Menschen, ausländische Firmen in der Schweiz rund 450 000.",
+   "quelle": "GENE WG 04 - Globalisierung 3 Freihandel",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W4-07",
+   "modul": "GENE",
+   "woche": 4,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Freihandel, Handelshemmnisse und Protektionismus unterscheiden",
+   "frage": "Ordne Chancen und Risiken von Freihandel und Protektionismus zu.",
+   "paare": [
+    [
+     "Tiefe Preise und Exportjobs",
+     "Chance des Freihandels"
+    ],
+    [
+     "Abhängigkeit von Weltmarktpreisen",
+     "Risiko des Freihandels"
+    ],
+    [
+     "Schutz junger Branchen in Entwicklungsphasen",
+     "Chance des Protektionismus"
+    ],
+    [
+     "Unrentable Branchen werden künstlich erhalten",
+     "Risiko des Protektionismus"
+    ]
+   ],
+   "erklaerung": "Globalisierung senkte die Armut, öffnete aber die Einkommensschere. Fazit der Lernkontrolle: mehr Wohlstand insgesamt, aber nicht für alle.",
+   "quelle": "GENE WG 04 - Globalisierung 3 Freihandel",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W6-01",
+   "modul": "GENE",
+   "woche": 6,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Standortfaktoren und Agglomerationseffekte erklären",
+   "frage": "Ordne die Standortfaktoren ein.",
+   "paare": [
+    [
+     "Gewinnsteuern und Löhne",
+     "Harter Standortfaktor"
+    ],
+    [
+     "Wirtschaftsklima und Image",
+     "Weicher, unternehmensbezogener Standortfaktor"
+    ],
+    [
+     "Kulturangebot und Wohnqualität",
+     "Weicher, personenbezogener Standortfaktor"
+    ]
+   ],
+   "erklaerung": "Harte Faktoren sind in Geld quantifizierbar und wirken direkt auf Kosten und Erlöse. Bei Google Zürich zählen vor allem weiche Faktoren und die Nähe zu ETH und EPFL.",
+   "quelle": "GENE WG 05 - Globalisierung 4 Standortfaktoren",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W6-02",
+   "modul": "GENE",
+   "woche": 6,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Standortfaktoren und Agglomerationseffekte erklären",
+   "frage": "Welche Aussagen zu Agglomerationswirkungen sind richtig?",
+   "optionen": [
+    "Die Pharmaindustrie in Basel profitiert von Lokalisierungsvorteilen",
+    "Cluster entstehen durch externe Ersparnisse",
+    "Lokalisierungsvorteile wirken zentralisierend",
+    "Urbanisationsnachteile wie Stau und hohe Mieten wirken zentralisierend"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Lokalisierung betrifft die gleiche Branche (Zulieferer, Fachkräfte, Wissensaustausch), Urbanisation die Stadt allgemein. Urbanisationsnachteile wirken dezentralisierend.",
+   "quelle": "GENE WG 05 - Globalisierung 4 Standortfaktoren",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W6-03",
+   "modul": "GENE",
+   "woche": 6,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Standortfaktoren und Agglomerationseffekte erklären",
+   "frage": "Ordne den Produkt- und Regionszyklus: Wo wird ein Produkt in welcher Phase hergestellt?",
+   "items": [
+    "Innovationsphase im Zentrum (Wissen, Fachkräfte)",
+    "Wachstumsphase in der Semiperipherie",
+    "Reifephase in der Peripherie (standardisierte Massenproduktion)"
+   ],
+   "erklaerung": "Beispiel Smartphone: in Kalifornien entwickelt, in Taiwan und Südkorea weiterentwickelt, in China und Vietnam massenhaft montiert. Das passt zur Smile-Kurve: Innovation bleibt im Zentrum.",
+   "quelle": "GENE WG 05 - Globalisierung 4 Standortfaktoren",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W6-04",
+   "modul": "GENE",
+   "woche": 6,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Steuerwettbewerb als Standortfaktor beurteilen",
+   "frage": "Warum können nicht alle Kantone einfach die Gewinnsteuer senken, um Firmen anzulocken?",
+   "optionen": [
+    "Firmen ziehen nur um, wenn es anderswo günstiger ist; senken alle, verschiebt sich kaum etwas, aber alle verlieren Einnahmen",
+    "Die Bundesverfassung schreibt allen Kantonen denselben Gewinnsteuersatz vor",
+    "Der Finanzausgleich bestraft Kantone, die ihre Steuern senken, mit höheren Abgaben an den Bund",
+    "Die OECD verbietet den Kantonen seit 2019 jede Steuersenkung für Unternehmen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Das ist das race to the bottom. Bund, 26 Kantone und rund 2220 Gemeinden erheben eigene Steuern; der Finanzausgleich gleicht nur teilweise aus.",
+   "quelle": "GENE WG 05 - Globalisierung 4 Standortfaktoren",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W6-05",
+   "modul": "GENE",
+   "woche": 6,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Steuerwettbewerb als Standortfaktor beurteilen",
+   "frage": "Wie führt Steuerwettbewerb nach Graff (2019) zu sozialräumlicher Segregation?",
+   "optionen": [
+    "Reiche ziehen in Tiefsteuerorte, diese haben mehr Einnahmen und weniger Transferbedarf und senken weiter; die Entmischung verstärkt sich selbst",
+    "Tiefsteuerorte bauen günstige Wohnungen und ziehen dadurch vor allem einkommensschwache Haushalte an",
+    "Hochsteuerkantone erhalten aus dem Finanzausgleich so viel Geld, dass sie ihre Steuern bald unter das Niveau der Tiefsteuerkantone senken",
+    "Der Bund gleicht die Unterschiede zwischen den Kantonen vollständig aus, sodass keine Entmischung entsteht"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Der Staat liefert öffentliche Güter und Transfers ohne Preis, das Äquivalenzprinzip gilt nicht. Individuell sinnvoll, sozial dysfunktional; die Marktanalogie ist laut Graff irreführend.",
+   "quelle": "GENE WG 05 - Globalisierung 4 Standortfaktoren",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W6-06",
+   "modul": "GENE",
+   "woche": 6,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Steuerwettbewerb als Standortfaktor beurteilen",
+   "frage": "Was ist laut Morger (2012) für die Standortwahl entscheidend?",
+   "optionen": [
+    "Das Preis-Leistungs-Verhältnis: Steuern sind nur ein Faktor, Tiefsteuerorte haben oft höhere Mieten und Löhne",
+    "Allein die Höhe des statutarischen Gewinnsteuersatzes, alle anderen Faktoren sind vernachlässigbar",
+    "Vor allem die Höhe der Vermögenssteuer für die Eigentümer des Unternehmens",
+    "Ausschliesslich die Nähe zu Hochschulen, Steuern spielen für Unternehmen keine Rolle"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Steuervorteile kapitalisieren sich in Boden- und Mietpreisen. Die effektive Durchschnittsbelastung steuert die Standortwahl, der Grenzsteuersatz die Investitionshöhe. Am mobilsten sind Hochqualifizierte, Vermögende und Junge.",
+   "quelle": "GENE WG 05 - Globalisierung 4 Standortfaktoren",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W6-07",
+   "modul": "GENE",
+   "woche": 6,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Steuerwettbewerb als Standortfaktor beurteilen",
+   "frage": "Was änderte die Steuerreform STAF 2019 in der Schweiz?",
+   "optionen": [
+    "Sie schaffte den Sonderstatus für Holdings ab und führte für alle gleiche Regeln mit Patentbox und F&E-Abzug ein",
+    "Sie führte erstmals eine Gewinnsteuer auf Bundesebene ein",
+    "Sie setzte die OECD-Mindeststeuer von 15 % für alle Unternehmen um",
+    "Sie verbot den Kantonen, unterschiedliche Steuersätze zu erheben"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Bis 2019 zahlten rund 25 000 Gesellschaften mit Sonderstatus nur 7,8 bis 12 %, brachten aber rund die Hälfte der direkten Bundessteuer auf Gewinne. Mindestens 30 % des Gewinns bleiben steuerbar. Die OECD-Mindeststeuer von 15 % kam später.",
+   "quelle": "GENE WG 05 - Globalisierung 4 Standortfaktoren",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W6-08",
+   "modul": "GENE",
+   "woche": 6,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Steuerwettbewerb als Standortfaktor beurteilen",
+   "frage": "Wie wirkt die OECD-Mindeststeuer von 15 % auf die Schweiz?",
+   "optionen": [
+    "Firmen, die nur wegen tiefer Steuern hier sind, könnten abwandern",
+    "Andere Standortfaktoren wie Bildung, Infrastruktur und Stabilität gewinnen an Gewicht",
+    "Die Schweiz bleibt attraktiv, weil 15 % unter dem Schnitt der Nachbarländer liegt",
+    "Alle Kantone müssen ihre Steuern auf exakt 15 % anheben, auch für kleine Unternehmen"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Die Mindeststeuer gilt nur für grosse Unternehmen. Der Steuerwettbewerb verliert Gewicht, und Faktoren, bei denen die Schweiz stark ist, zählen mehr (Probeprüfung, 2 P je Beispiel).",
+   "quelle": "GENE WG 05 - Globalisierung 4 Standortfaktoren",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W6-09",
+   "modul": "GENE",
+   "woche": 6,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Standortfaktoren und Agglomerationseffekte erklären",
+   "frage": "Welche Kritik wird am KOF-Globalisierungsindex geäussert?",
+   "optionen": [
+    "Eurozentrismus, etwa McDonald's und IKEA als Kulturindikatoren statt Alibaba oder Uniqlo",
+    "Er misst nur die wirtschaftliche Globalisierung und lässt soziale und politische Aspekte aus",
+    "Er trennt nicht zwischen de facto und de jure",
+    "Er zeigt, dass die Globalisierung seit 2008 exponentiell gestiegen ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Stärken: Er trennt de facto und de jure und misst wirtschaftliche, soziale und politische Globalisierung. Kritik: Eurozentrismus, fragwürdige Gewichtung, seltsame Kriterien. Ein exponentieller Anstieg seit 2008 ist falsch (Probeprüfung).",
+   "quelle": "GENE WG 05 - Globalisierung 4 Standortfaktoren",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W7-01",
+   "modul": "GENE",
+   "woche": 7,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Globale Umweltprobleme und planetare Grenzen erklären",
+   "frage": "Was kennzeichnet moderne Umweltrisiken in der Risikogesellschaft?",
+   "optionen": [
+    "Sie sind oft nicht wahrnehmbar und nur wissenschaftlich erkennbar",
+    "Sie sind grenzüberschreitend",
+    "Sie werden von vielen im Alltag verursacht",
+    "Sie bleiben auf den Ort beschränkt, an dem sie verursacht werden"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Weitere Merkmale: industriell verursacht, langlebig, für manche ein Geschäft. Vorindustrielle Probleme (Abholzung, Smog in London) waren lokal. Wandel von der Mangel- zur Risikogesellschaft (Danielli et al. 2014).",
+   "quelle": "GENE WG 06 - Umwelt 1 Globalisierung und Problembereiche",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W7-02",
+   "modul": "GENE",
+   "woche": 7,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Globale Umweltprobleme und planetare Grenzen erklären",
+   "frage": "Ordne die Begriffe ihrer Bedeutung zu.",
+   "paare": [
+    [
+     "Umweltschutz",
+     "Schutz der Umwelt für die Gesundheit des Menschen"
+    ],
+    [
+     "Naturschutz",
+     "Erhaltung der Biodiversität (Arten, Ökosysteme, Gene)"
+    ],
+    [
+     "Umwelt",
+     "Alles, womit ein Lebewesen in kausaler Beziehung steht"
+    ],
+    [
+     "Umgebung",
+     "Rein räumliche Nachbarschaft"
+    ]
+   ],
+   "erklaerung": "Umwelt nach von Uexküll 1909. Ökologie ist nach Haeckel (1866) die Lehre von den Beziehungen der Organismen zur Aussenwelt. Prinzipien des Umweltschutzes: Prävention, Repression, Reparation.",
+   "quelle": "GENE WG 06 - Umwelt 1 Globalisierung und Problembereiche",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W7-03",
+   "modul": "GENE",
+   "woche": 7,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Globale Umweltprobleme und planetare Grenzen erklären",
+   "frage": "Bringe die Meilensteine der internationalen Umweltpolitik in die richtige Reihenfolge.",
+   "items": [
+    "Konferenz von Stockholm, Gründung der UNEP",
+    "Montreal-Protokoll zu FCKW",
+    "Kyoto-Protokoll",
+    "Pariser Klimaabkommen und Agenda 2030"
+   ],
+   "erklaerung": "1972 Stockholm, 1987 Montreal, 1997 Kyoto, 2015 Paris. Davor: 1872 Yellowstone, 1876 Forstpolizeigesetz in der Schweiz, 1962 Carsons «Silent Spring».",
+   "quelle": "GENE WG 06 - Umwelt 1 Globalisierung und Problembereiche",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W7-04",
+   "modul": "GENE",
+   "woche": 7,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Globale Umweltprobleme und planetare Grenzen erklären",
+   "frage": "Warum ist Phosphor ein besonderes Umweltproblem?",
+   "optionen": [
+    "Er ist lebenswichtig, nicht ersetzbar, nicht synthetisch herstellbar und endlich; zugleich verursacht Überdüngung Eutrophierung",
+    "Er ist ein starkes Treibhausgas, das rund 294-mal klimawirksamer ist als CO2",
+    "Er entsteht beim Abbau von Plastik und gelangt als Mikroplastik ins Grundwasser",
+    "Er kann zwar synthetisch hergestellt werden, die Herstellung verbraucht aber sehr viel Energie"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Marokko hält rund 70 % der Reserven; sie könnten in 50 bis 100 Jahren erschöpft sein. Das 294-fache Treibhauspotenzial betrifft Lachgas (Stickstoff). In der Schweiz half das Phosphatverbot in Waschmitteln.",
+   "quelle": "GENE WG 06 - Umwelt 1 Globalisierung und Problembereiche",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W7-05",
+   "modul": "GENE",
+   "woche": 7,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Globale Umweltprobleme und planetare Grenzen erklären",
+   "frage": "In welchen Bereichen hat die Menschheit laut den planetaren Belastungsgrenzen den sicheren Handlungsspielraum verlassen?",
+   "optionen": [
+    "Biodiversität",
+    "Phosphor- und Stickstoffkreislauf",
+    "Klimawandel",
+    "Ozonschicht"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Konzept des Stockholm Resilience Centre (Steffen et al. 2015) mit neun Grenzen. Die Ozonschicht ist ein Erfolgsbeispiel: Das FCKW-Verbot hat gewirkt.",
+   "quelle": "GENE WG 06 - Umwelt 1 Globalisierung und Problembereiche",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W7-06",
+   "modul": "GENE",
+   "woche": 7,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Globale Umweltprobleme und planetare Grenzen erklären",
+   "frage": "Wie gelangt der grösste Teil des Plastiks in die Umwelt?",
+   "antwort": "Als Mikroplastik (≤ 5 mm): rund drei Viertel, davon ein Drittel durch Reifenabrieb.",
+   "erklaerung": "Plastik besteht meist aus Erdöl, ist nicht erneuerbar, aber recycelbar und baut sich erst in bis zu Tausenden Jahren ab. Reifenabrieb zeigt: Auch Elektroautos verursachen Mikroplastik.",
+   "quelle": "GENE WG 06 - Umwelt 1 Globalisierung und Problembereiche",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W8-01",
+   "modul": "GENE",
+   "woche": 8,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Umweltbelastungen mit Fussabdruck und Ökobilanz messen",
+   "frage": "Was bedeutet es, dass der ökologische Fussabdruck der Schweiz 4,7 gha bei 1,6 gha Biokapazität beträgt?",
+   "optionen": [
+    "Die Schweiz verbraucht fast dreimal so viel Natur, wie sie selbst bereitstellt, und deckt die Lücke durch Importe und CO2-Abgabe an die Atmosphäre",
+    "Die Schweiz stellt fast dreimal so viel Natur bereit, wie sie verbraucht, und exportiert den Überschuss",
+    "Die Schweiz braucht 4,7 Hektaren Ackerland pro Person, wovon 1,6 Hektaren im Inland liegen",
+    "Die Schweiz hat ihren Fussabdruck seit 1960 um zwei Drittel gesenkt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Nachhaltig wäre Fussabdruck = Biokapazität. Energie macht rund zwei Drittel des Fussabdrucks aus, deshalb sind Heizen, Mobilität und Fliegen die grössten Hebel. Seit 1960 hat er sich mehr als verdoppelt.",
+   "quelle": "GENE WG 07 - Umwelt 2 Grundlagen nachhaltiges Wirtschaften",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W8-02",
+   "modul": "GENE",
+   "woche": 8,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Umweltbelastungen mit Fussabdruck und Ökobilanz messen",
+   "frage": "Worin unterscheiden sich CO2-Äquivalente und Umweltbelastungspunkte (UBP)?",
+   "optionen": [
+    "CO2-eq erfassen nur die Klimawirkung; UBP fassen viele Belastungen über Ökofaktoren aus politischen Zielen in einer Zahl zusammen",
+    "CO2-eq erfassen alle Umweltbelastungen; UBP messen nur den Energieverbrauch eines Produkts",
+    "CO2-eq werden pro Land berechnet, UBP pro Person",
+    "Beide messen dasselbe, UBP sind nur die in der Schweiz übliche Einheit"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Methode der ökologischen Knappheit: Je stärker eine Belastung das politische Ziel überschreitet, desto höher der Ökofaktor. Ein Produkt kann beim CO2 gut und bei den UBP schlecht abschneiden, etwa Biotreibstoff mit hohem Landverbrauch.",
+   "quelle": "GENE WG 07 - Umwelt 2 Grundlagen nachhaltiges Wirtschaften",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W8-03",
+   "modul": "GENE",
+   "woche": 8,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Umweltbelastungen mit Fussabdruck und Ökobilanz messen",
+   "frage": "Was zeigen die Ökobilanzen von Ericsson (Handy) und Schindler (Lift)?",
+   "optionen": [
+    "Die grösste Belastung liegt oft woanders als erwartet: beim Ladegerät in der Steckdose bzw. bei der Kabinenbeleuchtung",
+    "Die Herstellung verursacht immer den grössten Teil der Umweltbelastung eines Produkts",
+    "Der Transport der Produkte ist der wichtigste Hebel zur Senkung der Belastung",
+    "Elektronische Geräte sind über ihren Lebenszyklus praktisch klimaneutral"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "48 % der Handy-Belastung entstehen durch Ladegeräte in der Steckdose, 40 % der Lift-Belastung durch die Kabinenbeleuchtung über 30 Jahre. Mit Abschaltautomatik und LED lässt sich die Belastung ohne Komfortverlust halbieren.",
+   "quelle": "GENE WG 07 - Umwelt 2 Grundlagen nachhaltiges Wirtschaften",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W8-04",
+   "modul": "GENE",
+   "woche": 8,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Güterarten und die Tragödie der Allmende erklären",
+   "frage": "Ordne die Güter ein.",
+   "paare": [
+    [
+     "Fischbestände",
+     "Allmendegut (rivalisierend, nicht ausschliessbar)"
+    ],
+    [
+     "Luft",
+     "Öffentliches Gut (nicht rivalisierend, nicht ausschliessbar)"
+    ],
+    [
+     "Netflix-Abo",
+     "Klubgut (nicht rivalisierend, ausschliessbar)"
+    ],
+    [
+     "Auto",
+     "Privates Gut (rivalisierend, ausschliessbar)"
+    ]
+   ],
+   "erklaerung": "Falle: Allmendegüter sind rivalisierend, öffentliche Güter nicht. Umweltgüter haben oft keine Eigentumsrechte und werden deshalb übernutzt.",
+   "quelle": "GENE WG 07 - Umwelt 2 Grundlagen nachhaltiges Wirtschaften",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W8-05",
+   "modul": "GENE",
+   "woche": 8,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Güterarten und die Tragödie der Allmende erklären",
+   "frage": "Was beschreibt die Tragödie der Allmende (Hardin 1968)?",
+   "antwort": "Bei einem frei zugänglichen, rivalisierenden Gut hat jeder Nutzer den vollen Nutzen, die Kosten tragen alle; deshalb wird es übernutzt.",
+   "erklaerung": "Lösungen: Zugang regeln (Quoten, Fangrechte), Eigentumsrechte schaffen, Preise und Abgaben, gemeinschaftliche Selbstverwaltung.",
+   "quelle": "GENE WG 07 - Umwelt 2 Grundlagen nachhaltiges Wirtschaften",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W8-06",
+   "modul": "GENE",
+   "woche": 8,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Instrumente der Umweltpolitik beschreiben",
+   "frage": "Warum funktionierte der Emissionshandel (Cap and Trade) anfangs nicht?",
+   "optionen": [
+    "Es wurden zu viele Zertifikate ausgegeben; der Preis war so tief, dass sich eine Reduktion nicht lohnte",
+    "Die Zertifikate durften nicht gehandelt werden, deshalb entstand kein Marktpreis",
+    "Die Obergrenze wurde jedes Jahr erhöht statt gesenkt",
+    "Unternehmen mussten ihre Zertifikate zu einem staatlich festgelegten Höchstpreis kaufen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Heute nimmt die Market Stability Reserve überschüssige Zertifikate vom Markt. Cap and Trade steuert die Menge, eine Abgabe den Preis. Das Schweizer EHS ist an das EU-System gekoppelt.",
+   "quelle": "GENE WG 07 - Umwelt 2 Grundlagen nachhaltiges Wirtschaften",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W8-07",
+   "modul": "GENE",
+   "woche": 8,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Umweltökonomie: externe Kosten und Internalisierung erklären",
+   "frage": "Welche Instrumente internalisieren externe Kosten?",
+   "optionen": [
+    "Flugticketabgabe",
+    "LSVA",
+    "CO2-Abgabe",
+    "Subventionen für Kerosin im internationalen Flugverkehr"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Internalisierung heisst: Der Verursacher zahlt, die Kosten werden wahr. Kerosin im internationalen Flugverkehr ist ein Beispiel für noch nicht internalisierte Kosten, ebenso Mikroplastik aus Reifenabrieb.",
+   "quelle": "GENE WG 07 - Umwelt 2 Grundlagen nachhaltiges Wirtschaften",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W8-08",
+   "modul": "GENE",
+   "woche": 8,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Instrumente der Umweltpolitik beschreiben",
+   "frage": "Was ist laut Vorlesung das Hauptproblem der Energiewende?",
+   "optionen": [
+    "Flatterstrom und Speicherung: Erneuerbare liefern schwankend, Strom lässt sich schlecht speichern",
+    "Erneuerbare Energien verursachen mehr CO2 als fossile Kraftwerke",
+    "Die Bevölkerung lehnt den Ausstieg aus der Kernenergie mehrheitlich ab",
+    "Es gibt in der Schweiz keine Flächen für Wind- oder Solaranlagen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Lösungsansätze: Power to Gas, Smart Cities, Türme als Energiespeicher, Effizienz steigern. Auch Erneuerbare belasten die Umwelt.",
+   "quelle": "GENE WG 07 - Umwelt 2 Grundlagen nachhaltiges Wirtschaften",
+   "kern": false
+  },
+  {
+   "id": "GENE-ETH-W4-01",
+   "modul": "GENE",
+   "woche": 4,
+   "teilgebiet": "Ethik",
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Ethische Grundbegriffe und Normarten unterscheiden",
+   "frage": "Ordne die Normarten ihren Merkmalen zu.",
+   "paare": [
+    [
+     "Konvention",
+     "Entsteht als Sitte, etwa Knigge-Regeln"
+    ],
+    [
+     "Moral",
+     "Verlangt eine innere Haltung, nicht einklagbar, Sanktion durch Missbilligung"
+    ],
+    [
+     "Recht",
+     "Regelt äusseres Verhalten, einklagbar, Sanktion durch Busse oder Freiheitsentzug"
+    ]
+   ],
+   "erklaerung": "Moral betrifft die Legitimität, Recht die Legalität. Recht entsteht im Gesetzgebungsverfahren zu einem Zeitpunkt, Moral über Regelvermittlung ohne festen Zeitpunkt. Falle: Lügen ist moralisch problematisch, aber nur teils verboten.",
+   "quelle": "GENE ETH 01 - Ethik-Vorlesung",
+   "kern": true
+  },
+  {
+   "id": "GENE-ETH-W4-02",
+   "modul": "GENE",
+   "woche": 4,
+   "teilgebiet": "Ethik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ethische Grundbegriffe und Normarten unterscheiden",
+   "frage": "Was kennzeichnet ein moralisches Dilemma?",
+   "optionen": [
+    "Zwischen mindestens zwei gleich unakzeptablen Optionen ohne Vorrangregel muss gewählt werden, jede verletzt eine Norm",
+    "Eine Person weiss nicht, welche Handlung rechtlich erlaubt ist, und muss sich beraten lassen",
+    "Zwei Personen haben unterschiedliche moralische Ansichten und können sich nicht einigen",
+    "Eine Handlung hat sowohl gute als auch schlechte Folgen, die sich gegeneinander aufrechnen lassen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ein Dilemma hat keine befriedigende Lösung. Beispiel Fall Daschner: Folterandrohung, um ein entführtes Kind zu retten. Für den Utilitarismus gibt es keine echten Dilemmata, weil alles in eine Währung umgerechnet wird.",
+   "quelle": "GENE ETH 01 - Ethik-Vorlesung",
+   "kern": false
+  },
+  {
+   "id": "GENE-ETH-W4-03",
+   "modul": "GENE",
+   "woche": 4,
+   "teilgebiet": "Ethik",
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Ethiktheorien auf Fälle anwenden",
+   "frage": "Ordne den Ethiktheorien ihren Massstab zu.",
+   "paare": [
+    [
+     "Utilitarismus",
+     "Nur die Folgen zählen: grösster Nutzen für die grösste Zahl"
+    ],
+    [
+     "Deontologie (Kant)",
+     "Handlungen sind in sich gut oder schlecht, Menschen nie bloss Mittel"
+    ],
+    [
+     "Tugendethik",
+     "Zu was für einem Menschen mache ich mich, wenn ich das tue?"
+    ]
+   ],
+   "erklaerung": "Utilitarismus und Deontologie fragen «Was soll ich tun?» und sind allgemeingültig. Die Tugendethik fragt «Wer möchte ich sein?», ist situativ und nicht universalisierbar.",
+   "quelle": "GENE ETH 01 - Ethik-Vorlesung",
+   "kern": true
+  },
+  {
+   "id": "GENE-ETH-W4-04",
+   "modul": "GENE",
+   "woche": 4,
+   "teilgebiet": "Ethik",
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Ethiktheorien auf Fälle anwenden",
+   "frage": "Wie lautet Kants kategorischer Imperativ?",
+   "antwort": "«Handle nur nach derjenigen Maxime, durch die du zugleich wollen kannst, dass sie ein allgemeines Gesetz werde.»",
+   "erklaerung": "Prüfung: Maxime formulieren, dann fragen, ob ich sie als allgemeines Gesetz wollen kann. Falle: Der kategorische Imperativ prüft die Maxime, nicht die Folgen.",
+   "quelle": "GENE ETH 01 - Ethik-Vorlesung",
+   "kern": true
+  },
+  {
+   "id": "GENE-ETH-W4-05",
+   "modul": "GENE",
+   "woche": 4,
+   "teilgebiet": "Ethik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ethiktheorien auf Fälle anwenden",
+   "frage": "Wie beurteilen Utilitarismus und Deontologie den Abschuss eines entführten Passagierflugzeugs, um mehr Menschen zu retten?",
+   "optionen": [
+    "Utilitarismus: gerechtfertigt, weil weniger Menschen sterben; Deontologie: nicht gerechtfertigt, weil Unschuldige gezielt als Mittel getötet werden",
+    "Utilitarismus: nicht gerechtfertigt, weil jedes Leben gleich viel zählt; Deontologie: gerechtfertigt, weil der Staat eine Schutzpflicht hat",
+    "Beide Theorien halten den Abschuss für gerechtfertigt, weil er mehr Leben rettet",
+    "Beide Theorien lehnen den Abschuss ab, weil Töten immer verboten ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Das deutsche Bundesverfassungsgericht argumentierte zum Luftsicherheitsgesetz deontologisch. Ähnlich das Trolley-Problem: utilitaristisch geboten, die Weiche umzulegen.",
+   "quelle": "GENE ETH 01 - Ethik-Vorlesung",
+   "kern": true
+  },
+  {
+   "id": "GENE-ETH-W4-06",
+   "modul": "GENE",
+   "woche": 4,
+   "teilgebiet": "Ethik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ethiktheorien auf Fälle anwenden",
+   "frage": "Wie entscheiden die Theorien im Georg-Dilemma (Stelle in der Waffenforschung)?",
+   "optionen": [
+    "Utilitarismus: annehmen; Deontologie: nicht annehmen; Tugendethik: ablehnen aus Integrität",
+    "Utilitarismus: ablehnen; Deontologie: annehmen; Tugendethik: annehmen",
+    "Alle drei Theorien raten, die Stelle anzunehmen, weil sonst jemand anderes sie bekommt",
+    "Alle drei Theorien raten, die Stelle abzulehnen, weil Waffenforschung immer unmoralisch ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Im Jim-Dilemma (Williams) gilt: Utilitarismus muss töten (einer statt 20 sterben), Deontologie darf nicht töten.",
+   "quelle": "GENE ETH 01 - Ethik-Vorlesung",
+   "kern": false
+  },
+  {
+   "id": "GENE-ETH-W4-07",
+   "modul": "GENE",
+   "woche": 4,
+   "teilgebiet": "Ethik",
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Ethische von ausserethischen Fragen unterscheiden",
+   "frage": "Ordne die Fragen ein.",
+   "paare": [
+    [
+     "Hat die Globalisierung das Pro-Kopf-Einkommen erhöht?",
+     "Sachfrage"
+    ],
+    [
+     "Soll sich der Politiker kurz vor der Wahl entschuldigen?",
+     "Strategische Frage"
+    ],
+    [
+     "Die Bankkarte zieht nichts ab: Soll ich die Bank informieren?",
+     "Moralische Frage"
+    ]
+   ],
+   "erklaerung": "Eine Frage ist ethisch, wenn sie normativen Handlungsbezug hat, allgemein verbindlich ist und zentrale Güter betrifft (Bleisch/Huppenbauer 2011). Strategische Fragen («Lohnt es sich?») und Sachfragen (empirisch) sind ausserethisch.",
+   "quelle": "GENE ETH 01 - Ethik-Vorlesung",
+   "kern": true
+  },
+  {
+   "id": "GENE-ETH-W4-08",
+   "modul": "GENE",
+   "woche": 4,
+   "teilgebiet": "Ethik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ethische von ausserethischen Fragen unterscheiden",
+   "frage": "Welche Kriterien muss eine Frage erfüllen, damit sie ethisch ist?",
+   "optionen": [
+    "Normativer Handlungsbezug",
+    "Allgemeine Verbindlichkeit",
+    "Bezug zu zentralen Gütern und Werten",
+    "Sie muss sich empirisch eindeutig beantworten lassen"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Normativ heisst: nicht durch Fakten allein entscheidbar. Allgemeine Verbindlichkeit umfasst Universalisierbarkeit, Unparteilichkeit und Rechenschaft. Empirisch beantwortbare Fragen sind Sachfragen.",
+   "quelle": "GENE ETH 01 - Ethik-Vorlesung",
+   "kern": true
+  },
+  {
+   "id": "GENE-ETH-W4-09",
+   "modul": "GENE",
+   "woche": 4,
+   "teilgebiet": "Ethik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Gerechtigkeit nach Rawls erklären",
+   "frage": "Welche Grundsätze würden die Menschen nach Rawls hinter dem Schleier des Nichtwissens wählen?",
+   "optionen": [
+    "Gleiche Grundfreiheiten für alle",
+    "Ungleichheiten nur, wenn sie den am wenigsten Begünstigten nützen (Differenzprinzip)",
+    "Ämter und Positionen offen nach Chancengleichheit",
+    "Gleiche Einkommen für alle, ohne jede Ungleichheit"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Weil jeder selbst der Schlechtestgestellte sein könnte, schützt man diese Position. Falle: Das Differenzprinzip verbietet Ungleichheit nicht, es knüpft sie an den Vorteil der Schwächsten.",
+   "quelle": "GENE ETH 01 - Ethik-Vorlesung",
+   "kern": true
+  },
+  {
+   "id": "GENE-ETH-W4-10",
+   "modul": "GENE",
+   "woche": 4,
+   "teilgebiet": "Ethik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ethiktheorien auf Fälle anwenden",
+   "frage": "Was kennzeichnet den Utilitarismus nach Bentham?",
+   "optionen": [
+    "Wertmonismus und Maximierungsprinzip: Alles wird in Wohlergehen umgerechnet, die Summe der Einzelnutzen soll maximal sein",
+    "Wertpluralismus: Verschiedene Werte stehen gleichberechtigt nebeneinander und dürfen nicht verrechnet werden",
+    "Die Absicht des Handelnden ist entscheidend, die Folgen der Handlung spielen keine Rolle",
+    "Moralisch richtig ist, was die Gesetze eines Staates vorschreiben"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Bentham (1748 bis 1832): Gut ist Lust oder Freude (hedonistisch); spätere Varianten setzen auf Wohlergehen oder Präferenzen. Bei Unsicherheit zählt der Erwartungsnutzen.",
+   "quelle": "GENE ETH 01 - Ethik-Vorlesung",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W5-01",
+   "modul": "OGPM",
+   "woche": 5,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ereignisse und ereignisbasierte Gateways in BPMN anwenden",
+   "frage": "Welche Aussage zur Ereignisart in BPMN ist richtig?",
+   "optionen": [
+    "Startereignisse sind immer empfangend, Endereignisse immer auslösend",
+    "Startereignisse können empfangend oder auslösend sein",
+    "Endereignisse sind immer empfangend, weil sie auf das Prozessende warten",
+    "Zwischenereignisse sind immer auslösend"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ein Prozess kann vor seinem Start nichts auslösen. Empfangende Ereignisse (leeres Icon) lassen das Token warten; auslösende (gefülltes Icon) melden einen Zustand, und der Prozess läuft sofort weiter. Zwischenereignisse gibt es in beiden Arten.",
+   "quelle": "OGPM LB3 Teil 2 - Ereignisse in BPMN",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W5-02",
+   "modul": "OGPM",
+   "woche": 5,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ereignisse und ereignisbasierte Gateways in BPMN anwenden",
+   "frage": "«10 Minuten vor Fertigstellung» der Speisen wird der Tisch gedeckt, das Kochen läuft weiter. Wie wird das modelliert?",
+   "optionen": [
+    "Als nicht unterbrechendes angeheftetes Zeitereignis; die zwei Token werden mit einem AND-Join zusammengeführt",
+    "Als unterbrechendes angeheftetes Zeitereignis; danach folgt nur noch «Tisch decken»",
+    "Als nicht unterbrechendes Zeitereignis mit anschliessendem XOR-Join",
+    "Als Bedingungsereignis, weil der Tisch nur bei Bedarf gedeckt wird"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Denkhilfe: «Hört die Aktivität auf, wenn das passiert?» Nein → nicht unterbrechend (gestrichelter Doppelkreis). Es entsteht ein zweiter Pfad, wie bei einem AND-Split.",
+   "quelle": "OGPM LB3 Teil 2 - Ereignisse in BPMN",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W5-03",
+   "modul": "OGPM",
+   "woche": 5,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ereignisse und ereignisbasierte Gateways in BPMN anwenden",
+   "frage": "Welche Ereignistypen gibt es nur als empfangende (eingetretene) Ereignisse?",
+   "optionen": [
+    "Zeit",
+    "Bedingung",
+    "Nachricht",
+    "Signal"
+   ],
+   "loesung": [
+    0,
+    1
+   ],
+   "erklaerung": "Zeit und Bedingung werden ausserhalb des Prozesses erfüllt; der Prozess kann sie nicht auslösen. Beispiel: Der Prozess stellt den Ofen an, die 180 Grad erreicht der Ofen selbst. Nachricht und Signal gibt es empfangend und auslösend.",
+   "quelle": "OGPM LB3 Teil 2 - Ereignisse in BPMN",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W5-04",
+   "modul": "OGPM",
+   "woche": 5,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Ereignisse und ereignisbasierte Gateways in BPMN anwenden",
+   "frage": "Ordne die Ereignistypen ihrer Bedeutung zu.",
+   "paare": [
+    [
+     "Nachricht",
+     "Geht an einen bestimmten Empfänger"
+    ],
+    [
+     "Signal",
+     "Broadcast an alle Interessierten, wie Radio"
+    ],
+    [
+     "Terminierung",
+     "Beendet sofort den ganzen Prozess, sammelt alle Token ein"
+    ],
+    [
+     "Kompensation",
+     "Macht bereits Erledigtes rückgängig"
+    ]
+   ],
+   "erklaerung": "Fehlerereignisse stehen nur angeheftet oder als Endereignis. Ein normales Endereignis beendet nur seinen Pfad, die Terminierung alle. Für die fachliche Modellierung genügen meist Nachricht, Zeit, Terminierung und Fehler.",
+   "quelle": "OGPM LB3 Teil 2 - Ereignisse in BPMN",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W5-05",
+   "modul": "OGPM",
+   "woche": 5,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ereignisse und ereignisbasierte Gateways in BPMN anwenden",
+   "frage": "Ein Prozess bestellt Ware und wartet entweder auf die Lieferung oder fragt nach 5 Tagen nach. Welches Element passt?",
+   "optionen": [
+    "Ein exklusives ereignisbasiertes Gateway mit «Ware erhalten» und «5 Tage»: Das erste eintretende Ereignis bestimmt den Pfad",
+    "Ein datenbasiertes XOR-Gateway mit der Bedingung «Ware erhalten?»",
+    "Ein paralleles ereignisbasiertes Gateway, das auf beide Ereignisse wartet",
+    "Ein angeheftetes Fehlerereignis an der Aktivität «Ware bestellen»"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Datenbasierte Gateways entscheiden mit Daten aus dem Prozess; ereignisbasierte warten auf etwas von aussen. Nach einem ereignisbasierten Gateway folgen nur empfangende Ereignisse oder Empfangsaufgaben. Das parallele ereignisbasierte Gateway wartet auf alle Ereignisse.",
+   "quelle": "OGPM LB3 Teil 2 - Ereignisse in BPMN",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W5-06",
+   "modul": "OGPM",
+   "woche": 5,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Ereignisse und ereignisbasierte Gateways in BPMN anwenden",
+   "frage": "Welche Konstruktionen sind in BPMN fehlerhaft?",
+   "optionen": [
+    "Ein auslösendes Startereignis",
+    "Ein auslösendes Zeitereignis",
+    "Ein Fehlerereignis als freies Zwischenereignis im Sequenzfluss",
+    "Ein angeheftetes unterbrechendes Nachrichtenereignis"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Fehlerereignisse stehen nur angeheftet (Fehlerbehandlung) oder als Endereignis (Pfad gescheitert). Angeheftete Ereignisse sind immer empfangend und können unterbrechend oder nicht unterbrechend sein.",
+   "quelle": "OGPM LB3 Teil 2 - Ereignisse in BPMN",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W6-01",
+   "modul": "OGPM",
+   "woche": 6,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kollaborationen mit Pools und Nachrichtenflüssen modellieren",
+   "frage": "Welches Startereignis ist in einem Teilprozess erlaubt?",
+   "optionen": [
+    "Nur ein Blanko-Startereignis, weil der Oberprozess den Teilprozess startet",
+    "Ein Nachrichten-Startereignis, damit der Teilprozess Daten empfangen kann",
+    "Ein Zeit-Startereignis, damit der Teilprozess regelmässig läuft",
+    "Jedes Startereignis, solange es empfangend ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Der Teilprozess läuft genau dann, wenn das Token des Oberprozesses bei ihm ankommt. Teilprozesse (Aktivität mit +) verbinden die Ebenen der Prozessarchitektur.",
+   "quelle": "OGPM LB3 Teil 3 - Pools und Nachrichtenflüsse",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W6-02",
+   "modul": "OGPM",
+   "woche": 6,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Kollaborationen mit Pools und Nachrichtenflüssen modellieren",
+   "frage": "Was ist eine Kollaboration in BPMN?",
+   "antwort": "Das abgestimmte Zusammenspiel von zwei oder mehr eigenständigen Prozessen ohne zentrale Steuerung, modelliert mit je einem Pool und Nachrichtenflüssen.",
+   "erklaerung": "Nachrichtenflüsse sind gestrichelte Pfeile mit kleinem Kreis am Anfang und laufen nur zwischen Pools. Beispiel Lieferservice: Pool Kunde und Pool Lieferant reagieren nur auf die Nachrichten des anderen.",
+   "quelle": "OGPM LB3 Teil 3 - Pools und Nachrichtenflüsse",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W6-03",
+   "modul": "OGPM",
+   "woche": 6,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kollaborationen mit Pools und Nachrichtenflüssen modellieren",
+   "frage": "Welche Konstruktionen mit Nachrichtenflüssen sind verboten?",
+   "optionen": [
+    "Nachrichtenfluss innerhalb eines Pools",
+    "Nachrichtenfluss an ein Gateway",
+    "Nachrichtenfluss an ein Zeitereignis",
+    "Nachrichtenfluss an eine Aufgabe in einem anderen Pool"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Erlaubt sind Nachrichtenflüsse in empfangende und aus auslösenden Nachrichtenereignissen, an Aufgaben und an aufgeklappte Teilprozesse. Verboten auch: Sequenzfluss über die Pool-Grenze und Pfeilspitzen an beiden Enden. Ein Gateway ist reine Logik und kann nichts senden.",
+   "quelle": "OGPM LB3 Teil 3 - Pools und Nachrichtenflüsse",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W6-04",
+   "modul": "OGPM",
+   "woche": 6,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kollaborationen mit Pools und Nachrichtenflüssen modellieren",
+   "frage": "Verkauf, Lager und Buchhaltung eines Unternehmens wickeln gemeinsam einen Kundenauftrag ab. Wie modelliert man das?",
+   "optionen": [
+    "Ein Pool mit drei Lanes und durchgehendem Sequenzfluss; der Kunde bekommt einen eigenen Pool",
+    "Drei Pools für die Abteilungen, verbunden mit Nachrichtenflüssen",
+    "Ein Pool ohne Lanes, die Abteilungen stehen als Anmerkung daneben",
+    "Vier Pools: je einer für die Abteilungen und einer für den Kunden"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Prüffrage: Gibt es eine gemeinsame Steuerung und ein gemeinsames Ergebnis? Dann ein Pool. Hat jeder Teilnehmer eigenen Start und eigenes Ende, mehrere Pools. Typischer Fehler: Abteilungen als eigene Pools.",
+   "quelle": "OGPM LB3 Teil 3 - Pools und Nachrichtenflüsse",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W6-05",
+   "modul": "OGPM",
+   "woche": 6,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kollaborationen mit Pools und Nachrichtenflüssen modellieren",
+   "frage": "Wann verwendet man einen zugeklappten Pool?",
+   "optionen": [
+    "Wenn nur interessiert, dass ein Partner Nachrichten schickt und empfängt, sein Innenleben aber nicht modelliert wird",
+    "Wenn der Prozess des Partners besonders komplex ist und deshalb als Teilprozess erscheint",
+    "Wenn der Partner zur eigenen Organisation gehört",
+    "Wenn der Pool keine Nachrichtenflüsse hat"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Typisch für Kunde, Lieferant oder Behörde. Die Nachrichtenflüsse enden dann am Pool-Rand. Ein aufgeklappter Pool zeigt den internen Ablauf.",
+   "quelle": "OGPM LB3 Teil 3 - Pools und Nachrichtenflüsse",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W7-01",
+   "modul": "OGPM",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Aufgabentypen, Markierungen und Artefakte einsetzen",
+   "frage": "Ordne die Tätigkeiten dem Aufgabentyp zu.",
+   "paare": [
+    [
+     "Rechnung im ERP prüfen",
+     "Benutzer-Aufgabe (Mensch mit Software)"
+    ],
+    [
+     "Ware im Lager kommissionieren",
+     "Manuelle Aufgabe (Mensch ohne Software)"
+    ],
+    [
+     "Zahlung automatisch verbuchen",
+     "Service-Aufgabe (automatisch)"
+    ],
+    [
+     "Rabatt nach Kundenklasse bestimmen",
+     "Geschäftsregel-Aufgabe"
+    ]
+   ],
+   "erklaerung": "Der Aufgabentyp macht den Automatisierungsgrad sichtbar. Geschäftsregel-Aufgaben lagern komplexe Logik in ein Entscheidungsmodell (DMN) aus, statt eine Kaskade von Gateways zu zeichnen. Sende- und Empfangsaufgaben besser vermeiden.",
+   "quelle": "OGPM LB3 Teil 4 - Aufgabentypen, Artefakte und Modellierungskonventionen",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W7-02",
+   "modul": "OGPM",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Aufgabentypen, Markierungen und Artefakte einsetzen",
+   "frage": "«Für jede Filiale den Quartalsumsatz berechnen»: Welche Markierung passt?",
+   "optionen": [
+    "Mehrfachaktivität, weil die Zahl der Durchläufe vorher feststeht",
+    "Schleife, weil die Aktivität wiederholt wird, bis eine Bedingung erfüllt ist",
+    "Kompensation, weil die Berechnung rückgängig gemacht werden kann",
+    "Gar keine, weil Wiederholungen in BPMN nicht modelliert werden"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Anzahl bekannt → Mehrfachaktivität (parallel: drei senkrechte Striche, sequenziell: drei waagrechte). Anzahl unbekannt → Schleife; bevorzugt mit XOR-Gateway und Rückfluss statt Schleifenmarkierung.",
+   "quelle": "OGPM LB3 Teil 4 - Aufgabentypen, Artefakte und Modellierungskonventionen",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W7-03",
+   "modul": "OGPM",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Aufgabentypen, Markierungen und Artefakte einsetzen",
+   "frage": "Welche Aussagen zu Datenobjekten und Datenassoziationen sind richtig?",
+   "optionen": [
+    "Der Status steht in eckigen Klammern, z. B. «Rechnung [geprüft]»",
+    "Datenassoziationen sind gepunktete Linien und queren keine Pools",
+    "Artefakte ändern nie die Logik des Prozesses",
+    "Datenassoziationen ersetzen den Nachrichtenfluss zwischen Pools"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Zwischen Prozessen laufen nur Nachrichtenflüsse (gestrichelt). Ein Datenspeicher (Zylinder) ist dauerhaft, andere Datenobjekte leben nur im Prozess. Eine Gruppierung ist rein optisch und kein Teilprozess.",
+   "quelle": "OGPM LB3 Teil 4 - Aufgabentypen, Artefakte und Modellierungskonventionen",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W7-04",
+   "modul": "OGPM",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Notwendigkeit von Modellierungskonventionen und BPMN erläutern",
+   "frage": "Was gehört typischerweise in ein Dokument mit Modellierungskonventionen?",
+   "optionen": [
+    "Prozessarchitektur und erlaubte Notationselemente",
+    "Benennungs- und Layoutregeln",
+    "Rollen für Modellieren, Prüfen und Freigeben",
+    "Die vollständigen IST-Modelle aller Prozesse"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "BPMN erlaubt mehrere Darstellungen desselben Sachverhalts; Konventionen legen fest, welche gilt, damit Modelle einheitlich und verbindbar sind. Vorlagen: Silver, Freund, eCH. Die Prüfung erfolgt meist von Hand durch eine zentrale Stelle.",
+   "quelle": "OGPM LB3 Teil 4 - Aufgabentypen, Artefakte und Modellierungskonventionen",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W7-05",
+   "modul": "OGPM",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Erhebungstechniken auswählen und begründen",
+   "frage": "Warum ist die Prozesserhebung schwierig?",
+   "optionen": [
+    "Fachperson und Analyst haben unterschiedliches Wissen",
+    "Das Wissen ist auf viele Personen und Dokumente verteilt (fragmentiert)",
+    "Fachleute denken in Einzelfällen statt im allgemeinen Ablauf",
+    "BPMN ist für die Darstellung von IST-Prozessen nicht geeignet"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Deshalb reicht ein Interview nie; der Analyst muss mehrere Quellen befragen, Widersprüche klären und von Einzelfällen abstrahieren (Übung University West Holland).",
+   "quelle": "OGPM LB3 - Erhebungstechniken",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W7-06",
+   "modul": "OGPM",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Erhebungstechniken auswählen und begründen",
+   "frage": "Ordne die Erhebungsmethoden ihrer Gruppe zu.",
+   "paare": [
+    [
+     "Evidenzbasiert",
+     "Process Mining, Dokumentenanalyse, Beobachtung"
+    ],
+    [
+     "Interviewbasiert",
+     "Fragebogen oder 1:1-Gespräch, forward oder backward"
+    ],
+    [
+     "Workshopbasiert",
+     "Live-Modellierung mit Facilitator und Modellierer"
+    ]
+   ],
+   "erklaerung": "Welcher Zugang passt, hängt von Zeit, Commitment und Budget ab; meist kombiniert man. Process Mining wertet Event-Logs aus, setzt aber digitale Spuren voraus. Dokumente beschreiben oft den Soll-Zustand.",
+   "quelle": "OGPM LB3 - Erhebungstechniken",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W7-07",
+   "modul": "OGPM",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Erhebungstechniken auswählen und begründen",
+   "frage": "Ordne die Beobachtungsformen ihrer Beschreibung zu.",
+   "paare": [
+    [
+     "Feldbeobachtung",
+     "Passiv zuschauen"
+    ],
+    [
+     "Apprenticing",
+     "Die Tätigkeit selbst lernen und ausführen"
+    ],
+    [
+     "Prozesskettenbegehung",
+     "Den Prozess vor Ort mit den Beteiligten durchgehen und Tätigkeiten aktiv anstossen"
+    ]
+   ],
+   "erklaerung": "Beobachtung zeigt, was tatsächlich passiert, ist aber zeitaufwendig, und Menschen verhalten sich anders, wenn sie beobachtet werden.",
+   "quelle": "OGPM LB3 - Erhebungstechniken",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W7-08",
+   "modul": "OGPM",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Erhebungstechniken auswählen und begründen",
+   "frage": "Bringe die fünf Schritte des Praxisbeispiels zur Prozesserhebung in die richtige Reihenfolge.",
+   "items": [
+    "1:1-Interviews",
+    "Fragmente zusammenführen, initiales Modell",
+    "Abstimmungsworkshop",
+    "Modell überarbeiten",
+    "Verifikationsworkshop"
+   ],
+   "erklaerung": "Erhebung ist ein Zyklus: Aufnahme → Dokumentation → Überprüfung mit den Beteiligten → erneute Aufnahme. Beim Zusammenführen Bezeichnungen angleichen.",
+   "quelle": "OGPM LB3 - Erhebungstechniken",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W7-09",
+   "modul": "OGPM",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Erhebungstechniken auswählen und begründen",
+   "frage": "Wofür steht SIPOC?",
+   "antwort": "Supplier, Input, Process, Output, Customer.",
+   "erklaerung": "Die Tabelle zwingt dazu, für jeden Schritt Lieferant, Eingang, Ergebnis und Empfänger zu nennen. Weitere Werkzeuge: Interviewleitfaden und Hierarchical Task Analysis (HTA).",
+   "quelle": "OGPM LB3 - Erhebungstechniken",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W6-01",
+   "modul": "SYMG",
+   "woche": 6,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Shareholder Value Management verstehen und anwenden",
+   "frage": "Wann schafft ein Unternehmen laut FuW-Artikel «Wo der Aktionärswert wackelt» Wert?",
+   "optionen": [
+    "Wenn der ROIC über mehrere Jahre über dem WACC liegt",
+    "Wenn die Gewinnmarge über dem Branchendurchschnitt liegt",
+    "Wenn der Umsatz jedes Jahr wächst",
+    "Wenn die Aktie eine hohe Dividende ausschüttet"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Marge misst Effizienz, nicht Wertschaffung. Mit der Zinswende 2022 werden hoch verschuldete Wertvernichter sichtbar (Aryzta: ROIC 1.0 % vs. WACC 5.4 %).",
+   "quelle": "SYMG LB3 - Artikel Aktionärswert, Amazon und Informationsasymmetrie",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W6-02",
+   "modul": "SYMG",
+   "woche": 6,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Finanzielle Mess- und Steuergrössen unterscheiden und anwenden",
+   "frage": "Warum erreicht Kühne + Nagel einen ROIC von über 30 %?",
+   "optionen": [
+    "Das Geschäftsmodell braucht wenig Kapital (keine eigenen Schiffe oder Flugzeuge), das investierte Kapital ist klein",
+    "Das Unternehmen ist besonders hoch verschuldet und profitiert vom Leverage-Effekt",
+    "Das Unternehmen weist besonders hohe Gewinnmargen aus",
+    "Das Unternehmen zahlt keine Steuern"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Kapitalumschlag ist ein Werttreiber (Du-Pont). Kapitalintensive Firmen wie Clariant oder Stadler Rail decken ihre Kapitalkosten nur knapp. Zwischen Firmen unterscheidet sich der WACC weniger als der ROIC.",
+   "quelle": "SYMG LB3 - Artikel Aktionärswert, Amazon und Informationsasymmetrie",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W6-03",
+   "modul": "SYMG",
+   "woche": 6,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Shareholder Value Management verstehen und anwenden",
+   "frage": "Was zeigt das Beispiel Amazon für das wertorientierte Management?",
+   "optionen": [
+    "Jahrelange Verluste sind keine Wertvernichtung, wenn sie Investitionen mit künftigen Free Cashflows sind",
+    "Ein Unternehmen muss von Anfang an Gewinne ausweisen, um Wert zu schaffen",
+    "Diversifikation in viele Geschäftsfelder vernichtet regelmässig Wert",
+    "Hohe Dividenden sind die Voraussetzung für steigende Aktienkurse"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Erster Jahresgewinn erst 2003, nach 20 Jahren über +55 000 %. Bezos 1997: Es dreht sich alles um die langfristige Perspektive. DCF-Gedanke: Der Wert liegt in künftigen Free Cashflows, nicht im heutigen Gewinn.",
+   "quelle": "SYMG LB3 - Artikel Aktionärswert, Amazon und Informationsasymmetrie",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W6-04",
+   "modul": "SYMG",
+   "woche": 6,
+   "kategorie": "literatur",
+   "typ": "match",
+   "lernziel": "Shareholder Value Management verstehen und anwenden",
+   "frage": "Ordne die Konzepte der Informationsasymmetrie ihren Urhebern zu.",
+   "paare": [
+    [
+     "Market for Lemons, adverse Selektion",
+     "Akerlof (1970)"
+    ],
+    [
+     "Signalling, z. B. Abschlüsse als Signal für Talent",
+     "Spence (1973)"
+    ],
+    [
+     "Screening, z. B. zwei Versicherungsverträge zur Selbstzuordnung",
+     "Rothschild und Stiglitz (1976)"
+    ]
+   ],
+   "erklaerung": "Nobelpreis 2001 für Akerlof, Spence und Stiglitz. Ein Signal wirkt nur, wenn es glaubwürdig und schwer zu fälschen ist.",
+   "quelle": "SYMG LB3 - Artikel Aktionärswert, Amazon und Informationsasymmetrie",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W6-05",
+   "modul": "SYMG",
+   "woche": 6,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Shareholder Value Management verstehen und anwenden",
+   "frage": "Wie hängen Informationsasymmetrie, Agency-Problem und Dividenden zusammen?",
+   "optionen": [
+    "Manager wissen mehr als Aktionäre; eine Dividende ist ein glaubwürdiges Signal und verhindert, dass überschüssiges Geld in Prestigeprojekte fliesst",
+    "Aktionäre wissen mehr als Manager und verlangen deshalb Dividenden als Kontrolle",
+    "Dividenden verstärken das Agency-Problem, weil sie dem Unternehmen Kapital entziehen",
+    "Informationsasymmetrie betrifft nur Versicherungen, nicht Aktiengesellschaften"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Ausschüttung von Free Cashflows ist eine Antwort auf das Agency-Problem (LB3 F. 66 bis 67). Adverse Selektion: Käufer zahlen einen Mischpreis, Anbieter guter Ware steigen aus.",
+   "quelle": "SYMG LB3 - Artikel Aktionärswert, Amazon und Informationsasymmetrie",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W4-01",
+   "modul": "VHRE",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Arten der Vertragsverletzung unterscheiden",
+   "frage": "Ordne die Fälle aus dem E-Bike-Beispiel der Art der Vertragsverletzung zu.",
+   "paare": [
+    [
+     "Die Verkäuferin kann das Bike erst Mitte Juni statt am 5. Mai liefern",
+     "Verzug (OR 102 ff.)"
+    ],
+    [
+     "Statt des bestellten «eRace» liegt ein «eTour» bereit",
+     "Nichterfüllung (aliud)"
+    ],
+    [
+     "Das Bike verbrennt vor der Abholung im Lager",
+     "Nachträgliche Unmöglichkeit (OR 97 oder 119)"
+    ],
+    [
+     "Bei der ersten Fahrt verbiegt sich der Zahnkranz",
+     "Schlechterfüllung (Mangel, OR 197 ff.)"
+    ]
+   ],
+   "erklaerung": "Die richtige Einordnung entscheidet über Rechte, Fristen und Verjährung. Eine Mängelrüge ist nur bei der Gewährleistung nötig.",
+   "quelle": "VHRE VL4 - Vertragsverletzung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W4-02",
+   "modul": "VHRE",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Arten der Vertragsverletzung unterscheiden",
+   "frage": "Anna bestellt eine «Honda XL 125» und erhält eine «Honda XR 125». Was liegt vor?",
+   "optionen": [
+    "Nichterfüllung (aliud): Anna kann die XR zurückweisen, die Verkäuferin bleibt in Verzug",
+    "Ein Mangel: Anna muss sofort rügen und kann dann wandeln oder mindern",
+    "Nachträgliche Unmöglichkeit: Der Vertrag ist nach OR 119 erloschen",
+    "Ein Grundlagenirrtum: Anna muss den Vertrag innert eines Jahres anfechten"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "«Ein Fiat ist kein mangelhafter Ferrari.» Bei einer Gattungssache ohne die vereinbarten Merkmale liegt Nichterfüllung vor: keine Rügeobliegenheit, Verjährung 10 Jahre (OR 127).",
+   "quelle": "VHRE VL4 - Vertragsverletzung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W4-03",
+   "modul": "VHRE",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Arten der Vertragsverletzung unterscheiden",
+   "frage": "Wer muss beim vertraglichen Schadenersatz das (fehlende) Verschulden beweisen?",
+   "optionen": [
+    "Der Schuldner: Sein Verschulden wird vermutet, er muss sich exkulpieren",
+    "Der Gläubiger: Er muss Vertragsverletzung, Schaden und Verschulden beweisen",
+    "Das Gericht klärt das Verschulden von Amtes wegen ab",
+    "Niemand: Vertraglicher Schadenersatz ist immer verschuldensunabhängig"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beweislastumkehr: Der Gläubiger beweist nur Vertragsverletzung und Schaden. Der Schuldner kennt die Abläufe in seinem Betrieb und muss sich entlasten. Für Hilfspersonen haftet er wie für sich selbst (OR 101).",
+   "quelle": "VHRE VL4 - Vertragsverletzung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W4-04",
+   "modul": "VHRE",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Arten der Vertragsverletzung unterscheiden",
+   "frage": "Ordne die Fälle der Unmöglichkeit ihrer Rechtsfolge zu.",
+   "paare": [
+    [
+     "Ursprünglich und objektiv unmöglich",
+     "Vertrag nichtig (OR 19 f.)"
+    ],
+    [
+     "Nachträglich unmöglich, vom Schuldner verschuldet",
+     "Schadenersatz (OR 97), ausser Exkulpation"
+    ],
+    [
+     "Nachträglich unmöglich, unverschuldet (z. B. Blitzschlag)",
+     "OR 119, Frage der Gefahrtragung"
+    ]
+   ],
+   "erklaerung": "Objektiv heisst: Niemand kann die Leistung erbringen, nicht nur dieser Schuldner. Bei ursprünglicher Unmöglichkeit mit Verschulden kommt allenfalls culpa in contrahendo in Frage.",
+   "quelle": "VHRE VL4 - Vertragsverletzung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W4-05",
+   "modul": "VHRE",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Verzug und Wahlrechte prüfen",
+   "frage": "Bringe die Schritte beim Schuldnerverzug in die richtige Reihenfolge.",
+   "items": [
+    "Fälligkeit",
+    "Mahnung (OR 102)",
+    "Nachfrist (OR 107 Abs. 1)",
+    "Wahlrecht des Gläubigers (OR 107 Abs. 2)"
+   ],
+   "erklaerung": "Die Mahnung entfällt beim Verfalltagsgeschäft, beim Fixgeschäft und bei endgültiger Weigerung. Die Nachfrist entfällt nach OR 108, wenn sie unnütz wäre, die Leistung nutzlos geworden ist oder ein relatives Fixgeschäft vorliegt.",
+   "quelle": "VHRE VL4 - Vertragsverletzung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W4-06",
+   "modul": "VHRE",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Verzug und Wahlrechte prüfen",
+   "frage": "Ordne den Wahlrechten nach OR 107 Abs. 2 zu, wie der Gläubiger finanziell gestellt wird.",
+   "paare": [
+    [
+     "Erfüllung + Verspätungsschaden",
+     "Er erhält die Sache und den Schaden aus der Verspätung (z. B. Mietkosten für ein Ersatzbike)"
+    ],
+    [
+     "Verzicht + positives Vertragsinteresse",
+     "So, als wäre richtig erfüllt worden (z. B. Mehrkosten eines Deckungskaufs)"
+    ],
+    [
+     "Rücktritt + negatives Vertragsinteresse",
+     "So, als hätte er den Vertrag nie geschlossen (Vertrauensschaden)"
+    ]
+   ],
+   "erklaerung": "Schadenersatz gibt es jeweils nur, wenn sich der Schuldner nicht exkulpieren kann. Verzicht oder Rücktritt muss der Gläubiger sofort erklären.",
+   "quelle": "VHRE VL4 - Vertragsverletzung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W4-07",
+   "modul": "VHRE",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Verzug und Wahlrechte prüfen",
+   "frage": "Anton zahlt 8000 für ein Motorrad, Abholung «in etwa zwei Wochen». Nach drei Wochen hört er nichts; bei der Konkurrenz kostet das Modell 8400. Was soll er tun?",
+   "optionen": [
+    "Zuerst mahnen und eine Nachfrist setzen, dann auf die Erfüllung verzichten und die 400 Mehrkosten als positives Interesse verlangen",
+    "Sofort ohne Mahnung zurücktreten, weil «in etwa zwei Wochen» ein Verfalltag ist",
+    "Den Mangel sofort rügen und dann den Kaufpreis mindern",
+    "Nichts unternehmen können, weil die Verkäuferin noch nicht im Verzug ist und es nie sein wird"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "«In etwa zwei Wochen» ist kein Verfalltag, also braucht es Mahnung und Nachfrist. Kostet das Ersatzmodell 7400, lohnt sich der Rücktritt: Er erhält die 8000 zurück und kauft günstiger.",
+   "quelle": "VHRE VL4 - Vertragsverletzung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W4-08",
+   "modul": "VHRE",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Verzug und Wahlrechte prüfen",
+   "frage": "Der Hochzeitskuchen für den 10. Oktober kommt am 11. Oktober. Muss das Paar mahnen und eine Nachfrist setzen?",
+   "optionen": [
+    "Nein: Fixgeschäft ohne Mahnung, und die Nachfrist entfällt, weil die Leistung nutzlos geworden ist (OR 108 Ziff. 2)",
+    "Ja: Ohne Mahnung und Nachfrist gerät der Konditor nie in Verzug",
+    "Nur die Mahnung entfällt, eine Nachfrist muss das Paar trotzdem setzen",
+    "Nur die Nachfrist entfällt, eine Mahnung ist aber zwingend nötig"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Das Paar kann direkt eines der Wahlrechte ausüben. Mahnung und Nachfrist sind zwei Schritte mit je eigenen Ausnahmen.",
+   "quelle": "VHRE VL4 - Vertragsverletzung",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W4-09",
+   "modul": "VHRE",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Gewährleistung bei Kauf, Werk und Auftrag beurteilen",
+   "frage": "Ordne den Vertragstypen ihre Rechte bei Schlechterfüllung zu.",
+   "paare": [
+    [
+     "Kauf",
+     "Wandelung, Minderung, Ersatzlieferung (kein gesetzlicher Anspruch auf Nachbesserung)"
+    ],
+    [
+     "Werkvertrag",
+     "Wandelung (nur erhebliche Mängel, nicht bei Bauten), Minderung, Nachbesserung"
+    ],
+    [
+     "Auftrag",
+     "Keine Gewährleistung, nur Verschuldenshaftung (OR 398 i. V. m. 97)"
+    ]
+   ],
+   "erklaerung": "Beim Auftrag haftet der Beauftragte auch für unsorgfältige Beratung. Beim Kauf gibt es Nachbesserung nur, wenn sie vertraglich vereinbart ist.",
+   "quelle": "VHRE VL4 - Vertragsverletzung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W4-10",
+   "modul": "VHRE",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Gewährleistung bei Kauf, Werk und Auftrag beurteilen",
+   "frage": "Was gilt, wenn der Käufer einen Mangel nicht sofort rügt?",
+   "optionen": [
+    "Die Sache gilt als genehmigt (Genehmigungsfiktion, OR 201), ausser der Verkäufer hat absichtlich getäuscht",
+    "Die Gewährleistungsfrist verlängert sich auf 10 Jahre",
+    "Der Käufer verliert nur das Recht auf Ersatzlieferung, Wandelung und Minderung bleiben",
+    "Die Rüge kann bis zum Ende der zweijährigen Verjährung jederzeit nachgeholt werden"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Offene Mängel sind sofort zu rügen, versteckte sofort nach Entdeckung. Unabhängig davon verjährt die Gewährleistung 2 bzw. 5 Jahre ab Ablieferung (OR 210, 371), nicht ab Entdeckung.",
+   "quelle": "VHRE VL4 - Vertragsverletzung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W4-11",
+   "modul": "VHRE",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Gewährleistung bei Kauf, Werk und Auftrag beurteilen",
+   "frage": "Welche Haftung ist in der Vorlesung die einzige verschuldensunabhängige?",
+   "optionen": [
+    "Der unmittelbare Schaden bei der Wandelung im Kaufrecht (OR 208 Abs. 2)",
+    "Der mittelbare Schaden bei der Wandelung im Kaufrecht (OR 208 Abs. 3)",
+    "Der Schadenersatz bei Werkmängeln (OR 368)",
+    "Die Haftung des Beauftragten für schlechte Beratung (OR 398)"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Bei Minderung oder Ersatzlieferung gibt es Schadenersatz nur mit Verschulden (OR 97). Werk und Auftrag: immer verschuldensabhängig.",
+   "quelle": "VHRE VL4 - Vertragsverletzung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W4-12",
+   "modul": "VHRE",
+   "woche": 4,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Verzug und Wahlrechte prüfen",
+   "frage": "Ein Gemüsehändler kauft Bananen zum Weiterverkauf mit festem Liefertermin; der Lieferant liefert nicht. Was gilt?",
+   "optionen": [
+    "OR 190: Es wird vermutet, dass er auf die Lieferung verzichtet und Schadenersatz will; Mahnung und Nachfrist sind nicht nötig",
+    "Er muss zuerst mahnen und eine angemessene Nachfrist setzen, bevor er anderswo kaufen darf",
+    "Er muss die Bananen weiterhin abnehmen, sobald der Lieferant liefert",
+    "Er kann nur zurücktreten, aber keinen Schadenersatz verlangen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Unter Kaufleuten zählt Geschwindigkeit. Konkrete Schadensberechnung (OR 191 Abs. 2): 800 kg × (1.60 − 1.20) = CHF 320 Mehrpreis + CHF 150 Expresszuschlag = CHF 470.",
+   "quelle": "VHRE Übung 4 - Nichterfüllung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W4-13",
+   "modul": "VHRE",
+   "woche": 4,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Verzug und Wahlrechte prüfen",
+   "frage": "Brigitte hat das Auto bereits erhalten, zahlt den Restpreis aber nicht. Kann die Autohaus AG vom Vertrag zurücktreten?",
+   "optionen": [
+    "Nur wenn sie sich den Rücktritt ausdrücklich vorbehalten hat, weil ein Kreditkauf vorliegt (OR 214 Abs. 3)",
+    "Ja, sofort und ohne Mahnung, weil Brigitte im Verzug ist",
+    "Nein, solange Brigitte einen persönlichen Entlastungsgrund wie die Krankheit ihrer Mutter nennt",
+    "Ja, aber erst nach Ablauf der zehnjährigen Verjährungsfrist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "«Innert 30 Tagen nach Lieferung» ist ein Verfalltag: Verzug ohne Mahnung, Verzugszins 5 % (OR 104). Für Geld hat man immer einzustehen; persönliche Gründe entlasten nicht.",
+   "quelle": "VHRE Übung 4 - Nichterfüllung",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W4-14",
+   "modul": "VHRE",
+   "woche": 4,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Gewährleistung bei Kauf, Werk und Auftrag beurteilen",
+   "frage": "Ein mangelhafter Server verursacht einen Brand: 50 000 Schaden am Mobiliar, 80 000 Betriebsausfall. Der Materialfehler war für den Verkäufer nicht erkennbar. Was muss er bei Wandelung ersetzen?",
+   "optionen": [
+    "Die 50 000 als unmittelbaren Schaden ohne Verschulden; die 80 000 nicht, weil er sich beim mittelbaren Schaden entlasten kann",
+    "Beide Beträge, weil im Kaufrecht jeder Schaden verschuldensunabhängig zu ersetzen ist",
+    "Keinen der beiden Beträge, weil ihn kein Verschulden trifft",
+    "Nur die 80 000, weil der Betriebsausfall unmittelbar durch den Mangel entstanden ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "OR 208 Abs. 2: unmittelbarer Schaden ohne Verschulden; Abs. 3: weiterer Schaden nur bei Verschulden. Das Bundesgericht ordnet den Sachschaden am Mobiliar als unmittelbar ein (BGE 133 III 257).",
+   "quelle": "VHRE Übung 4 - Nichterfüllung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W5-01",
+   "modul": "VHRE",
+   "woche": 5,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Arten der Vertragsverletzung unterscheiden",
+   "frage": "Bringe das Prüfschema bei Vertragsverletzungen (Kauf) in die richtige Reihenfolge.",
+   "items": [
+    "Ist der Vertrag gültig zustande gekommen?",
+    "Wurde richtig erfüllt (Art der Verletzung)?",
+    "Sind die Rechte noch nicht verwirkt oder verjährt?",
+    "Bleibt die Anfechtung wegen Grundlagenirrtum?"
+   ],
+   "erklaerung": "Ein ungültiger Vertrag kann nicht verletzt werden, deshalb kommt die Gültigkeit zuerst. Der Grundlagenirrtum (OR 24 Abs. 1 Ziff. 4) ist der Rettungsanker, wenn Rügefrist oder Gewährleistung verpasst sind; die Jahresfrist läuft ab Entdeckung (OR 31).",
+   "quelle": "VHRE VL5 - Vertragsverletzung und Beendigung der Leistungspflicht",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W5-02",
+   "modul": "VHRE",
+   "woche": 5,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Gewährleistung bei Kauf, Werk und Auftrag beurteilen",
+   "frage": "Ein undichter Farbkübel von Coop läuft im Auto aus. Coop verweist auf den Lieferanten. Gegen wen kann die Kundin aus Vertrag vorgehen?",
+   "optionen": [
+    "Gegen Coop, weil Coop ihr Vertragspartner ist",
+    "Nur gegen den Hersteller, weil er den Mangel verursacht hat",
+    "Nur gegen den Lieferanten, an den Coop sie verwiesen hat",
+    "Gegen niemanden, weil ein Farbkübel ein geringwertiges Gut ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Vertragspartner ist der Verkäufer, nicht der Hersteller. Gewährleistung und Schadenersatz (OR 208) richten sich gegen Coop. Die Produktehaftpflicht gegen den Hersteller wäre nur ein zusätzlicher Weg.",
+   "quelle": "VHRE VL5 - Vertragsverletzung und Beendigung der Leistungspflicht",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W5-03",
+   "modul": "VHRE",
+   "woche": 5,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Erlöschen, Beendigung und Verjährung beurteilen",
+   "frage": "Ordne die Erlöschensgründe ihrer Beschreibung zu.",
+   "paare": [
+    [
+     "Verrechnung (OR 120 ff.)",
+     "Gleichartige Forderungen (faktisch Geld) zwischen denselben Parteien werden gegeneinander aufgehoben"
+    ],
+    [
+     "Erlass (OR 115)",
+     "Gläubiger und Schuldner vereinbaren, dass die Schuld entfällt"
+    ],
+    [
+     "Novation (OR 116 f.)",
+     "Eine alte Forderung wird durch eine neue ersetzt"
+    ],
+    [
+     "Konfusion (OR 118)",
+     "Gläubiger und Schuldner werden dieselbe Person"
+    ]
+   ],
+   "erklaerung": "Der häufigste Erlöschensgrund ist die Erfüllung. Ein Mangel begründet eine neue Forderung, die Lieferpflicht lebt nicht wieder auf.",
+   "quelle": "VHRE VL5 - Vertragsverletzung und Beendigung der Leistungspflicht",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W5-04",
+   "modul": "VHRE",
+   "woche": 5,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Erlöschen, Beendigung und Verjährung beurteilen",
+   "frage": "Was unterscheidet Verwirkung von Verjährung?",
+   "optionen": [
+    "Bei der Verwirkung geht das Recht unter; bei der Verjährung besteht die Forderung weiter, ist aber nicht mehr durchsetzbar",
+    "Verwirkung tritt nach 10 Jahren ein, Verjährung schon nach 5 Jahren",
+    "Bei der Verjährung geht das Recht unter; bei der Verwirkung kann es nur nicht mehr eingeklagt werden",
+    "Es gibt keinen Unterschied, beide Begriffe bezeichnen dasselbe"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beispiele für Verwirkung: Anfechtung wegen Willensmangel (1 Jahr, OR 31), verpasste Mängelrüge (OR 201/367), GV-Anfechtung (2 Monate, OR 706a).",
+   "quelle": "VHRE VL5 - Vertragsverletzung und Beendigung der Leistungspflicht",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W5-05",
+   "modul": "VHRE",
+   "woche": 5,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Erlöschen, Beendigung und Verjährung beurteilen",
+   "frage": "Eine Steuerberatungs AG schreibt in ihre AGB: Kündigung nur mit zwei Monaten Frist auf Jahresende. Gilt das?",
+   "optionen": [
+    "Nein: Steuerberatung ist ein Auftrag, und das jederzeitige Kündigungsrecht nach OR 404 Abs. 1 ist zwingend",
+    "Ja: AGB gehen dem dispositiven Gesetzesrecht immer vor",
+    "Ja, aber nur gegenüber Unternehmen, nicht gegenüber Konsumenten",
+    "Nein, weil Kündigungsfristen nur im Mietrecht zulässig sind"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ein Auftrag beruht auf Vertrauen; wer es verloren hat, soll nicht festgehalten werden. Wer zur Unzeit kündigt, schuldet ausnahmsweise Schadenersatz.",
+   "quelle": "VHRE VL5 - Vertragsverletzung und Beendigung der Leistungspflicht",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W5-06",
+   "modul": "VHRE",
+   "woche": 5,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Erlöschen, Beendigung und Verjährung beurteilen",
+   "frage": "Ordne die Forderungen ihrer Verjährungsfrist zu.",
+   "paare": [
+    [
+     "Schadenersatz aus OR 97",
+     "10 Jahre (OR 127)"
+    ],
+    [
+     "Mietzins",
+     "5 Jahre (OR 128 Ziff. 1)"
+    ],
+    [
+     "Kaufpreis für Kleinverkauf von Waren",
+     "5 Jahre (OR 128 Ziff. 3)"
+    ],
+    [
+     "Gewährleistung für ein Elektrogerät",
+     "2 Jahre ab Ablieferung (OR 210)"
+    ]
+   ],
+   "erklaerung": "Zuerst eine Spezialfrist suchen, sonst gelten 10 Jahre. Bei absichtlicher Täuschung gelten die kurzen Gewährleistungsfristen nicht. Unterbrechung lässt die Frist neu beginnen (OR 137), Hemmung hält sie an (OR 134).",
+   "quelle": "VHRE VL5 - Vertragsverletzung und Beendigung der Leistungspflicht",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W5-07",
+   "modul": "VHRE",
+   "woche": 5,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Gewährleistung bei Kauf, Werk und Auftrag beurteilen",
+   "frage": "Petras neues Motorrad bleibt in den Ferien stehen. Sie will erst nach sechs Wochen rügen. Was gilt, wenn der Verkäufer den Mangel absichtlich verschwiegen hat?",
+   "optionen": [
+    "Er kann sich nicht auf die verspätete Rüge berufen (OR 203), und auch die kurze Verjährung gilt nicht",
+    "Die Rüge ist trotzdem verspätet, die Sache gilt als genehmigt",
+    "Petra muss den Vertrag zwingend wegen absichtlicher Täuschung anfechten, Gewährleistung ist ausgeschlossen",
+    "Petra erhält automatisch den doppelten Kaufpreis als Strafe zurück"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ohne Täuschung hätte Petra sofort nach Entdeckung rügen müssen, sonst gilt der Mangel als genehmigt (OR 201 Abs. 3). Absichtliche Täuschung hebelt Rügeobliegenheit und kurze Fristen aus (OR 210 Abs. 6).",
+   "quelle": "VHRE VL5 - Vertragsverletzung und Beendigung der Leistungspflicht",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W5-08",
+   "modul": "VHRE",
+   "woche": 5,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Gewährleistung bei Kauf, Werk und Auftrag beurteilen",
+   "frage": "Die Bauherrin Andrea hat einen Werkvertrag mit der Bau AG; diese lässt durch die Farb AG streichen, die giftige Farbe verwendet. Gegen wen kann Andrea vorgehen?",
+   "optionen": [
+    "Nur gegen die Bau AG: Werkmangel (OR 368), die Farb AG ist ihre Hilfsperson (OR 101)",
+    "Nur gegen die Farb AG, weil sie den Schaden verursacht hat",
+    "Gegen beide aus Vertrag, nach freier Wahl",
+    "Gegen niemanden, weil Subunternehmer die Haftung des Hauptunternehmers ausschliessen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Zwischen Andrea und der Farb AG besteht kein Vertrag. Beim Werkvertrag ist Schadenersatz verschuldensabhängig; das Verschulden der Farb AG wird der Bau AG zugerechnet.",
+   "quelle": "VHRE Übung 5 - Schlechterfüllung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W5-09",
+   "modul": "VHRE",
+   "woche": 5,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Gewährleistung bei Kauf, Werk und Auftrag beurteilen",
+   "frage": "Ein Glaser liefert Scheiben (Kauf) und beschädigt dabei den Zaun der Käuferin. Worauf stützt sich ihr Anspruch?",
+   "optionen": [
+    "Auf eine Nebenpflichtverletzung nach OR 97, Verschulden vermutet",
+    "Auf die Gewährleistung nach OR 197 ff., weil die Kaufsache mangelhaft ist",
+    "Auf OR 208 Abs. 2, weil der Schaden unmittelbar ist",
+    "Auf den Werkvertrag, weil der Glaser handwerklich tätig war"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Der Schaden am Zaun ist kein Kaufmangel. Verletzt ist die Pflicht, bei der Erfüllung das Eigentum des Käufers nicht zu schädigen.",
+   "quelle": "VHRE Übung 5 - Schlechterfüllung",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W5-10",
+   "modul": "VHRE",
+   "woche": 5,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Gewährleistung bei Kauf, Werk und Auftrag beurteilen",
+   "frage": "Eine 2012 gekaufte römische Münze erweist sich 2015 als Fälschung; die Gewährleistung ist verjährt. Was bleibt dem Käufer?",
+   "optionen": [
+    "Die Anfechtung wegen Grundlagenirrtum, ein Jahr ab Entdeckung (OR 24 Abs. 1 Ziff. 4, OR 31)",
+    "Nichts: Nach Ablauf der Gewährleistung sind alle Rechte erloschen",
+    "Eine neue zweijährige Gewährleistungsfrist ab Entdeckung",
+    "Nur eine Strafanzeige, zivilrechtliche Ansprüche bestehen nicht mehr"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Verjährte Gewährleistung heisst nicht automatisch keine Rechte. Zusätzlich ist zu prüfen, ob die Münze als Kulturgut gilt; dann gilt nach OR 210 Abs. 3 eine längere Frist.",
+   "quelle": "VHRE Übung 5 - Schlechterfüllung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W5-11",
+   "modul": "VHRE",
+   "woche": 5,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Gewährleistung bei Kauf, Werk und Auftrag beurteilen",
+   "frage": "Kranke Papageien stecken nach dem Kauf den ganzen Bestand an. Wie ordnet das Bundesgericht (BGE 133 III 257) den Tod des übrigen Bestands ein?",
+   "optionen": [
+    "Als unmittelbaren Schaden, der bei Wandelung ohne Verschulden zu ersetzen ist",
+    "Als mittelbaren Schaden, der nur bei Verschulden zu ersetzen ist",
+    "Als entgangenen Gewinn, der nie ersetzt wird",
+    "Als Schaden aus Viehkauf nach OR 198, für den Sonderregeln gelten"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Unmittelbar ist der Schaden, der direkt durch den Mangel entsteht. Entgangener Gewinn aus geplatzten Verkäufen bleibt mittelbar. Papageien sind kein Vieh, es gelten die gewöhnlichen Kaufregeln.",
+   "quelle": "VHRE Übung 5 - Schlechterfüllung",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W6-01",
+   "modul": "VHRE",
+   "woche": 6,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Vertragsarten qualifizieren und abgrenzen",
+   "frage": "Ordne die Gebrauchsüberlassungsverträge ihrem Merkmal zu.",
+   "paare": [
+    [
+     "Miete (OR 253)",
+     "Entgeltliche Überlassung einer Sache zum Gebrauch"
+    ],
+    [
+     "Gebrauchsleihe (OR 305)",
+     "Unentgeltliche Überlassung zum Gebrauch"
+    ],
+    [
+     "Pacht (OR 275)",
+     "Überlassung zum Gebrauch und zur Nutzung, z. B. Früchte ernten"
+    ]
+   ],
+   "erklaerung": "Die Miete ist formlos gültig (OR 11), aber einzelne Handlungen wie die Kündigung von Wohnräumen sind formbedürftig. Für Wohn- und Geschäftsräume gelten viele Sonderregeln, deshalb zuerst das Mietobjekt klären.",
+   "quelle": "VHRE VL6 - Mietrecht I",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W6-02",
+   "modul": "VHRE",
+   "woche": 6,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Mängel der Mietsache und Mieterrechte beurteilen",
+   "frage": "Ein Vermieter vermietet die Wohnung nur, wenn der Mieter auch seine Gartenzwergsammlung kauft. Was gilt?",
+   "optionen": [
+    "Ein Koppelungsgeschäft: Die sachfremde Zusatzverpflichtung ist nichtig (OR 254)",
+    "Der ganze Mietvertrag ist anfechtbar wegen Übervorteilung",
+    "Die Zusatzverpflichtung ist gültig, weil im Mietrecht Vertragsfreiheit gilt",
+    "Der Mieter muss die Sammlung kaufen, kann den Preis aber mindern"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ein Koppelungsgeschäft macht den Mietvertrag von einer Verpflichtung abhängig, die nicht mit dem Gebrauch der Wohnung zusammenhängt (OR 254, VMWG 3).",
+   "quelle": "VHRE VL6 - Mietrecht I",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W6-03",
+   "modul": "VHRE",
+   "woche": 6,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Mängel der Mietsache und Mieterrechte beurteilen",
+   "frage": "Ordne die Mängel der Mietsache der Rechtsfolge zu.",
+   "paare": [
+    [
+     "Anfänglicher schwerer Mangel, Mieter übernimmt nicht",
+     "Verzugsregeln OR 107 bis 109 (OR 258 Abs. 1)"
+    ],
+    [
+     "Anfänglicher mittlerer oder kleiner Mangel",
+     "Nur Mängelrechte OR 259a ff. (OR 258 Abs. 3)"
+    ],
+    [
+     "Nachträglicher kleiner Mangel (z. B. Glühbirne)",
+     "Mieter behebt selbst (OR 259)"
+    ]
+   ],
+   "erklaerung": "Bei Übergabe kann der Mieter bei einem schweren Mangel noch «Nein» sagen und wie beim Verzug vorgehen. Hat er übernommen, bleiben die mietrechtlichen Mängelrechte. Anders als im Kauf werden Nichterfüllung, Verzug und Mangel gleich behandelt (OR 258).",
+   "quelle": "VHRE VL6 - Mietrecht I",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W6-04",
+   "modul": "VHRE",
+   "woche": 6,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Mängel der Mietsache und Mieterrechte beurteilen",
+   "frage": "Welche Rechte hat der Mieter bei einem Mangel nach OR 259a?",
+   "optionen": [
+    "Beseitigung des Mangels",
+    "Herabsetzung des Mietzinses",
+    "Hinterlegung des Mietzinses nach formellem Verfahren",
+    "Einseitiges Zurückbehalten des Mietzinses ohne weitere Schritte"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Dazu Schadenersatz (OR 259e) und Übernahme des Rechtsstreits (OR 259f). Einfach nicht zahlen ist riskant: Es droht Zahlungsverzug und Kündigung (OR 257d).",
+   "quelle": "VHRE VL6 - Mietrecht I",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W6-05",
+   "modul": "VHRE",
+   "woche": 6,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Mängel der Mietsache und Mieterrechte beurteilen",
+   "frage": "Bringe die Schritte zur Hinterlegung des Mietzinses in die richtige Reihenfolge.",
+   "items": [
+    "Schriftliche Aufforderung mit Frist zur Mängelbehebung und Androhung der Hinterlegung",
+    "Frist läuft unbenutzt ab",
+    "Schriftliche Ankündigung der Hinterlegung",
+    "Mietzins bei der vom Kanton bezeichneten Stelle zahlen",
+    "Innert 30 Tagen die Schlichtungsbehörde anrufen"
+   ],
+   "erklaerung": "Die Hinterlegung gilt nur für unbewegliche Sachen (OR 259g bis i). Der Mieter zahlt, der Vermieter erhält das Geld aber erst, wenn der Mangel geklärt ist. Fall Markus: Ankündigen, ab sofort nicht mehr zu zahlen, ist falsch.",
+   "quelle": "VHRE VL6 - Mietrecht I",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W6-06",
+   "modul": "VHRE",
+   "woche": 6,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Pflichten im Mietverhältnis beurteilen",
+   "frage": "Die Verwaltung verlangt vier Monatszinse Kaution auf ihr Geschäftskonto. Was ist falsch?",
+   "optionen": [
+    "Höchstens drei Monatszinse sind zulässig",
+    "Die Kaution muss auf ein Sperrkonto auf den Namen des Mieters",
+    "Eine Kaution ist bei Wohnräumen generell unzulässig",
+    "Die Kaution muss bar beim Vermieter hinterlegt werden"
+   ],
+   "loesung": [
+    0,
+    1
+   ],
+   "erklaerung": "OR 257e. Die Bank gibt die Kaution nur heraus bei Vereinbarung beider Parteien, rechtskräftigem Zahlungsbefehl oder Urteil, oder wenn der Vermieter ein Jahr nach Mietende nichts geltend gemacht hat.",
+   "quelle": "VHRE VL6 - Mietrecht I",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W6-07",
+   "modul": "VHRE",
+   "woche": 6,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Pflichten im Mietverhältnis beurteilen",
+   "frage": "Der Mieter einer Wohnung zahlt nach der Übergabe den Mietzins nicht. Wie geht der Vermieter vor (OR 257d)?",
+   "optionen": [
+    "Schriftlich eine Zahlungsfrist von mindestens 30 Tagen setzen und die Kündigung androhen, dann mit 30 Tagen Frist auf Monatsende kündigen",
+    "Sofort fristlos kündigen, ohne Mahnung",
+    "Mahnen und eine Nachfrist von 10 Tagen setzen, dann ordentlich mit 3 Monaten kündigen",
+    "Die Kaution einziehen und den Vertrag unverändert weiterlaufen lassen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Bei Wohn- und Geschäftsräumen beträgt die Zahlungsfrist 30 Tage, sonst 10 Tage. Vor der Übergabe gelten die allgemeinen Verzugsregeln (OR 107 ff.).",
+   "quelle": "VHRE VL6 - Mietrecht I",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W6-08",
+   "modul": "VHRE",
+   "woche": 6,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Pflichten im Mietverhältnis beurteilen",
+   "frage": "Lemmy spielt jede Nacht von 21 bis 6 Uhr Schlagzeug. Was kann der Vermieter tun?",
+   "optionen": [
+    "Schriftlich mahnen; ändert sich nichts und ist die Fortsetzung unzumutbar, mit 30 Tagen Frist kündigen (OR 257f)",
+    "Sofort fristlos kündigen, weil Lärm immer eine schwere Vertragsverletzung ist",
+    "Nur die Kaution einbehalten, kündigen darf er wegen Lärm nicht",
+    "Nichts, weil der Mieter in seiner Wohnung tun darf, was er will"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Lemmy verletzt die Pflicht zu Sorgfalt und Rücksichtnahme. Fristlos ohne Mahnung geht es nur bei vorsätzlicher schwerer Beschädigung der Sache.",
+   "quelle": "VHRE VL6 - Mietrecht I",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W6-09",
+   "modul": "VHRE",
+   "woche": 6,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Mängel der Mietsache und Mieterrechte beurteilen",
+   "frage": "Sandra lässt den defekten Glaskeramikherd selbst reparieren, ohne den Vermieter vorher zu informieren. Muss der Vermieter die Rechnung zahlen?",
+   "optionen": [
+    "Grundsätzlich nein: Ersatzvornahme ist erst zulässig, wenn der Vermieter den Mangel kennt und nicht innert angemessener Frist handelt",
+    "Ja, weil der Vermieter für die Instandhaltung immer aufkommen muss",
+    "Ja, aber nur zur Hälfte, weil beide Parteien Verantwortung tragen",
+    "Nein, weil ein defekter Herd ein kleiner Mangel ist, den der Mieter immer selbst trägt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Reihenfolge: melden (Meldepflicht OR 257g), Frist abwarten, dann selbst beheben lassen (OR 259b lit. b). Ohne Meldung hatte der Vermieter keine Gelegenheit, selbst zu reparieren.",
+   "quelle": "VHRE Übung 6 - Mietrecht I",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W6-10",
+   "modul": "VHRE",
+   "woche": 6,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Mängel der Mietsache und Mieterrechte beurteilen",
+   "frage": "Lärm von einer Baustelle auf dem Nachbargrundstück beeinträchtigt die Wohnung. Kann der Mieter eine Herabsetzung verlangen, obwohl der Vermieter nichts dafür kann?",
+   "optionen": [
+    "Ja: Die Herabsetzung setzt kein Verschulden voraus, nur der Schadenersatz",
+    "Nein: Mängelrechte bestehen nur, wenn der Vermieter den Mangel verschuldet hat",
+    "Nein: Störungen durch Dritte sind nie ein Mangel der Mietsache",
+    "Ja, aber nur, wenn der Mieter zuvor den Mietzins hinterlegt hat"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Herabsetzung gleicht die verminderte Tauglichkeit aus. Auch eine defekte gemeinsame Waschmaschine oder ein lauter Papagei des Nachbarn trotz Verbot können Mängel sein.",
+   "quelle": "VHRE Übung 6 - Mietrecht I",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W6-11",
+   "modul": "VHRE",
+   "woche": 6,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Pflichten im Mietverhältnis beurteilen",
+   "frage": "Der 12 Jahre alte Kühlschrank (Lebensdauer 10 Jahre) geht kaputt. Wer zahlt den Ersatz?",
+   "optionen": [
+    "Der Vermieter: Instandhaltungspflicht nach OR 256 Abs. 1, normale Abnutzung zahlt der Mieter nicht",
+    "Die Mieterin, weil Haushaltgeräte in ihren Verantwortungsbereich fallen",
+    "Die Mieterin, weil ein Kühlschrank ein kleiner Mangel nach OR 259 ist",
+    "Beide je zur Hälfte, weil die Lebensdauer überschritten ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ein Gerät, das an Altersschwäche stirbt, ist gewöhnliche Abnutzung. Aber: Abgelaufene Lebensdauer allein begründet keinen Ersatzanspruch, solange die Sache noch taugt (Fall Spannteppiche: hässlich ist nicht untauglich).",
+   "quelle": "VHRE Übung 6 - Mietrecht I",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W6-12",
+   "modul": "VHRE",
+   "woche": 6,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Kündigung und Mieterschutz beurteilen",
+   "frage": "Linda will vorzeitig aus ihrer Wohnung ausziehen und die Miete an einen Dritten übertragen. Was ist möglich?",
+   "optionen": [
+    "Nur die vorzeitige Rückgabe mit einem zahlungsfähigen, zumutbaren Ersatzmieter (OR 264); die Übertragung nach OR 263 gilt nur für Geschäftsräume",
+    "Die Übertragung nach OR 263, weil sie für alle Mietobjekte gilt",
+    "Ein fristloser Auszug ohne weitere Folgen, wenn sie einen wichtigen Grund nennt",
+    "Nichts: Sie muss in jedem Fall bis zum nächsten Kündigungstermin zahlen, auch mit Ersatzmieter"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Stellt sie einen zumutbaren Ersatzmieter, der den Vertrag zu gleichen Bedingungen übernimmt, wird sie frei, auch wenn der Vermieter ihn ablehnt. Sonst zahlt sie bis zum nächsten Kündigungstermin.",
+   "quelle": "VHRE Übung 6 - Mietrecht I",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W7-01",
+   "modul": "VHRE",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Kündigung und Mieterschutz beurteilen",
+   "frage": "Ordne den Mietobjekten die gesetzliche Kündigungsfrist zu.",
+   "paare": [
+    [
+     "Wohnung (OR 266c)",
+     "3 Monate auf ortsüblichen Termin"
+    ],
+    [
+     "Geschäftsraum (OR 266d)",
+     "6 Monate"
+    ],
+    [
+     "Möbliertes Zimmer, separater Einstellplatz (OR 266e)",
+     "2 Wochen"
+    ],
+    [
+     "Bewegliche Sache (OR 266f)",
+     "3 Tage"
+    ]
+   ],
+   "erklaerung": "Wird Frist oder Termin verpasst, ist die Kündigung nicht ungültig, sondern wirkt auf den nächstmöglichen Termin (OR 266a Abs. 2). Befristete Verträge enden ohne Kündigung; stillschweigend fortgesetzt gelten sie als unbefristet.",
+   "quelle": "VHRE VL7 - Mietrecht II",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W7-02",
+   "modul": "VHRE",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kündigung und Mieterschutz beurteilen",
+   "frage": "Der Vermieter kündigt die Wohnung per E-Mail. Was gilt?",
+   "optionen": [
+    "Die Kündigung ist nichtig: Er braucht Schriftform und das amtliche Formular (OR 266l, 266o)",
+    "Die Kündigung ist gültig, der Mieter kann sie aber innert 30 Tagen anfechten",
+    "Die Kündigung ist gültig, weil E-Mail heute als Schriftform gilt",
+    "Die Kündigung wirkt auf den nächstmöglichen Termin"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Nichtig ≠ anfechtbar: Formfehler machen nichtig, ein treuwidriges Motiv macht anfechtbar. Bei einer Familienwohnung muss der Vermieter zudem beiden Ehegatten separat zustellen (OR 266n), der Mieter braucht die Zustimmung des Ehegatten (OR 266m).",
+   "quelle": "VHRE VL7 - Mietrecht II",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W7-03",
+   "modul": "VHRE",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kündigung und Mieterschutz beurteilen",
+   "frage": "Was gilt für die ausserordentliche Kündigung aus wichtigem Grund nach OR 266g?",
+   "optionen": [
+    "Sie ist mit der gesetzlichen Frist auf jeden Zeitpunkt möglich; der Grund darf weder selbst verschuldet noch vorhersehbar gewesen sein",
+    "Sie ist immer fristlos und ohne Begründung möglich",
+    "Sie steht nur dem Vermieter zu, nie dem Mieter",
+    "Sie kann im Mietvertrag ausgeschlossen werden"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ausserordentlich heisst nicht fristlos. OR 266g ist absolut zwingend; das Gericht bestimmt den Schadenersatz. Fristlos geht es nur, wo das Gesetz es vorsieht, z. B. bei schweren Mängeln (OR 259b lit. a) oder Konkurs ohne Sicherheit (OR 266h).",
+   "quelle": "VHRE VL7 - Mietrecht II",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W7-04",
+   "modul": "VHRE",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Mietzinsschutz und Mietzinserhöhung beurteilen",
+   "frage": "Marc soll 1500 zahlen, der Vormieter zahlte 1000. Was kann er tun?",
+   "optionen": [
+    "Den Anfangsmietzins innert 30 Tagen ab Übernahme bei der Schlichtungsbehörde anfechten (Erhöhung über 10 %, OR 270)",
+    "Den Anfangsmietzins innert 30 Tagen ab Vertragsschluss beim Gericht anfechten",
+    "Nichts, weil der Anfangsmietzins frei vereinbart werden darf",
+    "Den Mietzins einseitig auf 1000 kürzen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Frist läuft ab Übernahme, nicht ab Vertragsschluss. Anfechtbar ist der Anfangszins bei Notlage, Wohnungsmangel oder einer Erhöhung um mehr als 10 %. Missbräuchlich ist ein übersetzter Ertrag (OR 269).",
+   "quelle": "VHRE VL7 - Mietrecht II",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W7-05",
+   "modul": "VHRE",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Mietzinsschutz und Mietzinserhöhung beurteilen",
+   "frage": "Welche Mietzinserhöhung ist nichtig (OR 269d Abs. 2)?",
+   "optionen": [
+    "Eine Erhöhung ohne amtliches Formular",
+    "Eine Erhöhung ohne Begründung",
+    "Eine Erhöhung, die mit einer Kündigungsdrohung verbunden ist",
+    "Eine Erhöhung mit Formular und Begründung, die 10 Tage vor Beginn der Kündigungsfrist zugeht"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Die Erhöhung muss 10 Tage vor Beginn der Kündigungsfrist zugehen und wirkt auf den nächsten Kündigungstermin. Zugang nach der eingeschränkten Empfangstheorie: abgeholt oder letzter Tag der 7-tägigen Abholfrist. Bei befristeten Verträgen ist eine einseitige Erhöhung ausgeschlossen.",
+   "quelle": "VHRE VL7 - Mietrecht II",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W7-06",
+   "modul": "VHRE",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Mietzinsschutz und Mietzinserhöhung beurteilen",
+   "frage": "Welche Nettorendite ist bei einem Referenzzinssatz von 1,25 % höchstens zulässig?",
+   "antwort": "3,25 %: Bei einem Referenzzins von 2 % oder weniger darf die Nettorendite höchstens 2 Prozentpunkte darüber liegen (BGer 2020).",
+   "erklaerung": "Urteil vom 26. Oktober 2020 (4A_554/2019). Früher galt: höchstens 0,5 % über dem Hypothekarzins. Der Referenzzinssatz wird schweizweit vierteljährlich festgelegt.",
+   "quelle": "VHRE VL7 - Mietrecht II",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W7-07",
+   "modul": "VHRE",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kündigung und Mieterschutz beurteilen",
+   "frage": "Marina meldet einen defekten Kühlschrank, der Vermieter kündigt sofort, weil sie sich «immer wegen Kleinigkeiten» beschwere. Was kann sie tun?",
+   "optionen": [
+    "Innert 30 Tagen bei der Schlichtungsbehörde als Rachekündigung anfechten (OR 271a Abs. 1 lit. a)",
+    "Nichts, weil der Vermieter ohne Begründung kündigen darf",
+    "Die Kündigung ignorieren, weil sie automatisch nichtig ist",
+    "Innert eines Jahres beim Gericht Schadenersatz verlangen, die Kündigung bleibt gültig"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Sie macht einen berechtigten Anspruch auf eine taugliche Mietsache geltend. Während des Verfahrens gilt der Vertrag weiter (OR 270e). Ist die Anfechtung erfolgreich, ist die Kündigung ungültig.",
+   "quelle": "VHRE VL7 - Mietrecht II",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W7-08",
+   "modul": "VHRE",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kündigung und Mieterschutz beurteilen",
+   "frage": "Ein 80-jähriger Mieter findet nach einer gültigen Kündigung keine Ersatzwohnung. Was kann er verlangen?",
+   "optionen": [
+    "Eine Erstreckung des Mietverhältnisses nach Interessenabwägung, bei Wohnräumen höchstens 4 Jahre (OR 272)",
+    "Die Aufhebung der Kündigung, weil ältere Mieter nicht gekündigt werden dürfen",
+    "Eine Herabsetzung des Mietzinses bis zum Auszug",
+    "Nichts, weil eine gültige Kündigung nicht mehr angefochten werden kann"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Hohes Alter, Invalidität, Grossfamilie oder Kleinkinder sind typische Härten. Begehren innert 30 Tagen nach Empfang (unbefristeter Vertrag). Ausgeschlossen v. a. bei Zahlungsverzug; Geschäftsräume max. 6 Jahre.",
+   "quelle": "VHRE VL7 - Mietrecht II",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W7-09",
+   "modul": "VHRE",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kündigung und Mieterschutz beurteilen",
+   "frage": "Was gilt bei einer Kündigung wegen dringenden Eigenbedarfs (BGE 118 II 50)?",
+   "optionen": [
+    "Die Sperrfristen gelten nicht, eine Erstreckung bleibt aber möglich",
+    "Die Kündigung ist immer missbräuchlich, wenn der Mieter schon lange dort wohnt",
+    "Dringender Eigenbedarf setzt eine allgemeine Wohnungsnot voraus",
+    "Die Kündigung ist nur mit Zustimmung der Schlichtungsbehörde gültig"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Es genügt, dass der Verzicht auf die Wohnung wirtschaftlich unzumutbar ist. Im Fall war die Kündigung gültig, nach Interessenabwägung aber mit einem Jahr Erstreckung.",
+   "quelle": "VHRE VL7 - Mietrecht II",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W7-10",
+   "modul": "VHRE",
+   "woche": 7,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Pflichten im Mietverhältnis beurteilen",
+   "frage": "Was muss der Vermieter bei der Rückgabe der Wohnung beachten?",
+   "optionen": [
+    "Er muss die Wohnung prüfen und Mängel sofort rügen, sonst verliert er seine Ansprüche (OR 267a)",
+    "Er kann Mängel bis zu fünf Jahre nach der Rückgabe geltend machen",
+    "Er darf für normale Abnutzung einen Abzug von der Kaution machen",
+    "Er muss die Kaution in jedem Fall sofort vollständig freigeben"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Der Mieter haftet nur für Schäden über die normale Abnutzung hinaus (Lebensdauertabellen). Versteckte Mängel rügt der Vermieter sofort nach Entdeckung. In der Praxis dient das Abnahmeprotokoll.",
+   "quelle": "VHRE VL7 - Mietrecht II",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W7-11",
+   "modul": "VHRE",
+   "woche": 7,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Kündigung und Mieterschutz beurteilen",
+   "frage": "Der verheiratete Mieter Hutter kündigt seine Familienwohnung telefonisch. Ist die Kündigung wirksam?",
+   "optionen": [
+    "Nein: Es fehlen die Schriftform (OR 266l Abs. 1) und die ausdrückliche Zustimmung der Ehefrau (OR 266m); sie ist nichtig",
+    "Ja, weil Mieter im Gegensatz zum Vermieter formlos kündigen dürfen",
+    "Ja, aber erst auf den übernächsten Kündigungstermin",
+    "Nein, aber nur weil das amtliche Formular fehlt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Das amtliche Formular braucht nur der Vermieter. Eine nichtige Kündigung muss man nicht anfechten, sie entfaltet einfach keine Wirkung.",
+   "quelle": "VHRE Übung 7 - Mietrecht II",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W7-12",
+   "modul": "VHRE",
+   "woche": 7,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Kündigung und Mieterschutz beurteilen",
+   "frage": "Eine Familie mit fünf Kindern erhält eine formell korrekte Kündigung wegen Eigenbedarfs. Welcher Rechtsbehelf ist realistisch?",
+   "optionen": [
+    "Die Erstreckung (OR 272), weil der Auszug für die Grossfamilie eine Härte ist",
+    "Die Anfechtung als Rachekündigung, weil Eigenbedarf immer treuwidrig ist",
+    "Die Feststellung der Nichtigkeit wegen Formmangels",
+    "Die Hinterlegung des Mietzinses bis zum Auszug"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Eigenbedarf ist ein legitimer Grund; eine Anfechtung hat wenig Aussicht, ausser er ist vorgeschoben. Erstreckungsbegehren innert 30 Tagen (OR 273 Abs. 2), max. 4 Jahre. Für eine zweite Erstreckung muss man sich ernsthaft um Ersatz bemühen.",
+   "quelle": "VHRE Übung 7 - Mietrecht II",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W7-13",
+   "modul": "VHRE",
+   "woche": 7,
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Pflichten im Mietverhältnis beurteilen",
+   "frage": "Ein Mieter will einen Teil seiner Wohnung untervermieten. Was gilt (OR 262)?",
+   "optionen": [
+    "Er braucht die Zustimmung des Vermieters, der sie nur aus gesetzlich bestimmten Gründen verweigern darf",
+    "Er darf frei untervermieten, solange er den Vermieter nachträglich informiert",
+    "Untermiete ist bei Wohnungen generell verboten",
+    "Der Vermieter darf die Zustimmung ohne Begründung verweigern"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Verweigerungsgründe: Bedingungen nicht offengelegt, missbräuchliche Bedingungen, wesentliche Nachteile. Wer nicht fragt, riskiert eine Kündigung. Der Hauptmieter haftet für die Rückgabe, wenn der Untermieter nicht auszieht.",
+   "quelle": "VHRE Übung 7 - Mietrecht II",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W4-01",
+   "modul": "WSA1",
+   "woche": 4,
+   "kategorie": "organisation",
+   "typ": "mc",
+   "lernziel": "Ein Abstract verfassen",
+   "frage": "Wonach wird das Testat-Abstract bewertet?",
+   "optionen": [
+    "Inhalt: wesentliche Teile korrekt exzerpiert, ohne Details",
+    "Aufbau: alle Teile vorhanden, kohärent und abgeschlossen",
+    "Sprache: Wissenschaftssprache, verständlich",
+    "Vollständigkeit: möglichst alle Details und Zahlen des Artikels"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Rahmen: Abstract zu einem wissenschaftlichen Artikel, 150 Wörter (± 20), 80 Minuten, pen & paper, Präsenzpflicht. Details gehören gerade nicht hinein.",
+   "quelle": "WSA1 LB4 - Testat und Rahmenteile einer wissenschaftlichen Arbeit",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W4-02",
+   "modul": "WSA1",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Rahmenteile einer wissenschaftlichen Arbeit gestalten",
+   "frage": "Bringe die Teile der Seminararbeit in die richtige Reihenfolge.",
+   "items": [
+    "Deckblatt mit Titel",
+    "Inhaltsverzeichnis",
+    "Tabellen- und Abbildungsverzeichnis",
+    "Einleitung",
+    "Hauptteil",
+    "Zusammenfassung",
+    "Literaturverzeichnis"
+   ],
+   "erklaerung": "Danach folgen Hilfsmittelverzeichnis mit Selbständigkeitserklärung und Anhänge (die Folien nennen beide Reihenfolgen; im Zweifel nach der Aufgabenstellung richten). Einleitung und Zusammenfassung spiegeln sich.",
+   "quelle": "WSA1 LB4 - Testat und Rahmenteile einer wissenschaftlichen Arbeit",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W4-03",
+   "modul": "WSA1",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Rahmenteile einer wissenschaftlichen Arbeit gestalten",
+   "frage": "Welche zwei Anforderungen muss eine Definition in einer wissenschaftlichen Arbeit erfüllen?",
+   "optionen": [
+    "Klar und eindeutig sowie zweckmässig für die eigene Arbeit (zugeschnitten und konsistent)",
+    "Möglichst ausführlich und aus mindestens drei verschiedenen Lexika zusammengesetzt",
+    "Wörtlich aus dem Duden übernommen und in Anführungszeichen gesetzt",
+    "Selbst formuliert, ohne Rückgriff auf Quellen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Definitionen sichern die intersubjektive Nachvollziehbarkeit. Ein Begriff kann viele Definitionen haben («Arbeit» betriebswirtschaftlich, volkswirtschaftlich, steuerlich); die Wahl beeinflusst das Ergebnis. Faustregel: kurze Definition aus guter Quelle, dann ein Satz, wie der Begriff in dieser Arbeit verwendet wird.",
+   "quelle": "WSA1 LB4 - Testat und Rahmenteile einer wissenschaftlichen Arbeit",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W4-04",
+   "modul": "WSA1",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Rahmenteile einer wissenschaftlichen Arbeit gestalten",
+   "frage": "Welche Bestandteile gehören in die Einleitung einer Seminararbeit?",
+   "optionen": [
+    "Aufhänger und Problemstellung",
+    "Forschungsfrage und Definitionen",
+    "Methode und Aufbau der Arbeit",
+    "Antwort auf die Forschungsfrage und Schlussfolgerungen"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Die Antwort auf die Forschungsfrage, die Erkenntnisse und die Schlussfolgerungen gehören in die Zusammenfassung. Die Forschungsfrage erscheint in beiden, in der Zusammenfassung als Rückbezug.",
+   "quelle": "WSA1 LB4 - Testat und Rahmenteile einer wissenschaftlichen Arbeit",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W4-05",
+   "modul": "WSA1",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Rahmenteile einer wissenschaftlichen Arbeit gestalten",
+   "frage": "Warum ist «Im 18. Jahrhundert begann die erste industrielle Revolution» kein guter Aufhänger?",
+   "optionen": [
+    "Es ist lexikalisches Allgemeinwissen ohne Bezug zum Problem und weckt kein Interesse",
+    "Es enthält keine Jahreszahl und ist deshalb zu ungenau",
+    "Ein Aufhänger muss immer ein wörtliches Zitat aus einer Fachquelle sein",
+    "Historische Bezüge sind in wissenschaftlichen Arbeiten grundsätzlich verboten"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Schwach sind auch Einstiege mit Verweis oder Paraphrase («Laut Beretta und Hellweg …»). Gelungen: konkrete, zum Nachdenken anregende Einstiege wie «I amsterdam» oder «Volle Regale … Standard».",
+   "quelle": "WSA1 LB4 - Testat und Rahmenteile einer wissenschaftlichen Arbeit",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W4-06",
+   "modul": "WSA1",
+   "woche": 4,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Rahmenteile einer wissenschaftlichen Arbeit gestalten",
+   "frage": "Was ist die Aufgabe der Zusammenfassung am Ende der Seminararbeit?",
+   "optionen": [
+    "Ergebnisse pointiert zusammenfassen, ein Fazit ziehen, einordnen und ggf. Handlungsempfehlungen geben",
+    "Die Kapitel des Hauptteils der Reihe nach nacherzählen",
+    "Neue Quellen und Argumente einführen, die im Hauptteil keinen Platz hatten",
+    "Die Forschungsfrage neu formulieren, falls sie sich als zu eng erwiesen hat"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Zusammenfassung löst ein, was die Einleitung angekündigt hat. Sie ist keine Nacherzählung der Kapitel (Bünting et al. 2004).",
+   "quelle": "WSA1 LB4 - Testat und Rahmenteile einer wissenschaftlichen Arbeit",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W6-01",
+   "modul": "WSA1",
+   "woche": 6,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Wissenschaftlich und verständlich formulieren",
+   "frage": "Welche Merkmale gehören laut LB6 zur Wissenschaftssprache?",
+   "optionen": [
+    "Fachbegriffe verwenden und differenzieren",
+    "Wertfrei und neutral, weitgehend ohne Adjektive",
+    "Keine Personalpronomen, keine Metaphern, keine Schachtelsätze",
+    "Anschaulich erzählen und mit Bildern arbeiten"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Die acht Merkmale: Fachbegriffe, differenzieren, wertfrei, wenig Adjektive, keine Personalpronomen, keine Metaphern, nicht erzählend, keine Schachtelsätze. Sie decken sich mit Brink (2013).",
+   "quelle": "WSA1 LB6 - Wissenschaftssprache und Auftrag zum Grobkonzept",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W6-02",
+   "modul": "WSA1",
+   "woche": 6,
+   "kategorie": "uebung",
+   "typ": "match",
+   "lernziel": "Wissenschaftlich und verständlich formulieren",
+   "frage": "Ordne die Textstellen dem Verstoss gegen die Wissenschaftssprache zu.",
+   "paare": [
+    [
+     "«ein wichtiges und relevantes Thema»",
+     "Doppelung (Redundanz)"
+    ],
+    [
+     "«eine nähere Untersuchung wird vorgenommen»",
+     "Nominalstil"
+    ],
+    [
+     "«leider nur relativ wenige Studien»",
+     "Wertung und vage"
+    ],
+    [
+     "«ungebremstes Konsumverhalten»",
+     "Bildhafte Sprache"
+    ]
+   ],
+   "erklaerung": "Verbesserungen: «ein relevantes Thema» mit Beleg, «Die Arbeit untersucht …», Anzahl der Studien nennen, Konsumverhalten messbar beschreiben.",
+   "quelle": "WSA1 LB6 - Wissenschaftssprache und Auftrag zum Grobkonzept",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W6-03",
+   "modul": "WSA1",
+   "woche": 6,
+   "kategorie": "organisation",
+   "typ": "mc",
+   "lernziel": "Modulorganisation und Leistungsnachweis kennen",
+   "frage": "Welche Quellen muss die Rechercheskizze im Grobkonzept mindestens enthalten?",
+   "optionen": [
+    "Acht Titel, davon drei Journal-Artikel, eine Monografie und ein Sammelband",
+    "Fünf Titel, davon mindestens zwei Monografien",
+    "Zehn Titel, davon die Hälfte aus dem Internet",
+    "Drei Titel, ein Journal-Artikel, eine Monografie, ein Sammelband"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Rechercheskizze ist eine Tabelle mit Kapitel, Quelle nach APA 7 mit Quellentyp und fachlicher Eignung. Das Grobkonzept zählt 3/10 und geht eine Woche vor dem Feedback per E-Mail ein.",
+   "quelle": "WSA1 LB6 - Wissenschaftssprache und Auftrag zum Grobkonzept",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W6-04",
+   "modul": "WSA1",
+   "woche": 6,
+   "kategorie": "organisation",
+   "typ": "order",
+   "lernziel": "Modulorganisation und Leistungsnachweis kennen",
+   "frage": "Bringe die drei Hauptteile des Grobkonzepts in die Reihenfolge der Vorlage.",
+   "items": [
+    "Einleitung (rund 300 Wörter, mit Titelvorschlag)",
+    "Rechercheskizze (acht Quellen nach APA 7)",
+    "Gliederung mit erläuterten Kapiteln"
+   ],
+   "erklaerung": "Dazu im Anhang Selbständigkeitserklärung und Hilfsmittelverzeichnis. Falle: Eine Gliederung ohne Erläuterungen der Kapitel reicht nicht.",
+   "quelle": "WSA1 LB6 - Wissenschaftssprache und Auftrag zum Grobkonzept",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W6-05",
+   "modul": "WSA1",
+   "woche": 6,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Wissenschaftlich und verständlich formulieren",
+   "frage": "Woran erkennt man laut Brink (2013) den Nominalstil?",
+   "optionen": [
+    "An gehäuften Substantiven auf -heit, -keit und -ung statt Verben",
+    "An besonders kurzen Hauptsätzen ohne Nebensätze",
+    "An der Verwendung von Fachbegriffen statt Alltagssprache",
+    "An Sätzen im Passiv, die immer zu vermeiden sind"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beispiele: «unter Beweis stellen» → beweisen, «ist abhängig von» → hängt ab von. Weitere Verbote: doppelte Verneinungen, Präpositionsketten, unnötige Fremdwörter und themenspezifische Abkürzungen.",
+   "quelle": "WSA1 - Brink zu Schreibstil und Ausdrucksweise",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W6-06",
+   "modul": "WSA1",
+   "woche": 6,
+   "kategorie": "literatur",
+   "typ": "match",
+   "lernziel": "Wissenschaftlich und verständlich formulieren",
+   "frage": "Ordne die Beispiele Brinks Fehlerkategorien zu.",
+   "paare": [
+    [
+     "«Um kostendeckend zu arbeiten, müssen alle Kosten gedeckt werden.»",
+     "Tautologie"
+    ],
+    [
+     "«weisser Schimmel», «finale Zielerreichung»",
+     "Pleonasmus"
+    ],
+    [
+     "«Der Controller hat keinen leichten Stand.»",
+     "Bildhafte Sprache"
+    ],
+    [
+     "«Relevant sind Kosten, die sich ändern; Kosten, die sich ändern, sind relevant.»",
+     "Zirkelschluss"
+    ]
+   ],
+   "erklaerung": "Weitere Kategorien: Plattitüde, umgangssprachlich, salopp, Scheinkausalität, Füllwörter (also, dann, auch, nun), vage Ausdrücke (grösstenteils, enorm, ziemlich).",
+   "quelle": "WSA1 - Brink zu Schreibstil und Ausdrucksweise",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W6-07",
+   "modul": "WSA1",
+   "woche": 6,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Wissenschaftlich und verständlich formulieren",
+   "frage": "Wie gehen wissenschaftliche Texte laut Brink mit Literaturmeinungen um?",
+   "optionen": [
+    "Zuerst neutral und unkommentiert darstellen, die Beurteilung strikt getrennt danach",
+    "Literaturmeinung und eigene Wertung im selben Satz verbinden, damit der Text flüssig bleibt",
+    "Nur Meinungen wiedergeben, die die eigene These stützen",
+    "Literaturmeinungen grundsätzlich nicht bewerten, weil Wissenschaft wertfrei ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Emotionslos und distanziert schreiben; Wertungswörter wie «erfreulicherweise», «leider», «natürlich», «selbstverständlich» streichen. Wichtige Aussagen gehören in Hauptsätze, jeder Gedanke nur einmal.",
+   "quelle": "WSA1 - Brink zu Schreibstil und Ausdrucksweise",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W6-08",
+   "modul": "WSA1",
+   "woche": 6,
+   "kategorie": "literatur",
+   "typ": "flash",
+   "lernziel": "Wissenschaftlich und verständlich formulieren",
+   "frage": "Wann sind Fremdwörter laut Brink zulässig?",
+   "antwort": "Wenn sie anschaulicher, exakter oder deutlich kürzer sind oder Eigennamen bezeichnen.",
+   "erklaerung": "Fremdwörter sind kein Beleg von Sachverstand («predeterminiert» statt vorbestimmt). Üblich abgekürzte Wendungen wie z. B., d. h., bzw. sind in Ordnung, themenspezifische Abkürzungen belasten die Lesenden.",
+   "quelle": "WSA1 - Brink zu Schreibstil und Ausdrucksweise",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W2-20",
+   "modul": "WSA1",
+   "woche": 2,
+   "kategorie": "literatur",
+   "typ": "match",
+   "lernziel": "Texte systematisch lesen und auswerten",
+   "frage": "Ordne die Begriffe nach Gsenger (2025) zu.",
+   "paare": [
+    [
+     "Desinformation",
+     "Absichtliche Verbreitung unwahrer Information"
+    ],
+    [
+     "Misinformation",
+     "Unwahre Information, nicht absichtlich verbreitet"
+    ],
+    [
+     "Malinformation",
+     "Wahre Information, die schaden soll"
+    ],
+    [
+     "Astroturfing",
+     "Vorgetäuschte Graswurzelbewegung"
+    ]
+   ],
+   "erklaerung": "Das Zuschreibungsproblem: Die Absicht ist schwer nachweisbar. Fake News ist pseudojournalistisch oder ein Kampfbegriff.",
+   "quelle": "WSA1 - Gsenger Finanzierung von Desinformation",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W2-21",
+   "modul": "WSA1",
+   "woche": 2,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Texte systematisch lesen und auswerten",
+   "frage": "Warum landet Werbung seriöser Marken laut Gsenger (2025) auf Desinformationsseiten?",
+   "optionen": [
+    "Beim Programmatic Advertising versteigert ein Algorithmus Werbeplätze in Echtzeit; die Marke wählt den konkreten Platz nicht selbst",
+    "Die Marken unterstützen Desinformationsseiten bewusst, um politische Ziele zu erreichen",
+    "Desinformationsseiten kopieren die Werbung seriöser Marken ohne deren Wissen",
+    "Plattformen sind gesetzlich verpflichtet, Werbung gleichmässig auf alle Seiten zu verteilen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Real Time Bidding gilt als «äusserst komplex und opak». Weitere Profiteure: Dienstleister wie Trollfarmen und Influencer:innen über parasoziale Beziehungen.",
+   "quelle": "WSA1 - Gsenger Finanzierung von Desinformation",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W2-22",
+   "modul": "WSA1",
+   "woche": 2,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Merkmale wissenschaftlicher Texte und Quellentypen kennen",
+   "frage": "Welche Aussage zu Filterblasen trifft laut Gsenger (2025) zu?",
+   "optionen": [
+    "Sie sind empirisch nicht nachgewiesen, Echokammern nur teilweise",
+    "Sie sind durch zahlreiche Studien eindeutig belegt",
+    "Sie entstehen nur auf Videoplattformen, nicht in sozialen Netzwerken",
+    "Sie wurden durch den Digital Services Act vollständig abgeschafft"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Bruns (2019, 2022). Für eine Seminararbeit heisst das: populär ≠ belegt. Gsenger ist ein Überblickswerk, keine eigene empirische Studie; die Befunde stammen aus zitierten Quellen.",
+   "quelle": "WSA1 - Gsenger Finanzierung von Desinformation",
    "kern": false
   }
  ]

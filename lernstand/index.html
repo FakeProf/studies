@@ -391,6 +391,11 @@ section{margin-top:30px}
 .seriestreifen .lbl{font-family:var(--f-mono); font-size:10px; letter-spacing:.07em;
   text-transform:uppercase; color:var(--muted)}
 .seriestreifen .pool{margin-left:auto; font-size:12px}
+/* Abgemeldet, obwohl dieses Gerät schon ein Konto kannte: dann zählt nichts
+ * für die eigene Serie. Das soll man sehen, bevor man übt, nicht danach. */
+.abgemeldet{display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:10px;
+  padding:9px 12px; border-radius:8px; background:var(--warn-soft); color:var(--warn); font-size:13px}
+.abgemeldet .btn{margin-left:auto}
 .stage{display:flex; gap:4px}
 .stage i{display:block; width:15px; height:5px; border-radius:3px; background:var(--surface-3)}
 .stage i.erledigt{background:var(--accent)}
@@ -655,8 +660,61 @@ function loadLocal(){
     if(raw){ const o=JSON.parse(raw); stats=o.stats||{}; runs=o.runs||[]; }
   }catch(e){ /* privates Fenster o. ä. — läuft ohne */ }
 }
+/* Die Serie wird aus allen Runden abgeleitet. Schneidet der lokale Speicher
+ * die Liste kürzer ab als der Abgleich mit Neon, entsteht in der Mitte eine
+ * Lücke, die wie ein verpasster Tag aussieht. Daher hier und dort dieselbe
+ * Grenze. Eine Runde braucht rund 300 Byte, 1000 davon passen bequem. */
+const RUNDEN_MAX = 1000;
 function saveLocal(){
-  try{ localStorage.setItem(LS_KEY, JSON.stringify({stats, runs:runs.slice(-60)})); }catch(e){}
+  try{ localStorage.setItem(LS_KEY, JSON.stringify({stats, runs:runs.slice(-RUNDEN_MAX)})); }catch(e){}
+}
+
+/* ---------- Konto dieses Geräts ----------
+ * Jeder Browser und jede installierte App hält ihre eigene Anmeldung. Wer auf
+ * einem Gerät abgemeldet übt, schreibt in den offenen Stand, und die Serie im
+ * Konto reisst, obwohl jeden Tag geübt wurde. Deshalb merkt sich das Gerät,
+ * welches Konto es zuletzt kannte und welche Runden es ohne Anmeldung gespielt
+ * hat. Beim nächsten Anmelden wandern genau diese Runden ins Konto. */
+const LS_KONTO     = "lernstand.konto.v1";       // { id, name } des zuletzt angemeldeten Kontos
+const LS_OHNEKONTO = "lernstand.ohnekonto.v1";   // Kennungen der Runden, die hier abgemeldet liefen
+
+function kontoGemerkt(){
+  try{ return JSON.parse(localStorage.getItem(LS_KONTO) || "null"); }catch(e){ return null; }
+}
+function kontoMerken(b){
+  try{
+    if(b) localStorage.setItem(LS_KONTO, JSON.stringify({ id: b.id, name: b.name || "" }));
+    else  localStorage.removeItem(LS_KONTO);
+  }catch(e){}
+}
+function ohneKontoLesen(){
+  try{ const l = JSON.parse(localStorage.getItem(LS_OHNEKONTO) || "[]"); return Array.isArray(l) ? l : []; }
+  catch(e){ return []; }
+}
+function ohneKontoSchreiben(l){
+  try{ l.length ? localStorage.setItem(LS_OHNEKONTO, JSON.stringify(l.slice(-RUNDEN_MAX)))
+                : localStorage.removeItem(LS_OHNEKONTO); }catch(e){}
+}
+
+/** Kennung der Kopie im Konto. Fest abgeleitet, damit ein zweites Anmelden
+ *  dieselbe Runde nicht noch einmal anlegt. Die Kennung ist der Primärschlüssel
+ *  über alle Benutzer, die Originalzeile gehört weiter dem offenen Stand. */
+const kontoKopieId = (id) => id + "-k";
+
+/** Nach dem Anmelden: die hier abgemeldet gespielten Runden ins Konto holen. */
+function rundenUebernehmen(vorher){
+  const ids = new Set(ohneKontoLesen());
+  if(!ids.size) return 0;
+  const bekannt = new Set(runs.map(r => r.id));
+  let n = 0;
+  for(const r of vorher){
+    if(!ids.has(r.id) || bekannt.has(r.id) || bekannt.has(kontoKopieId(r.id))) continue;
+    runs.push(Object.assign({}, r, { id: kontoKopieId(r.id) }));
+    n++;
+  }
+  runs.sort((a,b)=>a.ts-b.ts);
+  ohneKontoSchreiben([]);
+  return n;
 }
 function mergeStats(a,b){
   const out = Object.assign({}, a);
@@ -724,7 +782,8 @@ async function initNeon(){
 
     const [f, r] = await Promise.all([
       neon.from("fortschritt").select("*"),
-      neon.from("runden").select("*").order("ts", { ascending: true }).limit(200),
+      // Die jüngsten zuerst: aufsteigend mit Grenze kämen nur die ältesten.
+      neon.from("runden").select("*").order("ts", { ascending: false }).limit(RUNDEN_MAX),
     ]);
     if(f.error) throw new Error(f.error.message || "Lesefehler");
     if(r.error) throw new Error(r.error.message || "Lesefehler");
@@ -743,6 +802,7 @@ async function initNeon(){
     runs.sort((a,b)=>a.ts-b.ts);
 
     neonBereit = true;
+    if(benutzer) kontoMerken(benutzer);
     saveLocal();
     statusSetzen(true, benutzer ? (benutzer.name || "angemeldet") : "offen");
     if(view==="dash") render();
@@ -758,6 +818,7 @@ async function initNeon(){
 /** Nach An- oder Abmeldung: lokalen Stand verwerfen und den des neuen
  *  Kontos holen — sonst würde fremder Fortschritt mitwandern. */
 async function benutzerWechsel(){
+  const vorher = runs;
   stats = {}; runs = [];
   try{ localStorage.removeItem(LS_KEY); }catch(e){}
   // Client verwerfen: nach dem Abmelden hält er noch den alten Token und
@@ -766,8 +827,24 @@ async function benutzerWechsel(){
   neon = null;
   neonBereit = false;
   await initNeon();
+  if(benutzer && rundenUebernehmen(vorher)){
+    saveLocal();
+    await pushNeon(runs.filter(r => r.id.endsWith("-k")));
+  }
   render();
 }
+
+/* Handy und PC bleiben oft tagelang offen. Ohne erneuten Abgleich zeigt das
+ * eine Gerät dann eine Serie ohne die Runden des anderen. Beim Zurückkehren
+ * auf die Seite wird deshalb neu geholt, höchstens einmal pro Minute und nie
+ * mitten in einer Runde. */
+let zuletztAbgeglichen = 0;
+document.addEventListener("visibilitychange", async ()=>{
+  if(document.visibilityState !== "visible" || !neonBereit) return;
+  if(view === "quiz" || Date.now() - zuletztAbgeglichen < 60000) return;
+  zuletztAbgeglichen = Date.now();
+  if(await initNeon() && view !== "quiz") render();
+});
 
 /* Die Benutzerkennung schreibt die Datenbank selbst: benutzer_id hat als
  * Vorgabewert coalesce(auth.user_id(),'anonym'). Sie steht deshalb absichtlich
@@ -775,7 +852,7 @@ async function benutzerWechsel(){
  * Browser, und die App bleibt unabhängig davon, ob die Data API ihren
  * Schema-Cache schon erneuert hat. Getrennt wird ohnehin per Row Level
  * Security, nicht durch das, was die App mitschickt. */
-async function pushNeon(){
+async function pushNeon(zusatz = []){
   if(!neonBereit || !neon) return;
   try{
     const fragen = Object.entries(stats).map(([id,e])=>({
@@ -793,7 +870,8 @@ async function pushNeon(){
       if(u.error) throw new Error(u.error.message);
     }
 
-    const neueRunden = runs.slice(-200).map(r=>({
+    const auswahl = new Map([...runs.slice(-200), ...zusatz].map(r => [r.id, r]));
+    const neueRunden = [...auswahl.values()].map(r=>({
       id: r.id, ts: r.ts, scope: r.scope || "", total: r.total,
       punkte: r.punkte, dauer: r.dauer, fragen: r.fragen || [],
     }));
@@ -1052,6 +1130,19 @@ function serienStreifen(){
   </div>`;
 }
 
+/** Ohne Anmeldung zählt keine Runde für eine eigene Serie. Kennt das Gerät ein
+ *  Konto, steht dessen Name da, damit klar ist, wohin die Runden gehören. */
+function abmeldeHinweis(){
+  if(benutzer || !neonBereit) return "";
+  const k = kontoGemerkt();
+  const n = ohneKontoLesen().length;
+  const satz = k
+    ? `Nicht angemeldet. Melde dich als ${esc(k.name || "du")} an, damit deine Runden für deine Serie zählen.`
+    : "Nicht angemeldet. Deine Runden zählen für den offenen Stand, nicht für deine Serie.";
+  return `<div class="abgemeldet"><span>${satz}${n ? ` ${n} Runde${n===1?"":"n"} von hier ${n===1?"wird":"werden"} beim Anmelden übernommen.` : ""}</span>
+    <button class="btn sm" id="hinweisAnmelden">Anmelden</button></div>`;
+}
+
 /* ---------- Statistik ---------- */
 function statFor(list){
   let v=0,p=0,seen=0;
@@ -1169,6 +1260,7 @@ function renderDash(){
     </div>
   </div>
 
+  ${abmeldeHinweis()}
   ${serienStreifen()}
 
   <section>
@@ -1433,6 +1525,7 @@ function bindSeite(){
     modul:[b.dataset.zmod], lernziel:b.dataset.ziel, modus:"mix", laenge:filter.laenge
   }));
   const fa = $("#filterAuf"); if(fa) fa.onclick = ()=>{ filterOffen = true; render(); };
+  const ha = $("#hinweisAnmelden"); if(ha) ha.onclick = zumKonto;
   bindFilterblatt();
 }
 
@@ -1497,6 +1590,9 @@ function bindKonto(){
       ab.disabled = true; ab.textContent = "Melde ab …";
       try{ await (await neonClient()).auth.signOut(); }catch(e){}
       benutzer = null;
+      // Gewollt abgemeldet: kein Hinweis mehr und nichts, was später ins
+      // Konto wandern soll. Wer danach hier übt, ist vielleicht jemand anderes.
+      kontoMerken(null); ohneKontoSchreiben([]);
       await benutzerWechsel();
     };
     return;
@@ -1809,6 +1905,7 @@ async function finishRound(abgebrochen){
     fragen: s.qs.slice(0,total).map(q=>q.id)
   };
   runs.push(run); saveLocal();
+  if(!benutzer) ohneKontoSchreiben([...ohneKontoLesen(), run.id]);
   session.run = run;
   view="result"; window.scrollTo(0,0); render();
   pushDB(run); pushNeon();

@@ -759,19 +759,29 @@ function zeileZuEintrag(z){
   };
 }
 
-/** Baut den Client einmalig auf und liest eine bestehende Sitzung ein. */
+/** Baut den Client einmalig auf und liest eine bestehende Sitzung ein.
+ *
+ * Mit allowAnonymous holt das SDK vor jeder Anfrage die Sitzung und nimmt,
+ * wenn das einmal nicht klappt, stillschweigend den anonymen Token. Die App
+ * zeigte dann weiter den Kontonamen, schrieb aber in den offenen Stand — so
+ * gingen am 27. und 28.10.2026 zwei Tage der Serie verloren. Den anonymen
+ * Zugang gibt es deshalb nur noch für Geräte, die kein Konto kennen. Fehlt
+ * einem angemeldeten Gerät die Sitzung, scheitert die Anfrage, die Runde
+ * bleibt lokal und geht beim nächsten Abgleich ins Konto. */
 async function neonClient(){
   if(neon) return neon;
   const { createClient } = await import(NEON_SDK);
-  neon = createClient({
-    auth:    { url: NEON_AUTH_URL, allowAnonymous: true },
+  const bauen = (anonym) => createClient({
+    auth:    { url: NEON_AUTH_URL, allowAnonymous: anonym },
     dataApi: { url: NEON_DATA_URL },
   });
+  neon = bauen(false);
   try{
     const s = await neon.auth.getSession();
     const u = s?.data?.user ?? s?.user ?? null;
     benutzer = (u && u.id) ? { id: u.id, name: u.name || "", email: u.email || "" } : null;
-  }catch(e){ benutzer = null; /* keine Sitzung — dann anonym */ }
+  }catch(e){ benutzer = null; }
+  if(!benutzer && !kontoGemerkt()) neon = bauen(true);
   return neon;
 }
 
@@ -779,6 +789,14 @@ async function initNeon(){
   statusSetzen(false, "verbinde …");
   try{
     await neonClient();
+    // Sitzung weg, obwohl das Gerät ein Konto kennt: nichts lesen, nichts
+    // schreiben, nur zum Anmelden auffordern. Geübt wird lokal weiter.
+    if(!benutzer && kontoGemerkt()){
+      neonBereit = false;
+      statusSetzen(false, "abgemeldet");
+      if(view==="dash") render();
+      return false;
+    }
 
     const [f, r] = await Promise.all([
       neon.from("fortschritt").select("*"),
@@ -843,7 +861,9 @@ document.addEventListener("visibilitychange", async ()=>{
   if(document.visibilityState !== "visible" || !neonBereit) return;
   if(view === "quiz" || Date.now() - zuletztAbgeglichen < 60000) return;
   zuletztAbgeglichen = Date.now();
-  if(await initNeon() && view !== "quiz") render();
+  neon = null;               // Sitzung neu einlesen: sie kann inzwischen abgelaufen sein
+  await initNeon();
+  if(view !== "quiz") render();
 });
 
 /* Die Benutzerkennung schreibt die Datenbank selbst: benutzer_id hat als
@@ -1133,11 +1153,11 @@ function serienStreifen(){
 /** Ohne Anmeldung zählt keine Runde für eine eigene Serie. Kennt das Gerät ein
  *  Konto, steht dessen Name da, damit klar ist, wohin die Runden gehören. */
 function abmeldeHinweis(){
-  if(benutzer || !neonBereit) return "";
   const k = kontoGemerkt();
+  if(benutzer || (!neonBereit && !k)) return "";
   const n = ohneKontoLesen().length;
   const satz = k
-    ? `Nicht angemeldet. Melde dich als ${esc(k.name || "du")} an, damit deine Runden für deine Serie zählen.`
+    ? `Die Anmeldung als ${esc(k.name || "du")} ist abgelaufen. Was du jetzt übst, bleibt auf diesem Gerät und geht nach dem Anmelden in dein Konto.`
     : "Nicht angemeldet. Deine Runden zählen für den offenen Stand, nicht für deine Serie.";
   return `<div class="abgemeldet"><span>${satz}${n ? ` ${n} Runde${n===1?"":"n"} von hier ${n===1?"wird":"werden"} beim Anmelden übernommen.` : ""}</span>
     <button class="btn sm" id="hinweisAnmelden">Anmelden</button></div>`;

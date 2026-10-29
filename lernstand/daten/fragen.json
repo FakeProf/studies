@@ -1,6 +1,6 @@
 {
  "version": 1,
- "stand": "2026-10-28",
+ "stand": "2026-10-29",
  "quelle": "Obsidian-Vault \"02 Zusammenfassungen\", OST HS2026",
  "fragen": [
   {
@@ -14707,6 +14707,3836 @@
    ],
    "erklaerung": "Bruns (2019, 2022). Für eine Seminararbeit heisst das: populär ≠ belegt. Gsenger ist ein Überblickswerk, keine eigene empirische Studie; die Befunde stammen aus zitierten Quellen.",
    "quelle": "WSA1 - Gsenger Finanzierung von Desinformation",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W8-01",
+   "modul": "EPC1",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Business-Wortschatz der Units anwenden",
+   "frage": "Match the marketing terms from Unit 4 with their definitions.",
+   "paare": [
+    [
+     "segmentation",
+     "dividing a broad market into sub-groups with shared characteristics"
+    ],
+    [
+     "positioning",
+     "identifying a unique place for a brand in the market and in consumers' minds"
+    ],
+    [
+     "differentiation",
+     "making a brand or product stand out from competitors"
+    ],
+    [
+     "niche market",
+     "a narrowly defined segment with unique needs"
+    ],
+    [
+     "target market",
+     "a specific group of potential customers a company aims at"
+    ]
+   ],
+   "erklaerung": "All terms come from the Unit 4 word list and the gap-fill exercise in the worksheet.",
+   "quelle": "EPC1 Unit 4 - Marketing, Branding and Advertising",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W8-02",
+   "modul": "EPC1",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Business-Wortschatz der Units anwenden",
+   "frage": "Match the Unit 4 terms with their definitions.",
+   "paare": [
+    [
+     "brand equity",
+     "the value and strength of a brand that determines its worth"
+    ],
+    [
+     "brand loyalty",
+     "a customer's preference for a brand, shown by repeat purchases"
+    ],
+    [
+     "customer retention",
+     "efforts to maintain and grow relationships with existing customers"
+    ],
+    [
+     "value proposition",
+     "a concise statement of why a consumer should buy a product"
+    ],
+    [
+     "market share",
+     "the portion of a market controlled by a company or product"
+    ]
+   ],
+   "erklaerung": "Brand equity is built over time through consistent messaging and positive customer experiences, not through a single campaign.",
+   "quelle": "EPC1 Unit 4 - Marketing, Branding and Advertising",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W8-03",
+   "modul": "EPC1",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Business-Wortschatz der Units anwenden",
+   "frage": "Match the promotion terms with their definitions.",
+   "paare": [
+    [
+     "promotional mix",
+     "the combination of marketing communication tools used to reach the target market"
+    ],
+    [
+     "public relations",
+     "managing the spread of information between an organization and the public"
+    ],
+    [
+     "direct marketing",
+     "communicating directly with consumers to generate a response"
+    ],
+    [
+     "influencer marketing",
+     "using individuals with influence over buyers to promote a product"
+    ],
+    [
+     "market penetration",
+     "increasing sales of an existing product in an established market"
+    ]
+   ],
+   "erklaerung": "In the reading, market penetration is achieved through promotional mix elements such as advertising, sales promotions and direct marketing.",
+   "quelle": "EPC1 Unit 4 - Marketing, Branding and Advertising",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W8-04",
+   "modul": "EPC1",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Business-Wortschatz der Units anwenden",
+   "frage": "Choose the correct verb: «The company aims to ______ its existing customer data to improve personalized marketing.»",
+   "optionen": [
+    "leverage",
+    "mitigate",
+    "forecast",
+    "emerge"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "(to) leverage = to use something to maximum advantage. (to) mitigate = to make something less severe; (to) forecast = to predict; (to) emerge = to become apparent or important.",
+   "quelle": "EPC1 Unit 4 - Marketing, Branding and Advertising",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W9-01",
+   "modul": "EPC1",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Sachtexte kritisch lesen und beurteilen",
+   "frage": "Which elements belong to a SWOT analysis?",
+   "optionen": [
+    "Strengths and weaknesses (internal)",
+    "Opportunities and threats (external)",
+    "Sales targets and pricing",
+    "Segments and target markets"
+   ],
+   "loesung": [
+    0,
+    1
+   ],
+   "erklaerung": "In the worksheet, a company with high-quality ingredients and loyal customers (strengths) could expand into a niche market (opportunity) but must address a limited online presence and small budget (weaknesses). Threats include new competitors and economic downturns.",
+   "quelle": "EPC1 Unit 4 - Marketing, Branding and Advertising",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W9-02",
+   "modul": "EPC1",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Sachtexte kritisch lesen und beurteilen",
+   "frage": "Why did Coca-Cola launch Coke Zero in 2005, according to the case study?",
+   "optionen": [
+    "Market research showed demand for a zero-calorie soda that tastes like regular Coke, as many were dissatisfied with existing diet sodas",
+    "Sugar prices had risen so much that regular Coke was no longer profitable",
+    "Regulators banned sugary sodas in most markets",
+    "Competitors had already launched an identical product"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Methods: consumer surveys, focus groups, trend analysis. Result: significant market penetration and a larger share of the diet soda category.",
+   "quelle": "EPC1 Unit 4 - Marketing, Branding and Advertising",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W10-01",
+   "modul": "EPC1",
+   "woche": 10,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Business-Wortschatz der Units anwenden",
+   "frage": "Match the risk vocabulary from Unit 5 with the definitions.",
+   "paare": [
+    [
+     "contingency plan",
+     "a plan for dealing with an event that might happen and cause problems"
+    ],
+    [
+     "risk assessment",
+     "examining possible risks to decide whether something is worth doing"
+    ],
+    [
+     "a calculated risk",
+     "something potentially dangerous that you do after careful thought"
+    ],
+    [
+     "hazard",
+     "a risk that cannot be avoided"
+    ],
+    [
+     "cautious",
+     "careful to avoid danger or risks"
+    ]
+   ],
+   "erklaerung": "Example sentences: «Investing is about taking calculated risks.» «One of the most widespread natural hazards is flooding.»",
+   "quelle": "EPC1 Unit 5 - Risk and Environmental Issues in Business",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W10-02",
+   "modul": "EPC1",
+   "woche": 10,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Business-Wortschatz der Units anwenden",
+   "frage": "Match the Unit 5 words with their definitions.",
+   "paare": [
+    [
+     "greenwashing",
+     "making people believe a company does more for the environment than it really does"
+    ],
+    [
+     "(to) foresee",
+     "to know that something is going to happen in the future"
+    ],
+    [
+     "livelihood",
+     "the way you earn money in order to live"
+    ],
+    [
+     "preventive",
+     "intended to stop something unwanted from happening"
+    ],
+    [
+     "(to) prioritize",
+     "to put things in order of importance"
+    ]
+   ],
+   "erklaerung": "Example: «The campaign was little more than greenwashing to improve the oil company's image.»",
+   "quelle": "EPC1 Unit 5 - Risk and Environmental Issues in Business",
+   "kern": true
+  },
+  {
+   "id": "EPC1-W10-03",
+   "modul": "EPC1",
+   "woche": 10,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Business-Wortschatz der Units anwenden",
+   "frage": "Complete: «The country needs this trade agreement, or it ______ hurting the economy.»",
+   "optionen": [
+    "runs the risk of",
+    "takes a calculated risk of",
+    "conserves the risk of",
+    "foresees the risk of"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "(to) run a/the risk (of) = to do something that may be dangerous or unpleasant.",
+   "quelle": "EPC1 Unit 5 - Risk and Environmental Issues in Business",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W11-01",
+   "modul": "EPC1",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Sachtexte kritisch lesen und beurteilen",
+   "frage": "According to the Unit 5 reading, which principle maximizes resource efficiency and minimizes waste?",
+   "optionen": [
+    "Circular economy",
+    "Linear economy",
+    "Free market economy",
+    "Traditional economy"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Further points from the reading: businesses reduce their impact by lowering energy consumption and waste, sourcing sustainably and using Environmental Impact Assessments; eco-friendly practices enhance brand reputation.",
+   "quelle": "EPC1 Unit 5 - Risk and Environmental Issues in Business",
+   "kern": false
+  },
+  {
+   "id": "EPC1-W11-02",
+   "modul": "EPC1",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Sachtexte kritisch lesen und beurteilen",
+   "frage": "What does an Environmental Impact Assessment (EIA) do for a business?",
+   "optionen": [
+    "It identifies and evaluates the environmental impacts of business operations",
+    "It increases business profits directly",
+    "It measures employee satisfaction",
+    "It certifies that a product is carbon neutral"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Key environmental issues named in the reading: greenhouse gas emissions (main driver of climate change), deforestation and habitat destruction.",
+   "quelle": "EPC1 Unit 5 - Risk and Environmental Issues in Business",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W9-01",
+   "modul": "GENE",
+   "woche": 9,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Die Beziehungen der Schweiz zur EU analysieren",
+   "frage": "Bringe die Meilensteine der europäischen Integration in die richtige Reihenfolge.",
+   "items": [
+    "Montanunion: Kohle und Stahl unter gemeinsamer Behörde",
+    "Römische Verträge: Europäische Wirtschaftsgemeinschaft (EWG)",
+    "Vertrag von Maastricht: Gründung der EU",
+    "Euro als gemeinsame Währung",
+    "Brexit"
+   ],
+   "erklaerung": "1951, 1957, 1992, 2002, 2020. Den Anstoss gab Churchill 1946 mit der Idee eines gemeinsamen Europas als Friedensprojekt. Ab 1985 öffneten die Schengen-Verträge die Binnengrenzen.",
+   "quelle": "GENE POL 08 - Schweiz und EU",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W9-02",
+   "modul": "GENE",
+   "woche": 9,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Die Beziehungen der Schweiz zur EU analysieren",
+   "frage": "Ordne den EU-Politikbereichen ihren Einfluss auf den Alltag zu.",
+   "paare": [
+    [
+     "Zollunion und Binnenmarkt",
+     "Freier Warenverkehr, gemeinsame Standards, gegenseitige Anerkennung (MRA)"
+    ],
+    [
+     "Schengen-Abkommen",
+     "Keine Passkontrollen, Schengen-Informationssystem, Grenzgängerabkommen"
+    ],
+    [
+     "Dublin-Abkommen",
+     "Registrierung und Aufnahme von Geflüchteten im Ankunftsland"
+    ],
+    [
+     "Bildungs- und Forschungspolitik",
+     "Bologna-System mit ECTS, Erasmus, Horizon"
+    ]
+   ],
+   "erklaerung": "Die Gemeinsame Aussen- und Sicherheitspolitik (GASP, seit 1993) ist intergouvernemental und verlangt Einstimmigkeit; wichtig für EU-Mitglieder ohne NATO-Mitgliedschaft wie Irland oder Österreich.",
+   "quelle": "GENE POL 08 - Schweiz und EU",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W9-03",
+   "modul": "GENE",
+   "woche": 9,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Die Beziehungen der Schweiz zur EU analysieren",
+   "frage": "Bringe die Etappen der Beziehungen Schweiz–EU in die richtige Reihenfolge.",
+   "items": [
+    "Freihandelsabkommen",
+    "Nein zum EWR-Beitritt",
+    "Bilaterale I (Wirtschaft)",
+    "Bilaterale II (Politik, u. a. Schengen/Dublin)",
+    "Paket Schweiz–EU (Bilaterale III) unterzeichnet"
+   ],
+   "erklaerung": "1972, 1992 (49,7 % Ja), 1999, 2004, 2026. Das EWR-Nein am 6. Dezember 1992 ist der Ursprung des bilateralen Wegs.",
+   "quelle": "GENE POL 08 - Schweiz und EU",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W9-04",
+   "modul": "GENE",
+   "woche": 9,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die Beziehungen der Schweiz zur EU analysieren",
+   "frage": "Was bewirkt die Guillotine-Klausel der Bilateralen I?",
+   "optionen": [
+    "Wird eines der sieben Abkommen gekündigt, fallen alle anderen innert sechs Monaten ebenfalls dahin",
+    "Jedes Abkommen läuft automatisch nach zehn Jahren aus, wenn es nicht erneuert wird",
+    "Die EU kann einzelne Abkommen ohne Zustimmung der Schweiz anpassen",
+    "Die Schweiz muss neues EU-Recht in allen Bereichen automatisch übernehmen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die sieben Abkommen: Personenfreizügigkeit, technische Handelshemmnisse, öffentliches Beschaffungswesen, Landwirtschaft, Land- und Luftverkehr, Forschung (ausgelaufen 2002). Deshalb hätten etwa Begrenzungsinitiativen die ganzen Bilateralen I gefährdet.",
+   "quelle": "GENE POL 08 - Schweiz und EU",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W9-05",
+   "modul": "GENE",
+   "woche": 9,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die Beziehungen der Schweiz zur EU analysieren",
+   "frage": "Was regeln die institutionellen Elemente im neuen Paket Schweiz–EU (Bilaterale III)?",
+   "optionen": [
+    "Die dynamische Rechtsübernahme und die Streitbeilegung in den Binnenmarktabkommen",
+    "Den Beitritt der Schweiz zur Europäischen Union",
+    "Die Übernahme des Euro als Währung",
+    "Den Austritt der Schweiz aus Schengen und Dublin"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Das Paket umfasst Stabilisierung (bestehende Binnenmarktabkommen mit institutionellen Elementen, Lohnschutz), Weiterentwicklung (Strom, Gesundheit, Lebensmittelsicherheit) und Normalisierung (Horizon, Erasmus+). Begründung des Bundesrats: Der Status quo ist keine Option, weil sich EU-Recht weiterentwickelt.",
+   "quelle": "GENE POL 08 - Schweiz und EU",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W9-06",
+   "modul": "GENE",
+   "woche": 9,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die Beziehungen der Schweiz zur EU analysieren",
+   "frage": "Wie wichtig ist die EU als Handelspartnerin der Schweiz?",
+   "optionen": [
+    "Mit rund 296 Mrd. CHF Handelsvolumen (2023) ist sie mit Abstand die wichtigste Partnerin, vor den USA und China",
+    "Sie liegt deutlich hinter den USA auf Rang zwei",
+    "Sie ist weniger wichtig als China",
+    "Der Handel mit der EU ist seit den Bilateralen stark zurückgegangen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Allein der Handel mit den Grenzregionen ist grösser als mit den USA. Besonders eng verknüpft sind chemisch-pharmazeutische Industrie, Präzisionsinstrumente und Uhren sowie Maschinen und Elektronik.",
+   "quelle": "GENE POL 08 - Schweiz und EU",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W9-07",
+   "modul": "GENE",
+   "woche": 9,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die Beziehungen der Schweiz zur EU analysieren",
+   "frage": "Welche Varianten zeigt die Vorlesung für die Beziehung zur EU, geordnet nach Grad des Marktzugangs?",
+   "optionen": [
+    "EU-Beitritt, EWR, bilateraler Weg, Freihandelsabkommen",
+    "EWR, EU-Beitritt, Freihandel, bilateraler Weg",
+    "Bilateraler Weg, EU-Beitritt, Freihandel, EWR",
+    "Freihandel, EWR, EU-Beitritt, bilateraler Weg"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Je höher der Marktzugang, desto geringer die formale Fähigkeit zur autonomen Regelung. Drei Zukunftsszenarien: neuer Vertrag mit institutionellen Fragen, langsames Auslaufen der Abkommen oder EU-Beitritt.",
+   "quelle": "GENE POL 08 - Schweiz und EU",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W9-08",
+   "modul": "GENE",
+   "woche": 9,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Die Beziehungen der Schweiz zur EU analysieren",
+   "frage": "Welche Aussage zu den Beziehungen Schweiz–EU ist falsch (Lernkontrolle)?",
+   "optionen": [
+    "Die Schweiz handelt weniger mit der EU als mit den USA und China zusammen",
+    "Der Bundesrat zog das Rahmenabkommen 2021 zurück, bevor es zur Volksabstimmung kam",
+    "Beim neuen Vertragspaket wird diskutiert, ob es bei der Abstimmung das Ständemehr braucht",
+    "Ein EU-Beitritt ist derzeit chancenlos"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die EU ist mit rund 296 Mrd. CHF Handelsvolumen die mit Abstand wichtigste Handelspartnerin, deutlich vor den USA (86 Mrd.) und China (33 Mrd.).",
+   "quelle": "GENE POL 08 - Schweiz und EU",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W10-01",
+   "modul": "GENE",
+   "woche": 10,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Internationale und Schweizer Klimapolitik einordnen",
+   "frage": "Bringe die Meilensteine der internationalen Klimapolitik in die richtige Reihenfolge.",
+   "items": [
+    "Gründung des IPCC",
+    "Klimarahmenkonvention UNFCCC",
+    "Kyoto-Protokoll (COP 3), völkerrechtlich verbindlich",
+    "Kopenhagen (COP 15): Post-Kyoto-Prozess scheitert",
+    "Paris (COP 21): Erwärmung auf höchstens 2 Grad begrenzen"
+   ],
+   "erklaerung": "1988, 1992, 1997, 2009, 2015. Danach: COP 27 (Ausgleichsfonds für ärmere Länder), COP 29 Baku (300 Mrd. USD jährlich, weniger als ein Viertel des Bedarfs), COP 30 Belém mit einem faktischen Nicht-Ergebnis; die USA kündigten 2025 erneut den Austritt aus Paris an.",
+   "quelle": "GENE POL 09 - Klimapolitik",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W10-02",
+   "modul": "GENE",
+   "woche": 10,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Internationale und Schweizer Klimapolitik einordnen",
+   "frage": "Warum ist es für die Weltgemeinschaft so schwierig, gemeinsam gegen den Klimawandel vorzugehen?",
+   "optionen": [
+    "Wegen der Anarchie der Staaten: Es gibt keine übergeordnete Instanz, die Reduktionen verbindlich durchsetzt, und jeder Staat kann von den Anstrengungen anderer profitieren",
+    "Weil der Klimawandel wissenschaftlich noch nicht belegt ist",
+    "Weil die UNO Klimaabkommen grundsätzlich verbietet",
+    "Weil alle Staaten gleich viel CO2 ausstossen und sich deshalb niemand zuständig fühlt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Dazu kommen Verteilungsfragen: Westliche Staaten entwickelten sich auf Kosten des globalen Südens; China und Indien wachsen mit hohem CO2-Ausstoss. Wichtig ist der Unterschied zwischen Emissionen pro Kopf und pro Volkswirtschaft. Fossile Lobbys bremsten etwa an der COP 29.",
+   "quelle": "GENE POL 09 - Klimapolitik",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W10-03",
+   "modul": "GENE",
+   "woche": 10,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Internationale und Schweizer Klimapolitik einordnen",
+   "frage": "Welche Aussage zur Schweizer Klimapolitik ist richtig?",
+   "optionen": [
+    "Im Herbst 2022 kam wegen der Energiekrise plötzlich viel Bewegung in die Energie- und Klimapolitik",
+    "Die Totalrevision des CO2-Gesetzes wurde 2021 an der Urne angenommen",
+    "Die Klimapolitik verläuft linear und lässt sich von externen Faktoren kaum beeinflussen",
+    "Die Gletscherinitiative wurde nicht zurückgezogen, weil der Gegenvorschlag zu wenig weit ging"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Das CO2-Gesetz scheiterte 2021 mit 51,6 % Nein. Die Gletscherinitiative wurde zugunsten des indirekten Gegenvorschlags (Klimagesetz) zurückgezogen; dieses wurde 2023 mit 59,1 % angenommen, das Stromgesetz 2024 mit fast 69 %.",
+   "quelle": "GENE POL 09 - Klimapolitik",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W10-04",
+   "modul": "GENE",
+   "woche": 10,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Internationale und Schweizer Klimapolitik einordnen",
+   "frage": "Welche Ereignisse lösten die Überarbeitung der Schweizer Energie- und Klimapolitik aus?",
+   "optionen": [
+    "Die Atomkatastrophe von Fukushima",
+    "Die Ratifizierung der Agenda 2030",
+    "Die Ratifizierung des Pariser Klimaabkommens",
+    "Der Beitritt der Schweiz zur EU"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Daraus folgte die Energiestrategie 2050 mit dem Energiegesetz (seit 2018). Typische Dilemmata: Ausbau von Solar und Wasserkraft in den Alpen gegen Landschafts- und Heimatschutz.",
+   "quelle": "GENE POL 09 - Klimapolitik",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W11-01",
+   "modul": "GENE",
+   "woche": 11,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Demografischen Wandel und Reformstau in der Sozialpolitik erklären",
+   "frage": "Welche Branchen profitieren laut SECO-Studie (2019) bis 2060 vom demografischen Wandel?",
+   "optionen": [
+    "Gesundheitswesen sowie Heime und Sozialwesen, als Exportbranche die Pharma",
+    "Bau- und Immobilienbranche",
+    "Tourismus und Gastronomie",
+    "Banken und Versicherungen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Gesundheitswesen +1,6 %, Heime und Sozialwesen +1,8 %, Pharma +2,8 % an der Wertschöpfung; 1 % entspricht etwa 6 Mrd. CHF. Staatsnahe, binnenorientierte Dienstleistungen gewinnen.",
+   "quelle": "GENE POL 10 - Demografischer Wandel",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W11-02",
+   "modul": "GENE",
+   "woche": 11,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Demografischen Wandel und Reformstau in der Sozialpolitik erklären",
+   "frage": "Was kennzeichnet das Schweizer Gesundheitssystem?",
+   "optionen": [
+    "Die Gesundheitsversorgung ist Aufgabe der Kantone, das Krankenversicherungsgesetz ist national",
+    "Die Grundversicherung ist privat organisiert, bietet aber allen dieselben Leistungen",
+    "Die Kosten liegen mit rund 11,9 % des BIP über dem EU-Schnitt von rund 9,9 %",
+    "Es gibt eine einzige staatliche Einheitskrankenkasse"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Das System ist teils staatlich, teils privat, stark reglementiert, unübersichtlich und zersplittert. Die Einheitskasse wurde mehrfach abgelehnt (2007, 2014); 2024 wurde EFAS angenommen.",
+   "quelle": "GENE POL 10 - Demografischer Wandel",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W11-03",
+   "modul": "GENE",
+   "woche": 11,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Demografischen Wandel und Reformstau in der Sozialpolitik erklären",
+   "frage": "Wie erklärt die Vorlesung den Reformstau im Gesundheitswesen und in der Altersvorsorge?",
+   "optionen": [
+    "Mit der Pfadabhängigkeit: Einmal eingeschlagene Pfade (KVG, Dreisäulenmodell) rasten ein und lassen sich kaum verlassen (Lock-in)",
+    "Mit fehlendem Geld beim Bund",
+    "Damit, dass das Parlament für diese Bereiche nicht zuständig ist",
+    "Mit dem Fehlen von Volksinitiativen zu diesen Themen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Dazu kommt: Je breiter eine Reform, desto grösser die Angriffsfläche. Das Volk ist Vetoplayer; das Referendum wirkt wie ein Damoklesschwert, deshalb müssen Bedenken referendumsfähiger Gruppen ernst genommen werden (Sydow, Schreyögg und Koch 2009).",
+   "quelle": "GENE POL 10 - Demografischer Wandel",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W11-04",
+   "modul": "GENE",
+   "woche": 11,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Demografischen Wandel und Reformstau in der Sozialpolitik erklären",
+   "frage": "Ordne den Lösungsansätzen im Gesundheitswesen zu, wen sie belasten.",
+   "paare": [
+    [
+     "Leistungen reduzieren, Prämien senken",
+     "Wenig Verdienende mit medizinischen Problemen, Gefahr der Zweiklassenmedizin"
+    ],
+    [
+     "Leistungen beibehalten, Prämien steigen",
+     "Wenig Verdienende und die Kantone über Prämienverbilligungen"
+    ],
+    [
+     "Einheitskasse statt Pseudowettbewerb",
+     "Krankenkassen; private, konkurrierende Systeme gelten oft als effizienter"
+    ]
+   ],
+   "erklaerung": "Jeder Ansatz hat Verlierer; das erklärt, warum Reformen an der Urne so oft scheitern.",
+   "quelle": "GENE POL 10 - Demografischer Wandel",
+   "kern": false
+  },
+  {
+   "id": "GENE-POL-W12-01",
+   "modul": "GENE",
+   "woche": 12,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Migration und Migrationspolitik der Schweiz erklären",
+   "frage": "Welche Aussagen zur Migration in die Schweiz treffen zu?",
+   "optionen": [
+    "Rund drei Viertel der Zuwandernden stammen aus EU- und EFTA-Staaten",
+    "Rund 40 % der Bevölkerung haben einen Migrationshintergrund",
+    "Aus Deutschland stammen mehr Migrantinnen und Migranten als aus Afrika und Asien zusammen",
+    "Die meisten Zuwandernden kommen als Asylsuchende aus Afrika"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Nettozuwanderung der ausländischen Bevölkerung 2023 knapp 100 000, 2024 rund 83 000. Dazu kommen rund 105 000 Papierlose. Weltweit waren Ende 2023 rund 117 Mio. Menschen auf der Flucht.",
+   "quelle": "GENE POL 11 - Migration",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W12-02",
+   "modul": "GENE",
+   "woche": 12,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Migration und Migrationspolitik der Schweiz erklären",
+   "frage": "Bringe die migrationspolitischen Volksentscheide in die richtige zeitliche Reihenfolge.",
+   "items": [
+    "Ja zur Ausschaffungsinitiative",
+    "Ja zur Masseneinwanderungsinitiative",
+    "Nein zur Durchsetzungsinitiative",
+    "Nein zur Begrenzungsinitiative",
+    "Abstimmung über die Nachhaltigkeitsinitiative «Keine 10-Millionen-Schweiz»"
+   ],
+   "erklaerung": "2008, 2014, 2016, 2020, 14. Juni 2026. Ebenfalls 2014: Nein zur Ecopop-Initiative. Seit den 1990ern prägt die SVP das Thema mit der Abgrenzung gegenüber EU und Personenfreizügigkeit.",
+   "quelle": "GENE POL 11 - Migration",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W12-03",
+   "modul": "GENE",
+   "woche": 12,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Migration und Migrationspolitik der Schweiz erklären",
+   "frage": "Was verlangt die SVP-Nachhaltigkeitsinitiative «Keine 10-Millionen-Schweiz»?",
+   "optionen": [
+    "Die ständige Wohnbevölkerung darf vor 2050 zehn Millionen nicht überschreiten; ab 9,5 Mio. sind Massnahmen nötig, notfalls ist die Personenfreizügigkeit zu kündigen",
+    "Eine jährliche Höchstzahl von 10 000 Einbürgerungen",
+    "Ein Verbot der Zuwanderung aus Nicht-EU-Staaten bis 2050",
+    "Die Einführung einer Steuer für Unternehmen, die Personal im Ausland rekrutieren"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ab 9,5 Mio. sollen Bundesrat und Parlament vor allem im Asylbereich und beim Familiennachzug handeln. Bleibt der Grenzwert zwei Jahre überschritten, ist das Personenfreizügigkeitsabkommen zu kündigen; wegen der Guillotine-Klausel wären die Bilateralen I insgesamt betroffen.",
+   "quelle": "GENE POL 11 - Migration",
+   "kern": true
+  },
+  {
+   "id": "GENE-POL-W12-04",
+   "modul": "GENE",
+   "woche": 12,
+   "teilgebiet": "Politik",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Migration und Migrationspolitik der Schweiz erklären",
+   "frage": "Welche Frage stellt die Semesteraufgabe zur Umsetzung der Masseneinwanderungsinitiative?",
+   "optionen": [
+    "Warum das Parlament die Umsetzung «verwässert» hat und ob es legitim ist, eine Volksinitiative so umzusetzen",
+    "Wie hoch die Zuwanderung nach Annahme der Initiative gesunken ist",
+    "Welche Kantone der Initiative zugestimmt haben",
+    "Wie die EU die Initiative im Detail umgesetzt hat"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Grundlage ist der Film «Inside Bundeshaus: Ein Volksentscheid und seine Folgen». Hintergrund ist der Konflikt zwischen dem Volkswillen und den völkerrechtlichen Verpflichtungen aus der Personenfreizügigkeit («Inländervorrang light»).",
+   "quelle": "GENE POL 11 - Migration",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W11-01",
+   "modul": "GENE",
+   "woche": 11,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Migration und ihre Ursachen erklären",
+   "frage": "Wer gilt nach der Genfer Flüchtlingskonvention (1951) als Flüchtling?",
+   "optionen": [
+    "Wer sich aus begründeter Furcht vor Verfolgung wegen Rasse, Religion, Nationalität, sozialer Gruppe oder politischer Überzeugung ausserhalb seines Heimatlandes befindet und dessen Schutz nicht in Anspruch nehmen kann",
+    "Wer sein Land wegen Armut oder fehlender Arbeit verlässt",
+    "Jede Person, die länger als ein Jahr im Ausland lebt",
+    "Wer wegen Naturkatastrophen innerhalb des eigenen Landes umziehen muss"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Alle Flüchtlinge sind Migrantinnen und Migranten, aber nicht umgekehrt. Migrierende können jederzeit zurückkehren und geniessen den Schutz ihres Heimatstaats. Deshalb sind «Wirtschaftsflüchtlinge» juristisch keine Flüchtlinge.",
+   "quelle": "GENE WG 10 - Migration",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W11-02",
+   "modul": "GENE",
+   "woche": 11,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Migration und ihre Ursachen erklären",
+   "frage": "Ordne die Faktoren dem Push- und Pull-Modell zu.",
+   "paare": [
+    [
+     "Krieg, Verfolgung oder Arbeitslosigkeit im Herkunftsland",
+     "Push-Faktor"
+    ],
+    [
+     "Höhere Löhne und Nachfrage nach Arbeitskräften im Zielland",
+     "Pull-Faktor"
+    ]
+   ],
+   "erklaerung": "Push-Faktoren wirken im Herkunftsland, Pull-Faktoren im Zielland. Das Modell wird kritisiert, weil Entscheide auf Makro-, Meso- und Mikroebene fallen (Netzwerke, Familie, Kosten der Reise). Daneben gibt es Gravitationsmodelle.",
+   "quelle": "GENE WG 10 - Migration",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W11-03",
+   "modul": "GENE",
+   "woche": 11,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Migration und ihre Ursachen erklären",
+   "frage": "Ordne die Begriffe zu.",
+   "paare": [
+    [
+     "Rimessen",
+     "Geld- und Warenüberweisungen der Diaspora ins Herkunftsland"
+    ],
+    [
+     "Brain Drain",
+     "Abwanderung qualifizierter Arbeitskräfte aus dem Herkunftsland"
+    ],
+    [
+     "Brain Waste",
+     "Qualifizierte Zugewanderte arbeiten unter ihrem Ausbildungsniveau"
+    ],
+    [
+     "Globale Pflegekette",
+     "Pflegekräfte migrieren in reiche Länder, ihre eigene Care-Arbeit übernehmen andere"
+    ]
+   ],
+   "erklaerung": "Rimessen sind der direkteste Link zwischen Migration und Entwicklung; ihr Ausmass ist schwer zu schätzen, weil viele Transfers informell laufen. Brain Gain ist der Gewinn im Zielland.",
+   "quelle": "GENE WG 10 - Migration",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W11-04",
+   "modul": "GENE",
+   "woche": 11,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Migration und ihre Ursachen erklären",
+   "frage": "Welcher Staat ist nach der Dublin-III-Verordnung für ein Asylgesuch zuständig?",
+   "optionen": [
+    "Grundsätzlich der Staat, in dem die Person die Dublin-Aussengrenze zum ersten Mal irregulär überschritten hat",
+    "Der Staat, den die asylsuchende Person frei wählt",
+    "Immer der Staat mit der tiefsten Asylquote",
+    "Alle Dublin-Staaten prüfen das Gesuch parallel"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Nur ein Staat prüft das Gesuch; die Fingerabdruckdatenbank Eurodac verhindert Mehrfachgesuche. Auf Wunsch zuständig ist der Staat, in dem enge Verwandte Schutz haben. Die Schweiz (seit 12.12.2008 dabei) konnte rund 4,5-mal mehr Personen überstellen, als sie übernehmen musste.",
+   "quelle": "GENE WG 10 - Migration",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W11-05",
+   "modul": "GENE",
+   "woche": 11,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Migration und ihre Ursachen erklären",
+   "frage": "Was regelt das Schengener Abkommen für die Schweiz?",
+   "optionen": [
+    "Wegfall der systematischen Personenkontrollen an den Binnengrenzen, einheitliche Aussengrenzkontrollen und das Schengener Informationssystem; Warenkontrollen bleiben, weil die Schweiz nicht in der Zollunion ist",
+    "Die Zuständigkeit für Asylgesuche",
+    "Den freien Warenverkehr ohne Zollkontrollen",
+    "Die Personenfreizügigkeit für den Arbeitsmarkt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "«Öffnung nach innen, Abschottung nach aussen»: Frontex schützt die Aussengrenzen. Die Personenfreizügigkeit ist ein eigenes Abkommen der Bilateralen I.",
+   "quelle": "GENE WG 10 - Migration",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W11-06",
+   "modul": "GENE",
+   "woche": 11,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Migration und ihre Ursachen erklären",
+   "frage": "Warum suchen laut Selbststudium (Film «Barça ou Bassa») nicht die Ärmsten Arbeit im Ausland?",
+   "optionen": [
+    "Die Ärmsten haben oft nicht das Geld, um die Migration zu finanzieren",
+    "Die Ärmsten sind meist gut im Herkunftsland integriert",
+    "Für die Ärmsten gelten strengere Einreiseregeln",
+    "Die Ärmsten profitieren am meisten von Rimessen und müssen deshalb nicht gehen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Folgen für das Herkunftsland: Abwanderung junger Arbeitskräfte, Rimessen, Wertewandel. Für das Zielland: billige Arbeitskräfte, soziale Spannungen, kulturelle Durchmischung. Globalisierungsbezug: industrieller Fischfang, Klimawandel, Internet.",
+   "quelle": "GENE WG 10 - Migration",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W11-07",
+   "modul": "GENE",
+   "woche": 11,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "uebung",
+   "typ": "mc",
+   "lernziel": "Migration und ihre Ursachen erklären",
+   "frage": "Was zeigen die Selbststudiumslösungen zur These «Migrantinnen und Migranten belasten den Sozialstaat»?",
+   "optionen": [
+    "EU-Zugewanderte zahlen heute mehr ein, als sie beziehen (geschätzt CHF 15 000 pro Haushalt und Jahr), der Überschuss sinkt aber langfristig, wenn sie altern",
+    "Sie belasten den Sozialstaat heute stark, weil sie überdurchschnittlich viele Leistungen beziehen",
+    "Sie zahlen keine Sozialbeiträge, weil sie nicht in der AHV versichert sind",
+    "Es gibt keinen messbaren Effekt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Zur These «nehmen uns die Arbeit weg»: Für Hochqualifizierte sinkt das Risiko eher, für wenig Qualifizierte steigt es leicht; der Effekt ist klein. Viele Zugewanderte fühlen sich selbst gut integriert (NZZ 2019).",
+   "quelle": "GENE WG 10 - Migration",
+   "kern": false
+  },
+  {
+   "id": "GENE-WG-W12-01",
+   "modul": "GENE",
+   "woche": 12,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Globale Disparitäten und Ungleichheit messen und erklären",
+   "frage": "Was misst der Gini-Koeffizient?",
+   "optionen": [
+    "Die Ungleichheit der Einkommens- oder Vermögensverteilung auf einer Skala von 0 (völlige Gleichheit) bis 1 (eine Person hat alles)",
+    "Das Bruttoinlandsprodukt pro Kopf",
+    "Den Entwicklungsstand eines Landes aus Lebenserwartung, Bildung und Einkommen",
+    "Den Anteil der Bevölkerung unter der Armutsgrenze in Prozent"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Grundlage ist die Lorenzkurve, z. B. «die unteren 40 % besitzen 10 % des Einkommens». Die Vermögensungleichheit ist fast überall grösser als die Einkommensungleichheit, weil sich Einkommensunterschiede und Erbschaften kumulieren.",
+   "quelle": "GENE WG 11 - Ungleichheiten und globale Disparitäten",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W12-02",
+   "modul": "GENE",
+   "woche": 12,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Globale Disparitäten und Ungleichheit messen und erklären",
+   "frage": "Welche Ursachen für wachsende Ungleichheit nennt die Vorlesung?",
+   "optionen": [
+    "Vermögen wächst schneller als Arbeitseinkommen",
+    "Digitalisierung konzentriert Gewinne bei Hochqualifizierten und Firmenbesitzern",
+    "Gesenkte Vermögens- und Unternehmenssteuern sowie Erbschaften",
+    "Der Sozialstaat garantiert allen ein Mindestvermögen"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Dazu Globalisierung (Kapitaleigner profitieren überproportional) und ungleiche Startbedingungen. Der Sozialstaat garantiert ein Mindesteinkommen, aber kein Mindestvermögen. Ein Mindestmass an Ungleichheit fördert Innovation; das tolerierbare Mass muss gesellschaftlich ausgehandelt werden.",
+   "quelle": "GENE WG 11 - Ungleichheiten und globale Disparitäten",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W12-03",
+   "modul": "GENE",
+   "woche": 12,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Globale Disparitäten und Ungleichheit messen und erklären",
+   "frage": "Ordne die Wohlstandsindikatoren ihrer Definition zu.",
+   "paare": [
+    [
+     "Bruttoinlandsprodukt (BIP)",
+     "Wert aller Güter und Dienstleistungen, die innerhalb der Landesgrenzen erwirtschaftet werden"
+    ],
+    [
+     "Bruttonationaleinkommen (BNE)",
+     "Wert aller Leistungen der Inländerinnen und Inländer, egal ob im In- oder Ausland erzielt"
+    ],
+    [
+     "Human Development Index (HDI)",
+     "Lebenserwartung, Bildung und kaufkraftbereinigtes BNE pro Kopf, Werte von 0 bis 1"
+    ]
+   ],
+   "erklaerung": "Der HDI (UNDP, seit 1990, entwickelt von Mahbub ul Haq mit Amartya Sen) blendet soziale Disparitäten innerhalb eines Landes, Stadt-Land-Unterschiede, Zufriedenheit und Umweltbelastung aus.",
+   "quelle": "GENE WG 11 - Ungleichheiten und globale Disparitäten",
+   "kern": true
+  },
+  {
+   "id": "GENE-WG-W12-04",
+   "modul": "GENE",
+   "woche": 12,
+   "teilgebiet": "Wirtschaftsgeographie",
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Globale Disparitäten und Ungleichheit messen und erklären",
+   "frage": "Was sind räumliche Disparitäten in der Wirtschaftsgeografie?",
+   "optionen": [
+    "Die räumliche Ungleichverteilung von Ressourcen, Zugang zu Arbeitsmärkten und Lebensstandards zwischen und innerhalb von Ländern, Regionen und Städten",
+    "Die Unterschiede in der Fläche verschiedener Länder",
+    "Die Entfernung zwischen Produktions- und Absatzmarkt",
+    "Die ungleiche Verteilung von Rohstoffen in der Erdkruste"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beispiele: Stadt-Land-Gefälle innerhalb eines Landes; Gentrifizierung, Wohnsegregation und Armutsinseln innerhalb von Städten (Borchert 2017).",
+   "quelle": "GENE WG 11 - Ungleichheiten und globale Disparitäten",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W8-01",
+   "modul": "OGPM",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Geschäftsregeln mit DMN modellieren",
+   "frage": "Warum lagert man Entscheidungslogik aus dem BPMN-Modell in ein DMN-Modell aus?",
+   "optionen": [
+    "Eingebettete Logik macht Prozesse schnell unübersichtlich und führt zu Inkonsistenzen, wenn dieselben Regeln in mehreren Prozessen stehen",
+    "Weil BPMN keine Gateways für Entscheidungen kennt",
+    "Weil DMN-Modelle die Prozesslaufzeit automatisch verkürzen",
+    "Weil Geschäftsregeln nur von der IT verstanden werden müssen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die Geschäftsregel-Aktivität verweist auf ein wiederverwendbares Entscheidungsmodell. Regeln, die verstreut in Dokumenten, mündlichen Anweisungen oder im Systemcode stecken, sind schwer zu pflegen und für Business User nicht einsehbar.",
+   "quelle": "OGPM LB3 Teil 5 - Geschäftsregeln und DMN",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W8-02",
+   "modul": "OGPM",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Geschäftsregeln mit DMN modellieren",
+   "frage": "Ordne die Kernelemente eines DMN-Entscheidungsdiagramms zu.",
+   "paare": [
+    [
+     "Entscheidung (Decision)",
+     "Bestimmt mit Logik aus den Eingangsdaten ein Ergebnis, kann in Teilentscheidungen zerlegt werden"
+    ],
+    [
+     "Eingangsdaten (Input Data)",
+     "Informationen, die für die Entscheidung benötigt werden"
+    ],
+    [
+     "Wissensquelle (Knowledge Source)",
+     "Woher die Regeln stammen, z. B. Gesetze oder Richtlinien"
+    ]
+   ],
+   "erklaerung": "Das Entscheidungsdiagramm beantwortet: Was ist das Ziel? Welche Informationen braucht es? Gibt es vorgelagerte Entscheidungen? Welche Richtlinien gelten? Die Details stehen in der Entscheidungstabelle.",
+   "quelle": "OGPM LB3 Teil 5 - Geschäftsregeln und DMN",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W8-03",
+   "modul": "OGPM",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Geschäftsregeln mit DMN modellieren",
+   "frage": "Wie ist eine DMN-Entscheidungstabelle aufgebaut?",
+   "optionen": [
+    "Eingänge in Spalten, jede Zeile ist eine Geschäftsregel, die Ausgangsspalte zeigt das Ergebnis",
+    "Jede Spalte ist eine Geschäftsregel, die Zeilen enthalten die Datentypen",
+    "Die Tabelle enthält nur die Ergebnisse, die Regeln stehen im BPMN-Modell",
+    "Jede Zeile ist ein Prozessschritt mit zugeordneter Rolle"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Jeder Eingang hat einen Datentyp (Boolean, Zahl, Aufzählung, Text, Datum, Hierarchie); Operatoren vergleichen die Werte. Beispiel: Rabatt aus Einkaufswert und Kundenstatus.",
+   "quelle": "OGPM LB3 Teil 5 - Geschäftsregeln und DMN",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W8-04",
+   "modul": "OGPM",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Geschäftsregeln mit DMN modellieren",
+   "frage": "Ordne die Intervall-Schreibweisen in DMN ihrer Bedeutung zu.",
+   "paare": [
+    [
+     "[1..5]",
+     "Zwischen 1 und 5, beide inklusive"
+    ],
+    [
+     "(1..5)",
+     "Zwischen 1 und 5, beide exklusive"
+    ],
+    [
+     "(1..5]",
+     "1 exklusive, 5 inklusive"
+    ],
+    [
+     "[1..5)",
+     "1 inklusive, 5 exklusive"
+    ]
+   ],
+   "erklaerung": "Eckige Klammern stehen für geschlossene, runde für offene Intervallgrenzen.",
+   "quelle": "OGPM LB3 Teil 5 - Geschäftsregeln und DMN",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W8-05",
+   "modul": "OGPM",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Geschäftsregeln mit DMN modellieren",
+   "frage": "Ordne die Hit Policies ihrer Auswertung zu.",
+   "paare": [
+    [
+     "Unique (U)",
+     "Für jede Eingabekombination trifft genau eine Regel zu, Überlappungen verboten"
+    ],
+    [
+     "First (F)",
+     "Regeln dürfen überlappen, die erste zutreffende von oben gilt"
+    ],
+    [
+     "Collect",
+     "Alle zutreffenden Regeln werden als Liste ausgegeben oder aggregiert (Summe, Min, Max, Anzahl)"
+    ]
+   ],
+   "erklaerung": "Unique und First sind Single Hit Policies, Collect ist eine Multi Hit Policy. Bei First eignet sich eine letzte Auffangregel.",
+   "quelle": "OGPM LB3 Teil 5 - Geschäftsregeln und DMN",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W8-06",
+   "modul": "OGPM",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Geschäftsregeln mit DMN modellieren",
+   "frage": "Eine Entscheidungstabelle mit Hit Policy Unique hat keine Regel für «Business»-Kunden. Was ist das Problem?",
+   "optionen": [
+    "Die Tabelle ist unvollständig: Bei Unique muss auf jeden Anwendungsfall genau eine Regel zutreffen",
+    "Die Tabelle ist inkonsistent, weil sich Regeln überlappen",
+    "Es gibt kein Problem, die Tabelle liefert dann einfach den Standardwert",
+    "Die Hit Policy Unique erlaubt nur zwei Kundentypen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Fehlende Regeln sind ein typisches Problem. Signavio prüft Entscheidungstabellen automatisch auf Vollständigkeit und Konsistenz.",
+   "quelle": "OGPM LB3 Teil 5 - Geschäftsregeln und DMN",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W8-07",
+   "modul": "OGPM",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Geschäftsregeln mit DMN modellieren",
+   "frage": "Welche Vorteile bietet Business Decision Management mit DMN?",
+   "optionen": [
+    "Regeln stehen in einem einheitlichen, unternehmensweiten Vokabular",
+    "Regeln sind zentral hinterlegt und lassen sich laufend pflegen",
+    "Eine automatisierte Anwendung durch eine Rule Engine ist möglich",
+    "DMN ersetzt BPMN vollständig"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "DMN ist seit 2014 OMG-Standard und bildet mit BPMN und CMMN die BPM-Trilogie. Der Bedarf wächst wegen Compliance-Anforderungen. Typische operative Entscheidungen: Eignung, Validierung, Berechnung, Risiken.",
+   "quelle": "OGPM LB3 Teil 5 - Geschäftsregeln und DMN",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W9-01",
+   "modul": "OGPM",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Prozesse qualitativ analysieren",
+   "frage": "Ordne die Leistungsarten der Wertschöpfungsanalyse zu.",
+   "paare": [
+    [
+     "Nutzleistung (VA)",
+     "Direkter Wert für den Kunden, z. B. Produkt fertigen oder reparieren"
+    ],
+    [
+     "Stützleistung (BVA)",
+     "Kein direkter Kundenwert, aber für das Unternehmen nötig, z. B. Produktion planen, Diagnose dokumentieren"
+    ],
+    [
+     "Blindleistung (NVA)",
+     "Überflüssig, kein Mehrwert, z. B. Zwischenlagern, dieselbe Arbeit mehrfach"
+    ],
+    [
+     "Fehlleistung (NVA)",
+     "Ergebnis von Fehlern, z. B. Nacharbeit, falsche Buchungen"
+    ]
+   ],
+   "erklaerung": "Vorgehen: Prozess in Schritte zerlegen, jeden Schritt einer Leistungsart zuordnen, dann Massnahmen ableiten (Nutzleistungen stärken, Stützleistungen hinterfragen, Blind- und Fehlleistungen reduzieren). Die Zuordnung ist oft subjektiv, deshalb Konsens im Team.",
+   "quelle": "OGPM LB4 - Qualitative Prozessanalyse",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W9-02",
+   "modul": "OGPM",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozesse qualitativ analysieren",
+   "frage": "Welche Frage hilft zu erkennen, ob ein Schritt eine Nutzleistung (VA) ist?",
+   "optionen": [
+    "Wäre der Kunde bereit, für diesen Schritt zu bezahlen?",
+    "Ist der Schritt nötig, um gesetzliche Anforderungen zu erfüllen?",
+    "Reduziert der Schritt das Risiko von Geschäftsverlusten?",
+    "Ist der Schritt das Ergebnis eines Fehlers?"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Weitere VA-Fragen: Würde der Kunde zustimmen, dass der Schritt nötig ist? Würde er merken, dass das Ergebnis weniger wert ist, wenn der Schritt fehlt? Gesetzliche Anforderungen und Risikoreduktion deuten auf Stützleistungen (BVA).",
+   "quelle": "OGPM LB4 - Qualitative Prozessanalyse",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W9-03",
+   "modul": "OGPM",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozesse qualitativ analysieren",
+   "frage": "Welche Angaben enthält ein Eintrag im Problemverzeichnis?",
+   "optionen": [
+    "Name des Problems und Priorität",
+    "Kurze Beschreibung sowie Daten und Annahmen",
+    "Qualitative und quantitative Auswirkungen",
+    "Das vollständige Soll-Prozessmodell"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Beispiel: Reparatur von Waschmaschinen der Marke XY dauert zu lange, weil Ersatzteile drei Wochen brauchen. Qualitativ: unzufriedene Kunden; quantitativ: 30 Ersatzgeräte × CHF 400 = CHF 12 000 pro Jahr.",
+   "quelle": "OGPM LB4 - Qualitative Prozessanalyse",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W9-04",
+   "modul": "OGPM",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Prozesse qualitativ analysieren",
+   "frage": "Ordne die Quadranten des PICK-Charts zu.",
+   "paare": [
+    [
+     "Implement (hoher Wert, einfach)",
+     "Lösung definitiv umsetzen, Quick Win"
+    ],
+    [
+     "Challenge (hoher Wert, schwierig)",
+     "Schrittweise realisieren, Ressourcen ggf. längerfristig bereitstellen"
+    ],
+    [
+     "Possible (tiefer Wert, einfach)",
+     "Umsetzen, wenn Ressourcen verfügbar"
+    ],
+    [
+     "Kill (tiefer Wert, schwierig)",
+     "Problem akzeptieren oder nur teilweise lösen"
+    ]
+   ],
+   "erklaerung": "Das PICK-Chart betrachtet zwei Dimensionen (Wert und Schwierigkeit), das Pareto-Chart nur den Einfluss: Balken absteigend sortiert, darüber die kumulierte Prozentkurve.",
+   "quelle": "OGPM LB4 - Qualitative Prozessanalyse",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W9-05",
+   "modul": "OGPM",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Prozesse qualitativ analysieren",
+   "frage": "Welche vier Dimensionen umfasst das «Teufelsquadrat» der Prozessperformance?",
+   "antwort": "Zeit, Kosten, Qualität und Flexibilität.",
+   "erklaerung": "Es hilft zu entscheiden, welche Performance-Dimension Priorität hat, weil Verbesserungen in einer Dimension oft eine andere verschlechtern. Zeit umfasst Service-, Transport- sowie Warte- und Liegezeiten.",
+   "quelle": "OGPM LB4 - Qualitative Prozessanalyse",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W9-06",
+   "modul": "OGPM",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozesse qualitativ analysieren",
+   "frage": "Welche Kategorien umfassen die «6 M» des Ursache-Wirkungs-Diagramms (Ishikawa)?",
+   "optionen": [
+    "Mensch, Maschine, Milieu",
+    "Material, Methode, Messung",
+    "Markt, Management, Marketing",
+    "Mittel, Motivation, Monitoring"
+   ],
+   "loesung": [
+    0,
+    1
+   ],
+   "erklaerung": "Milieu sind Faktoren aus dem Umfeld, etwa Kunden, ausserhalb der Kontrolle des Unternehmens. Vorgehen: Problem formulieren, Kategorien festlegen, Ursachen sammeln (Brainstorming), einordnen und priorisieren.",
+   "quelle": "OGPM LB4 - Qualitative Prozessanalyse",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W9-07",
+   "modul": "OGPM",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozesse qualitativ analysieren",
+   "frage": "Wie funktioniert ein Warum-Warum-Diagramm?",
+   "optionen": [
+    "Das Problem bildet die Wurzel; man fragt erfahrungsgemäss 3 bis 5 Mal «Warum?», bis die kausalen Faktoren benannt sind",
+    "Man ordnet Probleme nach ihrem Einfluss und zeichnet die kumulierte Kurve",
+    "Man klassifiziert jeden Prozessschritt nach Leistungsart",
+    "Man bewertet Lösungen nach Wert und Schwierigkeit"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beispiel: Bauleiter behalten Mietausrüstung zu lange → befürchten spätere Nichtverfügbarkeit → Lieferzeit zu lang → Suche und Genehmigung dauern zu lange. Ursache-Wirkungs- und Warum-Warum-Diagramm gehören zur Root Cause Analysis.",
+   "quelle": "OGPM LB4 - Qualitative Prozessanalyse",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W10-01",
+   "modul": "OGPM",
+   "woche": 10,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Prozesse optimieren und simulieren",
+   "frage": "Ordne die Verbesserungsheuristiken ihrer Gruppe zu.",
+   "paare": [
+    [
+     "Aktivitäten auf den Kunden übertragen, Kontakthäufigkeit reduzieren",
+     "Kundenbezogen"
+    ],
+    [
+     "Re-Sequencing, Parallelisierung, Ausnahmefälle separat behandeln",
+     "Auf das Prozessverhalten bezogen"
+    ],
+    [
+     "Empowerment, Case-Worker, geteilte Verantwortung reduzieren",
+     "Organisationsbezogen"
+    ],
+    [
+     "Outsourcing, standardisierte Schnittstellen (Interfacing)",
+     "Auf die Prozessumgebung bezogen"
+    ]
+   ],
+   "erklaerung": "Weitere Gruppen: aktivitätsbezogen (Schnittstellen reduzieren) und informations- und technologiebezogen (Vollständigkeitskontrollen, Automatisierung, Integrationstechnologien). Für jede Massnahme die Wirkung auf Zeit, Kosten, Qualität und Flexibilität bewerten.",
+   "quelle": "OGPM LB4 - Prozessoptimierung und Prozesssimulation",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W10-02",
+   "modul": "OGPM",
+   "woche": 10,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozesse optimieren und simulieren",
+   "frage": "Welcher potenzielle Nachteil wird bei der vollständigen Automatisierung von Aktivitäten genannt?",
+   "optionen": [
+    "Verminderte Flexibilität",
+    "Längere Durchlaufzeiten",
+    "Höhere Fehlerquote bei Standardfällen",
+    "Mehr Schnittstellen zum Kunden"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Eine Variante ist automatisierter Support, etwa Entscheidungsunterstützung. Auch Integration von Kunden und Lieferanten oder standardisierte Schnittstellen können die Flexibilität senken.",
+   "quelle": "OGPM LB4 - Prozessoptimierung und Prozesssimulation",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W10-03",
+   "modul": "OGPM",
+   "woche": 10,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozesse optimieren und simulieren",
+   "frage": "Was ist der Grundgedanke der Prozesssimulation?",
+   "optionen": [
+    "Ein Simulator erzeugt viele hypothetische Prozessinstanzen, führt sie schrittweise aus und protokolliert Zykluszeiten, Wartezeiten, Ressourcenauslastung und Kosten",
+    "Man befragt die Beteiligten, wie lange jeder Schritt dauert, und addiert die Zeiten",
+    "Man beobachtet einen realen Durchlauf und überträgt ihn in BPMN",
+    "Man klassifiziert jeden Schritt nach Wertschöpfung"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Simulation ist die am meisten unterstützte quantitative Technik; weitere sind Fluss- und Warteschlangenanalyse. Qualitative Methoden sind einfach anwendbar, aber ungenau und subjektiv.",
+   "quelle": "OGPM LB4 - Prozessoptimierung und Prozesssimulation",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W10-04",
+   "modul": "OGPM",
+   "woche": 10,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozesse optimieren und simulieren",
+   "frage": "Welche Inputs braucht eine Prozesssimulation?",
+   "optionen": [
+    "Verteilung der Bearbeitungszeit je Aufgabe (fix, exponential- oder normalverteilt)",
+    "Ressourcenpools mit Grösse und Kosten pro Zeiteinheit",
+    "Verzweigungswahrscheinlichkeiten an Gateways sowie Startzeit, Dauer und Anzahl Instanzen",
+    "Die Wertschöpfungsklasse jedes Schritts"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Exponentialverteilung: meist um einen Mittelwert, manchmal deutlich länger (z. B. Schadenbewertung). Normalverteilung: symmetrisch um den Mittelwert, braucht zusätzlich die Standardabweichung (z. B. Formular auf Vollständigkeit prüfen).",
+   "quelle": "OGPM LB4 - Prozessoptimierung und Prozesssimulation",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W11-01",
+   "modul": "OGPM",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozessziele und Prozesskennzahlen festlegen",
+   "frage": "Was sind die Kernaufgaben des Prozesscontrollings (Business Process Performance Management)?",
+   "optionen": [
+    "Prozessziele planen und ihre Erreichung kontrollieren, mit einem abgestimmten Satz von Prozesskennzahlen",
+    "Prozesse in BPMN modellieren und in Signavio publizieren",
+    "Mitarbeitende für Prozessrollen auswählen und schulen",
+    "Prozesse automatisieren und in einem BPMS ausführen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ziel des GPM ist es, Effektivität (die richtigen Dinge tun) und Effizienz (die Dinge richtig tun) zu steigern. Prozesscontrolling steht neben Prozessführung, Prozessorganisation und Prozessoptimierung.",
+   "quelle": "OGPM LB5 - Business Process Performance Measurement",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W11-02",
+   "modul": "OGPM",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozessziele und Prozesskennzahlen festlegen",
+   "frage": "Wofür werden Balanced Scorecard und Strategy Map im Prozesscontrolling eingesetzt?",
+   "optionen": [
+    "Die BSC leitet Prozessziele top-down aus der Strategie ab und ordnet sie den vier Perspektiven zu; die Strategy Map zeigt Ursache-Wirkungs-Zusammenhänge zwischen den Zielen",
+    "Die BSC misst die Durchlaufzeit, die Strategy Map die Kosten eines Prozesses",
+    "Beide dienen der grafischen Modellierung von Prozessabläufen",
+    "Die BSC priorisiert Probleme, die Strategy Map sucht ihre Ursachen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beispiel Büroartikel AG: Probleme wie viele Einmalkunden, veraltetes Sortiment, lange Bearbeitungszeiten, Retouren und hohe Fluktuation werden in Prozessziele je Perspektive übersetzt (Finanzen, Kunden, Prozesse, Lernen und Entwicklung).",
+   "quelle": "OGPM LB5 - Business Process Performance Measurement",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W11-03",
+   "modul": "OGPM",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Prozessziele und Prozesskennzahlen festlegen",
+   "frage": "Ordne die Prozessziele der passenden BSC-Perspektive zu.",
+   "paare": [
+    [
+     "Kapitalrendite erhöhen",
+     "Finanzperspektive"
+    ],
+    [
+     "Net Promoter Score steigern, Retourenquote senken",
+     "Kundenperspektive"
+    ],
+    [
+     "Fluktuationsrate senken, Weiterbildung fördern",
+     "Lern- und Entwicklungsperspektive"
+    ],
+    [
+     "Durchlaufzeit reduzieren, First Pass Yield erhöhen",
+     "Prozess- bzw. Leistungsperspektive"
+    ]
+   ],
+   "erklaerung": "Prozessziele müssen SMART sein: spezifisch auf den Prozess bezogen, über Kennzahlen messbar, akzeptiert, realistisch und terminiert.",
+   "quelle": "OGPM LB5 - Business Process Performance Measurement",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W11-04",
+   "modul": "OGPM",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozessziele und Prozesskennzahlen festlegen",
+   "frage": "Wie berechnet man die Zeiteffizienz eines Prozesses, und welcher Wert ist üblich?",
+   "optionen": [
+    "Summe der Bearbeitungszeiten geteilt durch die gesamte Durchlaufzeit × 100; oft unter 5 %, Ziel über 10 %",
+    "Durchlaufzeit geteilt durch Anzahl Transaktionen; oft über 90 %",
+    "Anzahl termingerechter Transaktionen geteilt durch alle Transaktionen; üblich 50 %",
+    "Bearbeitungszeit plus Liegezeit plus Transferzeit; üblich 100 %"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Prozesszeit = Bearbeitungszeit + Liegezeit + Transferzeit. Liege- und Transferzeiten sind nicht wertschöpfende «tote Zeiten». Termintreue = Transaktionen ohne Terminverzug / alle abgeschlossenen Transaktionen.",
+   "quelle": "OGPM LB5 - Business Process Performance Measurement",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W11-05",
+   "modul": "OGPM",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozessziele und Prozesskennzahlen festlegen",
+   "frage": "Was misst der First Pass Yield (FPY), und wie hängt er mit dem Rolled Throughput Yield (RTY) zusammen?",
+   "optionen": [
+    "FPY = Anteil der Transaktionen ohne Nacharbeit; RTY = Produkt der FPY aller Teilprozesse",
+    "FPY = Anteil fehlerhafter Teile; RTY = Summe der Fehler aller Teilprozesse",
+    "FPY = Fehler pro Million Möglichkeiten; RTY = Qualitätskosten",
+    "FPY = Anteil termingerechter Lieferungen; RTY = Durchschnitt der Termintreue"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Der FPY liegt zu Beginn oft unter 20 %, mit kontinuierlicher Verbesserung bald gegen 80 %. FPY und RTY eignen sich besser zur Steuerung als Qualitätskosten, weil sie aktuell und direkt aus dem Ablauf ableitbar sind.",
+   "quelle": "OGPM LB5 - Business Process Performance Measurement",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W11-06",
+   "modul": "OGPM",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Prozessziele und Prozesskennzahlen festlegen",
+   "frage": "Ordne die Zeit-Kennzahlen ihrer Aussage zu.",
+   "paare": [
+    [
+     "Statische Prozesszeit (SPZ)",
+     "Blick zurück: durchschnittliche Dauer abgeschlossener Transaktionen"
+    ],
+    [
+     "Dynamische Prozesszeit (DPZ)",
+     "Gegenwart: wie schnell Transaktionen durch den Prozess fliessen, wenn viele länger als eine Messperiode dauern"
+    ],
+    [
+     "Prozessgeschwindigkeit",
+     "Abgeschlossene Transaktionen pro Tag der Messperiode"
+    ]
+   ],
+   "erklaerung": "Bei der Zykluszeit werden zeitparallele Teilprozesse nicht addiert; die Summe aller Teilprozesszeiten ist entsprechend höher (Beispiel 14 h vs. 20 h).",
+   "quelle": "OGPM LB5 - Business Process Performance Measurement",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W11-07",
+   "modul": "OGPM",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozessziele und Prozesskennzahlen festlegen",
+   "frage": "Welche Methoden zur Berechnung der Prozesskosten werden unterschieden?",
+   "optionen": [
+    "Bottom-up: häufigkeits- oder mengenbasierte Prozesskostenrechnung auf Basis der Bearbeitungszeiten",
+    "Top-down: Verteilung der Kapazität der Mitarbeitenden auf die Teilprozesse",
+    "Die Berechnung über den Net Promoter Score",
+    "Die Schätzung über die Anzahl Gateways im Modell"
+   ],
+   "loesung": [
+    0,
+    1
+   ],
+   "erklaerung": "Kostenarten: Personal, Sachmittel/Infrastruktur, Objekt- und Materialkosten. Der Auslastungsgrad von Personal, Sachmitteln und Gebäuden ist ein indirekter Indikator der Prozesskosten.",
+   "quelle": "OGPM LB5 - Business Process Performance Measurement",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W12-01",
+   "modul": "OGPM",
+   "woche": 12,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozesse mit BPM-Systemen automatisieren",
+   "frage": "Was ist ein Business Process Management System (BPMS)?",
+   "optionen": [
+    "Software, die digitalisierte und automatisierte Geschäftsprozesse steuert, überwacht und analysiert; auch Workflow Management System genannt",
+    "Ein Grafikprogramm, mit dem Prozesse ausschliesslich gezeichnet werden",
+    "Ein ERP-System mit integrierter Datenbank für alle Unternehmensdaten",
+    "Eine Methode zur qualitativen Prozessanalyse"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ein Workflow ist ein formal beschriebener, ganz oder teilweise automatisierter Geschäftsprozess mit zusätzlichen zeitlichen, fachlichen und ressourcenbezogenen Spezifikationen. BPMS haben intuitive Tools, die wenig IT-Kompetenz erfordern.",
+   "quelle": "OGPM LB5 - Business Process Management Systeme",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W12-02",
+   "modul": "OGPM",
+   "woche": 12,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Prozesse mit BPM-Systemen automatisieren",
+   "frage": "Bringe die Funktionsweise eines Workflow Management Systems in die richtige Reihenfolge.",
+   "items": [
+    "Fachliches Prozessmodell in BPMN modellieren",
+    "Technischen Workflow entwickeln (welche Daten bearbeitet werden)",
+    "Auf den Prozess-Engine-Server hochladen und ausführen",
+    "Über das Prozessportal im Browser Prozesse starten und zugewiesene Aufgaben erledigen"
+   ],
+   "erklaerung": "Für jeden Start legt die Prozess-Engine eine neue Prozessinstanz mit eindeutiger Nummer an. Instanzen laufen unabhängig voneinander und können verschiedene Bearbeitungsstände haben.",
+   "quelle": "OGPM LB5 - Business Process Management Systeme",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W12-03",
+   "modul": "OGPM",
+   "woche": 12,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozesse mit BPM-Systemen automatisieren",
+   "frage": "Welche Schritte gehören dazu, ein Prozessmodell in Signavio Process Governance ausführbar zu machen?",
+   "optionen": [
+    "Prozessauslöser definieren (z. B. Formular oder E-Mail)",
+    "Für jede Aktivität Formulare und Daten sowie Rollen festlegen",
+    "Regeln für Verzweigungen und zeitliche Eskalationen definieren, externe Systeme anbinden",
+    "Für jede Aktivität eine Wertschöpfungsanalyse durchführen"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Die acht Schritte: Auslöser, Prozess modellieren, Formulare und Daten, Regeln (z. B. genehmigt = true), Rollen, zeitliche Bedingungen, externe Systeme, ausführen. Der Signavio Process Manager dokumentiert und simuliert, Process Governance führt Workflows aus.",
+   "quelle": "OGPM LB5 - Business Process Management Systeme",
+   "kern": false
+  },
+  {
+   "id": "OGPM-W12-04",
+   "modul": "OGPM",
+   "woche": 12,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozesse mit BPM-Systemen automatisieren",
+   "frage": "Welche Vorteile bieten BPM-Systeme?",
+   "optionen": [
+    "Einheitliche Notation für fachliche und ausführbare Modelle erleichtert die Kommunikation mit der Softwareentwicklung",
+    "Das System stellt die Einhaltung der Prozesse sicher und überwacht Fristen automatisch",
+    "Monitoring zeigt den aktuellen Stand laufender Instanzen, Reporting wertet abgeschlossene aus",
+    "Sie steigern die Performance der gesamten Softwarearchitektur"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Weitere Vorteile: leicht änderbare grafische Modelle, automatische Aufgabendelegation bei Abwesenheit, weniger Programmieraufwand, Integration über Konnektoren. Simulation eignet sich für hoch strukturierte Prozesse mit hohem Volumen, etwa im Callcenter.",
+   "quelle": "OGPM LB5 - Business Process Management Systeme",
+   "kern": true
+  },
+  {
+   "id": "OGPM-W12-05",
+   "modul": "OGPM",
+   "woche": 12,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozesse mit BPM-Systemen automatisieren",
+   "frage": "Welche Nachteile von BPM-Systemen nennt die Vorlesung?",
+   "optionen": [
+    "Höhere Komplexität der Softwarearchitektur durch eine zusätzliche Schicht",
+    "Geringere Performance bei Funktionsaufrufen und Datentransformationen",
+    "Fehlende Datenintegration im Vergleich zu einem ERP mit einheitlichem Datenmodell",
+    "Prozesse lassen sich nach der Einführung nicht mehr ändern"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Anders als in einem ERP kann man in einem BPMS-gesteuerten Prozess nicht davon ausgehen, dass überall einheitliche und aktuelle Daten verfügbar sind.",
+   "quelle": "OGPM LB5 - Business Process Management Systeme",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W9-01",
+   "modul": "SYMG",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Marktorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Bringe den Marketingproblemlöseprozess in die richtige Reihenfolge.",
+   "items": [
+    "Situationsanalyse (strategische Vorgaben, Markt- und Konkurrenzanalyse, Segmentierung)",
+    "Zielmarktbestimmung",
+    "Positionierung und Zieldefinition",
+    "Marktbearbeitung (Marketing-Mix)",
+    "Umsetzung und Controlling"
+   ],
+   "erklaerung": "Langfristziel des Marketings: Kundenbedürfnisse erfüllen und gleichzeitig finanzielle Ziele erreichen (Credo P&G 1986). Kundenbedürfnisse sind individuell und ändern sich schnell (Beispiel Valora und das Kioskgeschäft).",
+   "quelle": "SYMG LB4 - Marktorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W9-02",
+   "modul": "SYMG",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Marktorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Ordne die Marktbearbeitungsstrategien zu.",
+   "paare": [
+    [
+     "Undifferenziert (Massenmarketing)",
+     "Alle Segmente mit gleichem Angebot und gleicher Strategie, typisch für frühere Staatsmonopole"
+    ],
+    [
+     "Differenziert",
+     "Jedes Segment wird spezifisch bearbeitet"
+    ],
+    [
+     "Konzentriert (Nischenmarketing)",
+     "Ein oder wenige Segmente mit einem Angebot"
+    ],
+    [
+     "Individuell (1-to-1-Marketing)",
+     "Jeder Kunde erhält ein zugeschnittenes Angebot, z. B. Mass Customization"
+    ]
+   ],
+   "erklaerung": "Die Digitalisierung erlaubt fast vollständige Segmentierung: Die Migros erhöhte 2016 die Zahl ihrer Cumulus-Segmente von 44 auf 154 000, im Schnitt 18 Kundinnen und Kunden pro Segment.",
+   "quelle": "SYMG LB4 - Marktorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W9-03",
+   "modul": "SYMG",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Marktorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Was erschwert die Marktsegmentierung bei «hybriden Kunden»?",
+   "optionen": [
+    "Derselbe Kunde verhält sich je nach Situation völlig unterschiedlich, z. B. Luxusrestaurant und Discount-Waschmittel",
+    "Hybride Kunden kaufen nur online",
+    "Sie gehören zu keinem soziodemografischen Segment",
+    "Sie lehnen jede Form von Werbung ab"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Segmentierungskriterien: soziodemografisch, geografisch, psychografisch (Lebensstil, Sinus-Milieus), Kaufverhalten, Nutzenerwartungen. Die Nutzensegmentierung (z. B. Zahnpasta: Besorgte, Blender, Geschmacksorientierte, Funktionale) orientiert sich am gesuchten Nutzen.",
+   "quelle": "SYMG LB4 - Marktorientierte Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W9-04",
+   "modul": "SYMG",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Marktorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Was bedeutet Positionierung, und was macht eine gute Positionierung aus?",
+   "optionen": [
+    "Sich im Kopf des Kunden zu platzieren, mit klarem Wettbewerbsvorteil, Kundenrelevanz, einfacher Kommunizierbarkeit und Glaubwürdigkeit",
+    "Den Verkaufspreis im Verhältnis zur Konkurrenz festzulegen",
+    "Die Filialen an den Standorten mit den meisten Passanten zu platzieren",
+    "Das Produkt im Regal auf Augenhöhe zu platzieren"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beispiel Volvo: «the safest, most durable wagon» für sicherheitsbewusste Familien. Der Produktlebenszyklus erodiert Positionierungen; Neupositionierungen zeigten Hugo Boss (Generation Z, TikTok), IKEA (mehr Qualität) und Havaianas (vom Volksprodukt zum Fashion-Produkt).",
+   "quelle": "SYMG LB4 - Marktorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W9-05",
+   "modul": "SYMG",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Marktorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Ordne die Instrumente den 4 P des Marketing-Mix zu.",
+   "paare": [
+    [
+     "Design, Verpackung, Kundendienst",
+     "Product"
+    ],
+    [
+     "Preisniveau, Konditionen, Preisdifferenzierung",
+     "Price"
+    ],
+    [
+     "Vertriebskanäle, Logistik, Lieferservice",
+     "Place"
+    ],
+    [
+     "Werbung, Verkaufsförderung, Sponsoring",
+     "Promotion"
+    ]
+   ],
+   "erklaerung": "Der Marketing-Mix bestimmt den Wertgewinn: Wertsumme (Produkt, Service, Image) minus Kostensumme des Kunden (Geld, Zeit, Mühe, psychischer Aufwand). Digitale Instrumente ergänzen alle vier P.",
+   "quelle": "SYMG LB4 - Marktorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W9-06",
+   "modul": "SYMG",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Marktorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Ordne die drei Konzeptionsebenen der Produktgestaltung (Zwiebelschalenmodell) zu.",
+   "paare": [
+    [
+     "Kernprodukt",
+     "Der Kernnutzen, z. B. bei Stihl Qualität im Gebrauch, Zeit- und Kostenersparnis"
+    ],
+    [
+     "Formales Produkt",
+     "Marke, Verpackung, Design, Qualität, Produkteigenschaften"
+    ],
+    [
+     "Erweitertes Produkt",
+     "Mehrwert über das Physische hinaus: Garantien, Hotline, Installation, Recycling"
+    ]
+   ],
+   "erklaerung": "Beispiel Weber Grill: Grills und Zubehör, dazu Grillkurse, Online-Rezepte, App und User Generated Content. Technische Meisterleistungen allein garantieren keinen Kundennutzen.",
+   "quelle": "SYMG LB4 - Marktorientierte Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W9-07",
+   "modul": "SYMG",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Marktorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Ordne die Formen der Preisdifferenzierung ihrem Beispiel zu.",
+   "paare": [
+    [
+     "Dynamisch",
+     "Laufend ändernde Online-Preise bei Airlines, Hotels und Bergbahnen"
+    ],
+    [
+     "Zeitlich",
+     "Günstigere Hotelzimmer in der Nebensaison"
+    ],
+    [
+     "Räumlich",
+     "Unterschiedliche In- und Auslandpreise für Medikamente"
+    ],
+    [
+     "Nach Käuferschichten",
+     "Studententarife"
+    ]
+   ],
+   "erklaerung": "Weitere Formen: nach Abnahmemenge (Mengenrabatte) und personalisiert (Migros Cumulus berechnet die Preisakzeptanz je Kunde und vergibt individuelle Rabatte, um die maximale Zahlungsbereitschaft abzuschöpfen).",
+   "quelle": "SYMG LB4 - Marktorientierte Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W9-08",
+   "modul": "SYMG",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Marktorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Warum gilt Kundenzufriedenheit als zentraler Indikator für Markterfolg?",
+   "optionen": [
+    "Zufriedene Kunden kaufen häufiger, sind treuer, empfehlen weiter, verursachen geringere Betreuungskosten und sind toleranter bei Fehlern und Preiserhöhungen",
+    "Zufriedene Kunden verlangen immer tiefere Preise",
+    "Kundenzufriedenheit lässt sich am einfachsten über klassische Befragungen messen",
+    "Zufriedenheit garantiert, dass Kunden nie zur Konkurrenz wechseln"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Von 100 unzufriedenen Kunden reklamieren nur 5; wird das Problem sofort gelöst, bleiben viele loyal. Jeder Unzufriedene erzählt es etwa 10 anderen. Klassische Befragungen sind wegen unbewusster Kaufsteuerung fragwürdig, Experimente und Beobachtungen sind besser.",
+   "quelle": "SYMG LB4 - Marktorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W9-09",
+   "modul": "SYMG",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Marktorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Wie wirkt ein starker Markenwert auf den Unternehmenswert?",
+   "optionen": [
+    "Marken schaffen Loyalität und planbare Umsätze; das senkt das Unternehmensrisiko und damit die Kapitalkosten",
+    "Marken erhöhen vor allem die Produktionskosten",
+    "Marken wirken nur in der Werbung, nicht auf finanzielle Grössen",
+    "Ein hoher Markenwert senkt zwingend den Marktanteil"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beispiel: VW Sharan und Seat Alhambra waren fast baugleich, der teurere Sharan erzielte 2001 trotzdem 752 statt 168 Mio. Euro Umsatz. Starke Marken aktivieren emotionale Hirnregionen («Lovemarks»: Loyalty beyond reason). Swissness erlaubt im Schnitt fast 40 % Preisprämie.",
+   "quelle": "SYMG LB4 - Marktorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W9-10",
+   "modul": "SYMG",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Marktorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Was zeigte das Beispiel Starbucks zum dominanten Nutzenangebot (USP)?",
+   "optionen": [
+    "Nicht Innovationen, sondern schneller, freundlicher Service war 75 % der Kunden wichtig; kürzere Wartezeiten steigerten die Zufriedenheit um 20 %",
+    "Je mehr neue Produkte, desto zufriedener wurden die Kunden",
+    "Tiefere Preise waren der wichtigste Faktor für die Kunden",
+    "Kundenbefragungen zeigten, dass Service unwichtig ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Starbucks investierte über 40 Mio. Dollar in Personal, vereinfachte Abläufe und führte die Starbucks Card ein. Der Anteil der in weniger als drei Minuten bedienten Kunden stieg von 54 auf 80 %.",
+   "quelle": "SYMG LB4 - Marktorientierte Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W9-11",
+   "modul": "SYMG",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Marktorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Welches sind die vier Kernaufgaben (Hebel) im Marketing?",
+   "optionen": [
+    "Kundenakquisition, Kundenbindung, Leistungspflege und Leistungsinnovation",
+    "Produktion, Logistik, Finanzierung und Personal",
+    "Werbung, Sponsoring, Messen und PR",
+    "Segmentierung, Rabatte, Filialen und Hotline"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Kundenmanagement (Gewinnung, Bindung, Ausweitung, Vertriebskanäle) und Differenzierung des Leistungsangebots (Qualität, Preise, Kommunikation, Investitionen in Innovation). Beispiel Lego: Mädchen und Erwachsene als neue Zielgruppen.",
+   "quelle": "SYMG LB4 - Marktorientierte Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W9-12",
+   "modul": "SYMG",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Marktorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Worin unterscheiden sich SEO und SEA im Search Engine Marketing?",
+   "optionen": [
+    "SEO verbessert die organische Sichtbarkeit (Keywords, Inhalte, Backlinks), SEA sind bezahlte Anzeigen auf Suchmaschinen",
+    "SEO sind bezahlte Anzeigen, SEA ist die technische Optimierung der Website",
+    "Beide bezeichnen dasselbe, SEA ist nur die englische Abkürzung",
+    "SEO betrifft Social Media, SEA E-Mail-Marketing"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Weitere digitale Instrumente: Content Marketing (z. B. IKEA-Katalog und AR-App), Social Media Marketing und Viral-Marketing (Evian Roller Babies). Integrierte Kommunikation stimmt klassische und digitale Instrumente aufeinander ab.",
+   "quelle": "SYMG LB4 - Marktorientierte Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W11-01",
+   "modul": "SYMG",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozessorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Welche Probleme entstehen, wenn ein Unternehmen in «operativen Inseln» statt in Prozessen organisiert ist?",
+   "optionen": [
+    "Liege- und Totzeiten, Doppelarbeiten und Redundanzen",
+    "Informationsfilterung, Intransparenz sowie Steuerungs- und Koordinationsprobleme",
+    "Frustrierte Kunden an den Schnittstellen",
+    "Zu kurze Durchlaufzeiten durch zu schnelle Übergaben"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Funktions- und Hierarchiebarrieren führen zu fragmentierter Organisation (Rüegg-Stürm). Prozessmanagement ist nach Hinterhuber radikales funktions- und hierarchieübergreifendes Denken, um Kosten zu senken, Service zu verbessern und Durchlaufzeiten zu verkürzen.",
+   "quelle": "SYMG LB5 - Prozessorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W11-02",
+   "modul": "SYMG",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozessorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Wozu dient die Wertkette nach Porter in der prozessorientierten Unternehmensführung?",
+   "optionen": [
+    "Als Instrument der strategischen Prozessanalyse, um Wettbewerbsvorteile in primären und unterstützenden Aktivitäten zu erkennen, oft im Vergleich via Benchmarking",
+    "Zur detaillierten Modellierung einzelner Arbeitsschritte mit Gateways und Ereignissen",
+    "Zur Berechnung des Free Cashflows je Geschäftseinheit",
+    "Zur Segmentierung von Kunden nach Kaufverhalten"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Beispiel IKEA: grosse Ausstellungsräume, Baukasten-Design, Selbstbedienung, Lieferung durch den Kunden stützen die Positionierung «günstig und modern». BPMN dient dagegen der operativen Prozessanalyse.",
+   "quelle": "SYMG LB5 - Prozessorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W11-03",
+   "modul": "SYMG",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Prozessorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Was ist Benchmarking?",
+   "antwort": "Der systematische Vergleich eigener Prozesse, Methoden und Praktiken mit dem stärksten Wettbewerber oder einem «Weltklasse»-Unternehmen, um Best Practices zu finden.",
+   "erklaerung": "Kennzahlen sind dabei Hilfsmittel, nicht Ziel. Pionier Xerox benchmarkt sich mit verschiedenen Branchenbesten, etwa American Express im Rechnungswesen oder Toyota in der Produktion.",
+   "quelle": "SYMG LB5 - Prozessorientierte Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W11-04",
+   "modul": "SYMG",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Prozessorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Ordne die Leistungsarten der Wertschöpfungsanalyse nach Miles zu.",
+   "paare": [
+    [
+     "Nutzleistung",
+     "Vom Kunden als wertsteigernd wahrgenommen, z. B. Montage, Versand"
+    ],
+    [
+     "Stützleistung",
+     "Indirekt wertschöpfend, vom Kunden nicht wahrgenommen, z. B. Planung, Archivierung"
+    ],
+    [
+     "Blindleistung",
+     "Weder direkt noch indirekt wertschöpfend, z. B. Zwischenlagerung, Mehrfacherfassung"
+    ],
+    [
+     "Fehlleistung",
+     "Geplante Leistung mit Fehler, z. B. falsche Buchung, Fehllieferung"
+    ]
+   ],
+   "erklaerung": "Ziel: nicht-wertschöpfende Schritte reduzieren. Nutzleistungen laufend optimieren, Stützleistungen minimieren, Blindleistungen eliminieren, Fehlleistungen durch Planung und Schulung vermeiden.",
+   "quelle": "SYMG LB5 - Prozessorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W11-05",
+   "modul": "SYMG",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozessorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Was sagt die Cost-Income Ratio (CIR) aus?",
+   "optionen": [
+    "Wie viele Rappen ein Unternehmen ausgibt, um einen Franken Ertrag zu erzielen; ein zentraler Effizienzmassstab, besonders bei Banken",
+    "Wie viel Eigenkapital pro Franken Umsatz gebunden ist",
+    "Wie viel Gewinn pro Mitarbeitenden erzielt wird",
+    "Wie hoch der Anteil der Kosten für Marketing am Umsatz ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Bei Banken: Geschäftsaufwand (Personal- und Sachaufwand vor Abschreibungen) / Betriebsertrag. Je tiefer, desto effizienter. Effizienzhebel: Standardisierung, Automatisierung, Bank Factories.",
+   "quelle": "SYMG LB5 - Prozessorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W11-06",
+   "modul": "SYMG",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Prozessorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Ordne Wertschöpfung und Effizienz zu.",
+   "paare": [
+    [
+     "Wertschöpfung (Aussensicht)",
+     "Die richtigen Dinge tun, z. B. Toyota konzentriert sich auf Qualität, Sicherheit und Hybridtechnik"
+    ],
+    [
+     "Effizienz (Innensicht)",
+     "Die Dinge richtig tun, z. B. Toyota baut zehn Millionen Autos mit 300 000 Beschäftigten, VW braucht 600 000"
+    ]
+   ],
+   "erklaerung": "Die Deming'sche Kettenreaktion: Qualitätsverbesserungen nach dem PDCA-Zyklus senken Kosten (weniger Nacharbeit und Fehler), steigern Produktivität und Marktanteil. Darauf baut das Toyota Production System auf.",
+   "quelle": "SYMG LB5 - Prozessorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W11-07",
+   "modul": "SYMG",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Prozessorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Ordne die Ansätze der Prozessoptimierung zu.",
+   "paare": [
+    [
+     "Business Process Reengineering (BPR)",
+     "Radikale Neugestaltung: «Don't automate, obliterate» (Hammer und Champy)"
+    ],
+    [
+     "Kaizen bzw. KVP",
+     "Kontinuierliche Verbesserung in kleinen Schritten, kein Tag ohne Verbesserung"
+    ],
+    [
+     "Total Quality Management (TQM)",
+     "Evolutiv, umfassende Qualitätskultur, z. B. EFQM-Modell"
+    ]
+   ],
+   "erklaerung": "BPR wurde oft als Deckmantel für Downsizing missbraucht und ist schwer umzusetzen (Boeing 787). Kaizen: Kai = Veränderung, Zen = zum Besseren; jedes System zerfällt ohne ständige Erneuerung (Beispiel Swiss).",
+   "quelle": "SYMG LB5 - Prozessorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W11-08",
+   "modul": "SYMG",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozessorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Was zeigt das Beispiel Hilti zur Gestaltung der Wertschöpfungsarchitektur?",
+   "optionen": [
+    "Hilti wandelte das Produkt in eine Dienstleistung um (Flottenmanagement statt Verkauf von Bohrhämmern) und erzielte so wieder höhere Margen",
+    "Hilti verlagerte die gesamte Produktion in Niedriglohnländer, um Kosten zu senken",
+    "Hilti zog sich aus dem Direktvertrieb zurück und setzt nur noch auf Händler",
+    "Hilti verkauft seine Geräte nur noch über Online-Plattformen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Für ein neues Nutzenversprechen mussten alle Elemente des Geschäftsmodells ändern: Gewinnformel (monatliche Zahlungen), Schlüsselressourcen (Direktvertrieb, Vertragsverwaltung, IT für Bestand und Reparatur).",
+   "quelle": "SYMG LB5 - Prozessorientierte Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W11-09",
+   "modul": "SYMG",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozessorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Worauf ist beim Outsourcing besonders zu achten?",
+   "optionen": [
+    "Dass keine Aktivitäten ausgelagert werden, die zu den Kernkompetenzen gehören",
+    "Dass möglichst alle Funktionen ausgelagert werden, um die Fertigungstiefe zu minimieren",
+    "Dass nur an Partner im Inland ausgelagert wird",
+    "Dass Outsourcing immer Kosten spart und deshalb nicht hinterfragt werden muss"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Kontrollansätze: Mitarbeitende bei Partnern (Nike), teils selbst machen (Apple-Flagship-Stores), Lizenzierung und Franchising, Win-Win-Partnerschaften (Toyota). Zurich-CEO Greco stoppte Outsourcing: weniger Kontrolle, hohe Fluktuation, sozial nicht nachhaltig. Nach Corona steigt die Wertschöpfungstiefe wieder.",
+   "quelle": "SYMG LB5 - Prozessorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W11-10",
+   "modul": "SYMG",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Prozessorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Welche Prozesskennzahlen messen die Effizienz?",
+   "optionen": [
+    "Zeit: Durchlaufzeit, Liefertreue, Manufacturing Cycle Effectiveness",
+    "Qualität: First Pass Yield, Fehler- und Reklamationsquoten",
+    "Kosten: Fehlerkosten, Prüfkostenanteil, Kapazitätsauslastung, Cost-Income Ratio",
+    "Markenwert und Net Promoter Score"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Die Liegezeit macht oft 60 bis 89 % der Durchlaufzeit aus, die direkte Bearbeitungszeit nur 0,05 bis 10 %. Messgrössen sind nicht gleich Zielgrössen.",
+   "quelle": "SYMG LB5 - Prozessorientierte Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W13-01",
+   "modul": "SYMG",
+   "woche": 13,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Mitarbeiterorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Ordne die Formen der Arbeitszufriedenheit (Bruggemann) ihrer Beschreibung zu.",
+   "paare": [
+    [
+     "Progressiv bzw. stabilisiert zufrieden",
+     "«Echt Zufriedene», zufrieden und hoch motiviert"
+    ],
+    [
+     "Resignativ zufrieden",
+     "Scheinbar zufrieden, aber resigniert; bremst Veränderungen unbemerkt"
+    ],
+    [
+     "Konstruktiv unzufrieden",
+     "Unzufrieden, glaubt aber an Verbesserungen und ist motiviert"
+    ],
+    [
+     "Fixiert unzufrieden",
+     "Unzufrieden ohne neue Lösungsversuche, oft innerlich gekündigt"
+    ]
+   ],
+   "erklaerung": "Arbeitszufriedenheit ergibt sich aus dem Soll-Ist-Vergleich zwischen Erwartungen und Arbeitssituation. Messgrössen: Absenzen, Fluktuation, Konflikte, Verbesserungsvorschläge. Zufriedene sind laut Metastudie 31 % produktiver, verkaufen 37 % mehr und sind dreimal kreativer.",
+   "quelle": "SYMG LB6 - Mitarbeiterorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W13-02",
+   "modul": "SYMG",
+   "woche": 13,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Mitarbeiterorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Wie wird die Arbeitsproduktivität gemessen?",
+   "antwort": "Bruttowertschöpfung geteilt durch die geleisteten Arbeitsstunden.",
+   "erklaerung": "Sie misst die Effizienz der Mitarbeitenden im Wertschöpfungsprozess und ist ein Anhaltspunkt für die Lohnfindung. Gesamtwirtschaftlich lag sie in der Schweiz 2024 bei rund CHF 106 pro Stunde.",
+   "quelle": "SYMG LB6 - Mitarbeiterorientierte Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W13-03",
+   "modul": "SYMG",
+   "woche": 13,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Mitarbeiterorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Ordne die Ebenen der Unternehmenskultur nach Schein von sichtbar zu unsichtbar.",
+   "items": [
+    "Artefakte: Strukturen, Umgangsformen, Rituale, Architektur",
+    "Werte: Leitbild, Code of Conduct, Verhaltensrichtlinien",
+    "Basisannahmen: unbewusste, selbstverständliche Annahmen über Welt und Menschen"
+   ],
+   "erklaerung": "Artefakte sind sichtbar, aber interpretationsbedürftig; Werte teils sichtbar und diskursfähig; Basisannahmen unsichtbar und handlungsleitend. «Culture eats strategy for breakfast» (Drucker). Beispiel Victorinox: familiäre Kultur, keine Entlassungen nach 9/11.",
+   "quelle": "SYMG LB6 - Mitarbeiterorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W13-04",
+   "modul": "SYMG",
+   "woche": 13,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Mitarbeiterorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Was beschreibt der Verdrängungseffekt (Korrumpierungseffekt) von Anreizsystemen?",
+   "optionen": [
+    "Extrinsische Anreize wie Boni können eine bestehende intrinsische Motivation verdrängen, weil sie wie externe Kontrolle wirken",
+    "Gute Mitarbeitende verdrängen schlechtere aus dem Team",
+    "Hohe Löhne verdrängen günstige Konkurrenten vom Arbeitsmarkt",
+    "Anreize erhöhen kurzfristig das gewünschte Verhalten"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Das kurzfristige Erhöhen des Verhaltens ist der Disziplinierungseffekt. Beispiel: Kleinkinder, die für Hilfsbereitschaft mit Spielzeug belohnt wurden, halfen bald nur noch gegen Belohnung. In Umfragen motivieren Arbeitsklima und Kollegen am meisten, Boni am wenigsten (12 %).",
+   "quelle": "SYMG LB6 - Mitarbeiterorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W13-05",
+   "modul": "SYMG",
+   "woche": 13,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Mitarbeiterorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Welche Kriterien eines «gerechten» Lohnsystems werden unterschieden?",
+   "optionen": [
+    "Anforderungsgerechtigkeit (Funktionsbewertung)",
+    "Leistungsgerechtigkeit",
+    "Arbeitsmarkt- und Sozialgerechtigkeit",
+    "Gleicher Lohn für alle Funktionen"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Anforderungsgerechtigkeit fragt, welche Anforderungen eine Stelle stellt (Ausbildung, Belastung, Verantwortung, Sozialkompetenz), und fasst sie zu Lohngruppen zusammen, z. B. zehn Funktionsstufen bei Syngenta.",
+   "quelle": "SYMG LB6 - Mitarbeiterorientierte Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W13-06",
+   "modul": "SYMG",
+   "woche": 13,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Mitarbeiterorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Ordne die Menschenbilder nach McGregor zu.",
+   "paare": [
+    [
+     "Theorie X",
+     "Der Mensch scheut Arbeit und muss kontrolliert und mit Strafen geführt werden"
+    ],
+    [
+     "Theorie Y",
+     "Arbeit kann Quelle der Zufriedenheit sein; wer sich mit den Zielen identifiziert, braucht wenig Kontrolle"
+    ]
+   ],
+   "erklaerung": "Beide wirken als selbsterfüllende Prophezeiung: Strenge Kontrolle erzeugt passives Verhalten, das Theorie X bestätigt; Handlungsspielraum erzeugt Initiative, die Theorie Y bestätigt.",
+   "quelle": "SYMG LB6 - Mitarbeiterorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W13-07",
+   "modul": "SYMG",
+   "woche": 13,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Mitarbeiterorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Ordne die Führungstheorien ihrem Kernmerkmal zu.",
+   "paare": [
+    [
+     "Führungskontinuum (Tannenbaum und Schmidt)",
+     "Eine Dimension: Entscheidungsspielraum von autoritär bis demokratisch"
+    ],
+    [
+     "Verhaltensgitter (Blake und Mouton)",
+     "Zwei Dimensionen Personen- und Aufgabenorientierung, anzustreben ist 9,9"
+    ],
+    [
+     "Reifegradmodell (Hersey und Blanchard)",
+     "Führungsstil richtet sich nach dem Reifegrad der Mitarbeitenden: telling, selling, participating, delegating"
+    ]
+   ],
+   "erklaerung": "Neuere Forschung: Warmherzigkeit (Personenorientierung) schafft Vertrauen und ermöglicht Einfluss; wer nur Kompetenz betont, schadet der Führungsqualität. Gute Führung senkt Fehlzeiten um 37 % und Fluktuation um 44 %.",
+   "quelle": "SYMG LB6 - Mitarbeiterorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W13-08",
+   "modul": "SYMG",
+   "woche": 13,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Mitarbeiterorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Was besagt die Zwei-Faktoren-Theorie von Herzberg?",
+   "optionen": [
+    "Motivatoren (Leistung, Anerkennung, Arbeit selbst, Verantwortung) schaffen Zufriedenheit; Hygienefaktoren (Lohn, Arbeitsbedingungen, Unternehmenspolitik) verhindern nur Unzufriedenheit",
+    "Zufriedenheit und Unzufriedenheit hängen vom gleichen Faktor, dem Lohn, ab",
+    "Menschen werden zuerst durch Sicherheit, dann durch Selbstverwirklichung motiviert",
+    "Motivation entsteht nur durch Kontrolle und Strafe"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Folgerung: Für hohe Motivation braucht es beide Faktorgruppen. Ein guter Lohn allein macht nicht zufrieden, ein schlechter macht aber unzufrieden.",
+   "quelle": "SYMG LB6 - Mitarbeiterorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W13-09",
+   "modul": "SYMG",
+   "woche": 13,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Mitarbeiterorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Bringe die Phasen des Organisationsentwicklungsmodells nach Lewin in die richtige Reihenfolge.",
+   "items": [
+    "Unfreezing (Auftauen)",
+    "Moving (Verändern)",
+    "Refreezing (Stabilisieren)"
+   ],
+   "erklaerung": "Treibende und hemmende Kräfte bestimmen das Gleichgewicht. Widerstand gegen Wandel ist normal und kann funktional sein; er zeigt sich emotional, kognitiv und im Verhalten. Leitsatz: Betroffene zu Beteiligten machen. Zu häufige Restrukturierungen zerstören Loyalität.",
+   "quelle": "SYMG LB6 - Mitarbeiterorientierte Unternehmensführung",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W13-10",
+   "modul": "SYMG",
+   "woche": 13,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Mitarbeiterorientierte Unternehmensführung verstehen und anwenden",
+   "frage": "Ordne die Massnahmen der Personalentwicklung ihrer Kategorie zu.",
+   "paare": [
+    [
+     "Berufsausbildung, Trainee-Programm, Einarbeitung",
+     "Into the job"
+    ],
+    [
+     "Job Rotation, Job Enlargement, Job Enrichment",
+     "On the job"
+    ],
+    [
+     "Qualitätszirkel, Workshops",
+     "Near the job"
+    ],
+    [
+     "Klassische Weiterbildung, Corporate University",
+     "Off the job"
+    ]
+   ],
+   "erklaerung": "Weitere Kategorien: along the job (Laufbahnplanung, Potenzialanalyse, Nachfolgeplanung) und out of the job (Outplacement, Pensionierungsvorbereitung).",
+   "quelle": "SYMG LB6 - Mitarbeiterorientierte Unternehmensführung",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W14-01",
+   "modul": "SYMG",
+   "woche": 14,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Systemisches Management integrativ anwenden",
+   "frage": "Ordne den vier Perspektiven des Rahmenmodells ihre Ziel- und Messgrössen zu.",
+   "paare": [
+    [
+     "Finanzperspektive",
+     "Wertsteigerung (EVA), Gesamt- und Eigenkapitalrentabilität, Umsatzrentabilität"
+    ],
+    [
+     "Kundenperspektive",
+     "Umsatz, Marktanteil, Kundenzufriedenheit und -treue, Markenwert, Image"
+    ],
+    [
+     "Prozessperspektive",
+     "Effizienz und Wertschöpfung"
+    ],
+    [
+     "Mitarbeiterperspektive",
+     "Unternehmenskultur, Motivation, Arbeitszufriedenheit, Arbeitsproduktivität"
+    ]
+   ],
+   "erklaerung": "Finanzgrössen sind Spätindikatoren, Prozess- und Mitarbeitergrössen Frühindikatoren. Gute Strategie und motivierte Mitarbeitende tragen schlanke Prozesse, diese sichern zufriedene Kunden, die Cashflows und Gewinne bringen.",
+   "quelle": "SYMG LB7 - Systemisches Management (Integration)",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W14-02",
+   "modul": "SYMG",
+   "woche": 14,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Systemisches Management integrativ anwenden",
+   "frage": "Ordne den Perspektiven ihre Steuergrössen (Hebel) zu.",
+   "paare": [
+    [
+     "Finanzen",
+     "Kapitalstruktur, Risikomanagement, Investitionen"
+    ],
+    [
+     "Kunden",
+     "Qualitätsvorsprung, Vertriebskanäle, Kundengewinnung und -bindung, Preise"
+    ],
+    [
+     "Prozesse",
+     "Geschäftsprozessoptimierung, Wertschöpfungsarchitektur, Qualität der Ressourcen"
+    ],
+    [
+     "Mitarbeitende",
+     "Wandelprozesse, Anreizsysteme, Personalentwicklung, Führungsqualität"
+    ]
+   ],
+   "erklaerung": "Management heisst, in einem komplexen System die Ziele mit den verfügbaren Hebeln unter Berücksichtigung der Rahmenbedingungen zu erreichen. Die zentrale Frage lautet: Wie reagiert das System auf Eingriffe?",
+   "quelle": "SYMG LB7 - Systemisches Management (Integration)",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W14-03",
+   "modul": "SYMG",
+   "woche": 14,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Systemisches Management integrativ anwenden",
+   "frage": "Bringe die Instrumente des systemischen Managements in die Reihenfolge ihrer Anwendung.",
+   "items": [
+    "Erfolgslogik: Wirkungszusammenhänge zwischen Hebeln und Indikatoren darstellen",
+    "Management-Cockpit: Ziel- und Messgrössen sowie Steuergrössen auswählen",
+    "Aktionsplan: Zielwerte, Massnahmen, Verantwortliche und Termine festlegen"
+   ],
+   "erklaerung": "Praxisbeispiele: Ypsomed (skalierbare Produktion, Fokus auf Injektionssysteme, Tier-1-Zulieferer) und Southwest Airlines.",
+   "quelle": "SYMG LB7 - Systemisches Management (Integration)",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W14-04",
+   "modul": "SYMG",
+   "woche": 14,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Systemisches Management integrativ anwenden",
+   "frage": "Wie gelingt es Southwest Airlines, in einer «Zero-Star-Industry» nach Porter Aktionärswert zu schaffen?",
+   "optionen": [
+    "Vor allem durch eine von nachhaltiger Führung geprägte Unternehmenskultur, die Mission, Kundenerlebnis und Mitarbeiterbeziehung verbindet",
+    "Durch hohe Verschuldung, die den Leverage-Effekt maximiert",
+    "Durch staatliche Subventionen und Monopolrouten",
+    "Durch möglichst viele Langstreckenflüge in der Business Class"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Southwest führte 1971 das Billigflieger-Modell ein, ist seit 1974 durchgehend profitabel und hat nie geschäftlich begründete Entlassungen ausgesprochen. Grösste Herausforderung bei Wachstum und Nachfolge: die Kultur nicht zu verwässern.",
+   "quelle": "SYMG LB7 - Systemisches Management (Integration)",
+   "kern": false
+  },
+  {
+   "id": "SYMG-W14-05",
+   "modul": "SYMG",
+   "woche": 14,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Systemisches Management integrativ anwenden",
+   "frage": "Welche Grenzen der «Machbarkeit durch Führung» nennt die Vorlesung?",
+   "optionen": [
+    "Kosten der Massnahmen, die durch unsichere künftige Erträge kompensiert werden müssen",
+    "Nebenwirkungen, wenn Dynamik und Komplexität der Eingriffe falsch eingeschätzt werden",
+    "Dominanz nicht lenkbarer VUKA-Rahmenbedingungen und unternehmensspezifische Pfadabhängigkeit",
+    "Die vollständige Kontrollierbarkeit sozialer Systeme"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Systeme sind keine Maschinen; Eingriffe haben Nebenwirkungen («Druck erzeugt Gegendruck»), etwa bei Entlassungen. Das Gelassenheitsgebet steht für die Kompetenz, Veränderbares von Unveränderbarem zu unterscheiden. Studien zeigen null Korrelation zwischen Selbsteinschätzung und gemessener Managementqualität.",
+   "quelle": "SYMG LB7 - Systemisches Management (Integration)",
+   "kern": true
+  },
+  {
+   "id": "SYMG-W14-06",
+   "modul": "SYMG",
+   "woche": 14,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Systemisches Management integrativ anwenden",
+   "frage": "Welche Faktoren gehen laut einer grossen Studie mit schlechterer Managementqualität einher?",
+   "optionen": [
+    "Familienfirmen mit einem CEO aus der Familie und staatlich kontrollierte Firmen",
+    "Selbstüberschätzung der Führungspersonen",
+    "Tiefe Mitarbeiterorientierung des CEO",
+    "Publikumsgesellschaften mit externem CEO"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Familienfirmen mit externem CEO und Publikumsgesellschaften zeigen bessere Managementqualität. Bescheidenheit gilt als wichtige Führungskompetenz (Collins).",
+   "quelle": "SYMG LB7 - Systemisches Management (Integration)",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W8-01",
+   "modul": "VHRE",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kündigung und Mieterschutz beurteilen",
+   "frage": "Ein Vermieter kündigt allen Mietern wegen einer umfassenden Gesamtsanierung, die das Wohnen unzumutbar macht. Ist die Kündigung nach Art. 271 OR anfechtbar (BGE 135 III 112)?",
+   "optionen": [
+    "Nein: Bei umfassenden Sanierungen, die die Weiterbenutzung erheblich einschränken, ist der Vermieter auf die Räumung angewiesen; kein Verstoss gegen Treu und Glauben",
+    "Ja: Eine Kündigung wegen Sanierung ist immer eine missbräuchliche Rachekündigung",
+    "Ja: Der Vermieter muss die Mieter während der Sanierung in Ersatzwohnungen unterbringen",
+    "Nein, aber nur weil der Vermieter danach einen neuen Mietvertrag angeboten hat"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Voraussetzung ist, dass die Arbeiten nach bautechnischen und -ökonomischen Kriterien geplant sind und ein Wohnen während der Sanierung erheblich eingeschränkt wäre.",
+   "quelle": "VHRE VL8 - Mietrecht III und weitere Gebrauchsüberlassungsverträge",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W8-02",
+   "modul": "VHRE",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Pflichten im Mietverhältnis beurteilen",
+   "frage": "Ein Mieter will auf seinem Sitzplatz einen Wintergarten bauen. Was gilt (Art. 260a OR)?",
+   "optionen": [
+    "Er braucht die schriftliche Zustimmung des Vermieters; bei erheblichem Mehrwert hat er am Mietende einen Entschädigungsanspruch, auf den er im Voraus verzichten kann",
+    "Er darf ohne Zustimmung bauen, solange er den ursprünglichen Zustand bei Auszug wiederherstellt",
+    "Er braucht nur eine mündliche Zustimmung und hat immer Anspruch auf vollen Kostenersatz",
+    "Erneuerungen durch den Mieter sind bei Wohnräumen gesetzlich ausgeschlossen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Der Entschädigungsanspruch (Art. 260a Abs. 3 OR) ist dispositiv (BGE 124 III 149). Erneuerungen durch den Vermieter (Art. 260 OR) sind nur zulässig, wenn sie dem Mieter zumutbar sind und das Mietverhältnis nicht gekündigt ist.",
+   "quelle": "VHRE VL8 - Mietrecht III und weitere Gebrauchsüberlassungsverträge",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W8-03",
+   "modul": "VHRE",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kündigung und Mieterschutz beurteilen",
+   "frage": "Der Vermieter verkauft das Mehrfamilienhaus. Was geschieht mit den bestehenden Mietverträgen (Art. 261 OR)?",
+   "optionen": [
+    "Sie gehen mit dem Eigentum auf den Erwerber über; dieser kann bei Wohn- und Geschäftsräumen nur bei Eigenbedarf ausserordentlich auf den nächsten gesetzlichen Termin kündigen",
+    "Sie enden automatisch mit der Eigentumsübertragung",
+    "Sie bleiben beim alten Eigentümer, der Erwerber muss neue Verträge abschliessen",
+    "Der Erwerber kann sie jederzeit fristlos kündigen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Gilt auch bei Tausch, Schenkung oder SchKG-Verwertung. Kündigt der Erwerber früher, als der Vertrag es erlaubt hätte, haftet der alte Vermieter für Schaden (Art. 261 Abs. 3 OR). Die Vormerkung im Grundbuch schützt den Mieter (Art. 261b OR).",
+   "quelle": "VHRE VL8 - Mietrecht III und weitere Gebrauchsüberlassungsverträge",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W8-04",
+   "modul": "VHRE",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Pflichten im Mietverhältnis beurteilen",
+   "frage": "Petra vermietet ihr WG-Zimmer ohne zu fragen zum doppelten Mietzins an Susi unter. Was kann der Vermieter tun?",
+   "optionen": [
+    "Ausserordentlich wegen Unzumutbarkeit kündigen (Art. 266g OR), weil ein Verweigerungsgrund vorliegt (missbräuchliche Bedingungen, Art. 262 Abs. 2 lit. b OR)",
+    "Nichts, weil Untermiete nie verweigert werden darf",
+    "Fristlos kündigen, weil jede Untermiete ohne Zustimmung automatisch zur Kündigung berechtigt",
+    "Den doppelten Mietzins direkt von Susi verlangen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Fehlt nur die Zustimmung, liegt aber kein Verweigerungsgrund vor, reicht das in der Regel nicht für die Unzumutbarkeit. Verweigerungsgründe: Konditionen nicht offengelegt, missbräuchliche Bedingungen, wesentliche Nachteile. Untermiete kann vertraglich nicht ausgeschlossen werden.",
+   "quelle": "VHRE VL8 - Mietrecht III und weitere Gebrauchsüberlassungsverträge",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W8-05",
+   "modul": "VHRE",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Pflichten im Mietverhältnis beurteilen",
+   "frage": "Ordne zu: Untermiete, Übertragung und vorzeitige Rückgabe.",
+   "paare": [
+    [
+     "Untermiete (Art. 262 OR)",
+     "Mieter bleibt Mieter und vermietet mit Zustimmung an einen Dritten weiter"
+    ],
+    [
+     "Übertragung (Art. 263 OR)",
+     "Nur bei Geschäftsräumen: Dritter wird Mieter, der erste Mieter haftet solidarisch weiter"
+    ],
+    [
+     "Vorzeitige Rückgabe (Art. 264 OR)",
+     "Mieter stellt einen zahlungsfähigen Nachmieter, der zu gleichen Bedingungen übernimmt"
+    ]
+   ],
+   "erklaerung": "Bei der Übertragung darf der Vermieter nur aus wichtigem Grund ablehnen (mangelnde Solvenz, vertragswidrige Nutzung). Findet der Mieter bei der vorzeitigen Rückgabe keinen Nachmieter, zahlt er bis zum ordentlichen Kündigungstermin.",
+   "quelle": "VHRE VL8 - Mietrecht III und weitere Gebrauchsüberlassungsverträge",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W8-06",
+   "modul": "VHRE",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Pflichten im Mietverhältnis beurteilen",
+   "frage": "Was sichert das Retentionsrecht des Vermieters von Geschäftsräumen (Art. 268 OR)?",
+   "optionen": [
+    "Einen verfallenen Jahreszins und den laufenden Halbjahreszins, an den Einrichtungsgegenständen in den Geschäftsräumen",
+    "Alle Mietzinsforderungen der letzten fünf Jahre an sämtlichem Vermögen des Mieters",
+    "Nur die Kaution, die der Mieter hinterlegt hat",
+    "Mietzinsforderungen bei Wohnungen und Geschäftsräumen gleichermassen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Verwertung über die Betreibung auf Pfandverwertung (Art. 151 ff., 283 SchKG) mit Retentionsverzeichnis. Für den noch nicht fälligen Halbjahreszins muss der Vermieter eine unmittelbare Gefährdung glaubhaft machen.",
+   "quelle": "VHRE VL8 - Mietrecht III und weitere Gebrauchsüberlassungsverträge",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W8-07",
+   "modul": "VHRE",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Pflichten im Mietverhältnis beurteilen",
+   "frage": "Was ist bei der Verrechnung im Mietrecht besonders (Art. 265 OR)?",
+   "antwort": "Mieter und Vermieter können nicht zum Voraus auf die Verrechnung verzichten, anders als bei der gewöhnlichen Verrechnung (Art. 126 OR).",
+   "erklaerung": "Allgemeine Voraussetzungen der Verrechnung: gleichartige, fällige Forderungen zwischen denselben Parteien (Art. 120 OR).",
+   "quelle": "VHRE VL8 - Mietrecht III und weitere Gebrauchsüberlassungsverträge",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W8-08",
+   "modul": "VHRE",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Vertragsarten qualifizieren und abgrenzen",
+   "frage": "Ordne die Verträge ihrem Merkmal zu.",
+   "paare": [
+    [
+     "Pacht (Art. 275 OR)",
+     "Entgeltlich, Gebrauch und Nutzung (Früchte, Ertrag)"
+    ],
+    [
+     "Gebrauchsleihe (Art. 305 OR)",
+     "Unentgeltlicher Gebrauch, jederzeit aus wichtigem Grund auflösbar"
+    ],
+    [
+     "Darlehen (Art. 312 OR)",
+     "Übereignung von Geld oder vertretbaren Sachen, Rückgabe gleicher Art, Menge und Güte"
+    ]
+   ],
+   "erklaerung": "Beim Darlehen geht das Eigentum über, bei Pacht und Gebrauchsleihe nicht. Beispiele Pacht: Restaurant mit Inventar, Patentlizenz.",
+   "quelle": "VHRE VL8 - Mietrecht III und weitere Gebrauchsüberlassungsverträge",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W8-09",
+   "modul": "VHRE",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Vertragsarten qualifizieren und abgrenzen",
+   "frage": "Worin weicht die Pacht vom Mietrecht ab?",
+   "optionen": [
+    "Der Pächter trägt den ordentlichen Unterhalt, grössere Reparaturen der Verpächter",
+    "Der Verpächter darf die Zustimmung zur Unterverpachtung verweigern",
+    "Der Konkurs des Pächters löst den Vertrag auf",
+    "Der Pachtvertrag ist immer schriftlich abzuschliessen"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Weitere Besonderheiten: Inventarpflicht (Art. 277 OR), Bewirtschaftungspflicht (Art. 283 OR), Pachtzins jährlich (dispositiv). Der Pachtvertrag ist grundsätzlich formfrei; für landwirtschaftliche Pacht gilt das LPG.",
+   "quelle": "VHRE VL8 - Mietrecht III und weitere Gebrauchsüberlassungsverträge",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W8-10",
+   "modul": "VHRE",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Vertragsarten qualifizieren und abgrenzen",
+   "frage": "Wofür haftet der Verleiher bei der Gebrauchsleihe, wenn die geliehene Sache gefährlich ist?",
+   "optionen": [
+    "Nur für Absicht und grobe Fahrlässigkeit (analog Schenkung, Art. 248 OR)",
+    "Für jedes Verschulden, auch leichte Fahrlässigkeit",
+    "Verschuldensunabhängig für jeden Schaden",
+    "Gar nicht, weil die Leihe unentgeltlich ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Der Entlehner trägt die gewöhnlichen Erhaltungskosten (z. B. Bremskabel), der Verleiher die ausserordentlichen (z. B. Motorwechsel, Art. 307 Abs. 2 OR). Der Entlehner darf die Sache nicht Dritten überlassen.",
+   "quelle": "VHRE VL8 - Mietrecht III und weitere Gebrauchsüberlassungsverträge",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W8-11",
+   "modul": "VHRE",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Vertragsarten qualifizieren und abgrenzen",
+   "frage": "Wann muss ein Darlehen ohne Vereinbarung über Zins und Rückzahlung verzinst und zurückbezahlt werden?",
+   "optionen": [
+    "Zins nur im kaufmännischen Verkehr automatisch (Art. 313 OR); Rückzahlung innert sechs Wochen nach erster Aufforderung (Art. 318 OR)",
+    "Zins immer zum Satz von 5 %; Rückzahlung erst nach zehn Jahren",
+    "Nie Zins; Rückzahlung sofort auf Verlangen",
+    "Zins nur bei Konsumkrediten; Rückzahlung nach einem Jahr"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Unter Privaten ist ein Darlehen nur bei Vereinbarung verzinslich. Ist die Höhe nicht vereinbart, gilt der übliche Zinssatz. Banken rechnen 1 Jahr = 360 Tage. Hypotheken sind unverjährbar (Art. 807 ZGB).",
+   "quelle": "VHRE VL8 - Mietrecht III und weitere Gebrauchsüberlassungsverträge",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W8-12",
+   "modul": "VHRE",
+   "woche": 8,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Vertragsarten qualifizieren und abgrenzen",
+   "frage": "Was gilt, wenn ein Konsumkreditvertrag die Formvorschriften des KKG nicht einhält?",
+   "optionen": [
+    "Er ist nichtig und wird zu einem zinslosen Darlehen: Der Konsument zahlt das Empfangene ohne Zinsen und Kosten zurück",
+    "Er bleibt gültig, der Zins wird auf 15 % begrenzt",
+    "Er ist anfechtbar, der Konsument muss innert eines Jahres reagieren",
+    "Der Konsument muss nichts zurückzahlen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Art. 15 KKG. Der Höchstzinssatz für Konsumkredite liegt bei 15 % (Art. 14 KKG), derzeit 10 % bzw. 12 % bei Überziehungskrediten.",
+   "quelle": "VHRE VL8 - Mietrecht III und weitere Gebrauchsüberlassungsverträge",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W9-01",
+   "modul": "VHRE",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Arbeitsverhältnis und Pflichten der Parteien beurteilen",
+   "frage": "Ordne die Arten zwingender Normen im Arbeitsrecht zu.",
+   "paare": [
+    [
+     "Absolut zwingend (OR 361)",
+     "Weder zuungunsten des Arbeitnehmers noch des Arbeitgebers abänderbar, z. B. fristlose Auflösung"
+    ],
+    [
+     "Relativ zwingend (OR 362)",
+     "Nur zugunsten des Arbeitnehmers abänderbar, z. B. Feriendauer"
+    ]
+   ],
+   "erklaerung": "Rechtsquellen im Arbeitsrecht: Bundesverfassung, OR, ZGB, ArG, Verordnungen, GAV, NAV, Einzelarbeitsvertrag, Reglemente und Weisungen.",
+   "quelle": "VHRE VL9 - Einführung ins Arbeitsrecht",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W9-02",
+   "modul": "VHRE",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Vertragsarten qualifizieren und abgrenzen",
+   "frage": "Was kennzeichnet den Arbeitsvertrag (OR 319 ff.) gegenüber dem Auftrag?",
+   "optionen": [
+    "Starke Weisungsgebundenheit und Einordnung in eine fremde Arbeitsorganisation (Subordination), immer entgeltlich",
+    "Eigene Arbeitsorganisation und schwache Weisungsgebundenheit",
+    "Er kann auch unentgeltlich sein und ist jederzeit auflösbar",
+    "Der Arbeitnehmer schuldet einen bestimmten Erfolg"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Elemente: Arbeitsleistung, Subordination, Dauerschuldverhältnis, Entgeltlichkeit. Die Qualifikation entscheidet über Kündigungsfristen, Lohnfortzahlung bei Krankheit und bezahlte Ferien, die es beim Auftrag nicht gibt.",
+   "quelle": "VHRE VL9 - Einführung ins Arbeitsrecht",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W9-03",
+   "modul": "VHRE",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Arbeitsverhältnis und Pflichten der Parteien beurteilen",
+   "frage": "Ordne Überstunden und Überzeit zu.",
+   "paare": [
+    [
+     "Überstunden (OR 321c)",
+     "Über die vertragliche Arbeitszeit hinaus; 25 % Zuschlag, schriftlich wegbedingbar"
+    ],
+    [
+     "Überzeit (ArG 13)",
+     "Über die gesetzliche Höchstarbeitszeit von 45 bzw. 50 Stunden; 25 % Zuschlag zwingend"
+    ]
+   ],
+   "erklaerung": "Eine 1:1-Kompensation durch Freizeit ist in beiden Fällen nur mit Zustimmung des Arbeitnehmers möglich. Überstunden und Überzeit werden nicht kumuliert.",
+   "quelle": "VHRE VL9 - Einführung ins Arbeitsrecht",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W9-04",
+   "modul": "VHRE",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Arbeitsverhältnis und Pflichten der Parteien beurteilen",
+   "frage": "Welche Weisungen des Arbeitgebers sind grundsätzlich unzulässig?",
+   "optionen": [
+    "Ein generelles Kopftuchverbot",
+    "Eine Weisung zur pausenlosen Arbeit",
+    "Eine Arbeitszuweisung ausserhalb der vertraglich vorgesehenen Funktion",
+    "Eine Haarnetz-Tragpflicht im Produktionsbetrieb"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Grundsätzlich gilt eine Befolgungspflicht (OR 321d), rechtswidrige Weisungen dürfen abgelehnt werden. Heikel ist die Ablehnung bei unklarer Rechtmässigkeit, weil eine fristlose Entlassung droht.",
+   "quelle": "VHRE VL9 - Einführung ins Arbeitsrecht",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W9-05",
+   "modul": "VHRE",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Arbeitsverhältnis und Pflichten der Parteien beurteilen",
+   "frage": "Severine infiziert an ihrem letzten Arbeitstag aus Rache die Firmencomputer mit einem Virus. Haftet sie?",
+   "optionen": [
+    "Ja: Verletzung der Sorgfalts- und Treuepflicht (OR 321a), Haftung nach OR 321e; bei Vorsatz voller Schadenersatz",
+    "Nein: Arbeitnehmer haften gegenüber dem Arbeitgeber nie für Schäden",
+    "Nein: Nach ausgesprochener Kündigung gilt die Treuepflicht nicht mehr",
+    "Ja, aber höchstens bis zu einem Monatslohn"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Weitere treuwidrige Verhaltensweisen: Abwerbung von Mitarbeitern oder Kunden, Rufschädigung, Arbeit für Dritte während der Arbeitszeit oder in den Ferien, private Nutzung von Betriebseinrichtungen.",
+   "quelle": "VHRE VL9 - Einführung ins Arbeitsrecht",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W9-06",
+   "modul": "VHRE",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Arbeitsverhältnis und Pflichten der Parteien beurteilen",
+   "frage": "Pia wird zwei Monate nach Stellenantritt (unbefristet, keine Probezeit vereinbart) für sechs Wochen krank. Muss der Arbeitgeber Lohn zahlen?",
+   "optionen": [
+    "Im dritten Anstellungsmonat nicht, ab dem vierten Monat ja, weil die Lohnfortzahlung erst nach drei Monaten Dauer gilt (OR 324a)",
+    "Ja, für die ganzen sechs Wochen, weil Krankheit immer Lohnfortzahlung auslöst",
+    "Nein, weil psychische Krankheiten nicht unter OR 324a fallen",
+    "Ja, aber nur 80 % des Lohns während höchstens drei Wochen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die gesetzliche Probezeit beträgt einen Monat (OR 335b). Im 1. Dienstjahr gilt die Lohnfortzahlung für 3 Wochen, danach angemessen länger nach Berner, Basler oder Zürcher Skala.",
+   "quelle": "VHRE VL9 - Einführung ins Arbeitsrecht",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W9-07",
+   "modul": "VHRE",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Arbeitsverhältnis und Pflichten der Parteien beurteilen",
+   "frage": "Welche Aussagen zum Ferienrecht treffen zu?",
+   "optionen": [
+    "Der gesetzliche Anspruch beträgt 4 Wochen, für Jugendliche bis 20 Jahre 5 Wochen",
+    "Der Arbeitgeber bestimmt den Zeitpunkt, muss aber auf die Wünsche Rücksicht nehmen",
+    "Mindestens zwei Wochen müssen zusammenhängen",
+    "Ferien dürfen während des Arbeitsverhältnisses frei in Geld abgegolten werden"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Der Ferienanspruch ist relativ zwingend und kann grundsätzlich nicht in Geld abgegolten werden. Betriebliche Notwendigkeiten gehen meist vor (Betriebsferien). Bei Krankheit, die die Erholung vereitelt, werden Ferien nachgewährt. Verjährung nach 5 Jahren.",
+   "quelle": "VHRE VL9 - Einführung ins Arbeitsrecht",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W9-08",
+   "modul": "VHRE",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Kündigung des Arbeitsverhältnisses beurteilen",
+   "frage": "Ordne die gesetzlichen Kündigungsfristen zu.",
+   "paare": [
+    [
+     "Während der Probezeit",
+     "7 Tage (OR 335b)"
+    ],
+    [
+     "Im 1. Dienstjahr",
+     "1 Monat auf Monatsende (OR 335c)"
+    ],
+    [
+     "Im 2. bis 9. Dienstjahr",
+     "2 Monate auf Monatsende"
+    ],
+    [
+     "Ab dem 10. Dienstjahr",
+     "3 Monate auf Monatsende"
+    ]
+   ],
+   "erklaerung": "Massgebend ist der Zeitpunkt der Kündigung, nicht das Vertragsende. Fristen müssen für beide Parteien gleich lang sein; ab dem 2. Dienstjahr mindestens 1 Monat. Die Kündigung wirkt erst ab Empfang.",
+   "quelle": "VHRE VL9 - Einführung ins Arbeitsrecht",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W9-09",
+   "modul": "VHRE",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kündigung des Arbeitsverhältnisses beurteilen",
+   "frage": "In welcher Form muss eine ordentliche Kündigung im Arbeitsrecht erfolgen?",
+   "optionen": [
+    "Formfrei (auch mündlich, SMS, E-Mail), sofern nichts anderes vereinbart; auf Verlangen ist sie schriftlich zu begründen",
+    "Immer schriftlich mit amtlichem Formular",
+    "Schriftlich und mit Begründung, sonst ist sie nichtig",
+    "Nur eingeschrieben per Post"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Für die ordentliche Kündigung braucht es keinen Grund, der Gekündigte kann aber eine schriftliche Begründung verlangen (OR 335 Abs. 2). Bei Massenentlassung muss die Anzeige ans Arbeitsamt schriftlich erfolgen.",
+   "quelle": "VHRE VL9 - Einführung ins Arbeitsrecht",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W9-10",
+   "modul": "VHRE",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kündigung des Arbeitsverhältnisses beurteilen",
+   "frage": "Was gilt bei einer ungerechtfertigten fristlosen Kündigung durch den Arbeitgeber (OR 337c)?",
+   "optionen": [
+    "Das Arbeitsverhältnis endet trotzdem sofort; der Arbeitnehmer erhält den Lohn für die ordentliche Kündigungsfrist und eine Entschädigung bis zu 6 Monatslöhnen",
+    "Die Kündigung ist nichtig, das Arbeitsverhältnis läuft unverändert weiter",
+    "Der Arbeitnehmer hat Anspruch auf Wiedereinstellung",
+    "Die Kündigung wird automatisch in eine ordentliche umgewandelt, ohne weitere Ansprüche"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ersatzverdienst wird angerechnet. Der Kündigende trägt die Beweislast für den wichtigen Grund (Unzumutbarkeit nach Treu und Glauben). Wichtige Gründe: Diebstahl, gefälschte Zeugnisse, wiederholte Arbeitsverweigerung, Tätlichkeiten.",
+   "quelle": "VHRE VL9 - Einführung ins Arbeitsrecht",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W9-11",
+   "modul": "VHRE",
+   "woche": 9,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Kündigung des Arbeitsverhältnisses beurteilen",
+   "frage": "Was gilt für befristete Arbeitsverhältnisse?",
+   "optionen": [
+    "Werden sie stillschweigend weitergeführt, entsteht ein unbefristetes Arbeitsverhältnis mit Anrechnung der Dienstjahre",
+    "Sie können nur mit einer Frist von drei Monaten gekündigt werden",
+    "Beliebig viele aneinandergereihte Befristungen sind ohne Weiteres zulässig",
+    "Sie enden nur durch Kündigung, nicht durch Zeitablauf"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Kettenarbeitsverträge sind grundsätzlich unzulässig, besonders wenn sie den Sozialschutz umgehen. Ab der dritten Verlängerung droht die Umqualifizierung in ein unbefristetes Verhältnis.",
+   "quelle": "VHRE VL9 - Einführung ins Arbeitsrecht",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W10-01",
+   "modul": "VHRE",
+   "woche": 10,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Vertragsarten qualifizieren und abgrenzen",
+   "frage": "Ordne den Verträgen auf Arbeitsleistung zu, was geschuldet ist.",
+   "paare": [
+    [
+     "Werkvertrag (Art. 363 OR)",
+     "Ein körperlicher oder unkörperlicher Arbeitserfolg gegen Vergütung"
+    ],
+    [
+     "Einfacher Auftrag (Art. 394 OR)",
+     "Sorgfältiges Tätigwerden im fremden Interesse, kein Erfolg, nicht zwingend entgeltlich"
+    ],
+    [
+     "Arbeitsvertrag (Art. 319 OR)",
+     "Arbeitsleistung in Unterordnung auf Dauer, immer entgeltlich"
+    ]
+   ],
+   "erklaerung": "Beim Werkvertrag ist das Arbeitsresultat Vertragsgegenstand, nicht das Hinwirken. Der Beauftragte schuldet kunstgerechtes Tätigwerden (Art. 398 Abs. 2 OR), muss den Erfolg aber anstreben.",
+   "quelle": "VHRE VL10 - Werkvertrag und Auftrag",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W10-02",
+   "modul": "VHRE",
+   "woche": 10,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Vertragsarten qualifizieren und abgrenzen",
+   "frage": "Die Wert-Voll AG schätzt ein Einfamilienhaus auf CHF 700 000, Nick hält 1,25 Mio. für richtig. Nach welchem Vertragstyp ist der Streit zu beurteilen?",
+   "optionen": [
+    "Auftrag: Der Verkehrswert ist eine Ermessensfrage und nicht objektiv überprüfbar (BGE 127 III 328)",
+    "Werkvertrag: Ein Gutachten ist immer ein unkörperliches Werk",
+    "Kaufvertrag: Es geht um den Preis einer Liegenschaft",
+    "Arbeitsvertrag: Die Schätzerin arbeitet weisungsgebunden"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Gutachten sind Werkverträge, wenn die Richtigkeit des Ergebnisses objektiv garantiefähig ist (z. B. Messungen). Bei Ermessensfragen fehlt diese Garantiefähigkeit, deshalb Auftrag.",
+   "quelle": "VHRE VL10 - Werkvertrag und Auftrag",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W10-03",
+   "modul": "VHRE",
+   "woche": 10,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Gewährleistung bei Kauf, Werk und Auftrag beurteilen",
+   "frage": "Welche Voraussetzungen müssen für die Sachgewährleistung im Werkvertrag erfüllt sein?",
+   "optionen": [
+    "Mangel des Werks (Abweichung von der vereinbarten Beschaffenheit, Art. 368 OR)",
+    "Prüfung nach Ablieferung und sofortige Mängelrüge (Art. 367 OR)",
+    "Kein Ausschlussgrund und keine Verjährung (Art. 370 f. OR)",
+    "Ein Verschulden des Unternehmers am Mangel"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Für die Mängelrechte (Wandelung, Minderung, Nachbesserung) braucht es kein Verschulden; nur der Schadenersatz ist verschuldensabhängig. Beispiel: Skulptur unsauber gegossen und fleckig, Patrick rügt sofort, also Gewährleistung möglich.",
+   "quelle": "VHRE VL10 - Werkvertrag und Auftrag",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W10-04",
+   "modul": "VHRE",
+   "woche": 10,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Gewährleistung bei Kauf, Werk und Auftrag beurteilen",
+   "frage": "Ein Fussballprofi verliert nach einer Operation wegen mangelnder Hygiene im Spital ein Bein. Worauf stützt sich sein Anspruch aus Vertrag?",
+   "optionen": [
+    "Auf die Verletzung der Sorgfaltspflicht im Auftrag (Art. 398 OR i. V. m. 97 OR)",
+    "Auf die Gewährleistung im Werkvertrag, weil die Operation nicht erfolgreich war",
+    "Auf den Arbeitsvertrag zwischen Patient und Spital",
+    "Er hat keinen vertraglichen Anspruch, weil ein Arzt keinen Erfolg schuldet"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Der Arzt schuldet keinen Heilerfolg, aber sorgfältiges Tätigwerden. Ungenügende Hygiene verletzt diese Sorgfaltspflicht; ersetzt wird der Schaden, hier etwa entgangenes Einkommen.",
+   "quelle": "VHRE VL10 - Werkvertrag und Auftrag",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W10-05",
+   "modul": "VHRE",
+   "woche": 10,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Gewährleistung bei Kauf, Werk und Auftrag beurteilen",
+   "frage": "Ordne die Pflichten im Auftragsverhältnis der richtigen Partei zu.",
+   "paare": [
+    [
+     "Vergütung leisten, Auslagen ersetzen (Art. 394 Abs. 3, 402 OR)",
+     "Auftraggeber"
+    ],
+    [
+     "Sorgfalt, Treue, Weisungen befolgen, Rechenschaft ablegen (Art. 397 f., 400 OR)",
+     "Beauftragter"
+    ]
+   ],
+   "erklaerung": "Der Beauftragte muss die Geschäfte grundsätzlich persönlich besorgen (Art. 398 Abs. 3 OR), darf aber unter Umständen Hilfspersonen oder Substitute beiziehen.",
+   "quelle": "VHRE VL10 - Werkvertrag und Auftrag",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W10-06",
+   "modul": "VHRE",
+   "woche": 10,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Gewährleistung bei Kauf, Werk und Auftrag beurteilen",
+   "frage": "Wofür haftet ein Beauftragter, der einen Substituten befugt beigezogen hat (Art. 399 Abs. 2 OR)?",
+   "optionen": [
+    "Nur für die sorgfältige Wahl und Instruktion des Substituten",
+    "Für jedes Verhalten des Substituten wie für eigenes (Art. 101 OR)",
+    "Gar nicht mehr, die Haftung geht vollständig auf den Substituten über",
+    "Verschuldensunabhängig für jeden Schaden"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ein Substitut ist selbständig und im Interesse des Auftraggebers tätig (Unterauftrag). Befugt ist der Beizug, wenn erlaubt, durch Umstände genötigt oder übungsgemäss. Bei Hilfspersonen und unbefugtem Beizug haftet der Beauftragte für deren Handeln wie für eigenes.",
+   "quelle": "VHRE VL10 - Werkvertrag und Auftrag",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W10-07",
+   "modul": "VHRE",
+   "woche": 10,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Gewährleistung bei Kauf, Werk und Auftrag beurteilen",
+   "frage": "Treuhänder Mendel übergibt die komplexe Steuererklärung seiner Kundin an eine spezialisierte Steuerfirma. Wie ist die Steuerfirma einzuordnen?",
+   "optionen": [
+    "Als Substitut: selbständig, nicht in Mendels Organisation eingegliedert, im Interesse der Auftraggeberin tätig",
+    "Als Hilfsperson, weil sie Mendel bloss unterstützt",
+    "Als Arbeitnehmerin von Mendel",
+    "Als Vertragspartei von Frau Reich ohne jeden Bezug zu Mendel"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ob der Beizug befugt ist, entscheidet über die Haftung: befugt → Mendel haftet nur für Wahl und Instruktion (Art. 399 Abs. 2 OR); unbefugt → Haftung nach Art. 97 OR. Die Kundin kann direkt gegen den Substituten vorgehen (Art. 399 Abs. 3 OR).",
+   "quelle": "VHRE VL10 - Werkvertrag und Auftrag",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W11-01",
+   "modul": "VHRE",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "flash",
+   "lernziel": "Haftpflichtrecht einordnen und Haftungsarten unterscheiden",
+   "frage": "Was bedeutet der Grundsatz «casum sentit dominus»?",
+   "antwort": "Der Geschädigte trägt seinen Schaden grundsätzlich selbst; nur ein gesetzlich anerkannter Haftungsgrund verschiebt ihn auf den Schädiger.",
+   "erklaerung": "Haftpflicht ist das Einstehenmüssen für einen Schaden, den man einem anderen zugefügt hat. Haftungsgrundlagen: OR 41 ff., Handels- und Wirtschaftsrecht (OR 753 ff.), öffentliches Recht (VG 3). Gegen die Haftpflichtversicherung besteht ein direktes Forderungsrecht.",
+   "quelle": "VHRE VL11 - Einführung ins Haftpflichtrecht und Verschuldenshaftung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W11-02",
+   "modul": "VHRE",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Haftpflichtrecht einordnen und Haftungsarten unterscheiden",
+   "frage": "Warum ist bei Anspruchskonkurrenz der vertragliche Anspruch (OR 97) für den Geschädigten oft zweckmässiger als OR 41?",
+   "optionen": [
+    "Wegen der längeren Verjährung (OR 127) und der Beweislastumkehr beim Verschulden",
+    "Weil er immer verschuldensunabhängig ist",
+    "Weil vertragliche Ansprüche nie verjähren",
+    "Weil bei OR 41 kein Schadenersatz für Körperverletzung möglich ist"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Vertragliche Haftung setzt einen gültigen Vertrag und eine Schädigung bei dessen Erfüllung voraus. Ausservertragliche Ansprüche verjähren nach OR 60; der Geschädigte muss das Verschulden beweisen.",
+   "quelle": "VHRE VL11 - Einführung ins Haftpflichtrecht und Verschuldenshaftung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W11-03",
+   "modul": "VHRE",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Haftpflichtrecht einordnen und Haftungsarten unterscheiden",
+   "frage": "Ordne die ausservertraglichen Haftungsarten zu.",
+   "paare": [
+    [
+     "Verschuldenshaftung (OR 41)",
+     "Dem Schädiger ist ein Fehlverhalten vorzuwerfen, z. B. Velofahrer überfährt Rotlicht"
+    ],
+    [
+     "Einfache Kausalhaftung (OR 55, 56, 58, ZGB 333)",
+     "Haftung ohne Verschulden wegen Verletzung einer Sorgfaltspflicht, mit Entlastungsbeweis"
+    ],
+    [
+     "Gefährdungshaftung (SVG 58, EBG 40b)",
+     "Haftung, weil sich eine geschaffene Gefahr verwirklicht hat, z. B. Auto überfährt plötzlich hinausrennenden Hund"
+    ]
+   ],
+   "erklaerung": "Die moderne Gliederung unterscheidet nur Verschuldenshaftung (Generalklausel OR 41 und gesetzlich geregelte Tatbestände) und Gefährdungshaftungen.",
+   "quelle": "VHRE VL11 - Einführung ins Haftpflichtrecht und Verschuldenshaftung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W11-04",
+   "modul": "VHRE",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Verschuldenshaftung nach OR 41 prüfen",
+   "frage": "Bringe die Haftungsvoraussetzungen von OR 41 nach moderner Auffassung in die Prüfreihenfolge.",
+   "items": [
+    "Rechtswidrigkeit",
+    "Rechtsgutverletzung",
+    "Kausalität",
+    "Verschulden (Urteilsfähigkeit)"
+   ],
+   "erklaerung": "Traditionell: Schaden, Widerrechtlichkeit, Kausalität, Verschulden. Modern ist die Rechtsgutverletzung die Haftungsvoraussetzung; der Schaden (finanzielle Einbusse) ist die Haftungsfolge.",
+   "quelle": "VHRE VL11 - Einführung ins Haftpflichtrecht und Verschuldenshaftung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W11-05",
+   "modul": "VHRE",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Verschuldenshaftung nach OR 41 prüfen",
+   "frage": "Welche Rechtfertigungsgründe schliessen die Rechtswidrigkeit aus?",
+   "optionen": [
+    "Notwehr",
+    "Notstand",
+    "Selbsthilfe und Einwilligung",
+    "Grobe Fahrlässigkeit"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Rechtswidrig ist die Verletzung einer Verhaltens- oder Sorgfaltspflicht (Schutzgesetz oder allgemeine Sorgfaltspflicht). Reine Vermögensschäden sind nur zu ersetzen, wenn eine Verhaltenspflicht zu ihrem Schutz besteht.",
+   "quelle": "VHRE VL11 - Einführung ins Haftpflichtrecht und Verschuldenshaftung",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W11-06",
+   "modul": "VHRE",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Verschuldenshaftung nach OR 41 prüfen",
+   "frage": "Ordne die Arten des Kausalzusammenhangs ihrer Testfrage zu.",
+   "paare": [
+    [
+     "Natürlicher Kausalzusammenhang",
+     "Kann das Ereignis weggedacht werden, ohne dass die Schädigung entfällt? (conditio sine qua non)"
+    ],
+    [
+     "Adäquater Kausalzusammenhang",
+     "War die Ursache nach dem gewöhnlichen Lauf der Dinge und der Lebenserfahrung geeignet, den Erfolg zu bewirken?"
+    ]
+   ],
+   "erklaerung": "Der Kausalzusammenhang wird unterbrochen durch höhere Gewalt, grobes Drittverschulden oder grobes Selbstverschulden (z. B. abgelenkter Rollerfahrer kollidiert mit Tram, BGE 88 II 448).",
+   "quelle": "VHRE VL11 - Einführung ins Haftpflichtrecht und Verschuldenshaftung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W11-07",
+   "modul": "VHRE",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Verschuldenshaftung nach OR 41 prüfen",
+   "frage": "Wie haftet eine urteilsunfähige Person, die einen Schaden verursacht (OR 54)?",
+   "optionen": [
+    "Aus Billigkeit ohne Verschulden, z. B. wenn sie sehr vermögend und der Geschädigte bedürftig ist",
+    "Gar nicht, weil ohne Urteilsfähigkeit kein Verschulden möglich ist",
+    "Immer voll wie eine urteilsfähige Person",
+    "Nur wenn ihr gesetzlicher Vertreter zustimmt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "OR 54 Abs. 2 regelt die vorübergehende Urteilsunfähigkeit, etwa durch Alkohol. Urteilsfähig ist, wer vernunftgemäss handeln kann (ZGB 16). Verschulden umfasst Vorsatz und leichte oder grobe Fahrlässigkeit.",
+   "quelle": "VHRE VL11 - Einführung ins Haftpflichtrecht und Verschuldenshaftung",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W11-08",
+   "modul": "VHRE",
+   "woche": 11,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Verschuldenshaftung nach OR 41 prüfen",
+   "frage": "Snowboarder Ueli fährt von hinten in Skifahrer Xaver, der sich beide Knie verletzt. Woraus ergibt sich die Rechtswidrigkeit?",
+   "optionen": [
+    "Aus der FIS-Regel, dass der Nachfahrende seine Spur so wählen muss, dass er den Vorausfahrenden nicht gefährdet; private Regelwerke konkretisieren die allgemeine Sorgfaltspflicht",
+    "Aus dem Strassenverkehrsgesetz, das auf Skipisten direkt gilt",
+    "Aus dem Vertrag zwischen Ueli und Xaver über die Nutzung der Piste",
+    "Gar nicht, weil Unfälle beim Sport immer als Einwilligung gelten"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die übrigen Voraussetzungen: Rechtsgutverletzung (körperliche Integrität), natürliche und adäquate Kausalität, Verschulden (Urteilsfähigkeit gegeben). Folge: Ersatz der Behandlungskosten und der Nachteile der Arbeitsunfähigkeit (OR 46).",
+   "quelle": "VHRE VL11 - Einführung ins Haftpflichtrecht und Verschuldenshaftung",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W12-01",
+   "modul": "VHRE",
+   "woche": 12,
+   "kategorie": "vorlesung",
+   "typ": "order",
+   "lernziel": "Haftungstatbestände des OR und ZGB prüfen",
+   "frage": "Bringe die Voraussetzungen der Geschäftsherrenhaftung (OR 55) in die Prüfreihenfolge.",
+   "items": [
+    "Geschäftsherr und Hilfsperson (Subordinationsverhältnis)",
+    "Geschäftliche Verrichtung (funktioneller Zusammenhang)",
+    "Rechtswidrigkeit (Verhalten der Hilfsperson)",
+    "Rechtsgutverletzung",
+    "Kausalität",
+    "Misslingen des Sorgfaltsbeweises (Verhalten des Geschäftsherrn)"
+   ],
+   "erklaerung": "OR 55 verdrängt OR 41 als Haftungsgrundlage. Massgeblich für die Subordination sind die tatsächlichen Verhältnisse; meist ein Arbeitsvertrag, möglich auch ein Auftrag.",
+   "quelle": "VHRE VL12 - Geschäftsherrenhaftung und Haftung für den Produktevertrieb",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W12-02",
+   "modul": "VHRE",
+   "woche": 12,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Haftungstatbestände des OR und ZGB prüfen",
+   "frage": "Welche Schädigung durch einen Angestellten fällt unter die Geschäftsherrenhaftung (funktioneller Zusammenhang)?",
+   "optionen": [
+    "Ein Arbeiter überfährt beim Aushub aus Unachtsamkeit mit dem Bagger den Zaun des Nachbarn",
+    "Ein gefrusteter Arbeiter schlägt dem Bekannten einer Kundin auf die Nase",
+    "Eine Handwerkerin stiehlt das Portemonnaie der Freundin eines Kunden",
+    "Ein Angestellter verursacht in seiner Freizeit einen Verkehrsunfall"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Schädigungen, die bloss bei Gelegenheit der Arbeit entstehen (Faustschlag, Diebstahl), fehlt der funktionelle Zusammenhang. Ein verschütteter Pausenkaffee auf die Tasche einer Kundin gilt dagegen noch als in Ausübung der Verrichtung.",
+   "quelle": "VHRE VL12 - Geschäftsherrenhaftung und Haftung für den Produktevertrieb",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W12-03",
+   "modul": "VHRE",
+   "woche": 12,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Haftungstatbestände des OR und ZGB prüfen",
+   "frage": "Womit kann sich der Geschäftsherr nach OR 55 entlasten?",
+   "optionen": [
+    "Mit dem Nachweis der gebotenen Sorgfalt bei Auswahl, Instruktion und Überwachung der Hilfsperson sowie zweckmässiger Betriebsorganisation",
+    "Mit dem Nachweis, dass ihn persönlich kein Verschulden am Unfall trifft",
+    "Mit dem Nachweis, dass die Hilfsperson versichert war",
+    "Eine Entlastung ist bei OR 55 ausgeschlossen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Cura in eligendo, instruendo, custodiendo. Beispiel Züglete AG: Sie schickt Hugo wegen zu vieler Aufträge allein mit schweren Möbeln los, er lässt einen Schrank auf eine Passantin fallen; der Sorgfaltsbeweis misslingt.",
+   "quelle": "VHRE VL12 - Geschäftsherrenhaftung und Haftung für den Produktevertrieb",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W12-04",
+   "modul": "VHRE",
+   "woche": 12,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Haftungstatbestände des OR und ZGB prüfen",
+   "frage": "Grenze die Geschäftsherrenhaftung von der Hilfspersonenhaftung ab.",
+   "paare": [
+    [
+     "Geschäftsherrenhaftung (OR 55)",
+     "Ausservertraglich, Subordination nötig, Entlastungsbeweis möglich"
+    ],
+    [
+     "Hilfspersonenhaftung (OR 101)",
+     "Vertraglich, keine Subordination nötig, kein Entlastungsbeweis"
+    ]
+   ],
+   "erklaerung": "OR 55 erfasst Schäden in Ausübung geschäftlicher Verrichtungen, OR 101 Schäden in Erfüllung einer Schuldpflicht aus Vertrag.",
+   "quelle": "VHRE VL12 - Geschäftsherrenhaftung und Haftung für den Produktevertrieb",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W12-05",
+   "modul": "VHRE",
+   "woche": 12,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Produkthaftung beurteilen",
+   "frage": "Ordne die Fehlerarten bei der Produzentenhaftung ihrer Beschreibung zu.",
+   "paare": [
+    [
+     "Konstruktionsfehler",
+     "Das Design ist fehlerhaft"
+    ],
+    [
+     "Fabrikationsfehler",
+     "Fehler bei der Herstellung eines einzelnen Stücks"
+    ],
+    [
+     "Instruktionsfehler",
+     "Der Endabnehmer wird ungenügend über Gefahren aufgeklärt"
+    ],
+    [
+     "Beobachtungsfehler",
+     "Sich zeigende Risiken werden nicht verfolgt, ggf. kein Rückruf"
+    ]
+   ],
+   "erklaerung": "Nach OR 55 haftet der Hersteller nicht für Ausreisser und nicht für Fehler, die nach dem Stand von Technik und Wissenschaft nicht erkennbar waren. Das PrHG haftet auch für Ausreisser, aber nicht für Beobachtungsfehler.",
+   "quelle": "VHRE VL12 - Geschäftsherrenhaftung und Haftung für den Produktevertrieb",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W12-06",
+   "modul": "VHRE",
+   "woche": 12,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Produkthaftung beurteilen",
+   "frage": "Welche Aussagen zur Produktehaftung nach PrHG treffen zu?",
+   "optionen": [
+    "Produkt ist jede bewegliche Sache, auch als Teil einer anderen Sache, und Elektrizität",
+    "Gehaftet wird für Personenschäden und Sachschäden an privat genutzten Sachen, mit Selbstbehalt von CHF 900",
+    "Die Haftung kann weder wegbedungen noch beschränkt werden",
+    "Das PrHG deckt auch den Schaden am fehlerhaften Produkt selbst"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Schäden am fehlerhaften Produkt selbst sind nur vertraglich durchsetzbar. Verjährung relativ 3 Jahre ab Kenntnis, Verwirkung absolut 10 Jahre ab Inverkehrbringen. Als Herstellerin gelten auch Quasi-Herstellerin, Importeurin und ersatzweise die Lieferantin.",
+   "quelle": "VHRE VL12 - Geschäftsherrenhaftung und Haftung für den Produktevertrieb",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W12-07",
+   "modul": "VHRE",
+   "woche": 12,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Produkthaftung beurteilen",
+   "frage": "Bei einem von 50 000 Autos wurde die Achse falsch montiert, sie bricht, Anton wird verletzt. Wie haftet die Herstellerin?",
+   "optionen": [
+    "Nicht nach OR 55, weil ein Ausreisser vorliegt, aber nach PrHG für Heilungskosten und Erwerbsausfall; den Totalschaden am Auto deckt das PrHG nicht",
+    "Nach OR 55 und PrHG für alle Schäden inklusive Totalschaden",
+    "Gar nicht, weil Ausreisser nie zu einer Haftung führen",
+    "Nur nach OR 55, weil das PrHG keine Personenschäden erfasst"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Fehlerhaft ist ein Produkt, das nicht die Sicherheit bietet, die man berechtigterweise erwarten darf (PrHG 4), beurteilt nach Präsentation, vernünftigem Gebrauch und Zeitpunkt des Inverkehrbringens. Den Wagen selbst macht Anton vertraglich geltend.",
+   "quelle": "VHRE VL12 - Geschäftsherrenhaftung und Haftung für den Produktevertrieb",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W13-01",
+   "modul": "VHRE",
+   "woche": 13,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Haftungstatbestände des OR und ZGB prüfen",
+   "frage": "Was gilt als Werk im Sinne der Werkeigentümerhaftung (OR 58)?",
+   "optionen": [
+    "Etwas von Menschenhand Geschaffenes, das direkt oder indirekt stabil mit dem Erdboden verbunden ist",
+    "Jede Sache, die einen Schaden verursachen kann, auch Fahrzeuge",
+    "Natürlich gewachsene Bäume auf einem Grundstück",
+    "Ein ausgetretener Fusspfad im Wald"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Keine Werke sind Tiere, Fahrzeuge, natürliche Bäume oder blosse Trampelpfade. Haftbar ist der sachenrechtliche Eigentümer, mit Zurückhaltung auch der für die Instandstellung zuständige Benutzer.",
+   "quelle": "VHRE VL13 - Werkeigentümer-, Familienhaupt- und Tierhalterhaftung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W13-02",
+   "modul": "VHRE",
+   "woche": 13,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Haftungstatbestände des OR und ZGB prüfen",
+   "frage": "Eine 80-Jährige stürzt im schwach beleuchteten Hotelkorridor über eine unmarkierte 12-cm-Stufe. Liegt ein Werkmangel vor (BGE 117 II 399)?",
+   "optionen": [
+    "Ja: falsche Anlage, weil die Stufenkante mit geringen Kosten hätte markiert und ein Warnschild angebracht werden können",
+    "Nein: Stufen sind in Gebäuden üblich und nie ein Mangel",
+    "Nein: Die Besucherin hätte besser aufpassen müssen, grobes Selbstverschulden",
+    "Ja, aber nur wenn der Hotelbesitzer den Unfall verschuldet hat"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Ein Werk muss für den bestimmungsgemässen Gebrauch genügend sicher sein; verlangt sind technisch mögliche und wirtschaftlich zumutbare Schutzmassnahmen. Mängel entstehen durch falsche Anlage, falsche Herstellung oder mangelhaften Unterhalt. Die Haftung ist verschuldensunabhängig.",
+   "quelle": "VHRE VL13 - Werkeigentümer-, Familienhaupt- und Tierhalterhaftung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W13-03",
+   "modul": "VHRE",
+   "woche": 13,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Haftungstatbestände des OR und ZGB prüfen",
+   "frage": "Ein 4½-jähriger Junge fährt mit dem Bob eine Frau an, der Vater wartet am Hangende. Haftet der Vater nach ZGB 333 (BGE 133 III 556)?",
+   "optionen": [
+    "Nein: Der Sorgfaltsbeweis gelingt, neben dem Bob herlaufen zu müssen wäre lebensfremd; Kinder sollen Kind sein dürfen",
+    "Ja: Eltern haften für ihre Kinder immer verschuldensunabhängig",
+    "Ja: Er hätte das Kind auf dem ganzen Hang begleiten müssen",
+    "Nein, weil Kinder unter 7 Jahren nie einen Schaden verursachen können"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Das Familienhaupt muss das übliche und durch die Umstände gebotene Mass an Sorgfalt nachweisen. Massstab: Alter, Charakter und Reife des Kindes sowie die örtlichen Umstände (sanfter Hang, kein Eis).",
+   "quelle": "VHRE VL13 - Werkeigentümer-, Familienhaupt- und Tierhalterhaftung",
+   "kern": true
+  },
+  {
+   "id": "VHRE-W13-04",
+   "modul": "VHRE",
+   "woche": 13,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Haftungstatbestände des OR und ZGB prüfen",
+   "frage": "Wer ist Tierhalter im Sinne von OR 56?",
+   "optionen": [
+    "Wer über eine gewisse Dauer die tatsächliche Gewalt über das Tier hat, Nutzen daraus zieht und die Kosten trägt, nicht zwingend der Eigentümer",
+    "Immer der Eigentümer des Tiers",
+    "Wer das Tier im Moment des Schadens beaufsichtigt",
+    "Nur gewerbliche Halter von Nutztieren"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Überlässt der Halter das Tier einer Hilfsperson, haftet er weiter. Tier ist jedes Lebewesen, das gehalten werden kann, auch exotische Haustiere; wild lebende Tiere und Mikroorganismen nicht.",
+   "quelle": "VHRE VL13 - Werkeigentümer-, Familienhaupt- und Tierhalterhaftung",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W13-05",
+   "modul": "VHRE",
+   "woche": 13,
+   "kategorie": "vorlesung",
+   "typ": "mc",
+   "lernziel": "Haftungstatbestände des OR und ZGB prüfen",
+   "frage": "Welches Verhalten eines Tiers fällt nicht unter die Tierhalterhaftung?",
+   "optionen": [
+    "Ein Hund beisst auf Befehl seines Halters zu",
+    "Eine Krankheitsübertragung durch das Tier",
+    "Belästigung durch Lärm oder Gerüche",
+    "Eine Ziege stösst einen Besucher von hinten um"
+   ],
+   "loesung": [
+    0,
+    1,
+    2
+   ],
+   "erklaerung": "Verlangt ist eine selbständige, tiergemässe Aktion (Rennen, Beissen, Treten). Bei Befehl haftet der Befehlsgeber nach OR 41 bzw. sein Geschäftsherr nach OR 55; bei Lärm und Gerüchen allenfalls ZGB 679.",
+   "quelle": "VHRE VL13 - Werkeigentümer-, Familienhaupt- und Tierhalterhaftung",
+   "kern": false
+  },
+  {
+   "id": "VHRE-W13-06",
+   "modul": "VHRE",
+   "woche": 13,
+   "kategorie": "vorlesung",
+   "typ": "match",
+   "lernziel": "Haftungstatbestände des OR und ZGB prüfen",
+   "frage": "Ordne den Haftungstatbeständen ihr gesetzlich normiertes Fehlverhalten zu.",
+   "paare": [
+    [
+     "Geschäftsherrenhaftung (OR 55)",
+     "Mangelnde Sorgfalt bei Auswahl, Instruktion und Überwachung der Angestellten"
+    ],
+    [
+     "Tierhalterhaftung (OR 56)",
+     "Mangelnde Sorgfalt in Verwahrung und Beaufsichtigung des Tiers"
+    ],
+    [
+     "Werkeigentümerhaftung (OR 58)",
+     "Mangelhafte Anlage, Herstellung oder mangelhafter Unterhalt des Werks, ohne Entlastungsbeweis"
+    ],
+    [
+     "Haftung des Familienhauptes (ZGB 333)",
+     "Mangelnde Beaufsichtigung aufsichtsbedürftiger Hausgenossen"
+    ]
+   ],
+   "erklaerung": "Alle diese Tatbestände verdrängen OR 41 als Haftungsgrundlage. Gelingt bei einem urteilsfähigen Hausgenossen der Sorgfaltsbeweis des Familienhauptes, kann der Hausgenosse selbst nach OR 41 haften.",
+   "quelle": "VHRE VL13 - Werkeigentümer-, Familienhaupt- und Tierhalterhaftung",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W10-01",
+   "modul": "WSA1",
+   "woche": 10,
+   "kategorie": "literatur",
+   "typ": "order",
+   "lernziel": "Den eigenen Schreibprozess planen und steuern",
+   "frage": "Bringe die sieben Phasen des Schreibprozesses nach Scheuermann (2012) in die richtige Reihenfolge.",
+   "items": [
+    "Einstimmen",
+    "Ideen entwickeln",
+    "Strukturieren",
+    "Rohtexten",
+    "Reflektieren",
+    "Überarbeiten",
+    "Veröffentlichen"
+   ],
+   "erklaerung": "Grundlage ist das Modell von Hayes und Flower (1980: Planen, Formulieren, Revidieren). Scheuermann ergänzt Einstimmen und Reflektieren, weil Schreiben auch emotional ist.",
+   "quelle": "WSA1 - Scheuermann Schreibdenken",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W10-02",
+   "modul": "WSA1",
+   "woche": 10,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Den eigenen Schreibprozess planen und steuern",
+   "frage": "Warum soll man laut Scheuermann die eigenen Ideen vor dem Lesen der Literatur festhalten?",
+   "optionen": [
+    "Weil fremde Texte sonst die eigenen Gedanken verdrängen und es schwerer wird, eigene Positionen zu formulieren",
+    "Weil die Literatur erst nach dem Rohtext gelesen werden darf",
+    "Weil eigene Ideen wissenschaftlich wertvoller sind als Literatur",
+    "Weil Lesen vor dem Schreiben die Zitierregeln verletzt"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Auch erfahrene Forschende «verfallen beim Lesen in Bewunderung». Ideen assoziativ und breit sammeln, erst später bewerten; sie kommen oft nebenbei, deshalb immer etwas zum Notieren dabeihaben.",
+   "quelle": "WSA1 - Scheuermann Schreibdenken",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W10-03",
+   "modul": "WSA1",
+   "woche": 10,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Den eigenen Schreibprozess planen und steuern",
+   "frage": "Welcher Fehler beim Rohtexten ist laut Scheuermann der häufigste?",
+   "optionen": [
+    "Satz für Satz parallel zu überarbeiten, statt zügig im Fluss zu schreiben",
+    "Lücken im Text mit Sternchen oder Fragezeichen zu markieren",
+    "Am Ende einer Einheit schon den nächsten ersten Satz zu notieren",
+    "Den Rohtext vor dem Überarbeiten ruhen zu lassen"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Die übrigen Optionen sind Empfehlungen: Lücken markieren (Partitur), den nächsten Satz vorbereiten, den Text ruhen lassen «wie einen Komposthaufen». Frühes Feedback betrifft Inhalt und Struktur, nicht Stil oder Rechtschreibung.",
+   "quelle": "WSA1 - Scheuermann Schreibdenken",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W10-04",
+   "modul": "WSA1",
+   "woche": 10,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Den eigenen Schreibprozess planen und steuern",
+   "frage": "Wie viel der Schreibzeit sollte man laut Scheuermann für das Überarbeiten einplanen?",
+   "optionen": [
+    "40 bis 50 %",
+    "Rund 10 %",
+    "Rund 25 %",
+    "Über 75 %"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Andere Literatur nennt rund 25 %, viele Schreibende planen nur 10 %. Genug Überarbeitungszeit macht freies Rohtexten erst möglich. Für die Seminararbeit (Abgabe 16.12.2026) heisst das: Rohtext etwa bis Ende Woche 11.",
+   "quelle": "WSA1 - Scheuermann Schreibdenken",
+   "kern": true
+  },
+  {
+   "id": "WSA1-W10-05",
+   "modul": "WSA1",
+   "woche": 10,
+   "kategorie": "literatur",
+   "typ": "order",
+   "lernziel": "Den eigenen Schreibprozess planen und steuern",
+   "frage": "Bringe die vier Überarbeitungsschritte nach Scheuermann in die richtige Reihenfolge.",
+   "items": [
+    "Gesamteindruck",
+    "Inhalt und Struktur",
+    "Satzbau, Wortwahl und Stil",
+    "Rechtschreibung und Zeichensetzung"
+   ],
+   "erklaerung": "Tipp: Text ausdrucken und den Ort wechseln, damit er fremd wird. Struktur ist eines der zwei wichtigsten Kriterien für Verständlichkeit.",
+   "quelle": "WSA1 - Scheuermann Schreibdenken",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W10-06",
+   "modul": "WSA1",
+   "woche": 10,
+   "kategorie": "literatur",
+   "typ": "mc",
+   "lernziel": "Den eigenen Schreibprozess planen und steuern",
+   "frage": "Was meint die «zerdehnte Sprechsituation» (Ehlich 1984)?",
+   "optionen": [
+    "Schreibende und Lesende sind zeitlich und räumlich getrennt; ohne direkte Rückmeldung projizieren Schreibende leicht überkritische Lesende",
+    "Ein Text wird so lange überarbeitet, bis er zu lang wird",
+    "Sätze werden durch zu viele Nebensätze unnötig gedehnt",
+    "Mehrere Autorinnen schreiben gleichzeitig an einem Text"
+   ],
+   "loesung": [
+    0
+   ],
+   "erklaerung": "Gegenmittel: früh Leserreaktionen einholen, innere Kritiker notieren, sich einen wohlwollenden Leser vorstellen und stolz auf den eigenen Text sein.",
+   "quelle": "WSA1 - Scheuermann Schreibdenken",
+   "kern": false
+  },
+  {
+   "id": "WSA1-W10-07",
+   "modul": "WSA1",
+   "woche": 10,
+   "kategorie": "literatur",
+   "typ": "match",
+   "lernziel": "Den eigenen Schreibprozess planen und steuern",
+   "frage": "Ordne die Schreibtypen ihrem Vorgehen beim Strukturieren zu.",
+   "paare": [
+    [
+     "Planer",
+     "Strukturieren vorab bis in jeden Abschnitt, z. B. mit Gedankenlandkarten"
+    ],
+    [
+     "Drauflosschreiber",
+     "Schreiben zuerst und strukturieren den Rohtext nachträglich"
+    ]
+   ],
+   "erklaerung": "Ortner (2000) unterscheidet zehn Schreibstrategien, Scheuermann bündelt sie zu vier Gruppen. Typische Strukturfehler: These ohne Argument, Schluss ohne Herleitung, «Erstens» gefolgt von «Drittens».",
+   "quelle": "WSA1 - Scheuermann Schreibdenken",
    "kern": false
   }
  ]
